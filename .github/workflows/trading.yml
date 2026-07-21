@@ -6,10 +6,11 @@
 # to cover is 8:45-15:15 ET, which is 12:45-19:15 UTC in summer (EDT)
 # and 13:45-20:15 UTC in winter (EST). Rather than chase the DST
 # shift, the cron fires every 15 minutes across the UNION of both
-# (12:00-20:45 UTC, weekdays); off-window and off-season ticks hit
-# the orchestrator's calendar/window gates and exit in seconds. The
-# cron is deliberately dumb; the orchestrator is the only clock that
-# matters.
+# (12:07-20:52 UTC, weekdays). Minutes 07/22/37/52 deliberately avoid
+# GitHub's busiest start-of-hour scheduling boundary; off-window and
+# off-season ticks hit the orchestrator's calendar/window gates and exit
+# in seconds. The cron is deliberately dumb; the orchestrator is the only
+# clock that matters.
 #
 # ORDER SUBMISSION is never on by accident (paper account only - even
 # "submit" means a PAPER order, never real money; the flag is named
@@ -30,7 +31,7 @@ name: trading
 
 on:
   schedule:
-    - cron: "*/15 12-20 * * 1-5"
+    - cron: "7,22,37,52 12-20 * * 1-5"
   workflow_dispatch:
     inputs:
       stage:
