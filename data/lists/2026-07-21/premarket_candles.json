@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-21T09:02:19-04:00",
+  "session_date": "2026-07-21",
+  "reads": {
+    "UTZ": {
+      "symbol": "UTZ",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CLBK": {
+      "symbol": "CLBK",
+      "pattern": "Gap-and-crap collapse",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ZYBT": {
+      "symbol": "ZYBT",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "DHR": {
+      "symbol": "DHR",
+      "pattern": "breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "AGIO": {
+      "symbol": "AGIO",
+      "pattern": "Gap-and-crap reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "CALX": {
+      "symbol": "CALX",
+      "pattern": "gap-down bearish continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "FWRD": {
+      "symbol": "FWRD",
+      "pattern": "gap-and-go reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "MGY": {
+      "symbol": "MGY",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "HAL": {
+      "symbol": "HAL",
+      "pattern": "Breakdown Reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "MMM": {
+      "symbol": "MMM",
+      "pattern": "Gap and Go Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "HELP": {
+      "symbol": "HELP",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VSH": {
+      "symbol": "VSH",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

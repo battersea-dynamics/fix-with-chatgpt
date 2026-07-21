@@ -1,0 +1,528 @@
+{
+  "date": "2026-07-21",
+  "events": [
+    {
+      "at_et": "2026-07-21T03:32:49-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-07-21T09:07:32-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-07-21T11:04:47-04:00",
+      "type": "daily_scan",
+      "detail": {
+        "ok": true,
+        "shortlist": [
+          "UTZ",
+          "ZYBT",
+          "CLBK",
+          "MGY",
+          "DHR",
+          "VEEE",
+          "XXI",
+          "CCRN",
+          "FWRD",
+          "HELP",
+          "NXTC",
+          "BXBL",
+          "ADVB",
+          "HAS",
+          "TRAX"
+        ]
+      }
+    },
+    {
+      "at_et": "2026-07-21T11:11:43-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZYBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCRN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-21T11:59:57-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "HAS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "HAS",
+              "qty": 4,
+              "est_cost": 356.0,
+              "entry_ref": 89.0,
+              "take_profit": 93.92,
+              "stop_loss": 86.69,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260721-115957-HAS"
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZYBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCRN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-21T12:31:30-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZYBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCRN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-21T13:38:21-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "FWRD",
+            "action": "submitted",
+            "order": {
+              "symbol": "FWRD",
+              "qty": 25,
+              "est_cost": 389.25,
+              "entry_ref": 15.57,
+              "take_profit": 16.78,
+              "stop_loss": 15.06,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260721-133821-FWRD"
+            },
+            "broker": {
+              "id": "73dcdbfa-c391-45c0-a4c3-3c3730d29bba",
+              "client_order_id": "ta-20260721-133821-FWRD",
+              "symbol": "FWRD",
+              "qty": "25",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 16.78,
+              "stop_loss": 15.06,
+              "legs": [
+                "7ec9f3fd-58e5-4f29-a879-0fde2830e766",
+                "ea74b024-f092-42a6-95e6-172024dbd5ad"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZYBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCRN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-21T14:08:21-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZYBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCRN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-21T15:05:33-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZYBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCRN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-21T15:44:38-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": false,
+        "daily_scan_done": true
+      }
+    }
+  ]
+}

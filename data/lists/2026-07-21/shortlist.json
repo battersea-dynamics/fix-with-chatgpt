@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-07-21T15:04:47",
+  "universe_size": 2326,
+  "catalyst_flagged": 194,
+  "excluded_held": [],
+  "shortlist": [
+    {
+      "symbol": "UTZ",
+      "sector": "Food Products",
+      "close": 14.09,
+      "rel_volume": 21.159089939599202,
+      "pct_change": 89.12751677852349,
+      "ma_distance": 84.73842926445523,
+      "score": 76.7410081613474,
+      "catalyst": null
+    },
+    {
+      "symbol": "ZYBT",
+      "sector": "Pharmaceuticals",
+      "close": 3.47,
+      "rel_volume": 3.6079054298160047,
+      "pct_change": -56.67915106117353,
+      "ma_distance": 217.58089389411833,
+      "score": 47.1443813804259,
+      "catalyst": null
+    },
+    {
+      "symbol": "CLBK",
+      "sector": "Banking",
+      "close": 10.95,
+      "rel_volume": 6.129786305709129,
+      "pct_change": -55.3061224489796,
+      "ma_distance": -48.67528328196956,
+      "score": 35.04748356761651,
+      "catalyst": null
+    },
+    {
+      "symbol": "MGY",
+      "sector": "Energy",
+      "close": 24.815,
+      "rel_volume": 5.7623029056403015,
+      "pct_change": -2.8006267136701912,
+      "ma_distance": -5.452259391907329,
+      "score": 16.61844414846925,
+      "catalyst": null
+    },
+    {
+      "symbol": "DHR",
+      "sector": "Life Sciences Tools & Services",
+      "close": 172.77,
+      "rel_volume": 2.72007388646121,
+      "pct_change": -14.091790562378797,
+      "ma_distance": -11.22632226638268,
+      "score": 14.12532981676356,
+      "catalyst": {
+        "date": "2026-07-21",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "VEEE",
+      "sector": "Leisure Products",
+      "close": 29.0,
+      "rel_volume": 0.07287142220130415,
+      "pct_change": -1.6615801966768347,
+      "ma_distance": 118.01232897308674,
+      "score": 12.957851793438671,
+      "catalyst": null
+    },
+    {
+      "symbol": "XXI",
+      "sector": "Financial Services",
+      "close": 4.63,
+      "rel_volume": 2.367914469868821,
+      "pct_change": -12.969924812030081,
+      "ma_distance": -13.667723289203812,
+      "score": 10.865046568103592,
+      "catalyst": null
+    },
+    {
+      "symbol": "CCRN",
+      "sector": "Health Care",
+      "close": 13.25,
+      "rel_volume": 3.5112176508883834,
+      "pct_change": 0.0755287009063428,
+      "ma_distance": 0.31419161903319226,
+      "score": 10.282070518920982,
+      "catalyst": null
+    },
+    {
+      "symbol": "FWRD",
+      "sector": "Logistics & Transportation",
+      "close": 15.35,
+      "rel_volume": 1.8633267962088342,
+      "pct_change": 16.28787878787879,
+      "ma_distance": 14.518054312145626,
+      "score": 9.744372496797173,
+      "catalyst": null
+    },
+    {
+      "symbol": "HELP",
+      "sector": "Pharmaceuticals",
+      "close": 8.35,
+      "rel_volume": 1.2529752475389966,
+      "pct_change": 17.44022503516173,
+      "ma_distance": 32.28770595690749,
+      "score": 9.72474324414989,
+      "catalyst": null
+    },
+    {
+      "symbol": "NXTC",
+      "sector": "Biotechnology",
+      "close": 5.05,
+      "rel_volume": 0.050786105943672125,
+      "pct_change": -6.481481481481491,
+      "ma_distance": 73.07857081655382,
+      "score": 9.63975437755169,
+      "catalyst": null
+    },
+    {
+      "symbol": "BXBL",
+      "sector": "unknown",
+      "close": 8.0,
+      "rel_volume": 1.2800204136359163,
+      "pct_change": -18.53360488798371,
+      "ma_distance": -20.94861660079052,
+      "score": 9.231313455672257,
+      "catalyst": null
+    },
+    {
+      "symbol": "ADVB",
+      "sector": "Health Care",
+      "close": 7.8,
+      "rel_volume": 0.47717777550236795,
+      "pct_change": -12.359550561797757,
+      "ma_distance": 50.22360205382627,
+      "score": 9.0486114154383,
+      "catalyst": null
+    },
+    {
+      "symbol": "HAS",
+      "sector": "Leisure Products",
+      "close": 86.8,
+      "rel_volume": 2.000910547696592,
+      "pct_change": 6.385586468930008,
+      "ma_distance": 7.16049382716049,
+      "score": 8.965552014809145,
+      "catalyst": {
+        "date": "2026-07-21",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "TRAX",
+      "sector": "Biotechnology",
+      "close": 40.25,
+      "rel_volume": 0.4836584387972401,
+      "pct_change": 9.167344724708443,
+      "ma_distance": 59.549693288011966,
+      "score": 8.80815870621716,
+      "catalyst": null
+    }
+  ]
+}
