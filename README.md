@@ -2,12 +2,14 @@
 
 A multi-agent intraday trading system built from the ground up as a learning project — each piece is added and understood individually rather than pulled in as a black box. Runs against Alpaca's **paper trading** account only; nothing here places live trades.
 
-**Stack:** Python, [alpaca-py](https://github.com/alpacahq/alpaca-py) (paper only), [CrewAI](https://github.com/crewAIInc/crewAI) for agent orchestration, Google Gemini as the LLM (pinned to `gemini-3.1-flash-lite` via LiteLLM — a rolling alias once silently moved us onto a model with a 20-requests/day quota, so the model is pinned on purpose), Finnhub for earnings/news.
+**Stack:** Python, [alpaca-py](https://github.com/alpacahq/alpaca-py) (paper only), [CrewAI](https://github.com/crewAIInc/crewAI) for agent orchestration, Google Gemini as the LLM (pinned to `gemini-3.1-flash-lite` through CrewAI's native Gemini provider — a rolling alias once silently moved us onto a model with a 20-requests/day quota, so the model is pinned on purpose), Finnhub for earnings/news.
 
 ## Branches
 
-- **`main`** — the current working version. Small changes commit straight here; only large rebuilds get a temporary working branch (merged into main and deleted when done).
-- **`previous`** — rolling one-step-back fallback. Before each new change lands on main, `previous` is moved to main's pre-change commit — so it always holds the last known-good version from before the most recent change.
+- **`main`** — the current working version. Larger fixes should use a
+  temporary branch and pass the test workflow before merging. This copied
+  repository is independent and does not carry the original repository's
+  `previous` branch.
 
 ## The trading day
 
@@ -79,8 +81,9 @@ The JSON file between every pair of stages is both the scheduling seam and the a
 | Calendar gate | every pre-market component + orchestrator | running against a closed market (weekends, holidays, half-days) |
 | One-sided-evidence skip | signal orchestrators + premarket trader | a stock with only a bull case (or only a bear case) can never become a trade |
 | Confidence threshold (>= 0.6) | execution agent | buys below the trader's net-score bar never execute (thresholds aligned by construction) |
-| Numeric fact-checker | after every debate, both pipelines | cited numbers that don't trace to source data get flagged (`numbers_verified`) — numbers only, an invented *qualitative* claim passes; tripwire, not filter |
-| Position sizing cap | execution agent (shared by both pipelines) | max 20% of live account value per position (scales with the account), whole shares, never the last 5% of buying power; if one share busts the cap, the trade is skipped |
+| Numeric fact-checker | after every debate + execution agent | cited numbers that don't trace to source data block the trade (`numbers_verified`) — numbers only; an invented *qualitative* claim can still pass |
+| Duplicate-entry guard | portfolio filter + execution agent | a currently held symbol is removed before regular-session analysis and checked again before execution; an active buy order is also blocked, while failed/cancelled/expired attempts may be retried on a later scan |
+| Cash-based position cap | execution agent (shared by both pipelines) | max 20% of currently available cash per position, with a $200 minimum budget that can never exceed the cash left (`$10,000 -> $2,000`, `$500 -> $200`, `$200 -> $200`, `$50 -> $50`); whole shares only and no margin buying power |
 | Exit ceilings (asymmetric) | execution agent (shared by both pipelines) | take-profit above 12% is clamped down and proceeds (capping upside is safe); stop-loss above 5% skips the trade entirely — a wide stop is the bear's honest volatility read, and tightening it would convert noise into stop-outs |
 | Dead-quote guard | execution agent | market buys are never sized off a 0/absent ask (closed market, thin tape) |
 | Price deviation guard (±2%) | premarket execution | the live open has moved >2% (either direction) from the price the debate argued about — the thesis no longer applies |
@@ -140,13 +143,16 @@ Nothing in this section is built yet — it exists so the README never implies m
 
 1. **Portfolio-level risk manager** — limits on total simultaneous exposure, maximum number of open positions, and sector/correlation concentration. Today every trade is judged alone; nothing sees the portfolio as a whole. Confirmed as the next major build both independently and by the review — the planned "risk agent" slot between signal and execution.
 2. **A/B evaluation: scanner-alone vs. scanner + bull/bear debate** — measure whether the LLM debate layer actually improves outcomes over the deterministic scanner on its own, *before* investing further in it.
-3. **Broker reconciliation + idempotent order submission** — deterministic client order IDs, and checking Alpaca's actual state before retrying. A real gap in the current "mark execution done on attempt" design: that rule prevents double-submission by never retrying, but it never reconciles against what the broker actually did. Relevant once submitting multiple orders in earnest.
+3. **Full broker reconciliation** — current positions and active buy orders
+   are checked before execution, but the system still needs explicit
+   reconciliation of ambiguous submissions, partial fills, and protective
+   legs before treating broker state as fully transactional.
 4. **Protective-order integrity monitoring** — actively confirm every open position's bracket legs (take-profit + stop-loss) are intact, rather than assuming GTC silently handles everything. A dropped or cancelled leg would currently go unnoticed.
 5. **Persistent transactional state (e.g. SQLite)** — for operational state specifically, alongside the existing JSON audit files. Not urgent at current scale; noted as a future consideration.
 
 **Other known limitations (documented for honesty, not necessarily on the build path):**
 
-- **No calibration.** Every threshold (net-score 0.2, confidence 0.6, ±2% deviation, 20%-of-account position cap, 12%/5% exit ceilings, TP/SL tempering) is a reasoned first guess, deliberately deferred until there's real paper-trading history to calibrate against.
+- **No calibration.** Every threshold (net-score 0.2, confidence 0.6, ±2% deviation, 20%-of-cash position cap with a $200 floor, 12%/5% exit ceilings, TP/SL tempering) is a reasoned first guess, deliberately deferred until there's real paper-trading history to calibrate against.
 - **Numbers-only fact-checking.** The case verifier cannot catch an invented *qualitative* claim (a fabricated catalyst) — only numeric drift.
 
 ## Setup

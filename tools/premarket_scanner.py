@@ -165,7 +165,8 @@ def run_premarket_scan(
 
     # ---- Phase 1: today's pre-market, whole universe ----
     pm_start, pm_end = _pm_window(target_date)
-    today_bars = _fetch_pm_bars(universe, pm_start, pm_end)
+    visible_pm_end = sip_safe_end(pm_end)
+    today_bars = _fetch_pm_bars(universe, pm_start, visible_pm_end)
     prev_closes = _prev_closes(list(today_bars.keys()), target_date)
 
     candidates = []
@@ -192,12 +193,19 @@ def run_premarket_scan(
     )
     history = _fetch_pm_bars(pool, baseline_start, pm_start)
 
+    # Compare like with like. At the intended 08:45 run the free SIP
+    # feed is visible only through roughly 08:29; the old baseline used
+    # full historical 04:00-09:30 sessions, systematically depressing
+    # today's relative volume. Historical sessions now stop at the same
+    # ET time-of-day as today's visible window.
+    comparison_end_time = visible_pm_end.astimezone(ET).time()
+
     avg_pm: dict[str, float] = {}
     for symbol, bars in history.items():
         by_day: dict[date, int] = {}
         for b in bars:
             ts = b.timestamp.astimezone(ET)
-            if PM_START <= ts.time() < PM_END:
+            if PM_START <= ts.time() < comparison_end_time:
                 by_day[ts.date()] = by_day.get(ts.date(), 0) + b.volume
         if by_day:
             avg_pm[symbol] = sum(by_day.values()) / len(by_day)
@@ -233,6 +241,8 @@ def run_premarket_scan(
     output_path.write_text(json.dumps({
         "generated_at": datetime.now(ET).isoformat(timespec="seconds"),
         "session_date": target_date.isoformat(),
+        "visible_through_et": visible_pm_end.astimezone(ET).isoformat(
+            timespec="seconds"),
         "universe_size": len(universe),
         "phase1_active": len(candidates),
         "shortlist": [r.to_dict() for r in results],

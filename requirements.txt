@@ -1,6 +1,7 @@
 alpaca-py
 python-dotenv
-crewai
-# 1.92.0+ ships Rust-compiled wheels with no Windows build - pin below it
-litellm>=1.84.0,<1.92
+# Pin CrewAI so provider routing cannot change between scheduled runs.
+# Gemini is a native provider in CrewAI 1.15, so its optional client must
+# be installed explicitly. This fixes the scheduled-run ImportError.
+crewai[google-genai]==1.15.5
 requests

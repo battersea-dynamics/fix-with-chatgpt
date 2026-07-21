@@ -155,13 +155,18 @@ def _poll_until_open(scheduled_open: datetime) -> bool:
     from tools.broker import trading_client
 
     deadline = scheduled_open + timedelta(minutes=OPEN_POLL_MAX_MIN)
-    while _now() < deadline:
+    while True:
+        # Always ask Alpaca at least once. GitHub's scheduled jobs can
+        # start several minutes late; the old loop checked the deadline
+        # first, so a 09:39 tick with a 09:35 polling deadline returned
+        # False without ever checking an already-open market.
         if trading_client.get_clock().is_open:
             return True
+        if _now() >= deadline:
+            return False
         _log(f"market not open yet, polling every "
              f"{OPEN_POLL_INTERVAL_SEC}s")
         time.sleep(OPEN_POLL_INTERVAL_SEC)
-    return False
 
 
 # ----- tick mode: one bounded wake-up for external schedulers -----
@@ -234,6 +239,15 @@ def run_tick(submit: bool = False):
             daily_report.append_event(today, stage_name,
                                       {"ok": True, **(detail or {})})
             return True
+        except SystemExit as exc:
+            # Components use SystemExit for controlled fail-safe stops
+            # (missing/stale files). SystemExit is not an Exception, so
+            # without this branch the tick terminated before saving state
+            # or recording the reason in the daily report.
+            daily_report.append_event(today, stage_name, {
+                "ok": False, "error": f"SystemExit: {exc}"})
+            _log(f"tick stage {stage_name} STOPPED: {exc}")
+            return False
         except Exception as exc:  # report the error, keep the day alive
             daily_report.append_event(today, stage_name, {
                 "ok": False, "error": f"{type(exc).__name__}: {exc}"})

@@ -149,7 +149,17 @@ def check_shortlist(
         print(f"WARNING: shortlist is {age_hours:.0f}h old - "
               f"consider re-running the scan", file=sys.stderr)
 
-    shortlist = [ScanResult(**row) for row in payload["shortlist"]]
+    currently_held = {p["symbol"] for p in state["positions"]}
+    shortlist = [
+        ScanResult(**row) for row in payload["shortlist"]
+        if row["symbol"] not in currently_held
+    ]
+    removed = sorted(
+        currently_held & {row["symbol"] for row in payload["shortlist"]}
+    )
+    if removed:
+        print(f"portfolio filter: removed held symbols before analysis: "
+              f"{', '.join(removed)}")
     symbols = [r.symbol for r in shortlist]
 
     catalyst_report = build_catalyst_report(symbols)

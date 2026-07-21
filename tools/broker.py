@@ -14,11 +14,17 @@ import os
 from dotenv import load_dotenv
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import (
+    GetOrdersRequest,
     MarketOrderRequest,
     StopLossRequest,
     TakeProfitRequest,
 )
-from alpaca.trading.enums import OrderClass, OrderSide, TimeInForce
+from alpaca.trading.enums import (
+    OrderClass,
+    OrderSide,
+    QueryOrderStatus,
+    TimeInForce,
+)
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockLatestQuoteRequest
 
@@ -65,6 +71,32 @@ def get_positions():
     ]
 
 
+def get_open_buy_orders() -> list[dict]:
+    """
+    Currently active buy orders that make another entry unsafe.
+
+    Rejected, cancelled, expired, and otherwise closed attempts are not
+    returned, so a later scan may try the symbol again. A still-open or
+    partially-filled order is blocked because it may yet become a holding.
+    """
+    request = GetOrdersRequest(
+        status=QueryOrderStatus.OPEN,
+        side=OrderSide.BUY,
+        nested=True,
+        limit=500,
+    )
+    return [
+        {
+            "id": str(order.id),
+            "client_order_id": order.client_order_id,
+            "symbol": order.symbol,
+            "status": order.status.value,
+        }
+        for order in trading_client.get_orders(filter=request)
+        if order.symbol
+    ]
+
+
 def get_quote(symbol: str):
     """Return the latest bid/ask quote for a symbol."""
     request = StockLatestQuoteRequest(symbol_or_symbols=symbol)
@@ -106,6 +138,7 @@ def place_bracket_order(
     qty: int,
     take_profit_price: float,
     stop_loss_price: float,
+    client_order_id: str | None = None,
 ):
     """
     Buy `qty` shares at market with an attached take-profit (limit
@@ -132,6 +165,7 @@ def place_bracket_order(
         qty=qty,
         side=OrderSide.BUY,
         time_in_force=TimeInForce.GTC,
+        client_order_id=client_order_id,
         order_class=OrderClass.BRACKET,
         take_profit=TakeProfitRequest(limit_price=round(take_profit_price, 2)),
         stop_loss=StopLossRequest(stop_price=round(stop_loss_price, 2)),
@@ -139,6 +173,7 @@ def place_bracket_order(
     order = trading_client.submit_order(order_request)
     return {
         "id": str(order.id),
+        "client_order_id": order.client_order_id,
         "symbol": order.symbol,
         "qty": order.qty,
         "side": order.side.value,

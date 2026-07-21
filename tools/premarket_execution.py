@@ -6,7 +6,7 @@ bracket orders. Deliberately almost no code of its own — it
 rehydrates the decisions into SignalDecision objects and hands them
 to the existing, tested execute_signals(), which brings along the
 whole safety apparatus for free: the 0.6 confidence gate, the
-position cap (MAX_POSITION_PCT of live account value), the exit
+cash-based position budget (20% with the shared $200 floor), the exit
 ceilings (take-profit clamped at MAX_TAKE_PROFIT_PCT; stop-loss
 above MAX_STOP_LOSS_PCT skips the trade), whole-share sizing, the
 dead-quote guard, dry-run-by-default, and place_bracket_order (GTC

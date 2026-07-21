@@ -25,9 +25,10 @@ uniformly:
   - stop-loss ceiling: > MAX_STOP_LOSS_PCT skips the trade (never
     clamp a stop tighter); take-profit ceiling: > MAX_TAKE_PROFIT_PCT
     clamps down and proceeds
-  - position cap: MAX_POSITION_PCT of live account value, whole
-    shares only (Alpaca forbids fractional bracket orders); if one
-    share busts the cap, skip
+  - cash-based position budget: 20% of available cash, with a $200
+    floor that never exceeds the cash left; whole shares only (Alpaca
+    forbids fractional bracket orders); if one share busts the budget,
+    skip
   - skip anything that can't be sized or quoted, rather than improvise
   - dry-run by default; pass submit=True (or --submit on the CLI) to
     actually submit (paper) orders
@@ -35,22 +36,30 @@ uniformly:
 
 import json
 import math
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 
 from agents.signal_agent import SignalDecision
-from tools.broker import get_account, get_quote, place_bracket_order
+from tools.broker import (
+    get_account,
+    get_open_buy_orders,
+    get_positions,
+    get_quote,
+    place_bracket_order,
+)
 
 load_dotenv()
 
 MIN_CONFIDENCE = 0.6
-BUYING_POWER_HEADROOM = 0.95  # never commit the last 5% of buying power
 
-# Position sizing: 20% of live account value per position, not a
-# fixed dollar cap - scales automatically as the account grows or
-# shrinks, no manual updates. If even one whole share busts the cap
-# (brackets can't be fractional), the trade is skipped outright.
+# Position sizing uses actual cash, never margin buying power. Normally a
+# position may use 20% of the cash still available in this execution run.
+# When that amount falls below $200, the budget floor is $200, capped by
+# the cash actually left (e.g. $500 -> $200; $50 -> $50).
 MAX_POSITION_PCT = 0.20
+MIN_POSITION_BUDGET = 200.0
 
 # Asymmetric exit ceilings, applied to the trader's numbers at the
 # last moment before submission. Asymmetric on purpose:
@@ -62,6 +71,13 @@ MAX_POSITION_PCT = 0.20
 #                noise into stop-outs, which defeats the stop.
 MAX_TAKE_PROFIT_PCT = 12.0
 MAX_STOP_LOSS_PCT = 5.0
+ET = ZoneInfo("America/New_York")
+
+
+def _client_order_id(symbol: str, now: datetime | None = None) -> str:
+    """Identify this attempt without blocking a later failed-order retry."""
+    now = now or datetime.now(ET)
+    return f"ta-{now:%Y%m%d-%H%M%S}-{symbol.upper()}"
 
 
 def execute_signals(
@@ -75,8 +91,10 @@ def execute_signals(
     (Paper account only — 'submit' means a paper order, never real money.)
     """
     account = get_account()
-    position_cap = account["portfolio_value"] * MAX_POSITION_PCT
-    available = account["buying_power"] * BUYING_POWER_HEADROOM
+    available_cash = account["cash"]
+    now_et = datetime.now(ET)
+    held_symbols = {p["symbol"] for p in get_positions()}
+    ordered_symbols = {o["symbol"] for o in get_open_buy_orders()}
     report = []
 
     for decision in decisions:
@@ -89,6 +107,20 @@ def execute_signals(
         if decision.confidence < MIN_CONFIDENCE:
             entry["reason"] = (
                 f"confidence {decision.confidence:.2f} < {MIN_CONFIDENCE}"
+            )
+            continue
+        if not getattr(decision, "numbers_verified", True):
+            entry["reason"] = (
+                "numeric evidence verification failed; refusing to trade"
+            )
+            continue
+
+        if decision.symbol in held_symbols:
+            entry["reason"] = "position already held; adding is disabled"
+            continue
+        if decision.symbol in ordered_symbols:
+            entry["reason"] = (
+                "buy order is still active; duplicate entry blocked"
             )
             continue
 
@@ -117,24 +149,28 @@ def execute_signals(
             entry["reason"] = f"no usable ask price (got {ask!r})"
             continue
 
-        if ask > position_cap:
+        position_budget = min(
+            available_cash,
+            max(available_cash * MAX_POSITION_PCT, MIN_POSITION_BUDGET),
+        )
+        if ask > position_budget:
             entry["reason"] = (
                 f"position size cap exceeded, skipped: 1 share at "
-                f"${ask:.2f} > {MAX_POSITION_PCT:.0%} of account value "
-                f"(${position_cap:.2f})"
+                f"${ask:.2f} > current cash-based budget "
+                f"(${position_budget:.2f})"
             )
             continue
-        qty = math.floor(min(position_cap, available) / ask)
+        qty = math.floor(position_budget / ask)
         if qty < 1:
             entry["reason"] = (
                 f"can't afford 1 share at ${ask:.2f} with remaining "
-                f"buying power (${available:.2f})"
+                f"cash (${available_cash:.2f})"
             )
             continue
 
         take_profit = ask * (1 + take_profit_pct / 100)
         stop_loss = ask * (1 - decision.stop_loss_pct / 100)
-        available -= qty * ask
+        available_cash -= qty * ask
 
         order = {
             "symbol": decision.symbol,
@@ -144,6 +180,7 @@ def execute_signals(
             "take_profit": round(take_profit, 2),
             "stop_loss": round(stop_loss, 2),
             "confidence": decision.confidence,
+            "client_order_id": _client_order_id(decision.symbol, now_et),
         }
         if tp_clamped:
             order["take_profit_clamped"] = (
@@ -153,9 +190,11 @@ def execute_signals(
 
         if submit:
             result = place_bracket_order(
-                decision.symbol, qty, take_profit, stop_loss
+                decision.symbol, qty, take_profit, stop_loss,
+                client_order_id=order["client_order_id"],
             )
             entry.update(action="submitted", order=order, broker=result)
+            ordered_symbols.add(decision.symbol)
         else:
             entry.update(action="dry_run", order=order)
 

@@ -57,10 +57,10 @@ _daily_quota_exhausted = False
 
 
 def gemini_llm() -> LLM:
-    # is_litellm=True forces the LiteLLM path, which is what reads
-    # GEMINI_API_KEY the way our environment is set up (CrewAI's
-    # native Gemini client is a separate dependency we don't use).
-    return LLM(model=GEMINI_MODEL, is_litellm=True)
+    # CrewAI 1.15 routes Gemini models through its native provider.
+    # requirements.txt installs the matching google-genai extra; keeping
+    # the model on that supported path avoids a startup-only ImportError.
+    return LLM(model=GEMINI_MODEL)
 
 
 def _throttle():
