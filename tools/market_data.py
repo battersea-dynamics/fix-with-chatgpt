@@ -5,7 +5,7 @@ One rule, in one place: never ask Alpaca for market data newer than
 the free plan is entitled to see.
 
 THE BUG THIS EXISTS TO PREVENT
-------------------------------
+-------------------------------
 Alpaca's free plan does not include *real-time* SIP (consolidated)
 data — only SIP delayed by 15 minutes, plus real-time IEX. A bars
 request that doesn't pin `end` reaches implicitly into "now", so as
