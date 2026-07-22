@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-22T09:05:19-04:00",
+  "session_date": "2026-07-22",
+  "reads": {
+    "PCG": {
+      "symbol": "PCG",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BLFS": {
+      "symbol": "BLFS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ARWR": {
+      "symbol": "ARWR",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CALM": {
+      "symbol": "CALM",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ADTN": {
+      "symbol": "ADTN",
+      "pattern": "gapping exhaustion reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "PEGA": {
+      "symbol": "PEGA",
+      "pattern": "Gap Down Exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "AIRJ": {
+      "symbol": "AIRJ",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "CPHI": {
+      "symbol": "CPHI",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "SMCI": {
+      "symbol": "SMCI",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "TEL": {
+      "symbol": "TEL",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "FTAI": {
+      "symbol": "FTAI",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "NVVE": {
+      "symbol": "NVVE",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.75
+    }
+  }
+}

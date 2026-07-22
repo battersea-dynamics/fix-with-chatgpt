@@ -1,0 +1,858 @@
+{
+  "date": "2026-07-22",
+  "events": [
+    {
+      "at_et": "2026-07-22T01:43:29-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-07-22T09:10:32-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-07-22T09:31:12-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CALM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVVE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T10:03:23-04:00",
+      "type": "daily_scan",
+      "detail": {
+        "ok": true,
+        "shortlist": [
+          "CPHI",
+          "BLFS",
+          "ADVB",
+          "AIRJ",
+          "SMCI",
+          "ADTN",
+          "SMCIP",
+          "PEGA",
+          "DFNS",
+          "ARWR",
+          "UTZ",
+          "VEEE",
+          "CBRS",
+          "TEL",
+          "WAB"
+        ]
+      }
+    },
+    {
+      "at_et": "2026-07-22T10:38:14-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T11:08:35-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T11:39:27-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T12:08:06-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T12:38:14-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T13:09:48-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T13:38:50-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T14:08:08-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T14:38:04-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T15:08:12-04:00",
+      "type": "check_shortlist",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CPHI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMCIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WAB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-22T15:31:12-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daily_scan_done": true
+      }
+    }
+  ]
+}
