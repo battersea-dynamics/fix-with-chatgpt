@@ -1,21 +1,20 @@
-# Automation layer: runs the orchestrator's tick mode on a schedule.
+# Automation layer: runs the orchestrator's tick mode when dispatched by
+# Cloudflare, with manual dispatch retained for testing.
 # No trading logic lives here - the orchestrator decides what (if
 # anything) is due on each wake-up, in ET, against Alpaca's calendar.
 #
-# TIMEZONE NOTE: GitHub cron is UTC only. The trading window we need
+# TIMEZONE NOTE: the Cloudflare cron is UTC only. The trading window we need
 # to cover is 8:45-15:15 ET, which is 12:45-19:15 UTC in summer (EDT)
 # and 13:45-20:15 UTC in winter (EST). Rather than chase the DST
 # shift, the cron fires every 15 minutes across the UNION of both
-# (12:07-20:52 UTC, weekdays). Minutes 07/22/37/52 deliberately avoid
-# GitHub's busiest start-of-hour scheduling boundary; off-window and
-# off-season ticks hit the orchestrator's calendar/window gates and exit
-# in seconds. The cron is deliberately dumb; the orchestrator is the only
-# clock that matters.
+# (12:07-20:52 UTC, weekdays). Off-window and off-season ticks hit the
+# orchestrator's calendar/window gates and exit in seconds. The external
+# cron is deliberately dumb; the orchestrator is the only clock that matters.
 #
 # ORDER SUBMISSION is never on by accident (paper account only - even
 # "submit" means a PAPER order, never real money; the flag is named
 # --submit precisely so it never reads as "real money"):
-#   - scheduled runs are dry-run unless the repo VARIABLE
+#   - automatic Cloudflare runs are dry-run unless the repo VARIABLE
 #     TRADING_SUBMIT is set to exactly 'true'
 #     (Settings -> Secrets and variables -> Actions -> Variables)
 #   - manual runs are dry-run unless the 'submit' checkbox is ticked
@@ -30,10 +29,12 @@
 name: trading
 
 on:
-  schedule:
-    - cron: "7,22,37,52 12-20 * * 1-5"
   workflow_dispatch:
     inputs:
+      automated:
+        description: "Cloudflare automatic tick (leave off for manual runs)"
+        type: boolean
+        default: false
       stage:
         description: "What to run"
         type: choice
@@ -48,7 +49,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: trading-${{ github.event_name }}
+  # One queue for every invocation source: Cloudflare and manual runs can
+  # never execute the trading pipeline at the same time.
+  group: trading
   cancel-in-progress: false
 
 jobs:
@@ -86,13 +89,13 @@ jobs:
       - name: Run orchestrator
         run: |
           SUBMIT_FLAG=""
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ vars.TRADING_SUBMIT }}" = "true" ]; then
+          if [ "${{ inputs.automated }}" = "true" ] && [ "${{ vars.TRADING_SUBMIT }}" = "true" ]; then
             SUBMIT_FLAG="--submit"
           fi
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.submit }}" = "true" ]; then
+          if [ "${{ inputs.automated }}" != "true" ] && [ "${{ inputs.submit }}" = "true" ]; then
             SUBMIT_FLAG="--submit"
           fi
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.stage }}" != "tick" ]; then
+          if [ "${{ inputs.automated }}" != "true" ] && [ "${{ inputs.stage }}" != "tick" ]; then
             python -m orchestrator --force "${{ inputs.stage }}" $SUBMIT_FLAG
           else
             python -m orchestrator --tick $SUBMIT_FLAG
@@ -111,7 +114,7 @@ jobs:
       # naturally idempotent). Commits the whole dated record: the
       # day's lists/cases/decisions and the daily report.
       - name: Commit daily records (end of day)
-        if: github.event_name == 'schedule'
+        if: inputs.automated == true
         run: |
           if [ -f data/orchestrator_state.json ] && [ "$(jq -r '.day_complete' data/orchestrator_state.json)" = "true" ]; then
             git config user.name "github-actions[bot]"
