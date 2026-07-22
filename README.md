@@ -101,7 +101,12 @@ The JSON file between every pair of stages is both the scheduling seam and the a
 .venv\Scripts\python.exe -m orchestrator --submit   # ...submitting paper orders
 ```
 
-Start it before open−45min (13:45 UK time on normal days). All schedule math is US Eastern; log lines show both ET and your local time, so you never convert.
+Start it before open−45min (08:45 US Eastern). That is 13:45 UK time
+for most of the year and 12:45 UK time during the short weeks when the US
+and UK change daylight-saving time on different dates. All program schedule
+math remains US Eastern and uses Alpaca's market calendar; UK times are for
+the operator's convenience only, so no manual time conversion belongs in the
+trading logic.
 
 **Any stage manually (testing never waits for the clock):**
 
@@ -122,11 +127,50 @@ Start it before open−45min (13:45 UK time on normal days). All schedule math i
 
 ## Automation (GitHub Actions)
 
-`.github/workflows/trading.yml` runs the orchestrator's **tick mode** every 15 minutes (UTC cron covering the ET trading day in both DST regimes — off-window ticks exit in seconds; the orchestrator's ET logic is the only clock that matters). Each tick is a fresh VM: `data/` (state file + all pipeline file seams) is carried between ticks via `actions/cache`, so short-lived runners behave like one long-running orchestrator. Execution is marked done on *attempt*, never retried — a possibly-half-submitted order loop must not double-order.
+`.github/workflows/automatic-trading.yml` runs the orchestrator's **tick
+mode** every 15 minutes (UTC cron covering the ET trading day in both DST
+regimes — off-window ticks exit in seconds; the orchestrator's ET logic is
+the only clock that matters). Each tick is a fresh VM: `data/` (state file +
+all pipeline file seams) is carried between ticks via `actions/cache`, so
+short-lived runners behave like one long-running orchestrator. Execution is
+marked done on *attempt*, never retried — a possibly-half-submitted order loop
+must not double-order.
 
 - **Dry-run by default, everywhere.** Scheduled runs submit orders only if the repo *variable* `TRADING_SUBMIT` is exactly `true`; manual runs only if the `submit` checkbox is ticked. Neither exists by accident. (Everything is a paper account — the flag/variable are named `submit`, not `live`, so nothing ever reads as "real money".)
 - **Manual testing:** Actions → trading → "Run workflow" — pick a stage (`tick`, `premarket`, `daily_scan`, ...) and run it immediately.
 - **Daily report:** tick mode appends every stage outcome, order, guard trigger, and error to `data/reports/daily_report_<date>.json` (deterministic, no LLM); the workflow commits each day's full record (report + lists) once at end of day, so the audit trail is readable on GitHub without opening Action logs.
+
+### Scheduler reliability and Cloudflare rollout (July 2026)
+
+GitHub has created some scheduled runs, and every run that was created
+completed successfully, but the `schedule` event has not arrived regularly
+enough to be trusted as the only trading-day clock. Manual
+`workflow_dispatch` and push-triggered test runs work normally. A temporary
+`.github/workflows/scheduler-heartbeat.yml` runs a minimal five-minute cron so
+scheduled-event delivery can be observed independently of Python, project
+dependencies, secrets, Alpaca, caches, and the orchestrator.
+
+The planned replacement clock is a **Cloudflare Worker Cron Trigger**. Its
+scope is deliberately tiny:
+
+1. Cloudflare wakes on the configured UTC cron and sends an authenticated
+   request to GitHub.
+2. GitHub starts the existing trading workflow; installation, cached state,
+   the orchestrator, trading logic, reports, and paper orders all stay in
+   GitHub.
+3. Alpaca, Gemini, and Finnhub credentials remain GitHub Actions secrets.
+   Cloudflare stores only a repository-scoped GitHub token used to dispatch
+   the workflow.
+4. `TRADING_SUBMIT` remains the master switch for automatic **paper-account**
+   order submission. The broker clients are constructed with `paper=True`;
+   this project never targets Alpaca live trading.
+
+Only one automatic clock may be active in production. During rollout,
+Cloudflare will first dispatch a dry-run tick, then a paper-order-enabled test.
+After dispatch, state restoration, end-of-day commits, and concurrency are
+verified, GitHub's native cron will be disabled so it cannot overlap with
+Cloudflare. The Cloudflare trigger will then be monitored for a full US
+trading session before the temporary heartbeat is removed.
 
 ### Data layout (temporary, for the active review period)
 
@@ -138,6 +182,14 @@ Per-run artifacts are partitioned by ET session date instead of being overwritte
 Nothing in this section is built yet — it exists so the README never implies more safety or automation than exists, and so the ordering below has a recorded rationale.
 
 **On the external review (July 2026):** an outside architecture review validated the core design — the separation of *evidence gathering → judgment → decision → execution* into distinct stages, the deterministic (no-LLM) trader and execution layers, and the dry-run-by-default posture — and flagged **portfolio-level risk as the main missing piece**. The priority order below reflects that review together with our own assessment; it's why the list is ordered the way it is, not just what's on it.
+
+**Immediate operational sequence:** finish and validate the Cloudflare
+scheduler first. Once it has delivered a complete US trading session
+reliably, review and tune the pre-market scanner, regular-session shortlist,
+bull/bear evidence and scores, and final stock-selection rules using the
+dated paper-trading audit records. These operational and evaluation steps
+come before adding another major subsystem; they do not remove the
+portfolio-risk priority below.
 
 **Priority order for what comes next:**
 
