@@ -92,10 +92,10 @@ one-cancels-other) — nothing watches positions after entry; the broker does.
 | Cash-based position cap | execution agent (shared by both pipelines) | max 20% of currently available cash per position, with a $200 minimum budget that can never exceed the cash left (`$10,000 -> $2,000`, `$500 -> $200`, `$200 -> $200`, `$50 -> $50`); whole shares only and no margin buying power |
 | Exit ceilings (asymmetric) | execution agent (shared by both pipelines) | take-profit above 12% is clamped down and proceeds (capping upside is safe); stop-loss above 5% skips the trade entirely — a wide stop is the bear's honest volatility read, and tightening it would convert noise into stop-outs |
 | Dead-quote guard | execution agent | market buys are never sized off a 0/absent ask (closed market, thin tape) |
-| Delayed-price deviation guard (±2%) | regular execution | a live ask that moved too far from the delayed SIP scan price invalidates the debate before any paper order |
+| Delayed-price exit guard | regular execution | a live ask more than 2% below the analysed price invalidates the thesis; an ask above it keeps the original absolute take-profit target, so already-realised movement reduces the remaining upside and reaching the target skips the trade |
 | Closing-time guard | regular execution | immediately before submission Alpaca must report the market open with at least two minutes remaining |
 | Gemini daily-call ceiling | LLM runner | stops at 450 logical attempts, preserving headroom below the broker-agent project's 500-request daily limit |
-| Price deviation guard (±2%) | premarket execution | the live open has moved >2% (either direction) from the price the debate argued about — the thesis no longer applies |
+| Delayed-price exit guard | premarket execution | uses the same policy as regular execution: downside beyond 2% skips; a lower accepted entry shifts the target down by the same percentage, while a higher entry leaves the original target fixed |
 | Stale-decisions guard | premarket execution | yesterday's gap thesis can never execute today |
 | GTC bracket orders | broker | exit legs never expire at the close, leaving an unprotected overnight position (Alpaca caps GTC at 90 days) |
 | Dry-run by default | both execution paths | orders are only submitted with an explicit `--submit` (paper account only — even "submit" is a paper order, never real money; the flag is named `--submit`, not `--live`, so it never reads as real money) |
@@ -215,7 +215,7 @@ portfolio-risk priority below.
 
 **Other known limitations (documented for honesty, not necessarily on the build path):**
 
-- **No calibration.** Every threshold (net-score 0.2, confidence 0.6, ±2% deviation, 20%-of-cash position cap with a $200 floor, 12%/5% exit ceilings, TP/SL tempering) is a reasoned first guess, deliberately deferred until there's real paper-trading history to calibrate against.
+- **No calibration.** Every threshold (net-score 0.2, confidence 0.6, 2% downside deviation, 20%-of-cash position cap with a $200 floor, 12%/5% exit ceilings, TP/SL tempering) is a reasoned first guess, deliberately deferred until there's real paper-trading history to calibrate against.
 - **Numbers-only fact-checking.** The case verifier cannot catch an invented *qualitative* claim (a fabricated catalyst) — only numeric drift.
 
 ## Setup
