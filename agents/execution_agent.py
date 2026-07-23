@@ -72,7 +72,7 @@ MIN_POSITION_BUDGET = 200.0
 #                noise into stop-outs, which defeats the stop.
 MAX_TAKE_PROFIT_PCT = 12.0
 MAX_STOP_LOSS_PCT = 5.0
-MAX_SCAN_PRICE_DEVIATION_PCT = 2.0
+MAX_DOWNWARD_PRICE_DEVIATION_PCT = 2.0
 MIN_SECONDS_TO_CLOSE = 120
 ET = ZoneInfo("America/New_York")
 
@@ -87,6 +87,7 @@ def execute_signals(
     decisions: list[SignalDecision],
     submit: bool = False,
     reference_prices: dict[str, float] | None = None,
+    require_reference_price: bool = False,
 ) -> list[dict]:
     """
     Filter, size, and (if submit) submit one bracket order per approved
@@ -154,19 +155,57 @@ def execute_signals(
             entry["reason"] = f"no usable ask price (got {ask!r})"
             continue
 
-        # The free SIP scan is delayed and the debate takes several more
-        # minutes. Refuse to execute a thesis if the live entry has moved
-        # materially away from the price the agents actually evaluated.
+        # The delayed scan defines an absolute upside thesis. A lower live
+        # entry is allowed only within the 2% downside guard and shifts the
+        # target down by the same percentage, preserving the trader's
+        # intended return. A higher live entry does not move the target up:
+        # it consumes some of the expected upside. If it has consumed all
+        # of it, skip rather than manufacture a new target.
         reference_price = reference_prices.get(decision.symbol)
+        if require_reference_price and (
+            not reference_price or reference_price <= 0
+        ):
+            entry["reason"] = (
+                "price guard: no reference price in the session scan "
+                "for this symbol"
+            )
+            continue
+
+        deviation_pct = None
+        take_profit = ask * (1 + take_profit_pct / 100)
         if reference_price and reference_price > 0:
-            deviation_pct = abs(ask - reference_price) / reference_price * 100
-            if deviation_pct > MAX_SCAN_PRICE_DEVIATION_PCT:
+            deviation_pct = (ask - reference_price) / reference_price * 100
+            if deviation_pct < -MAX_DOWNWARD_PRICE_DEVIATION_PCT:
                 entry["reason"] = (
-                    f"live ask moved {deviation_pct:.2f}% from delayed scan "
-                    f"price ${reference_price:.2f}; "
-                    f"{MAX_SCAN_PRICE_DEVIATION_PCT:.0f}% max"
+                    f"live ask fell {abs(deviation_pct):.2f}% from delayed "
+                    f"scan price ${reference_price:.2f}; "
+                    f"{MAX_DOWNWARD_PRICE_DEVIATION_PCT:.0f}% max downside"
                 )
                 continue
+
+            original_target = reference_price * (1 + take_profit_pct / 100)
+            if ask >= original_target:
+                entry["reason"] = (
+                    f"live ask ${ask:.2f} has reached or passed the "
+                    f"original take-profit target ${original_target:.2f}"
+                )
+                continue
+
+            if ask >= reference_price:
+                take_profit = original_target
+            else:
+                # Shift the target by the same ratio as the lower entry.
+                # Example: ref 100, target 104, live 99 -> target 102.96.
+                take_profit = original_target * ask / reference_price
+
+        # Alpaca receives cent-rounded prices. Refuse an order whose tiny
+        # remaining upside disappears at that precision.
+        if round(take_profit, 2) <= round(ask, 2):
+            entry["reason"] = (
+                f"no executable upside remains: live ask ${ask:.2f}, "
+                f"take-profit target ${take_profit:.2f}"
+            )
+            continue
 
         # Only submission mode needs the live session gate. Dry runs remain
         # runnable outside market hours, but a real paper-order attempt must
@@ -206,7 +245,6 @@ def execute_signals(
             )
             continue
 
-        take_profit = ask * (1 + take_profit_pct / 100)
         stop_loss = ask * (1 - decision.stop_loss_pct / 100)
         available_cash -= qty * ask
 
@@ -216,10 +254,16 @@ def execute_signals(
             "est_cost": round(qty * ask, 2),
             "entry_ref": ask,
             "take_profit": round(take_profit, 2),
+            "remaining_take_profit_pct": round(
+                (take_profit / ask - 1) * 100, 2
+            ),
             "stop_loss": round(stop_loss, 2),
             "confidence": decision.confidence,
             "client_order_id": _client_order_id(decision.symbol, now_et),
         }
+        if reference_price and reference_price > 0:
+            order["analysis_price"] = round(reference_price, 4)
+            order["live_price_change_pct"] = round(deviation_pct, 2)
         if tp_clamped:
             order["take_profit_clamped"] = (
                 f"trader wanted {decision.take_profit_pct:.1f}%, "
