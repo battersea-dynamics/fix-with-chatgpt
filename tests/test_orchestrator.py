@@ -57,5 +57,46 @@ class MarketOpenPollingTests(unittest.TestCase):
         trading_client.get_clock.assert_called_once_with()
 
 
+class DaytimeScheduleTests(unittest.TestCase):
+    def test_normal_session_has_twelve_complete_cycles(self):
+        orchestrator = load_orchestrator()
+        session_open = datetime(2026, 7, 23, 9, 30, tzinfo=ET)
+        session_close = datetime(2026, 7, 23, 16, 0, tzinfo=ET)
+
+        slots = orchestrator._daytime_slots(session_open, session_close)
+
+        self.assertEqual(len(slots), 12)
+        self.assertEqual(slots[0].strftime("%H:%M"), "10:15")
+        self.assertEqual(slots[-1].strftime("%H:%M"), "15:45")
+
+    def test_tick_only_services_anchored_slot_with_grace(self):
+        orchestrator = load_orchestrator()
+        session_open = datetime(2026, 7, 23, 9, 30, tzinfo=ET)
+        session_close = datetime(2026, 7, 23, 16, 0, tzinfo=ET)
+        slots = orchestrator._daytime_slots(session_open, session_close)
+
+        self.assertIsNone(orchestrator._due_daytime_slot(
+            datetime(2026, 7, 23, 10, 0, tzinfo=ET), slots, None
+        ))
+        first = orchestrator._due_daytime_slot(
+            datetime(2026, 7, 23, 10, 16, tzinfo=ET), slots, None
+        )
+        self.assertEqual(first, slots[0])
+        self.assertIsNone(orchestrator._due_daytime_slot(
+            datetime(2026, 7, 23, 10, 30, tzinfo=ET), slots, None
+        ))
+
+    def test_final_slot_tolerates_scheduler_seconds(self):
+        orchestrator = load_orchestrator()
+        session_open = datetime(2026, 7, 23, 9, 30, tzinfo=ET)
+        session_close = datetime(2026, 7, 23, 16, 0, tzinfo=ET)
+        slots = orchestrator._daytime_slots(session_open, session_close)
+
+        due = orchestrator._due_daytime_slot(
+            datetime(2026, 7, 23, 15, 45, 30, tzinfo=ET), slots, None
+        )
+        self.assertEqual(due, slots[-1])
+
+
 if __name__ == "__main__":
     unittest.main()

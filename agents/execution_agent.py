@@ -44,6 +44,7 @@ from dotenv import load_dotenv
 from agents.signal_agent import SignalDecision
 from tools.broker import (
     get_account,
+    get_market_clock,
     get_open_buy_orders,
     get_positions,
     get_quote,
@@ -71,6 +72,8 @@ MIN_POSITION_BUDGET = 200.0
 #                noise into stop-outs, which defeats the stop.
 MAX_TAKE_PROFIT_PCT = 12.0
 MAX_STOP_LOSS_PCT = 5.0
+MAX_SCAN_PRICE_DEVIATION_PCT = 2.0
+MIN_SECONDS_TO_CLOSE = 120
 ET = ZoneInfo("America/New_York")
 
 
@@ -83,6 +86,7 @@ def _client_order_id(symbol: str, now: datetime | None = None) -> str:
 def execute_signals(
     decisions: list[SignalDecision],
     submit: bool = False,
+    reference_prices: dict[str, float] | None = None,
 ) -> list[dict]:
     """
     Filter, size, and (if submit) submit one bracket order per approved
@@ -90,6 +94,7 @@ def execute_signals(
     dry-run output is the exact order that submit mode would place.
     (Paper account only — 'submit' means a paper order, never real money.)
     """
+    reference_prices = reference_prices or {}
     account = get_account()
     available_cash = account["cash"]
     now_et = datetime.now(ET)
@@ -148,6 +153,39 @@ def execute_signals(
         if not ask or ask <= 0:
             entry["reason"] = f"no usable ask price (got {ask!r})"
             continue
+
+        # The free SIP scan is delayed and the debate takes several more
+        # minutes. Refuse to execute a thesis if the live entry has moved
+        # materially away from the price the agents actually evaluated.
+        reference_price = reference_prices.get(decision.symbol)
+        if reference_price and reference_price > 0:
+            deviation_pct = abs(ask - reference_price) / reference_price * 100
+            if deviation_pct > MAX_SCAN_PRICE_DEVIATION_PCT:
+                entry["reason"] = (
+                    f"live ask moved {deviation_pct:.2f}% from delayed scan "
+                    f"price ${reference_price:.2f}; "
+                    f"{MAX_SCAN_PRICE_DEVIATION_PCT:.0f}% max"
+                )
+                continue
+
+        # Only submission mode needs the live session gate. Dry runs remain
+        # runnable outside market hours, but a real paper-order attempt must
+        # have at least two minutes left so a slow request cannot cross the
+        # closing boundary.
+        if submit:
+            clock = get_market_clock()
+            seconds_to_close = (
+                clock.next_close - clock.timestamp
+            ).total_seconds()
+            if not clock.is_open:
+                entry["reason"] = "market is closed; paper order not submitted"
+                continue
+            if seconds_to_close < MIN_SECONDS_TO_CLOSE:
+                entry["reason"] = (
+                    f"only {max(0, int(seconds_to_close))}s to market close; "
+                    f"{MIN_SECONDS_TO_CLOSE}s minimum"
+                )
+                continue
 
         position_budget = min(
             available_cash,

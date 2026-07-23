@@ -9,12 +9,12 @@ gets blown by the sum of callers each individually behaving.
 
 The numbers, and where they come from:
 
-  Gemini free tier allows ~5 requests/min on the flash model.
-  13s spacing keeps a single caller under that. The bull/bear split
-  doubles the calls per stock, but a per-minute limit doesn't care
-  about totals — only rate — so the same spacing still holds; a
-  15-stock run just takes ~2x the wall time (15 stocks x 2 calls
-  x 13s ~ 6.5 min minimum).
+  The active broker-agent Google project allows 15 requests/minute and
+  500 requests/day for Gemini 3.1 Flash Lite. Eight-second spacing
+  targets at most 7.5 logical calls/minute, leaving room for provider
+  retries. The normal plan is 396 calls/day (360 regular-session +
+  36 pre-market); a 450-attempt local ceiling preserves 50 calls of
+  headroom for provider-side behavior and manual use.
 
   The throttle is a module-global "time since last call anywhere",
   not a sleep inside any one loop: bull then bear on the same stock
@@ -30,17 +30,24 @@ The numbers, and where they come from:
   side of the ledger.
 """
 
+import json
 import sys
 import time
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from crewai import LLM, Agent, Crew, Task
 from dotenv import load_dotenv
 
 load_dotenv()
 
-CALL_SPACING_SECONDS = 13
+CALL_SPACING_SECONDS = 8
 RATE_LIMIT_RETRIES = 3
 RATE_LIMIT_BACKOFF_SECONDS = 45
+MAX_DAILY_CALL_ATTEMPTS = 450
+USAGE_PATH = Path("data/llm_usage.json")
+ET = ZoneInfo("America/New_York")
 
 # Pinned GA model, deliberately NOT a rolling alias and NOT -preview.
 # History: we used gemini-flash-latest, and overnight it started
@@ -71,6 +78,29 @@ def _throttle():
     _last_call_at = time.monotonic()
 
 
+def _reserve_daily_call() -> bool:
+    """
+    Persistently reserve one logical Gemini attempt before making it.
+
+    GitHub runs are separate processes, so an in-memory counter would reset
+    every 30 minutes. This file is carried in the existing data cache and
+    keeps all pre-market, regular-session, retry, and manual attempts under
+    the project's 500-request daily allowance.
+    """
+    today = datetime.now(ET).date().isoformat()
+    usage = {"date": today, "attempts": 0}
+    if USAGE_PATH.exists():
+        loaded = json.loads(USAGE_PATH.read_text())
+        if loaded.get("date") == today:
+            usage = loaded
+    if usage["attempts"] >= MAX_DAILY_CALL_ATTEMPTS:
+        return False
+    usage["attempts"] += 1
+    USAGE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    USAGE_PATH.write_text(json.dumps(usage, indent=2))
+    return True
+
+
 def run_task(agent: Agent, task: Task, label: str, symbol: str):
     """
     Run one single-task Crew with pacing and rate-limit retries.
@@ -94,6 +124,12 @@ def run_task(agent: Agent, task: Task, label: str, symbol: str):
     crew = Crew(agents=[agent], tasks=[task], verbose=True)
 
     for attempt in range(RATE_LIMIT_RETRIES):
+        if not _reserve_daily_call():
+            print(f"[{label}] {symbol}: skipped - internal daily Gemini "
+                  f"safety ceiling ({MAX_DAILY_CALL_ATTEMPTS}) reached",
+                  file=sys.stderr)
+            _daily_quota_exhausted = True
+            return None
         _throttle()
         try:
             result = crew.kickoff()

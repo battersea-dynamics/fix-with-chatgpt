@@ -2,9 +2,11 @@ import importlib.util
 import sys
 import types
 import unittest
+from datetime import datetime
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import Mock, patch
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +21,7 @@ def load_execution_agent():
 
     broker = types.ModuleType("tools.broker")
     broker.get_account = lambda: None
+    broker.get_market_clock = lambda: None
     broker.get_open_buy_orders = lambda: []
     broker.get_positions = lambda: []
     broker.get_quote = lambda symbol: None
@@ -112,6 +115,12 @@ class DuplicateEntryGuardTests(unittest.TestCase):
         quote.assert_not_called()
 
     def test_submitted_order_uses_attempt_specific_client_id(self):
+        et = ZoneInfo("America/New_York")
+        clock = SimpleNamespace(
+            is_open=True,
+            timestamp=datetime(2026, 7, 23, 15, 0, tzinfo=et),
+            next_close=datetime(2026, 7, 23, 16, 0, tzinfo=et),
+        )
         submit = Mock(return_value={"id": "paper-order"})
         with (
             patch.object(self.execution, "get_account", return_value=self.account),
@@ -121,6 +130,9 @@ class DuplicateEntryGuardTests(unittest.TestCase):
             ),
             patch.object(
                 self.execution, "get_quote", return_value={"ask": 100.0}
+            ),
+            patch.object(
+                self.execution, "get_market_clock", return_value=clock
             ),
             patch.object(self.execution, "place_bracket_order", submit),
         ):
@@ -165,6 +177,57 @@ class DuplicateEntryGuardTests(unittest.TestCase):
                 self.assertEqual(
                     report[0]["order"]["est_cost"], expected_cost
                 )
+
+    def test_delayed_scan_price_deviation_blocks_entry(self):
+        with (
+            patch.object(self.execution, "get_account", return_value=self.account),
+            patch.object(self.execution, "get_positions", return_value=[]),
+            patch.object(
+                self.execution, "get_open_buy_orders", return_value=[]
+            ),
+            patch.object(
+                self.execution, "get_quote", return_value={"ask": 103.0}
+            ),
+        ):
+            report = self.execution.execute_signals(
+                [buy_decision()],
+                reference_prices={"AAPL": 100.0},
+            )
+
+        self.assertEqual(report[0]["action"], "skipped")
+        self.assertIn("moved 3.00%", report[0]["reason"])
+
+    def test_submission_too_close_to_market_close_is_blocked(self):
+        et = ZoneInfo("America/New_York")
+        clock = SimpleNamespace(
+            is_open=True,
+            timestamp=datetime(2026, 7, 23, 15, 59, tzinfo=et),
+            next_close=datetime(2026, 7, 23, 16, 0, tzinfo=et),
+        )
+        submit = Mock(return_value={"id": "paper-order"})
+        with (
+            patch.object(self.execution, "get_account", return_value=self.account),
+            patch.object(self.execution, "get_positions", return_value=[]),
+            patch.object(
+                self.execution, "get_open_buy_orders", return_value=[]
+            ),
+            patch.object(
+                self.execution, "get_quote", return_value={"ask": 100.0}
+            ),
+            patch.object(
+                self.execution, "get_market_clock", return_value=clock
+            ),
+            patch.object(self.execution, "place_bracket_order", submit),
+        ):
+            report = self.execution.execute_signals(
+                [buy_decision()],
+                submit=True,
+                reference_prices={"AAPL": 100.0},
+            )
+
+        self.assertEqual(report[0]["action"], "skipped")
+        self.assertIn("to market close", report[0]["reason"])
+        submit.assert_not_called()
 
 
 if __name__ == "__main__":

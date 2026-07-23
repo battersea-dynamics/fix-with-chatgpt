@@ -19,8 +19,9 @@ A multi-agent intraday trading system built from the ground up as a learning pro
 open-45min   pre-market chain
 open         poll Alpaca's clock until actually open (bounded), then
              pre-market execution
-open+30min   daily_scan()
-every 30min  check_shortlist(), last run no later than close-45min
+open+45min   fresh scan -> archived 15-stock list -> bull/bear debate
+             -> possible paper buy, all in the same cycle
+every 30min  repeat the complete cycle; final start at close-15min
 ```
 
 ### Pre-market chain (six components, file seams between them)
@@ -59,7 +60,7 @@ stage 1: daily_scan          python pipeline.py scan
   catalysts prescan  - one bulk Finnhub call: earnings in the next 1-3 days?
   scanner            - rel volume + % change + MA distance, z-scored, plus
                        an absolute-volume kicker and a catalyst boost
-  -> data/shortlist.json
+  -> data/lists/<date>/shortlist_<HHMM>.json
 
 stage 2: check_shortlist     python pipeline.py check [--submit]
   catalysts          - per-symbol earnings/dividends/news for the shortlist
@@ -72,7 +73,12 @@ stage 2: check_shortlist     python pipeline.py check [--submit]
                        (dry-run unless --submit)
 ```
 
-The JSON file between every pair of stages is both the scheduling seam and the audit trail: each run leaves a record of what the system saw, argued, and decided. Exits are enforced broker-side via bracket orders (attached take-profit + stop-loss, one-cancels-other) — nothing watches positions after entry; the broker does.
+During the regular session those two stages run back-to-back as one
+`daytime_cycle`: every cycle produces a new timestamped shortlist,
+immediately debates it, and immediately reaches the deterministic execution
+decision. The JSON files are both scheduling seams and the audit trail. Exits
+are enforced broker-side via bracket orders (attached take-profit + stop-loss,
+one-cancels-other) — nothing watches positions after entry; the broker does.
 
 ## Safety guards (all in one place)
 
@@ -86,6 +92,9 @@ The JSON file between every pair of stages is both the scheduling seam and the a
 | Cash-based position cap | execution agent (shared by both pipelines) | max 20% of currently available cash per position, with a $200 minimum budget that can never exceed the cash left (`$10,000 -> $2,000`, `$500 -> $200`, `$200 -> $200`, `$50 -> $50`); whole shares only and no margin buying power |
 | Exit ceilings (asymmetric) | execution agent (shared by both pipelines) | take-profit above 12% is clamped down and proceeds (capping upside is safe); stop-loss above 5% skips the trade entirely — a wide stop is the bear's honest volatility read, and tightening it would convert noise into stop-outs |
 | Dead-quote guard | execution agent | market buys are never sized off a 0/absent ask (closed market, thin tape) |
+| Delayed-price deviation guard (±2%) | regular execution | a live ask that moved too far from the delayed SIP scan price invalidates the debate before any paper order |
+| Closing-time guard | regular execution | immediately before submission Alpaca must report the market open with at least two minutes remaining |
+| Gemini daily-call ceiling | LLM runner | stops at 450 logical attempts, preserving headroom below the broker-agent project's 500-request daily limit |
 | Price deviation guard (±2%) | premarket execution | the live open has moved >2% (either direction) from the price the debate argued about — the thesis no longer applies |
 | Stale-decisions guard | premarket execution | yesterday's gap thesis can never execute today |
 | GTC bracket orders | broker | exit legs never expire at the close, leaving an unprotected overnight position (Alpaca caps GTC at 90 days) |
@@ -115,6 +124,7 @@ trading logic.
 .venv\Scripts\python.exe -m orchestrator --force premarket_exec [--submit]
 .venv\Scripts\python.exe -m orchestrator --force daily_scan
 .venv\Scripts\python.exe -m orchestrator --force check [--submit]
+.venv\Scripts\python.exe -m orchestrator --force daytime_cycle [--submit]
 ```
 
 **Or the underlying entry points directly:**
@@ -127,8 +137,9 @@ trading logic.
 
 ## Automation (GitHub Actions)
 
-`.github/workflows/automatic-trading.yml` receives a dispatch from the
-Cloudflare Worker every 30 minutes across the trading-day window. Off-window
+`.github/workflows/automatic-trading.yml` receives dispatches from the
+Cloudflare Worker for pre-market, market-open execution, and anchored
+30-minute daytime slots. Off-window
 ticks exit in seconds; the orchestrator's ET logic remains the only clock that
 decides which stage, if any, is due. Each tick is a fresh VM: `data/` (state file +
 all pipeline file seams) is carried between ticks via `actions/cache`, so
@@ -146,11 +157,19 @@ GitHub's native scheduled events were intermittent, although manual and
 push-triggered runs worked normally. The production clock is therefore a
 Cloudflare Worker Cron Trigger; GitHub's native trading schedule is disabled.
 
-The Cloudflare cron is `0,30 12-20 * * MON-FRI` (UTC). It wakes every 30
-minutes across a deliberately broad window so the same configuration covers
-US daylight-saving changes. The orchestrator checks Alpaca's US Eastern
-calendar and session times, then either runs the stage that is due or exits
-without doing anything.
+Cloudflare uses three UTC Cron Triggers:
+
+```
+45 12,13 * * MON-FRI
+30 13,14 * * MON-FRI
+15,45 14-20 * * MON-FRI
+```
+
+They cover the pre-market wake, market-open execution, and daytime cycle
+slots across both US daylight-saving regimes. The union deliberately creates
+a few extra off-season wakes; the orchestrator accepts only exact US Eastern
+slots (with five minutes of queue grace), so every extra wake exits without
+running a pipeline stage.
 
 Cloudflare only dispatches the existing GitHub workflow:
 
@@ -165,7 +184,8 @@ Cloudflare only dispatches the existing GitHub workflow:
 
 ### Data layout (temporary, for the active review period)
 
-Per-run artifacts are partitioned by ET session date instead of being overwritten: `data/lists/<date>/` holds every list/case/decision file (shortlist, pre-market scan/news/candles/cases/decisions, per-check `check_decisions_<HHMM>.json`), `data/reports/` holds the daily reports, and `data/weekly/` is reserved for the future weekly summary. These dated folders are **committed** — they're the record being actively reviewed over the coming weeks. This is explicitly **not a permanent design**: once the review period ends, revisit (likely revert to plain overwritten files, or add retention) — see the note in `tools/datapaths.py`. Loose files in `data/` (universe cache, orchestrator state, portfolio snapshot) remain runtime-only and gitignored.
+Per-run artifacts are partitioned by ET session date instead of being overwritten: `data/lists/<date>/` holds every list/case/decision file (per-cycle `shortlist_<HHMM>.json` and `check_decisions_<HHMM>.json`,
+pre-market scan/news/candles/cases/decisions), `data/reports/` holds the daily reports, and `data/weekly/` is reserved for the future weekly summary. These dated folders are **committed** — they're the record being actively reviewed over the coming weeks. This is explicitly **not a permanent design**: once the review period ends, revisit (likely revert to plain overwritten files, or add retention) — see the note in `tools/datapaths.py`. Loose files in `data/` (universe cache, orchestrator state, portfolio snapshot) remain runtime-only and gitignored.
 - Credentials live in encrypted repository secrets (`ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `GEMINI_API_KEY`, `FINNHUB_API_KEY`), referenced by name in the workflow only.
 
 ## Roadmap / known gaps
@@ -174,11 +194,11 @@ Nothing in this section is built yet — it exists so the README never implies m
 
 **On the external review (July 2026):** an outside architecture review validated the core design — the separation of *evidence gathering → judgment → decision → execution* into distinct stages, the deterministic (no-LLM) trader and execution layers, and the dry-run-by-default posture — and flagged **portfolio-level risk as the main missing piece**. The priority order below reflects that review together with our own assessment; it's why the list is ordered the way it is, not just what's on it.
 
-**Immediate operational sequence:** finish and validate the Cloudflare
-scheduler first. Once it has delivered a complete US trading session
-reliably, review and tune the pre-market scanner, regular-session shortlist,
-bull/bear evidence and scores, and final stock-selection rules using the
-dated paper-trading audit records. These operational and evaluation steps
+**Immediate operational sequence:** the Cloudflare scheduler has delivered
+a complete US trading session reliably. The current step is to validate the
+new complete daytime cycles in dry-run mode, then review and tune the
+pre-market scanner, regular-session shortlist, bull/bear evidence and scores,
+and final stock-selection rules using the dated paper-trading audit records. These operational and evaluation steps
 come before adding another major subsystem; they do not remove the
 portfolio-risk priority below.
 
