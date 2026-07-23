@@ -97,6 +97,16 @@ def get_open_buy_orders() -> list[dict]:
     ]
 
 
+def get_market_clock():
+    """
+    Return Alpaca's live market clock.
+
+    Execution calls this immediately before a paper order so a long-running
+    bull/bear cycle cannot submit after the session has closed.
+    """
+    return trading_client.get_clock()
+
+
 def get_quote(symbol: str):
     """Return the latest bid/ask quote for a symbol."""
     request = StockLatestQuoteRequest(symbol_or_symbols=symbol)
