@@ -146,9 +146,9 @@ def execute_signals(
         if tp_clamped:
             take_profit_pct = MAX_TAKE_PROFIT_PCT
 
-        # Reference price for converting the agent's percentages into
-        # absolute bracket prices: the current ask, i.e. roughly what
-        # a market buy would actually pay right now.
+        # The current ask is the estimated entry. When a delayed-analysis
+        # reference is available below, it also anchors the original
+        # absolute take-profit target.
         quote = get_quote(decision.symbol)
         ask = quote["ask"]
         if not ask or ask <= 0:
