@@ -127,10 +127,10 @@ trading logic.
 
 ## Automation (GitHub Actions)
 
-`.github/workflows/automatic-trading.yml` runs the orchestrator's **tick
-mode** every 15 minutes (UTC cron covering the ET trading day in both DST
-regimes — off-window ticks exit in seconds; the orchestrator's ET logic is
-the only clock that matters). Each tick is a fresh VM: `data/` (state file +
+`.github/workflows/automatic-trading.yml` receives a dispatch from the
+Cloudflare Worker every 30 minutes across the trading-day window. Off-window
+ticks exit in seconds; the orchestrator's ET logic remains the only clock that
+decides which stage, if any, is due. Each tick is a fresh VM: `data/` (state file +
 all pipeline file seams) is carried between ticks via `actions/cache`, so
 short-lived runners behave like one long-running orchestrator. Execution is
 marked done on *attempt*, never retried — a possibly-half-submitted order loop
@@ -140,37 +140,28 @@ must not double-order.
 - **Manual testing:** Actions → trading → "Run workflow" — pick a stage (`tick`, `premarket`, `daily_scan`, ...) and run it immediately.
 - **Daily report:** tick mode appends every stage outcome, order, guard trigger, and error to `data/reports/daily_report_<date>.json` (deterministic, no LLM); the workflow commits each day's full record (report + lists) once at end of day, so the audit trail is readable on GitHub without opening Action logs.
 
-### Scheduler reliability and Cloudflare rollout (July 2026)
+### Scheduler reliability and Cloudflare operation (July 2026)
 
-GitHub has created some scheduled runs, and every run that was created
-completed successfully, but the `schedule` event has not arrived regularly
-enough to be trusted as the only trading-day clock. Manual
-`workflow_dispatch` and push-triggered test runs work normally. A temporary
-`.github/workflows/scheduler-heartbeat.yml` runs a minimal five-minute cron so
-scheduled-event delivery can be observed independently of Python, project
-dependencies, secrets, Alpaca, caches, and the orchestrator.
+GitHub's native scheduled events were intermittent, although manual and
+push-triggered runs worked normally. The production clock is therefore a
+Cloudflare Worker Cron Trigger; GitHub's native trading schedule is disabled.
 
-The planned replacement clock is a **Cloudflare Worker Cron Trigger**. Its
-scope is deliberately tiny:
+The Cloudflare cron is `0,30 12-20 * * MON-FRI` (UTC). It wakes every 30
+minutes across a deliberately broad window so the same configuration covers
+US daylight-saving changes. The orchestrator checks Alpaca's US Eastern
+calendar and session times, then either runs the stage that is due or exits
+without doing anything.
 
-1. Cloudflare wakes on the configured UTC cron and sends an authenticated
-   request to GitHub.
-2. GitHub starts the existing trading workflow; installation, cached state,
-   the orchestrator, trading logic, reports, and paper orders all stay in
-   GitHub.
+Cloudflare only dispatches the existing GitHub workflow:
+
+1. Cloudflare sends an authenticated `workflow_dispatch` request to GitHub.
+2. GitHub restores state and runs the orchestrator, trading logic, reports,
+   and paper-order code.
 3. Alpaca, Gemini, and Finnhub credentials remain GitHub Actions secrets.
-   Cloudflare stores only a repository-scoped GitHub token used to dispatch
-   the workflow.
-4. `TRADING_SUBMIT` remains the master switch for automatic **paper-account**
-   order submission. The broker clients are constructed with `paper=True`;
-   this project never targets Alpaca live trading.
-
-Only one automatic clock may be active in production. During rollout,
-Cloudflare will first dispatch a dry-run tick, then a paper-order-enabled test.
-After dispatch, state restoration, end-of-day commits, and concurrency are
-verified, GitHub's native cron will be disabled so it cannot overlap with
-Cloudflare. The Cloudflare trigger will then be monitored for a full US
-trading session before the temporary heartbeat is removed.
+   Cloudflare stores only the repository-scoped token used for dispatch.
+4. `TRADING_SUBMIT` remains the master switch for automatic paper-account
+   orders. The broker clients use `paper=True`; this project never targets
+   Alpaca live trading.
 
 ### Data layout (temporary, for the active review period)
 
@@ -216,7 +207,7 @@ python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 ```
 
-Copy `.env.example` to `.env` and fill in your keys — all three are required:
+Copy `.env.example` to `.env` and fill in your keys — all four variables are required:
 
 | Variable | Source |
 |---|---|
