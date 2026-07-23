@@ -3,12 +3,13 @@
 # No trading logic lives here - the orchestrator decides what (if
 # anything) is due on each wake-up, in ET, against Alpaca's calendar.
 #
-# TIMEZONE NOTE: Cloudflare currently wakes at minute 0 and 30 from
-# 12:00 through 20:30 UTC on weekdays. This deliberately broad window covers
-# US daylight-saving changes without manual edits. Off-window ticks hit the
-# orchestrator's Alpaca calendar/session gates and exit in seconds. The
-# external cron is deliberately dumb; the orchestrator's US Eastern logic is
-# the only clock that decides which stage is due.
+# TIMEZONE NOTE: Cloudflare uses three UTC triggers so US daylight-saving
+# changes need no manual edit:
+#   45 12,13 * * MON-FRI       pre-market wake (08:45 ET)
+#   30 13,14 * * MON-FRI       market-open execution wake (09:30 ET)
+#   15,45 14-20 * * MON-FRI    daytime cycle wakes (10:15-15:45 ET)
+# The union creates a few off-season extra wakes. Anchored ET slot gates make
+# those exit in seconds; the external cron never decides what is due.
 #
 # ORDER SUBMISSION is never on by accident (paper account only - even
 # "submit" means a PAPER order, never real money; the flag is named
@@ -38,7 +39,7 @@ on:
         description: "What to run"
         type: choice
         default: tick
-        options: [tick, premarket, premarket_exec, daily_scan, check]
+        options: [tick, premarket, premarket_exec, daytime_cycle, daily_scan, check]
       submit:
         description: "Submit paper orders (default: dry-run)"
         type: boolean
