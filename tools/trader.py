@@ -33,6 +33,7 @@ from agents.bull_agent import BullCase
 from agents.signal_agent import SignalDecision
 
 BUY_THRESHOLD = 0.2       # net_score needed to buy; == confidence 0.6
+SCORE_EPSILON = 1e-9      # neutralize binary-float drift at the exact line
 MAX_TEMPERING = 0.5       # at bear_risk 1.0, exits shrink to half
 
 # SignalDecision schema bounds (keep in sync with agents/signal_agent.py)
@@ -43,12 +44,17 @@ def _clamp(value: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, value))
 
 
+def _is_buy_score(net_score: float) -> bool:
+    """Treat a mathematically exact threshold score as meeting policy."""
+    return net_score + SCORE_EPSILON >= BUY_THRESHOLD
+
+
 def decide(bull: BullCase, bear: BearCase) -> SignalDecision:
     """Combine one stock's bull and bear cases into a SignalDecision."""
     assert bull.symbol == bear.symbol, "bull/bear case symbol mismatch"
 
     net_score = bull.bull_confidence - bear.bear_risk
-    signal = "buy" if net_score >= BUY_THRESHOLD else "hold"
+    signal = "buy" if _is_buy_score(net_score) else "hold"
     confidence = round((net_score + 1) / 2, 3)
 
     temper = 1 - MAX_TEMPERING * bear.bear_risk
