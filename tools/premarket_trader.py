@@ -37,11 +37,17 @@ from tools.market_calendar import ET, is_market_open_today
 
 # Keep in sync with tools/trader.py (see module docstring)
 BUY_THRESHOLD = 0.2
+SCORE_EPSILON = 1e-9  # neutralize binary-float drift at the exact line
 MAX_TEMPERING = 0.5
 
 
 def _clamp(value: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, value))
+
+
+def _is_buy_score(net_score: float) -> bool:
+    """Treat a mathematically exact threshold score as meeting policy."""
+    return net_score + SCORE_EPSILON >= BUY_THRESHOLD
 
 
 def decide_premarket_trades(output_path: Path | None = None) -> list[SignalDecision]:
@@ -76,9 +82,20 @@ def decide_premarket_trades(output_path: Path | None = None) -> list[SignalDecis
 
         net = bull["bull_confidence"] - bear["bear_risk"]
         temper = 1 - MAX_TEMPERING * bear["bear_risk"]
+        # Fail closed: normal premarket case generation adds these fields
+        # after deterministic verification. Missing or failed verification
+        # must survive into the decision so execution refuses the trade.
+        numbers_verified = bool(
+            bull.get("numbers_verified", False)
+            and bear.get("numbers_verified", False)
+        )
+        unverified_numbers = (
+            [f"bull: {item}" for item in bull.get("unverified_numbers", [])]
+            + [f"bear: {item}" for item in bear.get("unverified_numbers", [])]
+        )
         decisions.append(SignalDecision(
             symbol=symbol,
-            signal="buy" if net >= BUY_THRESHOLD else "hold",
+            signal="buy" if _is_buy_score(net) else "hold",
             confidence=round((net + 1) / 2, 3),
             take_profit_pct=round(_clamp(bull["take_profit_pct"] * temper, 0.5, 20.0), 2),
             stop_loss_pct=round(_clamp(bull["stop_loss_pct"] * temper, 0.5, 10.0), 2),
@@ -88,6 +105,8 @@ def decide_premarket_trades(output_path: Path | None = None) -> list[SignalDecis
                 f"{BUY_THRESHOLD:+.2f}). BULL: {bull['bull_case']} "
                 f"BEAR: {bear['bear_case']}"
             ),
+            numbers_verified=numbers_verified,
+            unverified_numbers=unverified_numbers,
         ))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
