@@ -1,0 +1,95 @@
+{
+  "date": "2026-07-23",
+  "events": [
+    {
+      "at_et": "2026-07-23T08:01:28-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-07-23T09:08:25-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-07-23T09:31:14-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DGX",
+            "reason": "price guard: ask $236.93 is +4.65% vs decision basis $226.40 (limit \u00b12.0%)"
+          },
+          {
+            "symbol": "ACI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOMO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HYLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVCR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ROL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZCMD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-23T16:01:16-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 0,
+        "final_daytime_slot_attempted": false
+      }
+    }
+  ]
+}

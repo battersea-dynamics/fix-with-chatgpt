@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-23T09:05:12-04:00",
+  "session_date": "2026-07-23",
+  "reads": {
+    "DOMO": {
+      "symbol": "DOMO",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ROL": {
+      "symbol": "ROL",
+      "pattern": "panic gap down",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ACI": {
+      "symbol": "ACI",
+      "pattern": "Gap-and-Go Downward Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "PN": {
+      "symbol": "PN",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "STM": {
+      "symbol": "STM",
+      "pattern": "Bearish Gap and Crap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "NVCR": {
+      "symbol": "NVCR",
+      "pattern": "Gap and Run Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "CLF": {
+      "symbol": "CLF",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "AMBP": {
+      "symbol": "AMBP",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "HYLN": {
+      "symbol": "HYLN",
+      "pattern": "Gap and Fade",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "DGX": {
+      "symbol": "DGX",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "ALLE": {
+      "symbol": "ALLE",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "ZCMD": {
+      "symbol": "ZCMD",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}
