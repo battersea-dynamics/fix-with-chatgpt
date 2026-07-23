@@ -16,8 +16,8 @@ UK offset — local time appears only in log lines, for readability.
 
 Early-close days are handled by asking Alpaca for the session's real
 open/close (session_times) instead of assuming 9:30-16:00: on the
-day after Thanksgiving the close is 13:00, so "last check at
-close-45min" correctly becomes 12:15, and the check loop shrinks.
+day after Thanksgiving the close is 13:00, so "last cycle at
+close-15min" correctly becomes 12:45, and the cycle loop shrinks.
 
 The default day:
 
@@ -30,14 +30,16 @@ The default day:
                something is wrong and no orders is the right number
                of orders)
   open+0       pre-market execution (bracket orders; --submit only)
-  open+30min   daily_scan()
-  every 30min  check_shortlist(), last run no later than close-45min
+  open+45min   fresh scan -> list -> bull/bear -> possible paper buy
+  every 30min  repeat that complete cycle, including one final cycle
+               at close-15min
 
 Manual override: any stage can be run immediately with
   python -m orchestrator --force premarket
   python -m orchestrator --force premarket_exec [--submit]
   python -m orchestrator --force daily_scan
   python -m orchestrator --force check [--submit]
+  python -m orchestrator --force daytime_cycle [--submit]
 so testing never waits for the clock. (Component-level calendar
 gates still apply on non-trading days.) A future GitHub Actions
 workflow calls these same entry points on its own cron — this file
@@ -56,9 +58,10 @@ from tools.market_calendar import ET, todays_session
 
 # ----- schedule configuration (minutes are relative to session) -----
 PREMARKET_LEAD_MIN = 45        # pre-market chain starts open-45min
-DAILY_SCAN_DELAY_MIN = 30      # daily_scan at open+30min
-CHECK_INTERVAL_MIN = 30        # check_shortlist cadence
-LAST_CHECK_BEFORE_CLOSE_MIN = 45   # no check after close-45min
+DAYTIME_START_DELAY_MIN = 45   # first complete cycle at open+45min
+DAYTIME_INTERVAL_MIN = 30      # fresh scan/debate/buy cadence
+LAST_CYCLE_BEFORE_CLOSE_MIN = 15  # final cycle starts close-15min
+CYCLE_START_GRACE_MIN = 5      # tolerate Cloudflare/GitHub queue jitter
 OPEN_POLL_INTERVAL_SEC = 20    # how often to ask "is it open yet?"
 OPEN_POLL_MAX_MIN = 5          # give up on execution this long after
                                # the scheduled open if still closed
@@ -71,9 +74,6 @@ SLEEP_CHUNK_SEC = 60           # wake at least this often while waiting
 EXEC_WINDOW_MIN = 15           # premarket exec must start within this
                                # after open - later, the gap thesis is
                                # stale and no orders is the safe answer
-CHECK_DEDUP_MARGIN_MIN = 25    # min gap between check runs, slightly
-                               # under CHECK_INTERVAL so cron jitter
-                               # can't skip a slot or double-run one
 STATE_PATH = Path("data/orchestrator_state.json")
 
 
@@ -116,11 +116,17 @@ def stage_check(submit: bool = False):
     return check_shortlist(submit=submit)
 
 
+def stage_daytime_cycle(submit: bool = False):
+    from pipeline import daytime_cycle
+    return daytime_cycle(submit=submit)
+
+
 STAGES = {
     "premarket": lambda submit: stage_premarket(),
     "premarket_exec": stage_premarket_exec,
     "daily_scan": lambda submit: stage_daily_scan(),
     "check": stage_check,
+    "daytime_cycle": stage_daytime_cycle,
 }
 
 
@@ -175,16 +181,55 @@ def _load_state(today) -> dict:
     if STATE_PATH.exists():
         state = json.loads(STATE_PATH.read_text())
         if state.get("date") == today.isoformat():
+            # Safe forward migration if code is deployed after an earlier
+            # tick already created today's old-format state file.
+            state.setdefault("last_daytime_slot", None)
+            state.setdefault("daytime_cycles_attempted", 0)
             return state
     return {"date": today.isoformat(), "premarket_done": False,
-            "exec_done": False, "daily_scan_done": False,
-            "last_check_at": None, "session_recorded": False,
+            "exec_done": False, "last_daytime_slot": None,
+            "daytime_cycles_attempted": 0, "session_recorded": False,
             "day_complete": False}
 
 
 def _save_state(state: dict):
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(state, indent=2))
+
+
+def _daytime_slots(
+    session_open: datetime,
+    session_close: datetime,
+) -> list[datetime]:
+    """All scheduled regular-session cycle starts for this session."""
+    slot = session_open + timedelta(minutes=DAYTIME_START_DELAY_MIN)
+    last = session_close - timedelta(minutes=LAST_CYCLE_BEFORE_CLOSE_MIN)
+    slots = []
+    while slot <= last:
+        slots.append(slot)
+        slot += timedelta(minutes=DAYTIME_INTERVAL_MIN)
+    return slots
+
+
+def _due_daytime_slot(
+    now: datetime,
+    slots: list[datetime],
+    completed_slot: str | None,
+) -> datetime | None:
+    """
+    Return the exact slot this wake-up may service.
+
+    Matching an anchored slot, rather than merely waiting 25 minutes since
+    the previous run, prevents extra pre-market/open Cloudflare wakes from
+    shifting the whole daytime cadence.
+    """
+    grace = timedelta(minutes=CYCLE_START_GRACE_MIN)
+    for slot in reversed(slots):
+        if slot <= now <= slot + grace:
+            if completed_slot != slot.isoformat(timespec="seconds"):
+                return slot
+            return None
+    return None
 
 
 def run_tick(submit: bool = False):
@@ -196,10 +241,11 @@ def run_tick(submit: bool = False):
     runners behaves like one long-running orchestrator, as long as
     data/ is carried between runs (the workflow uses actions/cache).
 
-    Failure policy per stage: the pre-market chain and daily_scan are
-    idempotent (they rewrite their files), so they're only marked
-    done on success - a failed run retries on the next tick while its
-    window is open. Execution is marked done on ATTEMPT: retrying a
+    Failure policy per stage: the pre-market chain is idempotent, so it is
+    only marked done on success. A daytime slot is marked attempted even
+    if its cycle fails; the next scheduled slot starts with a completely
+    fresh scan instead of hammering APIs repeatedly inside one window.
+    Execution is marked done on ATTEMPT: retrying a
     possibly-half-submitted order loop is how you double-order, and
     "no more orders today" is always the safe failure mode.
     """
@@ -218,9 +264,8 @@ def run_tick(submit: bool = False):
         return
 
     premarket_at = session_open - timedelta(minutes=PREMARKET_LEAD_MIN)
-    daily_scan_at = session_open + timedelta(minutes=DAILY_SCAN_DELAY_MIN)
-    last_check_at = session_close - timedelta(
-        minutes=LAST_CHECK_BEFORE_CLOSE_MIN)
+    daytime_slots = _daytime_slots(session_open, session_close)
+    last_daytime_slot = daytime_slots[-1]
     exec_deadline = session_open + timedelta(minutes=EXEC_WINDOW_MIN)
 
     if not state["session_recorded"]:
@@ -234,8 +279,18 @@ def run_tick(submit: bool = False):
     def record(stage_name: str, fn) -> bool:
         try:
             result = fn()
-            detail = (daily_report.summarize_execution(result)
-                      if isinstance(result, list) else result)
+            if (isinstance(result, dict)
+                    and isinstance(result.get("execution_report"), list)):
+                detail = {
+                    key: value for key, value in result.items()
+                    if key != "execution_report"
+                }
+                detail.update(daily_report.summarize_execution(
+                    result["execution_report"]
+                ))
+            else:
+                detail = (daily_report.summarize_execution(result)
+                          if isinstance(result, list) else result)
             daily_report.append_event(today, stage_name,
                                       {"ok": True, **(detail or {})})
             return True
@@ -273,30 +328,32 @@ def run_tick(submit: bool = False):
         state["exec_done"] = True  # attempted = done, never retry orders
 
     now = _now()
-    if not state["daily_scan_done"] and now >= daily_scan_at:
-        _log("tick stage: daily_scan")
-        state["daily_scan_done"] = record("daily_scan", stage_daily_scan)
-
-    now = _now()
-    first_check_at = daily_scan_at + timedelta(minutes=CHECK_INTERVAL_MIN)
-    check_due = (
-        state["daily_scan_done"]
-        and first_check_at <= now <= last_check_at
-        and (state["last_check_at"] is None
-             or (now - datetime.fromisoformat(state["last_check_at"]))
-             >= timedelta(minutes=CHECK_DEDUP_MARGIN_MIN))
+    due_slot = _due_daytime_slot(
+        now, daytime_slots, state["last_daytime_slot"]
     )
-    if check_due:
-        _log("tick stage: check_shortlist")
-        record("check_shortlist", lambda: stage_check(submit=submit))
-        state["last_check_at"] = now.isoformat(timespec="seconds")
+    if due_slot is not None:
+        _log(f"tick stage: complete daytime cycle for {due_slot:%H:%M}")
+        record("daytime_cycle",
+               lambda: stage_daytime_cycle(submit=submit))
+        # Attempted means done for this exact slot. Broker/position/order
+        # guards make a later slot safe, but retrying immediately could
+        # duplicate API work or an ambiguous submission.
+        state["last_daytime_slot"] = due_slot.isoformat(timespec="seconds")
+        state["daytime_cycles_attempted"] += 1
 
-    if _now() > last_check_at:
+    final_attempted = (
+        state["last_daytime_slot"]
+        == last_daytime_slot.isoformat(timespec="seconds")
+    )
+    if (final_attempted
+            or _now() > last_daytime_slot
+            + timedelta(minutes=CYCLE_START_GRACE_MIN)):
         state["day_complete"] = True
         daily_report.append_event(today, "day_complete", {
             "premarket_done": state["premarket_done"],
             "exec_done": state["exec_done"],
-            "daily_scan_done": state["daily_scan_done"],
+            "daytime_cycles_attempted": state["daytime_cycles_attempted"],
+            "final_daytime_slot_attempted": final_attempted,
         })
         _log("tick: trading day complete")
 
@@ -313,14 +370,12 @@ def run_day(submit: bool = False):
     session_open, session_close = session
 
     premarket_at = session_open - timedelta(minutes=PREMARKET_LEAD_MIN)
-    daily_scan_at = session_open + timedelta(minutes=DAILY_SCAN_DELAY_MIN)
-    last_check_at = session_close - timedelta(
-        minutes=LAST_CHECK_BEFORE_CLOSE_MIN)
+    daytime_slots = _daytime_slots(session_open, session_close)
 
     _log(f"session {session_open:%H:%M}-{session_close:%H:%M} ET | "
          f"premarket {premarket_at:%H:%M}, exec ~{session_open:%H:%M}, "
-         f"daily_scan {daily_scan_at:%H:%M}, checks every "
-         f"{CHECK_INTERVAL_MIN}min until {last_check_at:%H:%M}"
+         f"daytime cycles {daytime_slots[0]:%H:%M}-"
+         f"{daytime_slots[-1]:%H:%M} every {DAYTIME_INTERVAL_MIN}min"
          + (" | SUBMITTING paper orders" if submit else " | dry-run"))
 
     if _now() < premarket_at:
@@ -336,16 +391,10 @@ def run_day(submit: bool = False):
         _log(f"market still closed {OPEN_POLL_MAX_MIN}min after "
              f"scheduled open - SKIPPING premarket execution")
 
-    _sleep_until(daily_scan_at, "daily scan")
-    _log("stage: daily_scan")
-    stage_daily_scan()
-
-    check_at = daily_scan_at
-    while (check_at := check_at + timedelta(
-            minutes=CHECK_INTERVAL_MIN)) <= last_check_at:
-        _sleep_until(check_at, "shortlist check")
-        _log("stage: check_shortlist")
-        stage_check(submit=submit)
+    for cycle_at in daytime_slots:
+        _sleep_until(cycle_at, "daytime cycle")
+        _log("stage: fresh scan -> debate -> possible paper buy")
+        stage_daytime_cycle(submit=submit)
 
     _log("trading day schedule complete")
 
