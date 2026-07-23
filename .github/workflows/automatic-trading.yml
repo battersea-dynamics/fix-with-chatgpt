@@ -3,13 +3,12 @@
 # No trading logic lives here - the orchestrator decides what (if
 # anything) is due on each wake-up, in ET, against Alpaca's calendar.
 #
-# TIMEZONE NOTE: the Cloudflare cron is UTC only. The trading window we need
-# to cover is 8:45-15:15 ET, which is 12:45-19:15 UTC in summer (EDT)
-# and 13:45-20:15 UTC in winter (EST). Rather than chase the DST
-# shift, the cron fires every 15 minutes across the UNION of both
-# (12:07-20:52 UTC, weekdays). Off-window and off-season ticks hit the
-# orchestrator's calendar/window gates and exit in seconds. The external
-# cron is deliberately dumb; the orchestrator is the only clock that matters.
+# TIMEZONE NOTE: Cloudflare currently wakes at minute 0 and 30 from
+# 12:00 through 20:30 UTC on weekdays. This deliberately broad window covers
+# US daylight-saving changes without manual edits. Off-window ticks hit the
+# orchestrator's Alpaca calendar/session gates and exit in seconds. The
+# external cron is deliberately dumb; the orchestrator's US Eastern logic is
+# the only clock that decides which stage is due.
 #
 # ORDER SUBMISSION is never on by accident (paper account only - even
 # "submit" means a PAPER order, never real money; the flag is named
