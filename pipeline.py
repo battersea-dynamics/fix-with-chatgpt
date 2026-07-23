@@ -5,9 +5,11 @@ The two entry points of the system, kept deliberately separate:
 
   daily_scan()      universe -> catalyst pre-scan -> scanner
                     -> data/shortlist.json
-  check_shortlist() data/shortlist.json -> deep catalyst/news check
+  check_shortlist() shortlist file -> deep catalyst/news check
                     -> signal agent -> execution agent (dry-run
                     unless told otherwise)
+  daytime_cycle()   fresh scan -> archived list -> check -> possible
+                    paper buy, as one indivisible scheduled cycle
 
 Why a JSON file between them instead of one function calling the
 other? Because the seam is where scheduling will live. daily_scan is
@@ -40,6 +42,7 @@ from pathlib import Path
 from tools.broker import get_account, get_positions
 from tools.datapaths import list_path
 from tools.catalysts import build_catalyst_report, prescan_earnings
+from tools.market_calendar import ET
 from tools.scanner import ScanResult, scan
 from tools.universe_builder import load_universe
 
@@ -58,7 +61,7 @@ def snapshot_portfolio(output_path: Path = PORTFOLIO_STATE_PATH) -> dict:
     Plain program, no LLM: this is retrieval, not judgment.
     """
     state = {
-        "as_of": datetime.now().isoformat(timespec="seconds"),
+        "as_of": datetime.now(ET).isoformat(timespec="seconds"),
         **get_account(),
         "positions": get_positions(),
     }
@@ -100,7 +103,7 @@ def daily_scan(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps({
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": datetime.now(ET).isoformat(timespec="seconds"),
         "universe_size": len(universe),
         "catalyst_flagged": len(flagged),
         "excluded_held": sorted(held & {r.symbol for r in ranked}),
@@ -116,6 +119,7 @@ def daily_scan(
 def check_shortlist(
     input_path: Path | None = None,
     submit: bool = False,
+    record_id: str | None = None,
 ) -> list[dict]:
     """
     Stage 2: judgment and (optionally) money. Reads whatever stage 1
@@ -144,7 +148,9 @@ def check_shortlist(
 
     payload = json.loads(input_path.read_text())
     generated = datetime.fromisoformat(payload["generated_at"])
-    age_hours = (datetime.now() - generated).total_seconds() / 3600
+    if generated.tzinfo is None:
+        generated = generated.replace(tzinfo=ET)
+    age_hours = (datetime.now(ET) - generated).total_seconds() / 3600
     if age_hours > 24:
         print(f"WARNING: shortlist is {age_hours:.0f}h old - "
               f"consider re-running the scan", file=sys.stderr)
@@ -164,17 +170,22 @@ def check_shortlist(
 
     catalyst_report = build_catalyst_report(symbols)
     decisions = analyze_shortlist(shortlist, catalyst_report)
-    report = execute_signals(decisions, submit=submit)
+    reference_prices = {r.symbol: r.close for r in shortlist}
+    report = execute_signals(
+        decisions,
+        submit=submit,
+        reference_prices=reference_prices,
+    )
 
     # Review record for the by-date archive: the regular pipeline's
     # debate is in-memory (no separate bull/bear case files exist -
     # each decision's reasoning embeds both cases verbatim), so this
     # decisions file IS the daily equivalent of the premarket case/
     # decision files. Timestamped because checks run many times a day.
-    check_record = list_path(
-        f"check_decisions_{datetime.now().strftime('%H%M')}.json")
+    record_id = record_id or datetime.now(ET).strftime("%H%M")
+    check_record = list_path(f"check_decisions_{record_id}.json")
     check_record.write_text(json.dumps({
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": datetime.now(ET).isoformat(timespec="seconds"),
         "submit": submit,
         "decisions": [d.model_dump() for d in decisions],
         "execution_report": report,
@@ -187,6 +198,31 @@ def check_shortlist(
     return report
 
 
+def daytime_cycle(submit: bool = False) -> dict:
+    """
+    One complete regular-session decision cycle.
+
+    A fresh scan and its debate share the same ET cycle id, so every
+    shortlist is preserved and can be matched directly to the decisions and
+    possible order attempts that followed it.
+    """
+    cycle_started = datetime.now(ET)
+    cycle_id = cycle_started.strftime("%H%M")
+    shortlist_path = list_path(f"shortlist_{cycle_id}.json")
+    shortlist = daily_scan(output_path=shortlist_path)
+    report = check_shortlist(
+        input_path=shortlist_path,
+        submit=submit,
+        record_id=cycle_id,
+    )
+    return {
+        "cycle_id": cycle_id,
+        "shortlist_file": str(shortlist_path),
+        "shortlist": [r.symbol for r in shortlist],
+        "execution_report": report,
+    }
+
+
 if __name__ == "__main__":
     args = set(sys.argv[1:])
     submit = "--submit" in args
@@ -197,7 +233,6 @@ if __name__ == "__main__":
     elif command == "check":
         check_shortlist(submit=submit)
     elif command == "all":
-        daily_scan()
-        check_shortlist(submit=submit)
+        daytime_cycle(submit=submit)
     else:
         raise SystemExit(__doc__)
