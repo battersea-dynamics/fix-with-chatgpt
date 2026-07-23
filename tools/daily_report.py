@@ -4,7 +4,7 @@ tools/daily_report.py
 Deterministic daily report builder — no LLM, no judgment, just an
 append-only event log per session date. The orchestrator's tick mode
 records what actually happened (stages run, orders placed, guards
-tripped, errors raised) into data/daily_report_<date>.json, and the
+tripped, errors raised) into data/reports/daily_report_<date>.json, and the
 GitHub Actions workflow commits that file once at the end of the day
 — so what the system did is readable on GitHub without digging
 through Action logs.
