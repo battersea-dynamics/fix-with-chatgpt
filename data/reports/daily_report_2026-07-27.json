@@ -1,0 +1,1211 @@
+{
+  "date": "2026-07-27",
+  "events": [
+    {
+      "at_et": "2026-07-27T08:46:58-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-07-27T08:53:14-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-07-27T09:31:59-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BKR",
+            "reason": "live ask $61.87 has reached or passed the original take-profit target $61.21"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QBTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WBD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T10:22:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1016.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "AGPU",
+          "STAK",
+          "ADVB",
+          "PN",
+          "VEEE",
+          "SIGA",
+          "FFAI",
+          "WLDS",
+          "TRAX",
+          "LEGN",
+          "AKAN"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T10:52:54-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1046.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "STAK",
+          "ADVB",
+          "AGPU",
+          "PN",
+          "SIGA",
+          "LEGN",
+          "FFAI",
+          "WLDS",
+          "TRAX",
+          "BXBL",
+          "AKAN"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T11:23:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1116.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "ADVB",
+          "AGPU",
+          "STAK",
+          "PN",
+          "LEGN",
+          "SIGA",
+          "FFAI",
+          "WLDS",
+          "TRAX",
+          "AKAN",
+          "VEEE"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T11:52:29-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1146.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "ADVB",
+          "AGPU",
+          "STAK",
+          "PN",
+          "LEGN",
+          "FFAI",
+          "SIGA",
+          "WLDS",
+          "TRAX",
+          "BXBL",
+          "AKAN"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T12:21:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1216.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "ADVB",
+          "AGPU",
+          "PN",
+          "STAK",
+          "FFAI",
+          "LEGN",
+          "SIGA",
+          "WLDS",
+          "BXBL",
+          "AKAN",
+          "TRAX"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T12:51:50-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1246.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "ADVB",
+          "AGPU",
+          "PN",
+          "STAK",
+          "FFAI",
+          "LEGN",
+          "WLDS",
+          "SIGA",
+          "BXBL",
+          "TRAX",
+          "NXTC"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T13:21:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1316.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "AGPU",
+          "ADVB",
+          "PN",
+          "FFAI",
+          "WLDS",
+          "STAK",
+          "LEGN",
+          "SIGA",
+          "TRAX",
+          "BXBL",
+          "NXTC"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T13:51:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1346.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "PN",
+          "ADVB",
+          "AGPU",
+          "WLDS",
+          "STAK",
+          "FFAI",
+          "LEGN",
+          "NXTC",
+          "TRAX",
+          "BXBL",
+          "SIGA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T14:21:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1416.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "WLDS",
+          "PN",
+          "ADVB",
+          "AGPU",
+          "FFAI",
+          "STAK",
+          "LEGN",
+          "NXTC",
+          "TRAX",
+          "BXBL",
+          "SIGA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T14:51:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1446.json",
+        "shortlist": [
+          "DFNS",
+          "CAPR",
+          "FBRX",
+          "WLDS",
+          "MPLT",
+          "ADVB",
+          "PN",
+          "FFAI",
+          "AGPU",
+          "STAK",
+          "LEGN",
+          "TRAX",
+          "PHG",
+          "BXBL",
+          "SIGA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T15:21:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1516.json",
+        "shortlist": [
+          "DFNS",
+          "CAPR",
+          "FBRX",
+          "MPLT",
+          "WLDS",
+          "FFAI",
+          "ADVB",
+          "PN",
+          "STAK",
+          "AGPU",
+          "LEGN",
+          "TRAX",
+          "PHG",
+          "BXBL",
+          "SIGA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T15:51:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-07-27/shortlist_1546.json",
+        "shortlist": [
+          "DFNS",
+          "FBRX",
+          "CAPR",
+          "MPLT",
+          "FFAI",
+          "PN",
+          "ADVB",
+          "STAK",
+          "WLDS",
+          "LEGN",
+          "AGPU",
+          "TRAX",
+          "PHG",
+          "BXBL",
+          "SIGA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AGPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIGA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-27T15:51:49-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

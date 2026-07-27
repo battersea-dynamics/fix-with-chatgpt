@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-27T08:49:29-04:00",
+  "session_date": "2026-07-27",
+  "reads": {
+    "MPLT": {
+      "symbol": "MPLT",
+      "pattern": "Collapse",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "FBRX": {
+      "symbol": "FBRX",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CAPR": {
+      "symbol": "CAPR",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "DFNS": {
+      "symbol": "DFNS",
+      "pattern": "Gap and Run Continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "TRAX": {
+      "symbol": "TRAX",
+      "pattern": "Gap and Run Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "STAK": {
+      "symbol": "STAK",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "OMER": {
+      "symbol": "OMER",
+      "pattern": "Bullish Engulfing Reversal",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "QBTS": {
+      "symbol": "QBTS",
+      "pattern": "Bullish Engulfing Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "LEGN": {
+      "symbol": "LEGN",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PAVS": {
+      "symbol": "PAVS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "WBD": {
+      "symbol": "WBD",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "BKR": {
+      "symbol": "BKR",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

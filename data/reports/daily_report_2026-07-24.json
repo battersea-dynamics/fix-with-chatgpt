@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-24",
+  "events": [
+    {
+      "at_et": "2026-07-24T08:46:30-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-07-24T08:52:01-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-07-24T09:31:35-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADVB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLR",
+            "reason": "live ask $203.74 has reached or passed the original take-profit target $192.14"
+          },
+          {
+            "symbol": "LW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "THC",
+            "reason": "live ask $254.10 has reached or passed the original take-profit target $238.23"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    }
+  ]
+}
