@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-07-28T12:47:14-04:00",
+  "universe_size": 2285,
+  "catalyst_flagged": 493,
+  "excluded_held": [],
+  "shortlist": [
+    {
+      "symbol": "DFNS",
+      "sector": "Technology",
+      "close": 26.83,
+      "rel_volume": 4.054428637931205,
+      "pct_change": 104.80916030534351,
+      "ma_distance": 115.08824390028818,
+      "score": 47.807261765221355,
+      "catalyst": null
+    },
+    {
+      "symbol": "INLF",
+      "sector": "Machinery",
+      "close": 5.09,
+      "rel_volume": 7.661527986895303,
+      "pct_change": 55.1829268292683,
+      "ma_distance": 12.560813799203881,
+      "score": 38.292633017063494,
+      "catalyst": null
+    },
+    {
+      "symbol": "REPL",
+      "sector": "Biotechnology",
+      "close": 5.975,
+      "rel_volume": 4.093154658558835,
+      "pct_change": -30.764774044032457,
+      "ma_distance": -43.513507125806534,
+      "score": 25.307206274234616,
+      "catalyst": null
+    },
+    {
+      "symbol": "WLDS",
+      "sector": "Technology",
+      "close": 4.2,
+      "rel_volume": 1.6656329897760551,
+      "pct_change": 32.075471698113205,
+      "ma_distance": 139.24807747080604,
+      "score": 23.64752350528558,
+      "catalyst": null
+    },
+    {
+      "symbol": "ITRI",
+      "sector": "Electrical Equipment",
+      "close": 97.77,
+      "rel_volume": 4.09787057356153,
+      "pct_change": 15.322009907997163,
+      "ma_distance": 15.529821866414581,
+      "score": 21.514377903113132,
+      "catalyst": {
+        "date": "2026-07-28",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "FFAI",
+      "sector": "Automobiles",
+      "close": 4.36,
+      "rel_volume": 2.9303674631552785,
+      "pct_change": -14.843749999999995,
+      "ma_distance": -82.07273699142699,
+      "score": 20.29130813276321,
+      "catalyst": null
+    },
+    {
+      "symbol": "MPLT",
+      "sector": "Biotechnology",
+      "close": 10.8,
+      "rel_volume": 3.1198134765411094,
+      "pct_change": 9.03584048460375,
+      "ma_distance": -69.59438059107961,
+      "score": 18.682626815103973,
+      "catalyst": null
+    },
+    {
+      "symbol": "CAPR",
+      "sector": "Biotechnology",
+      "close": 5.835,
+      "rel_volume": 2.6829117735296846,
+      "pct_change": -16.583273766976415,
+      "ma_distance": -71.53623824680788,
+      "score": 18.642441041232082,
+      "catalyst": null
+    },
+    {
+      "symbol": "KNSA",
+      "sector": "Biotechnology",
+      "close": 78.43,
+      "rel_volume": 2.3976325356207613,
+      "pct_change": 23.443771149759993,
+      "ma_distance": 23.99215859866571,
+      "score": 16.7062189185745,
+      "catalyst": {
+        "date": "2026-07-28",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "GLW",
+      "sector": "Electrical Equipment",
+      "close": 120.411,
+      "rel_volume": 2.379687727426901,
+      "pct_change": -16.007952008928577,
+      "ma_distance": -34.018115961883055,
+      "score": 15.836517991043584,
+      "catalyst": {
+        "date": "2026-07-28",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "AMKR",
+      "sector": "Semiconductors",
+      "close": 46.21,
+      "rel_volume": 2.4165176978580263,
+      "pct_change": -23.884038873332237,
+      "ma_distance": -33.03286765984579,
+      "score": 15.630593734733186,
+      "catalyst": null
+    },
+    {
+      "symbol": "IQV",
+      "sector": "Life Sciences Tools & Services",
+      "close": 240.79,
+      "rel_volume": 2.303154476629396,
+      "pct_change": 12.93030672544789,
+      "ma_distance": 17.369221470490743,
+      "score": 13.404045131565166,
+      "catalyst": {
+        "date": "2026-07-28",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "ENTX",
+      "sector": "Biotechnology",
+      "close": 3.37,
+      "rel_volume": 0.9025262416849578,
+      "pct_change": -14.030612244897956,
+      "ma_distance": 76.04806059814551,
+      "score": 11.220321106744368,
+      "catalyst": null
+    },
+    {
+      "symbol": "BIYA",
+      "sector": "Professional Services",
+      "close": 5.19,
+      "rel_volume": 1.3802042526599327,
+      "pct_change": 24.46043165467627,
+      "ma_distance": 29.940037304557933,
+      "score": 10.980721821462827,
+      "catalyst": null
+    },
+    {
+      "symbol": "ADVB",
+      "sector": "Health Care",
+      "close": 10.2055,
+      "rel_volume": 0.03274347458248048,
+      "pct_change": -28.93105849582172,
+      "ma_distance": 37.19854432821717,
+      "score": 10.967299041323756,
+      "catalyst": null
+    }
+  ]
+}

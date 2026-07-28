@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-28T08:48:49-04:00",
+  "session_date": "2026-07-28",
+  "reads": {
+    "MDT": {
+      "symbol": "MDT",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DFNS": {
+      "symbol": "DFNS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "INLF": {
+      "symbol": "INLF",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "FIEE": {
+      "symbol": "FIEE",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "REPL": {
+      "symbol": "REPL",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "IQV": {
+      "symbol": "IQV",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CPRT": {
+      "symbol": "CPRT",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "GLW": {
+      "symbol": "GLW",
+      "pattern": "panic exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "UL": {
+      "symbol": "UL",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "QMLS": {
+      "symbol": "QMLS",
+      "pattern": "Bullish Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "CORZ": {
+      "symbol": "CORZ",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "KO": {
+      "symbol": "KO",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    }
+  }
+}
