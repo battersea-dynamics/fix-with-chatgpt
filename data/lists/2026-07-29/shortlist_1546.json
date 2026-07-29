@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-07-29T15:47:26-04:00",
+  "universe_size": 2294,
+  "catalyst_flagged": 389,
+  "excluded_held": [],
+  "shortlist": [
+    {
+      "symbol": "STFS",
+      "sector": "Media",
+      "close": 4.94,
+      "rel_volume": 41.66080643233786,
+      "pct_change": 36.08815426997246,
+      "ma_distance": -56.95377366834451,
+      "score": 53.53346483489847,
+      "catalyst": null
+    },
+    {
+      "symbol": "DFNS",
+      "sector": "Technology",
+      "close": 44.3508,
+      "rel_volume": 2.4403126464992546,
+      "pct_change": 84.795,
+      "ma_distance": 252.27145461260764,
+      "score": 41.654062011718885,
+      "catalyst": null
+    },
+    {
+      "symbol": "CBZ",
+      "sector": "Professional Services",
+      "close": 55.005,
+      "rel_volume": 20.676952756126553,
+      "pct_change": 17.783725910064238,
+      "ma_distance": 39.32547271368685,
+      "score": 31.44506284038573,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "PSN",
+      "sector": "Professional Services",
+      "close": 39.325,
+      "rel_volume": 11.254528007550277,
+      "pct_change": -36.603256488795736,
+      "ma_distance": -30.41485662717757,
+      "score": 25.453887820983958,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "BAND",
+      "sector": "Telecommunication",
+      "close": 36.9919,
+      "rel_volume": 3.4657096119262825,
+      "pct_change": -29.20210526315789,
+      "ma_distance": -44.54279010846506,
+      "score": 17.09121216863138,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "LMND",
+      "sector": "Insurance",
+      "close": 47.61,
+      "rel_volume": 4.645339269302009,
+      "pct_change": -23.345677024633716,
+      "ma_distance": -29.833610894138797,
+      "score": 16.54936997587961,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "VRRM",
+      "sector": "Professional Services",
+      "close": 5.06,
+      "rel_volume": 5.863537555255593,
+      "pct_change": 21.052631578947366,
+      "ma_distance": 20.56948829451361,
+      "score": 15.27057104544939,
+      "catalyst": null
+    },
+    {
+      "symbol": "FVRR",
+      "sector": "Professional Services",
+      "close": 9.175,
+      "rel_volume": 4.7501063451133865,
+      "pct_change": -20.836928386540112,
+      "ma_distance": -16.625017038484252,
+      "score": 15.0736357457607,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "VRT",
+      "sector": "Electrical Equipment",
+      "close": 221.305,
+      "rel_volume": 3.994486524532081,
+      "pct_change": -17.901394865707076,
+      "ma_distance": -27.17822832877316,
+      "score": 14.56603247943065,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "CAPR",
+      "sector": "Biotechnology",
+      "close": 6.57,
+      "rel_volume": 5.290419136067599,
+      "pct_change": -6.075768406004286,
+      "ma_distance": -67.95082866864229,
+      "score": 14.359991571894264,
+      "catalyst": null
+    },
+    {
+      "symbol": "MNRO",
+      "sector": "Retail",
+      "close": 13.455,
+      "rel_volume": 3.54912898362326,
+      "pct_change": -21.773255813953483,
+      "ma_distance": -20.850613253330984,
+      "score": 13.840496038330215,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "AVTR",
+      "sector": "Life Sciences Tools & Services",
+      "close": 14.27,
+      "rel_volume": 3.3362544682696678,
+      "pct_change": 14.895330112721414,
+      "ma_distance": 31.879303174529834,
+      "score": 13.531541468943285,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "AAUC",
+      "sector": "Metals & Mining",
+      "close": 17.21,
+      "rel_volume": 5.166175015666689,
+      "pct_change": -17.418426103646826,
+      "ma_distance": -22.564679415073115,
+      "score": 13.17257257902467,
+      "catalyst": null
+    },
+    {
+      "symbol": "GRMN",
+      "sector": "Consumer products",
+      "close": 296.57,
+      "rel_volume": 3.309237398694055,
+      "pct_change": 16.920954070569678,
+      "ma_distance": 21.825680460733317,
+      "score": 13.12302163213004,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "STKH",
+      "sector": "Food Products",
+      "close": 2.83,
+      "rel_volume": 2.5573283023915363,
+      "pct_change": -21.38888888888889,
+      "ma_distance": 64.91360974330587,
+      "score": 13.059065483128943,
+      "catalyst": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-29T08:50:03-04:00",
+  "session_date": "2026-07-29",
+  "reads": {
+    "AAUC": {
+      "symbol": "AAUC",
+      "pattern": "breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "STFS": {
+      "symbol": "STFS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.75
+    },
+    "VRRM": {
+      "symbol": "VRRM",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "PSN": {
+      "symbol": "PSN",
+      "pattern": "gapping breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "VFC": {
+      "symbol": "VFC",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "STKH": {
+      "symbol": "STKH",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "EGG": {
+      "symbol": "EGG",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "BAND": {
+      "symbol": "BAND",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "CSGP": {
+      "symbol": "CSGP",
+      "pattern": "gap-and-go breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "CBZ": {
+      "symbol": "CBZ",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FVRR": {
+      "symbol": "FVRR",
+      "pattern": "Gap-and-Trap Reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "BTU": {
+      "symbol": "BTU",
+      "pattern": "Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}

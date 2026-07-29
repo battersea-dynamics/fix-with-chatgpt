@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-07-29T14:17:11-04:00",
+  "universe_size": 2294,
+  "catalyst_flagged": 389,
+  "excluded_held": [],
+  "shortlist": [
+    {
+      "symbol": "STFS",
+      "sector": "Media",
+      "close": 4.52,
+      "rel_volume": 38.3653155409225,
+      "pct_change": 24.517906336088146,
+      "ma_distance": -60.61357428763506,
+      "score": 54.196791028833374,
+      "catalyst": null
+    },
+    {
+      "symbol": "DFNS",
+      "sector": "Technology",
+      "close": 36.945,
+      "rel_volume": 1.5678905861682906,
+      "pct_change": 53.93750000000001,
+      "ma_distance": 193.44834570431175,
+      "score": 31.703092711143622,
+      "catalyst": null
+    },
+    {
+      "symbol": "CBZ",
+      "sector": "Professional Services",
+      "close": 54.96,
+      "rel_volume": 17.177283686369,
+      "pct_change": 17.687366167023548,
+      "ma_distance": 39.2114895072126,
+      "score": 31.12706778736097,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "PSN",
+      "sector": "Professional Services",
+      "close": 38.98,
+      "rel_volume": 9.280378862170558,
+      "pct_change": -37.159438981138166,
+      "ma_distance": -31.025330230829805,
+      "score": 26.98955457885284,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "VRRM",
+      "sector": "Professional Services",
+      "close": 5.16,
+      "rel_volume": 5.051501322181976,
+      "pct_change": 23.444976076555037,
+      "ma_distance": 22.952284505867645,
+      "score": 16.846986946311233,
+      "catalyst": null
+    },
+    {
+      "symbol": "LMND",
+      "sector": "Insurance",
+      "close": 48.83,
+      "rel_volume": 3.8199888574288035,
+      "pct_change": -21.381420061181778,
+      "ma_distance": -28.035606384389784,
+      "score": 16.828268725294215,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "BAND",
+      "sector": "Telecommunication",
+      "close": 38.005,
+      "rel_volume": 2.582033200513185,
+      "pct_change": -27.26315789473684,
+      "ma_distance": -43.02397925146356,
+      "score": 16.46798382735391,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "CAPR",
+      "sector": "Biotechnology",
+      "close": 6.57,
+      "rel_volume": 5.290419136067599,
+      "pct_change": -6.075768406004286,
+      "ma_distance": -67.95082866864229,
+      "score": 15.998503774292306,
+      "catalyst": null
+    },
+    {
+      "symbol": "FVRR",
+      "sector": "Professional Services",
+      "close": 9.19,
+      "rel_volume": 3.897130189538243,
+      "pct_change": -20.707506471095776,
+      "ma_distance": -16.488709164432738,
+      "score": 15.886012995215438,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "STKH",
+      "sector": "Food Products",
+      "close": 2.75,
+      "rel_volume": 2.447045963757106,
+      "pct_change": -23.611111111111114,
+      "ma_distance": 60.251740916639974,
+      "score": 14.771791542952498,
+      "catalyst": null
+    },
+    {
+      "symbol": "AAUC",
+      "sector": "Metals & Mining",
+      "close": 17.07,
+      "rel_volume": 4.184962488871157,
+      "pct_change": -18.090211132437616,
+      "ma_distance": -23.194600674915637,
+      "score": 14.221487619915838,
+      "catalyst": null
+    },
+    {
+      "symbol": "MPLT",
+      "sector": "Biotechnology",
+      "close": 15.535,
+      "rel_volume": 1.8731966811823744,
+      "pct_change": 26.198212835093415,
+      "ma_distance": -54.86668458247688,
+      "score": 13.631309395969605,
+      "catalyst": null
+    },
+    {
+      "symbol": "VRT",
+      "sector": "Electrical Equipment",
+      "close": 226.935,
+      "rel_volume": 3.1206224873098787,
+      "pct_change": -15.81280605431073,
+      "ma_distance": -25.32564219421223,
+      "score": 13.406057007912883,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "GRMN",
+      "sector": "Consumer products",
+      "close": 300.7851,
+      "rel_volume": 2.6175325600001838,
+      "pct_change": 18.582732111176817,
+      "ma_distance": 23.557168560372656,
+      "score": 13.084037293056749,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "VFC",
+      "sector": "Textiles, Apparel & Luxury Goods",
+      "close": 14.945,
+      "rel_volume": 3.2023283439523715,
+      "pct_change": -18.109589041095887,
+      "ma_distance": -11.363501571674279,
+      "score": 13.037491593383685,
+      "catalyst": {
+        "date": "2026-07-29",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    }
+  ]
+}

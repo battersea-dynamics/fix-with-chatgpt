@@ -1,0 +1,1211 @@
+{
+  "date": "2026-07-29",
+  "events": [
+    {
+      "at_et": "2026-07-29T08:46:02-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-07-29T08:53:16-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-07-29T09:31:22-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CSGP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EGG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T10:21:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1015",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1015.json",
+        "shortlist": [
+          "STFS",
+          "DFNS",
+          "CBZ",
+          "PSN",
+          "CAPR",
+          "VRRM",
+          "BAND",
+          "STKH",
+          "LMND",
+          "FVRR",
+          "EGG",
+          "MPLT",
+          "MANH",
+          "BLKB",
+          "AAUC"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EGG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLKB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T10:51:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1046.json",
+        "shortlist": [
+          "STFS",
+          "CBZ",
+          "DFNS",
+          "PSN",
+          "CAPR",
+          "VRRM",
+          "LMND",
+          "STKH",
+          "BAND",
+          "FVRR",
+          "BLKB",
+          "MPLT",
+          "MANH",
+          "AAUC",
+          "FFAI"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLKB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T11:22:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1116.json",
+        "shortlist": [
+          "STFS",
+          "CBZ",
+          "DFNS",
+          "PSN",
+          "VRRM",
+          "CAPR",
+          "LMND",
+          "BAND",
+          "STKH",
+          "FVRR",
+          "MPLT",
+          "BLKB",
+          "AAUC",
+          "EGG",
+          "MNRO"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLKB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EGG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T11:51:33-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1146.json",
+        "shortlist": [
+          "STFS",
+          "CBZ",
+          "DFNS",
+          "PSN",
+          "VRRM",
+          "CAPR",
+          "BAND",
+          "LMND",
+          "STKH",
+          "FVRR",
+          "MANH",
+          "EGG",
+          "AAUC",
+          "MPLT",
+          "FBRX"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EGG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T12:21:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1216.json",
+        "shortlist": [
+          "STFS",
+          "CBZ",
+          "DFNS",
+          "PSN",
+          "VRRM",
+          "CAPR",
+          "LMND",
+          "BAND",
+          "STKH",
+          "FVRR",
+          "MANH",
+          "AAUC",
+          "AVTR",
+          "FBRX",
+          "VRT"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T12:51:33-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1246.json",
+        "shortlist": [
+          "STFS",
+          "CBZ",
+          "DFNS",
+          "PSN",
+          "VRRM",
+          "CAPR",
+          "BAND",
+          "LMND",
+          "STKH",
+          "FVRR",
+          "AAUC",
+          "MANH",
+          "MPLT",
+          "VRT",
+          "FBRX"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FBRX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T13:21:28-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1315",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1315.json",
+        "shortlist": [
+          "STFS",
+          "CBZ",
+          "DFNS",
+          "PSN",
+          "VRRM",
+          "LMND",
+          "BAND",
+          "CAPR",
+          "FVRR",
+          "STKH",
+          "AAUC",
+          "VRT",
+          "VFC",
+          "MPLT",
+          "MANH"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T13:51:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1346.json",
+        "shortlist": [
+          "STFS",
+          "CBZ",
+          "PSN",
+          "DFNS",
+          "BAND",
+          "VRRM",
+          "LMND",
+          "CAPR",
+          "FVRR",
+          "STKH",
+          "AAUC",
+          "VFC",
+          "VRT",
+          "MPLT",
+          "AVTR"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVTR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T14:21:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1416.json",
+        "shortlist": [
+          "STFS",
+          "DFNS",
+          "CBZ",
+          "PSN",
+          "VRRM",
+          "LMND",
+          "BAND",
+          "CAPR",
+          "FVRR",
+          "STKH",
+          "AAUC",
+          "MPLT",
+          "VRT",
+          "GRMN",
+          "VFC"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VFC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T14:51:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1446.json",
+        "shortlist": [
+          "STFS",
+          "DFNS",
+          "CBZ",
+          "PSN",
+          "LMND",
+          "VRRM",
+          "CAPR",
+          "FVRR",
+          "BAND",
+          "AAUC",
+          "VRT",
+          "STKH",
+          "VFC",
+          "MNRO",
+          "GRMN"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRMN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T15:21:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1516.json",
+        "shortlist": [
+          "STFS",
+          "DFNS",
+          "CBZ",
+          "PSN",
+          "LMND",
+          "BAND",
+          "FVRR",
+          "VRRM",
+          "CAPR",
+          "VRT",
+          "MPLT",
+          "STKH",
+          "AAUC",
+          "MNRO",
+          "VFC"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VFC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T15:51:55-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-07-29/shortlist_1546.json",
+        "shortlist": [
+          "STFS",
+          "DFNS",
+          "CBZ",
+          "PSN",
+          "BAND",
+          "LMND",
+          "VRRM",
+          "FVRR",
+          "VRT",
+          "CAPR",
+          "MNRO",
+          "AVTR",
+          "AAUC",
+          "GRMN",
+          "STKH"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LMND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FVRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AAUC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-29T15:51:55-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
