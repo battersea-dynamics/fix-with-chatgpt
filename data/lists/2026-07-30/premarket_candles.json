@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-30T08:48:03-04:00",
+  "session_date": "2026-07-30",
+  "reads": {
+    "CROX": {
+      "symbol": "CROX",
+      "pattern": "breakdown gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ALNY": {
+      "symbol": "ALNY",
+      "pattern": "gapping breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "OMCL": {
+      "symbol": "OMCL",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "CAPR": {
+      "symbol": "CAPR",
+      "pattern": "Gap Down Exhaustion Reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PN": {
+      "symbol": "PN",
+      "pattern": "Gap and Go Breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "TAL": {
+      "symbol": "TAL",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "SIRI": {
+      "symbol": "SIRI",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "BAX": {
+      "symbol": "BAX",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "DFNS": {
+      "symbol": "DFNS",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.75
+    },
+    "TDOC": {
+      "symbol": "TDOC",
+      "pattern": "Gap-down continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "RTO": {
+      "symbol": "RTO",
+      "pattern": "breakdown continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "PRCH": {
+      "symbol": "PRCH",
+      "pattern": "Gap and run",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

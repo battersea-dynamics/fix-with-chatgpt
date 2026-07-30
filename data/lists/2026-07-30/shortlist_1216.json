@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-07-30T12:17:04-04:00",
+  "universe_size": 2301,
+  "catalyst_flagged": 214,
+  "excluded_held": [],
+  "shortlist": [
+    {
+      "symbol": "PN",
+      "sector": "Electrical Equipment",
+      "close": 17.16,
+      "rel_volume": 7.869103381759932,
+      "pct_change": 60.07462686567163,
+      "ma_distance": 208.2450152685468,
+      "score": 47.07227357962033,
+      "catalyst": null
+    },
+    {
+      "symbol": "DFNS",
+      "sector": "Technology",
+      "close": 83.35,
+      "rel_volume": 0.8339337602014073,
+      "pct_change": 65.96973317403425,
+      "ma_distance": 494.0015464707328,
+      "score": 45.903043063717746,
+      "catalyst": null
+    },
+    {
+      "symbol": "CAPR",
+      "sector": "Biotechnology",
+      "close": 3.52,
+      "rel_volume": 4.5533391759527895,
+      "pct_change": -46.42313546423136,
+      "ma_distance": -81.23942385844293,
+      "score": 27.95661442429577,
+      "catalyst": null
+    },
+    {
+      "symbol": "FFAI",
+      "sector": "Automobiles",
+      "close": 4.87,
+      "rel_volume": 5.8807430345663265,
+      "pct_change": 5.411255411255411,
+      "ma_distance": -76.93036475603978,
+      "score": 23.71673225804206,
+      "catalyst": null
+    },
+    {
+      "symbol": "BHC",
+      "sector": "Pharmaceuticals",
+      "close": 5.81,
+      "rel_volume": 5.891551662373792,
+      "pct_change": 24.145299145299145,
+      "ma_distance": 22.94995238599091,
+      "score": 23.40313284030901,
+      "catalyst": null
+    },
+    {
+      "symbol": "TDOC",
+      "sector": "Health Care",
+      "close": 6.7034,
+      "rel_volume": 3.6497555886292945,
+      "pct_change": -26.978213507625266,
+      "ma_distance": -27.675459891028748,
+      "score": 18.2215235462779,
+      "catalyst": null
+    },
+    {
+      "symbol": "ALNY",
+      "sector": "Biotechnology",
+      "close": 203.58,
+      "rel_volume": 2.963579159975132,
+      "pct_change": -28.97215825832112,
+      "ma_distance": -29.656645093967356,
+      "score": 17.96387963345854,
+      "catalyst": {
+        "date": "2026-07-30",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "CMCO",
+      "sector": "Machinery",
+      "close": 20.41,
+      "rel_volume": 2.1148600608754933,
+      "pct_change": 39.60328317373462,
+      "ma_distance": 41.57880133185349,
+      "score": 17.10529669589862,
+      "catalyst": {
+        "date": "2026-07-30",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "RTO",
+      "sector": "Commercial Services & Supplies",
+      "close": 24.145,
+      "rel_volume": 3.5614223918756576,
+      "pct_change": -17.957866123003736,
+      "ma_distance": -18.61053057372077,
+      "score": 15.714371528502044,
+      "catalyst": null
+    },
+    {
+      "symbol": "PHAT",
+      "sector": "Pharmaceuticals",
+      "close": 9.58,
+      "rel_volume": 2.8516439230447626,
+      "pct_change": -17.697594501718218,
+      "ma_distance": -16.07350139074443,
+      "score": 14.670447715903993,
+      "catalyst": {
+        "date": "2026-07-30",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "REPL",
+      "sector": "Biotechnology",
+      "close": 5.41,
+      "rel_volume": 3.298173781752435,
+      "pct_change": 1.1214953271028132,
+      "ma_distance": -47.40040349043534,
+      "score": 13.508286893733455,
+      "catalyst": null
+    },
+    {
+      "symbol": "CORT",
+      "sector": "Pharmaceuticals",
+      "close": 120.44,
+      "rel_volume": 2.026440814389098,
+      "pct_change": 29.57504034427111,
+      "ma_distance": 31.128978698617825,
+      "score": 12.331595808228574,
+      "catalyst": null
+    },
+    {
+      "symbol": "MAIR",
+      "sector": "Building",
+      "close": 28.64,
+      "rel_volume": 2.222793109535017,
+      "pct_change": -9.481668773704172,
+      "ma_distance": -18.478879653876803,
+      "score": 10.930191239691034,
+      "catalyst": {
+        "date": "2026-07-30",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    },
+    {
+      "symbol": "FOSL",
+      "sector": "Textiles, Apparel & Luxury Goods",
+      "close": 5.1,
+      "rel_volume": 2.2705146053129583,
+      "pct_change": 15.909090909090892,
+      "ma_distance": 22.906374261959243,
+      "score": 10.413989695175358,
+      "catalyst": null
+    },
+    {
+      "symbol": "BAX",
+      "sector": "Health Care",
+      "close": 26.935,
+      "rel_volume": 2.0927458291410477,
+      "pct_change": 8.740411788453772,
+      "ma_distance": 19.2104273163823,
+      "score": 10.232397935690766,
+      "catalyst": {
+        "date": "2026-07-30",
+        "hour": "bmo",
+        "days_until": 0
+      }
+    }
+  ]
+}

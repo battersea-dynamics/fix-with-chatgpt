@@ -1,0 +1,1211 @@
+{
+  "date": "2026-07-30",
+  "events": [
+    {
+      "at_et": "2026-07-30T08:45:56-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-07-30T08:51:16-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-07-30T09:31:05-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAX",
+            "reason": "live ask $31.01 has reached or passed the original take-profit target $29.86"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRCH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIRI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T10:21:29-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1016.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "FFAI",
+          "REPL",
+          "BHC",
+          "CMCO",
+          "ALNY",
+          "TDOC",
+          "CORT",
+          "PHAT",
+          "INLF",
+          "RTO",
+          "SPRC",
+          "MAIR"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SPRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T10:51:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1046.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "FFAI",
+          "BHC",
+          "REPL",
+          "TDOC",
+          "CMCO",
+          "ALNY",
+          "RTO",
+          "CORT",
+          "PHAT",
+          "BAX",
+          "SPRC",
+          "MSFT"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SPRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSFT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T11:21:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1116.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "FFAI",
+          "BHC",
+          "TDOC",
+          "CMCO",
+          "ALNY",
+          "REPL",
+          "RTO",
+          "CORT",
+          "PHAT",
+          "FOSL",
+          "BAX",
+          "MAIR"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T11:51:26-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1145",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1145.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "FFAI",
+          "BHC",
+          "CMCO",
+          "TDOC",
+          "ALNY",
+          "RTO",
+          "REPL",
+          "PHAT",
+          "CORT",
+          "FOSL",
+          "MAIR",
+          "BAX"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T12:21:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1216.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "FFAI",
+          "BHC",
+          "TDOC",
+          "ALNY",
+          "CMCO",
+          "RTO",
+          "PHAT",
+          "REPL",
+          "CORT",
+          "MAIR",
+          "FOSL",
+          "BAX"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T12:51:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1246.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "BHC",
+          "FFAI",
+          "CMCO",
+          "ALNY",
+          "TDOC",
+          "PHAT",
+          "RTO",
+          "REPL",
+          "CORT",
+          "MAIR",
+          "BAX",
+          "MDXG"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDXG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T13:21:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1316.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "BHC",
+          "FFAI",
+          "ALNY",
+          "CMCO",
+          "PHAT",
+          "TDOC",
+          "RTO",
+          "REPL",
+          "CORT",
+          "MDXG",
+          "MAIR",
+          "TW"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDXG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TW",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T13:51:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1345",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1345.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "BHC",
+          "FFAI",
+          "ALNY",
+          "CMCO",
+          "PHAT",
+          "TDOC",
+          "RTO",
+          "CORT",
+          "REPL",
+          "MAIR",
+          "MDXG",
+          "TW"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDXG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TW",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T14:21:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1416.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "BHC",
+          "FFAI",
+          "ALNY",
+          "CMCO",
+          "PHAT",
+          "TDOC",
+          "RTO",
+          "CORT",
+          "TW",
+          "MAIR",
+          "REPL",
+          "APXT"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T14:51:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1445",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1445.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "BHC",
+          "FFAI",
+          "ALNY",
+          "PHAT",
+          "CMCO",
+          "TDOC",
+          "RTO",
+          "CORT",
+          "TW",
+          "MAIR",
+          "LKQ",
+          "REPL"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LKQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T15:21:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1515",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1515.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "BHC",
+          "FFAI",
+          "ALNY",
+          "PHAT",
+          "CMCO",
+          "TDOC",
+          "RTO",
+          "CORT",
+          "TW",
+          "LKQ",
+          "MDXG",
+          "MAIR"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LKQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDXG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T15:51:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-07-30/shortlist_1546.json",
+        "shortlist": [
+          "PN",
+          "DFNS",
+          "CAPR",
+          "BHC",
+          "ALNY",
+          "FFAI",
+          "CMCO",
+          "PHAT",
+          "TDOC",
+          "RTO",
+          "TW",
+          "CORT",
+          "LKQ",
+          "COUR",
+          "MAIR"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LKQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAIR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-30T15:51:40-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
