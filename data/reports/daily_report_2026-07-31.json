@@ -1,0 +1,1211 @@
+{
+  "date": "2026-07-31",
+  "events": [
+    {
+      "at_et": "2026-07-31T08:46:04-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-07-31T08:51:34-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-07-31T09:31:20-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AXTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COHU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDDY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T10:21:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1016.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "REPL",
+          "DFNS",
+          "MYGN",
+          "PN",
+          "RBLX",
+          "APXT",
+          "NWL",
+          "NUWE",
+          "GLUE",
+          "RDDT",
+          "SKYT",
+          "VCYT",
+          "AXTI"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXTI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T10:51:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1046.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "REPL",
+          "MYGN",
+          "DFNS",
+          "PN",
+          "RBLX",
+          "NWL",
+          "RDDT",
+          "NUWE",
+          "GLUE",
+          "APXT",
+          "WU",
+          "VCYT",
+          "SKYT"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T11:21:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1116.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "REPL",
+          "FFAI",
+          "MYGN",
+          "RBLX",
+          "DFNS",
+          "PN",
+          "RDDT",
+          "GLUE",
+          "NUWE",
+          "NWL",
+          "BSBR",
+          "WU",
+          "VCYT"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T11:51:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1146.json",
+        "shortlist": [
+          "KPTI",
+          "FFAI",
+          "BIOA",
+          "REPL",
+          "MYGN",
+          "RBLX",
+          "PN",
+          "DFNS",
+          "RDDT",
+          "NUWE",
+          "GLUE",
+          "NWL",
+          "BSBR",
+          "WU",
+          "VCYT"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T12:21:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1216.json",
+        "shortlist": [
+          "KPTI",
+          "FFAI",
+          "BIOA",
+          "REPL",
+          "MYGN",
+          "RBLX",
+          "PN",
+          "DFNS",
+          "RDDT",
+          "GLUE",
+          "NUWE",
+          "NWL",
+          "BSBR",
+          "WU",
+          "BHC"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T12:51:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1245",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1245.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "FFAI",
+          "REPL",
+          "MYGN",
+          "PN",
+          "RBLX",
+          "DFNS",
+          "GLUE",
+          "RDDT",
+          "NUWE",
+          "NWL",
+          "BSBR",
+          "WU",
+          "BHC"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T13:21:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1316.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "FFAI",
+          "REPL",
+          "MYGN",
+          "PN",
+          "RBLX",
+          "DFNS",
+          "GLUE",
+          "RDDT",
+          "NUWE",
+          "NWL",
+          "AMBA",
+          "BHC",
+          "WU"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T13:51:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1346.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "FFAI",
+          "REPL",
+          "MYGN",
+          "PN",
+          "RBLX",
+          "DFNS",
+          "GLUE",
+          "RDDT",
+          "NUWE",
+          "BHC",
+          "NWL",
+          "AMBA",
+          "WU"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T14:21:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1416.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "FFAI",
+          "REPL",
+          "MYGN",
+          "PN",
+          "RBLX",
+          "DFNS",
+          "GLUE",
+          "RDDT",
+          "BHC",
+          "NUWE",
+          "WU",
+          "AMBA",
+          "NWL"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T14:51:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1446.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "REPL",
+          "FFAI",
+          "MYGN",
+          "PN",
+          "RBLX",
+          "DFNS",
+          "GLUE",
+          "BHC",
+          "RDDT",
+          "NUWE",
+          "WU",
+          "NWL",
+          "AMBA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T15:21:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1516.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "REPL",
+          "FFAI",
+          "MYGN",
+          "PN",
+          "RBLX",
+          "DFNS",
+          "GLUE",
+          "RDDT",
+          "BHC",
+          "NUWE",
+          "WU",
+          "VCYT",
+          "AMBA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T15:51:53-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-07-31/shortlist_1546.json",
+        "shortlist": [
+          "KPTI",
+          "BIOA",
+          "REPL",
+          "MYGN",
+          "FFAI",
+          "PN",
+          "RBLX",
+          "DFNS",
+          "GLUE",
+          "RDDT",
+          "BHC",
+          "NUWE",
+          "WU",
+          "AMBA",
+          "VCYT"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KPTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-07-31T15:51:53-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

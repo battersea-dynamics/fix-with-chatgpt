@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-31T08:48:21-04:00",
+  "session_date": "2026-07-31",
+  "reads": {
+    "BIOA": {
+      "symbol": "BIOA",
+      "pattern": "gapped exhaustion reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "KPTI": {
+      "symbol": "KPTI",
+      "pattern": "gap-down exhaustion breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "REPL": {
+      "symbol": "REPL",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "MYGN": {
+      "symbol": "MYGN",
+      "pattern": "gap-down exhaustion reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "GLUE": {
+      "symbol": "GLUE",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "RBLX": {
+      "symbol": "RBLX",
+      "pattern": "gap-and-go breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "AXTI": {
+      "symbol": "AXTI",
+      "pattern": "Gap and Go Continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "NWL": {
+      "symbol": "NWL",
+      "pattern": "Breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "NVT": {
+      "symbol": "NVT",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "COHU": {
+      "symbol": "COHU",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "GDDY": {
+      "symbol": "GDDY",
+      "pattern": "continuation gap down",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "RDDT": {
+      "symbol": "RDDT",
+      "pattern": "Breakdown gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}
