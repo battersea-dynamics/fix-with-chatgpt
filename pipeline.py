@@ -43,6 +43,7 @@ from tools.broker import get_account, get_positions
 from tools.datapaths import list_path
 from tools.catalysts import build_catalyst_report, prescan_earnings
 from tools.market_calendar import ET
+from tools.scan_history import build_momentum_shadow
 from tools.scanner import ScanResult, scan
 from tools.universe_builder import load_universe
 
@@ -102,12 +103,20 @@ def daily_scan(
     shortlist = [r for r in ranked if r.symbol not in held][:top_n]
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    generated_at = datetime.now(ET)
+    momentum_shadow = build_momentum_shadow(
+        current=shortlist,
+        generated_at=generated_at,
+        lists_dir=output_path.parent,
+        current_output_path=output_path,
+    )
     output_path.write_text(json.dumps({
-        "generated_at": datetime.now(ET).isoformat(timespec="seconds"),
+        "generated_at": generated_at.isoformat(timespec="seconds"),
         "universe_size": len(universe),
         "catalyst_flagged": len(flagged),
         "excluded_held": sorted(held & {r.symbol for r in ranked}),
         "shortlist": [r.to_dict() for r in shortlist],
+        "momentum_shadow": momentum_shadow,
     }, indent=2))
 
     print(f"scan: {len(universe)} symbols -> shortlist of {len(shortlist)} "

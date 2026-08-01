@@ -60,6 +60,9 @@ stage 1: daily_scan          python pipeline.py scan
   catalysts prescan  - one bulk Finnhub call: earnings in the next 1-3 days?
   scanner            - rel volume + % change + MA distance, z-scored, plus
                        an absolute-volume kicker and a catalyst boost
+  momentum shadow    - same-session persistence, price/rank development,
+                       observed-high drawdown and provisional setup label;
+                       recorded only, does not affect the debate or orders
   -> data/lists/<date>/shortlist_<HHMM>.json
 
 stage 2: check_shortlist     python pipeline.py check [--submit]
@@ -190,7 +193,12 @@ pre-market scan/news/candles/cases/decisions), `data/reports/` holds the daily r
 
 ## Roadmap / known gaps
 
-Nothing in this section is built yet — it exists so the README never implies more safety or automation than exists, and so the ordering below has a recorded rationale.
+The full regular-session momentum/debate tuning sequence is recorded in
+[`docs/momentum-tuning-plan.md`](docs/momentum-tuning-plan.md). Its first phase
+is active in shadow mode only: shortlist archives now contain same-session
+momentum context marked `affects_decisions: false`. The priority items below
+remain future builds; the shadow recorder does not add trading authority or
+change any existing decision or safety threshold.
 
 **On the external review (July 2026):** an outside architecture review validated the core design — the separation of *evidence gathering → judgment → decision → execution* into distinct stages, the deterministic (no-LLM) trader and execution layers, and the dry-run-by-default posture — and flagged **portfolio-level risk as the main missing piece**. The priority order below reflects that review together with our own assessment; it's why the list is ordered the way it is, not just what's on it.
 
