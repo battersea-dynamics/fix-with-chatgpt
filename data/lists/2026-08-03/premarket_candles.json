@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-03T08:48:46-04:00",
+  "session_date": "2026-08-03",
+  "reads": {
+    "UPC": {
+      "symbol": "UPC",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ITGR": {
+      "symbol": "ITGR",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FCUV": {
+      "symbol": "FCUV",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "SUPN": {
+      "symbol": "SUPN",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "SITC": {
+      "symbol": "SITC",
+      "pattern": "indecision",
+      "bias": "neutral",
+      "conviction": 0.5
+    },
+    "SRAD": {
+      "symbol": "SRAD",
+      "pattern": "breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "GME": {
+      "symbol": "GME",
+      "pattern": "Breakdown Reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CNH": {
+      "symbol": "CNH",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "RCKT": {
+      "symbol": "RCKT",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "AZN": {
+      "symbol": "AZN",
+      "pattern": "breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "FERG": {
+      "symbol": "FERG",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "TGTX": {
+      "symbol": "TGTX",
+      "pattern": "Bearish Gap and Crap",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

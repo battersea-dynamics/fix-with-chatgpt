@@ -1,0 +1,786 @@
+{
+  "date": "2026-08-03",
+  "events": [
+    {
+      "at_et": "2026-08-03T08:46:37-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-03T08:51:59-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-03T09:31:36-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AZN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCKT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SITC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T10:22:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-03/shortlist_1016.json",
+        "shortlist": [
+          "UPC",
+          "FCUV",
+          "DFNS",
+          "ITGR",
+          "WETO",
+          "PN",
+          "LNTH",
+          "GME",
+          "FFAI",
+          "FERG",
+          "SRAD",
+          "FOSL",
+          "LBGJ",
+          "BCAR",
+          "CNH"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LNTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BCAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T10:52:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-03/shortlist_1046.json",
+        "shortlist": [
+          "UPC",
+          "FCUV",
+          "ITGR",
+          "DFNS",
+          "WETO",
+          "PN",
+          "LNTH",
+          "FERG",
+          "GME",
+          "SRAD",
+          "FOSL",
+          "LBGJ",
+          "FFAI",
+          "CNH",
+          "BIOA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LNTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T11:16:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+      }
+    },
+    {
+      "at_et": "2026-08-03T11:46:54-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+      }
+    },
+    {
+      "at_et": "2026-08-03T12:17:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+      }
+    },
+    {
+      "at_et": "2026-08-03T12:51:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-03/shortlist_1246.json",
+        "shortlist": [
+          "UPC",
+          "DFNS",
+          "FCUV",
+          "ITGR",
+          "GME",
+          "WETO",
+          "LNTH",
+          "PN",
+          "FERG",
+          "FFAI",
+          "SRAD",
+          "BIOA",
+          "FOSL",
+          "SUPN",
+          "LBGJ"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LNTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T13:22:03-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-03/shortlist_1316.json",
+        "shortlist": [
+          "UPC",
+          "DFNS",
+          "FCUV",
+          "ITGR",
+          "GME",
+          "WETO",
+          "LNTH",
+          "PN",
+          "FERG",
+          "SRAD",
+          "FFAI",
+          "BIOA",
+          "FOSL",
+          "FIP",
+          "AZN"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LNTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AZN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T13:52:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-03/shortlist_1346.json",
+        "shortlist": [
+          "UPC",
+          "DFNS",
+          "ITGR",
+          "FCUV",
+          "GME",
+          "WETO",
+          "LNTH",
+          "FERG",
+          "PN",
+          "SRAD",
+          "NEXR",
+          "FFAI",
+          "FOSL",
+          "FIP",
+          "BIOA"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LNTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEXR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIOA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T14:22:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-03/shortlist_1416.json",
+        "shortlist": [
+          "UPC",
+          "DFNS",
+          "ITGR",
+          "FCUV",
+          "GME",
+          "LNTH",
+          "FFAI",
+          "WETO",
+          "FERG",
+          "SRAD",
+          "PN",
+          "FOSL",
+          "NEXR",
+          "AZN",
+          "FIP"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LNTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEXR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AZN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T14:51:59-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-03/shortlist_1446.json",
+        "shortlist": [
+          "UPC",
+          "DFNS",
+          "ITGR",
+          "FCUV",
+          "GME",
+          "NEXR",
+          "WETO",
+          "FFAI",
+          "LNTH",
+          "PN",
+          "SRAD",
+          "FERG",
+          "FOSL",
+          "FIP",
+          "SUPN"
+        ],
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEXR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LNTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FERG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-03T15:16:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+      }
+    },
+    {
+      "at_et": "2026-08-03T15:46:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+      }
+    },
+    {
+      "at_et": "2026-08-03T15:46:43-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
