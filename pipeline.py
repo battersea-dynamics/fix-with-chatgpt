@@ -41,7 +41,11 @@ from pathlib import Path
 
 from tools.broker import get_account, get_positions
 from tools.datapaths import list_path
-from tools.catalysts import build_catalyst_report, prescan_earnings
+from tools.catalysts import (
+    build_catalyst_report,
+    partition_complete_evidence,
+    prescan_earnings,
+)
 from tools.market_calendar import ET
 from tools.scan_history import build_momentum_shadow
 from tools.scanner import ScanResult, scan
@@ -91,7 +95,12 @@ def daily_scan(
         output_path = list_path("shortlist.json")
     held = held_symbols()               # no state file written here
     universe = load_universe()          # cached daily, rebuilt when stale
-    flagged = prescan_earnings(universe, days_ahead=3)
+    prescan_warnings: list[dict] = []
+    flagged = prescan_earnings(
+        universe,
+        days_ahead=3,
+        diagnostics=prescan_warnings,
+    )
 
     # Over-fetch by the number of holdings, then drop held names and
     # trim back to top_n: a slot spent on a stock we already own is a
@@ -114,6 +123,10 @@ def daily_scan(
         "generated_at": generated_at.isoformat(timespec="seconds"),
         "universe_size": len(universe),
         "catalyst_flagged": len(flagged),
+        "catalyst_prescan": {
+            "ok": not prescan_warnings,
+            "warnings": prescan_warnings,
+        },
         "excluded_held": sorted(held & {r.symbol for r in ranked}),
         "shortlist": [r.to_dict() for r in shortlist],
         "momentum_shadow": momentum_shadow,
@@ -178,9 +191,17 @@ def check_shortlist(
     symbols = [r.symbol for r in shortlist]
 
     catalyst_report = build_catalyst_report(symbols)
-    decisions = analyze_shortlist(shortlist, catalyst_report)
+    evidence_ready, evidence_skips = partition_complete_evidence(
+        shortlist,
+        catalyst_report,
+    )
+    for skip in evidence_skips:
+        print(f"[catalysts] {skip['symbol']}: {skip['reason']}",
+              file=sys.stderr)
+
+    decisions = analyze_shortlist(evidence_ready, catalyst_report)
     reference_prices = {r.symbol: r.close for r in shortlist}
-    report = execute_signals(
+    report = evidence_skips + execute_signals(
         decisions,
         submit=submit,
         reference_prices=reference_prices,
@@ -224,10 +245,15 @@ def daytime_cycle(submit: bool = False) -> dict:
         submit=submit,
         record_id=cycle_id,
     )
+    shortlist_payload = json.loads(shortlist_path.read_text())
     return {
         "cycle_id": cycle_id,
         "shortlist_file": str(shortlist_path),
         "shortlist": [r.symbol for r in shortlist],
+        "catalyst_prescan": shortlist_payload.get("catalyst_prescan", {
+            "ok": True,
+            "warnings": [],
+        }),
         "execution_report": report,
     }
 

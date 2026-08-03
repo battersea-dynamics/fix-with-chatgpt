@@ -19,10 +19,9 @@ The scanner (stage 1) answers "what is moving?" — this module answers
                here; interpreting headlines is precisely the judgment
                call we're saving the LLM for.
 
-This runs only on the 10-20 shortlisted names, not the whole universe:
-Finnhub's free tier is rate-limited (60 calls/min) and needs one call
-per symbol per endpoint. 143 tickers would blow through that; 15 fits
-comfortably.
+This runs only on the 10-20 shortlisted names, not the whole universe.
+Earnings are fetched once in bulk for the complete shortlist window; news
+still needs one call per symbol. Finnhub traffic is paced and retried centrally.
 
 Plain dicts out. Like the scanner, there is deliberately no LLM here —
 gathering evidence and judging evidence are separate stages.
@@ -59,7 +58,26 @@ _corp_actions_client = CorporateActionsClient(
 # retries live here and every caller inherits them.
 _MIN_CALL_INTERVAL = 1.1   # seconds; ~55 calls/min, under the 60 cap
 _RETRIES = 3
+_RETRY_BACKOFF_SECONDS = 5
+_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 _last_call_time = 0.0
+_session = requests.Session()
+
+
+class FinnhubUnavailableError(RuntimeError):
+    """Finnhub remained temporarily unavailable after bounded retries."""
+
+
+def _retry_delay(attempt: int, response=None) -> float:
+    """Bounded linear backoff, honouring Retry-After when supplied."""
+    if response is not None:
+        retry_after = response.headers.get("Retry-After")
+        if retry_after:
+            try:
+                return min(float(retry_after), 30.0)
+            except ValueError:
+                pass
+    return _RETRY_BACKOFF_SECONDS * (attempt + 1)
 
 
 def _finnhub_get(path: str, params: dict) -> dict | list:
@@ -78,24 +96,41 @@ def _finnhub_get(path: str, params: dict) -> dict | list:
         _last_call_time = time.monotonic()
 
         try:
-            response = requests.get(
+            response = _session.get(
                 f"{FINNHUB_BASE}/{path}",
                 params={**params, "token": key},
-                timeout=15,
+                timeout=(5, 15),
             )
-            if response.status_code == 429 and attempt < _RETRIES - 1:
-                print(f"[catalysts] 429 from finnhub/{path}, backing off",
-                      file=sys.stderr)
-                time.sleep(10 * (attempt + 1))
+            if response.status_code in _RETRYABLE_STATUS_CODES:
+                if attempt == _RETRIES - 1:
+                    raise FinnhubUnavailableError(
+                        f"finnhub/{path} returned HTTP "
+                        f"{response.status_code} after {_RETRIES} attempts"
+                    )
+                delay = _retry_delay(attempt, response)
+                print(
+                    f"[catalysts] HTTP {response.status_code} from "
+                    f"finnhub/{path}; retrying in {delay:g}s",
+                    file=sys.stderr,
+                )
+                time.sleep(delay)
                 continue
             response.raise_for_status()
             return response.json()
-        except requests.exceptions.ConnectionError:
+        except (requests.exceptions.ConnectionError,
+                requests.exceptions.Timeout) as exc:
             if attempt == _RETRIES - 1:
-                raise
-            print(f"[catalysts] connection reset on finnhub/{path}, retrying",
-                  file=sys.stderr)
-            time.sleep(5 * (attempt + 1))
+                raise FinnhubUnavailableError(
+                    f"finnhub/{path} unavailable after {_RETRIES} attempts "
+                    f"({type(exc).__name__})"
+                ) from exc
+            delay = _retry_delay(attempt)
+            print(
+                f"[catalysts] {type(exc).__name__} on finnhub/{path}; "
+                f"retrying in {delay:g}s",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
 
 
 def get_upcoming_earnings(symbol: str) -> list[dict]:
@@ -115,6 +150,35 @@ def get_upcoming_earnings(symbol: str) -> list[dict]:
         }
         for e in data.get("earningsCalendar", [])
     ]
+
+
+def get_upcoming_earnings_bulk(
+    symbols: list[str],
+) -> dict[str, list[dict]]:
+    """One Finnhub request for all shortlisted symbols' earnings.
+
+    The calendar endpoint without a symbol returns the complete date window.
+    Intersecting locally replaces one request per stock with one request for
+    the cycle, reducing both latency and exposure to transient failures.
+    """
+    today = date.today()
+    data = _finnhub_get("calendar/earnings", {
+        "from": today.isoformat(),
+        "to": (today + timedelta(days=EARNINGS_AHEAD_DAYS)).isoformat(),
+    })
+    requested = set(symbols)
+    earnings = {symbol: [] for symbol in symbols}
+    for event in data.get("earningsCalendar", []):
+        symbol = event.get("symbol")
+        if symbol not in requested:
+            continue
+        earnings[symbol].append({
+            "date": event.get("date"),
+            "hour": event.get("hour"),
+            "eps_estimate": event.get("epsEstimate"),
+            "revenue_estimate": event.get("revenueEstimate"),
+        })
+    return earnings
 
 
 def get_recent_news(symbol: str) -> list[dict]:
@@ -197,6 +261,7 @@ def get_upcoming_dividends(symbols: list[str]) -> dict[str, list[dict]]:
 def prescan_earnings(
     universe: list[str],
     days_ahead: int = 3,
+    diagnostics: list[dict] | None = None,
 ) -> dict[str, dict]:
     """
     PRE-SCAN mode: which of the (possibly thousands of) universe
@@ -217,10 +282,23 @@ def prescan_earnings(
     later see *why* something was flagged.
     """
     today = date.today()
-    data = _finnhub_get("calendar/earnings", {
-        "from": today.isoformat(),
-        "to": (today + timedelta(days=days_ahead)).isoformat(),
-    })
+    try:
+        data = _finnhub_get("calendar/earnings", {
+            "from": today.isoformat(),
+            "to": (today + timedelta(days=days_ahead)).isoformat(),
+        })
+    except FinnhubUnavailableError as exc:
+        warning = {
+            "source": "finnhub",
+            "operation": "earnings_prescan",
+            "error": str(exc),
+            "fallback": "scan continued without catalyst boost",
+        }
+        if diagnostics is not None:
+            diagnostics.append(warning)
+        print(f"[catalysts] {warning['error']}; "
+              f"{warning['fallback']}", file=sys.stderr)
+        return {}
     universe_set = set(universe)
     flagged: dict[str, dict] = {}
     for event in data.get("earningsCalendar", []):
@@ -242,19 +320,77 @@ def prescan_earnings(
 
 def build_catalyst_report(symbols: list[str]) -> dict[str, dict]:
     """
-    One dict per symbol: {"earnings": [...], "dividends": [...],
-    "news": [...]}. This is the blob the signal agent gets alongside
-    the scanner metrics.
+    One dict per symbol with evidence and explicit source status. Temporary
+    Finnhub failure is represented as incomplete data, never as an empty but
+    successful "no catalyst" result. The pipeline deterministically skips
+    incomplete symbols before the debate, so no order can be based on missing
+    evidence while healthy symbols continue through the cycle.
     """
     dividends = get_upcoming_dividends(symbols)
-    report = {}
-    for symbol in symbols:
-        report[symbol] = {
-            "earnings": get_upcoming_earnings(symbol),
+    report = {
+        symbol: {
+            "earnings": [],
             "dividends": dividends.get(symbol, []),
-            "news": get_recent_news(symbol),
+            "news": [],
+            "data_status": {
+                "earnings": "pending",
+                "dividends": "ok",
+                "news": "pending",
+            },
+            "data_complete": True,
+            "data_errors": [],
         }
+        for symbol in symbols
+    }
+
+    try:
+        earnings = get_upcoming_earnings_bulk(symbols)
+    except FinnhubUnavailableError as exc:
+        for symbol in symbols:
+            report[symbol]["data_status"]["earnings"] = "unavailable"
+            report[symbol]["data_complete"] = False
+            report[symbol]["data_errors"].append(str(exc))
+    else:
+        for symbol in symbols:
+            report[symbol]["earnings"] = earnings.get(symbol, [])
+            report[symbol]["data_status"]["earnings"] = "ok"
+
+    for symbol in symbols:
+        try:
+            report[symbol]["news"] = get_recent_news(symbol)
+            report[symbol]["data_status"]["news"] = "ok"
+        except FinnhubUnavailableError as exc:
+            report[symbol]["data_status"]["news"] = "unavailable"
+            report[symbol]["data_complete"] = False
+            report[symbol]["data_errors"].append(str(exc))
     return report
+
+
+def partition_complete_evidence(
+    candidates: list,
+    catalyst_report: dict[str, dict],
+) -> tuple[list, list[dict]]:
+    """Separate debate-ready candidates from deterministic safety skips."""
+    ready = []
+    skips = []
+    for candidate in candidates:
+        evidence = catalyst_report.get(candidate.symbol, {})
+        if evidence.get("data_complete", False):
+            ready.append(candidate)
+            continue
+        errors = evidence.get("data_errors") or [
+            "Finnhub catalyst evidence unavailable"
+        ]
+        skips.append({
+            "symbol": candidate.symbol,
+            "action": "skipped",
+            "reason": (
+                "incomplete catalyst evidence; debate and order skipped: "
+                + "; ".join(errors)
+            ),
+            "source": "catalyst_evidence",
+        })
+    return ready, skips
 
 
 if __name__ == "__main__":

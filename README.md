@@ -103,6 +103,7 @@ one-cancels-other) — nothing watches positions after entry; the broker does.
 | GTC bracket orders | broker | exit legs never expire at the close, leaving an unprotected overnight position (Alpaca caps GTC at 90 days) |
 | Dry-run by default | both execution paths | orders are only submitted with an explicit `--submit` (paper account only — even "submit" is a paper order, never real money; the flag is named `--submit`, not `--live`, so it never reads as real money) |
 | Daily-quota latch | LLM runner | a burned Gemini daily quota fast-fails the run instead of retry-sleeping through guaranteed failures |
+| Finnhub resilience | catalyst retrieval | timeouts, rate limits and temporary server errors receive bounded retries; a failed bulk pre-scan continues without its ranking boost, while incomplete per-stock evidence skips only that stock before debate/order and is recorded in the audit files |
 
 ## Running
 
