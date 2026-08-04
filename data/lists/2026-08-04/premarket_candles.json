@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-04T08:48:28-04:00",
+  "session_date": "2026-08-04",
+  "reads": {
+    "AMRC": {
+      "symbol": "AMRC",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "SPOT": {
+      "symbol": "SPOT",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "W": {
+      "symbol": "W",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "AMIX": {
+      "symbol": "AMIX",
+      "pattern": "Vertical Parabolic Continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "DOCN": {
+      "symbol": "DOCN",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "BRBR": {
+      "symbol": "BRBR",
+      "pattern": "Failed Breakout",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "AHCO": {
+      "symbol": "AHCO",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "CERT": {
+      "symbol": "CERT",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "APTV": {
+      "symbol": "APTV",
+      "pattern": "Failed Gap Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SHLS": {
+      "symbol": "SHLS",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CLPT": {
+      "symbol": "CLPT",
+      "pattern": "Bearish Gap Down",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "BLZE": {
+      "symbol": "BLZE",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    }
+  }
+}

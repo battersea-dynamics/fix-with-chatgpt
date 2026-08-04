@@ -1,0 +1,1162 @@
+{
+  "date": "2026-08-04",
+  "events": [
+    {
+      "at_et": "2026-08-04T08:46:07-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-04T08:51:46-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-04T09:31:22-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CERT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SPOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T10:21:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1016.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "BLZE",
+          "FCUV",
+          "LIFE",
+          "DFNS",
+          "AMRC",
+          "LBGJ",
+          "CLPT",
+          "PCOR",
+          "W",
+          "KWM",
+          "EWTX",
+          "PAY",
+          "VOYG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EWTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VOYG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T10:52:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1046.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "BLZE",
+          "FCUV",
+          "LIFE",
+          "DFNS",
+          "AMRC",
+          "CLPT",
+          "W",
+          "LBGJ",
+          "PLTR",
+          "KWM",
+          "BWEN",
+          "PCOR",
+          "BRKR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRKR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T11:21:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1116.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "BLZE",
+          "FCUV",
+          "LIFE",
+          "DFNS",
+          "CLPT",
+          "AMRC",
+          "W",
+          "BWEN",
+          "LBGJ",
+          "FIP",
+          "PLTR",
+          "KWM",
+          "PCOR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCOR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T11:51:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1146.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "BLZE",
+          "FCUV",
+          "LIFE",
+          "DFNS",
+          "CLPT",
+          "W",
+          "BWEN",
+          "FIP",
+          "LBGJ",
+          "AMRC",
+          "PLTR",
+          "APTV",
+          "PCOR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCOR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T12:21:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1216.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "FCUV",
+          "BLZE",
+          "LIFE",
+          "DFNS",
+          "CLPT",
+          "BWEN",
+          "W",
+          "FIP",
+          "AMRC",
+          "PLTR",
+          "APTV",
+          "LBGJ",
+          "ZBRA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZBRA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T12:52:03-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1246.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "BLZE",
+          "FCUV",
+          "LIFE",
+          "DFNS",
+          "CLPT",
+          "FIP",
+          "W",
+          "BWEN",
+          "PLTR",
+          "AMRC",
+          "APTV",
+          "PAY",
+          "NRG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T13:21:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1316.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "LIFE",
+          "FCUV",
+          "BLZE",
+          "DFNS",
+          "CLPT",
+          "APTV",
+          "FIP",
+          "W",
+          "PLTR",
+          "BWEN",
+          "AMRC",
+          "ZBRA",
+          "NRG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZBRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T13:51:28-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1346.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "FCUV",
+          "LIFE",
+          "BLZE",
+          "APTV",
+          "DFNS",
+          "CLPT",
+          "FIP",
+          "W",
+          "PLTR",
+          "BWEN",
+          "NRG",
+          "PAY",
+          "ZBRA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZBRA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T14:22:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1416.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "LIFE",
+          "FCUV",
+          "BLZE",
+          "APTV",
+          "DFNS",
+          "CLPT",
+          "FIP",
+          "W",
+          "PLTR",
+          "NRG",
+          "BWEN",
+          "PAY",
+          "AMRC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T14:52:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1446.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "FCUV",
+          "LIFE",
+          "BLZE",
+          "APTV",
+          "NRG",
+          "DFNS",
+          "W",
+          "CLPT",
+          "PLTR",
+          "FIP",
+          "PAY",
+          "AMRC",
+          "BWEN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T15:52:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-04/shortlist_1546.json",
+        "shortlist": [
+          "AMIX",
+          "AHCO",
+          "FCUV",
+          "LIFE",
+          "APTV",
+          "BLZE",
+          "NRG",
+          "W",
+          "CTRI",
+          "ULS",
+          "BRKR",
+          "CLPT",
+          "FIP",
+          "PLTR",
+          "DFNS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AHCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "W",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRKR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-04T15:52:11-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 11,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
