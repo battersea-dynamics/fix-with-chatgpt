@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-05T08:48:19-04:00",
+  "session_date": "2026-08-05",
+  "reads": {
+    "BLMN": {
+      "symbol": "BLMN",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "MDLN": {
+      "symbol": "MDLN",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "TBLA": {
+      "symbol": "TBLA",
+      "pattern": "Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SHOP": {
+      "symbol": "SHOP",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CRTO": {
+      "symbol": "CRTO",
+      "pattern": "gapping breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "VPG": {
+      "symbol": "VPG",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "APPS": {
+      "symbol": "APPS",
+      "pattern": "gap-and-go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FLUT": {
+      "symbol": "FLUT",
+      "pattern": "Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "FRPT": {
+      "symbol": "FRPT",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DT": {
+      "symbol": "DT",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ANGI": {
+      "symbol": "ANGI",
+      "pattern": "gap-down exhaustion reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "PRGO": {
+      "symbol": "PRGO",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    }
+  }
+}

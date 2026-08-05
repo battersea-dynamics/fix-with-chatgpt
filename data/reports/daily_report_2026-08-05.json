@@ -1,0 +1,1273 @@
+{
+  "date": "2026-08-05",
+  "events": [
+    {
+      "at_et": "2026-08-05T08:46:06-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-05T08:51:32-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-08-05T09:31:09-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "FRPT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "FRPT",
+              "qty": 5,
+              "est_cost": 349.65,
+              "entry_ref": 69.93,
+              "take_profit": 70.18,
+              "remaining_take_profit_pct": 0.35,
+              "stop_loss": 68.34,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260805-093109-FRPT",
+              "analysis_price": 66.5,
+              "live_price_change_pct": 5.16
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ANGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DT",
+            "reason": "live ask $54.58 has reached or passed the original take-profit target $54.02"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T10:22:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1016.json",
+        "shortlist": [
+          "INLF",
+          "APPS",
+          "BLMN",
+          "AMIX",
+          "DFNS",
+          "SEDG",
+          "VPG",
+          "BV",
+          "ZETA",
+          "NEXR",
+          "FCUV",
+          "TBLA",
+          "BBBY",
+          "FLUT",
+          "PODD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZETA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEXR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBBY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T10:51:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1046.json",
+        "shortlist": [
+          "INLF",
+          "APPS",
+          "BLMN",
+          "AMIX",
+          "SEDG",
+          "VPG",
+          "BV",
+          "ZETA",
+          "DFNS",
+          "SWIM",
+          "FLUT",
+          "FCUV",
+          "RBA",
+          "DVA",
+          "PODD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZETA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T11:21:55-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1116.json",
+        "shortlist": [
+          "INLF",
+          "APPS",
+          "BLMN",
+          "AMIX",
+          "SEDG",
+          "VPG",
+          "BV",
+          "SWIM",
+          "FCUV",
+          "PODD",
+          "ZETA",
+          "RBA",
+          "TBLA",
+          "FLUT",
+          "DVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZETA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T11:51:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1146.json",
+        "shortlist": [
+          "INLF",
+          "APPS",
+          "BLMN",
+          "AMIX",
+          "SEDG",
+          "BV",
+          "VPG",
+          "PODD",
+          "RBA",
+          "FCUV",
+          "SWIM",
+          "FLUT",
+          "TBLA",
+          "ZETA",
+          "DVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZETA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T12:21:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1216.json",
+        "shortlist": [
+          "INLF",
+          "APPS",
+          "BLMN",
+          "AMIX",
+          "SEDG",
+          "TJGC",
+          "BV",
+          "VPG",
+          "PODD",
+          "RBA",
+          "FLUT",
+          "FCUV",
+          "TBLA",
+          "SWIM",
+          "ZETA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZETA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T12:52:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1246.json",
+        "shortlist": [
+          "INLF",
+          "BLMN",
+          "APPS",
+          "AMIX",
+          "SEDG",
+          "BV",
+          "TJGC",
+          "VPG",
+          "PODD",
+          "RBA",
+          "FLUT",
+          "SWIM",
+          "FCUV",
+          "TBLA",
+          "TYRA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TYRA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T13:22:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1316.json",
+        "shortlist": [
+          "INLF",
+          "BLMN",
+          "APPS",
+          "SEDG",
+          "AMIX",
+          "BV",
+          "TJGC",
+          "VPG",
+          "SWIM",
+          "FLUT",
+          "PODD",
+          "RBA",
+          "FCUV",
+          "TBLA",
+          "SHOP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T13:52:12-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1346.json",
+        "shortlist": [
+          "INLF",
+          "BLMN",
+          "APPS",
+          "SEDG",
+          "AMIX",
+          "TJGC",
+          "BV",
+          "FLUT",
+          "SWIM",
+          "VPG",
+          "PODD",
+          "TBLA",
+          "FCUV",
+          "RBA",
+          "SHOP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T14:22:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1416.json",
+        "shortlist": [
+          "INLF",
+          "BLMN",
+          "APPS",
+          "SEDG",
+          "AMIX",
+          "TJGC",
+          "BV",
+          "FLUT",
+          "PODD",
+          "SWIM",
+          "VPG",
+          "TBLA",
+          "NYT",
+          "FCUV",
+          "SHOP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T14:52:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1446.json",
+        "shortlist": [
+          "INLF",
+          "BLMN",
+          "APPS",
+          "SEDG",
+          "AMIX",
+          "TJGC",
+          "BV",
+          "PODD",
+          "FLUT",
+          "VPG",
+          "SWIM",
+          "ZTG",
+          "TBLA",
+          "SHOP",
+          "FCUV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T15:22:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1516.json",
+        "shortlist": [
+          "INLF",
+          "APPS",
+          "BLMN",
+          "TJGC",
+          "SEDG",
+          "ZTG",
+          "AMIX",
+          "BV",
+          "FLUT",
+          "PODD",
+          "VPG",
+          "SWIM",
+          "TBLA",
+          "SHOP",
+          "TYRA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TYRA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T15:52:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-05/shortlist_1546.json",
+        "shortlist": [
+          "INLF",
+          "TJGC",
+          "APPS",
+          "BLMN",
+          "SEDG",
+          "ZTG",
+          "AMIX",
+          "BV",
+          "SWIM",
+          "FLUT",
+          "VPG",
+          "PODD",
+          "TBLA",
+          "TYRA",
+          "FRPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PODD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TYRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRPT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-05T15:52:21-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
