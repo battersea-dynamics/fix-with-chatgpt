@@ -1,0 +1,950 @@
+{
+  "date": "2026-08-06",
+  "events": [
+    {
+      "at_et": "2026-08-06T08:46:09-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-06T08:51:53-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-08-06T09:31:14-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "CHYM",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CHYM",
+              "qty": 13,
+              "est_cost": 370.76,
+              "entry_ref": 28.52,
+              "take_profit": 29.45,
+              "remaining_take_profit_pct": 3.27,
+              "stop_loss": 27.93,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260806-093114-CHYM",
+              "analysis_price": 27.91,
+              "live_price_change_pct": 2.19
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ASPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FISV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGNI",
+            "reason": "live ask $27.25 has reached or passed the original take-profit target $23.66"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PZZA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T10:22:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-06/shortlist_1016.json",
+        "shortlist": [
+          "CLRO",
+          "PAVS",
+          "ASPN",
+          "CMRC",
+          "HNST",
+          "YXT",
+          "TDUP",
+          "IOVA",
+          "AEVA",
+          "FCUV",
+          "ZTG",
+          "UTI",
+          "BLLN",
+          "PAYS",
+          "PZZA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "HNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "HNST",
+              "qty": 74,
+              "est_cost": 391.46,
+              "entry_ref": 5.29,
+              "take_profit": 5.73,
+              "remaining_take_profit_pct": 8.4,
+              "stop_loss": 5.05,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260806-102241-HNST",
+              "analysis_price": 5.3009,
+              "live_price_change_pct": -0.21
+            }
+          },
+          {
+            "symbol": "PAYS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAYS",
+              "qty": 25,
+              "est_cost": 310.0,
+              "entry_ref": 12.4,
+              "take_profit": 13.43,
+              "remaining_take_profit_pct": 8.3,
+              "stop_loss": 11.79,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260806-102241-PAYS",
+              "analysis_price": 12.32,
+              "live_price_change_pct": 0.65
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDUP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PZZA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T10:52:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-06/shortlist_1046.json",
+        "shortlist": [
+          "CLRO",
+          "PAVS",
+          "ASPN",
+          "CMRC",
+          "TDUP",
+          "HNST",
+          "YXT",
+          "AEVA",
+          "IOVA",
+          "UTI",
+          "PAYS",
+          "FCUV",
+          "BLLN",
+          "ZTG",
+          "EBS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ASPN",
+            "action": "dry_run",
+            "order": {
+              "symbol": "ASPN",
+              "qty": 50,
+              "est_cost": 393.0,
+              "entry_ref": 7.86,
+              "take_profit": 8.47,
+              "remaining_take_profit_pct": 7.8,
+              "stop_loss": 7.6,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-105256-ASPN",
+              "analysis_price": 7.88,
+              "live_price_change_pct": -0.25
+            }
+          },
+          {
+            "symbol": "PAYS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAYS",
+              "qty": 25,
+              "est_cost": 309.0,
+              "entry_ref": 12.36,
+              "take_profit": 13.29,
+              "remaining_take_profit_pct": 7.49,
+              "stop_loss": 11.9,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-105256-PAYS",
+              "analysis_price": 12.29,
+              "live_price_change_pct": 0.57
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDUP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EBS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T11:22:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-06/shortlist_1116.json",
+        "shortlist": [
+          "CLRO",
+          "PAVS",
+          "ASPN",
+          "TDUP",
+          "HNST",
+          "CMRC",
+          "AEVA",
+          "YXT",
+          "UTI",
+          "IOVA",
+          "PAYS",
+          "PN",
+          "BLLN",
+          "FCUV",
+          "ZTG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDUP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T11:53:26-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1147",
+        "shortlist_file": "data/lists/2026-08-06/shortlist_1147.json",
+        "shortlist": [
+          "CLRO",
+          "PAVS",
+          "ASPN",
+          "PN",
+          "TDUP",
+          "HNST",
+          "CMRC",
+          "YXT",
+          "AEVA",
+          "UTI",
+          "PAYS",
+          "IOVA",
+          "CHYM",
+          "BLLN",
+          "EBS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "HNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "HNST",
+              "qty": 72,
+              "est_cost": 395.28,
+              "entry_ref": 5.49,
+              "take_profit": 5.74,
+              "remaining_take_profit_pct": 4.61,
+              "stop_loss": 5.34,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-115326-HNST",
+              "analysis_price": 5.4312,
+              "live_price_change_pct": 1.08
+            }
+          },
+          {
+            "symbol": "PAYS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAYS",
+              "qty": 24,
+              "est_cost": 306.0,
+              "entry_ref": 12.75,
+              "take_profit": 13.83,
+              "remaining_take_profit_pct": 8.5,
+              "stop_loss": 12.26,
+              "confidence": 0.65,
+              "client_order_id": "ta-20260806-115326-PAYS",
+              "analysis_price": 12.7202,
+              "live_price_change_pct": 0.23
+            }
+          },
+          {
+            "symbol": "CHYM",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CHYM",
+              "qty": 7,
+              "est_cost": 233.31,
+              "entry_ref": 33.33,
+              "take_profit": 35.81,
+              "remaining_take_profit_pct": 7.45,
+              "stop_loss": 32.2,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-115326-CHYM",
+              "analysis_price": 33.1291,
+              "live_price_change_pct": 0.61
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDUP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EBS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 3,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T13:25:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1319",
+        "shortlist_file": "data/lists/2026-08-06/shortlist_1319.json",
+        "shortlist": [
+          "CLRO",
+          "PN",
+          "PAVS",
+          "LBGJ",
+          "ASPN",
+          "HNST",
+          "TDUP",
+          "CMRC",
+          "YXT",
+          "IOVA",
+          "UTI",
+          "PAYS",
+          "AEVA",
+          "BLLN",
+          "CHYM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "IOVA",
+            "action": "dry_run",
+            "order": {
+              "symbol": "IOVA",
+              "qty": 64,
+              "est_cost": 393.6,
+              "entry_ref": 6.15,
+              "take_profit": 6.48,
+              "remaining_take_profit_pct": 5.4,
+              "stop_loss": 5.96,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-132517-IOVA",
+              "analysis_price": 6.13,
+              "live_price_change_pct": 0.33
+            }
+          },
+          {
+            "symbol": "PAYS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAYS",
+              "qty": 25,
+              "est_cost": 314.75,
+              "entry_ref": 12.59,
+              "take_profit": 13.61,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 12.16,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-132517-PAYS",
+              "analysis_price": 12.63,
+              "live_price_change_pct": -0.32
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDUP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHYM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T15:22:20-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-06/shortlist_1516.json",
+        "shortlist": [
+          "CLRO",
+          "PAVS",
+          "ZTG",
+          "TDUP",
+          "HNST",
+          "ASPN",
+          "LBGJ",
+          "CMRC",
+          "YXT",
+          "IOVA",
+          "UTI",
+          "BLLN",
+          "AEVA",
+          "PAYS",
+          "EBS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PAYS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAYS",
+              "qty": 31,
+              "est_cost": 385.64,
+              "entry_ref": 12.44,
+              "take_profit": 13.46,
+              "remaining_take_profit_pct": 8.22,
+              "stop_loss": 11.94,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-152220-PAYS",
+              "analysis_price": 12.415,
+              "live_price_change_pct": 0.2
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDUP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EBS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T15:58:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-06/shortlist_1546.json",
+        "shortlist": [
+          "CLRO",
+          "ZTG",
+          "PAVS",
+          "TDUP",
+          "ASPN",
+          "HNST",
+          "LBGJ",
+          "CMRC",
+          "YXT",
+          "IOVA",
+          "BLLN",
+          "UTI",
+          "PAYS",
+          "AEVA",
+          "PZZA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "IOVA",
+            "action": "dry_run",
+            "order": {
+              "symbol": "IOVA",
+              "qty": 63,
+              "est_cost": 392.49,
+              "entry_ref": 6.23,
+              "take_profit": 6.72,
+              "remaining_take_profit_pct": 7.92,
+              "stop_loss": 6.0,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-155820-IOVA",
+              "analysis_price": 6.2,
+              "live_price_change_pct": 0.48
+            }
+          },
+          {
+            "symbol": "PAYS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAYS",
+              "qty": 25,
+              "est_cost": 308.75,
+              "entry_ref": 12.35,
+              "take_profit": 13.06,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 11.97,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260806-155820-PAYS",
+              "analysis_price": 12.365,
+              "live_price_change_pct": -0.12
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDUP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PZZA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-06T15:58:21-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 7,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
