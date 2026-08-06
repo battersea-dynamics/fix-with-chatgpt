@@ -43,8 +43,6 @@ Design choices:
 import json
 import re
 
-from tools.datapaths import list_path
-
 REL_TOLERANCE = 0.06
 ABS_TOLERANCE = 0.12
 
@@ -133,6 +131,11 @@ def verify_premarket_case_file(side: str) -> dict[str, dict]:
     automatically by the bull/bear runners after they write; also
     runnable standalone to re-check by hand.
     """
+    # File-path resolution reaches the market-calendar/broker module graph.
+    # Keep it out of this module's import path so the pure numeric verifier
+    # remains usable in tests and offline tools without broker credentials.
+    from tools.datapaths import list_path
+
     case_path = list_path(f"premarket_{side}_cases.json")
     if not case_path.exists():
         raise SystemExit(f"{case_path} not found")
@@ -173,6 +176,8 @@ def verify_premarket_case_file(side: str) -> dict[str, dict]:
 
 
 if __name__ == "__main__":
+    from tools.datapaths import list_path
+
     for side in ("bull", "bear"):
         if list_path(f"premarket_{side}_cases.json").exists():
             verify_premarket_case_file(side)

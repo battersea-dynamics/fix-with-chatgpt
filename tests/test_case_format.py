@@ -1,4 +1,3 @@
-import importlib.util
 import unittest
 from datetime import datetime
 from types import SimpleNamespace
@@ -77,10 +76,6 @@ class DebateEvidenceFormattingTests(unittest.TestCase):
 
         self.assertIn("persistence as unknown", evidence)
 
-    @unittest.skipUnless(
-        importlib.util.find_spec("alpaca"),
-        "Alpaca dependencies are installed in CI, not this workspace",
-    )
     def test_new_derived_numbers_are_available_to_numeric_verification(self):
         from tools.case_verifier import verify_text
 
