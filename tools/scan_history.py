@@ -1,8 +1,8 @@
 """Build same-session momentum context from archived shortlist snapshots.
 
 This module is deliberately deterministic and read-only with respect to prior
-archives.  Phase 1 writes its output as shadow evidence only: it must not change
-the shortlist, agent prompts, trade decisions, or execution behaviour.
+archives. Its compact output is shared symmetrically with the bull and bear
+agents; it does not itself change the shortlist or make a trading decision.
 
 The source observations are the regular-session ``shortlist_<HHMM>.json``
 files already produced every cycle.  Consequently this adds no Alpaca request
@@ -285,8 +285,8 @@ def build_momentum_shadow(
         symbol_context[symbol] = context
 
     return {
-        "mode": "shadow",
-        "affects_decisions": False,
+        "mode": "active_evidence",
+        "affects_decisions": True,
         "source": "same-session shortlist snapshots",
         "prior_scans_available": len(prior_scans),
         "symbols": symbol_context,

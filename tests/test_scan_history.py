@@ -64,7 +64,8 @@ class ScanHistoryTests(unittest.TestCase):
             )
 
         context = shadow["symbols"]["ABC"]
-        self.assertFalse(shadow["affects_decisions"])
+        self.assertTrue(shadow["affects_decisions"])
+        self.assertEqual(shadow["mode"], "active_evidence")
         self.assertEqual(context["observations"], 1)
         self.assertEqual(context["consecutive_scans"], 1)
         self.assertEqual(context["setup"], "insufficient_history")
@@ -144,7 +145,7 @@ class ScanHistoryTests(unittest.TestCase):
         self.assertEqual(shadow["prior_scans_available"], 0)
         self.assertEqual(shadow["symbols"]["ABC"]["observations"], 1)
 
-    def test_falling_knife_rebound_is_descriptive_only(self):
+    def test_falling_knife_rebound_is_compact_debate_evidence(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             write_scan(
@@ -163,7 +164,7 @@ class ScanHistoryTests(unittest.TestCase):
             shadow["symbols"]["ABC"]["setup"],
             "falling_knife_rebound",
         )
-        self.assertFalse(shadow["affects_decisions"])
+        self.assertTrue(shadow["affects_decisions"])
 
 
 if __name__ == "__main__":

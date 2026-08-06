@@ -60,16 +60,17 @@ stage 1: daily_scan          python pipeline.py scan
   catalysts prescan  - one bulk Finnhub call: earnings in the next 1-3 days?
   scanner            - rel volume + % change + MA distance, z-scored, plus
                        an absolute-volume kicker and a catalyst boost
-  momentum shadow    - same-session persistence, price/rank development,
+  momentum evidence  - same-session persistence, price/rank development,
                        observed-high drawdown and provisional setup label;
-                       recorded only, does not affect the debate or orders
+                       compact numbers are shown identically to both agents
   -> data/lists/<date>/shortlist_<HHMM>.json
 
 stage 2: check_shortlist     python pipeline.py check [--submit]
   catalysts          - per-symbol earnings/dividends/news for the shortlist
   bull/bear debate   - same adversarial structure as pre-market (committed
-                       one-sided cases, honest anchored scores, must cite
-                       dated evidence or admit there is none)
+                       one-sided cases, honest anchored scores); catalyst
+                       ages are calculated against the US session date, and
+                       momentum/chasing claims must cite measured development
   case verifier      - deterministic numeric fact-check of both case texts
   trader             - no LLM: net score -> buy/hold + tempered TP/SL
   execution agent    - no LLM: filters, sizes, submits GTC bracket orders
@@ -104,6 +105,7 @@ one-cancels-other) — nothing watches positions after entry; the broker does.
 | Dry-run by default | both execution paths | orders are only submitted with an explicit `--submit` (paper account only — even "submit" is a paper order, never real money; the flag is named `--submit`, not `--live`, so it never reads as real money) |
 | Daily-quota latch | LLM runner | a burned Gemini daily quota fast-fails the run instead of retry-sleeping through guaranteed failures |
 | Finnhub resilience | catalyst retrieval | timeouts, rate limits and temporary server errors receive bounded retries; a failed bulk pre-scan continues without its ranking boost, while incomplete per-stock evidence skips only that stock before debate/order and is recorded in the audit files |
+| Debate calibration | regular-session bull/bear agents | no catalyst is uncertainty rather than automatic reversal; `0.80+` bear risk and labels such as “exit liquidity” require a concrete event or measured same-session deterioration |
 
 ## Running
 
@@ -195,11 +197,13 @@ pre-market scan/news/candles/cases/decisions), `data/reports/` holds the daily r
 ## Roadmap / known gaps
 
 The full regular-session momentum/debate tuning sequence is recorded in
-[`docs/momentum-tuning-plan.md`](docs/momentum-tuning-plan.md). Its first phase
-is active in shadow mode only: shortlist archives now contain same-session
-momentum context marked `affects_decisions: false`. The priority items below
-remain future builds; the shadow recorder does not add trading authority or
-change any existing decision or safety threshold.
+[`docs/momentum-tuning-plan.md`](docs/momentum-tuning-plan.md). Shortlist
+archives contain compact same-session momentum context marked
+`affects_decisions: true`; the existing bull and bear calls now receive that
+same numerical evidence. This adds neither a market-data request nor a Gemini
+call. The deterministic `+0.20` buy threshold and all execution safeguards are
+unchanged, so prompt calibration can be evaluated separately with submission
+disabled.
 
 **On the external review (July 2026):** an outside architecture review validated the core design — the separation of *evidence gathering → judgment → decision → execution* into distinct stages, the deterministic (no-LLM) trader and execution layers, and the dry-run-by-default posture — and flagged **portfolio-level risk as the main missing piece**. The priority order below reflects that review together with our own assessment; it's why the list is ordered the way it is, not just what's on it.
 

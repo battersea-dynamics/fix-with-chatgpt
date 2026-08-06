@@ -199,7 +199,18 @@ def check_shortlist(
         print(f"[catalysts] {skip['symbol']}: {skip['reason']}",
               file=sys.stderr)
 
-    decisions = analyze_shortlist(evidence_ready, catalyst_report)
+    momentum_block = payload.get("momentum_shadow", {})
+    momentum_context = (
+        momentum_block.get("symbols", {})
+        if momentum_block.get("affects_decisions") is True
+        else {}
+    )
+    decisions = analyze_shortlist(
+        evidence_ready,
+        catalyst_report,
+        momentum_context=momentum_context,
+        session_date=generated,
+    )
     reference_prices = {r.symbol: r.close for r in shortlist}
     report = evidence_skips + execute_signals(
         decisions,

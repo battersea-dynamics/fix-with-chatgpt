@@ -31,6 +31,8 @@ Prompt design notes (why it's worded the way it is):
   trader tempers these levels by bear risk afterwards.
 """
 
+from datetime import date, datetime
+
 from crewai import Agent, Task
 from pydantic import BaseModel, Field
 
@@ -93,21 +95,43 @@ def build_bull_agent() -> Agent:
     )
 
 
-def build_bull_task(agent: Agent, scan: ScanResult, catalysts: dict) -> Task:
+def build_bull_task(
+    agent: Agent,
+    scan: ScanResult,
+    catalysts: dict,
+    momentum_context: dict | None = None,
+    session_date: date | datetime | str | None = None,
+) -> Task:
     return Task(
         description=(
             f"Make the strongest genuine bull case for buying "
             f"{scan.symbol} today, entered at the current price, held "
             f"hours to a few days.\n\n"
-            + format_evidence(scan, catalysts) +
+            + format_evidence(
+                scan,
+                catalysts,
+                momentum_context=momentum_context,
+                session_date=session_date,
+            ) +
             "\n\nRequirement: engage with the catalyst report. Either "
             "cite the specific headline or event (with its date) that "
             "supports buying, or state plainly that nothing in the "
-            "report explains or supports this move. If nothing in the "
-            "evidence is specific to this stock — no headline, no "
-            "dated event, just generic volume-and-momentum mechanics — "
-            "say exactly that and score the case 0.4 or below. Do not "
-            "dress a no-story stock in a story.\n\n"
+            "report explains or supports this move. Missing news is "
+            "uncertainty, not proof that the price must reverse. A "
+            "tape-only case may score above 0.4 only when the supplied "
+            "same-session history independently confirms persistence: "
+            "at least three consecutive observations, positive price "
+            "development, limited observed-high drawdown, and confirming "
+            "relative-volume development. Cite those exact history "
+            "numbers. A first observation or unconfirmed no-news move "
+            "still scores 0.4 or below. A tape-only case cannot be "
+            "exceptional (cap it below 0.9). Do not dress a no-story "
+            "stock in a story.\n\n"
+            "Treat repeated observations as new evidence. Persistent "
+            "improvement can strengthen the case; a falling price, "
+            "growing drawdown or weakening participation must weaken it. "
+            "Do not rely on the provisional setup label without citing "
+            "the numerical history behind it.\n\n"
             "Then rate the case on this scale:\n"
             "  0.9+  exceptional - volume, catalyst, and room to run "
             "all align\n"
@@ -131,7 +155,18 @@ def build_bull_task(agent: Agent, scan: ScanResult, catalysts: dict) -> Task:
     )
 
 
-def analyze_bull(scan: ScanResult, catalysts: dict) -> BullCase | None:
+def analyze_bull(
+    scan: ScanResult,
+    catalysts: dict,
+    momentum_context: dict | None = None,
+    session_date: date | datetime | str | None = None,
+) -> BullCase | None:
     agent = build_bull_agent()
-    task = build_bull_task(agent, scan, catalysts)
+    task = build_bull_task(
+        agent,
+        scan,
+        catalysts,
+        momentum_context=momentum_context,
+        session_date=session_date,
+    )
     return run_task(agent, task, label="bull", symbol=scan.symbol)

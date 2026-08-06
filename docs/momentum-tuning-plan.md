@@ -15,16 +15,17 @@ company-specific news too strongly as evidence against buying.
 - Keep all current holding, available-cash, position-sizing, late-entry,
   take-profit and stop-loss safeguards.
 - Do not change order submission merely by adding analysis features.
-- Build and review new behaviour in shadow mode before it can affect orders.
+- Build and review new behaviour in shadow mode before using it for submitted
+  paper orders; keep submission disabled during initial active-evidence runs.
 - Keep one bull call and one bear call per shortlisted symbol; do not add a
   second live debate that could exceed the Gemini daily request allowance.
 - Do not send raw market bars to Gemini. Python must turn them into a compact
   numerical evidence block.
 - Use US Eastern time for market-session calculations.
 
-## Phase 1 — same-session history in shadow mode
+## Phase 1 — same-session history
 
-Status: implemented in shadow mode; awaiting live-session records and review.
+Status: implemented and initially recorded in shadow mode.
 
 For every stock in the current regular-session shortlist, read earlier
 `shortlist_<HHMM>.json` files from the same US session and calculate:
@@ -42,8 +43,10 @@ For every stock in the current regular-session shortlist, read earlier
 - a provisional setup label: insufficient history, early breakout, sustained
   continuation, falling-knife rebound, exhausted/reversing, or mixed.
 
-Write these features into each shortlist archive under a shadow section marked
-`affects_decisions: false`. Do not pass them to the agents yet.
+These features are written into every timestamped shortlist archive. They were
+first collected with `affects_decisions: false`; after reviewing the 180 holds
+from the 2026-08-05 session, the same compact block became active evidence for
+both regular-session agents.
 
 ## Phase 2 — retrospective and live-shadow evaluation
 
@@ -57,7 +60,10 @@ Write these features into each shortlist archive under a shadow section marked
 
 ## Phase 3 — debate evidence and catalyst-policy correction
 
-After Phase 2 review:
+Status: active for dry-run evaluation after the 2026-08-05 review exposed a
+structural score deadlock: 153/180 bear scores were at least 0.85, the maximum
+net score was +0.10, and same-day news was sometimes described as stale. The
+buy threshold was deliberately not lowered.
 
 - pass the same compact history block to both bull and bear agents;
 - include current scanner rank and score development;
@@ -70,6 +76,13 @@ After Phase 2 review:
 - keep negative news, imminent events and genuine loss of momentum bearish;
 - keep the deterministic bull-minus-bear decision threshold initially
   unchanged so the prompt/evidence change can be measured separately.
+
+The evidence now includes the explicit US trading-session date and calculated
+event ages. Same-day events cannot be labelled stale, and bear risk of 0.80 or
+higher requires a named imminent/adverse event or measured deterioration in
+the same-session history. Labels such as chasing, exit liquidity and exhaustion
+must cite that deterioration rather than relying only on a large day gain or
+distance from the moving average.
 
 This phase must reuse the existing bull and bear calls rather than run a second
 complete live debate.
@@ -101,8 +114,8 @@ reversal:
 
 ## Phase 6 — activation and monitoring
 
-- Activate the revised evidence and prompts in paper trading only after the
-  shadow results are reviewed.
+- Keep order submission disabled while the revised evidence and prompts are
+  first observed in live dry-run decisions.
 - Keep the late-entry guard and all execution safeguards unchanged.
 - Compare revised buy precision, missed-winner rate and stop-first rate over at
   least five to ten sessions.

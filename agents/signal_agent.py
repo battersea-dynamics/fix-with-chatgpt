@@ -30,6 +30,7 @@ is skipped — no decision, no trade.
 """
 
 import json
+from datetime import date, datetime
 from typing import Literal
 
 from dotenv import load_dotenv
@@ -37,6 +38,7 @@ from pydantic import BaseModel, Field
 
 from agents.bear_agent import analyze_bear
 from agents.bull_agent import analyze_bull
+from agents.case_format import build_evidence_facts
 from tools.scanner import ScanResult
 
 load_dotenv()
@@ -66,6 +68,8 @@ class SignalDecision(BaseModel):
 def analyze_shortlist(
     shortlist: list[ScanResult],
     catalyst_report: dict[str, dict],
+    momentum_context: dict[str, dict] | None = None,
+    session_date: date | datetime | str | None = None,
 ) -> list[SignalDecision]:
     # Imported here, not at module top: trader imports SignalDecision
     # from this module, so a top-level import would be circular. By
@@ -73,14 +77,26 @@ def analyze_shortlist(
     from tools.trader import decide
 
     decisions = []
+    momentum_context = momentum_context or {}
     for scan in shortlist:
         catalysts = catalyst_report.get(scan.symbol, {})
+        history = momentum_context.get(scan.symbol)
 
         # Call pacing lives in llm_runner's global throttle - these
         # two calls (and every pair after them) are automatically
         # spaced, so no sleep is needed at this level.
-        bull = analyze_bull(scan, catalysts)
-        bear = analyze_bear(scan, catalysts)
+        bull = analyze_bull(
+            scan,
+            catalysts,
+            momentum_context=history,
+            session_date=session_date,
+        )
+        bear = analyze_bear(
+            scan,
+            catalysts,
+            momentum_context=history,
+            session_date=session_date,
+        )
 
         if bull is None or bear is None:
             missing = "bull" if bull is None else "bear"
@@ -95,7 +111,12 @@ def analyze_shortlist(
         # agents were shown. Partial safeguard - numbers only, see
         # tools/case_verifier.py's LIMITATION note.
         from tools.case_verifier import verify_text
-        sources = (scan.to_dict(), catalysts,
+        evidence_facts = build_evidence_facts(
+            catalysts,
+            momentum_context=history,
+            session_date=session_date,
+        )
+        sources = (scan.to_dict(), evidence_facts,
                    bull.model_dump(), bear.model_dump())
         bull_ok, bull_bad = verify_text(bull.bull_case, *sources)
         bear_ok, bear_bad = verify_text(bear.bear_case, *sources)

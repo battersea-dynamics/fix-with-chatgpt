@@ -25,6 +25,8 @@ Prompt design notes, where they differ from the bull's:
   reason this agent exists.
 """
 
+from datetime import date, datetime
+
 from crewai import Agent, Task
 from pydantic import BaseModel, Field
 
@@ -78,25 +80,37 @@ def build_bear_agent() -> Agent:
     )
 
 
-def build_bear_task(agent: Agent, scan: ScanResult, catalysts: dict) -> Task:
+def build_bear_task(
+    agent: Agent,
+    scan: ScanResult,
+    catalysts: dict,
+    momentum_context: dict | None = None,
+    session_date: date | datetime | str | None = None,
+) -> Task:
     return Task(
         description=(
             f"Make the strongest genuine bear case against buying "
             f"{scan.symbol} today at the current price, for a hold of "
             f"hours to a few days.\n\n"
-            + format_evidence(scan, catalysts) +
+            + format_evidence(
+                scan,
+                catalysts,
+                momentum_context=momentum_context,
+                session_date=session_date,
+            ) +
             "\n\nRequirement: engage with the catalyst report. If "
             "headlines or events exist, address the strongest one by "
-            "name — is it stale (check its date against the move), "
+            "name — is it stale (use its supplied days_from_session), "
             "already priced in, or weaker than the move implies? If "
             "NOTHING in the report explains an unusual move, that "
-            "absence is itself evidence: cite it explicitly as support "
-            "for the no-catalyst / mean-reversion failure mode rather "
-            "than writing around it.\n\n"
+            "absence adds uncertainty but is not, by itself, proof of "
+            "mean reversion. Test that uncertainty against the supplied "
+            "same-session price, drawdown, rank and relative-volume "
+            "development.\n\n"
             "Failure modes to check the evidence against (cite the "
             "ones that apply — do not pad with ones that don't):\n"
-            "  - chasing: the move already happened; entry is the exit "
-            "liquidity for earlier buyers\n"
+            "  - chasing: the move already happened AND the supplied "
+            "history shows measurable deterioration\n"
             "  - earnings within the holding window: a coin flip, not "
             "a trade\n"
             "  - ex-dividend inside the window: mechanical price drop "
@@ -105,8 +119,23 @@ def build_bear_task(agent: Agent, scan: ScanResult, catalysts: dict) -> Task:
             "participation fades\n"
             "  - news already priced: headlines old enough that the "
             "reaction is behind, not ahead\n"
-            "  - no catalyst at all: unusual tape with nothing driving "
-            "it tends to mean-revert\n\n"
+            "  - no catalyst at all: uncertainty that becomes a strong "
+            "mean-reversion case only when tape deterioration confirms it\n\n"
+            "Calibration rules:\n"
+            "  - The words 'chasing', 'exit liquidity' and 'exhaustion' "
+            "require concrete deterioration in the supplied history, such "
+            "as a falling interval, growing observed-high drawdown, "
+            "worsening rank/score or weakening volume pace. Do not use "
+            "those labels merely because day change or MA distance is "
+            "large.\n"
+            "  - A large day gain or MA extension is a vulnerability, not "
+            "evidence that reversal has begun.\n"
+            "  - Risk of 0.80 or higher requires a named imminent adverse "
+            "event, adverse company news, or measured same-session "
+            "deterioration. Generic extension plus missing news cannot "
+            "receive 0.80+.\n"
+            "  - An event marked 'same US trading-session date' is fresh; "
+            "never call it stale, old or several days old.\n\n"
             "Then rate the danger of buying today on this scale:\n"
             "  0.9+  exceptional danger - a named, imminent, likely "
             "failure mode\n"
@@ -125,7 +154,18 @@ def build_bear_task(agent: Agent, scan: ScanResult, catalysts: dict) -> Task:
     )
 
 
-def analyze_bear(scan: ScanResult, catalysts: dict) -> BearCase | None:
+def analyze_bear(
+    scan: ScanResult,
+    catalysts: dict,
+    momentum_context: dict | None = None,
+    session_date: date | datetime | str | None = None,
+) -> BearCase | None:
     agent = build_bear_agent()
-    task = build_bear_task(agent, scan, catalysts)
+    task = build_bear_task(
+        agent,
+        scan,
+        catalysts,
+        momentum_context=momentum_context,
+        session_date=session_date,
+    )
     return run_task(agent, task, label="bear", symbol=scan.symbol)
