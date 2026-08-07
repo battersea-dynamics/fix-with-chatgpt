@@ -1,0 +1,1583 @@
+{
+  "date": "2026-08-07",
+  "events": [
+    {
+      "at_et": "2026-08-07T08:46:09-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-07T08:52:55-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-08-07T09:31:09-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "DV",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DV",
+              "qty": 29,
+              "est_cost": 383.67,
+              "entry_ref": 13.23,
+              "take_profit": 13.96,
+              "remaining_take_profit_pct": 5.53,
+              "stop_loss": 12.93,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260807-093109-DV",
+              "analysis_price": 13.23,
+              "live_price_change_pct": 0.0
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ARDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SERV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T10:22:29-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1016.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "DV",
+          "TEAM",
+          "ZTG",
+          "FIGS",
+          "LBGJ",
+          "TTD",
+          "EMBC",
+          "XPOF",
+          "CRSR",
+          "SEZL",
+          "WYHG",
+          "STLN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DV",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DV",
+              "qty": 29,
+              "est_cost": 384.54,
+              "entry_ref": 13.26,
+              "take_profit": 14.11,
+              "remaining_take_profit_pct": 6.38,
+              "stop_loss": 12.86,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-102228-DV",
+              "analysis_price": 13.28,
+              "live_price_change_pct": -0.15
+            }
+          },
+          {
+            "symbol": "CRSR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRSR",
+              "qty": 22,
+              "est_cost": 311.3,
+              "entry_ref": 14.15,
+              "take_profit": 15.0,
+              "remaining_take_profit_pct": 6.0,
+              "stop_loss": 13.53,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260807-102228-CRSR",
+              "analysis_price": 13.875,
+              "live_price_change_pct": 1.98
+            }
+          },
+          {
+            "symbol": "STLN",
+            "action": "dry_run",
+            "order": {
+              "symbol": "STLN",
+              "qty": 37,
+              "est_cost": 256.04,
+              "entry_ref": 6.92,
+              "take_profit": 7.54,
+              "remaining_take_profit_pct": 9.0,
+              "stop_loss": 6.58,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-102228-STLN",
+              "analysis_price": 6.968,
+              "live_price_change_pct": -0.69
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 3,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T10:52:50-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1046.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "DV",
+          "XPOF",
+          "CRSR",
+          "SEZL",
+          "EMBC",
+          "TEAM",
+          "QNST",
+          "TTD",
+          "ZTG",
+          "LBGJ",
+          "FIGS",
+          "WYHG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRSR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRSR",
+              "qty": 27,
+              "est_cost": 383.13,
+              "entry_ref": 14.19,
+              "take_profit": 15.3,
+              "remaining_take_profit_pct": 7.8,
+              "stop_loss": 13.73,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-105249-CRSR",
+              "analysis_price": 14.255,
+              "live_price_change_pct": -0.46
+            }
+          },
+          {
+            "symbol": "QNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "QNST",
+              "qty": 15,
+              "est_cost": 311.25,
+              "entry_ref": 20.75,
+              "take_profit": 21.71,
+              "remaining_take_profit_pct": 4.62,
+              "stop_loss": 20.05,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-105249-QNST",
+              "analysis_price": 20.53,
+              "live_price_change_pct": 1.07
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T11:26:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1116.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "DV",
+          "CRSR",
+          "SEZL",
+          "QNST",
+          "XPOF",
+          "TTD",
+          "EMBC",
+          "LBGJ",
+          "ZTG",
+          "TEAM",
+          "WYHG",
+          "NRXP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRXP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T11:52:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1146.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "DV",
+          "QNST",
+          "SEZL",
+          "CRSR",
+          "XPOF",
+          "TTD",
+          "EMBC",
+          "ZTG",
+          "TEAM",
+          "LBGJ",
+          "WYHG",
+          "NRXP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "QNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "QNST",
+              "qty": 17,
+              "est_cost": 374.0,
+              "entry_ref": 22.0,
+              "take_profit": 22.27,
+              "remaining_take_profit_pct": 1.22,
+              "stop_loss": 21.26,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-115218-QNST",
+              "analysis_price": 20.6,
+              "live_price_change_pct": 6.8
+            }
+          },
+          {
+            "symbol": "EMBC",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EMBC",
+              "qty": 71,
+              "est_cost": 320.92,
+              "entry_ref": 4.52,
+              "take_profit": 4.74,
+              "remaining_take_profit_pct": 4.92,
+              "stop_loss": 4.39,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-115218-EMBC",
+              "analysis_price": 4.485,
+              "live_price_change_pct": 0.78
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRXP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T12:22:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1216.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "DV",
+          "SEZL",
+          "QNST",
+          "CRSR",
+          "XPOF",
+          "EMBC",
+          "TTD",
+          "ZTG",
+          "TEAM",
+          "LBGJ",
+          "GTN",
+          "WYHG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "QNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "QNST",
+              "qty": 19,
+              "est_cost": 391.59,
+              "entry_ref": 20.61,
+              "take_profit": 21.79,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 20.05,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-122236-QNST",
+              "analysis_price": 20.62,
+              "live_price_change_pct": -0.05
+            }
+          },
+          {
+            "symbol": "EMBC",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EMBC",
+              "qty": 69,
+              "est_cost": 315.33,
+              "entry_ref": 4.57,
+              "take_profit": 4.81,
+              "remaining_take_profit_pct": 5.25,
+              "stop_loss": 4.43,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260807-122236-EMBC",
+              "analysis_price": 4.54,
+              "live_price_change_pct": 0.66
+            }
+          },
+          {
+            "symbol": "GTN",
+            "action": "dry_run",
+            "order": {
+              "symbol": "GTN",
+              "qty": 47,
+              "est_cost": 253.33,
+              "entry_ref": 5.39,
+              "take_profit": 5.86,
+              "remaining_take_profit_pct": 8.75,
+              "stop_loss": 5.16,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260807-122236-GTN",
+              "analysis_price": 5.41,
+              "live_price_change_pct": -0.37
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 3,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T12:52:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1246.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "SEZL",
+          "DV",
+          "QNST",
+          "EMBC",
+          "XPOF",
+          "CRSR",
+          "ZTG",
+          "TEAM",
+          "TTD",
+          "LBGJ",
+          "ARDX",
+          "WYHG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "QNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "QNST",
+              "qty": 19,
+              "est_cost": 390.83,
+              "entry_ref": 20.57,
+              "take_profit": 22.5,
+              "remaining_take_profit_pct": 9.38,
+              "stop_loss": 19.8,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260807-125237-QNST",
+              "analysis_price": 20.66,
+              "live_price_change_pct": -0.44
+            }
+          },
+          {
+            "symbol": "EMBC",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EMBC",
+              "qty": 68,
+              "est_cost": 314.16,
+              "entry_ref": 4.62,
+              "take_profit": 4.89,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 4.5,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260807-125237-EMBC",
+              "analysis_price": 4.64,
+              "live_price_change_pct": -0.43
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T13:22:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1316.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "XPOF",
+          "DV",
+          "SEZL",
+          "QNST",
+          "EMBC",
+          "CRSR",
+          "ZTG",
+          "TTD",
+          "TEAM",
+          "LBGJ",
+          "ARDX",
+          "WYHG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "QNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "QNST",
+              "qty": 19,
+              "est_cost": 394.06,
+              "entry_ref": 20.74,
+              "take_profit": 21.97,
+              "remaining_take_profit_pct": 5.95,
+              "stop_loss": 20.16,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260807-132230-QNST",
+              "analysis_price": 20.82,
+              "live_price_change_pct": -0.38
+            }
+          },
+          {
+            "symbol": "EMBC",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EMBC",
+              "qty": 68,
+              "est_cost": 315.52,
+              "entry_ref": 4.64,
+              "take_profit": 4.99,
+              "remaining_take_profit_pct": 7.52,
+              "stop_loss": 4.48,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-132230-EMBC",
+              "analysis_price": 4.615,
+              "live_price_change_pct": 0.54
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T13:52:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1346.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "PN",
+          "XPOF",
+          "SEZL",
+          "DV",
+          "EMBC",
+          "QNST",
+          "TEAM",
+          "CRSR",
+          "ZTG",
+          "TTD",
+          "ARDX",
+          "LBGJ",
+          "LASR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EMBC",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EMBC",
+              "qty": 84,
+              "est_cost": 392.28,
+              "entry_ref": 4.67,
+              "take_profit": 5.04,
+              "remaining_take_profit_pct": 7.98,
+              "stop_loss": 4.51,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260807-135239-EMBC",
+              "analysis_price": 4.665,
+              "live_price_change_pct": 0.11
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LASR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T14:22:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1416.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "XPOF",
+          "PN",
+          "DV",
+          "SEZL",
+          "TEAM",
+          "QNST",
+          "EMBC",
+          "CRSR",
+          "ZTG",
+          "TTD",
+          "ARDX",
+          "LBGJ",
+          "LASR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "TEAM",
+            "action": "dry_run",
+            "order": {
+              "symbol": "TEAM",
+              "qty": 2,
+              "est_cost": 304.0,
+              "entry_ref": 152.0,
+              "take_profit": 163.62,
+              "remaining_take_profit_pct": 7.64,
+              "stop_loss": 147.55,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-142234-TEAM",
+              "analysis_price": 151.33,
+              "live_price_change_pct": 0.44
+            }
+          },
+          {
+            "symbol": "QNST",
+            "action": "dry_run",
+            "order": {
+              "symbol": "QNST",
+              "qty": 16,
+              "est_cost": 332.96,
+              "entry_ref": 20.81,
+              "take_profit": 22.68,
+              "remaining_take_profit_pct": 9.0,
+              "stop_loss": 20.03,
+              "confidence": 0.7,
+              "client_order_id": "ta-20260807-142234-QNST",
+              "analysis_price": 20.9,
+              "live_price_change_pct": -0.43
+            }
+          },
+          {
+            "symbol": "CRSR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRSR",
+              "qty": 18,
+              "est_cost": 255.24,
+              "entry_ref": 14.18,
+              "take_profit": 14.94,
+              "remaining_take_profit_pct": 5.37,
+              "stop_loss": 13.75,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-142234-CRSR",
+              "analysis_price": 14.13,
+              "live_price_change_pct": 0.35
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LASR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 3,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T14:52:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1446.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "XPOF",
+          "PN",
+          "DV",
+          "SEZL",
+          "TEAM",
+          "EMBC",
+          "QNST",
+          "CRSR",
+          "ZTG",
+          "TTD",
+          "ARDX",
+          "LASR",
+          "LBGJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EMBC",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EMBC",
+              "qty": 84,
+              "est_cost": 391.44,
+              "entry_ref": 4.66,
+              "take_profit": 4.91,
+              "remaining_take_profit_pct": 5.26,
+              "stop_loss": 4.54,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-145251-EMBC",
+              "analysis_price": 4.648,
+              "live_price_change_pct": 0.26
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LASR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T15:22:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1516.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "XPOF",
+          "PN",
+          "DV",
+          "SEZL",
+          "TEAM",
+          "QNST",
+          "CRSR",
+          "EMBC",
+          "ZTG",
+          "TTD",
+          "GTN",
+          "LASR",
+          "ARDX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRSR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRSR",
+              "qty": 27,
+              "est_cost": 387.99,
+              "entry_ref": 14.37,
+              "take_profit": 15.18,
+              "remaining_take_profit_pct": 5.67,
+              "stop_loss": 13.93,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-152240-CRSR",
+              "analysis_price": 14.36,
+              "live_price_change_pct": 0.07
+            }
+          },
+          {
+            "symbol": "EMBC",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EMBC",
+              "qty": 68,
+              "est_cost": 315.52,
+              "entry_ref": 4.64,
+              "take_profit": 4.9,
+              "remaining_take_profit_pct": 5.51,
+              "stop_loss": 4.5,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-152240-EMBC",
+              "analysis_price": 4.63,
+              "live_price_change_pct": 0.22
+            }
+          },
+          {
+            "symbol": "GTN",
+            "action": "dry_run",
+            "order": {
+              "symbol": "GTN",
+              "qty": 47,
+              "est_cost": 254.27,
+              "entry_ref": 5.41,
+              "take_profit": 5.85,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 5.23,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-152240-GTN",
+              "analysis_price": 5.43,
+              "live_price_change_pct": -0.37
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LASR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 3,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T15:56:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-07/shortlist_1546.json",
+        "shortlist": [
+          "DSY",
+          "DOCS",
+          "XPOF",
+          "DV",
+          "PN",
+          "SEZL",
+          "QNST",
+          "TEAM",
+          "CRSR",
+          "EMBC",
+          "ZTG",
+          "INHD",
+          "TTD",
+          "LASR",
+          "GTN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GTN",
+            "action": "dry_run",
+            "order": {
+              "symbol": "GTN",
+              "qty": 74,
+              "est_cost": 395.16,
+              "entry_ref": 5.34,
+              "take_profit": 5.65,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 5.18,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260807-155624-GTN",
+              "analysis_price": 5.3428,
+              "live_price_change_pct": -0.05
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DSY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPOF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LASR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-07T15:56:24-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
