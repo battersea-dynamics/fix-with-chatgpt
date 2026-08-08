@@ -102,6 +102,7 @@ one-cancels-other) — nothing watches positions after entry; the broker does.
 | Delayed-price exit guard | premarket execution | uses the same policy as regular execution: downside beyond 2% skips; a lower accepted entry shifts the target down by the same percentage, while a higher entry leaves the original target fixed |
 | Stale-decisions guard | premarket execution | yesterday's gap thesis can never execute today |
 | GTC bracket orders | broker | exit legs never expire at the close, leaving an unprotected overnight position (Alpaca caps GTC at 90 days) |
+| Ambiguous-submit reconciliation | broker | a timeout, broken response, or Alpaca 5xx performs one read-only lookup by the existing client order ID; it never blindly resubmits an order |
 | Dry-run by default | both execution paths | orders are only submitted with an explicit `--submit` (paper account only — even "submit" is a paper order, never real money; the flag is named `--submit`, not `--live`, so it never reads as real money) |
 | Daily-quota latch | LLM runner | a burned Gemini daily quota fast-fails the run instead of retry-sleeping through guaranteed failures |
 | Finnhub resilience | catalyst retrieval | timeouts, rate limits and temporary server errors receive bounded retries; a failed bulk pre-scan continues without its ranking boost, while incomplete per-stock evidence skips only that stock before debate/order and is recorded in the audit files |

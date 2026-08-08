@@ -1,4 +1,5 @@
-alpaca-py
+# Pin the exact SDK version verified by the scheduled paper-trading runs.
+alpaca-py==0.43.5
 python-dotenv
 # Pin CrewAI so provider routing cannot change between scheduled runs.
 # Gemini is a native provider in CrewAI 1.15, so its optional client must

@@ -12,6 +12,13 @@ Why separate this out? Two reasons that matter once things get more complex:
 
 import os
 from dotenv import load_dotenv
+from requests.exceptions import (
+    ChunkedEncodingError,
+    ConnectionError as RequestsConnectionError,
+    RequestException,
+    Timeout,
+)
+from alpaca.common.exceptions import APIError
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import (
     GetOrdersRequest,
@@ -43,6 +50,13 @@ if not API_KEY or not SECRET_KEY:
 # until you've decided that deliberately, with your eyes open.
 trading_client = TradingClient(API_KEY, SECRET_KEY, paper=True)
 data_client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
+
+
+AMBIGUOUS_SUBMISSION_ERRORS = (
+    ChunkedEncodingError,
+    RequestsConnectionError,
+    Timeout,
+)
 
 
 def get_account():
@@ -118,6 +132,29 @@ def get_quote(symbol: str):
     }
 
 
+def _reconcile_ambiguous_submission(
+    client_order_id: str | None,
+    original_error: Exception,
+):
+    """
+    Look up an order after an uncertain submit response.
+
+    A connection failure, timeout, truncated response, or server-side 5xx can
+    happen after Alpaca has accepted the order. Never submit again here. The
+    stable client order ID lets us make one read-only lookup and return the
+    accepted order if it exists. If the lookup cannot prove acceptance, keep
+    the original submission failure so the caller does not mistake it for a
+    successful order.
+    """
+    if not client_order_id:
+        raise original_error
+
+    try:
+        return trading_client.get_order_by_client_id(client_order_id)
+    except (APIError, RequestException) as lookup_error:
+        raise original_error from lookup_error
+
+
 def place_market_order(symbol: str, qty: float, side: str):
     """
     Place a paper market order. side must be 'buy' or 'sell'.
@@ -180,8 +217,26 @@ def place_bracket_order(
         take_profit=TakeProfitRequest(limit_price=round(take_profit_price, 2)),
         stop_loss=StopLossRequest(stop_price=round(stop_loss_price, 2)),
     )
-    order = trading_client.submit_order(order_request)
-    return {
+    reconciled = False
+    try:
+        order = trading_client.submit_order(order_request)
+    except AMBIGUOUS_SUBMISSION_ERRORS as submit_error:
+        order = _reconcile_ambiguous_submission(
+            client_order_id,
+            submit_error,
+        )
+        reconciled = True
+    except APIError as submit_error:
+        status_code = submit_error.status_code
+        if status_code is None or int(status_code) < 500:
+            raise
+        order = _reconcile_ambiguous_submission(
+            client_order_id,
+            submit_error,
+        )
+        reconciled = True
+
+    result = {
         "id": str(order.id),
         "client_order_id": order.client_order_id,
         "symbol": order.symbol,
@@ -192,6 +247,9 @@ def place_bracket_order(
         "stop_loss": round(stop_loss_price, 2),
         "legs": [str(leg.id) for leg in (order.legs or [])],
     }
+    if reconciled:
+        result["submission_reconciled"] = True
+    return result
 
 
 if __name__ == "__main__":
