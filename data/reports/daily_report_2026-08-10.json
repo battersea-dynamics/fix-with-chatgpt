@@ -1,0 +1,1329 @@
+{
+  "date": "2026-08-10",
+  "events": [
+    {
+      "at_et": "2026-08-10T08:47:04-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-10T08:52:33-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-10T09:31:51-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIRJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T10:22:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1017",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1017.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "ABCL",
+          "INHD",
+          "AIOT",
+          "CLRO",
+          "STFS",
+          "NABL",
+          "VATE",
+          "ZTG",
+          "YJ",
+          "ACHR",
+          "MB",
+          "SXTC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T10:52:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1046.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "ABCL",
+          "AIOT",
+          "CLRO",
+          "INHD",
+          "WYHG",
+          "STFS",
+          "NABL",
+          "YJ",
+          "ZTG",
+          "VATE",
+          "ACHR",
+          "MB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T11:22:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1117",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1117.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "WYHG",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "STFS",
+          "NABL",
+          "YJ",
+          "VATE",
+          "ZTG",
+          "LINC",
+          "ACHR",
+          "MB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T11:52:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1146.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "WYHG",
+          "SLN",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "NABL",
+          "STFS",
+          "VATE",
+          "LINC",
+          "YJ",
+          "MPT",
+          "ZTG",
+          "ACHR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACHR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T12:22:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1217",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1217.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "WYHG",
+          "SLN",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "NABL",
+          "YJ",
+          "STFS",
+          "VATE",
+          "LINC",
+          "MPT",
+          "ZTG",
+          "NESR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NESR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NESR",
+              "qty": 11,
+              "est_cost": 379.5,
+              "entry_ref": 34.5,
+              "take_profit": 36.48,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 33.45,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260810-122210-NESR",
+              "analysis_price": 34.52,
+              "live_price_change_pct": -0.06
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T12:52:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1246.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "WYHG",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "VATE",
+          "LINC",
+          "NABL",
+          "STFS",
+          "MPT",
+          "NESR",
+          "ZTG",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NESR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NESR",
+              "qty": 11,
+              "est_cost": 386.87,
+              "entry_ref": 35.17,
+              "take_profit": 37.06,
+              "remaining_take_profit_pct": 5.36,
+              "stop_loss": 34.22,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260810-125213-NESR",
+              "analysis_price": 35.045,
+              "live_price_change_pct": 0.36
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T13:22:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1317",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1317.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "ABCL",
+          "WYHG",
+          "AIOT",
+          "INHD",
+          "NABL",
+          "LINC",
+          "VATE",
+          "NESR",
+          "ZTG",
+          "YJ",
+          "STFS",
+          "MPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NESR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NESR",
+              "qty": 11,
+              "est_cost": 391.05,
+              "entry_ref": 35.55,
+              "take_profit": 37.36,
+              "remaining_take_profit_pct": 5.09,
+              "stop_loss": 34.47,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260810-132223-NESR",
+              "analysis_price": 35.33,
+              "live_price_change_pct": 0.62
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T13:52:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1347",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1347.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "ABCL",
+          "AIOT",
+          "WYHG",
+          "INHD",
+          "NABL",
+          "LINC",
+          "VATE",
+          "NESR",
+          "BSP",
+          "STFS",
+          "YJ",
+          "MPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NESR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NESR",
+              "qty": 11,
+              "est_cost": 392.81,
+              "entry_ref": 35.71,
+              "take_profit": 37.64,
+              "remaining_take_profit_pct": 5.4,
+              "stop_loss": 34.62,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260810-135246-NESR",
+              "analysis_price": 35.88,
+              "live_price_change_pct": -0.47
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T14:22:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1416.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "WYHG",
+          "ZTG",
+          "NABL",
+          "LINC",
+          "NESR",
+          "VATE",
+          "BSP",
+          "MPT",
+          "STFS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NESR",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NESR",
+              "qty": 10,
+              "est_cost": 362.3,
+              "entry_ref": 36.23,
+              "take_profit": 38.83,
+              "remaining_take_profit_pct": 7.18,
+              "stop_loss": 34.93,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260810-142230-NESR",
+              "analysis_price": 36.02,
+              "live_price_change_pct": 0.58
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T14:52:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1446.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "LINC",
+          "WYHG",
+          "NABL",
+          "NESR",
+          "VATE",
+          "ZTG",
+          "BSP",
+          "MPT",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NESR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T15:22:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1516.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "LINC",
+          "NABL",
+          "WYHG",
+          "NESR",
+          "VATE",
+          "ZTG",
+          "BSP",
+          "MPT",
+          "UPC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NESR",
+            "reason": "live ask $41.07 has reached or passed the original take-profit target $38.53"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UPC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T15:52:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-10/shortlist_1546.json",
+        "shortlist": [
+          "SION",
+          "TENX",
+          "SLN",
+          "AIOT",
+          "ABCL",
+          "INHD",
+          "LINC",
+          "WYHG",
+          "NABL",
+          "NESR",
+          "ZTG",
+          "VATE",
+          "BSP",
+          "MPT",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TENX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LINC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NABL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NESR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VATE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-10T15:52:31-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
