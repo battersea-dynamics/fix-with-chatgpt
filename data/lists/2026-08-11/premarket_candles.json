@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-11T08:49:17-04:00",
+  "session_date": "2026-08-11",
+  "reads": {
+    "ACVA": {
+      "symbol": "ACVA",
+      "pattern": "Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ONON": {
+      "symbol": "ONON",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "MNST": {
+      "symbol": "MNST",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "BW": {
+      "symbol": "BW",
+      "pattern": "Gap and Go Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "EVC": {
+      "symbol": "EVC",
+      "pattern": "Bearish Gap and Go",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "AHR": {
+      "symbol": "AHR",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "JAN": {
+      "symbol": "JAN",
+      "pattern": "gap down continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "JBI": {
+      "symbol": "JBI",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "FRMI": {
+      "symbol": "FRMI",
+      "pattern": "gap and go reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "QMCO": {
+      "symbol": "QMCO",
+      "pattern": "gap and go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ELVA": {
+      "symbol": "ELVA",
+      "pattern": "Gap Down Exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "RIOT": {
+      "symbol": "RIOT",
+      "pattern": "Gap and Run",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

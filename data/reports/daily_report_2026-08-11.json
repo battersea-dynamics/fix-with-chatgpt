@@ -1,0 +1,1273 @@
+{
+  "date": "2026-08-11",
+  "events": [
+    {
+      "at_et": "2026-08-11T08:46:52-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-11T08:52:37-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-08-11T09:31:57-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ACVA",
+            "reason": "live ask $9.26 has reached or passed the original take-profit target $8.70"
+          },
+          {
+            "symbol": "AHR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "live ask $16.22 has reached or passed the original take-profit target $14.21"
+          },
+          {
+            "symbol": "RIOT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T10:22:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1017",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1017.json",
+        "shortlist": [
+          "ELPW",
+          "QMCO",
+          "RNW",
+          "WYHG",
+          "ONON",
+          "SION",
+          "NIQ",
+          "KOPN",
+          "LIF",
+          "ACVA",
+          "FRMI",
+          "BWEN",
+          "BW",
+          "RPD",
+          "STKH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STKH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T10:53:55-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1046.json",
+        "shortlist": [
+          "QMCO",
+          "ELPW",
+          "RNW",
+          "ONON",
+          "WYHG",
+          "SION",
+          "NIQ",
+          "KOPN",
+          "ACVA",
+          "LIF",
+          "FRMI",
+          "RPD",
+          "BW",
+          "TME",
+          "CLRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T11:22:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1116.json",
+        "shortlist": [
+          "QMCO",
+          "ELPW",
+          "RNW",
+          "SION",
+          "ONON",
+          "NIQ",
+          "WYHG",
+          "LIF",
+          "KOPN",
+          "ACVA",
+          "FRMI",
+          "SE",
+          "BW",
+          "EVC",
+          "BSP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T11:52:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1146.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "SION",
+          "ONON",
+          "NIQ",
+          "LIF",
+          "WYHG",
+          "KOPN",
+          "ACVA",
+          "TJGC",
+          "FRMI",
+          "EVC",
+          "ETOR",
+          "SE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T12:25:35-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1216.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "NIQ",
+          "ONON",
+          "SION",
+          "LIF",
+          "KOPN",
+          "WYHG",
+          "ACVA",
+          "EVC",
+          "ETOR",
+          "FRMI",
+          "TME",
+          "TJGC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NIQ",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NIQ",
+              "qty": 24,
+              "est_cost": 392.16,
+              "entry_ref": 16.34,
+              "take_profit": 17.52,
+              "remaining_take_profit_pct": 7.25,
+              "stop_loss": 15.73,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260811-122534-NIQ",
+              "analysis_price": 16.16,
+              "live_price_change_pct": 1.11
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T12:52:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1246.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "NIQ",
+          "ONON",
+          "SION",
+          "LIF",
+          "WYHG",
+          "EVC",
+          "KOPN",
+          "ETOR",
+          "ACVA",
+          "TME",
+          "SE",
+          "TJGC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T13:27:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1317",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1317.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "PYXS",
+          "NIQ",
+          "ONON",
+          "SION",
+          "WYHG",
+          "LIF",
+          "NN",
+          "EVC",
+          "ETOR",
+          "KOPN",
+          "ACVA",
+          "TME"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYXS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TME",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T13:52:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1346.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "NIQ",
+          "PYXS",
+          "ONON",
+          "SION",
+          "LIF",
+          "EVC",
+          "NN",
+          "WYHG",
+          "ETOR",
+          "ACVA",
+          "KOPN",
+          "CLRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYXS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T14:22:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1416.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "PYXS",
+          "NIQ",
+          "ONON",
+          "SION",
+          "LIF",
+          "EVC",
+          "WYHG",
+          "ETOR",
+          "NN",
+          "ACVA",
+          "KOPN",
+          "CLRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYXS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T14:52:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1446.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "PYXS",
+          "NIQ",
+          "ONON",
+          "SION",
+          "LIF",
+          "ETOR",
+          "EVC",
+          "WYHG",
+          "NN",
+          "HUBG",
+          "KOPN",
+          "ACVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYXS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUBG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T15:23:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1516.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "PYXS",
+          "NIQ",
+          "ONON",
+          "SION",
+          "LIF",
+          "WYHG",
+          "ETOR",
+          "EVC",
+          "HUBG",
+          "NN",
+          "KOPN",
+          "IHRT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYXS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUBG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IHRT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T15:52:35-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-11/shortlist_1546.json",
+        "shortlist": [
+          "QMCO",
+          "RNW",
+          "ELPW",
+          "NIQ",
+          "PYXS",
+          "ONON",
+          "SION",
+          "WYHG",
+          "LIF",
+          "ETOR",
+          "EVC",
+          "HUBG",
+          "IHRT",
+          "NN",
+          "KOPN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ELPW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYXS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ETOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUBG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IHRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOPN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-11T15:52:35-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
