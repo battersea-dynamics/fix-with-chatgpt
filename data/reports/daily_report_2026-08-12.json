@@ -1,0 +1,1463 @@
+{
+  "date": "2026-08-12",
+  "events": [
+    {
+      "at_et": "2026-08-12T08:46:47-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-12T08:52:17-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-12T09:32:01-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CAVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLBE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HYLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRGV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMWB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T10:23:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1016.json",
+        "shortlist": [
+          "PLAG",
+          "ZTG",
+          "RSKD",
+          "SVV",
+          "XHLD",
+          "CZR",
+          "CRWV",
+          "EROC",
+          "SMWB",
+          "OCTV",
+          "SION",
+          "NBIS",
+          "WXM",
+          "UAMY",
+          "ATRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "RSKD",
+            "action": "dry_run",
+            "order": {
+              "symbol": "RSKD",
+              "qty": 68,
+              "est_cost": 392.36,
+              "entry_ref": 5.77,
+              "take_profit": 6.11,
+              "remaining_take_profit_pct": 5.92,
+              "stop_loss": 5.57,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-102324-RSKD",
+              "analysis_price": 5.745,
+              "live_price_change_pct": 0.44
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CZR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMWB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WXM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T10:52:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1046.json",
+        "shortlist": [
+          "PLAG",
+          "ZTG",
+          "RSKD",
+          "SVV",
+          "XHLD",
+          "SMWB",
+          "OCTV",
+          "PAL",
+          "CZR",
+          "SION",
+          "CRWV",
+          "EROC",
+          "WXM",
+          "VELO",
+          "WRD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "RSKD",
+            "action": "dry_run",
+            "order": {
+              "symbol": "RSKD",
+              "qty": 68,
+              "est_cost": 393.72,
+              "entry_ref": 5.79,
+              "take_profit": 6.15,
+              "remaining_take_profit_pct": 6.2,
+              "stop_loss": 5.62,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-105236-RSKD",
+              "analysis_price": 5.78,
+              "live_price_change_pct": 0.17
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMWB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CZR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WXM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T11:23:06-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1116.json",
+        "shortlist": [
+          "PLAG",
+          "ZTG",
+          "RSKD",
+          "SVV",
+          "OCTV",
+          "SMWB",
+          "EROC",
+          "SION",
+          "XHLD",
+          "WRD",
+          "PAL",
+          "CZR",
+          "UAMY",
+          "CRWV",
+          "MVIS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMWB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CZR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MVIS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T11:52:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1147",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1147.json",
+        "shortlist": [
+          "PLAG",
+          "ZTG",
+          "RSKD",
+          "OCTV",
+          "SVV",
+          "WEN",
+          "SMWB",
+          "UAMY",
+          "XHLD",
+          "SION",
+          "WRD",
+          "EROC",
+          "PAL",
+          "CZR",
+          "CRWV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SMWB",
+            "action": "dry_run",
+            "order": {
+              "symbol": "SMWB",
+              "qty": 47,
+              "est_cost": 393.39,
+              "entry_ref": 8.37,
+              "take_profit": 8.8,
+              "remaining_take_profit_pct": 5.17,
+              "stop_loss": 8.12,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-115243-SMWB",
+              "analysis_price": 8.325,
+              "live_price_change_pct": 0.54
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CZR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T12:23:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1216.json",
+        "shortlist": [
+          "PLAG",
+          "ZTG",
+          "RSKD",
+          "SVV",
+          "OCTV",
+          "XHLD",
+          "WEN",
+          "SMWB",
+          "UAMY",
+          "WRD",
+          "SION",
+          "EROC",
+          "PAL",
+          "NBIS",
+          "MVIS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SMWB",
+            "action": "dry_run",
+            "order": {
+              "symbol": "SMWB",
+              "qty": 47,
+              "est_cost": 392.92,
+              "entry_ref": 8.36,
+              "take_profit": 8.83,
+              "remaining_take_profit_pct": 5.6,
+              "stop_loss": 8.13,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-122319-SMWB",
+              "analysis_price": 8.36,
+              "live_price_change_pct": 0.0
+            }
+          },
+          {
+            "symbol": "NBIS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NBIS",
+              "qty": 1,
+              "est_cost": 248.15,
+              "entry_ref": 248.15,
+              "take_profit": 260.8,
+              "remaining_take_profit_pct": 5.1,
+              "stop_loss": 240.71,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260812-122319-NBIS",
+              "analysis_price": 245.16,
+              "live_price_change_pct": 1.22
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MVIS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T12:53:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1246.json",
+        "shortlist": [
+          "PLAG",
+          "ZTG",
+          "RSKD",
+          "XHLD",
+          "OCTV",
+          "SVV",
+          "UAMY",
+          "WRD",
+          "SMWB",
+          "WEN",
+          "SION",
+          "MVIS",
+          "NBIS",
+          "PAL",
+          "EROC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMWB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MVIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T13:22:58-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1316.json",
+        "shortlist": [
+          "PLAG",
+          "RSKD",
+          "ZTG",
+          "XHLD",
+          "OCTV",
+          "SVV",
+          "WRD",
+          "UAMY",
+          "SMWB",
+          "SION",
+          "WEN",
+          "MVIS",
+          "EROC",
+          "PAL",
+          "NBIS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SMWB",
+            "action": "dry_run",
+            "order": {
+              "symbol": "SMWB",
+              "qty": 47,
+              "est_cost": 389.63,
+              "entry_ref": 8.29,
+              "take_profit": 9.02,
+              "remaining_take_profit_pct": 8.75,
+              "stop_loss": 8.03,
+              "confidence": 0.65,
+              "client_order_id": "ta-20260812-132258-SMWB",
+              "analysis_price": 8.305,
+              "live_price_change_pct": -0.18
+            }
+          },
+          {
+            "symbol": "PAL",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAL",
+              "qty": 59,
+              "est_cost": 318.01,
+              "entry_ref": 5.39,
+              "take_profit": 5.68,
+              "remaining_take_profit_pct": 5.41,
+              "stop_loss": 5.25,
+              "confidence": 0.65,
+              "client_order_id": "ta-20260812-132258-PAL",
+              "analysis_price": 5.36,
+              "live_price_change_pct": 0.56
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MVIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T13:53:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1346.json",
+        "shortlist": [
+          "XHLD",
+          "PLAG",
+          "RSKD",
+          "ZTG",
+          "SVV",
+          "SMWB",
+          "OCTV",
+          "UAMY",
+          "WRD",
+          "SION",
+          "PAL",
+          "WEN",
+          "EROC",
+          "NBIS",
+          "MVIS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "RSKD",
+            "action": "dry_run",
+            "order": {
+              "symbol": "RSKD",
+              "qty": 64,
+              "est_cost": 390.4,
+              "entry_ref": 6.1,
+              "take_profit": 6.41,
+              "remaining_take_profit_pct": 5.14,
+              "stop_loss": 5.91,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-135304-RSKD",
+              "analysis_price": 6.085,
+              "live_price_change_pct": 0.25
+            }
+          },
+          {
+            "symbol": "SMWB",
+            "action": "dry_run",
+            "order": {
+              "symbol": "SMWB",
+              "qty": 36,
+              "est_cost": 313.56,
+              "entry_ref": 8.71,
+              "take_profit": 9.36,
+              "remaining_take_profit_pct": 7.44,
+              "stop_loss": 8.45,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260812-135304-SMWB",
+              "analysis_price": 8.63,
+              "live_price_change_pct": 0.93
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MVIS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T14:22:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1416.json",
+        "shortlist": [
+          "XHLD",
+          "PLAG",
+          "RSKD",
+          "ZTG",
+          "SMWB",
+          "SVV",
+          "UAMY",
+          "OCTV",
+          "WRD",
+          "PAL",
+          "SION",
+          "MVIS",
+          "WEN",
+          "EROC",
+          "NBIS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMWB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MVIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T14:52:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1446.json",
+        "shortlist": [
+          "XHLD",
+          "PLAG",
+          "RSKD",
+          "ZTG",
+          "SMWB",
+          "SVV",
+          "UAMY",
+          "WRD",
+          "OCTV",
+          "SION",
+          "EROC",
+          "PAL",
+          "WEN",
+          "NBIS",
+          "QMCO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SMWB",
+            "action": "dry_run",
+            "order": {
+              "symbol": "SMWB",
+              "qty": 44,
+              "est_cost": 390.28,
+              "entry_ref": 8.87,
+              "take_profit": 9.59,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 8.57,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260812-145244-SMWB",
+              "analysis_price": 8.87,
+              "live_price_change_pct": 0.0
+            }
+          },
+          {
+            "symbol": "PAL",
+            "action": "dry_run",
+            "order": {
+              "symbol": "PAL",
+              "qty": 59,
+              "est_cost": 317.42,
+              "entry_ref": 5.38,
+              "take_profit": 5.68,
+              "remaining_take_profit_pct": 5.64,
+              "stop_loss": 5.23,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-145244-PAL",
+              "analysis_price": 5.375,
+              "live_price_change_pct": 0.09
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T15:22:53-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1517",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1517.json",
+        "shortlist": [
+          "XHLD",
+          "RSKD",
+          "PLAG",
+          "ZTG",
+          "SMWB",
+          "SVV",
+          "UAMY",
+          "WRD",
+          "OCTV",
+          "SION",
+          "WEN",
+          "PAL",
+          "NBIS",
+          "QMCO",
+          "EROC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "RSKD",
+            "action": "dry_run",
+            "order": {
+              "symbol": "RSKD",
+              "qty": 64,
+              "est_cost": 390.4,
+              "entry_ref": 6.1,
+              "take_profit": 6.39,
+              "remaining_take_profit_pct": 4.79,
+              "stop_loss": 5.91,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-152253-RSKD",
+              "analysis_price": 6.045,
+              "live_price_change_pct": 0.91
+            }
+          },
+          {
+            "symbol": "SMWB",
+            "action": "dry_run",
+            "order": {
+              "symbol": "SMWB",
+              "qty": 35,
+              "est_cost": 315.7,
+              "entry_ref": 9.02,
+              "take_profit": 9.64,
+              "remaining_take_profit_pct": 6.91,
+              "stop_loss": 8.76,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-152253-SMWB",
+              "analysis_price": 9.0,
+              "live_price_change_pct": 0.22
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T15:53:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-12/shortlist_1546.json",
+        "shortlist": [
+          "XHLD",
+          "RSKD",
+          "PLAG",
+          "ZTG",
+          "SMWB",
+          "SVV",
+          "UAMY",
+          "WRD",
+          "OCTV",
+          "SION",
+          "QNT",
+          "WEN",
+          "NBIS",
+          "QMCO",
+          "PAL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "QNT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "QNT",
+              "qty": 5,
+              "est_cost": 358.3,
+              "entry_ref": 71.66,
+              "take_profit": 77.48,
+              "remaining_take_profit_pct": 8.12,
+              "stop_loss": 68.87,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260812-155300-QNT",
+              "analysis_price": 71.87,
+              "live_price_change_pct": -0.29
+            }
+          },
+          {
+            "symbol": "NBIS",
+            "action": "dry_run",
+            "order": {
+              "symbol": "NBIS",
+              "qty": 1,
+              "est_cost": 255.25,
+              "entry_ref": 255.25,
+              "take_profit": 273.73,
+              "remaining_take_profit_pct": 7.24,
+              "stop_loss": 246.62,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260812-155300-NBIS",
+              "analysis_price": 252.425,
+              "live_price_change_pct": 1.12
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMWB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCTV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SION",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-12T15:53:01-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

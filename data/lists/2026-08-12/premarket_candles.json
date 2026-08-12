@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-12T08:49:04-04:00",
+  "session_date": "2026-08-12",
+  "reads": {
+    "DFTX": {
+      "symbol": "DFTX",
+      "pattern": "Bullish Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PLAG": {
+      "symbol": "PLAG",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SVV": {
+      "symbol": "SVV",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "GLBE": {
+      "symbol": "GLBE",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "HYLN": {
+      "symbol": "HYLN",
+      "pattern": "breakout reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VELO": {
+      "symbol": "VELO",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "CAVA": {
+      "symbol": "CAVA",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CRWV": {
+      "symbol": "CRWV",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "NRGV": {
+      "symbol": "NRGV",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "UAMY": {
+      "symbol": "UAMY",
+      "pattern": "Gap Down Continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SMWB": {
+      "symbol": "SMWB",
+      "pattern": "breakout reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "NBIS": {
+      "symbol": "NBIS",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    }
+  }
+}
