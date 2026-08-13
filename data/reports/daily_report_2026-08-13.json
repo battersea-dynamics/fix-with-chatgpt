@@ -1,0 +1,1370 @@
+{
+  "date": "2026-08-13",
+  "events": [
+    {
+      "at_et": "2026-08-13T08:46:27-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-13T08:52:24-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-08-13T09:31:19-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "HLIT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "HLIT",
+              "qty": 26,
+              "est_cost": 383.76,
+              "entry_ref": 14.76,
+              "take_profit": 15.58,
+              "remaining_take_profit_pct": 5.53,
+              "stop_loss": 14.38,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260813-093118-HLIT",
+              "analysis_price": 14.85,
+              "live_price_change_pct": -0.61
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGEM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JACK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STUB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T10:22:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1016.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "CRMD",
+          "XHLD",
+          "SECZ",
+          "BOXL",
+          "TPR",
+          "HLIT",
+          "YETI",
+          "YXT",
+          "AVAH",
+          "FFAI",
+          "LBGJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HLIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T10:52:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1046.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "XHLD",
+          "CRMD",
+          "FFAI",
+          "SECZ",
+          "GMRS",
+          "BOXL",
+          "TPR",
+          "YETI",
+          "LBGJ",
+          "BIRK",
+          "HLIT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ARX",
+            "action": "dry_run",
+            "order": {
+              "symbol": "ARX",
+              "qty": 20,
+              "est_cost": 391.0,
+              "entry_ref": 19.55,
+              "take_profit": 21.26,
+              "remaining_take_profit_pct": 8.75,
+              "stop_loss": 18.66,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260813-105238-ARX",
+              "analysis_price": 19.551,
+              "live_price_change_pct": -0.01
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HLIT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T11:22:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1116.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "XHLD",
+          "CRMD",
+          "FFAI",
+          "SECZ",
+          "GMRS",
+          "BOXL",
+          "TPR",
+          "YETI",
+          "LFTO",
+          "AVAH",
+          "LBGJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LBGJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T11:53:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1146.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "XHLD",
+          "GMRS",
+          "CRMD",
+          "SECZ",
+          "FFAI",
+          "BOXL",
+          "LFTO",
+          "YETI",
+          "TPR",
+          "REZI",
+          "AVAH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "live ask $15.51 has reached or passed the original take-profit target $14.30"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T12:25:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1216.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "XHLD",
+          "CRMD",
+          "SECZ",
+          "GMRS",
+          "FFAI",
+          "LFTO",
+          "BOXL",
+          "YETI",
+          "TPR",
+          "REZI",
+          "AVAH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AMPY",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AMPY",
+              "qty": 78,
+              "est_cost": 393.12,
+              "entry_ref": 5.04,
+              "take_profit": 5.49,
+              "remaining_take_profit_pct": 9.0,
+              "stop_loss": 4.83,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260813-122502-AMPY",
+              "analysis_price": 5.045,
+              "live_price_change_pct": -0.1
+            }
+          },
+          {
+            "symbol": "AVAH",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AVAH",
+              "qty": 29,
+              "est_cost": 310.3,
+              "entry_ref": 10.7,
+              "take_profit": 11.25,
+              "remaining_take_profit_pct": 5.1,
+              "stop_loss": 10.37,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260813-122502-AVAH",
+              "analysis_price": 10.635,
+              "live_price_change_pct": 0.61
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T12:52:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1246.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "XHLD",
+          "FFAI",
+          "SECZ",
+          "CRMD",
+          "LFTO",
+          "GMRS",
+          "YETI",
+          "BOXL",
+          "AVAH",
+          "YXT",
+          "TPR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AVAH",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AVAH",
+              "qty": 36,
+              "est_cost": 387.36,
+              "entry_ref": 10.76,
+              "take_profit": 11.38,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 10.47,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260813-125252-AVAH",
+              "analysis_price": 10.76,
+              "live_price_change_pct": 0.0
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TPR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T13:22:58-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1316.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "FFAI",
+          "SECZ",
+          "CRMD",
+          "INHD",
+          "XHLD",
+          "LFTO",
+          "YETI",
+          "GMRS",
+          "BOXL",
+          "TPR",
+          "WETO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T13:52:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1346.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "AMPY",
+          "EROC",
+          "SECZ",
+          "FFAI",
+          "LFTO",
+          "XHLD",
+          "CRMD",
+          "YETI",
+          "INHD",
+          "GMRS",
+          "QMCO",
+          "BOXL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T14:22:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1416.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "OMER",
+          "EROC",
+          "AMPY",
+          "SECZ",
+          "XHLD",
+          "FFAI",
+          "LFTO",
+          "YETI",
+          "INHD",
+          "QMCO",
+          "CRMD",
+          "GMRS",
+          "AVAH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AVAH",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AVAH",
+              "qty": 36,
+              "est_cost": 389.52,
+              "entry_ref": 10.82,
+              "take_profit": 11.34,
+              "remaining_take_profit_pct": 4.78,
+              "stop_loss": 10.49,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260813-142248-AVAH",
+              "analysis_price": 10.7216,
+              "live_price_change_pct": 0.92
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T14:52:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1446.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "INHD",
+          "OMER",
+          "EROC",
+          "AMPY",
+          "SECZ",
+          "FFAI",
+          "CRMD",
+          "YETI",
+          "XHLD",
+          "LFTO",
+          "AVAH",
+          "QMCO",
+          "GMRS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AVAH",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AVAH",
+              "qty": 35,
+              "est_cost": 392.35,
+              "entry_ref": 11.21,
+              "take_profit": 11.57,
+              "remaining_take_profit_pct": 3.22,
+              "stop_loss": 10.92,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260813-145257-AVAH",
+              "analysis_price": 10.965,
+              "live_price_change_pct": 2.23
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T15:24:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1516.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "INHD",
+          "OMER",
+          "AVAH",
+          "SECZ",
+          "AMPY",
+          "EROC",
+          "FFAI",
+          "YETI",
+          "XHLD",
+          "LFTO",
+          "CRMD",
+          "GMRS",
+          "ABEO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AVAH",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AVAH",
+              "qty": 34,
+              "est_cost": 387.6,
+              "entry_ref": 11.4,
+              "take_profit": 12.32,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 11.01,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260813-152447-AVAH",
+              "analysis_price": 11.45,
+              "live_price_change_pct": -0.44
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T15:53:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-13/shortlist_1546.json",
+        "shortlist": [
+          "ARX",
+          "CLBT",
+          "INHD",
+          "OMER",
+          "AVAH",
+          "SECZ",
+          "EROC",
+          "AMPY",
+          "FFAI",
+          "LFTO",
+          "YETI",
+          "CRMD",
+          "XHLD",
+          "ABEO",
+          "GMRS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMPY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-13T15:53:04-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

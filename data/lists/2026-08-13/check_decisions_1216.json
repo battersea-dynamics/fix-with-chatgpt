@@ -1,0 +1,257 @@
+{
+  "generated_at": "2026-08-13T12:25:02-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "ARX",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Accelerant is supported by a massive fundamental catalyst today, as the stock has surged following news of a takeover bid from Thoma Bravo. This acquisition interest is driving extreme liquidity, evidenced by a relative volume of 21.13x the 20-day average, signaling institutional demand and strong participation. The stock is currently holding a high-rank position with 5 consecutive observations and sustained volume intensity, suggesting the market is aggressively repricing the shares to account for the premium offer. BEAR: ARX is showing clear signs of exhaustion following the news of Thoma Bravo's bid, with the price having retreated 5.12% from its session high. The stock is currently trading 50.07% above its 20-day moving average, reflecting a massive overextension that leaves the entry point extremely vulnerable to profit-taking. Furthermore, the momentum score has plummeted by 0.9784 points over the last 120 minutes, indicating that the initial buying frenzy is fading despite the presence of fresh M&A news. Buying at these levels represents chasing a news-driven spike that has already failed to sustain its peak price, making it prime exit liquidity for early entrants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CLBT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Cellebrite DI is currently experiencing a significant dislocation following its earnings release today, August 13, creating a potential mean-reversion opportunity as the market digests the report. While the stock has seen a sharp 32.93% drop, this follows a recent analyst endorsement from DA Davidson on August 6 which maintained a buy rating and raised the price target to $22, suggesting the sell-off may be an overreaction. Momentum shows high participation with relative volume at 17.11x normal levels, and after being tracked for 120 minutes, the stock is demonstrating resilience with a low drawdown of only 1.73% from its observed high. The combination of intense volume and a significant gap away from its 20-day MA indicates a potential exhaustion of selling pressure in the immediate term. BEAR: CLBT is currently experiencing a severe technical breakdown, down 32.93% on the day with a relative volume of 17.11x, indicating an institutional-scale exodus following this morning's earnings report. Buying here is a clear 'chasing' trap, as the price is trading 32.45% below its 20-day MA and momentum data shows price acceleration of -0.7593% even with high-volume interest. The market is clearly rejecting the earnings release as a disappointment, and attempting to bottom-fish a stock in the midst of a massive, high-volume vertical drop carries significant risk of further downward capitulation. Given the concurrent nature of the earnings report and the violent price action, any attempt to hold this stock in the coming days risks catching a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OMER",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.15 = bull 0.60 - bear 0.75 (buy at >= +0.20). BULL: OMER is demonstrating significant momentum on August 13, 2026, highlighted by a 22.17% price increase and high relative volume of 4.85x. The rally is supported by specific news headlines from Benzinga confirming investor interest in today's session. With five consecutive observations showing steady liquidity and a 44.70% premium over the 20-day moving average, the stock remains in a strong breakout position despite a minor 2.5% drawdown from the observed session high. The high-volume participation suggests institutional interest remains present, providing a solid foundation for further upside in the near term. BEAR: OMER is currently exhibiting clear signs of exhaustion as it trades 44.70% above its 20-day moving average, signaling an unsustainable short-term vertical move. The tape data confirms a transition into distribution, evidenced by a 2.50% drawdown from the observed session high and a deceleration in price momentum of -2.44 percentage points. With the relative volume rate dropping by 0.0473 and the rank improvement stagnating at 0, the rally is losing its structural support while the price remains heavily extended. Investors buying at $16.75 are essentially acting as exit liquidity for earlier participants who drove the initial pre-market surge.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AMPY",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 9.0,
+      "stop_loss_pct": 4.12,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: AMPY is demonstrating exceptional momentum with a 6.54x relative volume surge and a 14.92% gain today, driven by institutional interest following a positive earnings beat on August 10th. The tape confirms sustained strength with five consecutive positive observations, zero drawdown from the observed high, and consistent price acceleration. With the stock trading 26.16% above its 20-day moving average and analyst support maintaining a $9 price target, the current technical breakout is supported by significant liquidity and positive market sentiment. BEAR: AMPY is currently trading 26.16% above its 20-day moving average, creating a significant technical extension that leaves it vulnerable to profit-taking. Despite the 14.92% gain today, the catalyst report shows no fresh news to justify this acceleration, as the conflicting Q2 earnings reports from August 10 and the subsequent price target downgrade on August 11 are already several days old. With the price currently hovering at its observed high of $5.045 and relative volume rates struggling at only 0.4158 per 30 minutes, the stock lacks the participation momentum required to sustain such a sharp deviation from its recent baseline.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XHLD",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: XHLD is showing significant momentum with an 8.22% gain and remains 188.08% above its 20-day moving average, signaling an aggressive trend breakout. The tape confirms persistent interest with five consecutive observations showing a 4.32% return since the first scan, supported by three intervals of positive price development. While the catalyst report provides no specific headline explaining this move, the stock's repeated appearance on communication services sector watchlists as of 2026-08-12 suggests ongoing market interest that is currently manifesting in today's price action. BEAR: XHLD exhibits clear signs of chasing and exhaustion as the stock trades at an extreme 188% extension from its 20-day moving average on abysmal relative volume of only 0.21x. The tape confirms a breakdown in momentum, with a negative price acceleration of -4.1912% and a drawdown of 2.03% from the session high as buying interest fails to materialize. Furthermore, there is a total absence of a company-specific catalyst in the report to justify an 8.22% move, leaving current buyers as nothing more than exit liquidity for earlier participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRMD",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: CRMD is demonstrating robust momentum following its same-session earnings report, underscored by a significant 3.36x relative volume and a 17.18% gain. The stock has successfully maintained a ranking improvement, shifting from 7th to 6th, and shows a notable price acceleration of 0.9864 percentage points. With the market reacting positively to the earnings release and identifying CorMedix as a primary mover, the combination of high participation and price resilience signals a strong potential for continued upside in the near term. BEAR: CRMD is currently facing a 'chasing' scenario where the stock has already achieved a +17.18% gain for the day, yet the momentum data reveals measurable deterioration, specifically a 2.0024% drawdown from the observed high and a weakening relative volume rate. Because earnings were released this morning, the trade is now subject to post-report volatility that often sees initial spikes fade as the market digests the actual results. Furthermore, the distance from the 20-day moving average of +8.72% leaves little room for upside without a secondary catalyst, making current entry points highly vulnerable to a mean reversion as the morning momentum fails to sustain its pace.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SECZ",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: SECZ is currently oversold following a 23.03% intraday decline, creating a potential mean-reversion opportunity as the stock trades 16.42% below its 20-day moving average. The aggressive sell-off appears overextended in light of the recent analyst coverage from Citizens on 2026-08-11, which set a $15 price target, representing significant upside from the current $6.05 level. Market participation remains elevated with a relative volume of 2.91x, and the price has shown resilient rank improvement in our recent scans, moving from rank 8 to 7 with a 1.2772 score increase. This suggests that buyers are stepping in to absorb the post-earnings selling pressure at these depressed valuation levels. BEAR: SECZ is suffering from a fundamental disconnect where a significant 23.03% intraday crash is being driven by yesterday's EPS miss, which reported a $(2.37) loss against expectations. The internal momentum data confirms the move is not yet exhausted, as shown by a consistent 3.5857% drawdown from the observed high and negative price acceleration. With the stock already trading 16.42% below its 20-day moving average and volume participation showing a deteriorating rate of 0.2344 per 30-minute interval, buying now constitutes catching a falling knife against a confirmed negative catalyst. The market's reaction to the Q2 results appears to be a multi-day repricing event rather than a localized liquidity gap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GMRS",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.99,
+      "stop_loss_pct": 2.75,
+      "reasoning": "net -0.10 = bull 0.45 - bear 0.55 (buy at >= +0.20). BULL: GMRS is exhibiting significant market participation today with relative volume at 5.24x its 20-day normal level, coinciding with the company's earnings release occurring in the current session. While the price has experienced a recent pullback from its session high of $13.73, the stock remains up 2.72% on the day and is trading 3.54% above its 20-day moving average. The current price action represents a consolidation phase following a high-volume surge, suggesting that market participants are evaluating the fundamental data provided by the BMO earnings report. Given the substantial volume profile and the active earnings catalyst, there is potential for price discovery to resolve to the upside if the market absorbs the new financial information favorably. BEAR: The trade is effectively a coin flip against an earnings catalyst released today, placing the position in the path of unpredictable volatility. Price action shows clear deterioration with a 3.78% drawdown from the session high and a negative price acceleration of -5.94% points. Furthermore, the relative volume rate is declining, suggesting institutional participation is drying up just as the market reacts to the BMO earnings report. Chasing this move is hazardous given that the stock has already lost its initial momentum, dropping two spots in rank and showing negative returns in the most recent observation intervals.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FFAI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: FFAI is exhibiting strong momentum with a 13.09% gain today on significant relative volume of 2.02x, suggesting renewed interest ahead of today's earnings announcement. The stock benefits from positive sentiment following the August 10 headline regarding Nasdaq compliance restoration and progress in EAI robotics, providing fundamental backing to today's price action. Despite a drawdown from the session high, the price remains well above the 20-day moving average context, and the stock is showing persistence with five consecutive observations showing a 1.4085% gain since it was first tracked. BEAR: FFAI is a high-risk long due to an imminent earnings announcement scheduled for after market close today, which renders a multi-day hold a coin-flip binary event. The tape shows clear evidence of exhaustion: the stock has already suffered an 8.67% drawdown from its daily high of $4.73, and price acceleration has turned negative at -0.6886%. Furthermore, relative volume momentum is deteriorating with a negative rate of change, indicating that the initial buying interest is drying up while the stock remains 46.75% below its 20-day moving average, suggesting this rally is a volatility spike rather than a sustainable trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LFTO",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: LFTO is showing signs of a sharp oversold bounce following a 20.05% drop, supported by massive participation at 2.64x relative volume. The intraday tape demonstrates active interest with positive price acceleration of 0.9597% and a rank improvement from 11 to 10 over the last 60 minutes. While the Q2 2026 earnings transcript released on 2026-08-12 does not provide a specific catalyst for today's move, the elevated volume indicates aggressive market absorption at current levels. This setup captures a potential mean reversion play for traders looking to capitalize on high-volatility capitulation. BEAR: LFTO is experiencing a significant drawdown of -20.05% today, with momentum data indicating it has failed to hold its highs, currently sitting -0.71% below the observed session high. The relative volume rate is deteriorating with a -0.0443 change, signaling that buyer participation is fading as the stock sits 13.44% below its 20-day moving average. The Q2 earnings transcript released yesterday likely triggered this aggressive repricing, and the lack of a sustained bounce one hour after being first seen suggests this is not a simple dip-buy opportunity but a broader failure of technical support levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BOXL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.50 = bull 0.20 - bear 0.70 (buy at >= +0.20). BULL: BOXL is experiencing a significant volatility event, having been identified as one of the stocks moving in today's pre-market session according to Benzinga and ChartMill headlines. While the stock has seen a sharp daily drawdown, the price acceleration of 9.2598% observed across recent intervals suggests a potential for a short-term mean reversion play. With 5 consecutive observations providing data, the setup reflects a trader's opportunity to capture upside from the recent volatility as the asset continues to appear on market scanners for active IT stocks. Nothing in the news report explicitly confirms a fundamental catalyst, so this trade relies on the technical exhaustion indicated by the current price action. BEAR: BOXL is currently failing due to a lack of institutional participation, evidenced by a dismal 0.36x relative volume which confirms the move lacks the necessary conviction to sustain a 77.49% extension from its 20-day moving average. The stock displays classic exhaustion, with a 5.47% drawdown from its observed high and a worsening rank trend over the last 120 minutes. Despite being cited in pre-market momentum reports today, the price action has consistently deteriorated since first being observed, shifting from momentum to a stagnant, volume-starved mean reversion profile.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "YETI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: YETI is presenting a classic overreaction play following today's Q2 earnings report where the company beat profit estimates and raised its full-year EPS outlook. Despite the 12.71% drop, the stock is showing intense market interest with a 2.58x relative volume spike indicating significant institutional absorption. While price momentum is currently mixed, the firm's fundamental upgrade provides a strong catalyst for a mean reversion as investors reconcile the positive guidance against the initial sell-off. The current distance from the 20-day moving average of -13.15% offers an attractive entry point for a short-term bounce as the market digests the strong fundamental data provided today. BEAR: YETI is experiencing a violent market rejection of its earnings report, trading down 12.71% despite the news of a raised outlook and a profit beat. The 2.58x relative volume spike indicates heavy institutional selling rather than accumulation, and the stock is already trading 13.15% below its 20-day moving average, suggesting this is a fundamental repricing rather than a temporary dip. With momentum metrics showing a negative price acceleration and declining volume rates as the day progresses, the 'buy the dip' thesis is failing as traders are clearly viewing the positive earnings news as an exit liquidity event. Purchasing now ignores the immediate, aggressive distribution occurring across the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TPR",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Tapestry reported a Q4 earnings beat today, sparking an immediate market reaction despite the conservative forward outlook. The stock is exhibiting significant buying interest, with relative volume at 2.09x its normal daily average, suggesting an aggressive absorption of the initial sell-side shock. Market momentum remains resilient, with 5 consecutive scans showing a 2.11% gain from the first observation and no drawdown from the observed high of $131.66. The current setup, characterized by sustained price recovery and strong participation, signals that the market is already looking past the initial headline-driven volatility toward a potential reversal. BEAR: Tapestry is suffering a sharp -14.36% drawdown today following a Q4 earnings release where management issued forward guidance that missed estimates, signaling underlying weakness despite the headline earnings beat. While the stock has seen a bounce over the last two hours, the volume participation is drying up with a negative relative volume rate change of -0.0534 and price acceleration in negative territory, suggesting this intraday recovery is likely exit liquidity rather than a trend reversal. With the stock already trading 12.86% below its 20-day moving average, any attempt to catch this falling knife ignores the fundamental concern that investors are actively punishing the company's disappointing outlook.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "REZI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: REZI is currently exhibiting an extreme mean-reversion opportunity following a significant 19.68% decline, which has pushed the stock to 17% below its 20-day moving average. While the sell-off is reacting to the recent August 12 Q2 earnings report and an earlier shelf prospectus filing, the intense relative volume of 1.92x suggests heavy institutional capitulation or clearing of positions that often precedes a stabilization point. The momentum data shows the stock is holding its price level within a very tight range over the last 30 minutes, indicating that the selling pressure is beginning to exhaust itself at current levels. Buying here captures the potential for a snap-back rally as the market absorbs the recent news and reassesses the valuation floor. BEAR: REZI is currently experiencing significant downward pressure following Q2 earnings, with a sharp 19.68% decline and prices trading 17.00% below the 20-day moving average. The stock's failure to find support is exacerbated by the lingering overhang of a recent shelf prospectus filing from August 7th, suggesting a potential for future dilution that remains an unresolved cloud over the share price. Furthermore, the intraday momentum data confirms exhaustion, as the stock is failing to recover from its observed high with a negative return since being tracked, signaling that buyers are unable to step in against the heavy selling volume. Betting on a reversal here is extremely dangerous given that the market is actively processing the negative sentiment from the recent earnings call.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AVAH",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: AVAH is surging on robust same-day earnings results, with Q2 adjusted EPS of $0.22 beating estimates of $0.17 and revenue of $670.483M exceeding the $638.619M expectation. This fundamental catalyst is reinforced by upward guidance, as the company now expects FY2026 revenue to exceed $2.680B compared to prior estimates of $2.625B. Market participation remains strong with 1.81x relative volume and a 17.51% price gain, while the stock demonstrates intraday resilience with three consecutive observations and positive price acceleration of 1.4975 percentage points. Given the significant beat and raise, the stock has clear fundamental momentum to sustain its breakout levels. BEAR: The stock is currently exhibiting clear signs of exhaustion as it struggles to hold its daily highs, evidenced by a -0.7466% drawdown from the observed high and a recent decline in relative volume pace (-0.1559). While the Q2 earnings beat provided a fresh catalyst today, the momentum has clearly cooled with the price falling -0.2345% since the stock first appeared on scanners. With the stock trading 11.99% above its 20-day moving average, buying at this level constitutes chasing a move that has already been fully digested by the market throughout the session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ARX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CLBT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OMER",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AMPY",
+      "action": "dry_run",
+      "order": {
+        "symbol": "AMPY",
+        "qty": 78,
+        "est_cost": 393.12,
+        "entry_ref": 5.04,
+        "take_profit": 5.49,
+        "remaining_take_profit_pct": 9.0,
+        "stop_loss": 4.83,
+        "confidence": 0.675,
+        "client_order_id": "ta-20260813-122502-AMPY",
+        "analysis_price": 5.045,
+        "live_price_change_pct": -0.1
+      }
+    },
+    {
+      "symbol": "XHLD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRMD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SECZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GMRS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FFAI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LFTO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BOXL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "YETI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TPR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "REZI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AVAH",
+      "action": "dry_run",
+      "order": {
+        "symbol": "AVAH",
+        "qty": 29,
+        "est_cost": 310.3,
+        "entry_ref": 10.7,
+        "take_profit": 11.25,
+        "remaining_take_profit_pct": 5.1,
+        "stop_loss": 10.37,
+        "confidence": 0.6,
+        "client_order_id": "ta-20260813-122502-AVAH",
+        "analysis_price": 10.635,
+        "live_price_change_pct": 0.61
+      }
+    }
+  ]
+}

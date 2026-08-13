@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-13T08:49:12-04:00",
+  "session_date": "2026-08-13",
+  "reads": {
+    "ARX": {
+      "symbol": "ARX",
+      "pattern": "parabolic continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CLBT": {
+      "symbol": "CLBT",
+      "pattern": "panic exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "HLIT": {
+      "symbol": "HLIT",
+      "pattern": "gap and run",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "STUB": {
+      "symbol": "STUB",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SECZ": {
+      "symbol": "SECZ",
+      "pattern": "gap-down exhaustion reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "OMER": {
+      "symbol": "OMER",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CBRS": {
+      "symbol": "CBRS",
+      "pattern": "gap-down reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ABEO": {
+      "symbol": "ABEO",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "JACK": {
+      "symbol": "JACK",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CGEM": {
+      "symbol": "CGEM",
+      "pattern": "Breakout Gap",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "AMBP": {
+      "symbol": "AMBP",
+      "pattern": "breakout continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BIRK": {
+      "symbol": "BIRK",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}
