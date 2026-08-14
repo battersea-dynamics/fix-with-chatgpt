@@ -232,6 +232,85 @@ portfolio-risk priority below.
 - **No calibration.** Every threshold (net-score 0.2, confidence 0.6, 2% downside deviation, 20%-of-cash position cap with a $200 floor, 12%/5% exit ceilings, TP/SL tempering) is a reasoned first guess, deliberately deferred until there's real paper-trading history to calibrate against.
 - **Numbers-only fact-checking.** The case verifier cannot catch an invented *qualitative* claim (a fabricated catalyst) — only numeric drift.
 
+
+## Discussion log — 14 August 2026
+
+Today's review covered the outside statistical assessment, the accumulated
+post-tuning records, a first-entry outcome check, and the decision to begin a
+bounded paper-submission trial. No bull/bear prompt, threshold, sizing,
+take-profit, stop-loss, scheduler, or safety-guard change was approved today.
+
+### Review conclusions
+
+- The architecture remains appropriate for the experiment: deterministic
+  evidence collection and execution surround the LLM judgment layer, and the
+  broker is still hard-wired to Alpaca paper mode.
+- The most important later additions remain portfolio-level risk control,
+  explicit trade-outcome/lifecycle recording, and a frozen scanner-only versus
+  scanner-plus-debate comparison.
+- Existing dated JSON archives already provide substantial structured decision
+  logging. The missing statistical layer is realized outcome labelling, not an
+  urgent database migration.
+- Bull/bear scores are not calibrated probabilities. Calibration and any
+  threshold tuning must wait for a larger set of completed paper trades.
+- Qualitative catalyst provenance should eventually be strengthened
+  deterministically; adding another LLM verification call is not currently
+  justified.
+
+### Evidence reviewed
+
+The regular-session records produced after the momentum/debate change contain
+67 cycles across six sessions, 1,005 decisions, 65 buy recommendations, and 23
+unique buy symbol-days. Repeated appearances mean the 1,005 rows are not 1,005
+independent observations.
+
+The first-entry review anchored each unique opportunity to the first dry-run ask
+and recommendation time:
+
+- 22 of 23 unique recommendations passed the execution guards; GMRS was
+  correctly blocked because its live ask had already passed the analysed
+  target.
+- 20 entries had a later same-day 30-minute snapshot; STLN had no later
+  shortlist observation and QNT first appeared in the final 15:46 ET cycle.
+- At the next available snapshot, 7 of 20 were positive and 13 were negative
+  (mean -0.23%, median -0.12%).
+- At the final available same-day snapshot, 11 of 20 were positive and 9 were
+  negative (mean +0.29%, median +0.21%).
+- RSKD, SMWB, and AVAH were later observed beyond their take-profit prices;
+  ASPN and PAL were later observed beyond their stop prices. Because the
+  archive contains 30-minute snapshots rather than minute bars, this does not
+  prove the exact first-touch sequence inside each interval.
+- The current sample is mildly encouraging but too small and clustered to
+  establish an edge or justify bull/bear tuning. Immediate post-entry movement
+  was weaker than later same-session movement.
+
+### Paper trial decision
+
+A controlled automatic paper-submission trial is approved for Monday
+17 August through Friday 21 August 2026. The only operational switch is the
+repository variable `TRADING_SUBMIT=true`; Alpaca remains configured with
+`paper=True`, so no live-money endpoint is used.
+
+Trial protocol:
+
+- Freeze all trading logic and prompts for the full week.
+- Confirm the paper account has no unintended positions or open orders before
+  the first session.
+- Review actual fills, bracket legs, duplicate-entry guards, positions, errors,
+  and reconciled submissions after every session.
+- Do not reset the paper account or selectively interfere with trades during
+  the trial.
+- Manually disable submissions if duplicate orders appear, a position lacks
+  protective legs, sizing is unexpected, or portfolio deployment becomes too
+  concentrated before the planned portfolio-risk layer exists.
+- Disable `TRADING_SUBMIT` after Friday's final cycle, then compare unique
+  filled trades by entry, exit, target-first/stop-first result, realized P&L,
+  R-multiple, drawdown, and the relationship between scores and outcomes.
+
+Paper results test system operation and provide better evidence, but remain
+simulated fills and are not evidence that live execution would achieve the
+same prices.
+
 ## Setup
 
 Requires Python 3.12 (3.14 doesn't yet have prebuilt wheels for some dependencies — a `.venv` on 3.12 is recommended).
