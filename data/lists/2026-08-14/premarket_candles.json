@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-14T08:48:57-04:00",
+  "session_date": "2026-08-14",
+  "reads": {
+    "CAPR": {
+      "symbol": "CAPR",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "WETO": {
+      "symbol": "WETO",
+      "pattern": "Vertical Runaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "VERA": {
+      "symbol": "VERA",
+      "pattern": "Gap and Run Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "INV": {
+      "symbol": "INV",
+      "pattern": "gap-down exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "HTFL": {
+      "symbol": "HTFL",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "ZNTL": {
+      "symbol": "ZNTL",
+      "pattern": "Gap-and-Go Bearish Breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "NU": {
+      "symbol": "NU",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "TSSI": {
+      "symbol": "TSSI",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "AMPG": {
+      "symbol": "AMPG",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "BIRK": {
+      "symbol": "BIRK",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "YSS": {
+      "symbol": "YSS",
+      "pattern": "Gap-and-Go Reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "GLOB": {
+      "symbol": "GLOB",
+      "pattern": "gap-down exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

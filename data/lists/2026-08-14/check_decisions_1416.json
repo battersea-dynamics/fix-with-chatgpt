@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-08-14T14:28:53-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "WETO",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.16,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: WETO is experiencing extreme volume participation with relative volume at 57.10x its 20-day normal, highlighting intense institutional or speculative interest. While the catalyst report lacks a specific fundamental news driver, the stock has maintained significant momentum with nine consecutive observations of high-rank presence in the current session. The current drawdown of 9.4% from the observed high of $9.46, paired with a consistent volume rate of 3.12 per 30-minute interval, suggests the stock is consolidating within a highly active trading range. This level of participation often precedes volatile follow-through, supporting a tactical long position for those capitalizing on momentum. BEAR: WETO is a classic case of exit liquidity, having already retreated 5.97% from its session high of $9.46, confirming a significant drawdown of 9.41%. The momentum has demonstrably stalled, evidenced by a price acceleration of -12.67% and a negative score change, indicating that buyers are exhausted despite the extreme 57.10x relative volume. The lack of any company-specific news to justify a 137.40% move suggests this is pure speculative volatility that is rapidly mean-reverting. With price now significantly detached from its 20-day average, the risk of a sharp correction back toward the mean is high as intraday momentum shifts negative.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INV",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.89,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: INV is experiencing a massive liquidity event today with volume at 14.97x the 20-day average, indicating intense market interest and potential institutional capitulation. Despite the sharp intraday drop of 56.81%, the price has shown resilient technical behavior in recent snapshots, including a 1.30% return in the most recent interval and positive price acceleration of 4.76 percentage points. The catalyst report provides no specific fundamental justification for this collapse, suggesting that the move may be driven by technical overselling rather than a confirmed long-term impairment. Buying at this deep discount allows for a rapid mean reversion trade as the stock stabilizes from its extreme 52.74% distance from its 20-day moving average. BEAR: INV is suffering from catastrophic tape deterioration, evidenced by a 56.81% single-session collapse and a 14.79% drawdown from its observed high over the last 243 minutes. The trade is failing due to volume exhaustion, as the relative volume rate is plummeting with a change of -53.73%, signaling that buyers have completely abandoned the ticker. With no company-specific catalyst in the news report to justify or support this level of volatility, the stock is currently acting as a falling knife with no fundamental floor. Chasing this position is essentially attempting to catch a momentum-less liquidity vacuum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MVIS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: MVIS is showing extreme exhaustion selling, evidenced by a 41.64% drop on 16.06x relative volume, suggesting a massive capitulation event that often precedes a violent mean-reversion. Despite the sharp decline, the stock has demonstrated resilience since its first observation at 10:18 ET, yielding a 7.3694% gain from that point and maintaining a drawdown of only 0.6772% from the observed intraday high. While there is no specific fundamental catalyst in the news report to explain this volatility, the rare combination of high-conviction volume and stable recovery momentum from the session's bottom provides a compelling technical setup for a short-term bounce. Given the extreme oversold condition relative to the 20-day moving average, the potential for a snap-back trade over the next few sessions is high. BEAR: MVIS is currently suffering from a massive -41.64% daily decline with no specific company catalyst to justify such a violent move, leaving investors exposed to significant uncertainty. The tape shows clear signs of exhaustion, with the stock currently 0.6772% off its observed high and experiencing negative price acceleration of -1.3735. Furthermore, the volume rate is trending downward at -0.0398, confirming that the participation required to sustain a recovery or stabilize the price is rapidly fading. Buying here constitutes a classic attempt to catch a falling knife in a stock that has fundamentally decoupled from its 20-day moving average by -43.89%.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SXTC",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.95,
+      "stop_loss_pct": 3.15,
+      "reasoning": "net +0.05 = bull 0.65 - bear 0.60 (buy at >= +0.20). BULL: SXTC is demonstrating powerful momentum today with a relative volume of 9.85x and a 31.67% price surge, confirming significant market participation. The tape confirms persistent strength with 9 consecutive observations and a positive return of 8.6494% since first being identified, supported by a healthy price acceleration of 5.6106% and a minor drawdown of only 1.6968% from its observed high. While the catalyst report confirms the stock is moving as part of the broader healthcare sector volatility on 2026-08-14, the primary strength lies in the sustained tape participation that indicates institutional flow is currently active. With the stock trading at a significant distance from its 20-day MA, the momentum creates a high-conviction breakout window for short-term capture. BEAR: SXTC is experiencing a momentum-chasing event with no proprietary company-specific catalyst identified in the news, leaving the +31.67% move without a fundamental anchor. The stock is severely extended from its 20-day moving average by -89.97%, suggesting the current price action is purely technical and vulnerable to rapid mean reversion. While the relative volume of 9.85x is high, the negligible rel_volume_rate_change of -0.0001 coupled with an observed high drawdown of -1.6968% indicates that the primary thrust of the rally is already stalling. Entering now risks becoming exit liquidity for the initial surge as the lack of a specific fundamental driver makes the price move inherently fragile.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CAPR",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: CAPR is surging on significant news regarding fresh BLA updates reported on 2026-08-14, providing a clear fundamental catalyst for today's price action. The stock is exhibiting massive market participation with a relative volume of 8.30x normal, confirming high institutional or retail interest following the announcement. Despite the pullback from the session high, the price action has maintained nine consecutive scan observations with positive price acceleration of 3.8658 percentage points, indicating that buying momentum remains active. Given the strength of the news catalyst and the extreme volume, the current drawdown represents a tactical entry point for a momentum continuation play. BEAR: The stock is currently experiencing a classic 'exhaustion' pattern following its intraday peak, evidenced by an 18.79% drawdown from its observed high of $7.91 and a negative return since first being sighted on the tape. Participation is clearly waning as the relative volume rate per 30 minutes has deteriorated to 0.1114 with a negative rate of change. While the 'BLA Updates' headline explains the volatility, the market has already digested this information, leaving buyers at the $6.42 level as exit liquidity for those who entered earlier in the session. With a negative price acceleration and stagnant ranking, there is no momentum left to justify an entry at these levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HTFL",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: HTFL is exhibiting exceptional momentum, underscored by a massive 7.91x relative volume and a 37.50% intraday gain, signaling intense institutional interest. The stock has demonstrated remarkable resilience, sustaining its price at the daily high (0.0% drawdown) across 9 consecutive observations, while maintaining a positive return of 4.05% since first seen. This upward pressure is corroborated by Benzinga reporting the stock as a top health care mover on August 14, 2026, confirming its status as a lead performer in the sector today. With price acceleration at 1.71 percentage points and a sustained buy-side presence, the technical configuration supports a continuation play. BEAR: HTFL is currently trading at a precarious 60.34% extension from its 20-day moving average, significantly increasing the probability of a sharp mean-reversion move. Despite the high relative volume of 7.91x, the momentum metrics reveal a concerning slowdown, with a relative volume rate change of -0.0044 indicating that the initial buying participation is fading as the session progresses. The lack of a specific fundamental catalyst behind the 37.50% gain beyond generic 'moving higher' headlines makes this a momentum-chase trade reliant entirely on retail participation, which leaves the stock highly vulnerable to profit-taking at these elevated levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XHG",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: XHG is exhibiting a sharp intraday recovery, having rallied 10.74% since it was first tracked today despite a broad intraday drawdown. While there is no specific catalyst in the news report, the stock demonstrates clear price acceleration of 10.57 percentage points and has sustained 9 consecutive observations, suggesting meaningful buying interest. Although volume remains light at 0.34x normal, the price strength relative to its 20-day MA of +195.08% indicates powerful momentum that could support a continued bounce from its current level of $3.30. BEAR: XHG presents a significant risk due to a complete lack of volume participation, as indicated by a relative volume of just 0.34x normal, which suggests the current price action is unsustainable and unsupported. Despite the stock trading 195.08% above its 20-day moving average, it is simultaneously showing a -19.51% day change, reflecting extreme volatility without institutional backing. The catalyst regarding Eton Pharmaceuticals is irrelevant to this insurance company, leaving the ticker without a credible fundamental driver for its erratic movement. Entering a position here is effectively chasing a move that has already broken down, as evidenced by the low rank improvement and participation levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AMPG",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: AMPG is exhibiting a classic capitulation setup, trading at 4.06x normal volume with a extreme 34.31% single-session drop, creating significant potential for a mean-reversion bounce. While there is no specific fundamental news catalyst in today's report to explain the sell-off, the stock has shown positive price acceleration of 1.2687 percentage points despite the overall decline. Given the distance from its 20-day MA is now -30.05%, the risk-to-reward ratio strongly favors a technical bounce from these oversold levels as short-term traders look to capitalize on the exhaustion of sellers. BEAR: AMPG is suffering from massive intraday capitulation with a 34.31% price collapse and no identifiable fundamental catalyst to justify the movement. The tape shows clear evidence of exhaustion: despite being seen for 243 minutes, the stock has failed to reclaim its highs, currently sitting at a 5.18% drawdown from the observed high of $4.15. The volume participation is rapidly waning, evidenced by a relative volume rate of only 0.1011 that is deteriorating at a pace of -19.92% per 30-minute interval. Investors attempting to catch this falling knife are serving as exit liquidity for the heavy distribution signaled by the 4.06x relative volume.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IMXI",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.84,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: IMXI is exhibiting powerful momentum with an 8.82x relative volume surge and a 23.16% intraday gain, signaling significant institutional interest. The tape confirms persistent strength with nine consecutive observations showing a 4.6478% return since first seen and zero drawdown from the current observed high of $14.41. While news headlines remain generic, the high-conviction price action and acceleration of 1.1189 percentage points demonstrate a clear, sustained breakout trend that warrants immediate participation. BEAR: IMXI is currently trading at a significant 14.86% premium to its 20-day moving average, exposing buyers to an immediate mean-reversion risk on a day where volume has already reached 8.82x its normal levels. The catalyst report contains no company-specific news to justify this move, suggesting that the current rally is purely speculative momentum rather than fundamental revaluation. With the relative volume rate per 30 minutes sitting at a modest 0.3767, the aggressive buying seen earlier is unlikely to sustain its pace, leaving late entrants as liquidity for those who bought earlier in the session. There is no fundamental anchor to protect against a rapid pullback as price acceleration begins to exhaust.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JDZG",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: JDZG is demonstrating significant momentum today, characterized by a massive 4.47x relative volume surge and a 6.18% gain. The price action is supported by five consecutive observations of positive engagement, showing a price acceleration of 1.6965 percentage points. While there is no specific news catalyst in the report to explain this move, the stock's ability to maintain high volume and a stable ranking of 10 throughout the session highlights strong buying pressure. With the stock trading at a significant discount of -86.53% to its 20-day moving average, there is clear technical room for a mean-reversion rally. BEAR: JDZG is exhibiting clear signs of chasing, as the stock is trading 86.53% below its 20-day moving average yet has seen no news catalyst to justify today's 6.18% gain. The internal momentum shows concrete deterioration, with a drawdown of 1.0986% from the observed high and a relative volume rate that is currently slowing by 4.36% per interval. With the volume participation rate weakening and no fundamental event to support the move, buyers are serving as exit liquidity for earlier entrants in a stock that remains significantly disconnected from its recent technical baseline.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NMAX",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: NMAX is exhibiting strong momentum following an August 13th earnings beat, where the company exceeded both EPS and sales estimates. The market is validating this performance today with a 6.16x relative volume surge and a 19.76% intraday gain, signaling significant institutional interest despite a neutral headline. The price action remains resilient, as evidenced by nine consecutive observations over 243 minutes with positive price acceleration of 0.44% points and a modest drawdown of only 0.61% from the observed high. With relative volume rates increasing by 0.2592, the current trend shows sustained buying pressure consistent with the post-earnings breakout. BEAR: NMAX is currently extended 37.98% above its 20-day moving average, signaling an extreme valuation stretch that leaves the stock highly vulnerable to mean reversion. While the stock has seen massive volume, the current 0.61% drawdown from the observed session high combined with a stale price rank of 11 suggests the momentum is peaking rather than building. Furthermore, the primary fundamental catalyst\u2014yesterday's positive earnings beat\u2014has already been fully absorbed by the market, leaving no immediate news tailwind to justify further upside from this overextended level. Investors entering now are essentially providing exit liquidity to earlier participants who capitalized on the post-earnings spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XHLD",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: XHLD is exhibiting strong price persistence, having maintained nine consecutive positive observations over a 243-minute period with a 5.814% return since first being identified. The stock is currently trading at its observed high of $5.915, reflecting a significant 170.82% surge above its 20-day moving average and strong price acceleration of 3.7316 percentage points. While the provided catalyst report contains no news specific to today's date, the sustained price action indicates momentum-driven buying pressure. This tape-only case is supported by a 0% drawdown from the observed high and consistent ranking improvement, suggesting favorable momentum for a short-term tactical trade. BEAR: XHLD is currently trading at a precarious 170.82% premium to its 20-day moving average, yet this move is occurring on anemic relative volume of just 0.12x. The catalyst report contains no news items dated 2026-08-14, meaning the 7.64% daily gain lacks a fresh fundamental driver to justify such an extreme extension from the mean. With a relative volume rate per 30 minutes of only 0.0112, the lack of institutional participation suggests the current price levels are highly vulnerable to a sharp mean-reversion drop as early profit-taking encounters a liquidity void.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "UMAC",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: UMAC is showing immense strength with a 21.93% single-day gain on 3.53x relative volume, signaling significant institutional interest likely tied to the broader sector volatility following the August 13th White House announcement regarding new drone and component tariffs. The stock has demonstrated sustained participation throughout the session with 7 consecutive observations and positive price acceleration of 3.2377 percentage points, suggesting that buyers are absorbing supply despite the recent minor drawdown from its observed high of $34.30. With a current price distance of 48.60% above the 20-day moving average, the stock is in a confirmed breakout regime that supports holding for further momentum capture. The combination of intense volume and the legislative catalyst creates a compelling environment for short-term upside continuation. BEAR: UMAC is currently facing a clear exhaustion scenario, with the stock trading 48.6% above its 20-day moving average and showing a measurable 3.17% drawdown from its intraday high of $34.30. The momentum data confirms a failure to sustain the initial surge, evidenced by a negative return since being first tracked and a rank that has stalled at 13 with no improvement. While the stock initially reacted to news of drone tariffs, the tape now indicates that this news-driven buying is being met with significant profit-taking, confirming the 'exhausted or reversing' setup label. Buying here requires ignoring the evident intraday deterioration and the substantial technical extension from recent averages.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INHD",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: INHD is currently trading at a significant discount, sitting 67.60% below its 20-day moving average after a severe 27.49% decline, suggesting a potential mean reversion play for bottom-fishers. While there is no specific fundamental news catalyst explaining this move in the report, the tape shows nascent signs of stabilization with positive price development of 0.7692% since the previous observation and price acceleration of 1.9725 percentage points. Given the extremely oversold technical condition and a modest drawdown of only 2.7228% from the observed intraday high, there is room for a sharp snapback if volume begins to re-enter. The catalyst report provides no specific justification for today's price action, so this remains a high-risk technical trade based solely on oversold extremes. BEAR: INHD is currently suffering a catastrophic intraday collapse of 27.49% with virtually no participation, as evidenced by a relative volume of only 0.52x. The complete lack of a specific catalyst in the news report, combined with a 67.60% deviation from its 20-day MA, suggests this is an unbacked freefall rather than a tradable mean-reversion setup. Furthermore, the tape shows measurable deterioration with a negative score change and a continued drawdown from the observed high, confirming that there is no institutional demand to support a rebound. Buying this name today is effectively catching a falling knife in a vacuum of liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FGI",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: FGI presents a compelling mean-reversion opportunity following a sharp intraday pullback, supported by a fresh analyst endorsement from Benchmark, which maintained a 'Speculative Buy' rating and raised the price target to $13 on August 14. Despite a significant day change, the stock showed signs of stabilization with a 4.92% return since the previous observation and three positive intervals in our latest momentum tracking. The current price of $9.92 remains well positioned given the new $13 target, suggesting substantial upside as the market digests the recent Q2 earnings momentum. The combination of institutional bullishness and localized price recovery signals a potential bounce from current levels. BEAR: FGI is suffering from clear tape deterioration as the stock has retreated 10.43% from its intraday high of $11.07 despite the fresh bullish commentary from Benchmark. The current relative volume of 0.47x confirms a total lack of participation in the recent recovery attempts, and the negative price acceleration of -0.3122 indicates that buying momentum is actively collapsing. Attempting an entry now is chasing a move that has already failed, with the stock still 107.29% above its 20-day moving average, leaving significant room for a mean-reversion move to the downside.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "WETO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MVIS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SXTC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CAPR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HTFL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XHG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AMPG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IMXI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JDZG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NMAX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XHLD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "UMAC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INHD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FGI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
