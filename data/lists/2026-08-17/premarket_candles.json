@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-17T08:48:10-04:00",
+  "session_date": "2026-08-17",
+  "reads": {
+    "OABI": {
+      "symbol": "OABI",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "EYPT": {
+      "symbol": "EYPT",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "OCUL": {
+      "symbol": "OCUL",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "FIEE": {
+      "symbol": "FIEE",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "XPON": {
+      "symbol": "XPON",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "DFSC": {
+      "symbol": "DFSC",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ENVX": {
+      "symbol": "ENVX",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "EROC": {
+      "symbol": "EROC",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "MNSO": {
+      "symbol": "MNSO",
+      "pattern": "gap-down bearish continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PURR": {
+      "symbol": "PURR",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FULC": {
+      "symbol": "FULC",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "IEP": {
+      "symbol": "IEP",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    }
+  }
+}

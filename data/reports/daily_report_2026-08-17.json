@@ -1,0 +1,907 @@
+{
+  "date": "2026-08-17",
+  "events": [
+    {
+      "at_et": "2026-08-17T08:45:53-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-17T08:51:37-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-17T09:31:05-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DFSC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FULC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IEP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNSO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T10:21:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1015",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1015.json",
+        "shortlist": [
+          "EYPT",
+          "OABI",
+          "XPON",
+          "WETO",
+          "XHLD",
+          "FIEE",
+          "XHG",
+          "CTNM",
+          "SXTC",
+          "JDZG",
+          "INHD",
+          "DFSC",
+          "ENVX",
+          "ZTG",
+          "TJGC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFSC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T11:21:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1115",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1115.json",
+        "shortlist": [
+          "EYPT",
+          "OABI",
+          "WETO",
+          "XPON",
+          "ZTG",
+          "FIEE",
+          "XHLD",
+          "XHG",
+          "TJGC",
+          "CTNM",
+          "SXTC",
+          "ENVX",
+          "JDZG",
+          "DFSC",
+          "AURA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFSC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AURA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T11:51:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1145",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1145.json",
+        "shortlist": [
+          "EYPT",
+          "OABI",
+          "WETO",
+          "XPON",
+          "ZTG",
+          "XHG",
+          "FIEE",
+          "XHLD",
+          "ENVX",
+          "CTNM",
+          "TJGC",
+          "FDMT",
+          "SXTC",
+          "DFSC",
+          "JDZG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FDMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFSC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T12:21:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1215",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1215.json",
+        "shortlist": [
+          "EYPT",
+          "OABI",
+          "WETO",
+          "XPON",
+          "ZTG",
+          "XHG",
+          "XHLD",
+          "FIEE",
+          "ENVX",
+          "FDMT",
+          "CTNM",
+          "OCUL",
+          "TJGC",
+          "AURA",
+          "DFSC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FDMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFSC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T12:47:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    },
+    {
+      "at_et": "2026-08-17T14:21:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1415",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1415.json",
+        "shortlist": [
+          "WETO",
+          "EYPT",
+          "OABI",
+          "XPON",
+          "ZTG",
+          "FIEE",
+          "XHG",
+          "XHLD",
+          "FTK",
+          "ENVX",
+          "FDMT",
+          "EMAT",
+          "OCUL",
+          "CTNM",
+          "TJGC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FDMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T14:51:53-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1446.json",
+        "shortlist": [
+          "WETO",
+          "EYPT",
+          "OABI",
+          "XPON",
+          "XHG",
+          "XHLD",
+          "FIEE",
+          "ZTG",
+          "ENVX",
+          "FTK",
+          "FDMT",
+          "EMAT",
+          "OCUL",
+          "AURA",
+          "CTNM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FDMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T15:21:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1515",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1515.json",
+        "shortlist": [
+          "WETO",
+          "EYPT",
+          "OABI",
+          "XPON",
+          "ZTG",
+          "XHG",
+          "FIEE",
+          "XHLD",
+          "ENVX",
+          "FDMT",
+          "FTK",
+          "DUOT",
+          "AURA",
+          "EMAT",
+          "OCUL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DUOT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DUOT",
+              "qty": 38,
+              "est_cost": 386.46,
+              "entry_ref": 10.17,
+              "take_profit": 11.24,
+              "remaining_take_profit_pct": 10.5,
+              "stop_loss": 9.71,
+              "confidence": 0.65,
+              "client_order_id": "ta-20260817-152156-DUOT",
+              "analysis_price": 10.1807,
+              "live_price_change_pct": -0.11
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FDMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T15:52:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1545",
+        "shortlist_file": "data/lists/2026-08-17/shortlist_1545.json",
+        "shortlist": [
+          "WETO",
+          "EYPT",
+          "OABI",
+          "XPON",
+          "XHG",
+          "ZTG",
+          "XHLD",
+          "FIEE",
+          "FDMT",
+          "ENVX",
+          "FTK",
+          "DUOT",
+          "AURA",
+          "OCUL",
+          "EMAT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DUOT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DUOT",
+              "qty": 39,
+              "est_cost": 391.95,
+              "entry_ref": 10.05,
+              "take_profit": 10.84,
+              "remaining_take_profit_pct": 7.87,
+              "stop_loss": 9.66,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260817-155230-DUOT",
+              "analysis_price": 9.969,
+              "live_price_change_pct": 0.81
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FDMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-17T15:52:30-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 9,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
