@@ -1,0 +1,1370 @@
+{
+  "date": "2026-08-18",
+  "events": [
+    {
+      "at_et": "2026-08-18T08:46:04-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-18T08:51:55-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-08-18T09:31:10-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HD",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T10:22:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1016.json",
+        "shortlist": [
+          "SLE",
+          "WETO",
+          "WEAV",
+          "IPST",
+          "AMLX",
+          "SXTC",
+          "KLAR",
+          "DUOT",
+          "XHG",
+          "XHLD",
+          "ZTG",
+          "BANL",
+          "BIDU",
+          "FGI",
+          "EYPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DUOT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DUOT",
+              "qty": 31,
+              "est_cost": 386.88,
+              "entry_ref": 12.48,
+              "take_profit": 13.49,
+              "remaining_take_profit_pct": 8.09,
+              "stop_loss": 11.93,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260818-102210-DUOT",
+              "analysis_price": 12.4401,
+              "live_price_change_pct": 0.32
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T10:54:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1046.json",
+        "shortlist": [
+          "SLE",
+          "WETO",
+          "IPST",
+          "WEAV",
+          "AMLX",
+          "SXTC",
+          "KLAR",
+          "DUOT",
+          "ZTG",
+          "XHLD",
+          "XHG",
+          "FGI",
+          "BIDU",
+          "BOXL",
+          "EYPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "live ask fell 2.14% from delayed scan price $12.15; 2% max downside"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BOXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T11:23:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1116.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "WETO",
+          "AMLX",
+          "SXTC",
+          "KLAR",
+          "DUOT",
+          "BIDU",
+          "BANL",
+          "XHLD",
+          "XHG",
+          "ZTG",
+          "EYPT",
+          "FGI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T11:52:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1146.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "WETO",
+          "AMLX",
+          "SXTC",
+          "KLAR",
+          "DUOT",
+          "BIDU",
+          "ZTG",
+          "BANL",
+          "XHLD",
+          "XHG",
+          "UGI",
+          "EYPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYPT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T12:21:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1216.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "WETO",
+          "SXTC",
+          "KLAR",
+          "BIDU",
+          "BANL",
+          "DUOT",
+          "ZTG",
+          "UGI",
+          "XHLD",
+          "XHG",
+          "EYPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EYPT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EYPT",
+              "qty": 73,
+              "est_cost": 395.66,
+              "entry_ref": 5.42,
+              "take_profit": 5.72,
+              "remaining_take_profit_pct": 5.45,
+              "stop_loss": 5.27,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260818-122146-EYPT",
+              "analysis_price": 5.405,
+              "live_price_change_pct": 0.28
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T12:51:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1246.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "WETO",
+          "SXTC",
+          "KLAR",
+          "BIDU",
+          "BANL",
+          "DUOT",
+          "UGI",
+          "ZTG",
+          "XHLD",
+          "XHG",
+          "VNET"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AMLX",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AMLX",
+              "qty": 12,
+              "est_cost": 391.92,
+              "entry_ref": 32.66,
+              "take_profit": 35.84,
+              "remaining_take_profit_pct": 9.75,
+              "stop_loss": 31.07,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260818-125151-AMLX",
+              "analysis_price": 32.8463,
+              "live_price_change_pct": -0.57
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T13:23:12-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1316.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "WETO",
+          "SXTC",
+          "KLAR",
+          "BIDU",
+          "BANL",
+          "DUOT",
+          "UGI",
+          "ZTG",
+          "XHLD",
+          "XHG",
+          "VNET"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AMLX",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AMLX",
+              "qty": 11,
+              "est_cost": 374.0,
+              "entry_ref": 34.0,
+              "take_profit": 36.09,
+              "remaining_take_profit_pct": 6.13,
+              "stop_loss": 32.45,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260818-132312-AMLX",
+              "analysis_price": 32.88,
+              "live_price_change_pct": 3.41
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T13:52:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1346.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "WETO",
+          "SXTC",
+          "KLAR",
+          "BIDU",
+          "DUOT",
+          "BANL",
+          "UGI",
+          "VNET",
+          "XHG",
+          "ZTG",
+          "XHLD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AMLX",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AMLX",
+              "qty": 11,
+              "est_cost": 374.0,
+              "entry_ref": 34.0,
+              "take_profit": 35.9,
+              "remaining_take_profit_pct": 5.59,
+              "stop_loss": 32.85,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260818-135213-AMLX",
+              "analysis_price": 33.21,
+              "live_price_change_pct": 2.38
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T14:22:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1416.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "WETO",
+          "SXTC",
+          "KLAR",
+          "BIDU",
+          "BANL",
+          "DUOT",
+          "UGI",
+          "XHG",
+          "VNET",
+          "ZTG",
+          "XHLD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T14:52:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1446.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "WETO",
+          "SXTC",
+          "KLAR",
+          "BIDU",
+          "DUOT",
+          "XHG",
+          "UGI",
+          "BANL",
+          "VNET",
+          "RCEL",
+          "XHLD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AMLX",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AMLX",
+              "qty": 11,
+              "est_cost": 371.36,
+              "entry_ref": 33.76,
+              "take_profit": 36.49,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 32.28,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260818-145243-AMLX",
+              "analysis_price": 33.77,
+              "live_price_change_pct": -0.03
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T15:22:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1516.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "SXTC",
+          "KLAR",
+          "BIDU",
+          "WETO",
+          "BANL",
+          "XHG",
+          "DUOT",
+          "UGI",
+          "VNET",
+          "RCEL",
+          "EYPT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AMLX",
+            "action": "dry_run",
+            "order": {
+              "symbol": "AMLX",
+              "qty": 11,
+              "est_cost": 379.61,
+              "entry_ref": 34.51,
+              "take_profit": 36.94,
+              "remaining_take_profit_pct": 7.05,
+              "stop_loss": 33.16,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260818-152247-AMLX",
+              "analysis_price": 34.2691,
+              "live_price_change_pct": 0.7
+            }
+          },
+          {
+            "symbol": "EYPT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EYPT",
+              "qty": 58,
+              "est_cost": 319.0,
+              "entry_ref": 5.5,
+              "take_profit": 5.78,
+              "remaining_take_profit_pct": 5.04,
+              "stop_loss": 5.31,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260818-152247-EYPT",
+              "analysis_price": 5.4501,
+              "live_price_change_pct": 0.92
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T15:52:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-18/shortlist_1546.json",
+        "shortlist": [
+          "IPST",
+          "SLE",
+          "WEAV",
+          "AMLX",
+          "SXTC",
+          "KLAR",
+          "WETO",
+          "BANL",
+          "BIDU",
+          "XHG",
+          "DUOT",
+          "ZTG",
+          "UGI",
+          "VNET",
+          "RCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMLX",
+            "reason": "live ask $39.56 has reached or passed the original take-profit target $37.90"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BANL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "VNET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-18T15:52:52-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

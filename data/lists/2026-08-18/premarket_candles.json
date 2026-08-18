@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-18T08:48:31-04:00",
+  "session_date": "2026-08-18",
+  "reads": {
+    "AMLX": {
+      "symbol": "AMLX",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "KLAR": {
+      "symbol": "KLAR",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "WETO": {
+      "symbol": "WETO",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "DUOT": {
+      "symbol": "DUOT",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DT": {
+      "symbol": "DT",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "HD": {
+      "symbol": "HD",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "AS": {
+      "symbol": "AS",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VNET": {
+      "symbol": "VNET",
+      "pattern": "Failed Breakout",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ZTG": {
+      "symbol": "ZTG",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "FN": {
+      "symbol": "FN",
+      "pattern": "gap-down bearish continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "BIDU": {
+      "symbol": "BIDU",
+      "pattern": "Bearish Engulfing Gap Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "AUR": {
+      "symbol": "AUR",
+      "pattern": "Gap Down Reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}
