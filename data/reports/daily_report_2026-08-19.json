@@ -1,0 +1,1343 @@
+{
+  "date": "2026-08-19",
+  "events": [
+    {
+      "at_et": "2026-08-19T08:46:14-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-19T08:52:08-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-19T09:31:06-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YMM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T10:24:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1016.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "IPST",
+          "PFSA",
+          "ARCT",
+          "WETO",
+          "RCON",
+          "BNTX",
+          "XHG",
+          "WYFI",
+          "CDTG",
+          "TOYO",
+          "XHLD",
+          "ALH",
+          "MRVI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T10:53:06-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1046.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "IPST",
+          "PFSA",
+          "ARCT",
+          "WETO",
+          "BNTX",
+          "RCON",
+          "XHG",
+          "WYFI",
+          "TOYO",
+          "ALH",
+          "MRVI",
+          "XHLD",
+          "CDTG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T11:22:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1116.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "IPST",
+          "PFSA",
+          "ARCT",
+          "WETO",
+          "BNTX",
+          "RCON",
+          "TOYO",
+          "WYFI",
+          "XHG",
+          "CDTG",
+          "MRVI",
+          "ALH",
+          "EL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T11:53:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1146.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "CDTG",
+          "ARCT",
+          "TOYO",
+          "RCON",
+          "BNTX",
+          "XHG",
+          "WYFI",
+          "MRVI",
+          "ALH",
+          "EL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T12:22:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1216.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "ARCT",
+          "TOYO",
+          "BNTX",
+          "WYFI",
+          "RCON",
+          "XHG",
+          "MRVI",
+          "ALH",
+          "EL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EL",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EL",
+              "qty": 4,
+              "est_cost": 395.52,
+              "entry_ref": 98.88,
+              "take_profit": 103.75,
+              "remaining_take_profit_pct": 4.93,
+              "stop_loss": 96.21,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260819-122217-EL",
+              "analysis_price": 98.12,
+              "live_price_change_pct": 0.77
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T12:52:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1246.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "ARCT",
+          "TOYO",
+          "WYFI",
+          "BNTX",
+          "RCON",
+          "XHG",
+          "ALH",
+          "EL",
+          "MRVI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T13:22:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1316.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "ARCT",
+          "TOYO",
+          "WYFI",
+          "BNTX",
+          "RCON",
+          "XHG",
+          "EL",
+          "ALH",
+          "MRVI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T13:52:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1346.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "ARCT",
+          "TOYO",
+          "WYFI",
+          "BNTX",
+          "XHG",
+          "ALH",
+          "RCON",
+          "EL",
+          "MRVI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ARCT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "ARCT",
+              "qty": 40,
+              "est_cost": 390.0,
+              "entry_ref": 9.75,
+              "take_profit": 10.27,
+              "remaining_take_profit_pct": 5.31,
+              "stop_loss": 9.49,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260819-135218-ARCT",
+              "analysis_price": 9.71,
+              "live_price_change_pct": 0.41
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T14:22:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1416.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "ARCT",
+          "TOYO",
+          "WYFI",
+          "BNTX",
+          "MRVI",
+          "RCON",
+          "EL",
+          "XHG",
+          "ALH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EL",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EL",
+              "qty": 4,
+              "est_cost": 393.56,
+              "entry_ref": 98.39,
+              "take_profit": 104.04,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 95.6,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260819-142214-EL",
+              "analysis_price": 98.6,
+              "live_price_change_pct": -0.21
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T14:52:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1446.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "ARCT",
+          "XHLD",
+          "TOYO",
+          "WYFI",
+          "BNTX",
+          "MRVI",
+          "RCON",
+          "EL",
+          "ALH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EL",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EL",
+              "qty": 3,
+              "est_cost": 298.08,
+              "entry_ref": 99.36,
+              "take_profit": 104.4,
+              "remaining_take_profit_pct": 5.07,
+              "stop_loss": 96.68,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260819-145236-EL",
+              "analysis_price": 98.73,
+              "live_price_change_pct": 0.64
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T15:24:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1516.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "XHLD",
+          "ARCT",
+          "TOYO",
+          "WYFI",
+          "BNTX",
+          "MRVI",
+          "XHG",
+          "RCON",
+          "EL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EL",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EL",
+              "qty": 3,
+              "est_cost": 310.65,
+              "entry_ref": 103.55,
+              "take_profit": 104.64,
+              "remaining_take_profit_pct": 1.05,
+              "stop_loss": 100.4,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260819-152404-EL",
+              "analysis_price": 98.96,
+              "live_price_change_pct": 4.64
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T15:52:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-19/shortlist_1546.json",
+        "shortlist": [
+          "TNON",
+          "MRNA",
+          "CDTG",
+          "IPST",
+          "PFSA",
+          "WETO",
+          "ARCT",
+          "XHLD",
+          "TOYO",
+          "PURR",
+          "WYFI",
+          "BNTX",
+          "XHG",
+          "RCON",
+          "MRVI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ARCT",
+            "action": "dry_run",
+            "order": {
+              "symbol": "ARCT",
+              "qty": 39,
+              "est_cost": 391.56,
+              "entry_ref": 10.04,
+              "take_profit": 10.85,
+              "remaining_take_profit_pct": 8.12,
+              "stop_loss": 9.73,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260819-155227-ARCT",
+              "analysis_price": 10.01,
+              "live_price_change_pct": 0.3
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TNON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TOYO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRVI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-19T15:52:27-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-19T08:48:56-04:00",
+  "session_date": "2026-08-19",
+  "reads": {
+    "ARCT": {
+      "symbol": "ARCT",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "MRNA": {
+      "symbol": "MRNA",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "TNON": {
+      "symbol": "TNON",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "BNTX": {
+      "symbol": "BNTX",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "MRK": {
+      "symbol": "MRK",
+      "pattern": "Gap and Go Reversal",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "TJX": {
+      "symbol": "TJX",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "MRVI": {
+      "symbol": "MRVI",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "WYFI": {
+      "symbol": "WYFI",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "EL": {
+      "symbol": "EL",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "YMM": {
+      "symbol": "YMM",
+      "pattern": "Reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "TOYO": {
+      "symbol": "TOYO",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "KC": {
+      "symbol": "KC",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}
