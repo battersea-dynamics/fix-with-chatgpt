@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-08-20T12:53:20-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "WBS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: WBS is seeing an extraordinary surge in liquidity today with a relative volume of 13.97x its 20-day average, signaling massive institutional interest. While the catalyst report notes that WBS was removed from the S&P MidCap 400 effective today, August 20, 2026, the massive volume suggests that market participants are aggressively absorbing this forced rebalancing activity. The stock has maintained its price stability near the 20-day moving average, showing impressive resilience despite the index-related selling pressure. This high-volume interaction indicates that the supply from institutional rebalancing is being met by strong demand, creating a potential technical bottom for a quick reversal move. BEAR: The primary risk for WBS is that the index-related selling pressure is structural and mechanical, stemming from its removal from the S&P MidCap 400 effective today. While the announcement occurred on August 13, the sell-side impact from passive funds rebalancing or exiting the position is likely playing out in real-time with an aggressive 13.97x relative volume surge. With the price showing zero momentum over the last 150 minutes and a declining score change of -1.0994, the setup suggests institutional liquidity is being absorbed rather than a new bullish trend emerging. Entering here ignores the clear technical exhaustion evidenced by the lack of price appreciation despite extreme volume participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AAP",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: AAP is presenting a potential mean-reversion opportunity following a significant 25.53% intraday decline, with market sentiment explicitly highlighting this deep dip as a near-term entry point according to today's SeekingAlpha headline. The stock is exhibiting strong participation with 6.28x relative volume and has demonstrated a technical improvement in momentum, moving from rank 5 to rank 2 while showing positive price acceleration of 1.9878% in recent intervals. This surge in interest on the day of the company's earnings release suggests the market is aggressively digesting the news, providing the liquidity needed for a rapid bounce from its current oversold state. With the stock trading 26.06% below its 20-day moving average, the potential for a sharp corrective move is high as the market overreacted to the earnings event. BEAR: AAP is currently suffering from a massive -25.53% single-session decline following its earnings report released today, creating an immediate and volatile 'earnings within the holding window' risk. While relative volume remains elevated at 6.28x, the internal momentum metrics show clear signs of exhaustion, with a 4.59% drawdown from the observed high and a decaying relative volume rate per 30 minutes. Buying into this liquidation is essentially catching a falling knife, as the price is trading 26% below its 20-day MA with no clear technical support established. The market reaction to today's earnings catalyst has been overwhelmingly negative, and there is no evidence that the selling pressure has stabilized.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LBRDK",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.6,
+      "stop_loss_pct": 2.45,
+      "reasoning": "net +0.10 = bull 0.70 - bear 0.60 (buy at >= +0.20). BULL: LBRDK is showing significant institutional interest today with relative volume at 11.62x its 20-day average, signaling a strong breakout move. This momentum is supported by fresh sentiment regarding Liberty Broadband's upcoming conversion to Charter Communications, highlighted in today's news. Furthermore, the stock is trading at its session high of $36.02 with zero drawdown from that high, reflecting persistent buying pressure across six consecutive observation intervals. With the stock holding 5.36% above its 20-day moving average and maintaining a bullish stance following recent analyst coverage, the technical breakout appears well-supported by both volume and news catalysts. BEAR: LBRDK is showing clear signs of exhaustion, having stalled for the last 150 minutes with zero price appreciation and a decline in its internal rank from 2 to 3. The massive 11.62x relative volume suggests that the news regarding the preferred conversion is already fully priced in, as the price has failed to advance further during the session. Furthermore, the 5.36% extension above the 20-day moving average makes the stock vulnerable to a mean-reversion pull back as retail momentum fades. Buying at these levels ignores the stagnant tape and the reality that the catalyst has already been met with peak participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MRNA",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: MRNA is showing extreme intraday volume intensity at 4.18x its normal level, indicating massive institutional re-positioning following today's sharp 25.23% drop. While news headlines regarding the broader market sell-off do not provide a specific fundamental catalyst for this move, the tape shows three positive intervals out of five observed, accompanied by a recent rank improvement of 3 slots as of the latest snapshot. The stock has successfully maintained activity across six consecutive scans, demonstrating that it remains a focal point for liquidity despite the significant drawdown from the daily high. Entry here captures a mean-reversion play on a highly liquid asset that has likely reached an exhaustion point. BEAR: MRNA is experiencing a violent technical breakdown, evidenced by a -25.23% day change and a price that is +103.10% extended from its 20-day moving average, signaling an unsustainable and fragile deviation from the mean. The tape shows clear deterioration with a -6.60% return since first being spotted and an 8.67% drawdown from the observed session high. With no specific company-level catalyst provided in the news report to justify this extreme volatility, the current 4.18x relative volume spike acts as exit liquidity rather than accumulation. Chasing this stock while it struggles to hold its session rank confirms a high-risk environment where the momentum has decisively turned against the buyer.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EVAX",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: EVAX is presenting a prime mean-reversion opportunity following its recent earnings release on 2026-08-20, which is likely driving the massive 10.06x relative volume today. The stock's fundamental appeal is bolstered by the August 17 announcement of its new EVX-05 glioblastoma cancer vaccine program, providing a long-term growth narrative to support current price action. While the intraday price has pulled back, the recent rank improvement from 6 to 5 suggests early signs of institutional absorption of supply at these levels. Investors can capitalize on this heavy volume floor, which is holding near the 20-day moving average, by anticipating a bounce back toward the session highs. BEAR: EVAX is currently suffering from a clear 'chasing' failure mode, as evidenced by a -12.08% drawdown from its session high and negative price acceleration of -3.78% points. The stock has already processed its earnings release today, removing the primary catalyst and leaving the 10.06x relative volume to serve as exit liquidity for early movers. With the stock failing to sustain its highs and showing measurable deterioration in its observed 30-minute intervals, the current price is likely to face sustained mean reversion pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WETO",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: WETO is showing extreme relative strength, trading 203.63% above its 20-day moving average and maintaining a 29.79% gain on the session. While the catalyst report provides no specific news regarding the move, the stock was explicitly identified as a trending industrial stock in the Benzinga pre-market coverage on 2026-08-20, confirming its status as a focal point for market participants. The current pullback from the session high of $31.93 offers a tactical entry point to capture a bounce as the stock stabilizes after its initial parabolic expansion. BEAR: WETO is a classic chase scenario where the stock is trading 203.63% above its 20-day moving average with absolutely no fundamental catalyst to justify the move. The momentum has demonstrably collapsed, with a 15.61% drawdown from the session high and a worsening rank from 3 to 6 over the last 150 minutes. Furthermore, volume is failing to confirm the move, with a relative volume of only 0.59x, indicating that the initial gap up has entirely exhausted its buying interest. Buying now is essentially serving as exit liquidity for the early morning move that is already in full retreat.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IPST",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 5.0,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: IPST is displaying extreme momentum with a 21.95% intraday gain and is trading nearly 200% above its 20-day moving average, signaling a powerful breakout. While the catalyst report contains no news explaining this specific move, the stock has shown consistent tape activity with six consecutive observations confirming high interest. Although the recent drawdown from the 13.287 high is significant, the current price at 10.30 reflects substantial remaining strength following an aggressive 10.41% price acceleration. The absence of specific news suggests this is a momentum-driven play that could see further expansion given the intensity of today's price action. BEAR: IPST is exhibiting clear signs of chasing exhaustion with a massive 199.11% extension from its 20-day moving average and no underlying fundamental catalyst to justify the move. The momentum history confirms deterioration, showing a 22.44% drawdown from the session high and a negative price trend of 6.57% over the most recent interval. Furthermore, relative volume is only 0.92x, indicating that the price spike lacks strong institutional participation and is failing to attract follow-through. With a rank decline of 3 positions and a negative score change, the momentum is actively reversing while the stock sits at a precarious distance from its baseline.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PCLA",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: PCLA is exhibiting powerful momentum with a 20.78% gain and massive relative volume of 3.65x. The tape shows persistent strength with four consecutive positive observation scans and a rank improvement, indicating underlying buying pressure despite being 26.30% above its 20-day MA. While the catalyst report contains no specific news explaining today's move, the sustained price acceleration of 0.5181 percentage points confirms that institutional participation is driving this breakout. The stock's ability to maintain high volume participation makes it a compelling candidate for momentum traders looking for continued upside volatility. BEAR: PCLA is currently exhibiting a classic case of chasing as the stock is trading 26.30% above its 20-day moving average on no identifiable fresh catalyst, given that the most recent news headlines are two to six days old. Momentum has clearly deteriorated since the initial breakout, with the stock currently reflecting a 2.03% drawdown from its observed high of $7.89 despite having been first seen only 89 minutes prior. With no fundamental news to support such a sharp intraday move and price acceleration failing to push the stock to new highs, the current relative volume of 3.65x suggests the buying exhaustion point is near as participation struggles to keep the stock near its session peak.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CDTG",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: CDTG is showing significant relative strength today, trading at 2.88x its normal relative volume and holding a 5.67% gain. While the stock has pulled back from its intraday high of $4.33, its ability to remain +114.19% above its 20-day moving average highlights strong sustained institutional interest in this industrial name. There is no specific news catalyst explaining the move today, meaning the price action is purely momentum-driven. Given the high relative volume, this stock remains a prime candidate for a volatility-based scalp as it consolidates recent gains. BEAR: CDTG is suffering from extreme exhaustion as it sits 114.19% above its 20-day moving average while simultaneously experiencing a sharp intraday reversal. The stock has plummeted 26.54% from its observed high of $4.33, confirming that the initial buying interest was mere exit liquidity. With a negative price acceleration of -6.85% and a declining rank, the lack of any fresh, session-specific catalyst suggests the current price is disconnected from fundamental support. Buying now is chasing a move that has already failed to hold its peak, leaving little room for a bounce as momentum continues to bleed out.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RERE",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: RERE is experiencing significant volume participation with 4.31x relative volume today, indicating that the market is aggressively repricing the stock following its Q2 2026 earnings release. Despite the sharp initial sell-off, recent momentum shows signs of stabilization with a rank improvement of 3 spots and a price acceleration of 1.3939 percentage points. The stock is holding its ground relative to its observed high, with a manageable drawdown of -1.4423% despite the negative sentiment surrounding the earnings headlines. The combination of high liquidity and shifting rank suggests an active institutional rebalancing that offers a tactical entry for a mean-reversion trade. BEAR: RERE is currently facing significant downward pressure following its Q2 2026 earnings release today, evidenced by a double-digit decline of 10.68%. The stock shows clear signs of tape deterioration, as momentum has failed to recover after its first appearance two hours ago, resulting in a drawdown from the observed high. While the relative volume of 4.31x confirms high participation in this sell-off, the combination of negative earnings reactions and a lack of support suggests investors are liquidating positions in response to the fresh reports. Attempting to catch this falling knife is hazardous given the immediate fallout from the earnings call.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DFDV",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.73,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: DFDV is demonstrating significant institutional interest with a 3.27x relative volume surge and a robust 14.47% gain today. This momentum is supported by the 2026-08-20 headline confirming that crypto-linked companies are benefiting from bullish regulatory developments regarding the Clarity Act and Hyperliquid. With 6 consecutive observations showing sustained engagement and the stock holding firm near its observed high of $3.935, the tape reflects strong underlying demand. Traders are pricing in a favorable environment for the sector, providing a solid catalyst for continued upside relative to its 20-day MA. BEAR: DFDV is currently extended 37.42% above its 20-day moving average, leaving little room for upside without a fundamental re-rating. The momentum data confirms technical deterioration, specifically a negative rank improvement of -1 and a price acceleration of -1.9258, indicating that the initial buying interest is stalling. Furthermore, the intraday relative volume rate is declining at -0.0367, suggesting that the move is running out of participation while it consolidates near the session high. The reliance on broad, momentum-driven crypto-linked news makes the current entry a dangerous case of chasing exhausted price action.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PFSA",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: PFSA presents a classic oversold bounce play following a sharp 46.09% decline, which has left the stock trading at a significant premium to its 20-day moving average. While the catalyst report lacks specific news to explain the current volatility, the stock is showing signs of stabilization with a recent score change of 0.4869 despite the broader session sell-off. With the relative volume rate per 30 minutes beginning to tick upward at 0.017, there is a clear opportunity for a technical reversion from these extreme lows. Nothing in the provided report explains the move, so this is a purely tactical entry based on extreme short-term exhaustion. BEAR: PFSA is currently suffering from a severe -46.09% day change combined with an absence of any company-specific catalysts in the news report, indicating a lack of fundamental support for the move. The tape shows clear deterioration, with a 14.09% drawdown from the observed high and a consistent trend of negative price acceleration (-1.2002). Furthermore, volume is exceptionally weak at 0.21x normal levels, signaling that the current price action is occurring in a liquidity vacuum rather than a confirmed trend. Buying now represents 'chasing' into a stock that is both fundamentally unanchored and technically failing to find bids.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MRVI",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.25 = bull 0.40 - bear 0.65 (buy at >= +0.20). BULL: MRVI is showing powerful momentum with a 13.97% gain on 2.98x relative volume, signaling institutional participation that suggests the current rally has significant follow-through potential. While the catalyst report lacks specific news explaining this move, the stock is clearly breaking out from its 20-day moving average by nearly 30%. With rank improvement from 14 to 13 and sustained high volume, the tape indicates strong buyer interest. I am focusing purely on this price and volume-driven momentum to capitalize on the ongoing breakout. BEAR: MRVI is currently trading 29.80% above its 20-day moving average on a 13.97% move with no identifiable company-specific news to justify the extension. The momentum has already begun to shift negatively, with a -0.47% drawdown from the observed session high within the last 30 minutes. Participation appears to be lacking at these levels, as evidenced by a relative volume rate of only 0.3036 per 30-minute interval despite a high total daily relative volume. Buying here represents clear exit liquidity for earlier participants given the lack of a news catalyst and the immediate onset of session-level price deterioration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZSTK",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Despite today's intraday pullback, ZSTK remains significantly elevated at 144% above its 20-day moving average, signaling strong underlying buyer interest. The stock's recent $1 billion token-based financing announcement with Puple AI and Blockcat serves as a major fundamental catalyst that creates speculative upside potential well above current levels. While the tape shows a 4.9% drawdown from the day's high of $4.70, the fact that the stock has maintained a positive return of 6.35% since it was first seen 150 minutes ago suggests that the primary trend remains constructive despite the volatility. Buying at this level allows for entry into a name with high-impact headline activity and proven momentum resiliency. BEAR: ZSTK shows clear signs of chasing exhaustion, with the stock trading 144% above its 20-day moving average and suffering a 9.92% drop during the session. The relative volume of 0.82x indicates participation is fading while the stock remains extended, and the current drawdown of 4.93% from its observed high confirms that buyers have failed to sustain momentum. The recent announcement of a 3.5M share offering and massive warrant issuance at $25.19 is highly dilutive, creating a permanent structural overhang that effectively caps upside potential given the current share price of $4.47. With price acceleration turning negative at -3.06% and no fresh catalysts to justify the premium, the stock is currently acting as exit liquidity for earlier participants.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "PSNL",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.84,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: PSNL is seeing significant institutional interest today with relative volume hitting 3.73x its 20-day average, signaling strong conviction behind the +5.31% price move. The stock is benefiting from a broader sector tailwind, specifically the August 20, 2026, news regarding industry validation for AI-driven precision medicine platforms, which supports the valuation of specialized biotech tools. While the price has retraced slightly from its intraday high, the sustainment of elevated volume over three consecutive observation periods demonstrates that participants are currently absorbing the supply at these levels. With the stock trading 24.83% above its 20-day MA, the momentum remains firmly bullish as the market reacts to the positive industry sentiment. BEAR: PSNL is showing clear signs of exhaustion with a 0.36% drawdown from its observed high and a rank that has slipped from 12 to 15 within the last hour. The stock is extended 24.83% above its 20-day moving average, and the momentum has turned negative with a price acceleration of -0.12% points as volume participation wanes. While the news catalyst regarding Tempus AI is fresh, it has failed to sustain the intraday breakout, confirming that buyers are currently acting as exit liquidity for earlier entrants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "WBS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AAP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LBRDK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MRNA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EVAX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WETO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IPST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PCLA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CDTG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RERE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DFDV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PFSA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MRVI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZSTK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSNL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
