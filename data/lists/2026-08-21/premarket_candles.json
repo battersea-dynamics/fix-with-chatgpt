@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-21T08:49:34-04:00",
+  "session_date": "2026-08-21",
+  "reads": {
+    "USDE": {
+      "symbol": "USDE",
+      "pattern": "continuation gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "FLO": {
+      "symbol": "FLO",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "BEKE": {
+      "symbol": "BEKE",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ABUS": {
+      "symbol": "ABUS",
+      "pattern": "bullish reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "AVAH": {
+      "symbol": "AVAH",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PCLA": {
+      "symbol": "PCLA",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ABTC": {
+      "symbol": "ABTC",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "ASST": {
+      "symbol": "ASST",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BTGO": {
+      "symbol": "BTGO",
+      "pattern": "breakout continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BCS": {
+      "symbol": "BCS",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "SBSW": {
+      "symbol": "SBSW",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "XXI": {
+      "symbol": "XXI",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

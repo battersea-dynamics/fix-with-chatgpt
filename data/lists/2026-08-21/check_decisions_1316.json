@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-08-21T13:26:34-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net +0.00 = bull 0.75 - bear 0.75 (buy at >= +0.20). BULL: USDE is exhibiting massive relative strength with a 76.50x relative volume spike and a 79.62% price increase, signaling a significant institutional breakout. The momentum remains robust as evidenced by seven consecutive positive scans and a 33.30% return since the first observation, proving sustained interest despite a minor 0.89% drawdown from the observed high. The bull case is further supported by the August 20th news regarding crypto-linked stocks rallying on potential legislative support for digital assets, providing a favorable sector backdrop for this move. With the stock currently holding well above its 20-day moving average, the technical setup confirms that the price acceleration is backed by substantial and persistent market participation. BEAR: USDE is currently exhibiting clear signs of chasing and exhaustion as the stock is extended 217.57% from its 20-day moving average on 76.50x relative volume. The internal momentum data confirms this deterioration, as the relative volume rate is declining at -1.798 per 30 minutes and price acceleration has flipped negative to -6.4278 percentage points. While the stock initially rallied on general crypto-sector sentiment related to yesterday's headlines, the current session shows a drawdown of -0.8966% from the observed high, indicating that the buying frenzy is likely serving as exit liquidity. Consequently, entering now exposes the buyer to an imminent mean-reversion move as the massive intraday gain detaches from sustainable participation levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MRNA",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: MRNA is demonstrating significant momentum with a 10.82% gain on the day supported by massive relative volume at 3.07x its 20-day average, indicating strong institutional interest. While the catalyst report does not contain specific company-level news to explain this move, the stock's ability to maintain a high relative volume rate per 30 minutes of 0.1582 underscores sustained market participation. Despite a recent drawdown from the session high, the stock has shown 7 consecutive observations of high-volume activity, confirming its status as a top mover that continues to capture trader focus. BEAR: MRNA is exhibiting classic exhaustion as evidenced by a 5.36% drawdown from its observed high of $156.11 and a negative price acceleration of -3.458%, indicating the buying momentum has failed to sustain itself. Despite a massive relative volume of 3.07x, the lack of any company-specific fundamental catalyst in the news report suggests this move is speculative and disconnected from underlying value, leaving traders as liquidity for the current price extension. The stock is currently trading 117.22% above its 20-day moving average, a extreme statistical stretch that lacks support from the deteriorating score change of -0.6402 observed over the last 181 minutes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZSTK",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: ZSTK is currently trading significantly elevated relative to its 20-day moving average at +148.82%, demonstrating substantial residual momentum despite the day's pull-back. Recent intra-day momentum tracking reveals a rank improvement from 4 to 3 and positive price acceleration of 1.0764% points, suggesting bottom-fishing interest is beginning to solidify. While there is no specific positive catalyst in the news report, the stock is being actively monitored as one of the 12 Health Care stocks moving in today's pre-market session. The combination of high relative technical positioning and recent rank recovery creates a tactical entry point for a mean-reversion trade. BEAR: ZSTK is exhibiting classic exhaustion with a 15.3% drawdown from its observed high and a consistent decline in price since it was first tracked today. With relative volume at a meager 0.28x and no company-specific catalysts to justify the 148.82% extension from its 20-day moving average, current buyers are merely serving as exit liquidity for the volatility-driven move. The combination of deteriorating tape and an absence of news suggests the price is struggling to maintain support at these levels, making any entry highly susceptible to further mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARCT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: ARCT is demonstrating powerful institutional interest today with a 20.56% price surge on 2.25x relative volume, indicating a clear shift in market sentiment. The stock has shown strong momentum, maintaining a 8.46% return since its first observation 181 minutes ago across 7 consecutive scans, proving its ability to sustain a high-level breakout despite current volatility. While the catalyst report contains no direct news explaining this specific move, the stock's significant position 86.15% above its 20-day moving average highlights strong structural strength and technical momentum. With only a 1.71% drawdown from its observed high of $13.48, the tape shows that buyers are aggressively defending the current price levels, creating a compelling opportunity for a momentum-based trade. BEAR: ARCT is exhibiting clear evidence of 'chasing' as the stock is trading 86.15% above its 20-day moving average on a day where there is no specific positive company news to justify the 20.56% surge. The tape shows measurable deterioration, with a negative price acceleration of -4.2157 and a drawdown of -1.7062% from its observed high of $13.48, indicating the rally is stalling. Furthermore, the relative volume rate is contracting by -0.0067 per 30-minute interval, suggesting that buying participation is fading while the stock remains extended. Entry at this level carries significant mean-reversion risk as the price move has decoupled from any tangible catalyst.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WETO",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: WETO is currently showing significant momentum with a 4.16% return since its first observation 181 minutes ago, despite a broad market pullback. While there is no specific catalyst in the news report to justify today's -6.12% move, the stock has maintained a consistent rank of 5 and limited its drawdown from the observed high to just -1.07%. The price is trading at a substantial premium of 166.99% above its 20-day moving average, signaling strong relative strength that may support a short-term reversal or continuation of the intraday trend. Given the low relative volume, this setup relies entirely on the persistence of intraday price action and remains a high-risk technical play. BEAR: WETO is suffering from a classic 'volume not confirming' trap, as the current relative volume is a negligible 0.04x while the stock remains extended at 166.99% above its 20-day moving average. The intraday momentum is actively deteriorating, evidenced by a price acceleration of -0.3863% and a -0.2317% return in the most recent interval. Furthermore, there is a total absence of a fundamental catalyst in the news report to justify such a massive disconnect from its moving average, leaving the current -6.12% move as a vulnerable, unsupported spike. The combination of non-existent volume and negative price acceleration makes this an extremely high-risk entry point for a short-term trader.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EMAT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: EMAT is showing significant institutional interest, surging 23.58% today on 3.63x relative volume. The stock has demonstrated persistent momentum with seven consecutive observations since 10:19 ET and a notable positive price acceleration of 2.2048% points. While there is no specific catalyst in today's news report to explain this move, the strong volume participation and price action suggest a sustained breakout attempt that could extend beyond the current $4.14 level. Traders are clearly aggressively positioning themselves, and the stock is maintaining its strength despite intraday fluctuations. BEAR: EMAT is currently showing a textbook case of chasing, as the stock is trading 25.55% above its 20-day moving average on an aggressive 23.58% move that lacks a specific, company-linked catalyst. The internal momentum data confirms this exhaustion, with the stock suffering a 3.27% drawdown from its observed high and experiencing a 10.28% drop in relative volume rate, indicating that buying interest is fading as the session progresses. Furthermore, the lack of any fundamental news explains the move as speculative, which creates significant downside risk as the stock fails to improve its rank despite the elevated volatility.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ASST",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.15 = bull 0.50 - bear 0.65 (buy at >= +0.20). BULL: ASST is exhibiting strong momentum today, closing at $18.97 with a significant 17.61% gain and high relative volume of 3.10x. The tape data confirms sustained strength with 7 consecutive observations, a 4.40% return since first seen, and a rank improvement of 2 places, indicating persistent buying interest. While there is no specific catalyst in the provided report to explain the move, the price action shows zero drawdown from the observed high of $18.97, confirming that demand remains robust. The combination of high volume and consistent price acceleration justifies a momentum-based entry. BEAR: ASST is currently exhibiting extreme overextension, trading 51.50% above its 20-day moving average, which creates a high vulnerability for mean reversion. The move lacks a company-specific catalyst in the provided news report, as the headlines focus on other assets and broader sector movements, leaving this price action unanchored. Furthermore, the tape shows early signs of potential exhaustion with negative price acceleration of -0.0115, suggesting the momentum that drove the +17.61% gain is losing its steam as the day progresses.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IPST",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.0,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: IPST is currently undergoing a significant consolidation phase after a 3.15% gain from its first observation, maintaining a price level 164.27% above its 20-day moving average. Despite low relative volume, the stock has shown resilience by staying on the watchlist for seven consecutive observation periods, demonstrating a sustained market interest. The catalyst report contains no specific positive news for IPST today, but the technical setup reflects a strong momentum profile that suggests a potential bounce from current drawdown levels as investors re-engage. The stock's ability to hold significant gains relative to its recent average indicates an underlying institutional floor, positioning it for a tactical rebound. BEAR: IPST is currently suffering from a severe case of chasing and volume failure, as evidenced by a relative volume of only 0.12x its 20-day average despite being 164.27% above that same moving average. The intraday momentum has deteriorated significantly, showing a 6.21% drawdown from the session high and a price acceleration metric of -0.7805, indicating that buying momentum has evaporated. Furthermore, there is no fresh catalyst in the news report to justify this extreme technical extension, suggesting that the recent price move is largely unbacked by fundamental participation or institutional conviction. The lack of volume confirmation alongside the negative price acceleration makes this a high-probability mean-reversion candidate.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ABUS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.56,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: ABUS is demonstrating significant momentum today, characterized by a massive relative volume spike of 9.31x its 20-day average. The stock is currently trading 12.60% above its 20-day moving average, signaling strong technical strength despite the lack of a specific fundamental news catalyst. While the intraday price action shows a modest 2.38% drawdown from the session high of $5.26, the volume-backed participation is compelling enough to suggest further upside as the market digests the current gap-up. There is no specific news catalyst explaining the move in the provided report, so this remains a tape-driven play relying on persistent volume and breakout momentum. BEAR: ABUS is exhibiting clear signs of exhaustion with the price having retreated 0.96% from its first seen price and 2.37% from its session high of $5.26. The stock is currently trading 12.60% above its 20-day moving average on a day where there is no specific company-level catalyst provided to justify the massive 9.31x relative volume surge. With the volume rate per 30 minutes decelerating by 0.0625 and the momentum score dropping by 0.5212, participants are failing to sustain the morning gap-up, marking this entry as chasing an event that has likely already peaked.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RCON",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: RCON is currently undergoing an extreme short-term exhaustion, trading 91.70% below its 20-day moving average, which presents a significant mean-reversion opportunity for a rapid bounce. While there is no specific catalyst in the recent news flow to explain today's 14.60% decline, the tape shows early signs of stabilization with a slight rank improvement from 11 to 10 and a positive score change of 0.4168. Given that the stock is highly extended to the downside, the current price floor near $3.10 offers a high-reward entry point for traders looking for an oversold reversal. We are banking on a technical snap-back as selling pressure dissipates. BEAR: RCON is exhibiting a clear failure of institutional interest, evidenced by a relative volume of 0.25x which confirms the current 14.60% sell-off is occurring without meaningful participation. The tape confirms a 'chasing' scenario in reverse, with a consistent 8.13% drawdown from the observed high and an accelerating negative price momentum of -1.27% points. Furthermore, there is a total absence of a relevant catalyst in the news report, leaving the stock vulnerable to further drift as there is no fundamental narrative to arrest the current decline. The -91.70% distance from its 20-day MA indicates a extreme technical breakdown rather than a healthy retracement.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XHG",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: XHG is currently trading at a 122.01% premium to its 20-day moving average, indicating significant technical strength despite today's intraday retracement. While there is no specific catalyst in the news report to explain today's price action, the observed price acceleration of 0.1259 percentage points suggests a potential for stabilization following the recent drawdown. The stock remains in a volatile range, and the high distance from the moving average implies it is holding onto larger gains, positioning it for a rebound if it can clear its observed high of $4.40. BEAR: XHG presents a classic 'no catalyst' mean-reversion trap, with the stock currently sitting 122% above its 20-day moving average despite an total absence of fresh fundamental news to justify the deviation. Tape deterioration is evident as the stock is down 3.07% from its observed high today while struggling to maintain relative volume, which is at a negligible 0.01x normal levels. With rank slipping and price action showing a consistent drawdown from the high, the stock lacks the participation or news-driven conviction to support its current extended price level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TMC",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: TMC is demonstrating significant momentum with a 20.38% surge on 2.35x relative volume, indicating strong institutional interest. The catalyst for this move is the August 17th announcement regarding NOAA's Notice of Intent to prepare an Environmental Impact Statement for the company's exploration license, which provides a concrete regulatory milestone. While the intraday price has experienced a marginal 0.31% drawdown from its observed high of $4.7999, the rank improvement to 12 confirms the stock's outperformance relative to the broader market. This combination of structural regulatory progress and powerful volume-backed price action justifies a continuation trade. BEAR: TMC is currently suffering from a clear case of chasing, with the stock trading 20.37% above its 20-day moving average and showing a minor drawdown from the observed session high. The lack of any fresh catalyst today makes this move purely speculative, especially considering that the most recent relevant news\u2014a notice regarding an environmental impact statement\u2014occurred four days ago and is likely already priced in. Tape deterioration is evident as the stock has posted a negative return since being first seen, signaling that the initial momentum has failed to sustain itself. Given the broad industry concerns regarding weakening Chinese demand highlighted only two days ago, the current rally lacks fundamental support and risks a rapid mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SGLY",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: SGLY is experiencing a significant intraday dislocation, down 19.83% and trading 47.40% below its 20-day moving average, creating a classic mean-reversion setup for contrarian traders. While the catalyst report lacks a specific fundamental trigger, the stock's inclusion in broad lists of notable gap-downs for 2026-08-21 ensures liquidity and high market visibility for a potential recovery. The tape shows signs of stabilization with 7 consecutive observations and 2 positive intervals, suggesting the selling pressure is beginning to exhaust at the current $2.75 level. With the drawdown from the observed high limited to 2.1352%, a bounce toward the mean offers a compelling risk-reward profile for a short-term trade. BEAR: SGLY is suffering from significant tape deterioration, highlighted by a -19.83% drop and a -47.40% distance from its 20-day MA, signaling a structural collapse rather than a temporary pullback. The lack of any specific fundamental catalyst in the news report suggests this downward momentum is driven by unmitigated selling pressure without an offsetting buyer base. Evidence of volume non-confirmation is clear, with a low relative volume of 0.31x, and the live tracking shows worsening performance with a rank decline from 12 to 13 and negative price acceleration. Buying here is catching a falling knife into a void of liquidity with no fundamental support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XHLD",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.40 = bull 0.25 - bear 0.65 (buy at >= +0.20). BULL: XHLD remains significantly extended from its 20-day moving average by 118.05%, indicating a strong potential for a mean-reversion trend or sustained momentum breakout. While the catalyst report is empty, the stock has maintained consecutive tracking for 5 observations, demonstrating its persistent presence on the intraday radar. Current price action shows a shallow drawdown of only -1.5852% from the observed intraday high of $7.57, suggesting that buyers are successfully defending key levels. Given the extremely low relative volume of 0.18x, any surge in participation could lead to rapid price appreciation toward recent highs. BEAR: XHLD is a classic case of chasing an exhausted move, as the stock is trading a massive 118% above its 20-day moving average with zero news catalyst to justify such a premium. Participation is essentially non-existent, evidenced by a dismal 0.18x relative volume and a price that has drifted 1.58% off its observed high since being spotted. With momentum fading\u2014manifested by negative returns since the first observation and price acceleration of -1.34%\u2014the absence of any fundamental news suggests this is merely stale liquidity awaiting a sharp mean-reversion pull. Buying here ignores the lack of volume confirmation and the mechanical risk of a stock stretched far beyond its historical support levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "YJ",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: Following the August 20, 2026, earnings release showing a significant year-over-year improvement in adjusted EPS from $(4.00) to $(2.16), the stock is experiencing a post-earnings volatility window. While current price action shows a intraday pullback, the stock remains significantly elevated relative to its 20-day moving average, suggesting a broader trend of renewed interest following the report. With no new negative fundamental headlines today, the current decline appears to be a consolidation phase after the initial post-earnings adjustment. Investors can capitalize on the improved fundamental trajectory as the market digests the reduction in net losses. BEAR: YJ is exhibiting clear signs of a blow-off top, currently trading at a massive 97.17% premium to its 20-day moving average on extremely low volume (0.33x normal). The momentum has definitively deteriorated, with a 10.19% drawdown from the day's high and a negative price acceleration of -0.7661, confirming the setup is exhausted. Furthermore, the market has already digested the H1 2026 earnings report from yesterday, which revealed a steep decline in sales from $22.102M to $14.192M, leaving no fundamental catalyst to sustain this irrational price extension.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MRNA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZSTK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WETO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EMAT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ASST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IPST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ABUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RCON",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XHG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TMC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SGLY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XHLD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "YJ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

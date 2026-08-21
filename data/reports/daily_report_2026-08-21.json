@@ -1,0 +1,992 @@
+{
+  "date": "2026-08-21",
+  "events": [
+    {
+      "at_et": "2026-08-21T08:46:27-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-21T08:53:49-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-21T09:31:25-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BCS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEKE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SBSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T10:23:54-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1016.json",
+        "shortlist": [
+          "USDE",
+          "MRNA",
+          "ABUS",
+          "ZSTK",
+          "EMAT",
+          "WETO",
+          "IPST",
+          "BRNX",
+          "XHG",
+          "SGLY",
+          "YJ",
+          "RCON",
+          "ASST",
+          "ARCT",
+          "XHLD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T10:53:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1046.json",
+        "shortlist": [
+          "USDE",
+          "ABUS",
+          "MRNA",
+          "WETO",
+          "ZSTK",
+          "IPST",
+          "EMAT",
+          "ARCT",
+          "XHG",
+          "SGLY",
+          "RCON",
+          "BRNX",
+          "ASST",
+          "YJ",
+          "RZLT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T11:26:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1116.json",
+        "shortlist": [
+          "USDE",
+          "MRNA",
+          "EMAT",
+          "ABUS",
+          "ZSTK",
+          "WETO",
+          "ARCT",
+          "IPST",
+          "XHG",
+          "RCON",
+          "ASST",
+          "SGLY",
+          "YJ",
+          "XHLD",
+          "BRNX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T11:53:33-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1146.json",
+        "shortlist": [
+          "USDE",
+          "ARCT",
+          "MRNA",
+          "ZSTK",
+          "WETO",
+          "ABUS",
+          "EMAT",
+          "IPST",
+          "ASST",
+          "XHG",
+          "RCON",
+          "SGLY",
+          "XHLD",
+          "YJ",
+          "BKKT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKKT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T12:24:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1216.json",
+        "shortlist": [
+          "USDE",
+          "MRNA",
+          "ZSTK",
+          "WETO",
+          "ARCT",
+          "EMAT",
+          "ABUS",
+          "IPST",
+          "ASST",
+          "XHG",
+          "RCON",
+          "SGLY",
+          "XHLD",
+          "YJ",
+          "BKKT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKKT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T12:53:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1246.json",
+        "shortlist": [
+          "USDE",
+          "MRNA",
+          "ARCT",
+          "ZSTK",
+          "WETO",
+          "EMAT",
+          "ABUS",
+          "IPST",
+          "ASST",
+          "XHG",
+          "RCON",
+          "SGLY",
+          "TMC",
+          "XHLD",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T13:26:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1316.json",
+        "shortlist": [
+          "USDE",
+          "MRNA",
+          "ZSTK",
+          "ARCT",
+          "WETO",
+          "EMAT",
+          "ASST",
+          "IPST",
+          "ABUS",
+          "RCON",
+          "XHG",
+          "TMC",
+          "SGLY",
+          "XHLD",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T13:48:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "APIError: {\"message\":\"backend request timeout\"}\n"
+      }
+    },
+    {
+      "at_et": "2026-08-21T14:20:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "APIError: {\"message\":\"backend request timeout\"}\n"
+      }
+    },
+    {
+      "at_et": "2026-08-21T14:57:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1446.json",
+        "shortlist": [
+          "USDE",
+          "ZSTK",
+          "ARCT",
+          "WETO",
+          "MRNA",
+          "IPST",
+          "ABUS",
+          "EMAT",
+          "XHG",
+          "ASST",
+          "RCON",
+          "HHS",
+          "SGLY",
+          "TMC",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HHS",
+            "reason": "live ask $4.66 has reached or passed the original take-profit target $4.54"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T15:24:33-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-21/shortlist_1516.json",
+        "shortlist": [
+          "USDE",
+          "MRNA",
+          "ARCT",
+          "ZSTK",
+          "WETO",
+          "EMAT",
+          "IPST",
+          "ABUS",
+          "XHG",
+          "RCON",
+          "ASST",
+          "SGLY",
+          "TMC",
+          "PFSA",
+          "XHLD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-21T15:48:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "APIError: {\"message\":\"backend request timeout\"}\n"
+      }
+    },
+    {
+      "at_et": "2026-08-21T15:48:32-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
