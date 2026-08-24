@@ -1,0 +1,1273 @@
+{
+  "date": "2026-08-24",
+  "events": [
+    {
+      "at_et": "2026-08-24T08:46:05-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-24T08:51:35-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-24T09:31:11-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ASTL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBCQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PDD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WBD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T10:21:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1016.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "WETO",
+          "ZSTK",
+          "IPST",
+          "XHG",
+          "XHLD",
+          "EMAT",
+          "RCON",
+          "RGNX",
+          "MRNA",
+          "YJ",
+          "PFSA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFSA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T10:52:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1046.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "WETO",
+          "IPST",
+          "ZSTK",
+          "XHLD",
+          "XHG",
+          "RGNX",
+          "MRNA",
+          "RCON",
+          "FWDI",
+          "ASST",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T11:21:55-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1116.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "ZSTK",
+          "WETO",
+          "IPST",
+          "ZURA",
+          "RGNX",
+          "XHG",
+          "XHLD",
+          "FWDI",
+          "MRNA",
+          "RCON",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T11:52:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1146.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "ZSTK",
+          "WETO",
+          "RGNX",
+          "IPST",
+          "ZURA",
+          "XHG",
+          "RCON",
+          "FWDI",
+          "XHLD",
+          "MRNA",
+          "ASST"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T12:21:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1216.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "RGNX",
+          "WETO",
+          "IPST",
+          "ZURA",
+          "ZSTK",
+          "FWDI",
+          "XHG",
+          "ALVO",
+          "RCON",
+          "ASST",
+          "GORO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GORO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T12:50:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1246.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "RGNX",
+          "WETO",
+          "ZSTK",
+          "IPST",
+          "ZURA",
+          "TJGC",
+          "ALVO",
+          "FWDI",
+          "ASST",
+          "XHG",
+          "RCON"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T13:20:59-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1316.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "WETO",
+          "USDE",
+          "RGNX",
+          "TJGC",
+          "ZSTK",
+          "ZURA",
+          "IPST",
+          "ALVO",
+          "FWDI",
+          "XHG",
+          "ASST",
+          "YJ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YJ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T13:50:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1346.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "WETO",
+          "RGNX",
+          "TJGC",
+          "ZSTK",
+          "IPST",
+          "ALVO",
+          "ZURA",
+          "FWDI",
+          "XHG",
+          "XHLD",
+          "RCON"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T14:21:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1416.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "WETO",
+          "TJGC",
+          "RGNX",
+          "ZSTK",
+          "IPST",
+          "ZURA",
+          "ALVO",
+          "FWDI",
+          "XHG",
+          "ARCT",
+          "RCON"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCON",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T14:53:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1446.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "WETO",
+          "TJGC",
+          "RGNX",
+          "IPST",
+          "ALVO",
+          "ZSTK",
+          "ZURA",
+          "FWDI",
+          "ASST",
+          "XHG",
+          "ARCT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ALVO",
+            "action": "dry_run",
+            "order": {
+              "symbol": "ALVO",
+              "qty": 74,
+              "est_cost": 392.2,
+              "entry_ref": 5.3,
+              "take_profit": 5.6,
+              "remaining_take_profit_pct": 5.64,
+              "stop_loss": 5.15,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260824-145307-ALVO",
+              "analysis_price": 5.295,
+              "live_price_change_pct": 0.09
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T15:20:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1516.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "WETO",
+          "USDE",
+          "RGNX",
+          "TJGC",
+          "ZSTK",
+          "IPST",
+          "ALVO",
+          "ZURA",
+          "ASST",
+          "FWDI",
+          "ARCT",
+          "XHG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T15:50:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-24/shortlist_1546.json",
+        "shortlist": [
+          "XPON",
+          "SDOT",
+          "PMI",
+          "USDE",
+          "WETO",
+          "TJGC",
+          "RGNX",
+          "ZSTK",
+          "IPST",
+          "ALVO",
+          "ZURA",
+          "FWDI",
+          "ARCT",
+          "ASST",
+          "GORO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GORO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-24T15:50:46-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-08-24T08:51:35-04:00",
+  "decisions": [
+    {
+      "symbol": "ASTL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: ASTL is showing an extremely high volume anomaly at 13.52x its baseline, suggesting institutional absorption of the selling pressure related to the August 17th outage headlines. While the candle structure is currently bearish, the massive liquidity injection indicates that smart money is likely scaling into positions at this lower entry point rather than exiting in panic. With no new fundamental news to justify the gap down, this looks like a capitulation event providing a value-based entry point. I am betting that the support level holds as the market processes the already known outage news. BEAR: ASTL is exhibiting an exhaustion structure, evidenced by a bearish continuation pattern that has failed to recapture any of its losses despite 13.52x average volume. The lack of new news since the August 17th outage announcement confirms that this gap is not driven by fresh catalysts, but by technical decay following the expiration of the coal-sector rally seen on August 20th. This represents a classic gap-fade failure mode, as the pre-market volume is merely providing exit liquidity for those late to the bearish trade, leaving the open highly susceptible to an opening-auction reversal where real liquidity will likely reject these levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBCQ",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: BBCQ is exhibiting an massive volume breakout at 34x its baseline average, suggesting significant institutional interest that outweighs the standard bearish interpretation of an exhaustion gap. While there is no specific corporate news or filing to anchor this move, the 'SeekingAlpha' headline from 2026-08-24 discussing Pasqal highlights increased speculative focus on the sector, which may be driving retail momentum into this ticker. The bid has shown resilience despite the high-volume gap, indicating that buyers are absorbing sellers at these higher levels. I am betting that the sheer volume intensity will force a short squeeze above the pre-market high, rendering the technical 'exhaustion' signal premature. BEAR: The +5.70% gap is fundamentally hollow, as the only headline from 2026-08-24 is a speculative opinion piece on a competitor rather than a concrete catalyst for BBCQ itself. This lack of a durable fundamental driver confirms an exhaustion gap structure, where the move has stopped building and will likely serve only as exit liquidity for thin-tape participants. Because the price action is divorced from any company-specific news, the opening auction is almost certain to face a reversal once meaningful institutional volume hits the tape at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KLAC",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 1.5,
+      "stop_loss_pct": 1.08,
+      "reasoning": "net -0.45 = bull 0.35 - bear 0.80 (buy at >= +0.20). BULL: The significant surge in pre-market volume, currently at 7.58x the baseline average, suggests institutional absorption of this 2.33% gap rather than a retail-driven panic dump. While the bearish technical bias reflects the 'overvalued' sentiment from the August 22nd Yahoo headline, this high liquidity environment often marks a capitulation bottom where strong hands step in to accumulate shares. There is no specific company-level catalyst today explaining the move, implying this is a macro-sector rotation move likely tied to semiconductor ETF volatility. If the bid holds through the first 15 minutes, the volume signature supports a mean-reversion trade back toward yesterday's close. BEAR: KLAC is suffering from an exhaustion structure where a 7.58x volume spike in the pre-market is being met with a move away from the previous close, signaling a clear continuation of yesterday's bearish sentiment. The headline from August 22 regarding overvaluation has clearly been absorbed, and the absence of any fresh catalyst today implies the current -2.33% gap is merely institutional selling into the open. This setup exhibits an opening-auction reversal risk, as the pre-market drift has likely run its course, making the open prime exit liquidity for those trying to catch a bottom that the candle agent suggests is not yet in place.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PDD",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: PDD is displaying a rare, high-conviction setup with volume at nearly 20x its average, signaling major institutional accumulation ahead of the expected Q2 earnings referenced by Benzinga on 08-21. The gap is holding firmly at +4.89% on significant liquidity, contrasting sharply with the bearish sentiment seen in peer Alibaba's recent report. This structural reversal suggests a clean breakout above the recent range as the market front-runs a positive earnings revision. The sheer weight of the pre-market volume ensures this is not a retail-driven fluke, but a deliberate move to position before the next catalysts. BEAR: The 4.89% gap lacks any specific, news-driven catalyst from the past 48 hours, leaving the move entirely dependent on 'Wall Street Forecasters Revamp PDD Expectations' speculation from August 21st, which is now stale information. Given the peer-group destruction seen in Alibaba's recent 7% drop due to capital expenditure concerns, PDD's move acts as an 'exhaustion structure' where the market is likely overcompensating for earnings uncertainty rather than reacting to fundamentals. With no fresh news to justify the 19x volume spike, this is a classic 'gap-fade' scenario where the pre-market rally serves as exit liquidity for institutional traders ahead of the actual earnings print.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.68,
+      "stop_loss_pct": 2.75,
+      "reasoning": "net -0.55 = bull 0.35 - bear 0.90 (buy at >= +0.20). BULL: PMI exhibits a massive 26x volume spike relative to its baseline, indicating significant institutional interest that transcends generic gap mechanics. While the candle structure reflects an exhaustion pattern, the sheer weight of six million shares traded in pre-market demonstrates that the market is re-pricing the stock following its Q2 sales beat reported on August 19. There is no specific news from the current morning to justify the gap, making this a play on momentum and the absorption of the previous week's volatility. The bull case rests entirely on the sustainability of the pre-market bid holding above the $4.00 psychological level despite the exhaustion warning. BEAR: PMI is exhibiting a classic exhaustion gap where the massive 26x surge in volume is chasing a Q2 EPS miss from August 19th, a catalyst that is fundamentally stale and disconnected from this sudden price action. With no new fundamental news following the August 19th report, this 35% gap is a speculative vacuum that will likely serve as exit liquidity for bag holders looking to escape the $(3.05) loss per share. The candle structure confirms an exhaustion profile, indicating that the move has already priced in all available information and is ripe for an opening-auction reversal where real liquidity will promptly fade the pre-market high.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RGNX",
+      "signal": "hold",
+      "confidence": 0.15,
+      "take_profit_pct": 2.89,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net -0.70 = bull 0.25 - bear 0.95 (buy at >= +0.20). BULL: The pre-market volume of 192,054 shares is exceptionally high at 21.95x the baseline, indicating that institutional hands are actively flushing positions. While there are no recent headlines to explain this move, the sheer magnitude of the volume relative to the gap depth suggests a potential wash-out bottom is occurring. If the bid holds steady near the current $8.49 level through the market open, it creates a tactical long opportunity for a mean reversion play. This is a purely technical play based on volume exhaustion, as no specific news catalyst is present to justify the downside pressure. BEAR: The 20% gap lower for RGNX is occurring in a vacuum, as there is a complete absence of news headlines, suggesting this move is driven by panic or thin-tape positioning rather than a fundamental reset. This lack of catalyst confirms an exhaustion structure, where the 21.95x volume spike is likely the final liquidation event rather than the start of a trend. Given the high-conviction exhaustion reading, the open will likely serve as exit liquidity for trapped holders, confirming an opening-auction reversal where the initial price fails to hold as institutional buyers remain on the sidelines.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RUM",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: RUM is exhibiting a classic momentum-continuation footprint, with pre-market volume currently running at a massive 15.69x its daily average. The price action is holding steady at $9.69, indicating institutional absorption of the 7.07% gap rather than a retail-driven fade. While there is no fresh news headline today to explain the move, the sustained volume signature and strong daily chart structure suggest significant speculative interest is building for a breakout. This is a technical play where the volume confirms the strength of the move, making it a high-conviction momentum trade for the open. BEAR: The primary issue with this move is the complete absence of any fresh news; the only headlines available date back to August 17th, rendering them stale and incapable of justifying a 7% gap today. Without a durable catalyst, this 15.69x volume spike appears to be a classic exhaustion structure where retail momentum fails to find institutional follow-through at the open. The lack of current fundamental support makes this an 'already priced in' setup where the pre-market high serves as liquidity for early sellers rather than a breakout point. Traders should anticipate an opening-auction reversal as the thin-tape pricing of the pre-market session is rapidly overwhelmed by the exit of profit-taking traders at 9:30 AM.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SDOT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 6.3,
+      "stop_loss_pct": 4.2,
+      "reasoning": "net -0.30 = bull 0.65 - bear 0.95 (buy at >= +0.20). BULL: SDOT is exhibiting a massive volume signature with over 7.6 million shares traded in the pre-market, a 574x increase over the baseline, confirming that this 77% gap is backed by significant institutional interest rather than retail noise. While the recent news cycle lacks a specific fundamental trigger to justify this magnitude of a move, the technical structure is undeniably in a state of high-conviction continuation. The bid has remained robust throughout the morning, suggesting that the buying pressure is not a one-time liquidity spike but a sustained accumulation phase. Given the extreme volatility and parabolic nature of the move, the momentum favors a sharp initial push at the open as shorts scramble to cover. BEAR: The 77% gap is driven entirely by stale speculation from the August 21st Benzinga headline, which already accounted for the 'soaring' action last Friday and leaves no fresh fundamental catalyst for today. With over 7.6 million shares traded, the move has exhausted its upside momentum, creating a textbook exhaustion structure where the pre-market high effectively functions as exit liquidity for early holders. This is a classic gap-fade setup where the absence of new, verifiable news means the pre-market pricing is disconnected from the reality of opening auction liquidity, likely leading to a collapse as institutional sellers exit into the open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: USDE is exhibiting a high-conviction breakout with pre-market volume at 8.41x its baseline, signaling genuine institutional accumulation rather than speculative noise. There is no specific news headline from the provided list to explain this move, suggesting the buying pressure is driven by technical momentum following the restructuring news from August 21st. With the candle structure indicating a clear continuation bias, the stock is positioned to test higher resistance levels as the bid remains firm into the open. The sheer volume density relative to the average suggests this move has the legs to sustain a trend beyond the initial open. BEAR: The 2.43% gap in USDE is fundamentally hollow, as there is a total absence of any proprietary news catalyst driving this move since the 8/21 earnings report confirming a 32.1% revenue decline. Despite the elevated volume, this is a classic gap-fade setup where retail traders are chasing the tail end of Friday's momentum without new justification. The move is already priced in by the lack of price progression in the pre-market session, signaling that the open will likely serve as exit liquidity for those looking to dump into the 9:30 AM liquidity trap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WBD",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.17,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: The 44x volume surge relative to the two-week baseline demonstrates institutional conviction rather than retail noise, confirming the market is pricing in the positive momentum from the 'Lanterns' reboot success reported on 08-23. Coupled with the recent reports of a potential legal resolution with the California AG, the setup suggests a structural shift in sentiment that is actively being bought into throughout the pre-market session. The alignment of the continuation candle pattern with this sustained volume signature provides a high-probability entry for a move to retest higher resistance levels. BEAR: The 1.05% gap is a classic example of an already priced-in move, as the excitement surrounding the 'Lanterns' reboot and recent activist positioning headlines from August 20-23 has been fully digested by the market. Despite the high pre-market volume of 910k shares, the price action has stalled at $28.85, indicating that the initial buying momentum has exhausted itself before the opening bell. This setup is a prime candidate for an opening-auction reversal, where real institutional liquidity will view this level as a liquidity exit rather than a continuation point. Relying on thin-tape sentiment regarding media restructuring is a dangerous trap when there is no new material catalyst to justify a breakout above the prior close.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XPEV",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: The pre-market volume of 2.46 million shares is exceptionally high, at nearly 12 times the average, indicating massive institutional participation that often characterizes a 'washout' bottom rather than simple selling. There is absolutely no company-specific headline or event news provided in the data to justify this negative gap, suggesting the move is likely a mechanical liquidation or sector-wide sympathy play that lacks fundamental backing. Given the high liquidity and lack of news catalyst, the aggressive volume signature suggests a high probability of a mean-reversion bounce as bargain hunters step in at the open to absorb the initial selling pressure. I am assigning a low confidence score because the price action is currently showing a bearish reversal pattern, making this a pure contrarian play based on volume anomaly rather than structural trend alignment. BEAR: The 5.41% gap down in XPEV lacks any specific fundamental catalyst, as the recent headlines from August 22-23 focus on Nvidia and broader macro sentiment rather than company-specific news. With 11.97x baseline volume, this move is clearly being forced by speculative momentum rather than durable information, setting it up for an opening-auction reversal once institutional liquidity arrives. Given the 'Bearish Engulfing Reversal' pattern on the daily, the exhaustion structure confirms that the move has likely overextended in the thin-tape pre-market, making the open a prime location for a trap rather than a sustainable trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XPON",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.74,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: XPON is exhibiting an exceptionally strong pre-market footprint with 4.26x its average volume and a sustained 49.34% gap, indicating institutional conviction behind the move. Despite the lack of specific news headlines in the provided data, the structural breakout setup suggests a momentum play driven by material developments that have yet to hit the wire. The price is holding firm at the highs rather than fading, which validates the Gap and Go pattern detected. Given the liquidity and volume intensity, this provides a high-probability entry for immediate momentum continuation. BEAR: The 49.34% gap in XPON is entirely devoid of a fundamental catalyst, as the most recent news headlines are stale, dating back to August 18th and failing to provide any specific justification for today's price action. Without a news-driven breakout, this move is a classic case of thin-tape pricing where the pre-market volume of 2.06 million shares is being used to manipulate a retail-heavy ticker before real institutional liquidity arrives at the 9:30 open. Because the price has stopped building momentum relative to the morning move, the current levels act as exit liquidity for early participants, setting the stage for a classic gap-fade once the opening-auction reversal begins.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
