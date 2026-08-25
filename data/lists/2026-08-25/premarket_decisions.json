@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-08-25T08:51:47-04:00",
+  "decisions": [
+    {
+      "symbol": "AMIX",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 4.46,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: AMIX is exhibiting an extreme volume outlier, with pre-market trading volume at 272.95x its baseline average, indicating massive institutional participation that outweighs the caution of the 'exhaustion gap' indicator. While there is no specific headline or news event provided in the evidence to explain this move, the sustained nature of this volume suggests a fundamental repricing is underway rather than a speculative pump. Buying the open here relies on the assumption that such anomalous volume will initiate a secondary leg once the retail crowd enters at the bell. Without a clear news catalyst, this is a technical play betting that the sheer force of liquidity creates a momentum trap for any early shorts. BEAR: AMIX is a classic exhaustion gap exhibiting the textbook failure mode where price appreciation significantly outpaces news relevance; specifically, the lack of any company-specific headline on 2026-08-24 suggests the 33% surge is driven by speculative momentum rather than fundamental change. The gap has effectively stopped building before the open, indicating that early retail liquidity has already saturated the buyers and the current level is mere exit liquidity. With a clear exhaustion candle structure, the price is poised for an opening-auction reversal as institutional participants use the high pre-market volume to offload shares into the chasing crowd.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ASO",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: ASO is trading down 3.58% on heavy pre-market volume of over 68,000 shares, which is ten times its typical session average. There are no recent headlines or specific news events to account for this move, making the selling pressure appear driven by institutional liquidation or technical stop-triggering rather than fundamental news. Despite the bearish candle structure, the massive volume signature suggests a climactic washout that often invites a mean-reversion bid at the open. Without a clear catalyst to justify a sustained decline, this gap down is likely overextended and prone to a rapid recovery toward the previous close. BEAR: The absence of any news catalyst confirms this gap is a purely speculative move lacking fundamental grounding, setting it up for a textbook gap-fade failure. With the candle agent identifying an exhaustion structure and a bearish reversal bias, the thin-tape volume is essentially bait for liquidity takers rather than a reflection of institutional conviction. Given that the move has stopped building before the opening bell, the current price level serves only as exit liquidity for early movers, leaving buyers at the open vulnerable to a sharp reversal against the pre-market trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ASST",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.7,
+      "stop_loss_pct": 1.8,
+      "reasoning": "net -0.45 = bull 0.35 - bear 0.80 (buy at >= +0.20). BULL: ASST is experiencing a significant gap-down on high pre-market volume of 586,529 shares, which is 4.59x the baseline average. While there is no specific company-level headline in the provided news to justify this move, the sheer scale of the volume suggests institutional absorption is occurring at the $19.00 level. This heavy volume signature, rather than a thin fade, points to a potential capitulation point where sellers are exhausted and buyers are stepping in to establish a long position. I am treating this as a volatility play, betting that the initial sell-side liquidity spike will stabilize once the market opens and the selling pressure is fully absorbed. BEAR: ASST is exhibiting a classic exhaustion structure, confirmed by a significant 4.59x spike in pre-market volume that has failed to push the stock off its lows. The lack of a fundamental catalyst in the news cycle\u2014which is dominated by stale or irrelevant headlines like the August 24th Solana company offering\u2014indicates that this downward move is purely speculative and devoid of institutional backing. With the candle agent identifying an exhaustion gap, the pre-market downward momentum is already priced in, leaving no fuel for a sustained sell-off once real institutional liquidity enters the opening auction. Expect the open to serve as the liquidity event that marks the local bottom for this exhaustion pattern.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DKS",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: The massive pre-market volume of over one million shares suggests that a major institutional liquidation is occurring, which often creates an exhaustion bottom for retail traders to exploit. While no specific headline explains this violent 18% gap, the sheer liquidity confirms that the market is repricing the stock aggressively, potentially overshooting to the downside. If the bid holds near current levels, this level acts as a significant value entry relative to the recent JP Morgan overweight rating and price target. The setup represents a high-reward mean reversion play assuming the initial panic selling lacks follow-through after the opening bell. BEAR: The 18% gap down in DKS is a brutal 'gapping breakdown' that lacks a specific, catalyst-driven headline to justify the magnitude, as the most recent analyst note from JP Morgan on 8/24 actually maintained an overweight rating. This absence of fresh, negative fundamentals suggests the move is driven by thin-tape panic and a capitulation of retail sentiment rather than a concrete fundamental shift. Because the gap lacks a durable catalyst and arrives with the stock already under heavy structural pressure, the pre-market volume of over 1 million shares indicates significant institutional liquidity has already cleared, leaving late buyers at the open to absorb potential further selling pressure as the market rebalances. The setup exhibits an 'exhaustion structure' where the lack of news confirmation implies the open will likely serve as the ultimate trap for those looking for a rebound.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EH",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The massive pre-market volume of 196,416 shares, representing a 20.49x increase over the baseline, signals institutional digestion of the impending Q2 2026 earnings results announced on August 18, 2026. While the candle structure indicates a bearish exhaustion pattern, this high-volume participation suggests a wash-out event preceding a potential volatility spike at the open. Investors are likely front-running the earnings report, and the depth of liquidity allows for a tactical entry against the current gap. The case is purely driven by earnings-related anticipation rather than any specific recent headline. BEAR: EH is exhibiting a classic exhaustion structure heading into its Q2 2026 earnings release, which has clearly not provided a positive catalyst given the downward drift. The 20x volume spike relative to the baseline in the absence of any favorable news suggests that institutional interest is absent and retail liquidity is simply churning at lower levels. With the stock printing an exhaustion pattern on the daily candle and failing to hold its previous close, the pre-market gap is a textbook trap where the open will serve as immediate exit liquidity for traders seeking to escape before the actual financial results land later today. This is a pure gap-fade setup where the price action has stopped building, confirming that the move lower is the path of least resistance.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EQNR",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: The massive pre-market volume of over 1 million shares, representing 27x the baseline, indicates significant institutional absorption of the selling pressure following the recent Emerson operational optimization deal news. While the price is gapping down, this level of liquidity suggests that large buyers are stepping in to defend the valuation near $41.60, effectively putting a floor under the stock. Despite the bearish candle structure, the aggressive accumulation at these levels points to a potential sharp reversal as the market realizes the long-term cost-saving benefits of the Emerson agreement are not reflected in the current oversold sentiment. The heavy volume is not a sign of panic, but rather a churn of ownership that provides a high-conviction base for a technical bounce. BEAR: The 1.72% gap lower on 27x relative volume lacks any negative catalyst, as recent headlines regarding the Emerson 13-year deal and the Havila Troll contract extension are operational positives, not headwinds. This signals a clear 'exhaustion structure' where the move is disconnected from fundamental news, suggesting the pre-market drop is merely a thin-tape liquidity vacuum. Because the bearish conviction is disconnected from current company developments, the opening auction is highly likely to face a reversal as institutional participants reject these artificially low levels. Buying at the open is a high-risk trap as the price has stopped building, leaving this gap vulnerable to a swift fade once real size hits the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FLNC",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: FLNC is displaying a robust 9.59x pre-market volume surge relative to its baseline, indicating institutional absorption of shares despite the negative GLJ Research downgrade headline from August 20. The price action is holding steady at $11.88, demonstrating that buyers are front-running a potential news catalyst or reacting to an oversold reversal setup confirmed by the bullish daily structure. This volume consistency suggests the market is pricing in a recovery that ignores the recent bearish analyst note, setting the stage for a strong continuation play at the open. BEAR: The 9.39% gap in FLNC lacks a primary news catalyst, as the most recent relevant headline is a GLJ Research downgrade from August 20th that serves as a fundamental headwind rather than a tailwind. Without a fresh, market-moving headline, this gap exhibits classic thin-tape pricing where the pre-market volume of 660,545 shares is insufficient to absorb the institutional selling likely to emerge at the 9:30 open. Consequently, this price action is highly susceptible to an opening-auction reversal, as the lack of a tangible catalyst suggests that the price appreciation is purely liquidity-driven and set to fade once the broader market participants re-evaluate the stock's proximity to the $12.89 price target set by analysts.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRRR",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: The bull case for GRRR rests on the heavy 5.17x volume relative to baseline, indicating that market participants are aggressively absorbing the news provided in the August 24 earnings transcript and guidance update. While the headline guidance for FY2027 and Q3 sales significantly missed estimates\u2014triggering this gap\u2014the stock has sustained notable volume throughout the pre-market, suggesting institutional churn that may lead to a capitulation bounce. The aggressive sell-off appears to have front-run the earnings miss entirely, and with volume this elevated, a mean-reversion trade from the open is viable as short-sellers take profits. There is no positive fundamental driver here, so this is strictly a volatility-based play on oversold conditions following an earnings reaction. BEAR: The 10.30% gap down is a direct reaction to the abysmal FY2027 and Q3 sales guidance issued on 2026-08-24, where the company missed revenue estimates by a massive margin. Because the stock has already cratered to $14.20 on relatively light volume, the market is exhibiting an exhaustion structure where the primary institutional re-pricing has already occurred. Buying at the open invites a classic 'gap-fade' failure, as the initial selling pressure will likely invite profit-taking from those who shorted at higher levels, turning the opening minute into immediate exit liquidity for bears.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KURA",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: KURA is exhibiting a textbook continuation pattern supported by an exceptional volume signature, trading at 8.41x its average pre-market volume. While the August 24th Citizens analyst note reiterating a $24 price target provides fundamental tailwinds, the immediate strength lies in the technical structure which has held the +10.48% gap consistently throughout the morning session. This combination of institutional analyst backing and sustained, heavy-volume accumulation suggests the market is actively repricing the stock toward higher levels rather than engaging in speculative drift. BEAR: The 10.48% gap is fueled entirely by stale sentiment, as the Citizens 'Market Outperform' reiteration from August 24 is already digested by the market and fails to justify today's 8.41x volume surge. With no fresh news to support the price action, this move is a textbook case of thin-tape pricing where the pre-market premium will serve as exit liquidity for institutions once real volume hits at 9:30. The structure is primed for an opening-auction reversal, as the lack of a durable catalyst ensures that the pre-market high will likely stand as the daily high.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NKE",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: NKE is showing 6.62x volume relative to its baseline, indicating an aggressive absorption of sellers at these 12-year lows. While no specific headline explains this morning's move, the extreme volume on a pre-market gap often signifies institutional capitulation, creating a prime liquidity event for a mean-reversion trade. The stock is currently being priced as a distressed asset, yet the heavy volume suggests that buyers are stepping in to defend this psychological level following the cycle of negative headlines regarding its valuation from August 21-22. I am betting that this high-volume gap-down serves as the final washout before a technical rebound. BEAR: NKE is exhibiting a classic exhaustion structure following its 12-year low hit on August 21st, confirming that the current negative gap is merely a continuation of institutional capitulation rather than a fresh catalyst-driven event. The headline regarding the stock being '9% overvalued' is stale, having been circulated on August 21st, meaning the current 3.05% gap down is likely just late-arriving sellers exiting into the open. Because the volume is high but the move lacks a brand new fundamental anchor, this setup is prone to an opening-auction reversal where the 9:30 AM liquidity traps early momentum sellers. Investors chasing this gap are buying into an exhausted trend that has already priced in the recent negative sentiment.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PBR",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: PBR is seeing heavy pre-market volume at 4.95x its daily average, indicating institutional participation despite the gap-down. There is no specific headline in the provided news to account for this move, making it purely a technical play on liquidity exhaustion. The significant volume suggests that sellers may be capitulating, creating a potential floor for an intraday reversal as buyers step in to absorb the selling pressure. Since the case is entirely technical with no underlying company catalyst, confidence remains low. BEAR: PBR is showing a textbook 'Failed Gap Reversal' with zero fundamental justification, as the only recent news is a stale and irrelevant portfolio advisory piece that fails to account for this 3.77% downside move. With no catalyst to sustain this volume spike, the move is exhibiting classic 'gap fade' behavior where the pre-market low will likely serve as the ceiling once opening liquidity hits. The exhaustion structure in the candle data indicates that the market has already finished its reaction to whatever thin-tape pressure drove this move, making any attempt to catch the falling knife a trap for the opening bell.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XPON",
+      "signal": "hold",
+      "confidence": 0.075,
+      "take_profit_pct": 1.31,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.85 = bull 0.10 - bear 0.95 (buy at >= +0.20). BULL: There is no specific news headline or catalyst provided to justify this 24% gap, and the volume signature at only 0.32x the baseline is remarkably thin and unimpressive. With the candle agent flagging this as an exhaustion gap continuation and the pre-market volume failing to show any accumulation or support, there is no credible bull argument to be made here. This is a classic example of a stock drifting lower on lack of interest rather than a reaction to a concrete event. Therefore, the case for a long position is entirely forced and unsupported by the current footprint. BEAR: The 24.19% gap in XPON is entirely devoid of an actionable catalyst, as the provided news block contains only generic market activity reports from yesterday with no specific company-level trigger. With pre-market volume at a meager 0.32x of its baseline average, this is a classic thin-tape pricing trap where the printed price lacks the institutional backing to hold the opening auction. The exhaustion structure identified by the candle agent confirms that the move is already finished, leaving the open as nothing more than exit liquidity for the few participants trapped in the overnight move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

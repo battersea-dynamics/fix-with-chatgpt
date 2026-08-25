@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-08-25T14:20:58-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: PMI is demonstrating massive institutional interest today with relative volume at 17.95x its 20-day normal and a significant 80.12% price jump. The stock has maintained its rank as the top mover throughout the session, showing sustained momentum with 9 consecutive observations and a 21.58% return since it was first flagged. While the catalyst report lacks specific news, the intense volume and price performance, confirmed by a consistent relative volume rate increase of 0.1078 per 30-minute interval, suggest strong buying pressure is persisting. Investors are capitalizing on the breakout, and the current drawdown from its session high is moderate given the extreme volatility, signaling potential for another leg up. BEAR: PMI is currently exhibiting clear signs of trend exhaustion, with a 7.78% drawdown from its observed high of $10.02 and a notable price acceleration drop of -20.37 percentage points. While the stock has seen a massive 80.12% move on high volume, the absence of any specific fundamental catalyst in the news report suggests this rally is driven by technical momentum rather than news, making it vulnerable to immediate profit-taking. The move is severely overextended, sitting 140.84% above its 20-day moving average, and current session data confirms a transition into a reversal phase.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DKS",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: DKS is currently experiencing a massive capitulation event with relative volume at 15.91x, suggesting an exhaustion of sellers and a high-probability mean reversion opportunity. While the 29.26% drop is driven by the specific, headline-reported $31.9M investment loss in Foot Locker today, the stock is now trading 36.08% below its 20-day moving average, signaling an extreme oversold condition. Price action shows early signs of stabilization with positive price acceleration of 0.4637% observed across recent intervals. Given the sheer scale of the volume, the current price offers a deep-discount entry for a technical bounce as intraday participants exhaust their selling momentum. BEAR: DKS is suffering from a massive 29.26% single-session decline, explicitly driven by the fresh news of a $31.9M investment loss in Foot Locker. The momentum data confirms a 'chasing' failure mode, as the stock has already endured a 4.87% drawdown from its observed session high and currently shows a deteriorating volume pace with a -0.4241 relative volume rate change. Attempting to catch this falling knife is dangerous because the underlying catalyst represents a fundamental impairment that is actively suppressing buying interest, evidenced by the stale ranking and lack of positive momentum intervals.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AMIX",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 4.23,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: AMIX is exhibiting exceptional institutional interest today, evidenced by a relative volume of 2.21x and a robust 60.15% gain. The tape momentum is particularly compelling, showing 9 consecutive observations, a current rank of 3, and a significant rank improvement of 2 over the recent period. Price acceleration of 7.032% and a rel_volume_rate_change of 0.0618 confirm that participants are aggressively chasing the stock throughout the session. While the news report lacks a specific fundamental driver, the intense market participation\u2014confirmed by Benzinga's highlight of the stock as a key mover in the Health Care sector\u2014supports the continuation of this high-momentum breakout. BEAR: AMIX is experiencing a classic exhaustion setup, currently sitting 17.93% above its 20-day moving average on a massive 60.15% single-session move that lacks any specific fundamental catalyst to justify the extension. The momentum history shows clear deterioration, with the stock trading down 2.38% from its observed high of $8.81 despite a high relative volume of 2.21x, indicating that buyers are struggling to push the price into new highs. Furthermore, the news cycle is entirely devoid of company-specific developments, leaving the stock vulnerable to a rapid mean-reversion as traders realize the price action is purely speculative volatility without fundamental backing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BRNX",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: BRNX is displaying extreme momentum with a 32.71% single-day gain and elevated relative volume at 2.23x, signaling strong institutional interest. While the catalyst report lacks specific fundamental news, the stock's inclusion in the August 25th Benzinga report, '12 Industrials Stocks Moving In Tuesday's Pre-Market Session,' confirms it is a primary focus for active traders today. The tape shows persistent liquidity with 9 consecutive observations and a stable relative volume rate of 0.0628 per 30 minutes. Given the stock is trading 85.94% above its 20-day MA, the extreme volatility justifies a momentum-based entry for a short-term swing. BEAR: BRNX is currently exhibiting clear signs of chasing as the price has moved 85.94% away from its 20-day MA with no specific company-level catalyst to explain the magnitude of this rally. The momentum evidence confirms exhaustion, with a negative price acceleration of -5.1659% and a current drawdown of -0.5878% from the observed intraday high. With the stock failing to hold its top-tier momentum rank\u2014dropping from rank 3 to 4\u2014the risk of providing exit liquidity to early buyers at these extended levels is extreme.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZSTK",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: ZSTK has demonstrated significant momentum today with a 23.52% gain and a 161.43% distance from its 20-day MA, signaling a breakout move. While the catalyst report lacks specific news, the stock's persistent visibility in today's pre-market health care mover lists confirms institutional interest. The tape-only analysis shows 9 consecutive observations since 10:16 ET and a solid 1.461% return since first seen, indicating that despite a minor current-session drawdown of 3.4257% from the high, the stock maintains a strong positive price acceleration of 3.1114 percentage points. BEAR: ZSTK exhibits classic signs of exhaustion after a +23.52% move that has left the price 161.43% above its 20-day moving average. The stock is currently chasing liquidity with a relative volume of only 0.24x, indicating that the move is not being supported by meaningful institutional participation. Furthermore, intraday momentum has deteriorated, evidenced by a -3.4257% drawdown from the observed high and a recent decline in its relative rank. With no specific catalyst found in the news report to justify this massive decoupling from historical norms, the current entry is effectively buying into a vacuum of demand.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GENB",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: GENB is seeing significant demand with a relative volume of 4.84x, indicating strong institutional interest despite the lack of public headlines in the catalyst report. While the stock has experienced a pullback from its observed high, it has maintained 8 consecutive observations since 10:46 ET, showing persistent volume participation. The current price remains 33.41% above the 20-day moving average, confirming strong momentum that supports a potential breakout if buying interest re-accelerates. Given the absence of specific news, this trade relies on the massive volume surge and sustained liquidity in the session. BEAR: GENB is a classic case of chasing a move that has already failed, evidenced by a 9.31% drawdown from the session high of $21.99. With no news catalyst to explain the 12.53% gain, the stock is currently trading 33.41% above its 20-day moving average, leaving it technically overextended without fundamental backing. The tape shows clear deterioration, as the relative volume rate is declining and the stock has failed to improve its ranking, confirming that buyers have turned into exit liquidity for those who entered earlier today.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SLF",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 1.69,
+      "stop_loss_pct": 1.01,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: SLF is showing significant accumulation today with relative volume at 7.54x its 20-day average, suggesting institutional interest ahead of tomorrow's ex-dividend date on 2026-08-26. The price action confirms persistence with 7 consecutive positive observations and a drawdown of 0.0% from the session high of $79.50. While there is no specific headline news, the combination of high-conviction volume and steady price appreciation over a 180-minute window supports a tactical play on momentum surrounding the dividend event. BEAR: Buying SLF today forces a trader into an immediate ex-dividend trap, with the ex-dividend date occurring exactly one calendar day after this session. While relative volume is significantly elevated at 7.54x, the price action shows signs of exhaustion with a negative price acceleration of -0.0757 and a score change of -0.9205 over the observed interval. Furthermore, the total lack of news catalysts leaves this 7.54x volume move unexplained, suggesting that the current session is likely acting as exit liquidity rather than a breakout. Investors holding overnight will face an immediate mechanical downward adjustment in price, effectively neutralizing the momentum gains achieved during today's session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EH",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: EHang is currently experiencing a massive surge in liquidity with relative volume at 4.06x normal, indicating intense market interest following the release of its 2026 Q2 financial results on August 25, 2026. While the stock has seen a sharp intraday drop, it is showing early signs of stabilization with positive price acceleration of 0.6825% and a return of 0.0194% since the previous scan. The convergence of earnings day volatility and significant volume provides a tactical opportunity to play a mean-reversion as investors digest the new financial data. The high relative volume suggests that the market is actively repricing the stock, creating a potential bounce scenario as the sell-off exhausts itself. BEAR: EH is exhibiting clear signs of exhaustion following today's Q2 earnings report, as evidenced by a severe 10.96% price drop and a 15.89% deviation below its 20-day moving average. The intraday tape shows measurable deterioration, with a 5.89% drawdown from the observed high and a significant collapse in participation, indicated by a 44% decline in relative volume velocity. With the earnings news already fully disseminated during this session, the stock lacks a positive catalyst to reverse its downward momentum, making any entry into this collapsing trend highly prone to further liquidations.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MRNA",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: Moderna is exhibiting strong momentum today with a 12.97% gain on 1.47x relative volume, supported by a fresh Wolfe Research upgrade to Peer Perform reported today, August 25. The price has sustained 9 consecutive observations of high-volume activity since 10:16 ET, demonstrating significant market engagement. With a drawdown of only 1.1% from the intraday high of $158.67, the stock is consolidating its gains well above its 20-day MA. The combination of clear analyst attention and robust relative volume throughout the session provides a solid foundation for continued upward momentum. BEAR: MRNA is in a state of clear exhaustion, sitting 104.49% above its 20-day moving average, which creates extreme vulnerability to profit-taking. The tape shows measurable deterioration, with price acceleration at -0.71% and a shrinking relative volume rate of 0.0649, signaling that institutional interest is waning as the day progresses. Furthermore, the Wolfe Research upgrade is a marginal event that is already fully priced into the 12.97% move; the negative return since the previous interval and a 1.11% drawdown from the session high suggest the stock is becoming exit liquidity for early buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QFIN",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.15 = bull 0.60 - bear 0.75 (buy at >= +0.20). BULL: QFIN is demonstrating strong momentum ahead of its earnings report scheduled for after market close today, August 25, 2026. The stock is seeing significant institutional interest with a relative volume of 3.92x its 20-day average and has maintained a 2.4036% return since its first observation at 10:16 ET. Despite trading below its 20-day moving average, the high volume and anticipation surrounding the earnings catalyst provide a compelling setup for a short-term volatility play. The current drawdown from the observed high is negligible at -0.0335%, indicating the stock is effectively holding its intraday gains near the close. BEAR: Buying QFIN today represents a classic 'earnings coin flip,' as the company is set to report earnings after market close, turning any overnight hold into a speculative event gamble. The price action shows clear signs of exhaustion, with a -0.1659% price acceleration, a worsening rank, and a relative volume rate decline of -0.0341, suggesting that late-day buyers are providing exit liquidity for earlier participants. Furthermore, the stock remains significantly disconnected from its 20-day moving average at -11.02%, indicating that the current move is a volatile drift rather than a stable trend, leaving it highly vulnerable to a sharp mean reversion post-earnings.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WETO",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 1.62,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: WETO is showing strong momentum, currently trading 143.45% above its 20-day moving average and sustaining a positive return of 0.4898% since it first appeared on our radar 240 minutes ago. Despite a low relative volume of 0.02x, the stock has maintained consecutive observations across 9 distinct scanning intervals with a price acceleration of 1.1419 percentage points. While there is no specific breaking news catalyst explaining today's movement, the stock's persistent positive performance and 3 positive observed intervals demonstrate a clear intraday trend worth capitalizing on. The technical setup remains favorable for a momentum-based entry given its elevated position relative to its recent mean. BEAR: WETO is currently suffering from a severe lack of participation, evidenced by a negligible relative volume of 0.02x normal, which confirms the move lacks institutional conviction. The stock is extended 143.45% above its 20-day moving average, a extreme divergence that suggests the current +2.61% gain is highly vulnerable to a mean-reversion pull. Furthermore, there is no fresh catalyst in the news report to justify this deviation, and the intraday performance shows clear signs of exhaustion with a drawdown of -2.3793% from the session high. Buying at this level amounts to chasing an unsupported move with zero volume confirmation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XHLD",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.75 = bull 0.20 - bear 0.95 (buy at >= +0.20). BULL: XHLD is showing strong momentum with a +10.67% gain today, currently trading significantly above its 20-day moving average by 111.34%. While the news report highlights negative short-seller sentiment from August 24, the stock is aggressively defying these claims with a positive return of 0.913% over the last 30 minutes and holding at its observed high of $8.4666. This price action suggests a potential short squeeze or a complete dismissal of the recent bear narrative by market participants. Nothing in the current news report provides a fundamental reason for the price increase, so this remains a tape-driven play dependent on the sustainability of current buy-side interest. BEAR: XHLD is exhibiting a classic volume-devoid chase, with a 111.34% extension from its 20-day MA occurring on a pathetic 0.12x relative volume. This price action is occurring directly against a backdrop of fresh, highly credible warnings of a 'pump-and-dump' scheme issued just yesterday by Fugazi Research. The combination of an unsustainable technical extension and the high probability that this move is artificial exit liquidity for bad actors makes this an extremely dangerous entry point. Without any fundamental buying pressure to justify the +10.67% gain, the stock is primed for a sharp reversal as retail participants exhaust their limited buying power.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ASST",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.10 = bull 0.55 - bear 0.65 (buy at >= +0.20). BULL: ASST is demonstrating significant institutional demand, evidenced by a 2.10x relative volume spike and a 9.30% gain in today's session. The momentum is confirmed by six consecutive scanner observations showing a 0.583% return since first discovery, positive price acceleration of 0.4852 percentage points, and a shallow drawdown of only 0.9871% from the intraday high. While there is no specific company-level news catalyst, the sustained price strength and volume participation indicate strong underlying buy-side pressure. The stock's breakout, currently 62.94% above its 20-day moving average, confirms a powerful trend that justifies a bullish outlook for the short term. BEAR: ASST is currently exhibiting exhaustion symptoms, with the relative volume rate per 30 minutes declining by 1.24% while price remains significantly extended at 62.94% above its 20-day moving average. The lack of a specific, company-aligned catalyst to justify a 9.30% gain suggests the move is driven by momentum rather than fundamental revaluation. Furthermore, the stock's failure to improve its rank despite the sustained daily gain indicates a lack of institutional follow-through at these elevated price levels. Entering now requires buying into the peak of this extension with diminishing volume participation, increasing the likelihood of a sharp mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARCT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: ARCT is exhibiting strong momentum today with a 7.81% gain and elevated relative volume of 1.34x. The price action has remained consistent throughout the session with nine consecutive observation points and a return of 1.0127% since being first identified, demonstrating clear intraday resilience. While there is no specific catalyst in the recent news feed to explain this price movement, the stock's significant deviation at 94.64% above its 20-day moving average highlights powerful buyer demand and institutional interest. The current rank improvement to 14 indicates a strengthening trend that justifies a short-term momentum play. BEAR: ARCT is currently experiencing extreme technical overextension, trading 94.64% above its 20-day moving average, which creates a high probability of mean reversion regardless of the underlying trend. The momentum has demonstrably stalled, as evidenced by a negative change in relative volume rate (-0.0389) and a 3.01% drawdown from the observed high. Furthermore, there is no fundamental catalyst in the news report to justify this surge, meaning the current price action is likely driven by short-term speculative exhaustion rather than a shifting narrative. Entering at this level requires chasing a move that has already shown measurable deterioration in participation and price strength over the last 240 minutes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: USDE is showing resilience with a positive return of 0.3484% since its first intraday observation despite the broader session decline. While relative volume is low at 0.62x, the stock remains significantly elevated at 105.79% above its 20-day moving average, indicating strong underlying momentum. There is no specific news catalyst explaining the move today, as the 08-25 Benzinga headline merely lists USDE among other moving stocks. The case is speculative, relying on the stock's ability to maintain its massive technical lead over the 20-day MA despite the current 8.13% pullback. BEAR: USDE is currently exhibiting clear exhaustion, evidenced by a 10.21% drawdown from its observed high and an 8.13% decline on the session despite being 105.79% above its 20-day moving average. The relative volume of 0.62x indicates a lack of institutional conviction to support this outlier extension, leaving buyers as exit liquidity. Furthermore, there is no fundamental catalyst in the news report to justify this volatility, meaning the price action is likely driven by speculation that is already unwinding. Entering now requires chasing a move that has already failed to hold its momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "PMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DKS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AMIX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BRNX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZSTK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GENB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SLF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MRNA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "QFIN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WETO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XHLD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ASST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
