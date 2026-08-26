@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-26T08:48:38-04:00",
+  "session_date": "2026-08-26",
+  "reads": {
+    "DY": {
+      "symbol": "DY",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PSNYW": {
+      "symbol": "PSNYW",
+      "pattern": "Reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "KSS": {
+      "symbol": "KSS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "DAIC": {
+      "symbol": "DAIC",
+      "pattern": "Gap and Go Continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "GRML": {
+      "symbol": "GRML",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ANF": {
+      "symbol": "ANF",
+      "pattern": "Gap and Go Reversal",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "PLAB": {
+      "symbol": "PLAB",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "SMMT": {
+      "symbol": "SMMT",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "QFIN": {
+      "symbol": "QFIN",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "BBWI": {
+      "symbol": "BBWI",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "SYRE": {
+      "symbol": "SYRE",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "INTU": {
+      "symbol": "INTU",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}

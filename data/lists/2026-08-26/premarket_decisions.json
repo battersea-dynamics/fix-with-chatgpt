@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-08-26T08:52:16-04:00",
+  "decisions": [
+    {
+      "symbol": "ANF",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.07 = bull 0.92 - bear 0.85 (buy at >= +0.20). BULL: ANF is exhibiting a powerful 'Gap and Go Reversal' structure supported by an overwhelming volume signature of 160.98x its baseline average, indicating high institutional conviction despite the bearish earnings sentiment cited in the August 25 headline. The stock has successfully held its 11.3% gap throughout the pre-market session, proving that buyers are stepping in to absorb supply at these higher levels. This volume intensity confirms a market-moving event that has successfully invalidated the negative analyst revisions from yesterday. The alignment of extreme volume, a structurally sound gap, and a clear reversal signal makes this a compelling momentum play. BEAR: The 11.30% gap is fundamentally decoupled from the actual headlines, which specifically cite 'Lower Q2 Earnings' expectations in the August 25th Benzinga report, making this move a classic exhaustion structure fueled by thin-tape speculation rather than news-driven value. Because the pre-market volume of 373,174 shares is high enough to generate noise but lacks a positive catalyst to sustain buying at the open, this gap is highly susceptible to an opening-auction reversal. Investors are effectively buying into an 'already priced in' event where the market is set to use the 9:30 liquidity spike as an exit window before the actual earnings reality hits the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBWI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The massive pre-market volume of nearly 600,000 shares, representing 80x the daily average, indicates institutional participation likely tied to reaction regarding upcoming Q2 estimates discussed in the August 21st reports. While the chart reflects an exhaustion gap, the sheer scale of the volume suggests a capitulation event rather than a drift, creating a potential mean-reversion opportunity if the bid holds the $16.70 level at the open. There is no specific news headline today explaining this move, and the current gap behavior remains purely tied to extreme liquidity-driven volatility. As such, any entry must be predicated on the stock demonstrating an immediate reclaim of the opening print rather than assuming fundamental turnaround. BEAR: BBWI is exhibiting a classic exhaustion gap where the lack of any catalyst\u2014the most recent news being from August 21st regarding Q2 estimates\u2014confirms this price action is purely mechanical rather than fundamental. With the candle agent identifying an exhaustion structure and the pre-market gap stalling, the move is effectively already priced in, leaving retail buyers at the open as nothing more than exit liquidity. The high relative volume of 80.42x suggests a transient liquidation event that will face an opening-auction reversal once institutional participants flush the remaining shorts at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DAIC",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.16,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: DAIC is exhibiting a high-conviction breakout with over 15.9 million shares traded pre-market, representing a massive 5.79x increase over its baseline volume. The price action is holding firm at a 46% gap, confirming a robust buyer base rather than a speculative fading move. While no specific catalyst headline explains the sudden surge, the extreme volume signature and structure-based 'Gap and Go' signal indicate institutional accumulation following the after-market movement noted on August 25. The sustained pressure into the open suggests significant momentum carry-through for the initial trading session. BEAR: The 46% gap in DAIC lacks any fundamental news catalyst, as evidenced by the complete absence of material headlines in the provided news feed, confirming this move is purely speculative and devoid of a durable reason to sustain current levels. With 15.9 million shares traded pre-market, the tape has already experienced significant exhaustion, indicating that the move is likely already priced in by retail sentiment rather than institutional conviction. This represents a classic gap-fade setup where the pre-market volume has peaked without a news backstop, leaving the 9:30 opening auction as the primary exit liquidity for early speculators.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DY",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.81,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: DY is experiencing a massive volume spike of 574x the baseline, indicating that the market is aggressively repricing the stock ahead of the earnings report cited in the August 25 Benzinga headline. While the technical bias is currently bearish, the sheer magnitude of pre-market liquidity suggests that institutional sellers are being met by significant absorbing demand that will likely create a floor at these levels. A position here leverages the expected volatility surrounding the imminent earnings call, banking on an 'all news is priced in' reversal once the initial opening wash-out concludes. There is no specific news explaining the -5.34% gap other than general pre-earnings jitters, making this a play on volume-heavy institutional rebalancing. BEAR: The 5.34% gap down is currently lacking a definitive news catalyst, as the August 25th Benzinga report only notes that earnings are imminent without triggering a post-earnings dump, suggesting the move is a speculative pre-reaction to uncertainty. This lack of a concrete earnings print means the gap is vulnerable to an opening-auction reversal where real liquidity stabilizes the price above the pre-market lows. Furthermore, the 0.85 conviction bearish continuation signal indicates the move is already pricing in the worst-case scenario, leaving the stock exhausted and likely to serve as exit liquidity for early sellers at the bell. With no news to support this specific price action, the setup is a classic gap fade waiting to happen once the institutional volume washes out the thin-tape pre-market prints.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRML",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 6.56,
+      "stop_loss_pct": 4.2,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: The massive 45% gap down appears to be an irrational market overreaction to the 1-for-50 reverse stock split announced on August 20th, which traders are currently mispricing despite the fundamentally positive news regarding the Sarfartoq project's $2B valuation. While the price action is volatile, the 6.5x surge in pre-market volume indicates that institutional accumulation is occurring at these depressed levels to absorb the panic selling. Buying here allows for a significant mean reversion play as the market reconciles the reality of the strategic Neo Performance Materials offtake agreement against the technical selling pressure of the split. The extreme drop has created a deep value entry point for a bounce back toward the pre-split valuation levels. BEAR: GRML is exhibiting a textbook exhaustion structure following a 45% gap down that completely disregards the positive $2B NPV valuation news released yesterday. The price has stopped building, confirming that the market has already fully digested the implications of the 1-for-50 reverse stock split and the subsequent project valuation, leaving the current pre-market price as mere exit liquidity. With a volume signature only 6.5x baseline despite such a massive drop, the move lacks the necessary conviction to sustain momentum, making the opening auction a prime candidate for a reversal. Buying at the open here is essentially catching a falling knife that has already hit its floor.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INTU",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net -0.55 = bull 0.40 - bear 0.95 (buy at >= +0.20). BULL: The massive pre-market volume of over 500,000 shares following the Q4 2026 earnings release on 2026-08-25 indicates a significant clearing event that has likely exhausted the immediate sellers. While the structure is labeled as an exhaustion gap, the sheer magnitude of volume traded at these lower levels suggests institutional absorption of the sell-side liquidations rather than simple panic. Betting on a bounce here relies on the historical resilience of the stock following earnings volatility, as noted in the 2026-08-26 SeekingAlpha commentary regarding the plunge as a potential buying opportunity. I am betting that the market's initial overreaction to the Q4 results will be corrected as buyers step in to defend the $320 level. BEAR: INTU is suffering from an exhaustion structure confirmed by the 9.56% gap following its Q4 earnings transcript release, signaling the market has already finished processing the results. The 'SeekingAlpha' headline from today attempting to spin this as a buying opportunity is a classic attempt to provide retail exit liquidity to institutional sellers who drove this 41x volume surge overnight. With the exhaustion pattern identified in the candle structure and the lack of new catalysts beyond the stale earnings news, the open will likely serve as the high of the day for those attempting a dip-buy. This is a classic gap-fade setup where the price action has stalled, rendering the current pre-market level an illusion of support that will evaporate once real institutional liquidity hits the tape at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KSS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Kohl's is seeing massive, sustained volume at 307x the baseline ahead of Q2 earnings, which suggests institutional repositioning rather than retail panic. While the gap is down 7.52%, the sheer volume magnitude indicates the market is rapidly clearing supply in anticipation of the analyst expectations revamp noted on 2026-08-25. If the bid holds the $16.35 level at the open, it represents a deep-value entry point for a mean-reversion trade. There is no specific overnight headline triggering the drop, suggesting this is a technical flush driven by sector-wide sentiment from the Walmart print on 2026-08-20, leaving KSS oversold. BEAR: Kohl's is suffering from a classic exhaustion structure leading into its Q2 earnings release, rendering the current 7.52% pre-market gap an immediate liquidity trap. The recent news flow regarding Wall Street revamping expectations on August 25 suggests that the market has already factored in uncertainty, leaving this pre-market move as nothing more than an opening-auction reversal setup where the 9:30 liquidity will likely overwhelm the current thin-tape pricing. With the volume spike hitting 307x the baseline, the move has exhausted its directional momentum, and the lack of a fresh, concrete catalyst beyond pre-earnings speculation signals a high-probability gap fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PLAB",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: PLAB is exhibiting a massive volume signature at 104x its baseline, signaling genuine institutional accumulation rather than speculative noise. There are no recent headlines to explain this move, which suggests the gap is driven by a massive, non-public catalyst or significant structural adjustment that the market is currently pricing in with high conviction. The gap has maintained its strength throughout the pre-market session without fading, supporting the highly bullish reversal pattern identified in the candle structure. Because there is no specific news to anchor this move, the confidence reflects that this is a pure play on technical accumulation and liquidity. BEAR: The most glaring red flag is the complete absence of a news catalyst to justify a 17.77% gap, leaving this move entirely dependent on speculative momentum that typically dissolves at the opening bell. Because there are zero headlines in the last seven days to anchor this price action, the volume signature is purely speculative and vulnerable to an opening-auction reversal where real institutional liquidity will likely reject these inflated levels. Buying now creates a 'gap fade' scenario where the thin-tape pre-market pricing acts as a trap, providing exit liquidity for early momentum chasers who have nothing fundamental to support a move beyond the current pre-market high.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSNYW",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The 57% gap on over 5x average volume signals a massive institutional repricing event, supported by a bullish reversal structure that suggests significant underlying accumulation. While there is no specific headline or news catalyst provided, the depth and sustained nature of the pre-market volume indicate aggressive participation beyond mere retail speculation. The price action is holding firm at elevated levels, confirming that the move is grounded in real liquidity rather than a thin-tape fluke. Given the momentum, the setup favors a breakout continuation once the market opens and consolidates the initial volatility. BEAR: PSNYW is exhibiting a classic gap-fade failure mode, as the massive 57.10% move is unsupported by any substantive news; the August 25th ChartMill headline is a generic after-hours note that fails to provide a durable catalyst for this scale of appreciation. The pre-market volume of 2.3 million shares, while elevated, is being absorbed into a parabolic spike that lacks fundamental backing, suggesting the opening auction will serve as an immediate exit for opportunistic traders. Given the total absence of a primary news driver, this price action is purely speculative and highly susceptible to a reversal once real institutional liquidity enters the tape at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QFIN",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: QFIN is experiencing a massive liquidity event following today's 2026 Q2 earnings release, with pre-market volume surging to 35.97x its baseline average. While the immediate price action reflects a sharp gap down, the extreme volume indicates that institutional capitulation or clearing is occurring at these levels, providing a high-probability zone for a mean-reversion trade. The sheer scale of participation suggests that any selling exhaustion will lead to a rapid snap-back once the overhang from the earnings report is absorbed at the opening bell. This is a volatility-driven opportunity relying on the massive volume print to signal a tradable floor rather than a sustained structural decline. BEAR: The 13.88% gap lower is a reactive sell-off to the Q2 2026 Earnings Call Presentation released today, which failed to provide the necessary growth offsets to prevent a structural breakdown. This is a classic exhaustion structure where the heavy pre-market volume of 238,419 shares\u201436 times the normal average\u2014indicates that the primary selling pressure has already been front-loaded by institutional participants before the bell. With the candle agent identifying a bearish reversal pattern, the pre-market price of $9.93 acts as an anchor for a 'gap fade' failure, where the opening auction likely serves as exit liquidity rather than a bottoming event.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SMMT",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.2,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.15 = bull 0.95 - bear 0.80 (buy at >= +0.20). BULL: SMMT is exhibiting a textbook high-conviction breakout driven by multiple clinical trial catalysts, specifically the positive topline results from the HARMONi-GI1 study and publication in The Lancet Oncology reported on August 25. The pre-market volume of over 743k shares represents an extraordinary 40x surge over baseline, indicating massive institutional re-rating of the stock's value proposition. This is not a thin-volume fluke; the price action is sustained, suggesting the market is aggressively absorbing shares at higher levels in anticipation of continued upside. The structural gap-and-go pattern confirms heavy buying pressure, making this a prime candidate for a momentum follow-through at the open. BEAR: The +14.75% gap on the HARMONi-GI1 study results is already suffering from exhaustion as the stock price has stalled in the pre-market, suggesting the news is fully priced in. While the volume is elevated, this is a classic gap-fade setup where retail interest hits a wall of institutional profit-taking at the opening bell. Furthermore, the Bernstein analyst note actually set a price target of $11.90, significantly below current levels, indicating that the move is driven by hype rather than institutional valuation support. Buying into this liquidity vacuum at $15.33 invites an immediate opening-auction reversal as short-term traders exit into the first wave of real market volume.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SYRE",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.89,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net -0.65 = bull 0.30 - bear 0.95 (buy at >= +0.20). BULL: The 28x increase in relative volume on a 12.3% gap indicates an institutional-level repricing event rather than retail-driven panic. While the news headlines from 2026-08-25 are generic, the massive pre-market volume signature proves that significant capital is actively absorbing the sell-side liquidity at these lower levels. Buying into this exhaustion gap assumes that the overnight participants have over-discounted the stock and that the heavy volume will provide a floor for a technical mean-reversion move shortly after the market open. There is no specific news catalyst identified, making this a purely technical play based on volume-at-price support. BEAR: The 12.30% gap in SYRE is entirely devoid of a fundamental catalyst, as the recent Benzinga and ChartMill headlines are generic after-market recaps that fail to explain this magnitude of movement. This absence of news, paired with a clear exhaustion gap structure, confirms that the current pre-market price is merely a thin-tape vacuum rather than a shift in institutional valuation. Consequently, today\u2019s open is highly likely to serve as exit liquidity where the market corrects the initial overreaction, making the opening print the high of the day.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
