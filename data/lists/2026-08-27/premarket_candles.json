@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-27T08:48:26-04:00",
+  "session_date": "2026-08-27",
+  "reads": {
+    "BBY": {
+      "symbol": "BBY",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "BURL": {
+      "symbol": "BURL",
+      "pattern": "Bearish Breakdown",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "DG": {
+      "symbol": "DG",
+      "pattern": "gap-and-go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BBW": {
+      "symbol": "BBW",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "OKTA": {
+      "symbol": "OKTA",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "BRNX": {
+      "symbol": "BRNX",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DLTR": {
+      "symbol": "DLTR",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "WEN": {
+      "symbol": "WEN",
+      "pattern": "Gap Down Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "HPQ": {
+      "symbol": "HPQ",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "PUK": {
+      "symbol": "PUK",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "LTRX": {
+      "symbol": "LTRX",
+      "pattern": "Gap and Test",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "CRM": {
+      "symbol": "CRM",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

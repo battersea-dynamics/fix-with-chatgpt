@@ -1,0 +1,1301 @@
+{
+  "date": "2026-08-27",
+  "events": [
+    {
+      "at_et": "2026-08-27T08:46:12-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-27T08:51:45-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-27T09:31:15-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BURL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HPQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LTRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T10:23:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1016.json",
+        "shortlist": [
+          "BRNX",
+          "DAIC",
+          "PSNYW",
+          "BBW",
+          "OKTA",
+          "CRM",
+          "KXIN",
+          "USDE",
+          "ZSTK",
+          "CRE",
+          "VEEV",
+          "GRML",
+          "PURR",
+          "CRWD",
+          "PMI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T10:51:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1046.json",
+        "shortlist": [
+          "BRNX",
+          "DAIC",
+          "PSNYW",
+          "BBW",
+          "USDE",
+          "KXIN",
+          "CRM",
+          "OKTA",
+          "PURR",
+          "DFDV",
+          "CRE",
+          "FWDI",
+          "ASST",
+          "ZSTK",
+          "VEEV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T11:22:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1116.json",
+        "shortlist": [
+          "BRNX",
+          "DAIC",
+          "BBW",
+          "USDE",
+          "PSNYW",
+          "KXIN",
+          "OKTA",
+          "CRM",
+          "DFDV",
+          "PURR",
+          "CRE",
+          "ASST",
+          "FWDI",
+          "XPON",
+          "HQY"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XPON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T11:52:54-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1146.json",
+        "shortlist": [
+          "BRNX",
+          "SMJF",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "PSNYW",
+          "KXIN",
+          "OKTA",
+          "CRM",
+          "DFDV",
+          "PURR",
+          "GRML",
+          "FWDI",
+          "HRL",
+          "CRE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T12:20:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1216.json",
+        "shortlist": [
+          "BRNX",
+          "SMJF",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "KXIN",
+          "OKTA",
+          "PSNYW",
+          "CRM",
+          "DFDV",
+          "PURR",
+          "GRML",
+          "FWDI",
+          "HRL",
+          "CRE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T12:51:28-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1246.json",
+        "shortlist": [
+          "BRNX",
+          "SMJF",
+          "KXIN",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "OKTA",
+          "PSNYW",
+          "CRM",
+          "DFDV",
+          "PURR",
+          "HQY",
+          "FWDI",
+          "HRL",
+          "GRML"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T13:21:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1316.json",
+        "shortlist": [
+          "SMJF",
+          "KXIN",
+          "BRNX",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "OKTA",
+          "PSNYW",
+          "CRM",
+          "DFDV",
+          "PURR",
+          "HQY",
+          "HRL",
+          "GRML",
+          "FWDI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T13:51:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1346.json",
+        "shortlist": [
+          "SMJF",
+          "KXIN",
+          "BRNX",
+          "DAIC",
+          "BBW",
+          "USDE",
+          "OKTA",
+          "CRM",
+          "PSNYW",
+          "DFDV",
+          "HQY",
+          "PURR",
+          "HRL",
+          "HYPD",
+          "GRML"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRM",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRM",
+              "qty": 1,
+              "est_cost": 252.55,
+              "entry_ref": 252.55,
+              "take_profit": 261.54,
+              "remaining_take_profit_pct": 3.56,
+              "stop_loss": 247.42,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260827-135103-CRM",
+              "analysis_price": 252.18,
+              "live_price_change_pct": 0.15
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T14:21:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1416.json",
+        "shortlist": [
+          "SMJF",
+          "KXIN",
+          "BRNX",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "OKTA",
+          "PSNYW",
+          "CRM",
+          "DFDV",
+          "HQY",
+          "PURR",
+          "HRL",
+          "HYPD",
+          "BURL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BURL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T14:51:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1446.json",
+        "shortlist": [
+          "SMJF",
+          "KXIN",
+          "BRNX",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "OKTA",
+          "CRM",
+          "PSNYW",
+          "DFDV",
+          "HQY",
+          "HRL",
+          "PURR",
+          "BURL",
+          "JAZZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRM",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRM",
+              "qty": 1,
+              "est_cost": 252.55,
+              "entry_ref": 252.55,
+              "take_profit": 259.58,
+              "remaining_take_profit_pct": 2.78,
+              "stop_loss": 247.42,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260827-145101-CRM",
+              "analysis_price": 251.09,
+              "live_price_change_pct": 0.58
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BURL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAZZ",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T15:22:12-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1516.json",
+        "shortlist": [
+          "SMJF",
+          "KXIN",
+          "BRNX",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "OKTA",
+          "CRM",
+          "PSNYW",
+          "DFDV",
+          "PURR",
+          "HQY",
+          "HRL",
+          "BURL",
+          "GRML"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BURL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T15:51:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-27/shortlist_1546.json",
+        "shortlist": [
+          "SMJF",
+          "KXIN",
+          "BRNX",
+          "BBW",
+          "DAIC",
+          "USDE",
+          "OKTA",
+          "CRM",
+          "PSNYW",
+          "DFDV",
+          "HRL",
+          "HQY",
+          "PURR",
+          "BURL",
+          "GRML"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRM",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRM",
+              "qty": 1,
+              "est_cost": 252.89,
+              "entry_ref": 252.89,
+              "take_profit": 267.41,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 246.06,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260827-155101-CRM",
+              "analysis_price": 254.17,
+              "live_price_change_pct": -0.5
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SMJF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KXIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HRL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HQY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BURL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-27T15:51:01-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

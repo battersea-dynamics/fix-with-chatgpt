@@ -1,0 +1,245 @@
+{
+  "generated_at": "2026-08-27T15:51:01-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "SMJF",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: SMJF exhibits powerful intraday momentum, evidenced by a 34.48% recovery since its first observation and a 6.46x surge in relative volume. The stock has demonstrated persistence across 9 consecutive observations, maintaining a tight drawdown of only 0.72% from its observed high of $1.49. While the catalyst report is empty, the extreme price acceleration of 4.94 percentage points confirms aggressive buying interest during the current session. This trade relies strictly on the strong tape dynamics despite the lack of news. BEAR: The stock is currently experiencing a massive intraday move of -86.94%, and while the tape shows a late-session bounce, it is occurring in a vacuum with zero company news or catalysts to explain the volatility. The 6.46x relative volume is fading, evidenced by a negative rel_volume_rate_change of -0.092, signaling that the engine of this move is cooling off. With the stock price down 83.73% from its 20-day MA, buying now is essentially chasing a high-risk dead cat bounce with no fundamental anchor, making this an 'exit liquidity' trap for late-coming retail traders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KXIN",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: KXIN presents a classic extreme mean-reversion opportunity following a massive single-session drawdown of 72.99%, accompanied by extraordinary volume at 8.50x the 20-day average. While there are no specific fundamental catalysts explaining the move, the intraday tape shows resilience with 12 consecutive observations and recent price acceleration of 22.0951% points. Trading at a 73.27% discount to its 20-day MA, the stock is showing technical exhaustion that historically precedes sharp snap-back rallies in high-relative-volume environments. The sheer scale of the liquidity being processed suggests institutional or high-frequency capitulation that creates a high-conviction window for a short-term bounce. BEAR: KXIN presents a clear 'chasing' failure mode, as the stock has experienced a catastrophic 72.99% decline today with a 67.38% drawdown from its observed high. The deterioration is confirmed by a relative volume rate that has slowed significantly by 47.63% over the session, indicating that the selling pressure has overwhelmed any potential interest. With no catalyst provided to explain this magnitude of movement, buying represents catching a falling knife during an exhausted session where momentum is negative and volume participation is waning.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BRNX",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.89,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: BRNX is experiencing an extreme liquidation event characterized by a 12.29x relative volume spike, which indicates aggressive institutional rotation or capitulation rather than a fundamental change in business prospects. While the stock has seen a significant intraday drawdown from its observed high of 8.41, the massive volume confirms that interest remains intense as the stock adjusts to the recent market-wide coverage of industrial movers. Entering at $3.84 provides a technical entry point for a mean-reversion trade, as the stock remains 18.67% above its 20-day moving average despite today's volatile price action. There is no specific negative news in the catalyst report to justify this sell-off, suggesting this is a technical exhaustion event ripe for a bounce. BEAR: BRNX is currently failing due to clear exhaustion, with a 54.34% drawdown from the observed high of $8.41 and a negative price acceleration of -3.6198 points. The stock is suffering from massive distribution, as evidenced by a -49.44% return since it was first seen and a volume rate that is actively declining (-0.0161). Despite being listed in news as a 'moving' stock today, the lack of a specific fundamental catalyst suggests this price action is purely mechanical panic selling rather than a rebound opportunity. Buying here is effectively catching a falling knife during a session where the momentum has consistently deteriorated over 330 minutes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBW",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.46,
+      "stop_loss_pct": 3.15,
+      "reasoning": "net -0.55 = bull 0.40 - bear 0.95 (buy at >= +0.20). BULL: BBW is currently experiencing extreme volume capitulation, trading at 11.95x its 20-day relative volume, which often signals an exhaustion point following its Q2 2026 earnings release today. Despite the sharp 27.62% decline, the stock has maintained 12 consecutive observations of high activity, indicating massive institutional liquidity flow that frequently precedes a technical mean reversion for oversold equities. With the earnings call transcript now live, investors have the clarity needed to reassess the stock's valuation, providing a catalyst for a rebound from current extreme negative variance levels. BEAR: BBW is suffering from a massive post-earnings sell-off, down 27.62% following today's Q2 earnings call transcript, which signals a fundamental negative reaction that makes a 'buy the dip' strategy exceptionally dangerous. The tape shows clear evidence of chasing risk, with a 6.81% drawdown from the observed high and negative price acceleration of -1.66% per observation interval, indicating that sellers remain in firm control. With 11.95x relative volume, the selling pressure is broad and liquid, leaving no room for a quick recovery as the stock drifts 23.52% below its 20-day moving average. Buying into such a sharp, news-driven collapse in a retail name risks catching a falling knife during an ongoing capitulation event.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DAIC",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.15 = bull 0.55 - bear 0.70 (buy at >= +0.20). BULL: DAIC is showing remarkable intraday strength, having maintained a 13.4476% gain since it was first flagged 330 minutes ago. The stock is currently sitting at its observed high of $5.67 with zero drawdown, and its persistence is confirmed by 12 consecutive positive observations, indicating strong buyer interest. While the catalyst report lacks specific news to explain the move, the price action is supported by consistent, positive interval performance. The current +427.57% distance from the 20-day moving average highlights significant momentum, favoring a short-term continuation play. BEAR: DAIC is currently trading at a staggering 427.57% above its 20-day moving average, signaling an extreme technical extension that lacks fundamental support, as no specific company news exists to justify the move. The relative volume of 0.93x confirms that the +10.10% gain is occurring on lackluster participation, suggesting a lack of institutional conviction. Furthermore, price acceleration has turned negative at -2.1276 percentage points, indicating that the momentum is waning despite the stock sitting at its observed high. Buying at these levels represents an entry into classic exit liquidity, with no catalyst to prevent a sharp mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: USDE is demonstrating significant momentum with a 31.25% intraday gain on high volume, currently trading at 3.11x its normal relative volume. The stock has shown strong persistent participation, appearing in 12 consecutive observations over 330 minutes with a sustained 15.08% return since its first appearance. While there is no specific fundamental catalyst beyond the August 27th headline acknowledging its status as a top mover in the information technology sector, the high relative volume and consistent trading range suggest robust institutional interest. The current drawdown from its intraday high of 8.25 is modest at only 4.86%, indicating the stock is consolidating within a strong uptrend rather than undergoing a true reversal. BEAR: USDE is currently exhibiting clear signs of exhaustion, with a 4.86% drawdown from its observed session high and a negative price acceleration of -3.3453 percentage points. The stock is extended 142.18% above its 20-day moving average, and despite being highlighted in a same-session news headline, the lack of specific fundamental news suggests the move is purely speculative and prone to rapid reversal. Current participation is struggling, as evidenced by a meager relative volume rate of 0.091 per 30-minute interval, indicating that the buyers who pushed the stock up 31.25% are no longer providing sufficient support to hold those gains.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OKTA",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: OKTA is exhibiting extraordinary momentum today, finishing the session at its observed high with 5.14x relative volume, indicating aggressive institutional accumulation. This move is fundamentally supported by multiple analyst upgrades on 2026-08-27, specifically JP Morgan lifting its price target to $190 and Raymond James to $185, signaling significant upside potential. The tape confirms this strength with 12 consecutive positive observations, a return of 5.23% since first being detected, and price acceleration of 1.09 percentage points, confirming persistent buying pressure into the close. The stock's ability to maintain its high with zero drawdown provides a high-conviction setup for immediate follow-through. BEAR: Buying OKTA at this moment constitutes chasing a 29.42% daily surge that has already attracted multiple analyst price target increases, fully pricing in the positive sentiment. With the stock trading 21.86% above its 20-day moving average on extreme relative volume of 5.14x, the trade is stretched and vulnerable to immediate profit-taking from early-session participants. Although the momentum score has improved slightly, the reliance on today's analyst headlines as the primary driver leaves the position without a fresh catalyst to support further gains, making the current peak an obvious exit liquidity point.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRM",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: CRM is showing exceptional momentum, closing at its daily high of $254.17 with massive volume at 4.20x its 20-day average, signaling strong institutional participation. The tape confirms persistent strength with 12 consecutive observations of positive price development, no drawdown from the observed high, and a notable price acceleration of 0.8062 percentage points. While the catalyst report lacks specific fundamental news behind this +23.61% move, the price action across the session confirms the move is being actively bought by the market rather than fading. This sustained momentum makes it a compelling play for further tactical upside. BEAR: CRM is currently trading 29.41% above its 20-day moving average, leaving it highly vulnerable to a mechanical mean-reversion pull back after a massive 23.61% single-day gain. The absence of any fundamental earnings or dividend news in the catalyst report suggests this move is purely technical and sentiment-driven, making the current high-volume entry precarious for any short-term holder. Furthermore, while the price has hit a session high of 254.17, the relative volume rate is only 0.2599, indicating that market participation is failing to sustain the initial momentum of the day's early hours.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSNYW",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: PSNYW is showing significant technical momentum with a 15.98% gain and a 2.31x relative volume increase, signaling strong institutional interest today. The stock has demonstrated persistent participation over 12 consecutive observations spanning 330 minutes, maintaining a positive return of 2.9686% since it was first flagged. While the catalyst report contains no specific news drivers, the tape-only evidence remains robust with a minimal drawdown of only 0.954% from the observed high of $6.30, suggesting buyers are absorbing supply efficiently. This consolidation at high relative volume levels supports further upside potential in the immediate sessions. BEAR: PSNYW is currently trading at a massive 120.02% premium to its 20-day moving average, signaling an extreme technical extension that leaves it highly susceptible to a sharp mean-reversion. The lack of any substantive company-specific catalyst in the news report suggests that the 15.98% price spike is driven purely by momentum rather than fundamental value. Furthermore, the tape shows clear signs of exhaustion, with a negative price acceleration of -0.2426% and a drawdown from the observed high of -0.954%, indicating that buyers are losing their appetite as the session progresses.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DFDV",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: DFDV is demonstrating significant momentum with a 17.33% daily gain and strong relative volume of 3.03x, suggesting institutional interest in the underlying crypto-sector narrative. While the catalyst report lacks specific fresh news for today, the stock is currently trading 64.32% above its 20-day MA, reflecting a powerful breakout phase that has been sustained over 11 consecutive observations throughout the trading session. Despite a minor intraday pullback of 2.76% from the observed high of $5.43, the stock remains well-positioned to leverage the positive sentiment surrounding crypto-linked equities. Investors can look for a continuation of this high-volume move as the price stabilizes near current levels. BEAR: DFDV is showing clear evidence of exhaustion, with a price acceleration of -2.05% and a worsening volume pace that suggests the 17.33% intraday gain has peaked. The stock is significantly extended, trading 64.32% above its 20-day moving average without any fresh, justifying news catalyst in the provided record to support such a move. Current momentum is actively deteriorating with a 2.76% drawdown from the session high, indicating that buying here serves as exit liquidity for earlier entrants. There is no positive fundamental development in the last seven days to prevent a mean reversion toward the significantly lower moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HRL",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.19,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: Hormel Foods is experiencing a massive liquidity event with relative volume at 3.81x, reflecting extreme market digestion of today's Q3 2026 earnings report. While the stock has seen a sharp 10% decline, the technical tape shows nascent signs of stabilization, with rank improvement of 2 positions and a positive score change of 1.3633 over recent observations. Buying at these levels, significantly oversold at 13.13% below the 20-day moving average, provides a tactical opportunity for mean reversion as intraday participants digest the earnings transcript. The current volume intensity suggests a potential exhaustion of selling pressure, favoring a quick entry to capture the reflexive bounce. BEAR: HRL is currently suffering from a severe negative reaction to its Q3 2026 earnings release, which occurred today, resulting in a 10.06% drawdown and a price sitting 13.13% below its 20-day moving average. The momentum data confirms ongoing weakness, as the stock has exhibited a return of -1.34% from its observed session high, alongside a negative price acceleration of -2.4172 percentage points. Entering the trade now constitutes 'chasing' a falling knife, as the relative volume rate per 30-minute interval remains low at 0.4475, suggesting that the initial capitulation is not being met with sufficient support to prevent further technical decay.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HQY",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: HealthEquity, Inc. beat Q2 2027 estimates with an adjusted EPS of $1.24 against the $1.19 forecast and revenues of $350.732M, providing a fundamental catalyst for a relief rally. Despite an initial sell-off, the stock has demonstrated significant intraday resilience, showing a 4.32% gain from its first observed point at 11:16 ET and a 2.26% return since the previous interval. Momentum is supported by high participation, evidenced by a relative volume of 3.84x and a positive price acceleration of 1.099 points, indicating strong buying interest as the stock tests its intraday highs at $93.75. BEAR: HQY is undergoing a sharp -10.22% decline on the day despite reporting Q2 earnings that technically beat analyst estimates for both EPS and revenue. The stock's 3.84x relative volume confirms intense selling pressure, and while the tape shows a modest recent recovery, the shares remain a significant -10.09% below their 20-day moving average. This setup represents a classic 'sell the news' reaction where the market has rejected the earnings results, making any attempt to catch the current rebound high-risk as the stock struggles to find support after a major sentiment shift.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PURR",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 4.69,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: PURR is experiencing significant market interest today, evidenced by a 2.33x relative volume increase and a 13.11% gain, supported by its inclusion in a Benzinga report highlighting strong intraday movement. Although the stock has pulled back from its daily high, the persistent volume participation and market recognition\u2014evidenced by the analyst commentary noting its outperformance\u2014suggest that traders are actively rotating into this momentum leader. With earnings released this morning, the market is actively digesting the data, providing a fundamental anchor for the current elevated price levels. Given the high relative volume and continued trading interest, the stock remains in a strong position to reclaim its recent highs as participants capitalize on the post-earnings volatility. BEAR: PURR is a clear case of chasing, evidenced by a 65.41% extension from its 20-day moving average combined with a 7.17% drawdown from its observed high. Momentum has demonstrably deteriorated over the session, marked by a negative price acceleration of -1.868% and a recent 2.53% decline since the previous observation. With the stock already having reported earnings this morning and receiving no news-driven catalyst to justify its current price levels, the recent rank decay suggests that investors are transitioning from accumulation to exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BURL",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: BURL is exhibiting a classic post-earnings capitulation setup, with today's 7.77% drop on 3.58x relative volume signaling a potential exhaustion of sellers following its Q2 2026 earnings release. While the price action remains volatile, the increased relative volume rate of 0.2892 per 30 minutes indicates significant institutional liquidity is already absorbing the selling pressure. With the stock now trading 17.31% below its 20-day moving average, the current valuation provides a highly attractive entry point for a mean-reversion trade. Investors can look to the Q2 earnings call transparency to clarify any overblown market reaction, positioning for a rebound as the market digest the transcript details released today. BEAR: BURL is exhibiting clear technical exhaustion following a 7.77% intraday collapse, leaving the stock 17.31% below its 20-day moving average. The momentum data confirms a 'chasing' failure mode, as the stock has recorded four consecutive intervals of negative performance with zero positive intervals observed. Furthermore, the Q2 2026 earnings release today has already been fully digested by the market, evidenced by the high relative volume of 3.58x and a steady, persistent drawdown of 1.72% from the intraday observed high. Entering now means catching a falling knife that has shown no stabilization or attempt to retest its highs over the last 90 minutes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRML",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: GRML is exhibiting strong momentum today, evidenced by a 3.56x increase in relative volume and a 14.74% gain since it first appeared on the radar. With two consecutive positive scanner observations and a current price of $5.37, the stock shows resilience despite being significantly discounted from its 20-day moving average, suggesting significant room for a mean reversion rally. While the catalyst report contains no company-specific news, the high relative volume and sustained intraday gains confirm strong institutional participation supporting this price action. The current drawdown of only 0.56% from the intraday high indicates firm buyer demand at current levels. BEAR: GRML is exhibiting a clear case of chasing after a 14.74% gain since its first observation, now suffering from measurable tape deterioration as the current price sits at a drawdown from the observed high. The lack of any company-specific catalysts in the news report suggests this volume-heavy move is driven by momentum rather than fundamental value, leaving it vulnerable to a rapid mean reversion given the stock is still 43.50% below its 20-day moving average. With relative volume rate stalling and the stock failing to improve its rank despite the 3.56x volume surge, entering now leaves the buyer as potential exit liquidity for those who entered in the early morning session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "SMJF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KXIN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BRNX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BBW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DAIC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OKTA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRM",
+      "action": "dry_run",
+      "order": {
+        "symbol": "CRM",
+        "qty": 1,
+        "est_cost": 252.89,
+        "entry_ref": 252.89,
+        "take_profit": 267.41,
+        "remaining_take_profit_pct": 5.74,
+        "stop_loss": 246.06,
+        "confidence": 0.6,
+        "client_order_id": "ta-20260827-155101-CRM",
+        "analysis_price": 254.17,
+        "live_price_change_pct": -0.5
+      }
+    },
+    {
+      "symbol": "PSNYW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DFDV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HRL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HQY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PURR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BURL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GRML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
