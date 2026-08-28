@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-08-28T10:51:15-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "VISN",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: VISN is exhibiting powerful momentum with a 72.09% gain, supported by a recent $150M buyback authorization announced on 2026-08-26 that provides a fundamental floor for the stock. The technical strength is underscored by the price holding at its daily high of $6.50 with zero drawdown, and the stock is maintaining its top rank in my observation window. While today's relative volume is currently 0.60x, the stock is clearly in a breakout phase following positive market sentiment regarding its post-divestiture valuation. Investors can capitalize on this strong relative price performance as the market digests the structural improvements to the company's balance sheet. BEAR: VISN is currently trading at a 75.15% premium to its 20-day moving average, a level of extension that significantly increases the probability of a sharp mean reversion. The primary catalyst for the move, a $150M buyback announcement, occurred on 2026-08-26, meaning the market is now chasing a two-day-old headline while volume remains anemic at only 0.60x of the 20-day average. Furthermore, the stock is trading ex-dividend today, which introduces a mechanical price drag and creates an immediate hurdle for any momentum-based entry. Buying at these extremes without confirming volume participation creates significant exit liquidity risk for any new position.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DAIC",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.75 = bull 0.10 - bear 0.85 (buy at >= +0.20). BULL: DAIC is currently experiencing a significant technical retracement, trading at a 271.07% premium to its 20-day moving average, suggesting that the long-term trend remains structurally elevated despite the day's sharp pull-back. While the catalyst report contains no news explaining the current 14.41% decline, the stock is being flagged by automated scanners as a notable mover in the technology sector, indicating that active participants are monitoring its volatility. There is no positive momentum to support a bottoming trade, as relative volume is extremely thin at 0.07x and the price has consistently drawn down from its observed high of 5.135. Consequently, there is no specific evidence to support a bullish entry at this time, making this a high-risk scenario. BEAR: DAIC is suffering from severe volume exhaustion, with current relative volume at an abysmal 0.07x normal, indicating that the -14.41% price drop is occurring in a vacuum without institutional support. Despite the stock trading 271.07% above its 20-day MA, there is a total absence of a fundamental catalyst in the news report to justify or support the price action, suggesting the move is purely technical and lacks a bottom. The momentum data confirms this deterioration, as the stock has already logged a 3.99% drawdown from its observed high within just 30 minutes of monitoring, and the rank has failed to improve. Buying now is attempting to catch a falling knife in a name where participation has completely dried up.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SOLS",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.95,
+      "stop_loss_pct": 2.8,
+      "reasoning": "net +0.15 = bull 0.75 - bear 0.60 (buy at >= +0.20). BULL: SOLS is exhibiting powerful momentum driven by a major catalyst, specifically the board's authorization of a $500 million share repurchase program and the affirmation of Q3 and FY 2026 guidance announced on 2026-08-27. The stock is seeing significant institutional interest with relative volume at 2.95x normal, indicating strong conviction behind its 15.74% daily gain. While the price has retreated slightly from its intraday high of $65.74, its rank improvement from 5th to 3rd in our observations confirms that the stock remains a top performer in the current session. This fundamental support combined with high liquidity makes it a compelling candidate for momentum continuation. BEAR: SOLS is exhibiting clear signs of chasing risk, with the stock trading 9.11% above its 20-day MA following a 15.74% jump that appears to be absorbing the news of the terminated merger and share repurchase program from yesterday. Although the stock is up for the day, momentum has already deteriorated; the price has drawn down 0.81% from its observed high within just 30 minutes of monitoring. With a relative volume rate per 30 minutes of only 0.6389, participation is failing to sustain the initial morning surge, suggesting that the initial reaction to the catalyst is already losing steam. Investors entering at these levels are essentially providing exit liquidity for those who bought the news on the previous day.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "AFRM",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.84,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: AFRM is exhibiting powerful momentum following its Q4 2026 earnings release, supported by significant volume at 3.35x its 20-day average. The stock is benefiting from clear institutional interest following its expansion with Shopify into Australia, as noted in the August 27th headline. The recent SeekingAlpha commentary on August 28th highlighting that investors should 'own the real story' despite headline volatility provides a strong fundamental narrative to justify holding through current intraday fluctuations. With the stock price 9.24% above its 20-day moving average, the current pullback of only 1.94% from the day's high of $84.90 remains well within the bounds of healthy consolidation after an explosive 7.43% daily gain. BEAR: AFRM is exhibiting clear signs of chasing exhaustion, with the stock trading 9.24% above its 20-day moving average on 3.35x relative volume, suggesting the bulk of the buying momentum from the Q4 earnings cycle is already priced in. Intraday tape data confirms this fatigue, as the stock has already suffered a 1.94% drawdown from its session high within the last 30 minutes, failing to improve its rank despite the high-volume interest. With multiple headlines hitting today regarding the 'real story' behind earnings and the Shopify partnership expansion, the initial news-driven pop has likely hit its liquidity ceiling. Entering now ignores that the primary catalysts are already public, forcing the buyer to absorb the exit liquidity of early-session participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BRNX",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.25 = bull 0.40 - bear 0.65 (buy at >= +0.20). BULL: BRNX is displaying strong buying interest today, evidenced by massive relative volume at 3.14x its 20-day norm despite a session price dip. The stock is holding its 20-day moving average comfortably, trading 9.61% above that level, and recently showed a 6.85% recovery from its first observed point at 10:17 ET. While the catalyst report lacks specific news to explain this volatility, the intense volume and rapid price recovery suggest a significant institutional accumulation event. With no drawdown from the observed high of $3.59, the tape reveals a stock currently finding a firm floor for a potential move higher. BEAR: BRNX is currently failing to maintain momentum, evidenced by a rank deterioration from 3 to 5 and a score decline of 4.17 points in just 30 minutes. Despite a significant relative volume of 3.14x, the stock is trading down 6.99% on the day, suggesting that the elevated activity is characterized by aggressive selling rather than accumulation. Furthermore, there is a total absence of company-specific catalysts in the news report, leaving the move without a fundamental anchor while the price remains 9.61% extended from its 20-day moving average, creating a high probability of further mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FINV",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: FINV is currently presenting an aggressive mean-reversion opportunity following a 14.68% decline that has pushed the stock 24.42% away from its 20-day moving average. While the price action is volatile, the stock is seeing significant interest with relative volume at 2.45x, and despite the session drawdown, it has shown a rank improvement of 2 spots in our momentum observations. The company\u2019s fundamental backdrop remains stable, supported by its Q2 2026 earnings call today and yesterday's confirmation of FY2026 sales guidance of $1.644B-$1.845B, suggesting the current sell-off may be overextended relative to the firm's outlook. This creates a compelling entry for a snap-back trade as traders digest the latest earnings transcripts. BEAR: FINV is suffering from a massive -14.68% drawdown and is trading 24.42% below its 20-day MA, signaling a fundamental break in trend rather than a tradable dip. The Q2 2026 earnings call held today provides no immediate recovery catalyst, and the stock is showing clear signs of exhaustion as it continues to print negative returns since being identified on the shortlist. With 2.45x relative volume, the selling pressure is broad-based and persistent, suggesting that institutional liquidation is currently outpacing any speculative bargain hunting.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ESTC",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: ESTC is surging on significant fundamental validation following its Q1 2027 earnings call, supported by a SeekingAlpha report confirming that revenue is accelerating rather than facing a 'SaaSpocalypse.' The stock is showing massive institutional interest with a 1.82x relative volume and a 17.85% jump, signaling a strong trend reversal that has left it 25.15% above its 20-day MA. While the momentum snapshot shows a minor 0.68% pullback from the intraday high, this is healthy consolidation after a major breakout, and the active news cycle provides a structural basis for further upside. BEAR: ESTC is experiencing significant exhaustion, with the price retreating 0.68% from the observed session high of $99.37 within just 30 minutes of being tracked. The 25.15% extension from the 20-day moving average, combined with a massive 17.85% single-day jump, suggests that the market has already fully priced in the Q1 2027 earnings results released yesterday. Buying now constitutes chasing a move that has lost its positive momentum, especially as the stock fails to improve its rank or score while struggling to sustain its breakout levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XPON",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: XPON is showing significant momentum, trading 107.67% above its 20-day moving average with a robust 12.67% gain on the day. While there is no specific catalyst in the recent news flow to explain the move, the stock remains a center of attention in the Industrials sector as noted by recent coverage on 08-26 and 08-27. The current pullback from the 9.46 observed high provides a potential entry point for traders betting on the stock's ability to maintain its elevated status relative to its recent trading range. This is a momentum play reliant on the stock's strong technical positioning. BEAR: XPON presents a textbook case of chasing an exhausted move, as the stock is trading 107.67% above its 20-day moving average without any fresh catalysts in the news report to justify the extension. The tape shows immediate deterioration with a 5.08% drawdown from the session high and a rank decline from 6 to 8 within a 30-minute window, confirming the lack of follow-through buying. With relative volume at only 0.91x normal, the price action is clearly disconnected from sustained institutional participation, making this a high-probability mean-reversion candidate.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GAP",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: GAP is exhibiting immense strength, surging 13.83% on high relative volume of 1.96x, which indicates robust institutional interest following the post-earnings period. The catalyst for this move is supported by a specific analyst upgrade today, August 28, highlighting the company's 'Renewed Focus On Old Navy' as a primary driver for upside. While price has consolidated slightly from its intraday highs, the stock's 15.80% distance above its 20-day moving average confirms a powerful trend breakout that remains in play. With this clear fundamental backing and strong volume participation, the current consolidation offers a tactical entry to participate in further momentum. BEAR: Gap is showing classic exhaustion characteristics following a massive 13.83% daily move, with the stock trading 15.80% above its 20-day moving average. The momentum evidence confirms this exhaustion, as the stock has already initiated a 0.96% drawdown from its observed high within the most recent 30-minute interval. Furthermore, the upside momentum appears fueled by an upgrade headline from today that is now fully absorbed, leaving the stock vulnerable as it fails to hold its highs. With no further catalysts on the horizon, the lack of follow-through buying pace suggests this is likely exit liquidity for traders who caught the morning spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LPTH",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.40 = bull 0.25 - bear 0.65 (buy at >= +0.20). BULL: LPTH is experiencing an aggressive intraday washout, trading at 1.62x its normal volume which indicates significant liquidity and active institutional participation during this 19.29% decline. While there are no specific headlines in the catalyst report to explain the move, the stock has shown a slight improvement in its relative ranking from 11 to 10 over the last 30 minutes, suggesting initial signs of stabilization. The sharp distance from the 20-day moving average of -15.19% sets up a classic mean-reversion trade for a quick bounce as the selling momentum faces exhaustion. This is a purely technical play on high-volume volatility, as no fundamental catalyst is currently present to justify the price action. BEAR: LPTH is currently experiencing a severe technical breakdown, marked by a 19.29% daily decline and a 15.19% deviation below its 20-day moving average. The lack of any identifiable catalyst in the news report suggests this liquidation is driven by internal selling pressure or institutional repositioning, which often carries follow-through momentum. With the stock failing to hold its observed high of $11.21 and printing negative returns in the most recent monitoring interval, buying now constitutes an attempt to catch a falling knife in a vacuum of fundamental information. This is a classic 'no catalyst' setup where the tape deterioration, confirmed by the -0.71% drawdown from the session high, points toward further downside rather than an immediate reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TNON",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.6,
+      "stop_loss_pct": 3.15,
+      "reasoning": "net -0.20 = bull 0.40 - bear 0.60 (buy at >= +0.20). BULL: TNON is showing strong momentum with a 5.98% gain and 2.18x relative volume, signaling significant interest following the news that the company regained Nasdaq compliance on 2026-08-24. The price is currently trading at its session high of $5.32, indicating buyers are in control and sustaining the upward move. While the stock remains below its 20-day moving average, this current breakout attempt on elevated volume suggests a potential trend reversal supported by the resolution of delisting concerns. BEAR: TNON is currently suffering from a lack of fresh catalyst, as the 'Nasdaq Compliance' headline occurred four days ago and is likely already priced into the stock. While the stock is seeing relative volume of 2.18x, the momentum is already showing clear signs of deterioration with a rank drop from 9th to 11th and a score decline of 1.81 points over a single 30-minute window. Furthermore, the stock remains significantly extended, trading 14.35% below its 20-day moving average, suggesting this rally is likely a weak mean-reversion attempt in a downtrend rather than a sustainable breakout. Buying here exposes the trader to potential exit liquidity as the initial buying surge fades without new news to support price discovery.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BEKE",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 3.75,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net +0.10 = bull 0.60 - bear 0.50 (buy at >= +0.20). BULL: BEKE is seeing robust institutional interest today with relative volume at 2.37x its 20-day average, signaling strong conviction as the stock climbs 4.40%. This price action is supported by the recent Q2 2026 earnings beat on August 21st, where the company reported an adjusted EPS of $0.42 against a $0.28 estimate. The market is clearly digesting this positive performance, as evidenced by a recent analyst upgrade on August 24th citing full-year improvement potential. While the intraday drawdown is minimal at -0.2963% from the session high, the heavy volume suggests the stock has the momentum to retest and break past those morning levels. BEAR: BEKE is currently chasing a move that has already lost its momentum, as evidenced by the 0.2963% drawdown from the day's high observed in the most recent 30-minute interval. The 4.40% gain appears to be a residual response to the Q2 earnings release from seven days ago, leaving no fresh catalyst to sustain the 2.37x relative volume in the current session. With price already 7.18% above its 20-day moving average and failing to improve its market rank over the last 30 minutes, current buyers are essentially providing exit liquidity for those reacting to the headlines from August 21st and 24th.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PYPL",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: PYPL is experiencing an extreme capitulation event, down 11.81% today on 1.81x relative volume, which often sets the stage for a mean-reversion trade. The stock is significantly extended from its 20-day moving average, creating a logical snap-back opportunity for short-term traders. While there is no specific positive news catalyst to explain the move, the elevated volume indicates high liquidity and active institutional participation, making the current $54.21 level a compelling entry for a quick technical rebound. BEAR: PYPL is currently showing clear signs of exhaustion with a -11.81% drop today, accompanied by a 1.81x relative volume spike that signals active institutional dumping rather than accumulation. The stock is already trading nearly 10% below its 20-day moving average, and the 30-minute interval data confirms a consistent drawdown from its observed high with a score decline of -0.0647, indicating no meaningful support is forming to arrest the slide. With no positive catalyst in the news report to justify a reversal and a dividend ex-date approaching on 2026-09-04, the current price action lacks any structural safety for a long entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: USDE is demonstrating strong intraday momentum with a 5.13% gain recorded over the last 30 minutes, showing effective price acceleration and ranking improvement. While the catalyst report lacks a specific, imminent news event, the stock is currently trading 130% above its 20-day moving average, signaling an established and aggressive bullish trend. The combination of limited drawdown from the observed high and positive price movement confirms the stock's current strength as it captures investor interest within the broader technology sector. This move is supported purely by technical tape activity which suggests sustained buying interest in the current session. BEAR: USDE is currently trading at an extreme 130.17% premium to its 20-day moving average, a level of deviation that historically invites mean reversion. The move lacks fundamental support, as the news report shows only generic lists of IT stocks moving without any company-specific catalyst to justify such volatility. Furthermore, the volume is remarkably thin at just 0.38x normal, indicating that the price rise is occurring on low participation, which confirms that the move lacks institutional conviction and is highly susceptible to a reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSNYW",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.40 = bull 0.25 - bear 0.65 (buy at >= +0.20). BULL: PSNYW is currently undergoing a sharp correction of 15.57%, yet it maintains a significant buffer of 73.97% above its 20-day moving average, suggesting the stock retains substantial structural strength despite the intraday volatility. There is no specific negative catalyst in the recent news flow to justify this decline, implying the move may be driven by technical exhaustion or temporary liquidity gaps rather than fundamental deterioration. The current low relative volume of 0.31x indicates that this downward move lacks strong institutional conviction, positioning the stock for a potential mean-reversion as sellers exhaust themselves. Given the lack of specific news, this is a contrarian play on the stock's proven ability to sustain price levels well above its short-term trend line. BEAR: PSNYW is currently showing a severe mean-reversion risk, evidenced by a 15.57% decline and a price that remains 73.97% above its 20-day moving average. The lack of any identifiable fundamental catalyst in the news report suggests that the recent price volatility is purely speculative, while the anemic relative volume of 0.31x indicates a lack of conviction behind any potential bottom-fishing attempts. With no institutional participation to support the current valuation level, buying here exposes a trader to the high probability of further capitulation as the stock attempts to close the massive gap from its moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "VISN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DAIC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SOLS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AFRM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BRNX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FINV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ESTC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XPON",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GAP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LPTH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TNON",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BEKE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PYPL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSNYW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

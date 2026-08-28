@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-28T08:48:23-04:00",
+  "session_date": "2026-08-28",
+  "reads": {
+    "SOLS": {
+      "symbol": "SOLS",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ESTC": {
+      "symbol": "ESTC",
+      "pattern": "Gap and Run",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "VISN": {
+      "symbol": "VISN",
+      "pattern": "Gap and Run",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "PYPL": {
+      "symbol": "PYPL",
+      "pattern": "breakaway gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ESI": {
+      "symbol": "ESI",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "GAP": {
+      "symbol": "GAP",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "FINV": {
+      "symbol": "FINV",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "AFRM": {
+      "symbol": "AFRM",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "BEKE": {
+      "symbol": "BEKE",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "TNON": {
+      "symbol": "TNON",
+      "pattern": "momentum gap and breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "UMC": {
+      "symbol": "UMC",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "NABL": {
+      "symbol": "NABL",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    }
+  }
+}
