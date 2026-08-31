@@ -1,0 +1,1328 @@
+{
+  "date": "2026-08-31",
+  "events": [
+    {
+      "at_et": "2026-08-31T08:46:34-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-08-31T08:52:27-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-08-31T09:31:41-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BETR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNSO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T10:21:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1016.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "DPRO",
+          "PSNYW",
+          "NEOV",
+          "JUNS",
+          "BRNX",
+          "EIX",
+          "PCG",
+          "RDIB",
+          "TJGC",
+          "SWVL",
+          "PMI",
+          "PSQL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JUNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T10:53:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1046.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "DPRO",
+          "NEOV",
+          "PSNYW",
+          "EIX",
+          "JUNS",
+          "PCG",
+          "TJGC",
+          "SWVL",
+          "USDE",
+          "RDIB",
+          "PSQL",
+          "PMI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JUNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T11:21:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1116.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "DPRO",
+          "NEOV",
+          "PSNYW",
+          "EIX",
+          "PCG",
+          "JUNS",
+          "TJGC",
+          "SWVL",
+          "RDIB",
+          "USDE",
+          "PMI",
+          "VBIO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JUNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VBIO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T11:51:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1146.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "PSQL",
+          "PSNYW",
+          "DPRO",
+          "NEOV",
+          "EIX",
+          "PCG",
+          "TJGC",
+          "XHLD",
+          "SWVL",
+          "RDIB",
+          "USDE",
+          "TKC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T12:22:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1216.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "DPRO",
+          "NEOV",
+          "PSQL",
+          "EIX",
+          "PCG",
+          "PSNYW",
+          "USDE",
+          "CHA",
+          "TJGC",
+          "SWVL",
+          "RDIB",
+          "TKC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DPRO",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DPRO",
+              "qty": 74,
+              "est_cost": 394.42,
+              "entry_ref": 5.33,
+              "take_profit": 5.64,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 5.17,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260831-122231-DPRO",
+              "analysis_price": 5.34,
+              "live_price_change_pct": -0.19
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T12:52:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1247",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1247.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "DPRO",
+          "NEOV",
+          "PSQL",
+          "EIX",
+          "PCG",
+          "PSNYW",
+          "USDE",
+          "CHA",
+          "TJGC",
+          "SWVL",
+          "RDIB",
+          "TKC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T13:21:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1316.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "DPRO",
+          "NEOV",
+          "EIX",
+          "PSQL",
+          "USDE",
+          "PCG",
+          "PSNYW",
+          "PMI",
+          "CHA",
+          "SWVL",
+          "TJGC",
+          "RDIB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T13:51:08-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1346.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "DAIC",
+          "NEOV",
+          "DPRO",
+          "USDE",
+          "PMI",
+          "EIX",
+          "PCG",
+          "PSQL",
+          "PSNYW",
+          "CHA",
+          "SWVL",
+          "RDIB",
+          "TJGC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T14:21:54-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1416.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "USDE",
+          "DAIC",
+          "NEOV",
+          "DPRO",
+          "EIX",
+          "PCG",
+          "PMI",
+          "PSQL",
+          "PSNYW",
+          "CHA",
+          "ASST",
+          "SWVL",
+          "RDIB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T14:55:55-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1446.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "PMI",
+          "USDE",
+          "DAIC",
+          "NEOV",
+          "DPRO",
+          "EIX",
+          "PCG",
+          "PSQL",
+          "PSNYW",
+          "CHA",
+          "ASST",
+          "DFDV",
+          "RDIB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CHA",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CHA",
+              "qty": 34,
+              "est_cost": 394.74,
+              "entry_ref": 11.61,
+              "take_profit": 12.06,
+              "remaining_take_profit_pct": 3.85,
+              "stop_loss": 11.31,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260831-145555-CHA",
+              "analysis_price": 11.58,
+              "live_price_change_pct": 0.26
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T15:21:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1516.json",
+        "shortlist": [
+          "AEHL",
+          "WETO",
+          "USDE",
+          "DAIC",
+          "NEOV",
+          "DPRO",
+          "PMI",
+          "EIX",
+          "PCG",
+          "PSNYW",
+          "PSQL",
+          "ASST",
+          "CHA",
+          "RDIB",
+          "SWVL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DPRO",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DPRO",
+              "qty": 73,
+              "est_cost": 394.93,
+              "entry_ref": 5.41,
+              "take_profit": 5.69,
+              "remaining_take_profit_pct": 5.25,
+              "stop_loss": 5.26,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260831-152110-DPRO",
+              "analysis_price": 5.4186,
+              "live_price_change_pct": -0.16
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T15:51:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-08-31/shortlist_1546.json",
+        "shortlist": [
+          "AEHL",
+          "USDE",
+          "DAIC",
+          "DPRO",
+          "NEOV",
+          "WETO",
+          "EIX",
+          "PCG",
+          "PSQL",
+          "ASST",
+          "PSNYW",
+          "CHA",
+          "RDIB",
+          "SWVL",
+          "TJGC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DPRO",
+            "action": "dry_run",
+            "order": {
+              "symbol": "DPRO",
+              "qty": 73,
+              "est_cost": 392.74,
+              "entry_ref": 5.38,
+              "take_profit": 5.69,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 5.22,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260831-155115-DPRO",
+              "analysis_price": 5.45,
+              "live_price_change_pct": -1.28
+            }
+          },
+          {
+            "symbol": "CHA",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CHA",
+              "qty": 27,
+              "est_cost": 313.74,
+              "entry_ref": 11.62,
+              "take_profit": 12.1,
+              "remaining_take_profit_pct": 4.12,
+              "stop_loss": 11.36,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260831-155115-CHA",
+              "analysis_price": 11.65,
+              "live_price_change_pct": -0.26
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-08-31T15:51:16-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

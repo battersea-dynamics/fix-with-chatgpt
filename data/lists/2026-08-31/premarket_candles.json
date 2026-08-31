@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-31T08:49:15-04:00",
+  "session_date": "2026-08-31",
+  "reads": {
+    "AEHL": {
+      "symbol": "AEHL",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "PCG": {
+      "symbol": "PCG",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "EIX": {
+      "symbol": "EIX",
+      "pattern": "panic exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "TKC": {
+      "symbol": "TKC",
+      "pattern": "Breakdown continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "NEOV": {
+      "symbol": "NEOV",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "CVX": {
+      "symbol": "CVX",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "BETR": {
+      "symbol": "BETR",
+      "pattern": "Bullish Engulfing Reversal",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "SHMD": {
+      "symbol": "SHMD",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "DPRO": {
+      "symbol": "DPRO",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "MNSO": {
+      "symbol": "MNSO",
+      "pattern": "gap down continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "GME": {
+      "symbol": "GME",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "TTD": {
+      "symbol": "TTD",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}
