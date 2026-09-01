@@ -1,0 +1,1341 @@
+{
+  "date": "2026-09-01",
+  "events": [
+    {
+      "at_et": "2026-09-01T08:46:02-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-09-01T08:51:36-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-09-01T09:31:17-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDT",
+            "reason": "live ask $98.91 has reached or passed the original take-profit target $96.47"
+          },
+          {
+            "symbol": "MYGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UBS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YEXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T10:21:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1015",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1015.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "DAIC",
+          "FRVO",
+          "WETO",
+          "LGCL",
+          "RDAC",
+          "USDE",
+          "DFNS",
+          "AEHL",
+          "ARCT",
+          "PMI",
+          "TJGC",
+          "PSQL",
+          "CAPR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T10:50:50-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1046.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "DAIC",
+          "FRVO",
+          "USDE",
+          "PMI",
+          "ARCT",
+          "DFNS",
+          "LGCL",
+          "WETO",
+          "TJGC",
+          "PSQL",
+          "PSNYW",
+          "CAPR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T11:20:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1116.json",
+        "shortlist": [
+          "BIAF",
+          "RDAC",
+          "ALMS",
+          "DAIC",
+          "FRVO",
+          "RDIB",
+          "PMI",
+          "USDE",
+          "LGCL",
+          "DFNS",
+          "TJGC",
+          "WETO",
+          "ARCT",
+          "PSQL",
+          "PSNYW"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T11:51:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1146.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "DAIC",
+          "FRVO",
+          "PMI",
+          "RDIB",
+          "LGCL",
+          "USDE",
+          "DFNS",
+          "ARCT",
+          "WETO",
+          "TJGC",
+          "PSQL",
+          "CRK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T12:21:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1216.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "DAIC",
+          "FRVO",
+          "RDIB",
+          "PMI",
+          "LGCL",
+          "USDE",
+          "DFNS",
+          "ARCT",
+          "WETO",
+          "TJGC",
+          "CRK",
+          "PSQL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T12:53:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1246.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "DAIC",
+          "FRVO",
+          "RDIB",
+          "PMI",
+          "LGCL",
+          "USDE",
+          "WETO",
+          "DFNS",
+          "TJGC",
+          "MMED",
+          "ARCT",
+          "CRK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "FRVO",
+            "action": "dry_run",
+            "order": {
+              "symbol": "FRVO",
+              "qty": 20,
+              "est_cost": 388.0,
+              "entry_ref": 19.4,
+              "take_profit": 20.62,
+              "remaining_take_profit_pct": 6.27,
+              "stop_loss": 18.82,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260901-125355-FRVO",
+              "analysis_price": 19.3805,
+              "live_price_change_pct": 0.1
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T13:20:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1315",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1315.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "FRVO",
+          "DAIC",
+          "RDIB",
+          "PMI",
+          "LGCL",
+          "USDE",
+          "DFNS",
+          "MMED",
+          "TJGC",
+          "CRK",
+          "ARCT",
+          "WETO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "FRVO",
+            "action": "dry_run",
+            "order": {
+              "symbol": "FRVO",
+              "qty": 19,
+              "est_cost": 376.2,
+              "entry_ref": 19.8,
+              "take_profit": 20.89,
+              "remaining_take_profit_pct": 5.5,
+              "stop_loss": 19.27,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260901-132049-FRVO",
+              "analysis_price": 19.755,
+              "live_price_change_pct": 0.23
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T13:51:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1346.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "DAIC",
+          "FRVO",
+          "PMI",
+          "RDIB",
+          "MMED",
+          "LGCL",
+          "USDE",
+          "CRK",
+          "DFNS",
+          "TJGC",
+          "WETO",
+          "STDN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "MMED",
+            "action": "dry_run",
+            "order": {
+              "symbol": "MMED",
+              "qty": 17,
+              "est_cost": 380.97,
+              "entry_ref": 22.41,
+              "take_profit": 23.24,
+              "remaining_take_profit_pct": 3.71,
+              "stop_loss": 21.88,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260901-135145-MMED",
+              "analysis_price": 22.55,
+              "live_price_change_pct": -0.62
+            }
+          },
+          {
+            "symbol": "CRK",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRK",
+              "qty": 20,
+              "est_cost": 315.4,
+              "entry_ref": 15.77,
+              "take_profit": 16.42,
+              "remaining_take_profit_pct": 4.12,
+              "stop_loss": 15.42,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260901-135145-CRK",
+              "analysis_price": 15.85,
+              "live_price_change_pct": -0.5
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STDN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T14:23:18-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1416.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "FRVO",
+          "DAIC",
+          "RDIB",
+          "PMI",
+          "MMED",
+          "USDE",
+          "CRK",
+          "TJGC",
+          "DFNS",
+          "STDN",
+          "LGCL",
+          "WETO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STDN",
+            "reason": "live ask $19.60 has reached or passed the original take-profit target $18.91"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T14:50:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1446.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "FRVO",
+          "DAIC",
+          "PMI",
+          "RDIB",
+          "MMED",
+          "TJGC",
+          "USDE",
+          "CRK",
+          "DFNS",
+          "LGCL",
+          "STDN",
+          "ARCT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MMED",
+            "reason": "live ask $25.69 has reached or passed the original take-profit target $23.41"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T15:21:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1516.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "FRVO",
+          "DAIC",
+          "PMI",
+          "RDIB",
+          "MMED",
+          "CRK",
+          "USDE",
+          "TJGC",
+          "EIX",
+          "DFNS",
+          "ARCT",
+          "STDN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "MMED",
+            "action": "dry_run",
+            "order": {
+              "symbol": "MMED",
+              "qty": 17,
+              "est_cost": 384.71,
+              "entry_ref": 22.63,
+              "take_profit": 23.32,
+              "remaining_take_profit_pct": 3.07,
+              "stop_loss": 22.1,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260901-152142-MMED",
+              "analysis_price": 22.49,
+              "live_price_change_pct": 0.62
+            }
+          },
+          {
+            "symbol": "CRK",
+            "action": "dry_run",
+            "order": {
+              "symbol": "CRK",
+              "qty": 19,
+              "est_cost": 304.0,
+              "entry_ref": 16.0,
+              "take_profit": 16.91,
+              "remaining_take_profit_pct": 5.69,
+              "stop_loss": 15.61,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260901-152142-CRK",
+              "analysis_price": 15.96,
+              "live_price_change_pct": 0.25
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STDN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T15:50:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1545",
+        "shortlist_file": "data/lists/2026-09-01/shortlist_1545.json",
+        "shortlist": [
+          "BIAF",
+          "ALMS",
+          "RDAC",
+          "FRVO",
+          "PMI",
+          "RDIB",
+          "DAIC",
+          "MMED",
+          "CRK",
+          "USDE",
+          "TJGC",
+          "EIX",
+          "DFNS",
+          "PSQL",
+          "LGCL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-01T15:50:48-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

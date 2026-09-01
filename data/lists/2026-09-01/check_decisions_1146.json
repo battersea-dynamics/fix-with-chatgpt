@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-09-01T11:51:07-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "BIAF",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: BIAF is demonstrating extreme momentum, evidenced by a massive 60.57x relative volume and a 47.15% gain on 2026-09-01. The tape-only case is supported by four consecutive positive observations showing 0.0% drawdown from the session high of $6.71, accompanied by an impressive price acceleration of 9.2026 percentage points and a growing relative volume rate. While the catalyst report lacks a specific company-news driver, the stock's inclusion in multiple 'moving in today's pre-market session' headlines validates the intense market interest. This consistent 'sustained_continuation' profile indicates strong institutional participation that justifies a momentum-based entry. BEAR: BIAF is exhibiting classic exhaustion characteristics, with a 60.57x relative volume surge that lacks a specific fundamental catalyst to support such an extreme 47.15% single-day move. While the momentum remains sustained, the stock is showing clear signs of being priced for perfection with an observed high of $6.71 that accounts for the entirety of its recent gains, leaving no room for late entrants. The absence of company-specific news in the catalyst report confirms this is a speculative retail-driven move that is highly vulnerable to a sharp, liquidity-driven mean reversion once the initial buying frenzy cools. Buying at these levels represents chasing a move that has already decoupled from any verifiable underlying value, making the risk-to-reward ratio highly unfavorable.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ALMS",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: ALMS is currently exhibiting extreme volatility with a relative volume of 18.37x, signaling a massive influx of liquidity that often precedes a technical rebound from oversold conditions. While there is no specific positive news catalyst in the report for ALMS today, the tape shows an improving rank, moving from 3rd to 2nd with a 3.52 point score increase despite the broader intraday sell-off. The current rel_volume_rate_change of 1.868 indicates that institutional participation is accelerating, which provides a technical foundation for a mean-reversion play following the -58.28% decline. This is a high-risk, high-reward play on extreme oversold exhaustion. BEAR: Buying ALMS is an exercise in catching a falling knife as the stock is down 58.28% and remains 63.40% below its 20-day MA with no specific fundamental catalyst provided in the news feed to justify such a collapse. The intraday tape shows clear deterioration, with a 9.3174% drawdown from the observed high and negative price acceleration of -3.2199% points over the last 90 minutes. With relative volume at 18.37x and a persistent decline despite high participation, this move reflects aggressive liquidation rather than a temporary dip. Attempting to long this ticker involves fighting an active, high-volume momentum trend to the downside with zero news-based support to anchor a recovery.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RDAC",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: RDAC is showing massive institutional interest today with relative volume at 21.78x its 20-day average, signaling significant momentum. Despite a recent pullback from an observed high of $8.12, the stock remains up 23.09% since it was first flagged, confirming strong primary trend strength. While no specific catalyst for RDAC itself appears in the report, the heavy participation and current 14.62% distance above the 20-day MA demonstrate powerful price action that is attracting active market interest. The current dip provides a tactical entry point to capture the ongoing momentum as buyers defend the current support levels. BEAR: RDAC is currently exhibiting clear signs of chasing exhaustion, evidenced by a 14.35% drawdown from the session high of $8.12 within just 90 minutes of being tracked. The setup shows concrete deterioration with a negative price acceleration of -24.23% and a significant drop in relative volume pace of -5.44, indicating that buying interest is fading rapidly after the initial surge. Furthermore, the stock is already extended 14.62% above its 20-day MA, and the lack of a specific company-level catalyst\u2014despite being mentioned in a generic list of moving stocks\u2014suggests the 52.52% gain is unsustainable price discovery that is already reversing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DAIC",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.20 = bull 0.55 - bear 0.75 (buy at >= +0.20). BULL: DAIC is demonstrating strong momentum, having recorded four consecutive positive observations with a price acceleration of 5.8381 percentage points. The stock is currently trading at its observed high of $4.1995 with 0% drawdown, proving significant intraday persistence and buyer interest. While the catalyst report lacks specific news, the tape-only evidence is robust, supported by a 20.68% move and a 151.56% extension from the 20-day moving average. This confirms a high-conviction breakout pattern that justifies a bullish outlook for short-term traders. BEAR: DAIC is experiencing a dangerous disconnect between price momentum and institutional participation, with a relative volume of only 0.56x confirming that this 20.68% gain is occurring on thin liquidity. The stock is currently extended 151.56% above its 20-day moving average, leaving it highly vulnerable to a sharp mean reversion as no fundamental news catalyst explains this aggressive move. With a low relative volume rate of 0.0536, the current price action lacks the depth required to sustain such extreme deviation from its historical baseline, effectively positioning late buyers as exit liquidity for earlier participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FRVO",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: FRVO is displaying exceptional momentum with a 24.71% gain on massive 5.31x relative volume, indicating strong institutional interest. The Benzinga report from today, September 1st, confirms the stock is moving higher alongside other significant market participants, providing a fundamental narrative to support the technical breakout. With four consecutive positive momentum observations and a price acceleration of 5.6683% points, the stock is showing persistent strength despite a minor 0.72% drawdown from its session high. This volume-backed move suggests potential for further upside as the market digests the day's positive news flow. BEAR: FRVO shows clear signs of momentum exhaustion after a 24.71% daily surge, with a negative return of -0.36% since the stock was first spotted 90 minutes ago. The relative volume rate is actively deteriorating with a negative change of -0.23, indicating that the initial surge is failing to attract follow-on buyers. Furthermore, the stock is showing a drawdown of -0.72% from its observed high of $19.32, suggesting the intraday breakout is struggling to hold its gains. With no fundamental catalyst other than general sector momentum, the trade lacks conviction and carries significant risk of immediate mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: PMI is showing signs of a potential technical mean reversion after an extreme intraday decline of 43.38%. The stock has displayed a recent improvement in rank from 7 to 6 alongside a positive price acceleration of 12.42%, indicating that selling pressure is beginning to abate. While the catalyst report contains no specific news explaining the sharp drop or justifying a reversal, the current exhaustion-led setup on the tape provides a high-risk, high-reward opportunity for a short-term bounce off the $4.79 level. The extreme price dislocation suggests a potential for a rapid recovery if buyers step in to capitalize on the oversold conditions. BEAR: PMI is suffering from an extreme liquidation event with a 43.38% drop, yet market participation is nearly non-existent with relative volume at a abysmal 0.15x normal. The tape shows clear deterioration, as the stock has failed to record a single positive interval in the last 90 minutes and has seen a 33.28% drawdown from its observed high of $7.18. With no specific fundamental catalyst in the news report to justify this cratering, the stock is likely experiencing a liquidity vacuum that invites further downside as institutional support vanishes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RDIB",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: RDIB is showing aggressive strength today with a 15.70% gain, positioning it 68.36% above its 20-day moving average. While there is no specific fundamental news catalyst explaining this move in the provided report, the stock is clearly capturing market attention as a top mover in the Communication Services sector. Price action has pulled back slightly from the observed high of 17.9397 to 17.47, but the significant distance from the 20-day MA indicates a robust momentum trend is currently in place. Investors are looking to capitalize on this volatility, as the stock remains well-positioned for continued upside momentum given its recent session performance. BEAR: RDIB is exhibiting classic exhaustion, currently trading 68.36% above its 20-day moving average on abysmal relative volume of only 0.11x normal. The stock's momentum has demonstrably deteriorated within the last 30 minutes, failing to hit a new high and instead suffering a 2.62% drawdown from its observed peak. There is no fresh catalyst to justify this vertical move, and the combination of extreme distance from the mean with an actively cooling tape signals that buyers are effectively acting as exit liquidity for earlier traders. The lack of participation confirming the 15.70% gain suggests this price action is unsustainable and prone to immediate mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LGCL",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: LGCL shows signs of an exhaustion-based reversal with a recent slight improvement in rank from 9 to 8 and a positive price acceleration of 0.808 percentage points across the observed session intervals. While the stock has seen a significant pullback, the 1.1524 score change suggests emerging buyer interest during the latter half of the 90-minute observation window. There is no specific news catalyst in the recent report to explain the current decline, suggesting the move may be technical rather than fundamental. This trade is a contrarian play betting on a bounce from oversold levels given the distance from its 20-day moving average. BEAR: LGCL is currently undergoing severe intraday deterioration, evidenced by a 14.30% drawdown from its observed session high and a consistent decline in price across four consecutive observation intervals. With no fresh catalysts and a relative volume of only 0.82x, the selling pressure is occurring on thin participation, suggesting a lack of institutional support to arrest the slide. The absence of any material news to justify the -7.82% daily move combined with a -95.55% distance from the 20-day MA indicates a stock in technical freefall rather than a structured consolidation. Buying into this momentum constitutes catching a falling knife with no fundamental catalyst to provide a floor.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: Despite today's 2.87% decline, USDE is demonstrating significant momentum with a 7.0067% return since it was first tracked 90 minutes ago. The stock is currently trading 106.13% above its 20-day moving average, highlighting a strong primary trend. While the catalyst report lacks specific news for today, the stock's recent inclusion in intraday volatility reports confirms institutional attention. The current price action remains resilient despite a brief intraday drawdown from the observed high of 8.735. BEAR: USDE is currently exhibiting clear signs of exhaustion as it trades 106.13% above its 20-day moving average on anemic participation, evidenced by a relative volume of just 0.39x normal. The price action shows measurable deterioration, with a negative price acceleration of -3.6572 percentage points and a rank that has slipped from 8 to 9. Furthermore, there is no fresh, company-specific catalyst to justify this extension; the most recent news is four days old and relates to broader crypto-market sentiment, suggesting the current price level is merely exit liquidity for previous buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DFNS",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: DFNS presents a potential mean-reversion opportunity following a significant 14.51% intraday decline that has left the stock trading at a extreme 63.78% discount to its 20-day moving average. Despite the low relative volume of 0.35x, price action shows resilience with a 0.5473% return since its first appearance today and positive price acceleration of 0.1914% across four consecutive observations. While the catalyst report contains no news for today, the recent August 26 announcement regarding the licensing of Majestic.ai by its subsidiary demonstrates ongoing operational activity that may provide a floor for the stock after this sharp washout. The setup is currently mixed, but the combination of extreme technical oversold conditions and internal price stability over the last 90 minutes suggests a potential bounce. BEAR: DFNS is exhibiting a classic 'no catalyst' trap, as the most recent news regarding its Tiltan subsidiary is six days old and clearly exhausted, leaving the stock to drift without a fundamental driver. The volume profile is abysmal, with a relative volume of 0.35x normal and a concerningly low rel_volume_rate_per_30m of 0.024, indicating that institutional interest is completely absent while the stock undergoes a sharp -14.51% daily decline. Furthermore, the momentum history shows a drawdown from the observed high of -1.27% and a rank of 10 that remains stagnant, proving that this is not a 'dip buy' opportunity but rather a stock suffering from sustained selling pressure and total liquidity decay.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARCT",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: ARCT is demonstrating sustained momentum with four consecutive positive observation scans, showing a 1.22% return since first identified and a strong price acceleration of 4.14%. The stock is showing resilience with a minimal drawdown of only 0.42% from its observed high of $16.60, confirming buyer strength despite the lack of direct news in the catalyst report. With the price trading +59.69% above its 20-day MA, the technical breakout remains potent for a short-term momentum play over the next few hours to days. While no specific catalyst explains this move, the persistent rank improvement from 13 to 11 indicates continued institutional interest. BEAR: ARCT is currently exhibiting signs of volume-price divergence, with relative volume at a meager 0.59x of the 20-day average despite the 11.99% gain. The stock is extended 59.69% above its 20-day moving average without any relevant company-specific catalyst in the last seven days to justify such a move. While the tape shows a modest rank improvement, the negative rel_volume_rate_change of -0.0403 suggests participation is fading as price targets the daily high, leaving buyers as potential exit liquidity for earlier longs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WETO",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.06,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: WETO is showing strong momentum with a 10.22% gain on the day supported by 1.43x relative volume, indicating active buyer interest. While the catalyst report lacks specific news to explain the move, the stock demonstrates significant potential for a mean-reversion trade given it remains 55.93% below its 20-day moving average. The tape shows sustained interest with four consecutive observations and a positive price acceleration of 2.2138 percentage points over the last 90 minutes. This creates a high-volatility environment favorable for a short-term momentum capture. BEAR: WETO is a classic chase trap, evidenced by a 6.21% drawdown from its observed high of $6.44 despite trading on elevated volume. The lack of a specific company-level catalyst in the news report suggests this move is purely momentum-driven rather than fundamental, leaving the stock vulnerable to rapid mean reversion. With the relative volume rate per 30 minutes declining by 0.0479, participation is fading exactly as the price drifts further from its 20-day MA. Buyers entering now are essentially providing exit liquidity for those who caught the earlier spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TJGC",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: TJGC is displaying a significant technical deviation, trading at a 91.86% premium above its 20-day moving average, which indicates strong underlying momentum despite the lack of specific catalysts in the news report. The price action shows resilience with a positive return of 1.89% since the previous observation and a notable improvement in relative volume rate change to 0.2081. While the current setup is mixed, the consistent presence in the scanner over 90 minutes and price acceleration suggest ongoing interest. With no upcoming negative earnings or dividend headwinds, the stock remains a tactical play based purely on sustained tape participation. BEAR: TJGC is currently trading at a dangerous 91.86% premium to its 20-day moving average without any supporting news catalysts to justify such a technical extension. The tape shows clear signs of momentum exhaustion, evidenced by a 0.83x relative volume and a 7.94% drawdown from the observed high since it first appeared on the scanner 90 minutes ago. With a ranking deterioration from 11 to 13 and a negative score change, the lack of volume confirmation suggests this move is running on thin air and is highly susceptible to a mean-reversion pull back.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSQL",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: PSQL is currently undergoing a post-merger price discovery phase, with the significant 19.13% decline providing a compelling entry point for traders betting on a stabilization following the headline news of its de-SPAC completion on August 31, 2026. Despite the current downward momentum, the company's recent research collaboration agreement with KACST demonstrates fundamental institutional interest in its quantum technology, which may provide a floor for the stock's valuation as the market absorbs the new listing. While the current scanner metrics show negative momentum, the stock remains significantly elevated at +27.59% above its 20-day moving average, suggesting that the long-term trend remains intact despite short-term volatility. Investors looking for a mean-reversion trade can capitalize on the current selling exhaustion, leveraging the stock's high volatility to capture a rebound. BEAR: PSQL is suffering from clear tape deterioration as the stock has failed to produce a single positive observation interval and remains trapped in a consistent drawdown from its observed high. Participation is rapidly drying up, evidenced by a relative volume rate of only 0.1179 per 30-minute block that is actively decelerating. While the recent de-SPAC merger and KACST partnership were announced yesterday, the market is failing to find support for the current $13.99 price level, which remains significantly extended at 27.59% above its 20-day MA. Buying now constitutes chasing a downward trend as institutional interest, reflected by the stagnant rank and negative price acceleration, clearly suggests the stock is currently acting as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRK",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 4.39,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: Comstock Resources is demonstrating significant momentum today, surging 8.94% on heavy relative volume of 2.88x its 20-day average, signaling strong institutional interest. The stock is currently trading 12.98% above its 20-day moving average, confirming a robust breakout from recent consolidation. While there is no direct company-specific news to explain this price action, the volume-backed move suggests powerful buying pressure that often carries through for several days following a breakout. This tape-only move lacks independent history to confirm multi-session persistence, but the current strength makes it a viable momentum play. BEAR: CRK is currently experiencing a momentum surge with 2.88x relative volume and a 12.98% extension from its 20-day MA, yet there is no company-specific catalyst in the provided news report to justify an 8.94% single-session gain. The lack of a fundamental driver implies this move is likely driven by broader sector tailwinds or institutional flow, leaving the price vulnerable to a rapid mean-reversion as the extreme distance from the 20-day moving average invites profit-taking. Entering at the daily high of $15.72 creates a high-risk scenario where the buyer assumes the role of exit liquidity for momentum traders who initiated positions well before today's extended price levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "BIAF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ALMS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RDAC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DAIC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FRVO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RDIB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGCL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DFNS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WETO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TJGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSQL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

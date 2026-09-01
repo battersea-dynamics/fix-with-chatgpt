@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-09-01T10:21:01-04:00",
+  "submit": false,
+  "decisions": [
+    {
+      "symbol": "BIAF",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 4.05,
+      "reasoning": "net -0.35 = bull 0.30 - bear 0.65 (buy at >= +0.20). BULL: BIAF is exhibiting extreme momentum with a massive relative volume of 51.01x, signaling intense institutional interest and market participation. The stock is up 46.27% today, trading at a 5.03% premium to its 20-day moving average, indicating a powerful breakout from its recent consolidation range. While there is no specific fundamental catalyst beyond the ticker appearing in today's pre-market momentum scanner, the sheer scale of the volume surge suggests significant price discovery is underway. Given the lack of multi-interval confirmation, this is a pure play on current session liquidity and technical momentum. BEAR: BIAF is currently experiencing a massive price spike of 46.27% on 51.01x relative volume without any identifiable company-specific fundamental catalyst in the provided news report. The absence of news combined with a 51x volume surge suggests a high probability of a speculative blow-off top where institutional participation is absent. Because the price is already stretched 5.03% above its 20-day moving average, any cooling in momentum creates an immediate technical vacuum for mean reversion. Buying now assumes the continuation of an unexplained, high-volume anomaly rather than a tradeable breakout.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ALMS",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: ALMS is exhibiting extreme exhaustion with a massive 53.99% decline on 9.52x relative volume, positioning the stock for a potential technical mean-reversion trade. The stock is trading significantly below its 20-day moving average, which often invites aggressive bottom-fishing from contrarian traders looking for an oversold bounce. There are no specific catalysts or news headlines in the report to explain this move, so the case relies entirely on the technical intensity of the sell-off and the high liquidity currently present in the order book. Given the lack of persistent momentum data, this is a pure volatility play on extreme price dislocation. BEAR: ALMS is exhibiting a massive, unexplained 53.99% single-session decline with no news catalyst to justify the move, suggesting an uncontained fundamental or liquidity event. Trading at a 59.64% discount to its 20-day moving average, the stock is currently in a state of extreme dislocation without a clear price floor. The absence of news creates a 'no catalyst' scenario where the 9.52x relative volume indicates massive panic selling that has not yet demonstrated any stabilizing tape behavior. Buying this stock at current levels is effectively catching a falling knife during an active liquidation event with no clarity on the underlying cause.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DAIC",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.45 = bull 0.25 - bear 0.70 (buy at >= +0.20). BULL: DAIC is showing significant momentum with a 17.97% gain and trading 145.91% above its 20-day moving average, signaling strong buyer interest. While the catalyst report contains no specific fundamental news explaining the current move, the stock's inclusion in multiple 'top mover' and 'moving IT stocks' reports from the previous session indicates it is currently high on the radar of market participants. Because the observation history is insufficient at only one snapshot and relative volume is currently low at 0.38x, this is a speculative momentum play that relies on the stock maintaining its recent high-volatility breakout trajectory. The absence of a specific news catalyst requires a cautious approach, focusing solely on the technical breakout observed in the current session. BEAR: DAIC is showing a classic divergence between a +17.97% price spike and a lack of market participation, evidenced by a relative volume of only 0.38x. The stock is currently trading 145.91% above its 20-day moving average, representing an extreme technical extension that has occurred without any corresponding news catalyst in the recent reports to justify such a move. The absence of a fundamental catalyst leaves the stock vulnerable to immediate mean reversion, especially as the low volume suggests the move is not backed by institutional conviction. Entering at this level essentially requires catching a parabolic move that is already exhausted of buying interest.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FRVO",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.95,
+      "stop_loss_pct": 2.8,
+      "reasoning": "net -0.30 = bull 0.30 - bear 0.60 (buy at >= +0.20). BULL: FRVO is exhibiting significant momentum today with a 25.16% price surge supported by massive volume, reaching 3.32x its normal relative volume. While the specific catalyst is not explicitly detailed beyond the stock being highlighted in a 2026-09-01 pre-market report, the extreme volume and price action indicate powerful institutional interest. The stock is currently trading at its daily high, demonstrating that demand is absorbing all supply. Given that this is only the first observation, caution is warranted, but the strength of the volume profile suggests continued upside potential for a short-term momentum play. BEAR: FRVO is exhibiting a classic 'no-catalyst' speculative move, as the only headline associated with the stock is a generic pre-market mention in a ChartMill list rather than fundamental news. With a massive 25.16% single-session gain on 3.32x relative volume, the stock is clearly driven by retail momentum rather than underlying value. Because there is no specific catalyst to justify this massive price appreciation, the trade lacks fundamental support and is highly vulnerable to a sharp, sentiment-driven mean reversion once the day-trader momentum fades. Buying at these levels represents chasing a move that has already realized its primary volatility for the session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WETO",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net -0.40 = bull 0.25 - bear 0.65 (buy at >= +0.20). BULL: WETO is showing strong momentum with a 17.52% gain today on relative volume of 1.17x, suggesting significant buying interest. The stock is currently trading at $6.44, and while there is no specific fundamental news catalyst explaining this move in the provided report, the price action indicates a powerful breakout. Given the stock is still trading well below its 20-day moving average, there is substantial room for a mean-reversion rally. As this is a single observation of momentum with no confirming consecutive data, the case relies purely on the strength of today's immediate price action and volume participation. BEAR: WETO is currently trading 53.01% below its 20-day moving average, signaling deep structural weakness despite today's 17.52% jump. The catalyst report shows no fundamental news or earnings events to justify this surge, leaving the move vulnerable to an absence of institutional support. With relative volume at only 1.17x, the price expansion appears unsupported by heavy participation, increasing the risk of a sharp mean reversion. Entering now is essentially chasing a move that lacks a clear fundamental narrative to sustain the current price level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LGCL",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.40 = bull 0.25 - bear 0.65 (buy at >= +0.20). BULL: LGCL is showing strong intraday momentum with a 7.57% gain, reflecting an aggressive push despite low relative volume of 0.61x. While there is no specific fresh news catalyst in the recent report, the stock is currently ranking 6th in intraday activity, indicating significant market interest. The stock is currently trading at a deep distance from its 20-day moving average, suggesting substantial mean reversion potential. This play relies entirely on the observed price strength and the momentum of the current session. BEAR: LGCL is currently exhibiting a move of +7.57% on anemic participation, evidenced by a relative volume of just 0.61x, suggesting that this price appreciation is occurring without institutional conviction. The lack of any fresh catalyst, combined with the stock trading at a significant distance from its 20-day moving average, creates a high probability of mean reversion as the momentum lacks fundamental support. With no earnings or dividend events to provide volatility, buying into this low-volume move is essentially betting on a liquidity vacuum that is highly prone to sudden exhaustion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RDAC",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 6.0,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.30 = bull 0.20 - bear 0.50 (buy at >= +0.20). BULL: RDAC is currently exhibiting strong momentum with a 23.90% intraday gain on high relative volume of 2.04x. While the catalyst report contains no specific news or upcoming events to explain this move, the stock's significant volume participation confirms institutional interest in today's price action. Given it is the first observation of this trend, the bull case relies purely on this tape-driven participation rather than fundamental catalysts. BEAR: RDAC is currently trading with a 23.90% intraday gain in the complete absence of any explanatory catalyst or news. The stock is extended 6.89% below its 20-day moving average, suggesting this move is a sharp, localized volatility spike rather than a fundamental breakout. With relative volume at 2.04x, the stock is showing intense participation without a news-driven floor, making this an 'uncertainty' setup prone to rapid mean reversion. Entering at current levels represents an attempt to catch the tail end of a move that lacks any underlying institutional news to sustain the current price elevation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: USDE is currently trading significantly above its 20-day moving average by 92.63%, indicating strong underlying momentum despite the intraday pullback. While the catalyst report lacks specific news for today, the stock's recent inclusion in recurring information technology movement reports suggests it remains a focus of active trading interest. Given the current price of $8.05 and the lack of negative news, this move represents a volatility-driven opportunity for a mean-reversion or momentum continuation play. There is no independent tape confirmation today as this is only the first observed interval, necessitating a cautious entry. BEAR: USDE is currently trading at a massive 92.63% premium to its 20-day moving average, a level of technical extension that invites mean reversion in the absence of any fresh catalysts. The stock is suffering a 9.23% decline on very low participation, with relative volume at just 0.21x, indicating that the price drop is occurring without genuine institutional conviction. The lack of any earnings or dividend-related catalysts in the upcoming window, combined with the fact that the most recent news regarding crypto-related sectors dates back to August 28, suggests that the current volatility is decoupled from fundamental news. Buying into this setup represents a dangerous attempt to catch a falling knife that is still significantly overextended from its short-term mean.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DFNS",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: DFNS presents an opportunistic entry point following a significant 14.97% pullback, as the stock is trading 63.97% below its 20-day moving average, suggesting an extreme oversold condition ripe for a mean-reversion bounce. While current volume is light, the company's recent fundamental development\u2014specifically the August 26 headline regarding the licensing of Majestic.ai by its Tiltan Software Engineering subsidiary\u2014provides a strong underlying growth narrative that has likely been overlooked during this sell-off. Buying at the current $10.05 level allows for a capture of the inevitable stabilization as the market reconciles the recent negative price action with these ongoing commercial successes. BEAR: DFNS is suffering a severe -14.97% drawdown and is trading 63.97% below its 20-day moving average, signaling a total collapse in investor interest rather than a discount opportunity. The lack of any catalyst news for six days renders the prior 'Majestic.ai' headline stale and insufficient to support the current price action. With relative volume at a microscopic 0.25x, the stock is experiencing a liquidity vacuum where the absence of buying participation leaves it vulnerable to further unanchored declines. There is no evidence of a reversal on the tape, making any attempt to catch this falling knife an exercise in high-probability capital erosion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AEHL",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 4.05,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: AEHL is currently experiencing a significant oversold condition, trading down 26.18% and sitting 12.97% below its 20-day moving average, which creates a potential mean-reversion setup for traders looking to capitalize on an extreme short-term pullback. While there is no specific fundamental catalyst in the recent news flow to explain the move, the stock is being flagged as a notable mover in the market today, suggesting high visibility among active traders. With only one observation of momentum data currently available, the case for a reversal relies purely on the technical exhaustion of the selling pressure. Investors should be prepared for high volatility as the market absorbs this deep single-session decline. BEAR: AEHL is exhibiting a severe lack of market interest, trading at only 0.15x its normal relative volume despite a significant 26.18% collapse in price. This absence of trading participation suggests the stock is in a state of free-fall without the volume support typically required for a bottoming process. Furthermore, there is no fundamental catalyst in the news report to justify such a sharp deviation from the 20-day moving average, leaving the stock vulnerable to further drift as market participants ignore the name. Buying here constitutes a classic 'no catalyst' trade where the lack of liquidity increases the risk of a continued slide toward lower support levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARCT",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.95,
+      "stop_loss_pct": 2.8,
+      "reasoning": "net -0.35 = bull 0.25 - bear 0.60 (buy at >= +0.20). BULL: ARCT is demonstrating significant momentum with a 10.64% gain on the session and is currently trading 57.75% above its 20-day moving average, signaling strong buying interest. While the catalyst report contains no news specific to ARCT, the stock's aggressive price action justifies a momentum-based entry. Because this is a single observation with insufficient volume confirmation, this remains a speculative trade. We are positioning for a continuation of the current aggressive trend despite the lack of a specific fundamental catalyst. BEAR: ARCT is exhibiting a classic 'no catalyst' exhaustion setup, where the stock is trading 57.75% above its 20-day moving average on extremely low participation, with relative volume at a mere 0.31x of normal. There is no fundamental news or earnings event to justify this +10.64% move, indicating the price action is likely driven by thin liquidity rather than institutional conviction. Entering at these levels creates significant chase risk, as the stock is heavily extended from its baseline without the volume support required to sustain such an aggressive deviation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.5,
+      "stop_loss_pct": 3.5,
+      "reasoning": "net -0.50 = bull 0.10 - bear 0.60 (buy at >= +0.20). BULL: PMI is currently exhibiting significant price dislocation, trading at a 15.13% decline on the day despite remaining 43.97% above its 20-day moving average. While there is no specific catalyst in the recent news report to explain this sharp intraday drop, the stock's elevated position relative to its trendline suggests a potential mean reversion opportunity for short-term traders. Given the insufficient volume and limited history of only one observation at 10:16, this remains a purely technical play based on the assumption that the aggressive sell-off may be overextended. Investors should exercise extreme caution as there is no fundamental narrative supporting this move. BEAR: PMI is showing a severe disconnect between price action and participation, with a relative volume of only 0.05x normal, indicating that the -15.13% move is occurring in a vacuum of liquidity. The stock remains +43.97% extended from its 20-day moving average, a level of vulnerability that, coupled with the total absence of news or catalysts to explain the volatility, suggests the stock is susceptible to erratic, low-conviction swings. Because there is no news to justify such a sharp percentage move, the current price floor is unreliable and likely to be retested by market makers exploiting the lack of retail or institutional volume.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TJGC",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.75,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.30 = bull 0.20 - bear 0.50 (buy at >= +0.20). BULL: TJGC is currently demonstrating a significant breakout, trading 92.01% above its 20-day moving average, which indicates massive relative strength compared to its recent baseline. While the relative volume of 0.52x suggests early-stage interest, the stock is holding its ground with minimal drawdown from its session high. There are currently no negative headlines or adverse catalyst events in the report to impede this momentum, allowing the technical trend to remain the primary driver. Given the lack of specific news, this is a tape-only momentum play relying on the clear structural shift in price position. BEAR: TJGC is currently trading at a 92.01% premium to its 20-day moving average, a level of technical extension that invites mean reversion in the absence of any fundamental catalyst or news. The lack of volume confirmation, evidenced by a relative volume of only 0.52x, suggests that the current price level is not supported by meaningful institutional participation. Because there is no catalyst to justify this divergence from the moving average, the stock is highly susceptible to a quick retracement as traders realize the lack of momentum behind the move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSQL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.9,
+      "reasoning": "net -0.50 = bull 0.20 - bear 0.70 (buy at >= +0.20). BULL: Pasqal is undergoing significant market repricing following its de-SPAC merger and the announcement of a strategic quantum research collaboration with KACST, both disclosed on August 31, 2026. While the stock is experiencing high volatility today, the post-merger environment often invites institutional repositioning as the company gains public price discovery status. Despite the sharp intraday decline, the stock remains significantly elevated relative to its 20-day moving average, suggesting a potential mean-reversion opportunity as the market digests the influx of new fundamental news regarding their advanced quantum technology efforts. This is a speculative play on the market correcting its initial overreaction to the liquidity events typical of early post-merger trading. BEAR: PSQL is currently suffering a significant 14.48% drawdown on the day, indicating that the market is aggressively repricing the stock following its recent de-SPAC merger. The massive 34.93% extension from the 20-day moving average suggests the stock is struggling to maintain its debut premium, especially as volume remains abysmal at just 0.47x normal levels. With no follow-through buying to support the initial post-merger interest, the current price action reflects 'exit liquidity' as early participants offload shares into a vacuum of demand.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CAPR",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: CAPR is demonstrating significant momentum with a 5.45% gain, trading well above its 20-day moving average by 62.21%. While the catalyst report contains no specific recent news driving today's price action, the stock's strong relative performance suggests underlying buying interest. Given the lack of confirmed volume persistence or specific news, this move relies primarily on the existing momentum and technical deviation from the 20-day MA. Consequently, investors should approach this as a momentum-driven trade with appropriate risk management. BEAR: Buying CAPR at this price represents a high-risk entry into an asset trading 62.21% above its 20-day moving average with virtually no volume confirmation, as evidenced by the 0.17x relative volume. The stock is exhibiting classic exhaustion characteristics where a 5.45% intraday gain is occurring in a vacuum, completely devoid of any fresh catalyst or news to sustain the move beyond the stale headlines from late August. With negligible participation levels, there is no institutional conviction supporting this extension, leaving the current price vulnerable to a rapid mean-reversion as momentum buyers fail to materialize.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "BIAF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ALMS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DAIC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FRVO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WETO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGCL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RDAC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DFNS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TJGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSQL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CAPR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
