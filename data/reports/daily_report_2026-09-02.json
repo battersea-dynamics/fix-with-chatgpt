@@ -1,0 +1,1357 @@
+{
+  "date": "2026-09-02",
+  "events": [
+    {
+      "at_et": "2026-09-02T08:46:04-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": false
+      }
+    },
+    {
+      "at_et": "2026-09-02T08:51:37-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-02T09:31:12-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CXM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HPE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OLLI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SIRI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T10:20:50-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1016.json",
+        "shortlist": [
+          "BIAF",
+          "PSNYW",
+          "WETO",
+          "GTLB",
+          "ALMS",
+          "CRDO",
+          "MDB",
+          "SWVL",
+          "DELL",
+          "SNN",
+          "USDE",
+          "LGCL",
+          "DAIC",
+          "SSM",
+          "FCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SNN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T10:51:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1046.json",
+        "shortlist": [
+          "BIAF",
+          "WETO",
+          "CRDO",
+          "GTLB",
+          "PSNYW",
+          "ALMS",
+          "MDB",
+          "DELL",
+          "SWVL",
+          "SSM",
+          "USDE",
+          "FCEL",
+          "DAIC",
+          "LGCL",
+          "EOSE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EOSE",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EOSE",
+              "qty": 113,
+              "est_cost": 393.24,
+              "entry_ref": 3.48,
+              "take_profit": 3.78,
+              "remaining_take_profit_pct": 8.69,
+              "stop_loss": 3.35,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260902-105101-EOSE",
+              "analysis_price": 3.4702,
+              "live_price_change_pct": 0.28
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T11:20:54-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1116.json",
+        "shortlist": [
+          "BIAF",
+          "GTLB",
+          "CRDO",
+          "WETO",
+          "PSNYW",
+          "ALMS",
+          "MDB",
+          "DELL",
+          "SWVL",
+          "FCEL",
+          "USDE",
+          "FRVO",
+          "DAIC",
+          "LGCL",
+          "EOSE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GTLB",
+            "action": "dry_run",
+            "order": {
+              "symbol": "GTLB",
+              "qty": 7,
+              "est_cost": 368.97,
+              "entry_ref": 52.71,
+              "take_profit": 55.74,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 51.29,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260902-112053-GTLB",
+              "analysis_price": 53.17,
+              "live_price_change_pct": -0.87
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T11:51:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1146.json",
+        "shortlist": [
+          "BIAF",
+          "GTLB",
+          "CRDO",
+          "WETO",
+          "PSNYW",
+          "ALMS",
+          "MDB",
+          "SWVL",
+          "DELL",
+          "DAIC",
+          "FCEL",
+          "USDE",
+          "IRD",
+          "FRVO",
+          "LGCL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "position size cap exceeded, skipped: 1 share at $452.00 > current cash-based budget ($395.94)"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T12:21:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1215",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1215.json",
+        "shortlist": [
+          "BIAF",
+          "CRDO",
+          "GTLB",
+          "WETO",
+          "PSNYW",
+          "ALMS",
+          "SWVL",
+          "MDB",
+          "DELL",
+          "OABI",
+          "DAIC",
+          "LGCL",
+          "DFNS",
+          "USDE",
+          "FCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "BIAF",
+            "action": "dry_run",
+            "order": {
+              "symbol": "BIAF",
+              "qty": 36,
+              "est_cost": 388.8,
+              "entry_ref": 10.8,
+              "take_profit": 11.74,
+              "remaining_take_profit_pct": 8.75,
+              "stop_loss": 10.42,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260902-122105-BIAF",
+              "analysis_price": 10.8499,
+              "live_price_change_pct": -0.46
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "position size cap exceeded, skipped: 1 share at $473.38 > current cash-based budget ($318.18)"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T12:51:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1246.json",
+        "shortlist": [
+          "BIAF",
+          "CRDO",
+          "GTLB",
+          "WETO",
+          "SWVL",
+          "PSNYW",
+          "ALMS",
+          "MDB",
+          "DELL",
+          "OABI",
+          "DAIC",
+          "IRD",
+          "LGCL",
+          "FRVO",
+          "FCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T13:20:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1315",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1315.json",
+        "shortlist": [
+          "BIAF",
+          "GBTG",
+          "CRDO",
+          "SWVL",
+          "WETO",
+          "GTLB",
+          "ALMS",
+          "PSNYW",
+          "MDB",
+          "DELL",
+          "OABI",
+          "DAIC",
+          "IRD",
+          "USDE",
+          "LGCL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T13:51:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1346.json",
+        "shortlist": [
+          "BIAF",
+          "GBTG",
+          "CRDO",
+          "SWVL",
+          "WETO",
+          "GTLB",
+          "ALMS",
+          "PSNYW",
+          "MDB",
+          "DELL",
+          "DAIC",
+          "OABI",
+          "EOSE",
+          "IRD",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EOSE",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EOSE",
+              "qty": 108,
+              "est_cost": 395.28,
+              "entry_ref": 3.66,
+              "take_profit": 3.97,
+              "remaining_take_profit_pct": 8.4,
+              "stop_loss": 3.5,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260902-135139-EOSE",
+              "analysis_price": 3.64,
+              "live_price_change_pct": 0.55
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T14:21:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1415",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1415.json",
+        "shortlist": [
+          "BIAF",
+          "GBTG",
+          "CRDO",
+          "SWVL",
+          "WETO",
+          "GTLB",
+          "ALMS",
+          "IRD",
+          "DELL",
+          "MDB",
+          "PSNYW",
+          "DAIC",
+          "EOSE",
+          "OABI",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "position size cap exceeded, skipped: 1 share at $482.00 > current cash-based budget ($395.94)"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T15:04:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1446.json",
+        "shortlist": [
+          "BIAF",
+          "GBTG",
+          "SWVL",
+          "CRDO",
+          "WETO",
+          "IRD",
+          "DELL",
+          "GTLB",
+          "ALMS",
+          "MDB",
+          "PSNYW",
+          "DAIC",
+          "EOSE",
+          "OABI",
+          "FCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EOSE",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EOSE",
+              "qty": 109,
+              "est_cost": 395.67,
+              "entry_ref": 3.63,
+              "take_profit": 3.84,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 3.52,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260902-150423-EOSE",
+              "analysis_price": 3.6301,
+              "live_price_change_pct": -0.0
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T15:20:58-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1516.json",
+        "shortlist": [
+          "BIAF",
+          "SWVL",
+          "GBTG",
+          "CRDO",
+          "WETO",
+          "GTLB",
+          "DELL",
+          "IRD",
+          "ALMS",
+          "MDB",
+          "NCT",
+          "PSNYW",
+          "DAIC",
+          "EOSE",
+          "OABI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EOSE",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EOSE",
+              "qty": 108,
+              "est_cost": 393.12,
+              "entry_ref": 3.64,
+              "take_profit": 3.85,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 3.54,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260902-152058-EOSE",
+              "analysis_price": 3.64,
+              "live_price_change_pct": 0.0
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OABI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T15:50:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1545",
+        "shortlist_file": "data/lists/2026-09-02/shortlist_1545.json",
+        "shortlist": [
+          "BIAF",
+          "SWVL",
+          "GBTG",
+          "NCT",
+          "CRDO",
+          "DELL",
+          "IRD",
+          "GTLB",
+          "WETO",
+          "ALMS",
+          "MDB",
+          "EOSE",
+          "DAIC",
+          "PSNYW",
+          "VRNS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EOSE",
+            "action": "dry_run",
+            "order": {
+              "symbol": "EOSE",
+              "qty": 107,
+              "est_cost": 392.69,
+              "entry_ref": 3.67,
+              "take_profit": 3.93,
+              "remaining_take_profit_pct": 6.96,
+              "stop_loss": 3.53,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260902-155046-EOSE",
+              "analysis_price": 3.62,
+              "live_price_change_pct": 1.38
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRDO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "position size cap exceeded, skipped: 1 share at $490.34 > current cash-based budget ($395.94)"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GTLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSNYW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRNS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-02T15:50:46-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

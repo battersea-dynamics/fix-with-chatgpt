@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-09-02T08:51:37-04:00",
+  "decisions": [
+    {
+      "symbol": "ALMS",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.1,
+      "stop_loss_pct": 1.92,
+      "reasoning": "net +0.05 = bull 0.85 - bear 0.80 (buy at >= +0.20). BULL: ALMS is demonstrating a powerful, organic volume surge with 184x its baseline volume, signaling significant institutional interest following the September 1st SeekingAlpha report regarding its Psoriasis pipeline potential. The stock is currently holding a strong +5.82% gap, and the Inside Day Reversal structure suggests that sellers are exhausted and buyers are reclaiming control after yesterday's volatility. Unlike a momentum fad, this sustained volume accumulation indicates a fundamental recalibration of the stock's value based on the Psoriasis outlook, providing a high-conviction setup for a continuation move at the open. BEAR: ALMS is exhibiting a classic gap-fade failure mode because the move is driven by stale news; the September 1st SeekingAlpha headline highlighting a 'brutal lupus setback' is already priced in, leaving no fresh catalyst to sustain this 5.82% gap beyond the opening print. The pre-market volume of 165,686 shares against the background of a negative fundamental narrative suggests thin-tape pricing, where the move lacks institutional conviction and serves as liquidity for early sellers. Furthermore, the 'Inside Day Reversal' pattern is an exhaustion structure that fails to break overhead resistance, confirming that the pre-market rally is likely to be met by heavy selling as soon as larger, liquidity-conscious participants enter the market at 9:30 AM.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRDO",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: The 10% gap down follows the Q1 2027 earnings release, and while the bearish structure is evident, the massive 9.37x relative volume indicates aggressive institutional absorption of the sell-side liquidity. Market sentiment as highlighted in the 2026-09-02 SeekingAlpha coverage suggests this move is a fundamental overreaction that positions CRDO as a de-risked AI compounder rather than a failing enterprise. By fading the initial panic, buyers are leveraging a valuation reset, creating a high-conviction entry point for those looking to capture the inevitable mean reversion once the earnings-day flush exhausts itself. BEAR: The 10.23% gap lower following the Q1 2027 earnings print demonstrates a classic 'exhaustion structure' where the market is pricing in structural concerns post-call. While retail sentiment outlets like SeekingAlpha are attempting to frame this as a 'buying opportunity' on 2026-09-02, their analysis is completely disconnected from the heavy 9.37x relative pre-market volume signaling institutional distribution. This is a classic gap-fade failure mode where the price action reflects an ongoing reassessment of the company's 'AI compounder' status, and the institutional liquidity entering at 9:30 will likely treat this gap as a level to continue the primary trend lower.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CXM",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: CXM is showing massive pre-market volume of over 527,000 shares, indicating significant institutional interest ahead of the imminent earnings call mentioned in the September 1st Benzinga headline. While the technical structure is currently bearish, this level of liquidity often suggests a 'washout' event where strong hands initiate positions before the actual report. The gap down creates a potential mean-reversion opportunity if the bid holds firm at the open, allowing for a tactical recovery trade. There is no specific news event explaining the price drop, so this play relies purely on volume-driven reversal dynamics. BEAR: The 5.26% pre-market gap in CXM is a classic exhaustion move following the speculative 'analysts revise forecasts' headlines from September 1st, which offered no concrete data and failed to sustain buyer interest. With the candle agent signaling an exhaustion structure and the stock trading at $7.20\u2014far below yesterday's $7.60 close\u2014the move is clearly a 'sell-the-news' event where the gap has already stopped building. Because there is no durable catalyst to defend this price level against the 9:30 liquidity influx, the opening auction will likely serve as a trap for those attempting to catch a bottom, confirming the gap-fade failure mode.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DELL",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: DELL is exhibiting a high-conviction breakout driven by a massive 14x relative volume surge, confirming that institutions are aggressively accumulating following the September 2nd report of an AI server blowout and a massive $95 billion backlog. The formation of an island reversal on the chart indicates a clean exhaustion of sellers and a definitive shift in supply-demand dynamics. With the price holding firmly at these elevated levels throughout the pre-market session, the footprint reflects genuine institutional buying interest rather than fleeting momentum. This sustained volume signature, combined with the structural technical setup, positions the stock for a significant trend-following move after the open. BEAR: The +8.84% gap on the 'AI Server Blowout' news is suffering from an exhaustion structure; with the pre-market price stalled and the bullish island reversal pattern already clearly flagged by the candle agent, the move has clearly run out of momentum. Buying at the open is essentially providing exit liquidity for the pre-market volume that flooded in on the $95 billion backlog narrative, which is already fully digested by the tape. The combination of an exhaustion pattern and the exhaustion of buyer enthusiasm indicates this is a classic gap-fade setup where the opening print will likely mark the session high.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 9.5e+10 - no matching value in source data",
+        "bear: cited 9.5e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "EOSE",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: EOSE is exhibiting a high-conviction breakout with 5.3 million shares traded pre-market, representing a massive 27x volume surge relative to its baseline, signaling genuine institutional interest following the August 27th announcement regarding the consolidation of manufacturing operations in Pennsylvania. The price action is holding steady above the $3.40 level, suggesting the market is re-rating the stock based on the operational efficiency gains from the Thorn Hill facility consolidation. The combination of an 85% conviction reversal structure and sustained, heavy volume indicates that sellers are exhausted and buyers are aggressively defending the gap. This is a rare example where a fundamental operational catalyst is being reinforced by an undeniable, high-volume price footprint. BEAR: The 13.16% gap is trading on a stale catalyst, specifically the August 27 announcement regarding facility consolidation, which is now six days old and lacks the weight to justify today's 27x volume spike. This price action exhibits a classic exhaustion structure, where the rapid pre-market volume influx has already peaked and decoupled from the fundamental news. Buying at the open is essentially providing exit liquidity to aggressive pre-market participants, as the lack of fresh catalysts makes a gap-fade highly probable once real institutional liquidity hits the tape at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FCEL",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.89,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.65 = bull 0.30 - bear 0.95 (buy at >= +0.20). BULL: The 15.41x relative volume in the pre-market suggests this 13% gap is being driven by institutional liquidation ahead of the upcoming Q3 earnings mentioned in the September 1st Benzinga report. While the daily structure is bearish, the sheer volume depth indicates a potential capitulation point where traders are front-running the earnings print to lock in exits. I am betting on an oversold snap-back rally as short-term liquidity providers step in to absorb the heavy selling pressure at the open. There is no specific news headline explaining this move beyond general analyst expectation shifts, making this a play on liquidity exhaustion. BEAR: FCEL is suffering from a classic exhaustion structure as the -13% gap indicates a massive breakdown rather than a constructive entry point. The 'Top Wall Street Forecasters' headline from September 1st is likely a reactive sell-side adjustment to recent price weakness rather than a new fundamental catalyst, meaning the market is already positioning for the lower valuation. With the candle agent signaling a clear bearish breakout failure and the gap showing no signs of stabilization, buying into this liquidity trap is a guaranteed gap-fade scenario where the open will serve as the daily high for trapped retail longs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GTLB",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.10 = bull 0.95 - bear 0.85 (buy at >= +0.20). BULL: GTLB is showing a classic 'gap and go' footprint following the Q2 earnings release referenced in the September 1st transcript, with volume sitting at a massive 75.39x the baseline average. The sheer volume size and the sustained nature of the price action at $55.67 indicate institutional accumulation rather than a retail exhaustion spike. By gapping up over 23% and holding the gains, the stock confirms strong market conviction in the Q2 results. The structure supports a momentum continuation trade as buyers defend the post-earnings breakout level. BEAR: The 23% gap is driven entirely by Q2 results characterized as 'mostly decent' by SeekingAlpha, a lukewarm assessment that fails to justify such an aggressive valuation expansion. Because the pre-market volume of ~598k shares is heavily front-loaded from the after-hours reaction, the price discovery process is exhausted, turning the open into immediate exit liquidity for institutional holders. This is a classic 'already priced in' scenario where the market has completed its discounting of the transcript data before the opening bell even rings, leaving no room for a follow-through move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HPE",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 2.81,
+      "stop_loss_pct": 1.38,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: HPE is exhibiting a classic island reversal pattern reinforced by massive pre-market volume of nearly 10x the baseline average, signaling genuine institutional accumulation. While the headlines from 2026-09-01 highlight broader market anxiety ahead of earnings, the specific surge in unusual options volume suggests sophisticated traders are positioning for a positive surprise. The gap is holding firmly into the open, confirming that the overnight buyers are not looking for a quick exit but are betting on structural momentum. This footprint is clearly driven by specific institutional positioning rather than ambient market noise. BEAR: The 4.36% gap on 9.93x relative volume is a classic exhaustion structure, especially considering the bullish sentiment from the September 1st options activity is already being priced in rather than being a fresh catalyst. The island reversal pattern identified in the candle analysis frequently serves as a terminal peak when it occurs after a sustained run-up, signaling an opening-auction reversal as real liquidity hits the tape at 9:30. Because the current headlines regarding Dell and HPE slipping the day prior to this gap suggest conflicting institutional narratives, this move lacks the durability to hold gains above $53.09, making the current pre-market price likely exit liquidity for the pre-earnings crowd.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MDB",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The significant 55x surge in pre-market volume following the Q2 2027 earnings call transcript released on 2026-09-01 confirms that the market is aggressively repricing the stock based on specific fundamental guidance. While the technical structure indicates a gap-down continuation, the sheer scale of the volume suggests an institutional liquidation event that often exhausts itself near the open, creating a high-conviction mean reversion opportunity for short-term traders. Betting on a bounce here is not a rejection of the earnings results, but an exploitation of the inevitable post-dump liquidity vacuum that occurs when panic selling hits a major support level. BEAR: MDB is exhibiting an exhaustion structure following the Q2 2027 earnings release, where the move has already been priced in and sentiment has clearly shifted post-transcript. The pre-market volume of 200,583 shares, while elevated relative to baseline, has stopped building momentum, signaling that institutional participants have already achieved their desired exit liquidity. The gap-down continuation pattern confirms that this is not a dip-buying opportunity but a structural repricing, making the opening auction highly likely to serve as a continuation of selling pressure rather than a pivot point.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OLLI",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.82,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: OLLI is exhibiting a massive volume anomaly, trading at 86x its baseline average ahead of its Q2 earnings release. Despite bearish headlines regarding fuel price impacts on same-store sales from August 27, the stock is aggressively gapping up and holding its bid above $73.90, suggesting the market is positioned for an earnings beat or favorable guidance. The sustained volume footprint indicates high conviction institutional positioning ahead of the print, effectively neutralizing the recent negative sentiment. Buying here captures the momentum of a market pricing in a positive surprise before the official announcement. BEAR: The +2.16% gap on 81,835 shares lacks a specific, positive catalyst, as the recent news cycle is dominated by concerns over falling share prices and the UBS warning regarding same-store sales pressure from fuel prices. This move exhibits an exhaustion structure where the price has stopped building momentum before the open, signaling that today's entry is likely providing exit liquidity rather than sustainable growth. The combination of a neutral candle bias and the negative sentiment surrounding tomorrow's earnings report makes the opening-auction reversal highly probable as retail interest fails to absorb the institutional distribution.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSNYW",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: There is no specific company-level catalyst in the provided news headlines for PSNYW, and the 1.53x volume, while elevated, is insufficient to justify a breakout against a clearly documented 'gap and fade' structure. The pre-market action shows a classic exhaustion pattern rather than a sustained accumulation phase, suggesting the current gap is being driven by speculative momentum rather than fundamental news. Because the price action is failing to hold the initial gap, any bull case relies entirely on a speculative reversal at the open which lacks supporting news or technical confirmation. Consequently, this is a high-risk play that lacks an objective reason for continuation. BEAR: The 19.8% gap in PSNYW is completely devoid of a fundamental catalyst, as the only headline today is a generic monthly summary from SeekingAlpha that provides zero actionable news. This is a classic 'gap and fade' setup where the lack of institutional interest is confirmed by a modest 1.53x volume multiple, which is insufficient to sustain a breakout in a speculative warrant instrument. The candle agent's 'gap and fade' structure read confirms that the pre-market rally has already exhausted its momentum, making the opening bell the most likely point for institutional profit-taking. Consequently, this price action is merely thin-tape noise that will likely collapse once real liquidity enters the market at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SIRI",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.3,
+      "stop_loss_pct": 1.5,
+      "reasoning": "net -0.05 = bull 0.75 - bear 0.80 (buy at >= +0.20). BULL: SIRI is showing a massive volume anomaly at nearly 60x its baseline, indicating institutional accumulation rather than retail noise. The Bullish Engulfing Reversal pattern on the daily chart suggests a significant trend change is underway, confirmed by the sustained gap holding near its highs. While there is no specific headline from the last week that explains this move, the preparation for the BofA conference mentioned on 2026-08-26 suggests potential news-flow anticipation or institutional positioning ahead of a presentation. The sheer volume density confirms this gap is supported by genuine capital interest, not a fading speculative spike. BEAR: SIRI is currently trading up over 4% with absolutely no fresh catalyst; the most recent news regarding a BofA conference was on August 26, leaving this gap devoid of any news-driven support. The 'Bullish Engulfing Reversal' pattern is a trap here, as the volume of 51,054 shares\u2014while elevated relative to the baseline\u2014is functionally meaningless against the institutional liquidity that hits the tape at 9:30 AM. This is a classic thin-tape pricing trap where the pre-market high will likely serve as the daily high once real sell orders flush out the momentum chasers. Relying on an outdated conference mention from a week ago is a dangerous way to justify an entry into this exhaustion structure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

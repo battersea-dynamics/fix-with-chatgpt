@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-02T08:48:27-04:00",
+  "session_date": "2026-09-02",
+  "reads": {
+    "CXM": {
+      "symbol": "CXM",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "GTLB": {
+      "symbol": "GTLB",
+      "pattern": "gap and go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "MDB": {
+      "symbol": "MDB",
+      "pattern": "Gap-down continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "EOSE": {
+      "symbol": "EOSE",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FCEL": {
+      "symbol": "FCEL",
+      "pattern": "Bearish Reversal / Breakout Failure",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ALMS": {
+      "symbol": "ALMS",
+      "pattern": "Inside Day Reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "CRDO": {
+      "symbol": "CRDO",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "DELL": {
+      "symbol": "DELL",
+      "pattern": "island reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SIRI": {
+      "symbol": "SIRI",
+      "pattern": "Bullish Engulfing Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "OLLI": {
+      "symbol": "OLLI",
+      "pattern": "volatility expansion",
+      "bias": "neutral",
+      "conviction": 0.5
+    },
+    "HPE": {
+      "symbol": "HPE",
+      "pattern": "island reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PSNYW": {
+      "symbol": "PSNYW",
+      "pattern": "gap and fade",
+      "bias": "bearish",
+      "conviction": 0.7
+    }
+  }
+}
