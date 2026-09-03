@@ -1,0 +1,1287 @@
+{
+  "date": "2026-09-03",
+  "events": [
+    {
+      "at_et": "2026-09-03T08:46:13-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-03T08:51:57-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-03T09:31:12-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLYM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTSK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T10:21:12-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1016.json",
+        "shortlist": [
+          "TLYS",
+          "AEHL",
+          "RARE",
+          "BIAF",
+          "CURR",
+          "SST",
+          "SWVL",
+          "SNOW",
+          "GPRK",
+          "LGCL",
+          "WETO",
+          "VSXY",
+          "CPB",
+          "APGE",
+          "DAIC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APGE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T10:52:08-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1046.json",
+        "shortlist": [
+          "TLYS",
+          "RARE",
+          "AEHL",
+          "CURR",
+          "BIAF",
+          "SST",
+          "SWVL",
+          "GPRK",
+          "WETO",
+          "SNOW",
+          "CPB",
+          "VSXY",
+          "LGCL",
+          "DAIC",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T11:26:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1116.json",
+        "shortlist": [
+          "TLYS",
+          "RARE",
+          "AEHL",
+          "CURR",
+          "NCT",
+          "BIAF",
+          "SST",
+          "SWVL",
+          "GPRK",
+          "CPB",
+          "WETO",
+          "SNOW",
+          "VSXY",
+          "LGCL",
+          "CIEN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIEN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T11:52:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1145",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1145.json",
+        "shortlist": [
+          "TLYS",
+          "RARE",
+          "BIAF",
+          "AEHL",
+          "CURR",
+          "NCT",
+          "SWVL",
+          "SST",
+          "WETO",
+          "CPB",
+          "GPRK",
+          "VSXY",
+          "SNOW",
+          "LGCL",
+          "DAIC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T12:21:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1216.json",
+        "shortlist": [
+          "TLYS",
+          "NCT",
+          "RARE",
+          "CURR",
+          "BIAF",
+          "AEHL",
+          "SST",
+          "SWVL",
+          "CPB",
+          "VSXY",
+          "SNOW",
+          "GPRK",
+          "WETO",
+          "LGCL",
+          "CIEN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIEN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T12:57:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1246.json",
+        "shortlist": [
+          "TLYS",
+          "NCT",
+          "RARE",
+          "AEHL",
+          "CURR",
+          "BIAF",
+          "SWVL",
+          "SST",
+          "VSXY",
+          "CPB",
+          "SNOW",
+          "WETO",
+          "GPRK",
+          "USDE",
+          "DPRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T13:23:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1316.json",
+        "shortlist": [
+          "TLYS",
+          "NCT",
+          "RARE",
+          "AEHL",
+          "CURR",
+          "BIAF",
+          "SWVL",
+          "SST",
+          "VSXY",
+          "SNOW",
+          "CPB",
+          "USDE",
+          "WETO",
+          "GPRK",
+          "DPRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T13:53:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1346.json",
+        "shortlist": [
+          "TLYS",
+          "NCT",
+          "RARE",
+          "AEHL",
+          "CURR",
+          "BIAF",
+          "SWVL",
+          "SST",
+          "VSXY",
+          "CPB",
+          "SNOW",
+          "GPRK",
+          "USDE",
+          "DPRO",
+          "WETO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T14:21:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1416.json",
+        "shortlist": [
+          "TLYS",
+          "NCT",
+          "RARE",
+          "AEHL",
+          "CURR",
+          "BIAF",
+          "SWVL",
+          "SST",
+          "VSXY",
+          "SNOW",
+          "CPB",
+          "PL",
+          "USDE",
+          "WETO",
+          "GPRK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SNOW",
+            "action": "submitted",
+            "order": {
+              "symbol": "SNOW",
+              "qty": 1,
+              "est_cost": 371.0,
+              "entry_ref": 371.0,
+              "take_profit": 389.61,
+              "remaining_take_profit_pct": 5.02,
+              "stop_loss": 359.72,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260903-142112-SNOW",
+              "analysis_price": 368.46,
+              "live_price_change_pct": 0.69
+            },
+            "broker": {
+              "id": "48ea3bb1-ffe8-4e25-b197-aad2056fab41",
+              "client_order_id": "ta-20260903-142112-SNOW",
+              "symbol": "SNOW",
+              "qty": "1",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 389.61,
+              "stop_loss": 359.72,
+              "legs": [
+                "cb955842-c577-400f-b9d8-297c5665cc58",
+                "7ea5d3b8-c13b-40db-83cf-b28386df409c"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T14:51:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1446.json",
+        "shortlist": [
+          "NCT",
+          "TLYS",
+          "RARE",
+          "CURR",
+          "AEHL",
+          "BIAF",
+          "SST",
+          "SWVL",
+          "VSXY",
+          "CPB",
+          "PL",
+          "DPRO",
+          "USDE",
+          "GPRK",
+          "WETO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T15:21:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1516.json",
+        "shortlist": [
+          "NCT",
+          "TLYS",
+          "RARE",
+          "CURR",
+          "AEHL",
+          "BIAF",
+          "SWVL",
+          "SST",
+          "VSXY",
+          "DPRO",
+          "PL",
+          "CPB",
+          "GPRK",
+          "CIEN",
+          "WETO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T15:51:06-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-03/shortlist_1546.json",
+        "shortlist": [
+          "NCT",
+          "TLYS",
+          "RARE",
+          "CURR",
+          "AEHL",
+          "BIAF",
+          "SWVL",
+          "SST",
+          "DPRO",
+          "VSXY",
+          "CPB",
+          "SNOW",
+          "PL",
+          "CIEN",
+          "GPRK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CURR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPRK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-03T15:51:06-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
