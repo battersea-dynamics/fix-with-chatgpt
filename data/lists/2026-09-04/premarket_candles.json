@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-04T08:48:56-04:00",
+  "session_date": "2026-09-04",
+  "reads": {
+    "SUNB": {
+      "symbol": "SUNB",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "AKAN": {
+      "symbol": "AKAN",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "LULU": {
+      "symbol": "LULU",
+      "pattern": "gapping breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "WETO": {
+      "symbol": "WETO",
+      "pattern": "Bullish Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "GWRE": {
+      "symbol": "GWRE",
+      "pattern": "gapping exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "TRU": {
+      "symbol": "TRU",
+      "pattern": "Bearish Gap and Go",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "IOT": {
+      "symbol": "IOT",
+      "pattern": "gap and drift",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "EFX": {
+      "symbol": "EFX",
+      "pattern": "breakdown gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ASAN": {
+      "symbol": "ASAN",
+      "pattern": "Bearish Gap Down / Continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PL": {
+      "symbol": "PL",
+      "pattern": "Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SGML": {
+      "symbol": "SGML",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PATH": {
+      "symbol": "PATH",
+      "pattern": "breakdown gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}

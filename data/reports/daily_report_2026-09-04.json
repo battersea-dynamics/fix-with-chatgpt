@@ -1,0 +1,1259 @@
+{
+  "date": "2026-09-04",
+  "events": [
+    {
+      "at_et": "2026-09-04T08:46:26-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-04T08:52:29-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-04T09:31:30-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EFX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PATH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T10:24:18-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1016.json",
+        "shortlist": [
+          "AKAN",
+          "LULU",
+          "WETO",
+          "SWVL",
+          "CHPT",
+          "PSQL",
+          "RDIB",
+          "SUNB",
+          "SST",
+          "GWRE",
+          "BIAF",
+          "LGCL",
+          "ASAN",
+          "USDE",
+          "OMH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T10:51:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1046.json",
+        "shortlist": [
+          "AKAN",
+          "LULU",
+          "WETO",
+          "SWVL",
+          "SST",
+          "CHPT",
+          "PSQL",
+          "SUNB",
+          "GWRE",
+          "LGCL",
+          "RDIB",
+          "BIAF",
+          "ASAN",
+          "USDE",
+          "RARE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T11:22:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1116.json",
+        "shortlist": [
+          "AKAN",
+          "LULU",
+          "BIAF",
+          "WETO",
+          "CHPT",
+          "PSQL",
+          "SWVL",
+          "SST",
+          "SUNB",
+          "RDIB",
+          "GWRE",
+          "LGCL",
+          "USDE",
+          "ASAN",
+          "GRML"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDIB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T11:51:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1146.json",
+        "shortlist": [
+          "AKAN",
+          "LULU",
+          "BIAF",
+          "CHPT",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "SST",
+          "CNI",
+          "GWRE",
+          "SUNB",
+          "LGCL",
+          "ASAN",
+          "USDE",
+          "RARE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T12:21:29-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1216.json",
+        "shortlist": [
+          "BIAF",
+          "AKAN",
+          "LULU",
+          "CHPT",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "SST",
+          "CNI",
+          "GWRE",
+          "SUNB",
+          "LGCL",
+          "ASAN",
+          "PL",
+          "RARE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T12:51:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1246.json",
+        "shortlist": [
+          "BIAF",
+          "AKAN",
+          "LULU",
+          "CHPT",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "SST",
+          "CNI",
+          "GWRE",
+          "SUNB",
+          "TJGC",
+          "LGCL",
+          "ASAN",
+          "RARE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T13:22:35-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1316.json",
+        "shortlist": [
+          "BIAF",
+          "AKAN",
+          "LULU",
+          "CHPT",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "SST",
+          "GWRE",
+          "CNI",
+          "TJGC",
+          "SUNB",
+          "PL",
+          "ASAN",
+          "LHSW"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T13:51:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1346.json",
+        "shortlist": [
+          "BIAF",
+          "AKAN",
+          "LULU",
+          "CHPT",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "GWRE",
+          "SST",
+          "CNI",
+          "TJGC",
+          "SUNB",
+          "PL",
+          "ASAN",
+          "RARE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RARE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T14:21:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1416.json",
+        "shortlist": [
+          "BIAF",
+          "AKAN",
+          "LULU",
+          "WETO",
+          "CHPT",
+          "SWVL",
+          "PSQL",
+          "GWRE",
+          "CNI",
+          "SUNB",
+          "PL",
+          "TJGC",
+          "AMBA",
+          "ASAN",
+          "SST"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T14:51:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1446.json",
+        "shortlist": [
+          "BIAF",
+          "AKAN",
+          "LULU",
+          "CHPT",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "GWRE",
+          "LHSW",
+          "TJGC",
+          "PL",
+          "CNI",
+          "ASAN",
+          "SUNB",
+          "AMBA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T15:21:18-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1516.json",
+        "shortlist": [
+          "BIAF",
+          "AKAN",
+          "LULU",
+          "CHPT",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "GWRE",
+          "LHSW",
+          "SST",
+          "PL",
+          "TJGC",
+          "ASAN",
+          "AMBA",
+          "CNI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "live ask $11.00 has reached or passed the original take-profit target $10.58"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CNI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T15:52:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-04/shortlist_1546.json",
+        "shortlist": [
+          "AKAN",
+          "BIAF",
+          "LULU",
+          "CHPT",
+          "LHSW",
+          "WETO",
+          "SWVL",
+          "PSQL",
+          "GWRE",
+          "PL",
+          "ASAN",
+          "AMBA",
+          "SST",
+          "TJGC",
+          "SUNB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LULU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WETO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GWRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-04T15:52:11-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
