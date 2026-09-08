@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-09-08T08:52:14-04:00",
+  "decisions": [
+    {
+      "symbol": "BIDU",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: The significant 8.16x pre-market volume spike suggests a major institutional repricing event following the Sept. 7 news regarding the company's inclusion in the Shanghai and Shenzhen Stock Connect programs. While the immediate price action reflects a gap-down, this often presents a capitulation opportunity where market participants overreact to liquidity adjustments or arbitrage shifts related to new cross-exchange access. Given that the underlying catalyst improves long-term capital accessibility and institutional interest for the stock, the current panic selling provides a deep-value entry point for a mean reversion trade. The high volume indicates that active buyers are likely absorbing supply, setting the stage for a recovery once the initial volatility subsides. BEAR: The 7.44% gap lower in BIDU is a classic case of a 'priced in' event failing to materialize, as the market is aggressively unwinding the optimism surrounding the September 7th Stock Connect inclusion headlines. Despite the positive news flow regarding the Shanghai and Shenzhen Stock Connect access, the stock is seeing a massive 8.16x spike in pre-market volume toward the downside, indicating that the 'buy the news' trade has failed completely and institutional holders are rushing to exit. This is a classic exhaustion structure where the price action shows that the long-anticipated catalyst provided no support to the share price, leaving the open as prime exit liquidity. Because the selling pressure is broad-based and follows a fundamental rejection of the recent inclusion news, the gap is likely to remain under pressure throughout the session rather than recover.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DYN",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: DYN is experiencing a massive, capitulatory volume surge with over 570,000 shares traded, representing 191x the baseline volume, which strongly suggests an institutional washout rather than retail panic. While there is no specific headline from the last seven days to account for this 27% collapse, the sheer intensity of the pre-market volume signature indicates an exhaustion point where sellers are likely hitting a liquidity wall. Buying into this level assumes a mean-reversion play following the excessive panic-selling structure identified by the agent. Given the lack of fundamental news, this remains a purely technical rebound trade based on extreme oversold conditions. BEAR: DYN is experiencing a massive 27.10% gap down without a single breaking headline to justify the magnitude of this move; the most recent news from September 3rd regarding preclinical data is entirely disconnected from this price action. This lack of a catalyst, combined with the 'Panic Selling' structure identified by the candle agent, indicates a gap-fade failure mode where the pre-market low is merely the product of institutional stop-running rather than fundamental repricing. Because the move lacks a durable driver, the opening-auction will likely see aggressive mean reversion as liquidity flows in to capture the divergence from the company's unchanged fundamental profile.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IONS",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.3,
+      "stop_loss_pct": 1.8,
+      "reasoning": "net -0.45 = bull 0.35 - bear 0.80 (buy at >= +0.20). BULL: The selloff in IONS is an overreaction to the September 5th headlines regarding a clinical study failure of the pelacarsen program, which has already been priced into the massive 10.38% pre-market gap. While the volume signature is intense at 65x the baseline, it represents a climactic liquidation event where institutional fear is reaching a point of exhaustion. An aggressive buyer can look for a mean-reversion trade, as the market is conflating the broader cardiovascular study outcome with the specific progress of the ZANVASTRO program discussed on September 7th. A high-volume capitulation candle often marks the bottom for biotech stocks with multiple pipeline assets. BEAR: The IONS gap is driven by a failed drug catalyst first identified on September 4th, meaning the news is effectively stale and already discounted by the market. With the gap having stopped building despite high relative volume, the setup exhibits a clear exhaustion structure that suggests the sell-off is reaching its exhaustion point. Buying here ignores the reality that the primary catalyst for the decline is days old, and the opening auction is likely to serve as exit liquidity for those late to the trend. The pre-market price action reflects a market that has already fully processed the implications of the pelacarsen Phase III failure, leaving no structural edge for the long side at the open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NVS",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 1.84,
+      "stop_loss_pct": 1.31,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: The 31x baseline volume on this 12.7% gap indicates a massive institutional rotation triggered by the Phase III HARBOR study update released on 2026-09-08. While the market is reacting negatively to clinical trial uncertainties, the sheer scale of the volume suggests that the news has been fully discounted by aggressive sellers, setting the stage for a potential 'sell-the-rumor, buy-the-fact' exhaustion trap. Buying the open here is a contrarian bet that the aggressive selling has reached a liquidity floor, allowing for a technical snap-back as intraday shorts begin to cover into the vacuum created by the overnight flush. BEAR: The 12.73% gap on NVS is driven by a classic exhaustion structure following the failure of the Pelacarsen study, a negative event that already erased CHF4.9 billion in market cap yesterday. Today's news regarding the DM1 Phase III study update and the Pfizer brand acquisition fails to provide a positive catalyst, suggesting that the current pre-market price is merely a lagging reaction to yesterday's institutional liquidation. With the gap-fade failure mode in full effect, the current liquidity is likely exhausted, and any buying interest at the open will function as exit liquidity for institutions who have already repriced the stock based on the clinical trial setback.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 4.9e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "PHVS",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: PHVS is demonstrating a dominant volume signature, with pre-market volume exceeding its baseline average by over 1,000x, signaling high-conviction institutional accumulation. While the news regarding data presentation from September 3rd is slightly dated, the aggressive price action suggests the market is now repricing the stock based on the potential impact of those findings in the wake of broader sector momentum. The gap-and-run reversal structure confirms the bid is holding firm, and the lack of a fade into the open indicates traders are absorbing supply at these higher levels. This sustained interest provides a clear catalyst for a continuation move higher as momentum traders chase the breakout. BEAR: The 16.05% gap in PHVS lacks any fresh, material catalyst, as the most recent news regarding clinical data was released on September 3rd, leaving today's move reliant on secondary market speculation rather than new fundamentals. With the candle agent signaling a 'gap and run reversal' and the pre-market volume failing to sustain consistent aggressive building, the setup exhibits a classic exhaustion structure where the open will likely serve as exit liquidity for early movers. The current price level is disconnected from the dated symposium presentation, meaning the opening-auction reversal is highly probable once real institutional liquidity enters the tape at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PTON",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: The pre-market volume on PTON is significantly elevated at over 14x the baseline average, indicating high institutional engagement despite the negative gap. While the recent news flow from September 3rd and 4th highlights subscriber headwinds, this volume signature suggests that market participants are absorbing the sell-side pressure aggressively at current levels. There is no specific headline driving today's move, meaning this is a liquidity event rather than a fundamental repricing. A bullish entry relies on the expectation that this volume represents a capitulation bottom, with buyers stepping in to defend the $5.00 support level. BEAR: The 5.74% gap down on 14x relative volume is a classic exhaustion structure, confirming the bearish reversal trend noted in the candle analysis. With no fresh news since the September 4th report detailing a 16% monthly plummet, the current gap is merely the continuation of a stale sentiment sell-off that has already been priced in. Buying here represents an opening-auction reversal risk where the pre-market volume has already signaled the end of the selling pressure, making the current $5.09 level prime exit liquidity for institutions.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RGTI",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: RGTI is seeing massive accumulation with pre-market volume at 11.86x its average, signaling institutional conviction that overrides the CFO's minor share sale reported on 2026-09-08. The breakout continuation pattern and sustained price action confirm that buyers are aggressively absorbing supply at these higher levels. There is no specific headline providing a catalyst, meaning this move is driven by pure technical momentum and a structural shift in buyer demand. The extreme volume spike suggests a significant re-rating is underway, justifying an entry for a momentum-based breakout trade. BEAR: The RGTI gap is fundamentally compromised by an insider sell headline dated today, September 8th, where the CFO offloaded 25,000 shares near 52-week lows, creating a massive divergence between retail price optimism and management's liquidity preference. While volume is elevated at 11.86x, the lack of a fundamental positive catalyst makes this an exhaustion structure where the pre-market high is likely the session's peak. The setup is a classic gap-fade failure mode, as there is no specific growth news to justify an 8.34% move, leaving the opening auction vulnerable to immediate reversal when institutional sellers meet the thin-tape pre-market buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ROIV",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.10 = bull 0.95 - bear 0.85 (buy at >= +0.20). BULL: ROIV is exhibiting a classic institutional breakout following the massive dual-catalyst event of the first oral dermatomyositis drug approval and the highly anticipated ERS Congress presentation on the PHocus study. The pre-market volume of 564,225 shares\u2014a staggering 715x the baseline\u2014confirms that smart money is actively aggressive rather than just reacting to the headlines. The gap has held steady at the +20% level, indicating a strong bid that is absorbing supply at these higher valuations. This price action is supported by clear, fundamental milestones that reset the stock's valuation, making continuation likely as the broader market reacts to these topline results and approval news. BEAR: The 20% gap is fundamentally a 'sell the news' setup, as the excitement over the approval of the dermatomyositis drug and the PHocus study topline results hitting on September 8th has already been fully digested by pre-market liquidity. By peaking at $42.13, the stock exhibits a clear exhaustion structure where the momentum has stopped building before the opening bell, turning the pre-market volume into pure exit liquidity. This is a classic 'already priced in' scenario where the market is set to rotate into a gap-fade, as real institutional volume entering at 9:30 will prioritize profit-taking over chasing a headline-driven spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SEI",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: SEI is demonstrating a textbook breakout gap fueled by exceptional relative volume, currently trading at 33x its pre-market average. This momentum likely stems from the market recalibrating after the recent news on September 3rd regarding the Omega infrastructure expansion, which provides the tangible fundamental backing for this move. The structure shows sustained buying pressure rather than a singular fade-prone spike, indicating strong institutional absorption of the gap. With the stock holding its gains consistently throughout the pre-market session, the technical setup confirms a high-conviction breakout entry. BEAR: The current 8.91% gap lacks any fresh news catalyst, as the last relevant headlines regarding the Omega deal were published on 2026-09-03, making this move stale by five days. With the pre-market volume of 42,763 shares occurring in a vacuum devoid of new information, the price action represents classic thin-tape pricing that is highly susceptible to an opening-auction reversal. The lack of any new catalysts suggests this is a momentum-chasing liquidity trap where the pre-market high will likely serve as the session peak once institutional volume enters at the open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SG",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: SG is demonstrating a high-conviction breakout pattern supported by a massive volume influx of 20x the baseline average, signaling genuine institutional accumulation. The gap is being fueled by the market discounting the negative sentiment from recent articles in favor of the tangible, operational milestone of the company's Salt Lake City expansion which officially opens today, September 8. The price action is holding steady at the $7.35 level, confirming that buyers are absorbing supply and rejecting lower prices, which creates a strong foundation for an opening drive toward short-term resistance levels. BEAR: The current 7.46% gap lacks a fundamental catalyst, as the most recent news regarding a store opening in Utah is a localized event that fails to support a meaningful shift in institutional value. With no earnings or material sector shift driving the volume, this move exhibits the classic thin-tape pricing failure mode where the pre-market volume of 44,568 shares is too marginal to sustain price discovery against morning liquidity. Furthermore, the conflict between the 'breakout' candle structure and the bearish September 1st outlook regarding weak consumer sales creates an exhaustion structure that likely marks the open as exit liquidity for early chasers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SGML",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.68,
+      "stop_loss_pct": 2.2,
+      "reasoning": "net -0.45 = bull 0.45 - bear 0.90 (buy at >= +0.20). BULL: The massive pre-market volume of over 380,000 shares indicates aggressive institutional absorption of the panic selling triggered by the September 7th news regarding the Brazilian judicial ruling. While the market is reacting to the headline about suspended licenses, management has explicitly clarified in their September 8th update that operations remain unaffected and the ruling was issued without due process, creating a classic 'sell the headline, buy the fact' scenario. With volume running at 17x the baseline, the heavy liquidity ensures that once the initial liquidation stops, a sharp mean reversion is likely as the market recalibrates the actual legal risk versus the current 12% discount. BEAR: SGML is trapped in an 'already priced in' failure mode, as the pre-market gap has stabilized despite the dramatic headlines regarding the Brazilian court ruling on mining licenses. The news cycle has clearly peaked; while management claims operations are unaffected, the market is responding to the uncertainty of the injunction rather than the fundamental reality, ensuring that institutional sellers will use the 9:30 open as liquidity to exit their positions. This exhaustion structure confirms that the move is finished, as the high pre-market volume of 380,472 shares indicates significant absorption has already occurred, leaving no catalysts for a sustained reversal. Buying the open here is effectively catching a falling knife that has already reached its terminal velocity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SRPT",
+      "signal": "hold",
+      "confidence": 0.15,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net -0.70 = bull 0.25 - bear 0.95 (buy at >= +0.20). BULL: SRPT is seeing massive pre-market volume at 79.75x its baseline, suggesting an institutional rebalancing event rather than a retail panic sell-off following the 37% run-up reported on September 4th. While the technical structure is currently bearish, the extreme volume signature implies a liquidity event where large players are stepping in to absorb supply at lower price levels. This gap-down acts as a potential exhaustion point for profit-taking, providing a tactical entry for a mean-reversion trade. No specific news explains today's move, meaning this is purely a high-volume technical play on the stock's ability to hold the $20.00 floor. BEAR: SRPT is experiencing a significant 10.67% gap down without any fresh negative catalysts to justify the move, rendering the recent news from September 4th\u2014which highlighted a 37% gain\u2014completely disconnected from today's price action. This lack of a current, durable catalyst confirms the exhaustion structure where the pre-market volume of 196,136 shares serves only as exit liquidity rather than a new trend. The breakdown pattern combined with the absence of new, bad news signals that this gap is likely to suffer an opening-auction reversal as the thin-tape pricing collapses under the weight of real institutional volume at the open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

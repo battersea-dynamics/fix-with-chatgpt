@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-08T08:49:02-04:00",
+  "session_date": "2026-09-08",
+  "reads": {
+    "PHVS": {
+      "symbol": "PHVS",
+      "pattern": "Gap and run reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "ROIV": {
+      "symbol": "ROIV",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DYN": {
+      "symbol": "DYN",
+      "pattern": "Panic Selling",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SRPT": {
+      "symbol": "SRPT",
+      "pattern": "breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "NVS": {
+      "symbol": "NVS",
+      "pattern": "gapping breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SGML": {
+      "symbol": "SGML",
+      "pattern": "Bearish Gap and Go",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "IONS": {
+      "symbol": "IONS",
+      "pattern": "gap-down breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SEI": {
+      "symbol": "SEI",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "RGTI": {
+      "symbol": "RGTI",
+      "pattern": "Breakout continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "BIDU": {
+      "symbol": "BIDU",
+      "pattern": "gap-down bearish continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SG": {
+      "symbol": "SG",
+      "pattern": "Breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PTON": {
+      "symbol": "PTON",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

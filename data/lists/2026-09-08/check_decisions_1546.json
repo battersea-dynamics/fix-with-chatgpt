@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-09-08T15:51:38-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "LHSW",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: LHSW is exhibiting extreme technical oversold conditions, trading 57.10% below its 20-day moving average on massive relative volume of 30.81x. Despite the sharp intraday decline, the stock has shown signs of a potential bounce, registering a 36.5385% gain in the most recent observation interval and demonstrating significant price acceleration of 64.3162 percentage points. While the catalyst report contains no news to explain today's move, the combination of extreme volume and recent positive momentum intervals suggests a high-probability mean reversion trade. The sheer scale of the volume at these price levels implies institutional participation, making this a compelling tactical play for a short-term recovery. BEAR: LHSW is deep into a catastrophic trend characterized by a 68.44% loss on the day and a 69.40% drawdown from its observed high of $4.64. The tape shows clear deterioration, as the relative volume rate is rapidly contracting with a negative change of 1.6602 per 30-minute interval, signaling that participation is drying up while the stock remains anchored at 57.10% below its 20-day MA. The recent September 3rd news of an $11 million follow-on offering has clearly resulted in structural dilution that the market is still punishing, leaving little room for a sustained recovery in the coming days.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 1.1e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SST",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: SST is showing significant momentum with a 33.81% gain and a relative volume of 5.20x, indicating strong market interest and sustained participation. The ticker has maintained 12 consecutive positive observations over a 330-minute span, demonstrating resilience even as it trades 129.72% above its 20-day moving average. While the catalyst report contains no news from the current session, the recent surge follows high-profile activity regarding its MapQuest application, providing a fundamental backdrop for this explosive price action. With price acceleration at 0.2725 points and limited drawdown of only 3.75% from its observed high, the tape suggests institutional buyers remain committed to this move. BEAR: SST is a clear case of chasing after a massive 33.81% daily move that has pushed the stock 129.72% above its 20-day moving average. The momentum is actively deteriorating, evidenced by a shrinking rel_volume_rate_per_30m and a negative change in volume pace, confirming that institutional interest is waning as price discovery stalls. With no fresh catalysts in the last seven days to justify such an extreme extension, current buyers are merely acting as exit liquidity for earlier entrants. The drawdown from the observed high already sits at -3.75%, signaling that the upward momentum has stalled and the risk of a sharp mean reversion is high.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SWVL",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: SWVL is demonstrating significant intraday strength, rallying 28.57% and maintaining a position 164.60% above its 20-day moving average, which signals a strong breakout in momentum. The stock has shown resilience throughout the session, remaining positive in 6 of 11 observed intervals and delivering an 11.59% return since it was first identified. While there is no specific fundamental news catalyst explaining this move in the report, the consistent rank of 3 among movers throughout the day confirms robust market interest. The current drawdown of only 3.94% from the observed high indicates buyers are stepping in to defend the recent gains. BEAR: SWVL is exhibiting a clear 'chasing' failure mode, with the stock currently trading 164.60% above its 20-day moving average on extremely weak volume (0.21x normal). Despite being highlighted in today's 'Industrials Stocks Moving' headlines, there is no fundamental catalyst to explain the parabolic move, suggesting the price action is purely speculative and devoid of institutional participation. The tape confirms this deterioration: the relative volume rate is declining, the score has dropped, and the stock is showing a 3.94% drawdown from its observed high, signaling an exhausted move that is unlikely to sustain its 28.57% daily gain.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DYN",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: DYN is demonstrating a high-conviction intraday recovery, having surged 12.53% since being first identified 330 minutes ago despite a sharp initial gap-down. The stock is currently exhibiting strong tape persistence with 12 consecutive scan observations and positive price development in 8 of the last 11 intervals, all supported by a massive relative volume of 8.90x. While the catalyst report contains no specific positive news regarding the equity, the current technical momentum\u2014including a price acceleration of 0.5076 percentage points and minimal drawdown of only 0.7225% from the observed intraday high\u2014suggests aggressive institutional accumulation at these levels. This provides a compelling setup for a mean-reversion trade as the stock attempts to bridge the gap from its 20-day moving average. BEAR: DYN is currently attempting a recovery from a massive 15.12% single-session gap-down, leaving it trading 20.24% below its 20-day moving average, which indicates structural weakness rather than a clean trend. While the current session shows a temporary bounce, the move is occurring against a backdrop of news involving sector peers Ionis and Novartis trending lower, suggesting the selling pressure is thematic and likely to resume. The momentum data confirms this vulnerability, as the score has degraded by -0.5408, indicating that the 'sustained_continuation' setup is losing steam as price struggles to re-test the observed high of $20.76. Entering here is effectively buying into a 'falling knife' scenario where the underlying fundamental catalyst for the sector-wide decline remains unresolved.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PHVS",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net +0.00 = bull 0.75 - bear 0.75 (buy at >= +0.20). BULL: PHVS is exhibiting exceptional relative volume at 8.67x its 20-day history, driven by today's critical headline regarding topline results from the Phase III Chapter-3 study for deucrictibant. Despite a cooling-off period from the session highs of $40.71, the stock remains up 7.91% and is trading well above its 20-day moving average. The high institutional interest confirmed by the volume surge suggests this reaction to positive clinical data has legs, making the current pullback from peak intraday levels an attractive entry point for momentum traders. The combination of a fundamental catalyst and massive liquidity provides a strong setup for a bounce as the market digests the clinical trial results. BEAR: PHVS is currently exhibiting classic signs of exhaustion after a sharp intraday rally driven by the topline results of its Chapter-3 Phase III study. The stock is suffering from clear tape deterioration, evidenced by a 6.56% drawdown from its observed high and a negative 6.56% return since it was first flagged, suggesting traders are using the news as an exit liquidity event. Furthermore, participation is drying up rapidly as indicated by the falling relative volume rate (-0.1531) and negative price acceleration, confirming that buyers are failing to sustain the momentum required to breach the current session highs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BIAF",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: BIAF shows a notable resiliency by maintaining a return of 6.3555% since it was first seen at 10:17 ET, despite a broad-market intraday sell-off of 38.08%. The stock has demonstrated persistence with 12 consecutive scan observations and a recent ranking improvement from 7th to 6th, suggesting underlying support despite the current daily headline noise regarding market movers. While there is no specific fundamental catalyst in the news report to justify the move, the stock remains 35.45% above its 20-day moving average, confirming that the current price level is experiencing significant momentum interest. The combination of sustained rank improvement and positive performance since initial detection indicates a potential for a mean-reversion trade in the short term. BEAR: BIAF is currently a trap for momentum traders, as the stock is trading 35.45% above its 20-day MA while suffering a brutal -38.08% decline today despite the lack of any specific fundamental catalyst in the news feed. The tape shows definitive exhaustion, with a 4.49% drawdown from the observed session high and a clear lack of participation evidenced by a dismal relative volume of 0.31x. With a negative price acceleration of -4.0051 points and a setup explicitly flagged as exhausted or reversing, the recent intraday attempt to hold gains is failing, signaling that today's volatility is being driven by speculative churn rather than genuine demand.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NVS",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: NVS is presenting an aggressive mean-reversion opportunity following a capitulation event that pushed the stock down 13.61% today. The tape shows signs of stabilization with a 0.63% return since the previous observation interval and a significant increase in volume participation, evidenced by a relative volume rate of 5.17x and an accelerating relative volume rate change of 0.1665. While the news catalyst report notes negative sector sentiment regarding cholesterol drug developments today, the extreme oversold condition (11.71% below the 20-day MA) suggests the selling is exhausted, supported by the price acceleration of 0.8753 points over the final observation periods. BEAR: NVS is currently experiencing a severe technical breakdown, marked by a 13.61% day change and a position 11.71% below its 20-day MA. The momentum data confirms a failure to stabilize, as the stock has exhibited a -0.7254% drawdown from its observed high with a rank decline from 6 to 7. Furthermore, the fresh market commentary regarding a competitor's cholesterol drug failure creates specific fundamental headwinds that likely exacerbate the selling pressure observed in today's 5.17x relative volume surge. Relying on this current price level constitutes classic bottom-fishing in a high-volume capitulation event where the price action shows no signs of support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GPCR",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: GPCR is showing classic signs of a capitulation bottom, evidenced by an extreme 3.79x relative volume spike as investors aggressively offload, providing a high-liquidity entry for a mean-reversion trade. While no specific catalyst explains today's move, the stock is currently trading 19.19% below its 20-day MA, suggesting it is significantly oversold in the short term. The tape analysis reveals early signs of stabilization with price acceleration of 0.8843 percentage points and a rank improvement, indicating that selling pressure is beginning to exhaust after the 13.75% decline. BEAR: GPCR is suffering from a sharp 13.75% decline with no specific catalyst in the news to justify this magnitude of volatility, as the only recent news regarding investor conferences is five days old and essentially non-material for a price drop of this scale. The stock has shown measurable deterioration over the last 90 minutes, with a 6.94% drawdown from its observed high and consistent negative returns across observed intervals. With price currently 19.19% below its 20-day moving average and volume participation struggling to find a floor, the lack of a clear catalyst suggests this is a momentum-driven liquidation rather than a reaction to specific fundamentals. Buying now constitutes chasing a falling knife with no immediate defensive catalyst to provide support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NUAI",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: NUAI is demonstrating significant momentum with a 20.61% gain supported by 2.47x relative volume, indicating strong institutional interest behind today's price action. The stock has shown resilience throughout the session with 7 positive observed intervals out of 11, holding a 3.4893% return since its initial surge at 10:17 ET. While the stock has pulled back slightly from its session high of $6.655, the current relative volume rate increase of 0.0815 confirms that participation remains elevated, suggesting potential for a retest of highs despite the recent consolidation. The move is highlighted by its inclusion in the September 8th Benzinga report on stocks moving higher, providing external validation of the stock's current visibility and retail momentum. BEAR: NUAI is experiencing clear price deterioration after its initial move, evidenced by a 1.95% drawdown from the observed high and a negative price acceleration of -1.95%. The lack of a specific, company-driven catalyst in the news report\u2014which merely categorizes NUAI among 'other big stocks'\u2014suggests the 20.61% gain is momentum-driven rather than fundamental, leaving the 27.13% extension above the 20-day MA vulnerable. With a worsening rank and a negative return over the most recent interval, the stock is currently serving as exit liquidity for earlier buyers rather than a sustainable breakout.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LGCL",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 1.69,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.55 = bull 0.10 - bear 0.65 (buy at >= +0.20). BULL: There is currently no catalyst or fundamental news to support a long position in LGCL, as the report is empty. The stock shows no positive momentum, evidenced by a 4.09% decline since it was first seen and a current drawdown of 5.97% from its observed high. With relative volume at a nominal 0.11x and persistent negative price acceleration, the tape provides no confirmation of a reversal. Consequently, this is a forced case with no evidence to suggest buying at this time. BEAR: LGCL exhibits a classic 'no catalyst' trap combined with severe volume failure, as evidenced by a relative volume of 0.11x and a lack of any news to support its movement. The intraday tape shows clear deterioration with a -4.09% return since it was first seen and a drawdown of nearly 6% from its observed high. With price acceleration at -1.49% and a negligible volume participation rate, the lack of institutional interest confirms that this is simply a drift into lower liquidity, making any entry a bet on a dead stock.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SGML",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: SGML presents a compelling mean-reversion opportunity after a sharp 15.21% decline, driven by management's formal confirmation on 2026-09-08 that mining and industrial operations remain unaffected by a contested Brazilian court ruling. The tape provides strong evidence of a bottoming process, evidenced by 5 consecutive positive observations over a 210-minute window and a 0.3343% recovery from the initial low. With relative volume at 2.69x normal, the heavy participation suggests institutional buyers are actively absorbing the supply and validating management's rebuttal of the regulatory headline. BEAR: SGML is experiencing a significant drawdown on the back of a legal dispute involving a Brazilian court ruling that threatens its mining licenses. Despite the stock showing a short-term bounce with 2.69x relative volume, price acceleration has turned negative at -0.45%, suggesting the recovery is losing steam. Attempting to catch a bottom while the company faces fundamental existential risk regarding its core operations\u2014even if management claims the ruling is without due process\u2014is essentially trading into the path of an ongoing legal headline cascade. The current price level is 12.23% below the 20-day MA, reflecting a wounded trend that lacks the stability to justify a long entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HWM",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: HWM is presenting a classic mean-reversion opportunity following a significant 9.79% single-day selloff that has pushed the stock 13.86% below its 20-day moving average. Trading volume is exceptionally high at 3.04x normal levels, indicating that the institutional selling pressure is likely reaching a climactic exhaustion point. While the stock has seen a drawdown of 3.74% from its daily high, we are seeing signs of stabilization with the rank improving by 2 spots in the most recent observations. This technical wash-out in a fundamentally strong aerospace player offers an attractive entry point for a short-term bounce as the market absorbs the recent volatility. BEAR: HWM is suffering from definitive exhaustion, as evidenced by a 3.74% drawdown from the observed session high alongside an entirely negative sequence of observed intervals over the last 270 minutes. The stock is currently 13.86% below its 20-day moving average, confirming that the current 9.79% daily decline is not a momentary dip but a sustained collapse in momentum. Furthermore, the news cycle provides no bullish catalyst to justify a reversal, as the recent headlines regarding competitive 'war games' in blades and vanes suggest a challenging environment rather than a recovery narrative. Investors buying now are acting as liquidity for a sustained downtrend that shows no signs of stabilization.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BEAM",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net +0.00 = bull 0.75 - bear 0.75 (buy at >= +0.20). BULL: BEAM is exhibiting a powerful intraday reversal, having rallied 5.0875% since its first appearance despite a broader daily decline, backed by significant buying interest with 3.42x relative volume. This resilience is fundamentally supported by today's multiple positive news catalysts regarding updated Phase 1/2 data for BEAM-302 and the company's progress toward accelerated FDA approval for its base-editing platform. The technical setup demonstrates persistent momentum with 12 consecutive positive observation intervals, a tight drawdown of only 0.4036% from the intraday high, and accelerating relative volume participation, suggesting that the initial market sell-off is being aggressively absorbed by buyers recognizing the value in the new clinical data. BEAR: Despite the flow of news regarding BEAM-302, BEAM is currently down 9.07% on the day, suggesting that the market has fundamentally rejected the clinical data rather than rewarding it. The stock is exhibiting significant tape deterioration, evidenced by a negative price acceleration of -0.7069% and a failure to recover from its observed high, resulting in a drawdown that highlights exhaustion at the current valuation. With relative volume at 3.42x, the intense turnover occurring during a sharp price decline indicates heavy distribution by institutional sellers, making a long entry effectively a bet against established downward momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WLTH",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: WLTH is exhibiting strong accumulation ahead of its earnings release scheduled for after the market close on 2026-09-09. The stock is trading with significant conviction, evidenced by a relative volume of 3.27x its 20-day average and price action holding 4.14% above its 20-day moving average. While this is a tape-only momentum play, the high volume participation suggests institutional positioning in anticipation of the upcoming earnings catalyst. Traders are effectively using the current session to front-run the expected volatility surrounding tomorrow's report. BEAR: Buying WLTH today exposes the trader to binary event risk as the company reports earnings tomorrow, September 9th, after the market closes. With the stock currently trading at a 3.27x relative volume and 4.14% above its 20-day moving average, any entry now is effectively chasing a move into an impending volatility event. The absence of specific news driving this volume suggests this price action is speculative positioning rather than a fundamental breakout, making it highly susceptible to a sharp mean-reversion move ahead of the earnings release.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XTND",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net -0.15 = bull 0.50 - bear 0.65 (buy at >= +0.20). BULL: XTND is presenting an attractive entry point following a recent pullback, underscored by significant institutional interest reflected in the September 5th initiation of coverage by Jones Trading with a Buy rating. The stock's heavy relative volume of 2.39x demonstrates robust market participation, signaling that this dip is being met with active interest rather than a vacuum of support. Furthermore, recent management commentary highlighting that AI is outpacing Pentagon procurement suggests a strong fundamental growth runway for the company. Given the current price remains 20.50% above its 20-day MA, the technicals show the stock is finding a structural floor after today's intraday volatility. BEAR: XTND is currently experiencing a technical exhaustion event, evidenced by a 20.50% extension from its 20-day moving average despite an 11.15% drawdown during today's session. While the recent CEO interviews and Jones Trading analyst initiation provided initial momentum, the stock is showing clear signs of chasing risk, with a 2.39x relative volume spike that has already resulted in a 0.272% drawdown from the session's observed high. With the news cycle on this stock saturated over the past 72 hours, buying at current levels represents an attempt to capture the tail end of a volatility event rather than a sustainable trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "LHSW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SWVL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DYN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PHVS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BIAF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NVS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GPCR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NUAI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGCL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SGML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HWM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BEAM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WLTH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XTND",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

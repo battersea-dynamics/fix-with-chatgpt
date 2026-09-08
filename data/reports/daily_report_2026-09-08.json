@@ -1,0 +1,1315 @@
+{
+  "date": "2026-09-08",
+  "events": [
+    {
+      "at_et": "2026-09-08T08:46:51-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-08T08:52:14-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-08T09:31:59-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGTI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ROIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRPT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T10:21:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1016.json",
+        "shortlist": [
+          "PHVS",
+          "DYN",
+          "SWVL",
+          "GNK",
+          "BIAF",
+          "NVS",
+          "BEAM",
+          "NUAI",
+          "LGCL",
+          "GPRK",
+          "SST",
+          "LHSW",
+          "AOUT",
+          "XTND",
+          "EOSE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GPRK",
+            "action": "submitted",
+            "order": {
+              "symbol": "GPRK",
+              "qty": 32,
+              "est_cost": 384.0,
+              "entry_ref": 12.0,
+              "take_profit": 12.47,
+              "remaining_take_profit_pct": 3.95,
+              "stop_loss": 11.73,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260908-102127-GPRK",
+              "analysis_price": 11.98,
+              "live_price_change_pct": 0.17
+            },
+            "broker": {
+              "id": "1f849495-652b-41e8-b890-d36858721701",
+              "client_order_id": "ta-20260908-102127-GPRK",
+              "symbol": "GPRK",
+              "qty": "32",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 12.47,
+              "stop_loss": 11.73,
+              "legs": [
+                "44efded4-6c93-45dd-80b7-da0ac2885789",
+                "6c849186-26cf-44f2-b187-865a37f1c13e"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AOUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XTND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T10:51:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1046.json",
+        "shortlist": [
+          "PHVS",
+          "DYN",
+          "SWVL",
+          "BIAF",
+          "GNK",
+          "NVS",
+          "NUAI",
+          "BEAM",
+          "LHSW",
+          "LGCL",
+          "AOUT",
+          "SST",
+          "ROIV",
+          "IONS",
+          "EOSE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ROIV",
+            "action": "submitted",
+            "order": {
+              "symbol": "ROIV",
+              "qty": 7,
+              "est_cost": 285.46,
+              "entry_ref": 40.78,
+              "take_profit": 43.21,
+              "remaining_take_profit_pct": 5.95,
+              "stop_loss": 39.64,
+              "confidence": 0.65,
+              "client_order_id": "ta-20260908-105134-ROIV",
+              "analysis_price": 40.87,
+              "live_price_change_pct": -0.22
+            },
+            "broker": {
+              "id": "3aaa1c10-7b2b-497f-b671-3788999bf1d1",
+              "client_order_id": "ta-20260908-105134-ROIV",
+              "symbol": "ROIV",
+              "qty": "7",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 43.21,
+              "stop_loss": 39.64,
+              "legs": [
+                "b3d27123-7a2c-4ef2-a205-f35f3adc7aa4",
+                "453afcb8-0985-4f50-b1e3-a0a36aaeb886"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AOUT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T11:21:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1116.json",
+        "shortlist": [
+          "PHVS",
+          "DYN",
+          "SWVL",
+          "BIAF",
+          "NVS",
+          "LHSW",
+          "GNK",
+          "NUAI",
+          "LGCL",
+          "BEAM",
+          "EOSE",
+          "SST",
+          "HWM",
+          "IONS",
+          "XTND"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XTND",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T11:51:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1146.json",
+        "shortlist": [
+          "PHVS",
+          "DYN",
+          "SWVL",
+          "NVS",
+          "BIAF",
+          "LHSW",
+          "GNK",
+          "NUAI",
+          "LGCL",
+          "SST",
+          "BEAM",
+          "HYPD",
+          "EOSE",
+          "HWM",
+          "BE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "position size cap exceeded, skipped: 1 share at $281.26 > current cash-based budget ($260.72)"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T12:27:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1216.json",
+        "shortlist": [
+          "DYN",
+          "PHVS",
+          "SWVL",
+          "LHSW",
+          "NVS",
+          "BIAF",
+          "NUAI",
+          "GNK",
+          "SST",
+          "LGCL",
+          "BEAM",
+          "BE",
+          "SGML",
+          "IONS",
+          "EOSE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "position size cap exceeded, skipped: 1 share at $293.01 > current cash-based budget ($260.72)"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T12:54:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1247",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1247.json",
+        "shortlist": [
+          "DYN",
+          "SWVL",
+          "PHVS",
+          "SST",
+          "LHSW",
+          "NVS",
+          "BIAF",
+          "NUAI",
+          "GNK",
+          "BEAM",
+          "LGCL",
+          "HYPD",
+          "IONS",
+          "HWM",
+          "BE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T13:21:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1316.json",
+        "shortlist": [
+          "DYN",
+          "SWVL",
+          "PHVS",
+          "SST",
+          "LHSW",
+          "NVS",
+          "BIAF",
+          "NUAI",
+          "GNK",
+          "LGCL",
+          "BEAM",
+          "BE",
+          "HYPD",
+          "HWM",
+          "EOSE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "position size cap exceeded, skipped: 1 share at $286.49 > current cash-based budget ($260.72)"
+          },
+          {
+            "symbol": "HYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T13:51:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1346.json",
+        "shortlist": [
+          "LHSW",
+          "SST",
+          "SWVL",
+          "DYN",
+          "PHVS",
+          "NVS",
+          "BIAF",
+          "NUAI",
+          "LGCL",
+          "SGML",
+          "BEAM",
+          "GNK",
+          "BE",
+          "HYPD",
+          "EOSE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EOSE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T14:21:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1416.json",
+        "shortlist": [
+          "LHSW",
+          "SST",
+          "SWVL",
+          "DYN",
+          "PHVS",
+          "NVS",
+          "BIAF",
+          "NUAI",
+          "LGCL",
+          "BEAM",
+          "SGML",
+          "BE",
+          "GNK",
+          "GPCR",
+          "WCT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "position size cap exceeded, skipped: 1 share at $284.20 > current cash-based budget ($260.72)"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPCR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T14:52:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1446.json",
+        "shortlist": [
+          "LHSW",
+          "SST",
+          "SWVL",
+          "DYN",
+          "PHVS",
+          "NVS",
+          "BIAF",
+          "NUAI",
+          "LGCL",
+          "GPCR",
+          "SGML",
+          "BEAM",
+          "WCT",
+          "BE",
+          "GNK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPCR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T15:21:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1516.json",
+        "shortlist": [
+          "LHSW",
+          "SST",
+          "SWVL",
+          "DYN",
+          "PHVS",
+          "NVS",
+          "BIAF",
+          "NUAI",
+          "GPCR",
+          "LGCL",
+          "SGML",
+          "WCT",
+          "BEAM",
+          "HWM",
+          "BE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPCR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T15:51:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-08/shortlist_1546.json",
+        "shortlist": [
+          "LHSW",
+          "SST",
+          "SWVL",
+          "DYN",
+          "PHVS",
+          "BIAF",
+          "NVS",
+          "GPCR",
+          "NUAI",
+          "LGCL",
+          "SGML",
+          "HWM",
+          "BEAM",
+          "WLTH",
+          "XTND"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LHSW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PHVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPCR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XTND",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-08T15:51:38-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
