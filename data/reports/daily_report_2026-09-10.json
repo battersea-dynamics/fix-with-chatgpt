@@ -1,0 +1,1198 @@
+{
+  "date": "2026-09-10",
+  "events": [
+    {
+      "at_et": "2026-09-10T08:46:49-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-10T08:52:40-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-10T09:32:00-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HBM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TECK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T10:22:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1016.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "COO",
+          "NAVN",
+          "SWVL",
+          "SHOE",
+          "SUNE",
+          "LGCL",
+          "AVAV",
+          "TSSI",
+          "AEO",
+          "XFOR",
+          "BNC",
+          "BHVN",
+          "DFNS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AVAV",
+            "action": "submitted",
+            "order": {
+              "symbol": "AVAV",
+              "qty": 2,
+              "est_cost": 310.0,
+              "entry_ref": 155.0,
+              "take_profit": 162.54,
+              "remaining_take_profit_pct": 4.86,
+              "stop_loss": 150.5,
+              "confidence": 0.65,
+              "client_order_id": "ta-20260910-102245-AVAV",
+              "analysis_price": 153.1067,
+              "live_price_change_pct": 1.24
+            },
+            "broker": {
+              "id": "e6cfca25-cb9d-4bad-a8e2-d499ad3fae9a",
+              "client_order_id": "ta-20260910-102245-AVAV",
+              "symbol": "AVAV",
+              "qty": "2",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 162.54,
+              "stop_loss": 150.5,
+              "legs": [
+                "a00b039a-6f21-4b6d-a466-22d17f2edd69",
+                "423e0416-41bb-4c1f-9a66-d43e0e6b21b4"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XFOR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T10:52:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1046.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "COO",
+          "NAVN",
+          "SWVL",
+          "SHOE",
+          "LGCL",
+          "SUNE",
+          "AEO",
+          "BNC",
+          "BHVN",
+          "TSSI",
+          "AXGN",
+          "SST",
+          "DFNS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFNS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T11:22:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1116.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "COO",
+          "NAVN",
+          "SWVL",
+          "SHOE",
+          "LGCL",
+          "SUNE",
+          "AEO",
+          "AXGN",
+          "BNC",
+          "TSSI",
+          "SST",
+          "BHVN",
+          "WLTH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T11:52:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1146.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "COO",
+          "NAVN",
+          "SWVL",
+          "SHOE",
+          "SUNE",
+          "LGCL",
+          "AEO",
+          "AXGN",
+          "WLTH",
+          "SST",
+          "TSSI",
+          "BNC",
+          "BHVN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T12:22:20-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1216.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "NAVN",
+          "SWVL",
+          "COO",
+          "SUNE",
+          "SHOE",
+          "LGCL",
+          "AEO",
+          "WLTH",
+          "AXGN",
+          "SST",
+          "BNC",
+          "TSSI",
+          "BHVN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T12:52:06-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1246.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "COO",
+          "NAVN",
+          "SWVL",
+          "SUNE",
+          "SHOE",
+          "WLTH",
+          "AEO",
+          "LGCL",
+          "AXGN",
+          "SST",
+          "BHVN",
+          "TSSI",
+          "BNC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T13:23:18-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1316.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "SWVL",
+          "NAVN",
+          "COO",
+          "WLTH",
+          "SUNE",
+          "SHOE",
+          "AEO",
+          "LGCL",
+          "AXGN",
+          "SST",
+          "DBI",
+          "BNC",
+          "TSSI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T13:52:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1346.json",
+        "shortlist": [
+          "RWT",
+          "BKV",
+          "SWVL",
+          "NAVN",
+          "COO",
+          "WLTH",
+          "LGCL",
+          "SUNE",
+          "SHOE",
+          "AEO",
+          "AXGN",
+          "SST",
+          "DBI",
+          "BNC",
+          "BHVN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHVN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T14:23:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1416.json",
+        "shortlist": [
+          "RWT",
+          "SWVL",
+          "BKV",
+          "NAVN",
+          "COO",
+          "WLTH",
+          "SUNE",
+          "LGCL",
+          "AEO",
+          "SHOE",
+          "AXGN",
+          "SST",
+          "SEDG",
+          "DBI",
+          "OBE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEDG",
+            "reason": "live ask fell 2.13% from delayed scan price $36.09; 2% max downside"
+          },
+          {
+            "symbol": "DBI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OBE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T14:51:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1446.json",
+        "shortlist": [
+          "RWT",
+          "SWVL",
+          "BKV",
+          "NAVN",
+          "COO",
+          "WLTH",
+          "SUNE",
+          "LGCL",
+          "AEO",
+          "SHOE",
+          "AVAV",
+          "AXGN",
+          "SST",
+          "DBI",
+          "BNC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T15:21:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "APIError: {\"base_price\":\"149.73\",\"code\":42210000,\"message\":\"stop_loss.stop_price must be \\u003c= base_price - 0.01\"}"
+      }
+    },
+    {
+      "at_et": "2026-09-10T15:51:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-10/shortlist_1546.json",
+        "shortlist": [
+          "RWT",
+          "SWVL",
+          "BKV",
+          "NAVN",
+          "COO",
+          "WLTH",
+          "AEO",
+          "SUNE",
+          "LGCL",
+          "SHOE",
+          "AVAV",
+          "AXGN",
+          "BNC",
+          "SST",
+          "DBI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKV",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NAVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WLTH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGCL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVAV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-10T15:51:42-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

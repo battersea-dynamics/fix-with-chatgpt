@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-09-10T12:52:06-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "RWT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: RWT is exhibiting an extreme volume anomaly with relative volume at 13.64x, indicating a massive institutional reassessment following the announcement of a convertible senior notes offering and the declaration of quarterly dividends on 2026-09-10. Despite the intraday drawdown, the stock remains 3.2197% above its first seen price and has maintained top-tier ranking in our scanner for 150 minutes, suggesting significant buyer interest at these support levels. With the stock trading 26.78% below its 20-day moving average, there is substantial room for a mean-reversion bounce as investors digest the capital structure update. The surge in volume rate change (+0.4982) suggests that liquidity is sufficient to support a rapid snap-back. BEAR: The stock is currently suffering from a massive 20.31% daily drawdown accompanied by a primary catalyst of a convertible senior note offering, which is inherently dilutive and typically acts as a long-term anchor on price. Despite a 13.64x relative volume spike indicative of a capitulation event, the current price acceleration is negative (-2.3189%) and the stock is trading 26.78% below its 20-day moving average, confirming intense selling pressure. The setup is clearly exhausted, with a negative return since the previous observation interval and a persistent 3.13% drawdown from the observed session high, signaling that buyers are providing exit liquidity for those reacting to the debt issuance news.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BKV",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: BKV is exhibiting significant momentum today with an exceptional relative volume of 12.58x, signaling intense institutional interest following the news that the company successfully priced an upsized $500 million convertible senior notes offering. The stock has maintained a strong 2.9996% return since it was first flagged 150 minutes ago and has shown consistent price strength with four out of five observed intervals remaining positive. Trading at $24.38, the stock is currently at its observed high with zero drawdown, confirming that buyers are aggressively absorbing supply and providing a clear path for near-term follow-through. BEAR: The stock is currently exhibiting a clear 'chasing' failure mode, with a significant 12.58x relative volume spike that has already seen the volume pace drop by 1.6144. Price momentum has stalled, evidenced by a -0.9106 percentage point drop in price acceleration and a negative score change of -1.3356 over the observed intervals. Furthermore, the intraday news regarding the upsized $500 million convertible notes offering serves as a ceiling, as the market digests the dilutive impact of this fresh capital structure change, preventing further upside momentum.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5e+08 - no matching value in source data",
+        "bear: cited 5e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "COO",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: COO is presenting an aggressive mean-reversion opportunity following a 14.19% sell-off, with high-intensity participation evidenced by 5.11x relative volume. The stock has demonstrated resilient momentum, showing six consecutive observations with rank improvement from 5 to 3 and a positive price return of 0.0369% since first being identified. While current sentiment is pressured by earnings-related headlines concerning revenue misses and valuation concerns, the significant volume suggests institutional capitulation which often marks short-term bottoms in high-quality medical device names. The combination of extreme distance from the 20-day MA and stabilizing internal rank improvement provides a technical basis for a tactical bounce. BEAR: COO is suffering from a fundamental overhang following today's Q3 earnings, where revenue misses on destocking and a failed divestiture of CooperSurgical have triggered a massive 14.19% sell-off. The price is deeply extended, sitting 25.06% below its 20-day MA, yet the intraday tape shows clear evidence of exhaustion: the stock has failed to reclaim its observed high, exhibiting a persistent drawdown of -0.7022% while momentum remains mixed with negative price acceleration. Despite the high relative volume of 5.11x, buyers are clearly trapped, and any attempt at a bounce is likely to serve as exit liquidity for institutions digesting the negative news catalyst released earlier today.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NAVN",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: NAVN is displaying a classic oversold mean-reversion setup following a 20.34% intraday decline, supported by massive buying interest evidenced by 3.78x relative volume. The price action demonstrates resilience, having achieved positive returns in three of the last five observed intervals and maintaining a narrow 1.62% drawdown from its observed session high. While there is no specific company news, the stock's inclusion in '12 Consumer Discretionary Stocks Moving In Thursday's Pre-Market Session' suggests high institutional awareness as it reclaims value. With the stock trading 27.75% below its 20-day moving average, the current price acceleration of 0.36% provides a clear technical window for a short-term bounce. BEAR: NAVN is currently exhibiting clear deterioration as it attempts to recover from a 20.34% drop, with momentum stalling as evidenced by a rank drop from 3 to 4 and a negative score change of -0.3593. Despite a high relative volume of 3.78x, the volume pace is actively weakening with a rate of -0.0775 per 30 minutes, indicating that participation is fading as the stock struggles to sustain its intraday highs. With no specific company catalyst to justify this massive 27.75% extension from the 20-day moving average, buying here is essentially chasing an exhausted rebound in a hostile macro environment marked by rising producer inflation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SWVL",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: SWVL demonstrates strong momentum with a 4.90% daily gain and has maintained an 8.25% return since its first observation 150 minutes ago, backed by six consecutive positive scan reports. The stock is currently trading 154.28% above its 20-day moving average, signaling significant relative strength and breakaway potential. The bull case is further anchored by the positive catalyst from September 8, 2026, where the company announced an expansion of its HSBC working capital facility by 110%, providing concrete liquidity support for its operations. While relative volume is currently thin, the consistent price performance and recent structural news provide a foundation for short-term upside continuation. BEAR: SWVL presents a clear case of chasing, as the stock is trading 154.28% above its 20-day moving average on negligible volume, with relative volume at only 0.04x normal. The news regarding the HSBC facility expansion occurred two days ago and is now fully priced in, leaving the current 4.90% move unsupported by fresh catalysts. Tape deterioration is evident in the intra-day data, which shows a negative price acceleration of -4.3362 and a worsening rank, indicating that interest is fading rapidly after the initial session gap. Buyers at this level are effectively providing exit liquidity for earlier participants in a move that lacks institutional participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SUNE",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: SUNE is exhibiting a extreme mean-reversion setup following a significant 21.73% intraday decline, leaving it positioned 44.76% above its 20-day moving average. Investor interest remains high as evidenced by a 1.26x relative volume spike and the stock's inclusion in recent market radar headlines as of 2026-09-09. While the momentum is currently volatile, the price acceleration of 6.3064 percentage points and continued active participation suggest the selling pressure is reaching an exhaustion point. Buying now captures a deep discount on a name that remains on the radar of active market participants. BEAR: SUNE is suffering from significant technical deterioration, having fallen 21.73% on the day while still sitting 44.76% above its 20-day moving average, indicating the stock remains highly extended despite the sharp reversal. Momentum data confirms a clear failure to find support, as the stock has dropped 11.30% since first appearing in the scan and shows a drawdown of 15.34% from its session high of 4.1699. With no specific company news to explain the current volatility\u2014only generic inclusion in 'radar' lists\u2014the stock is functioning as pure exit liquidity for holders attempting to capture residual value after a parabolic move. The current tape shows clear exhaustion, with consistent downward pressure over six consecutive observation intervals.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SHOE",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: SHOE is demonstrating strong intraday resilience following an aggressive sell-off, evidenced by 6 consecutive observations of sustained continuation momentum and a 1.53% recovery since being first seen. With volume elevated at 3.51x the normal level, the stock is currently trading at its observed high of $12.28 with zero drawdown, suggesting a massive absorption of the negative sentiment surrounding today's earnings report. While the catalyst report confirms a Q2 earnings miss and guidance cut, the current tape behavior proves that buyers are aggressively stepping in to capitalize on the oversold conditions, as indicated by the 0.1195 increase in relative volume rate change. This setup represents a high-conviction mean-reversion trade where the market has likely overreacted to the headline news. BEAR: SHOE is currently suffering from a severe fundamental reset following a Q2 earnings miss and guidance cut that triggered a 21% tumble, making a recovery within a short-term holding window unlikely. While the stock has seen a massive 3.51x relative volume spike, this is clearly tied to the negative catalysts disclosed on 2026-09-10, suggesting the current price action is essentially exit liquidity for institutional sellers. Furthermore, the stock is trading 15.12% below its 20-day moving average, confirming that the current move is not a breakout but a reaction to a confirmed degradation of the company's outlook. With price acceleration currently negative at -0.2464, the setup shows clear signs of a failed bounce rather than a sustainable trend reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WLTH",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: WLTH is exhibiting strong momentum today, bolstered by the market's positive digestion of its Q2 2027 earnings results and the milestone of surpassing $100 billion in platform assets. The stock shows clear persistence with four consecutive positive observations, a 3.17% gain since first seen, and zero drawdown from the session high of $10.89. With relative volume at 2.11x and positive price acceleration, the tape confirms that institutional participants are actively chasing the stock despite the prior day's earnings release. The combination of fundamental growth milestones and robust technical follow-through supports continued upward price discovery. BEAR: WLTH is currently chasing a momentum peak following yesterday's earnings release, with a 15.12% gain pushing the stock 17.48% above its 20-day moving average. The intraday tape shows clear volume deterioration, as the relative volume rate per 30 minutes has dropped to 0.3426 with a negative change of -0.0703. Since the primary earnings headlines were released on 2026-09-09, today's price action represents late-stage retail momentum seeking exit liquidity rather than a sustainable trend. With the relative volume rate cooling despite the sustained price elevation, the setup indicates an exhaustion point for new long entries.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+11 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "AEO",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: AEO is currently experiencing an oversold condition, trading 14.33% below its 20-day moving average on heavy relative volume of 2.50x, which indicates significant exhaustion of the current selling pressure. While the stock has faced negative sentiment, UBS maintains a 'Buy' rating on the company today, suggesting that the long-term fundamental story\u2014highlighted by Aerie's 25% surge\u2014remains intact despite current market volatility. The stock's price acceleration of 0.7814% points within the observed session window suggests a potential stabilization or mean-reversion move is underway. Buying at these depressed levels offers a compelling risk-reward opportunity for a bounce as the market digests the current margin concerns. BEAR: AEO is facing a confirmed collapse in investor sentiment today, evidenced by a massive 15.45% intraday drop and an accelerating drawdown from the session high. The tape shows measurable deterioration, with a negative return since being first tracked and a weakening relative volume pace that suggests institutional exit liquidity rather than a dip-buying opportunity. Furthermore, the headline citing 'Margin Pressure' despite a purported 'Tariff Windfall' indicates the market is repricing the stock based on fundamental cost concerns that are currently overriding analyst-maintained price targets. With a -14.33% distance from the 20-day moving average, any attempt to catch this knife faces significant downside risk as the market reacts to these negative earnings-related margin narratives.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LGCL",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.04,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: LGCL shows a resilient intraday recovery, having gained 5.19% since being first identified despite the broader daily decline. The stock maintains strong price proximity to its session high of $3.26, exhibiting only a 0.61% drawdown, while demonstrating positive price acceleration of 0.61 percentage points. Notably, the catalyst report is entirely empty, meaning this move is driven by pure price action and momentum rather than external news volatility. Given the 150-minute observation window and consistent rank stability, the stock is showing signs of localized accumulation despite the low relative volume. BEAR: LGCL is suffering from an extreme lack of liquidity, evidenced by a relative volume of only 0.10x normal, rendering any entry prone to slippage and institutional abandonment. The lack of any catalyst news leaves the stock without a fundamental driver to sustain its price, while the deteriorating momentum\u2014reflected in a falling rank and a negative rank improvement\u2014suggests the modest intra-day gains are already facing selling pressure. With the stock trading at a 92.43% distance from its 20-day moving average, it is essentially drifting in a low-volume vacuum where the risk of a sharp mean-reversion move is high relative to the negligible participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AXGN",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: AXGN is showing signs of a potential oversold reversal today, trading at 2.70x normal relative volume following a 10.02% decline. The market is digesting news from today's M&A call transcript, which provides a fresh fundamental catalyst for investors to re-evaluate the stock's positioning after the sharp drawdown. Momentum data confirms a cooling of selling pressure, as the stock has posted 5 consecutive observations with a positive price acceleration of 1.1025 percentage points and an increase in relative volume rate change. Buying at these levels offers a compelling risk-to-reward entry point as the stock tests deep into the 20-day moving average deviation of -13.53%. BEAR: AXGN is currently suffering from a severe 10.02% drawdown on 2.70x relative volume, indicating aggressive institutional liquidation rather than a constructive pullback. The price sits 13.53% below its 20-day MA and has failed to show any intraday momentum recovery, with the last four observed intervals resulting in a 2.67% drawdown from the day's high. While the M&A call transcript released today provides a potential catalyst, the market's overwhelmingly negative price action suggests the news has triggered a 'sell the news' event or failed to provide the necessary support. Chasing this position is dangerous because the tape shows consistent score deterioration and a lack of buying interest despite the high volume participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SST",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: SST presents a mean-reversion opportunity following a significant 12.24% sell-off that has left the stock still trading 52.87% above its 20-day moving average, signaling that the broader trend remains intact despite today's weakness. The bullish narrative is underpinned by fundamentally positive momentum at System1, specifically the report on September 8th that its MapQuest property added 2 million new users over the past week. While today's tape shows an exhausted setup with a drawdown of 9.36%, the recent operational growth suggests that the current pullback is a decoupling from underlying user engagement. Buying at these depressed levels offers a tactical entry for a recovery back toward local highs. BEAR: SST is currently suffering from a clear failure to attract participation, evidenced by a relative volume of just 0.29x, indicating the recent price surge is lacking conviction. The stock is extended 52.87% above its 20-day moving average while simultaneously exhibiting a 9.36% drawdown from its observed session high, confirming it has become exit liquidity for those who entered earlier. Furthermore, the news regarding System1's MapQuest users is two days old and clearly priced in, leaving no active catalyst to support the current valuation. With a score change of -0.0448 and consistent negative returns since the first observation, the momentum has definitively turned against the bulls.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2e+06 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BHVN",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: BHVN is currently undergoing a significant oversold bounce following a 16.20% decline, evidenced by 1.29x relative volume indicating strong institutional interest in absorbing the selling pressure at current levels. While recent news regarding the RBC downgrade has weighed on sentiment, the stock has shown notable resilience with two consecutive rank improvements and a positive score change of 0.4779 in the most recent monitoring intervals. Given the stock is trading 15.61% below its 20-day moving average, the current price offers a favorable mean-reversion opportunity for a short-term tactical trade. BEAR: BHVN is currently suffering from a sustained downward trend, confirmed by the 16.20% daily decline and the price sitting 15.61% below its 20-day moving average. The stock is exhibiting clear signs of tape deterioration, including a negative price acceleration of -0.9434 and a 1.72% drawdown from the observed session high. Furthermore, the market has already digested the negative catalyst regarding the RBC downgrade from September 8th, yet the continued 1.29x relative volume suggests persistent selling pressure rather than an exhaustion of supply. Attempting to catch this falling knife is dangerous given that the momentum history shows a return of -1.52% since the stock was first spotted today.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TSSI",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 4.39,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.15 = bull 0.50 - bear 0.65 (buy at >= +0.20). BULL: TSSI is demonstrating significant relative strength with a 9.72% gain on 2.08x normal volume, signaling sustained institutional interest. The recent September 6 news regarding the company's strategic pivot toward AI data center infrastructure provides a fundamental narrative to support this price action. While the stock has seen a minor intraday drawdown of 1.50% from its high of $9.28, its ability to maintain a position 2.47% above its 20-day moving average over six consecutive observation periods suggests a stable breakout trend. This combination of strong volume and specific sector-driven momentum makes it a compelling candidate for momentum traders looking for further upside. BEAR: TSSI is suffering from clear intraday exhaustion, having lost 1.51% from its observed high of $9.28 with a negative price acceleration of -0.2183% across the last several intervals. Participation is actively fading, evidenced by a negative change in relative volume rate (-0.0447) while the stock remains extended 2.47% above its 20-day MA. The September 6th news regarding AI data centers is now four days old, meaning the primary buying interest has already been exhausted, leaving current participants as potential exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BNC",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.40 = bull 0.30 - bear 0.70 (buy at >= +0.20). BULL: BNC is demonstrating significant technical strength, currently trading 51.62% above its 20-day moving average and sustaining a daily gain of 5.42%. While the catalyst report contains no specific news driving today's action, the stock remains a recurring subject of interest in intraday industrial sector mover reports as of September 9th. The price is showing resilience with a minimal drawdown of only 2.0964% from its observed high of $4.77, supported by consistent, albeit low, relative volume participation. Given the proximity to the earnings release on September 21st, there is potential for continued momentum as traders position themselves ahead of the event. BEAR: BNC is currently suffering from a clear case of exhaustion following a 51.62% extension above its 20-day moving average, with the current 0.51x relative volume indicating the move lacks meaningful institutional participation. Momentum has measurably deteriorated, as evidenced by a negative return since the stock was first seen today and a widening 2.09% drawdown from the observed high. Furthermore, with no specific catalyst to explain this price action and earnings approaching in 11 days, the current setup acts as exit liquidity for earlier entrants rather than a viable breakout. The negative price acceleration and falling rank confirm that buyers are failing to support the stock at these elevated levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "RWT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BKV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "COO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NAVN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SWVL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SUNE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SHOE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WLTH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGCL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AXGN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BHVN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TSSI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BNC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
