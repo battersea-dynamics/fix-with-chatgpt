@@ -1,0 +1,241 @@
+{
+  "generated_at": "2026-09-11T13:52:37-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ACVA",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net +0.15 = bull 0.90 - bear 0.75 (buy at >= +0.20). BULL: ACVA is moving on a massive, concrete catalyst: the September 11, 2026, announcement that Copart will acquire the company for $1.9 billion. This fundamental news is backed by extreme momentum, with the stock up 44.53% on massive relative volume of 22.45x. Price action remains strong, having maintained its rank at 1 with a 9.59% return since the first observation 150 minutes ago and zero drawdown from the session high of $10.435. The combination of an all-cash takeover bid and persistent, high-volume buying pressure suggests continued support as market participants finalize positions. BEAR: The stock is currently experiencing a massive +44.53% surge driven by the definitive Copart $1.9 billion takeover news, meaning the primary fundamental catalyst is fully priced in at current levels. Momentum indicators are showing measurable deterioration with the relative volume rate of change cratering by -47.32%, signaling that buyer participation is fading rapidly even as the stock sits at a substantial +42.59% extension from its 20-day moving average. Entering now constitutes chasing an exhausted move where the market has already digested the acquisition premium, leaving the price vulnerable to a sharp pullback as traders lock in profits.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.9e+09 - no matching value in source data",
+        "bear: cited 1.9e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "TNON",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: TNON is exhibiting massive interest today with a relative volume of 8.74x normal, confirming high institutional or retail participation. Despite the significant intraday drawdown from its $9.10 high, the stock remains up 15.38% on the session, indicating that earlier buying interest remains structurally supported above the 20-day moving average. While the catalyst report contains no specific company news to explain the move, the extreme volume and the fact that it is being tracked as a top-gaining and gapping stock confirms it is a primary focus for traders. This setup provides an opportunity to trade the volatility as market participants re-evaluate the stock's position relative to its earlier peak. BEAR: TNON exhibits clear evidence of an exhausted rally, having suffered a 31.06% retracement from its session high of $9.10 while the relative volume rate is actively decelerating. The stock is currently serving as exit liquidity for early buyers, evidenced by a significant 32.80% drawdown from its peak and a negative price acceleration of -28.53%. Furthermore, there is no specific company catalyst to justify the move; the headlines provided are generic market summaries, suggesting the +15.38% gain was speculative and now lacks the volume participation to sustain itself at these elevated levels above the 20-day MA.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PCLA",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: PCLA is exhibiting significant institutional interest today with relative volume running at 8.88x its 20-day average. The stock has maintained active participation across four consecutive observation intervals, showcasing high volatility and price acceleration of 10.1579 percentage points. While there is no specific headline catalyst, the stock's inclusion in broad market monitoring for high-gapping movers on 2026-09-11 highlights significant trader attention. The combination of intense volume and sustained momentum above its 20-day moving average provides a compelling case for a tactical long trade. BEAR: PCLA is currently exhibiting clear signs of exhaustion, with the stock trading 38.19% above its 20-day moving average while suffering a massive 20.7455% drawdown from its observed high of $12.34. The lack of a specific, company-level catalyst in the news report suggests this volatility is purely technical, and the declining rel_volume_rate_change of -0.2082 confirms that buying interest is evaporating as the price action degrades. By failing to sustain its high and posting a 20% pullback since its first appearance, the stock is demonstrating that the initial move has already been fully priced and is now facing significant distribution pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FGL",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: FGL is exhibiting strong relative volume at 4.57x its 20-day average, signaling significant institutional interest despite being down 77.37% from its 20-day moving average. The stock has shown resilience with four consecutive observations of momentum, including a positive price acceleration of 25.389% points. While the catalyst report does not contain company-specific news to explain this price action, the sustained relative volume and recent price recovery efforts present a potential mean-reversion opportunity. The stock's ability to maintain its rank and record positive intervals during the observed session suggests an active effort to establish a floor at these price levels. BEAR: FGL is currently exhibiting clear signs of exhaustion as it trades 23.66% below its intraday high of $6.72, signaling that the move is already failing for late entrants. Participation is rapidly drying up, evidenced by a significant 56.77% drop in the relative volume rate per 30 minutes, confirming that the current price levels lack institutional conviction. Furthermore, there is no fundamental catalyst present in the news, as all headlines from the past two days merely reference generic industrial stock movements rather than company-specific developments. Chasing this ticker now is fundamentally flawed given that the price has already retreated over 8.7% since its initial observation window, confirming that the momentum has peaked and turned against buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SWVL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: SWVL is currently positioned for a mean-reversion opportunity after trading at a significant premium to its 20-day moving average (+124.85%). Despite today's intraday dip, the stock has shown resilience with a 3.8298% gain from its first observation time, and it has exhibited improving momentum with a rank improvement of 1 and a positive score change of 0.6154. While there is no fresh news today, the recent September 8th announcement regarding the 110% expansion of its HSBC working capital facility provides fundamental support for the company's liquidity and operational stability. The current price action, marked by a drawdown of only 1.745% from its observed high, suggests a consolidation phase rather than a sustained breakdown. BEAR: SWVL is currently exhibiting a classic exhaustion pattern, trading 124.85% above its 20-day moving average on abysmal volume that is only 0.11x of its norm. The stock shows clear tape deterioration, with price acceleration falling by 7.34% and a measurable drawdown from its observed session high. The only notable catalyst is three days old\u2014the HSBC facility expansion\u2014meaning the market has already fully digested that news, leaving no current fundamental support for this extreme price extension. Buying at these levels makes the retail trader the exit liquidity for institutional participants who are clearly absent, as evidenced by the crumbling relative volume rate.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RWT",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: Redwood Trust is currently seeing exceptional liquidity with relative volume at 7.14x, fueled by the market's digestion of its upsized $185.0 million convertible senior notes offering announced today, 2026-09-11. While the stock is currently trading 23.40% below its 20-day moving average, this significant price extension provides substantial room for a mean-reversion recovery. The combination of institutional-level volume participation and a clear capital-raising catalyst creates a high-conviction setup for a move back toward historical moving averages. BEAR: RWT is exhibiting clear signs of exhaustion as it trades 23.40% below its 20-day moving average, accompanied by heavy selling pressure following the announcement of an upsized $185.0 million convertible senior notes offering. The momentum data confirms this deterioration, with a negative return of 0.9873% since first being seen and a 0.9873% drawdown from the observed high, indicating that the market is actively absorbing the dilutive news. Furthermore, the relative volume rate of change is declining at -0.1638, suggesting that the initial reaction to the news is losing steam while the price remains pinned at the lows of the session. Buying into this decline is effectively catching a falling knife as investors react to the capital raise and the associated immediate dilution.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.85e+08 - no matching value in source data",
+        "bear: cited 1.85e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BCAT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: BCAT is currently trading at a significant relative volume of 6.86x, demonstrating that aggressive market participants are absorbing the recent volatility despite the headline-driven price decline. The stock is showing resilience with a 0.7212% return since its initial observation 150 minutes ago and has maintained a near-zero drawdown from its observed high of 14.665. The recent September 10th announcement regarding a rights offering provides a fundamental catalyst that is likely driving this increased institutional interest as the market reprices the security ahead of the September 15th ex-dividend date. The combination of sustained volume participation across four consecutive observations and active price recovery suggests a bottoming process is underway as traders position for the upcoming yield event. BEAR: BCAT is suffering a sharp -7.83% decline, and investors buying here are falling into a classic yield-trap liquidity event triggered by the September 10th announcement of a rights offering. The market is reacting negatively to this dilution event, which is further exacerbated by the mechanical downward pressure of an upcoming ex-dividend date on September 15th. While the volume is 6.86x normal, the price acceleration has flipped to -0.2748 percentage points, indicating that buying interest is failing to catch this falling knife. Purchasing now forces the holder to navigate both the negative sentiment of the rights offering and the impending price adjustment of the dividend, creating a high-risk entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ODD",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: ODD is seeing massive volume participation at 1.79x normal levels following a wave of analyst target price raises from firms including Evercore ISI, Truist, and Morgan Stanley on September 10. The stock is currently trading above its 20-day MA by 36.15%, indicating strong institutional momentum and bullish sentiment following the Q2 2026 earnings transcript. While the intraday drawdown is shallow at 2.5%, the high relative volume and immediate reaction to favorable analyst coverage suggest significant room for this breakout to continue. The combination of recent earnings clarity and upward analyst revisions provides a strong fundamental tailwind to support the current 18.11% daily move. BEAR: ODD is currently trading 36.15% above its 20-day moving average, creating a highly extended setup that leaves little room for further upside. The move is largely exhausted, evidenced by a 2.53% pullback from the intraday high of $19.40 within just 30 minutes of observation. Furthermore, the news catalysts from September 10, including multiple analyst price target hikes, are already priced in, leaving no fresh fundamental support to justify current premium valuations. Buying now represents chasing a move that has already lost its momentum, with the recent price deceleration confirming that the initial buying interest is fading.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBOT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: BBOT is showing a compelling setup for a mean-reversion play following a sharp 10.51% sell-off, with the stock trading 43.63% below its 20-day moving average. Despite the negative sentiment reflected in recent analyst price target adjustments, the stock is exhibiting technical resilience with a relative volume of 2.12x, indicating aggressive institutional interest in absorbing the current selling pressure. Momentum analysis reveals a 1.7782 percentage point price acceleration alongside a steady improvement in the stock's rank over four consecutive observations, suggesting that the selling exhaustion is nearing a pivot point. With high volume confirmation and consistent rank improvement, the stock is primed for a tactical bounce toward its short-term mean. BEAR: BBOT is currently experiencing a technical collapse, trading 43.63% below its 20-day moving average on a massive 10.51% single-day decline. The price action demonstrates clear deterioration with a 3.89% drawdown from the observed high, and the stock has failed to produce a single positive observation interval over the last 150 minutes. This negative momentum is exacerbated by a cascade of bearish analyst sentiment, including three separate firms lowering their price targets in the last two days. Buying into this liquidation is essentially catching a falling knife where institutional sellers are actively repricing the stock downward.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DBGI",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: DBGI is displaying signs of a potential exhaustion reversal after an 18.11% decline, supported by significant relative volume of 1.47x. Despite the recent price weakness, the stock has shown notable internal improvement with a 3-rank improvement in the last 120 minutes and a positive price acceleration of 4.3124 percentage points. While the catalyst report lacks a specific fundamental driver, the heightened attention evidenced by the Benzinga and ChartMill headlines regarding today's unusual volume suggests the market is actively re-evaluating the stock's oversold condition. A short-term entry benefits from the stock's significant distance from its 20-day MA, implying a mean-reversion opportunity as selling pressure stabilizes. BEAR: DBGI shows clear signs of technical exhaustion, with an 18.11% price drop and a distance of -30.68% from its 20-day moving average confirming a breakdown. The tape confirms a 'chasing' failure mode, as observed snapshots show a consistent -8.40% drawdown from the session high and zero positive intervals over the last two hours. Furthermore, the Benzinga headline 'What's Going On With Digital Brands Stock Today?' provides no fundamental catalyst to anchor a recovery, suggesting that the volume is merely reactive to the sell-off rather than supportive of a turnaround.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AEHL",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.4,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net -0.40 = bull 0.25 - bear 0.65 (buy at >= +0.20). BULL: AEHL is showing strong momentum with a 15.27% gain and is trading significantly above its 20-day moving average by 44.82%. While the catalyst report is empty, the stock demonstrates resilience by holding near its observed high of $8.795 with zero drawdown. Given the lack of news, this move is currently driven by pure price action and technical breakout momentum. Investors should be aware that the low relative volume of 0.16x suggests this move is occurring on limited participation, which warrants caution. BEAR: AEHL is currently trading 44.82% above its 20-day moving average on extremely low participation, evidenced by a relative volume of only 0.16x normal levels. The total absence of a fundamental catalyst or news report in the last seven days suggests this price move is unsupported, making the stock highly susceptible to mean reversion once the initial momentum dissipates. Buying now forces a position into an unsupported, thin-volume move where the lack of institutional confirmation increases the probability of a sharp retracement.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TENB",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: Despite an analyst downgrade, TENB is exhibiting clear signs of institutional support with a massive relative volume of 3.56x its normal average. The stock has shown resilient price action, with three positive observed intervals out of three and a 2.15% return since it first appeared on our radar 150 minutes ago. While headlines note a convertible notes offering and an 'underperform' rating, the stock is holding its observed high of $30.82 with 0% drawdown, suggesting strong buying interest absorbing the news-driven supply. This technical accumulation, combined with the company's recent recognition as #1 in its sector for the eighth consecutive year, presents a tactical opportunity for a mean-reversion trade. BEAR: The stock is currently facing significant overhead pressure from a fresh analyst downgrade from Wedbush today, which set a price target of $29 below the current $30.82 close. Furthermore, the company is dealing with the immediate fallout and dilution concerns from the newly priced $725 million convertible senior notes offering, which triggered a 7% sell-off yesterday and continues to weigh on investor sentiment. With a relative volume rate decrease of 0.0253 and negative price acceleration of -1.0652, the technical momentum is cooling, suggesting that the recent uptick is merely corrective exhaustion rather than a sustainable trend reversal. Buying here risks catching a falling knife as the market digests the structural impact of the debt offering against the backdrop of an active 'Underperform' rating.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 7.25e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "LGCL",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.40 = bull 0.30 - bear 0.70 (buy at >= +0.20). BULL: LGCL shows a resilient intraday recovery with a 2.34% return since it was first sighted 150 minutes ago, displaying strong price acceleration of 5.59 percentage points. While there is no news catalyst in the report to explain this move, the stock has maintained four consecutive observations, suggesting a persistent interest despite low relative volume. The current price of $3.06 remains significantly distanced from the 20-day moving average, providing ample room for a potential mean-reversion rally. As this is a tape-only move without confirming volume expansion or fundamental news, the confidence remains speculative. BEAR: Buying LGCL represents a clear case of chasing an exhausted move without the support of any underlying news or catalysts. The stock is currently showing measurable deterioration with a 5.28% drawdown from its observed high and a decaying relative volume rate of -0.0173. With relative volume at a dismal 0.17x normal, the price action is devoid of institutional conviction, making any entry today likely exit liquidity for the few participants active in the name. Given the lack of any catalyst and a negative rank change, the current price structure is purely speculative and highly vulnerable to mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ATEC",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.25 = bull 0.40 - bear 0.65 (buy at >= +0.20). BULL: ATEC is exhibiting strong institutional participation today with relative volume at 1.93x its 20-day average, signaling significant market interest in this +15.89% breakout. While the stock is currently consolidating off its intraday high of $10.35, the momentum remains supported by its position 9.22% above the 20-day moving average. The recent Benzinga headline on September 11, 2026, confirms ATEC is part of a broader group of stocks moving higher today, providing a thematic tailwind for this price action. Given the liquidity and confirmed momentum, the current consolidation represents a potential entry point for a momentum-driven move toward testing higher levels. BEAR: ATEC is exhibiting clear signs of chasing, as the stock is already extended 9.22% above its 20-day moving average on 1.93x relative volume. The momentum evidence indicates measurable deterioration, with a 1.01% drawdown from the observed high occurring over the last 30 minutes, confirming that early buyers are already locked in as exit liquidity. The news headline from Benzinga is a broad listicle mentioning the stock in passing, providing no actionable fundamental catalyst to sustain this 15.89% spike. Consequently, the lack of a strong news driver combined with intra-session price decay makes this entry highly vulnerable to a mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QTTB",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: QTTB is showing strong intraday persistence, evidenced by three consecutive positive observations and a relative volume of 3.12x its 20-day norm, signaling clear accumulation. The stock has demonstrated a steady 2.0484% return since first being spotted, while maintaining its session high of $10.96 with zero drawdown, confirming consistent buying pressure. Furthermore, market sentiment suggests a technical turnaround, with the September 7th Yahoo headline explicitly noting the stock looks 'ripe for a turnaround' following a 23.1% decline. Given it is trading 24.58% below its 20-day moving average, there is significant room for a mean-reversion rally as volume confirms the current momentum. BEAR: QTTB exhibits classic chasing behavior as the price remains significantly disconnected from its 20-day MA by -24.58%, suggesting this move is an aggressive mean-reversion attempt in a downtrending stock. The momentum evidence confirms deterioration, specifically through negative price acceleration of -0.5682 percentage points despite sustained relative volume. Furthermore, the available catalysts are limited to news pieces from September 6th and 7th, meaning there is no fundamental justification for today's 3.12x relative volume surge, effectively making current buyers the exit liquidity for participants who bought into the recent 'turnaround' narrative four days ago.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ACVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TNON",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PCLA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FGL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SWVL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RWT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BCAT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ODD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BBOT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DBGI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TENB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGCL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ATEC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "QTTB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

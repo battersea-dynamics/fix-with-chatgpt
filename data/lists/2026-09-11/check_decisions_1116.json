@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-09-11T11:21:44-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ACVA",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net +0.25 = bull 0.90 - bear 0.65 (buy at >= +0.20). BULL: ACVA is surging today following the major announcement on 2026-09-11 that Copart plans to acquire the company in a $1.9 billion all-cash deal. This fundamental catalyst has sparked massive interest, evidenced by a relative volume of 19.54x the normal daily average and a significant 44.39% price increase. The strength of this news, combined with the stock holding its gains at the high of the day, suggests a powerful momentum play driven by acquisition-related repricing. BEAR: The stock has moved 44.39% today, pricing in the entire $1.9 billion takeover news instantly, leaving no room for further upside from the acquisition headline. With the price sitting 42.46% above the 20-day moving average and relative volume at 19.54x, the trade is now a classic exhaustion scenario where the catalyst is fully digested and reflected in the valuation. Entering at $10.43 provides no margin of safety, as any drift or cooling in volume will lead to immediate mean reversion toward the overextended moving average.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.9e+09 - no matching value in source data",
+        "bear: cited 1.9e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "TNON",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 5.4,
+      "reasoning": "net -0.25 = bull 0.40 - bear 0.65 (buy at >= +0.20). BULL: TNON is exhibiting extreme momentum with a 67.36% gain and massive relative volume of 5.99x, signaling significant institutional interest today. The stock is currently being highlighted as a top mover in the health care sector as noted in the September 11, 2026, Benzinga headline. While the specific news driver remains opaque, the stock's ranking as the #2 mover demonstrates that buyers are aggressively absorbing supply at these higher levels. Given the intense volume participation, the momentum is highly likely to continue through the near-term session. BEAR: TNON is currently trading 67.35% above its 20-day moving average, creating extreme technical vulnerability for any buyer entering at these elevated levels. The move lacks a specific company-level catalyst, as the provided headlines only offer generic industry mentions of health care stocks moving in the pre-market session. With the stock currently experiencing 5.99x relative volume, there is no confirming data to suggest this momentum will hold, making the current price level a high-risk exit liquidity point for earlier participants. Without a definitive fundamental driver, the massive percentage gain in a single session is susceptible to a rapid mean reversion as profit-taking inevitably triggers a pullback.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PCLA",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 8.4,
+      "stop_loss_pct": 4.2,
+      "reasoning": "net -0.25 = bull 0.35 - bear 0.60 (buy at >= +0.20). BULL: PCLA is exhibiting significant momentum with a 26.95% intraday gain on massive volume, currently trading at 7.18x its 20-day relative volume. The stock is showing strong technical strength, currently situated 74.36% above its 20-day moving average, signaling an aggressive breakout. While there is no specific fundamental news catalyst explaining this move in the report, the tape confirms heavy institutional interest and active trader attention as of today, September 11, 2026. This setup warrants participation for momentum traders looking to capitalize on the ongoing volume-backed expansion. BEAR: PCLA is currently trading at a 74.36% extension from its 20-day moving average, a extreme level that creates a high probability of mean reversion for any short-term holder. The catalyst report reveals an absolute lack of company-specific news to justify this 26.95% single-day move, suggesting the rally is driven by technical momentum rather than fundamental shifts. With earnings not due until September 24th, there is no imminent news catalyst to defend this overextended valuation against a rapid sell-off. Entering at these prices represents chasing a move that has already decoupled from the stock's recent volatility profile.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SWVL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.50 = bull 0.20 - bear 0.70 (buy at >= +0.20). BULL: SWVL is currently undergoing a sharp correction with an 11.21% decline, yet the stock remains significantly elevated at 116.56% above its 20-day moving average, signaling strong underlying momentum in the broader trend. While the recent 110% expansion of its HSBC working capital facility announced on 2026-09-08 provides a fundamental anchor for growth, the current dip offers an attractive entry point for traders betting on a mean reversion. With only a single observation snapshot available at 11:17, current momentum remains unconfirmed, but the stock's historical volatility makes it a prime candidate for a rapid rebound. Investors should capitalize on the oversold conditions relative to recent price action, supported by the company's strengthened liquidity position. BEAR: SWVL is currently experiencing a sharp 11.21% decline on abysmal relative volume of just 0.07x, indicating that buyers have completely vacated the tape. While the stock remains 116.56% above its 20-day moving average, the lack of any supporting news since the HSBC facility expansion three days ago suggests this move is driven by residual selling pressure rather than a fundamental catalyst. The absence of fresh volume confirmation for this price action creates a classic liquidity trap where the stock is drifting downward without any institutional support. Consequently, catching this falling knife is high-risk as the price is disconnected from its mean and lacks the participation required for a sustainable reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RWT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.08,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: Redwood Trust has successfully upsized its convertible senior notes offering to $185 million, a major catalyst announced on September 11 that clarifies the company's capital structure and likely removes recent uncertainty regarding its financing. The stock is seeing significant institutional interest, evidenced by a massive relative volume of 5.15x the 20-day average, suggesting that the market is aggressively absorbing this news. With a dividend payment confirmed for late September, the stock is currently oversold relative to its 20-day moving average, providing an attractive entry point for a mean-reversion trade. BEAR: RWT is currently trading at a significant 22.64% discount to its 20-day moving average, signaling that the stock is in a state of sustained technical weakness rather than a breakout. The announcement of an upsized $185.0 million convertible senior notes offering today introduces immediate balance sheet dilution concerns that are currently weighing on the price. Furthermore, with relative volume at 5.15x normal, the heavy participation during a price decline suggests that selling pressure is dominating, making any long entry an attempt to catch a falling knife in a news-sensitive environment.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.85e+08 - no matching value in source data",
+        "bear: cited 1.85e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BCAT",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: BCAT is seeing an aggressive surge in volume, at 4.90x its 20-day average, suggesting a major market reaction to the rights offering announcement from September 10. While the price has dropped 8.49% today, this creates a potential mean-reversion opportunity as investors digest the 'compelling real yields' promised by the new capital structure. With an ex-dividend date coming up on September 15, income-oriented buyers may find the current depressed price an attractive entry point before the distribution. This is a volatility-driven play capitalizing on the liquidity provided by the rights offering headline. BEAR: BCAT is currently suffering a sharp 8.49% sell-off on massive volume (4.90x relative volume), likely driven by the market's negative reaction to the September 10th announcement of a rights offering, which often signals dilution. With an ex-dividend date looming on September 15th, there is additional structural pressure as holders may be exiting to avoid the mechanical price adjustment. Entering now ignores the significant technical damage evidenced by the stock trading 8.39% below its 20-day moving average. The combination of dilutive news and a major technical breakdown creates a dangerous environment where the downtrend is likely to persist.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FGL",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: FGL is exhibiting strong momentum with a 10.20% gain today, reflecting aggressive buying interest despite low relative volume. While there is no specific fundamental catalyst in the recent news flow to explain the jump, the stock is clearly reacting to a shift in market sentiment within the industrials sector. The distance from the 20-day moving average of -75.21% suggests a significant technical oversold bounce potential or mean reversion opportunity for short-term traders. Given the lack of persistent intraday data, this is a speculative play on the current price action and momentum tailwinds. BEAR: FGL is exhibiting a classic volume non-confirmation setup, with a 10.20% gain occurring on just 0.52x of its normal 20-day relative volume. The absence of any unique, company-specific news catalyst\u2014as the provided headlines only reference generic industrial sector movement from days prior\u2014suggests this price action is purely speculative and devoid of fundamental backing. With the stock trading 75.21% below its 20-day moving average, the current move lacks the institutional participation required to sustain such a significant deviation from the trend, leaving late buyers as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LGCL",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: LGCL is currently trading significantly below its 20-day moving average, offering a potential mean-reversion opportunity for contrarian traders at the $2.99 price point. There is currently no negative or positive catalyst in the news report, meaning the stock's current price movement is devoid of specific headline pressure. With only one observation of data, there is insufficient history to confirm momentum or volume participation. Therefore, the bull case remains speculative and relies entirely on technical exhaustion at these lower levels. BEAR: LGCL is currently exhibiting a complete lack of market interest, evidenced by a dismal relative volume of 0.07x and a price sitting 91.23% below its 20-day moving average. The stock suffers from a total absence of catalysts, meaning there is no fundamental narrative to justify a reversal or support the current share price. With insufficient trading history to establish momentum and a lack of institutional participation, any entry today amounts to catching a falling knife in a vacuum of liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TENB",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: TENB is currently experiencing an oversold condition, trading 14.46% below its 20-day moving average on high relative volume of 2.35x. The recent market reaction to the upsized $725 million convertible notes offering on 2026-09-11 appears to be an overcorrection, masking the fundamental strength of a company that was ranked #1 in its industry just yesterday. With the financing event now priced, the market may shift focus back to Tenable's leadership in device vulnerability management, creating a prime opportunity for a mean-reversion trade. While the intraday history is limited, the extreme volume suggests institutional absorption of the news-related sell-off. BEAR: TENB is suffering from an active overhang caused by the pricing of an upsized $725 million convertible senior notes offering announced today, which is driving a technical breakdown. The stock is currently trading 14.46% below its 20-day moving average, confirming that the current move is not a temporary dip but a significant structural repricing in response to debt dilution. With relative volume at 2.35x normal, institutional liquidation is likely still in progress, making any entry into this heavy, news-driven selloff highly dangerous. This is a clear case of catching a falling knife as the market adjusts to both the increased debt load and the recent history of volatility surrounding the capital raise.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 7.25e+08 - no matching value in source data",
+        "bear: cited 7.25e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BNC",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: BNC is demonstrating strong technical momentum with a 4.35% intraday gain and is currently trading 62.54% above its 20-day moving average, signaling significant upward relative strength. While there is no specific breaking news catalyst explaining today's move, the stock has shown consistent interest as an active industrial stock in recent sessions. The current price remains near its observed high of $5.207, indicating minimal immediate selling pressure. With earnings approaching in 10 days, market participants may be positioning early in anticipation of the upcoming event. BEAR: BNC presents an extremely dangerous setup for a buyer, as the stock is trading 62.54% above its 20-day moving average on anemic volume of just 0.34x its normal levels. This combination indicates a move that is significantly overextended from its historical mean without any corroborating institutional participation to sustain the price discovery. With no specific catalyst to justify this vertical deviation, and earnings looming 10 days out, the stock is highly vulnerable to a sharp, liquidity-driven mean reversion as intraday participants realize the absence of fundamental backing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBOT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.40 = bull 0.30 - bear 0.70 (buy at >= +0.20). BULL: BBOT is currently experiencing a sharp pullback of 6.88%, placing it over 41% below its 20-day moving average, which presents a significant mean-reversion opportunity. While recent analyst notes from Leerink Partners, Canaccord Genuity, and Raymond James on September 9th and 10th lowered price targets, these revised targets still represent substantial upside from the current $5.14 entry point. Relative volume is running at 1.05x normal, indicating that market participants are actively resetting positions at these depressed levels. This setup relies on the market having overreacted to the recent analyst revisions, allowing for a technical bounce as the stock tests extreme oversold conditions. BEAR: BBOT is currently experiencing significant technical weakness, trading 41.34% below its 20-day moving average, which signals a breakdown in trend rather than a tradable mean-reversion setup. The stock has been plagued by a cascade of analyst downgrades over the last 48 hours, with Leerink, Canaccord Genuity, and Raymond James all slashing price targets as recently as September 9th and 10th. This negative institutional sentiment serves as a heavy anchor, making the current 6.88% intraday decline a continuation of a larger downward trajectory. Investors buying at $5.14 are catching a falling knife during a period of sustained, negative re-rating by major analysts.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 6.0,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.25 = bull 0.25 - bear 0.50 (buy at >= +0.20). BULL: USDE is demonstrating strong momentum today with a significant 15.77% gain, currently trading at $7.71 which is 26.49% above its 20-day moving average. This move is occurring without any specific headline catalyst, suggesting that the price action is currently being driven by pure technical buying pressure. As this is the first observation of the session, the case relies entirely on the strength of this breakout momentum relative to its recent trading baseline. Given the lack of news, this is a technical play contingent on the persistence of this newly established bullish trend. BEAR: The 15.77% intraday gain has pushed the stock 26.49% above its 20-day moving average without a single supporting news headline or catalyst to justify the move. With relative volume at a meager 0.25x of its normal pace, this rally is moving on thin participation and lacks the institutional confirmation required to sustain such an extension. Buying now is a bet on an information vacuum, leaving the stock highly susceptible to mean reversion as the momentum stalls without any fundamental floor.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CADL",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.16,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: CADL is seeing significantly elevated interest with relative volume at 1.38x, suggesting that the market is aggressively digesting the recent 10.26% decline. The appointment of Martine Zimmermann to the Board of Directors, announced on September 10, indicates active corporate governance strengthening, which provides a fundamental anchor for a potential mean reversion from its current 20.02% distance from the 20-day moving average. Given the high volume participation, this setup offers an opportunity for a quick bounce as buyers step in to capitalize on the oversold conditions following the board announcement. BEAR: CADL is currently in a state of freefall, down 10.26% on the day and trading 20.02% below its 20-day moving average, signaling a significant breakdown in technical support. The absence of any negative catalysts or earnings reports suggests this is a momentum-driven liquidation rather than a reaction to news, making bottom-fishing an exceptionally dangerous endeavor. The appointment of a board member yesterday is fundamentally insufficient to justify a reversal of this selling pressure, confirming that market participants are currently de-risking regardless of company developments.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SST",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: SST shows fundamental momentum following the September 8th announcement that its MapQuest unit has gained over 2 million new users in a single week. The stock is exhibiting strong technical strength, trading 52.72% above its 20-day moving average, signaling a clear breakout phase. While intraday volume is low, the price remains resilient at $4.01, and the fundamental growth of its primary product provides a credible catalyst for sustained buyer interest. This combination of recent user-growth validation and positive price action supports a tactical long position. BEAR: The case for buying SST today is fundamentally flawed due to extreme price extension, with the stock trading 52.72% above its 20-day moving average on near-zero institutional interest, indicated by a relative volume of just 0.09x. There is no fresh catalyst to justify this move, as the most recent news regarding System1\u2019s MapQuest is three days old and already fully assimilated into the market. With the momentum data showing insufficient history and negligible trading participation, this move lacks the volume confirmation required to sustain such a significant deviation from the mean, making it a high-probability candidate for a sharp technical retracement.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2e+06 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SWKS",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.15 = bull 0.80 - bear 0.65 (buy at >= +0.20). BULL: Skyworks Solutions is exhibiting massive momentum today, surging 9.56% on the back of a transformative catalyst: the Yahoo report confirming a looming $22 billion merger nod with Qorvo. This M&A news fundamentally re-rates the company's valuation, providing a structural tailwind that differentiates this move from mere market noise. While the relative volume of 0.67x is currently low, the stock has shown significant strength by trading 31.70% above its 20-day moving average, signaling that institutional interest is aggressively repricing the shares following the merger headlines. Given the transformative nature of this M&A event, the current price appreciation is likely the start of a sustained consolidation and breakout phase. BEAR: SWKS is trading 31.70% above its 20-day moving average, a level of technical extension that leaves it highly susceptible to profit-taking. The 9.8% surge is driven by a 'looming' merger nod, which qualifies as a binary headline catalyst that is likely already fully priced into the current tick. With a relative volume of only 0.67x normal, the price move is occurring on lackluster participation, suggesting an absence of institutional conviction to sustain these elevated levels. Chasing at this vertical trajectory without meaningful volume confirmation risks an immediate mean reversion as the excitement surrounding the Qorvo headline dissipates.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.2e+10 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ACVA",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "TNON",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PCLA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SWVL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RWT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BCAT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FGL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGCL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TENB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BNC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BBOT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CADL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SWKS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
