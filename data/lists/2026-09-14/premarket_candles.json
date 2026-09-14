@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-14T08:49:10-04:00",
+  "session_date": "2026-09-14",
+  "reads": {
+    "CRBP": {
+      "symbol": "CRBP",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "RUM": {
+      "symbol": "RUM",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "DFTX": {
+      "symbol": "DFTX",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DV": {
+      "symbol": "DV",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PMI": {
+      "symbol": "PMI",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BBNX": {
+      "symbol": "BBNX",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CRWD": {
+      "symbol": "CRWD",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SLS": {
+      "symbol": "SLS",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PANW": {
+      "symbol": "PANW",
+      "pattern": "island reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ALM": {
+      "symbol": "ALM",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.75
+    },
+    "RBLX": {
+      "symbol": "RBLX",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VRT": {
+      "symbol": "VRT",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}

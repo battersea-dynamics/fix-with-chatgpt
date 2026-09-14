@@ -1,0 +1,1426 @@
+{
+  "date": "2026-09-14",
+  "events": [
+    {
+      "at_et": "2026-09-14T08:46:59-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-14T08:53:14-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-09-14T09:32:04-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "CRWD",
+            "action": "submitted",
+            "order": {
+              "symbol": "CRWD",
+              "qty": 1,
+              "est_cost": 221.0,
+              "entry_ref": 221.0,
+              "take_profit": 225.7,
+              "remaining_take_profit_pct": 2.13,
+              "stop_loss": 217.42,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260914-093203-CRWD",
+              "analysis_price": 217.9,
+              "live_price_change_pct": 1.42
+            },
+            "broker": {
+              "id": "f64465b1-e729-4cff-b6a6-5b272263feae",
+              "client_order_id": "ta-20260914-093203-CRWD",
+              "symbol": "CRWD",
+              "qty": "1",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 225.7,
+              "stop_loss": 217.42,
+              "legs": [
+                "6e80ed8c-b6df-4eec-84fc-8257647c5dbe",
+                "84e9f4a6-b673-4f29-952d-18a13544d11d"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ALM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PANW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T10:22:08-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1017",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1017.json",
+        "shortlist": [
+          "BWIN",
+          "CRBP",
+          "DV",
+          "RUM",
+          "SWVL",
+          "SKYQ",
+          "BZ",
+          "XHLD",
+          "BNC",
+          "PCLA",
+          "FGL",
+          "PMI",
+          "BRR",
+          "DBI",
+          "AEHL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BWIN",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "CRBP",
+            "reason": "live ask $9.59 has reached or passed the original take-profit target $9.45"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T10:57:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1047",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1047.json",
+        "shortlist": [
+          "BWIN",
+          "CRBP",
+          "DV",
+          "RUM",
+          "SWVL",
+          "BZ",
+          "SKYQ",
+          "BNC",
+          "XHLD",
+          "FGL",
+          "PCLA",
+          "PMI",
+          "BRR",
+          "CRWD",
+          "SAIL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BWIN",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "CRBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T11:21:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1117",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1117.json",
+        "shortlist": [
+          "BWIN",
+          "CRBP",
+          "DV",
+          "RUM",
+          "SWVL",
+          "BZ",
+          "XHLD",
+          "FGL",
+          "BNC",
+          "SKYQ",
+          "CRWD",
+          "PCLA",
+          "IPDN",
+          "GRML",
+          "PMI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "BWIN",
+            "action": "submitted",
+            "order": {
+              "symbol": "BWIN",
+              "qty": 10,
+              "est_cost": 319.3,
+              "entry_ref": 31.93,
+              "take_profit": 32.3,
+              "remaining_take_profit_pct": 1.16,
+              "stop_loss": 31.41,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260914-112142-BWIN",
+              "analysis_price": 31.93,
+              "live_price_change_pct": 0.0
+            },
+            "broker": {
+              "id": "44256414-14e5-4312-8e72-393bd8a85b1b",
+              "client_order_id": "ta-20260914-112142-BWIN",
+              "symbol": "BWIN",
+              "qty": "10",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 32.3,
+              "stop_loss": 31.41,
+              "legs": [
+                "1498342b-ed57-490e-be44-5216ee5a748a",
+                "1fa52052-60b4-420f-85da-001b427c1ad9"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CRBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T11:56:53-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1147",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1147.json",
+        "shortlist": [
+          "CRBP",
+          "DV",
+          "RUM",
+          "SWVL",
+          "BZ",
+          "XHLD",
+          "BNC",
+          "FGL",
+          "CRWD",
+          "SKYQ",
+          "PMI",
+          "PCLA",
+          "TJGC",
+          "NTSK",
+          "GRML"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRBP",
+            "action": "submitted",
+            "order": {
+              "symbol": "CRBP",
+              "qty": 31,
+              "est_cost": 262.57,
+              "entry_ref": 8.47,
+              "take_profit": 9.15,
+              "remaining_take_profit_pct": 7.97,
+              "stop_loss": 8.18,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260914-115653-CRBP",
+              "analysis_price": 8.46,
+              "live_price_change_pct": 0.12
+            },
+            "broker": {
+              "id": "d1a0e4e0-1823-402d-80ff-72aa887a4593",
+              "client_order_id": "ta-20260914-115653-CRBP",
+              "symbol": "CRBP",
+              "qty": "31",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 9.15,
+              "stop_loss": 8.18,
+              "legs": [
+                "87c69850-297a-4e72-9e40-9006fcb1ba7d",
+                "d1390019-5496-49b4-86d9-1ea0283ada12"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "position size cap exceeded, skipped: 1 share at $238.00 > current cash-based budget ($211.88)"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTSK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T12:23:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1217",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1217.json",
+        "shortlist": [
+          "DV",
+          "RUM",
+          "BZ",
+          "SWVL",
+          "XHLD",
+          "BNC",
+          "FGL",
+          "TJGC",
+          "CRWD",
+          "SKYQ",
+          "PCLA",
+          "NTSK",
+          "PMI",
+          "DBGI",
+          "SAIL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "position size cap exceeded, skipped: 1 share at $238.80 > current cash-based budget ($211.88)"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTSK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T12:52:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1246.json",
+        "shortlist": [
+          "CRBP",
+          "DV",
+          "RUM",
+          "XHLD",
+          "BZ",
+          "SWVL",
+          "BNC",
+          "CRWD",
+          "FGL",
+          "SKYQ",
+          "NTSK",
+          "PCLA",
+          "SAIL",
+          "GRML",
+          "DFTX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRBP",
+            "action": "submitted",
+            "order": {
+              "symbol": "CRBP",
+              "qty": 32,
+              "est_cost": 262.4,
+              "entry_ref": 8.2,
+              "take_profit": 8.78,
+              "remaining_take_profit_pct": 7.12,
+              "stop_loss": 7.9,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260914-125208-CRBP",
+              "analysis_price": 8.1,
+              "live_price_change_pct": 1.23
+            },
+            "broker": {
+              "id": "3b57515e-35d3-4e24-a0c3-04fa1f17d5d9",
+              "client_order_id": "ta-20260914-125208-CRBP",
+              "symbol": "CRBP",
+              "qty": "32",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 8.78,
+              "stop_loss": 7.9,
+              "legs": [
+                "9a82fdea-fa52-41e6-8d12-1106d070d0d2",
+                "724a7e10-2e24-4ab1-8637-2b95cd79003b"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTSK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFTX",
+            "reason": "live ask $45.50 has reached or passed the original take-profit target $44.97"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T13:33:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1317",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1317.json",
+        "shortlist": [
+          "DV",
+          "RUM",
+          "SWVL",
+          "XHLD",
+          "BZ",
+          "BNC",
+          "FGL",
+          "CRWD",
+          "NTSK",
+          "SAIL",
+          "RPD",
+          "PCLA",
+          "SKYQ",
+          "DFTX",
+          "ZS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NTSK",
+            "action": "submitted",
+            "order": {
+              "symbol": "NTSK",
+              "qty": 12,
+              "est_cost": 203.76,
+              "entry_ref": 16.98,
+              "take_profit": 17.94,
+              "remaining_take_profit_pct": 5.67,
+              "stop_loss": 16.5,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260914-133326-NTSK",
+              "analysis_price": 16.935,
+              "live_price_change_pct": 0.27
+            },
+            "broker": {
+              "id": "7b7bc5c4-d4e9-4247-b518-a8f6488b7595",
+              "client_order_id": "ta-20260914-133326-NTSK",
+              "symbol": "NTSK",
+              "qty": "12",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 17.94,
+              "stop_loss": 16.5,
+              "legs": [
+                "dccec685-cfc5-4588-b029-51578f254f11",
+                "daa0d7d2-d8c5-4a41-83e7-330a59102197"
+              ]
+            }
+          },
+          {
+            "symbol": "DFTX",
+            "action": "submitted",
+            "order": {
+              "symbol": "DFTX",
+              "qty": 4,
+              "est_cost": 162.0,
+              "entry_ref": 40.5,
+              "take_profit": 45.06,
+              "remaining_take_profit_pct": 11.25,
+              "stop_loss": 39.13,
+              "confidence": 0.7,
+              "client_order_id": "ta-20260914-133326-DFTX",
+              "analysis_price": 40.59,
+              "live_price_change_pct": -0.22
+            },
+            "broker": {
+              "id": "33fb2a3b-1877-43d6-91bc-29c1d1f7c90a",
+              "client_order_id": "ta-20260914-133326-DFTX",
+              "symbol": "DFTX",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 45.06,
+              "stop_loss": 39.13,
+              "legs": [
+                "4ddc3694-9e03-45e8-8136-33c182b51b96",
+                "c2498d28-f2f7-4fea-b90b-f26d48d4cea7"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "position size cap exceeded, skipped: 1 share at $238.53 > current cash-based budget ($210.00)"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T13:58:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1347",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1347.json",
+        "shortlist": [
+          "DV",
+          "RUM",
+          "SWVL",
+          "BZ",
+          "BNC",
+          "FGL",
+          "CRWD",
+          "XHLD",
+          "IPDN",
+          "RPD",
+          "SAIL",
+          "PCLA",
+          "ZS",
+          "BRR",
+          "RBLX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ZS",
+            "action": "submitted",
+            "order": {
+              "symbol": "ZS",
+              "qty": 1,
+              "est_cost": 192.0,
+              "entry_ref": 192.0,
+              "take_profit": 198.89,
+              "remaining_take_profit_pct": 3.59,
+              "stop_loss": 187.68,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260914-135806-ZS",
+              "analysis_price": 191.02,
+              "live_price_change_pct": 0.51
+            },
+            "broker": {
+              "id": "f65d5fdc-d355-488e-adb7-e6a820f04145",
+              "client_order_id": "ta-20260914-135806-ZS",
+              "symbol": "ZS",
+              "qty": "1",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 198.89,
+              "stop_loss": 187.68,
+              "legs": [
+                "cc970ee3-4ff7-46a3-954e-a57c2aaad3e8",
+                "cc6879ff-9ff5-48e9-a126-bda5d0c723ba"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "position size cap exceeded, skipped: 1 share at $239.77 > current cash-based budget ($200.00)"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T14:22:35-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1416.json",
+        "shortlist": [
+          "DV",
+          "RUM",
+          "SWVL",
+          "GOOGM",
+          "BZ",
+          "XHLD",
+          "GOOGN",
+          "BNC",
+          "FGL",
+          "CRWD",
+          "STIM",
+          "SAIL",
+          "BRR",
+          "PCLA",
+          "RPD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RPD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T14:59:33-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1446.json",
+        "shortlist": [
+          "DV",
+          "RUM",
+          "SWVL",
+          "GOOGM",
+          "BZ",
+          "FGL",
+          "XHLD",
+          "BNC",
+          "GOOGN",
+          "STIM",
+          "CRWD",
+          "SAIL",
+          "BRR",
+          "TJGC",
+          "RPD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RPD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T15:25:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1516.json",
+        "shortlist": [
+          "DV",
+          "RUM",
+          "SWVL",
+          "GOOGM",
+          "BZ",
+          "BNC",
+          "FGL",
+          "XHLD",
+          "STIM",
+          "GOOGN",
+          "RPD",
+          "CRWD",
+          "SAIL",
+          "LFMD",
+          "BRR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GOOGM",
+            "action": "submitted",
+            "order": {
+              "symbol": "GOOGM",
+              "qty": 4,
+              "est_cost": 196.24,
+              "entry_ref": 49.06,
+              "take_profit": 50.25,
+              "remaining_take_profit_pct": 2.43,
+              "stop_loss": 48.51,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260914-152509-GOOGM",
+              "analysis_price": 48.97,
+              "live_price_change_pct": 0.18
+            },
+            "broker": {
+              "id": "d3a7ec83-c304-4c11-bf9c-27a32adf664a",
+              "client_order_id": "ta-20260914-152509-GOOGM",
+              "symbol": "GOOGM",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 50.25,
+              "stop_loss": 48.51,
+              "legs": [
+                "465f24ad-3387-41da-8782-2d5bc12aef87",
+                "ff12449d-6c04-4bd5-9a07-8325701c098b"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWVL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STIM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "position size cap exceeded, skipped: 1 share at $238.00 > current cash-based budget ($200.00)"
+          },
+          {
+            "symbol": "SAIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T15:48:50-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-14/shortlist_1546.json",
+        "shortlist": [
+          "DV",
+          "RUM",
+          "SWVL",
+          "STIM",
+          "BZ",
+          "GOOGN",
+          "FGL",
+          "BNC",
+          "XHLD",
+          "RPD",
+          "SAIL",
+          "CRWD",
+          "LFMD",
+          "BRR",
+          "FPS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 1
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-14T15:48:50-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-14T15:48:50-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "DV",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.49,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: DV is exhibiting significant accumulation today, evidenced by a massive relative volume of 8.17x its 20-day average and a firm grip on the number one spot in our ranking system across 12 consecutive observations. While the catalyst report is empty, meaning there is no specific headline driving this momentum, the tape demonstrates sustained interest with price acceleration of 0.1474% and a positive relative volume rate change of 0.1295%. The stock is holding its ground above the 20-day moving average, confirming that the current volume surge is absorbing supply at these levels. Investors are positioning for a breakout given the high-conviction participation seen throughout the entire 330-minute trading window. BEAR: The stock is currently suffering from a 'no catalyst' scenario, as there are zero headlines or upcoming events to justify the 8.17x relative volume and the sustained premium above the 20-day moving average. Tape deterioration is evident, with a drawdown of 0.5521% from the session high and a consistent decay in price over 330 minutes of observation. With only two positive intervals out of eleven observed, the momentum has clearly failed to sustain its initial breakout, marking this entry as chasing an exhausted intraday move without fundamental backing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "DV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

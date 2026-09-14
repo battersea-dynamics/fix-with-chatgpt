@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-09-14T11:56:53-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CRBP",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: CRBP is experiencing a significant catalyst-driven breakout today following the announcement of statistically significant, clinically meaningful weight loss results from its CANYON-1 Phase 1b trial of CRB-913. This fundamental breakthrough is being validated by exceptional market participation, with relative volume at 9.42x the 20-day average, signaling massive institutional interest. The tape confirms this momentum with four consecutive observations showing strong price acceleration of 3.0569% and a current ranking as the number one mover in our scanner. Despite the stock trading 18.75% below its 20-day moving average, the current volume surge and positive catalyst suggest substantial room for a mean-reversion move to the upside. BEAR: CRBP is currently exhibiting clear signs of momentum exhaustion following the release of the CANYON-1 trial results. Despite the news being fresh, the price has already retracted 1.05% from its observed high of $8.55, and the stock is trading significantly below its 20-day moving average (-18.75%), suggesting this move is an attempt to correct a deeper technical deficit rather than a sustainable breakout. With the relative volume rate showing minimal incremental growth at 0.2445 and the return since the first observed tick being negative, the immediate upside is being capped by selling pressure. Entering now risks being the exit liquidity for traders who front-ran the news, as the stock struggles to sustain price gains above its opening levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DV",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.35,
+      "reasoning": "net -0.15 = bull 0.35 - bear 0.50 (buy at >= +0.20). BULL: DV is exhibiting significant accumulation today, evidenced by massive relative volume of 6.80x its 20-day average. The stock has demonstrated persistence with four consecutive scan observations, maintaining a tight drawdown of only 0.184% from its observed high while showing a distinct rank improvement from 3rd to 2nd. There is no specific news catalyst in the provided report to explain the move, meaning this is currently a pure technical play driven by heavy institutional participation. With price trading 1.69% above its 20-day moving average and positive price acceleration, the tape suggests a breakout attempt is underway. BEAR: DV is currently showing clear signs of exhaustion as the relative volume rate has decelerated by 11.81% over the last 90 minutes. Despite a 6.80x surge in volume, the price has failed to gain traction, posting a 0.184% drawdown from the observed high since it first appeared on the radar. With an absolute absence of news or catalysts to explain the volume anomaly, the current move is unsupported and likely represents retail chasing. This combination of weakening participation and stagnant price action suggests an imminent mean-reversion as the momentum fades.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RUM",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.25 = bull 0.90 - bear 0.65 (buy at >= +0.20). BULL: RUM is experiencing a massive catalyst-driven breakout following the confirmed report that Anthropic has signed a $13.7 billion, six-year compute deal with the company. Market participation is exceptional, with relative volume at 4.09x the 20-day average, signaling institutional conviction behind this news. The stock shows robust momentum with four consecutive observations on the tape and a price acceleration of 0.8167 percent points, even as it approaches its observed high of $8.36 with minimal drawdown. This combination of a high-value, long-term fundamental partnership and intense same-session volume support suggests substantial room for the stock to extend its 16.25% daily gain. BEAR: The stock is currently experiencing a classic 'chasing' scenario following the headline regarding the $13.7 billion Anthropic deal, as the price is already sitting 0.299% below its observed session high. Momentum data confirms this exhaustion, with the relative volume rate dropping by 13.91% compared to earlier intervals, indicating that participation is drying up despite the +16.25% gain. Buying at these levels forces the trader to chase a move that has already lost its initial volume-driven impulse, creating a high probability of mean reversion as the excitement from the same-day news is absorbed by the market.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.37e+10 - no matching value in source data",
+        "bear: cited 1.37e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SWVL",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: SWVL is currently trading at a significant premium of 79.70% above its 20-day moving average, suggesting that despite the intraday pullback, the stock remains in a strong structural uptrend. While the recent negative report from Fugazi Research on 2026-09-11 creates uncertainty, the stock's ability to maintain high volatility levels makes it a potential candidate for a mean-reversion trade. The current intraday momentum shows signs of stabilization with a rank improvement, and any reduction in selling pressure could allow the price to reclaim lost ground quickly given the stock's history of high-beta moves. BEAR: SWVL is currently exhibiting a clear 'chasing' failure mode, with the stock trading a massive 79.70% above its 20-day moving average while suffering a 10.61% decline today. The evidence of deterioration is concrete: the volume is failing to confirm the move at just 0.05x normal levels, and internal momentum has stalled with a 7.00% drawdown from the observed session high. Furthermore, the presence of a critical recent headline from Fugazi Research titled 'From Hype to the Slumdog Bus' creates a negative sentiment overhang that likely exacerbates the lack of buying conviction. With price acceleration in negative territory and no positive intervals observed across recent snapshots, the setup is fundamentally exhausted.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BZ",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: BZ is showing strong institutional interest today, evidenced by a relative volume of 3.70x against the 20-day average. The stock demonstrates clear price resilience with four consecutive positive observations over 90 minutes and a 0.6398% gain since it was first flagged. While the recent CMO stock sale on 2026-09-10 creates uncertainty, the high volume and current rank improvement of 1 suggest that buyers are aggressively absorbing the dip. The momentum is firmly in a sustained continuation setup with zero drawdown from the observed high, indicating potential for a bounce back toward the 20-day moving average. BEAR: BZ is currently exhibiting clear signs of exhaustion as it trades 6.25% below its 20-day MA while attempting a rebound. The evidence shows measurable deterioration with a relative volume rate of change at -0.0909 and price acceleration at -0.0379, suggesting that buying pressure is fading rather than confirming the move. Furthermore, the $3.40M CMO insider sale from four days ago adds a layer of overhang that contrasts with the current attempt to find a floor. Entering now amounts to chasing a weak recovery with declining participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XHLD",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: XHLD is demonstrating robust price momentum, trading at its observed high of $14.00 with 4 consecutive positive scan observations and a 2.741% return since the first scan 90 minutes ago. The stock is showing institutional interest with a rank improvement from 7 to 6 and a relative volume rate increase of 0.0099, confirming continued participation. While the catalyst report contains no specific recent news to justify this move and highlights skepticism regarding its rally, the price action remains strong with zero drawdown from the session high. This is a tape-only momentum play relying on the persistence of the current upward trend. BEAR: XHLD is flashing a clear chasing failure mode, as it trades +60.54% above its 20-day moving average on low participation, evidenced by a relative volume of only 0.71x. Despite the 11.73% intraday gain, the momentum is stalling, with a significant negative price acceleration of -1.2553 percentage points. Furthermore, the lack of any fresh catalyst, contrasted against the September 11th SeekingAlpha warning regarding its unsustainable 8x rally, suggests that current buyers are providing exit liquidity for institutional holders rather than reacting to new fundamental value.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BNC",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: BNC is currently exhibiting strong relative strength, trading 51.67% above its 20-day moving average and sustaining a daily gain of 4.79%. Momentum has shown resilience with a clear rank improvement from 9th to 7th over the last 90 minutes and a positive price acceleration of 0.2799 percentage points. While the catalyst report lacks specific news, the stock's inclusion in recent 'top mover' and 'industrials moving' reports from September 14th highlights a persistent market interest that justifies a tactical entry ahead of the September 21st earnings date. The technical momentum and current consolidation near the daily high of $5.1399 suggest potential for a breakout as volume remains steady. BEAR: BNC is currently exhibiting a classic chasing failure, as the stock is trading 51.67% above its 20-day moving average on weak relative volume of 0.95x, indicating a lack of conviction behind the price move. The tape shows clear intraday deterioration, with a 2.14% drawdown from the observed high and a negative return since being first seen 90 minutes ago. Furthermore, with earnings arriving in only 7 calendar days, the risk of entering a structurally overextended position into an impending binary event creates an unacceptable risk-reward profile for a short-term hold.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FGL",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 1.15,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.75 = bull 0.10 - bear 0.85 (buy at >= +0.20). BULL: There is currently no catalyst or positive price momentum supporting a bull case for FGL today. The stock is exhibiting significant weakness with relative volume at 0.23x and a negative 14.0254 percentage point price acceleration. The intraday history shows a return of -1.8116% since the first observation and an observed drawdown of -5.7391% from the high, indicating that the stock is currently failing to attract buyers. Nothing in the provided news report offers a reason to expect a reversal in this downward trend. BEAR: FGL is exhibiting clear signs of exhaustion with a -5.7391% drawdown from its observed high and negative price acceleration of -14.0254, confirming that any potential momentum has collapsed within the last 90 minutes. The stock is suffering from a complete lack of volume participation at just 0.23x its 20-day average, meaning there is no institutional interest to support a turnaround. Furthermore, there is no fresh catalyst to justify a position, and the news cycle is stale, with all relevant headlines occurring three to five days ago and effectively priced out. The -73.51% distance from its 20-day MA indicates a structurally broken trend, making any long entry a classic trap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRWD",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: CRWD is demonstrating exceptional momentum today with a 14.99% gain on 1.39x relative volume, signaling strong institutional participation. The stock is exhibiting sustained continuation, having improved its market rank from 11th to 9th while maintaining zero drawdown from its observed high of $237.725. This technical strength is anchored by fresh catalysts from 2026-09-14, specifically positive CEO commentary on AI and cybersecurity alongside media headlines highlighting the stock's explosive upside potential. With a 2.301% gain since the first observation, the price action confirms aggressive buying pressure that supports a continued move higher. BEAR: Buying CRWD at these levels represents a 'chasing' risk, as the stock is extended 14.56% from its 20-day MA and has already captured its move on a flurry of same-day media headlines. The tape shows specific deterioration: price acceleration has turned negative at -2.02%, and the relative volume rate per 30 minutes has dropped significantly by -0.0944. These metrics, combined with the fact that the price is currently hitting an observed high with no room for further momentum, suggest the buying interest is exhausting as the daily move peaks.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SKYQ",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: SKYQ is exhibiting significant momentum with 2.10x relative volume and a 4.50% gain, maintaining a strong position despite recent volatility. While the catalyst report lacks fresh news specifically for SKYQ today, the stock's sustained trading interest, demonstrated by four consecutive observed intervals, highlights continued market attention. The current price of $3.25 remains well above the 20-day moving average, signaling an established uptrend that provides room to run for momentum traders. This setup relies on the strength of the tape-recorded volume and price action relative to the 20-day history. BEAR: SKYQ is suffering from clear intraday exhaustion, having retreated 7.54% from its observed high of $3.515 within just 90 minutes of being tracked. The stock is currently trading 18.99% above its 20-day moving average with no fresh catalyst, as all news in the report dates back to September 10th and is therefore four days stale. With the relative volume rate per 30 minutes falling by 11.3% and a negative return since being first seen, current buyers are merely providing exit liquidity for those who entered earlier in the session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: PMI is demonstrating strong momentum with an 18.76% gain today and is currently trading at its daily high of $6.33, indicating sustained buying pressure. My case is supported by the tape-only evidence over four consecutive observations, showing a rank improvement from 15 to 11 and an acceleration in price of 2.3381 percentage points. While there is no specific catalyst in the news report, the price action reflects a clear 'sustained_continuation' setup with zero drawdown from the observed high. The combination of price acceleration and rank improvement suggests continued upside potential for a short-term trade. BEAR: PMI is currently trading 18.76% above its 20-day moving average on anemic relative volume of just 0.10x, indicating that the price move is unsupported by broader institutional participation. The absence of any company-specific news to justify an 18.76% gain suggests the move is driven by transient volatility rather than fundamental shifts, leaving the stock vulnerable to a sharp mean reversion as liquidity dries up. Furthermore, the relative volume rate is actively deteriorating at -0.0045, confirming that the momentum is stalling despite the stock holding at its observed high of $6.33.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PCLA",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.75 = bull 0.10 - bear 0.85 (buy at >= +0.20). BULL: PCLA is currently showing an oversold condition following a sharp 26.01% decline, presenting a potential mean-reversion opportunity as it trades near its 20-day moving average. While there is no specific catalyst identified in the news reports to explain this volatility, the stock is being tracked by market scanners during today's session, indicating it is on the radar for high-activity participants. Given the significant price dislocation from recent levels, traders may find a tactical entry point to capture a technical bounce. There is no independent tape confirmation to support this trade, as the recent intervals show negative returns and low relative volume. BEAR: PCLA is currently exhibiting clear signs of tape deterioration following a massive 26% single-session decline, with the stock failing to show any meaningful price recovery or positive observed intervals over the last 90 minutes. The lack of any specific company-level catalyst in the news feed suggests this move is driven by unanchored selling pressure rather than a fundamental repricing, creating significant uncertainty. With relative volume at a minuscule 0.20x and a consistent 4.35% drawdown from the session high, the stock lacks the participation necessary to support a bounce, making it a high-risk trap for those attempting to catch a falling knife before the upcoming September 24th earnings event.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TJGC",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: TJGC is displaying significant momentum, trading 50.86% above its 20-day moving average and posting a 5.36% gain today. While the catalyst report lacks a stock-specific headline, the broader market focus on the upcoming FOMC meeting as cited on September 12 suggests a volatility environment where TJGC is currently capturing investor interest. With only one observation of momentum available, this is primarily a tape-driven play on current price strength. Given the lack of confirmed volume participation and news, the case remains speculative. BEAR: TJGC is currently showing a dangerous divergence between its price action and participation, trading at a 50.86% premium to its 20-day moving average on abysmal relative volume of just 0.15x. The lack of a specific, company-level catalyst leaves this 5.36% move unsupported by any actionable news, as the available headlines only reference general FOMC macro sentiment from two days ago. Entering at this level essentially represents buying into a move that lacks volume confirmation or fundamental justification, leaving the stock highly vulnerable to a mean-reversion pull back.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NTSK",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.95,
+      "stop_loss_pct": 3.15,
+      "reasoning": "net +0.05 = bull 0.65 - bear 0.60 (buy at >= +0.20). BULL: NTSK is seeing strong momentum following a 13.37% gain on 1.10x relative volume, reflecting sustained market enthusiasm after the company's September 9th earnings report highlighted 29% topline growth. The September 12th headline confirming that Netskope\u2019s AI security push is already paying off provides a specific fundamental catalyst that explains the recent bullish price action. Despite limited intraday data, the stock is trading near its session high, indicating significant buying interest and strong institutional conviction in the company\u2019s AI-driven value proposition. BEAR: The 13.37% rally in NTSK is driven by 'AI Security' news that dates back to September 9th and September 12th, making this price action a delayed reaction to stale headlines rather than a new catalyst. With the stock now trading 14.27% above its 20-day moving average, buyers are chasing an extension without fresh information to support the move. Since the current move relies entirely on news that is already 2 to 5 days old, there is a high probability of exhaustion as momentum fades in the absence of new developments.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRML",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.95,
+      "stop_loss_pct": 3.5,
+      "reasoning": "net -0.20 = bull 0.40 - bear 0.60 (buy at >= +0.20). BULL: GRML is undergoing a significant corporate transformation, highlighted by the September 10th completion of a rare earths acquisition and the upcoming Q4 biotech spin-off. While the intraday volume is light, the stock remains 4.13% higher on the session as investors digest these fundamental shifts in business strategy. The stock is currently trading at a deep discount, nearly 50% below its 20-day moving average, offering substantial technical upside potential if sentiment improves following the recent positive news flow. Current price action shows stabilization near the daily highs, indicating an initial absorption of supply following the aggressive restructuring updates from earlier this week. BEAR: The entry case for GRML is fundamentally flawed by the lack of volume support, evidenced by a relative volume of only 0.54x and a low volume rate of 0.0342 per 30 minutes, indicating that the move is an empty push lacking institutional participation. The stock is currently showing immediate tape deterioration with a negative 0.6061% drawdown from its observed high and a worsening rank from 14 to 15, confirming the price action is failing to hold momentum. Furthermore, the news regarding the corporate restructuring and spin-off dates back to between 3 and 6 days ago, meaning the market has already digested the structural shifts and this session's gain is disconnected from any new catalyst.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CRBP",
+      "action": "submitted",
+      "order": {
+        "symbol": "CRBP",
+        "qty": 31,
+        "est_cost": 262.57,
+        "entry_ref": 8.47,
+        "take_profit": 9.15,
+        "remaining_take_profit_pct": 7.97,
+        "stop_loss": 8.18,
+        "confidence": 0.6,
+        "client_order_id": "ta-20260914-115653-CRBP",
+        "analysis_price": 8.46,
+        "live_price_change_pct": 0.12
+      },
+      "broker": {
+        "id": "d1a0e4e0-1823-402d-80ff-72aa887a4593",
+        "client_order_id": "ta-20260914-115653-CRBP",
+        "symbol": "CRBP",
+        "qty": "31",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 9.15,
+        "stop_loss": 8.18,
+        "legs": [
+          "87c69850-297a-4e72-9e40-9006fcb1ba7d",
+          "d1390019-5496-49b4-86d9-1ea0283ada12"
+        ]
+      }
+    },
+    {
+      "symbol": "DV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RUM",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "SWVL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XHLD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BNC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FGL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRWD",
+      "action": "skipped",
+      "reason": "position size cap exceeded, skipped: 1 share at $238.00 > current cash-based budget ($211.88)"
+    },
+    {
+      "symbol": "SKYQ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PCLA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TJGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NTSK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GRML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

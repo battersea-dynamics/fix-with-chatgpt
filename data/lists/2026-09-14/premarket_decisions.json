@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-09-14T08:53:14-04:00",
+  "decisions": [
+    {
+      "symbol": "ALM",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.61,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: ALM is demonstrating a strong accumulation phase with pre-market volume tracking at 4.81x its 2-week average, indicating sustained institutional interest that is not just a single-spike anomaly. While there is no specific headline from the last week providing a catalyst, the reversal structure identified in the candle analysis confirms the gap is being bought rather than sold into. This strength against a broader market backdrop of high yields and volatility suggests a localized accumulation cycle in play. The consistent bid pressure through the pre-market session supports a high-conviction breakout entry. BEAR: The 4.91% gap in ALM is completely unsupported by fundamental news, as the most recent relevant headline regarding tungsten mining is dated September 9th and is clearly stale. This lack of a fresh catalyst confirms a 'gap-fade' scenario where the move is driven by thin-tape speculation rather than genuine institutional accumulation. Furthermore, the conviction score of 0.75 for a 'reversal' pattern suggests that the pre-market high will likely serve as the exit liquidity for participants before the 9:30 open, leading to an opening-auction reversal. With no new information to justify this price elevation, buying at the open is essentially chasing a move that has already run out of buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBNX",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: BBNX is exhibiting an extreme volume signature at 166.46x its baseline, which indicates a significant institutional shift rather than retail panic. While there is no specific company news to explain the gap, the immense liquidity pouring into this name at these levels suggests a major buyer is absorbing the supply to establish a position. The bearish candle read ignores the critical reality that such massive volume on a gap-down typically marks a capitulation bottom where weak hands are flushed out. I am betting that this high-conviction volume provides a firm floor for a rapid mean reversion back toward yesterday's close. BEAR: BBNX is exhibiting a clear exhaustion structure with a bearish reversal pattern, suggesting that the initial selling pressure is already running out of steam. The total absence of a concrete catalyst in the news block\u2014limited only to a generic September 11th listicle\u2014confirms that this gap is driven by speculative thinning rather than fundamental repricing. With the gap-fade failure mode in play, the open will likely serve as the daily high for buyers who mistake the thin-tape pre-market reaction for durable selling interest. Buying at the open invites immediate reversal risk as the morning liquidity will likely look to trap momentum chasers before rotating back toward the $16.57 resistance level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRBP",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: The pre-market volume of 4.49 million shares is immense, confirming intense institutional interest ahead of the 8:00 a.m. EDT conference call regarding CANYON-1 obesity trial data. While the candle structure suggests exhaustion, the sheer magnitude of volume relative to the baseline demonstrates that market participants are aggressively positioning for a positive clinical readout. This gap is directly supported by the specific, dated expectation of the CRB-913 data presentation scheduled for today, transforming technical skepticism into a high-conviction event play. The sustained volume signature suggests that bulls are defending the $8.51 level despite the bearish technical read, indicating the market is pricing in a significant fundamental catalyst. BEAR: The pre-market move is a classic exhaustion gap occurring exactly at the time of the scheduled 8:00 a.m. EDT conference call regarding CANYON-1 data, suggesting the news is already fully priced in and buying now serves only as exit liquidity for informed participants. Despite the massive 1068x baseline volume, the price action has plateaued well before the open, indicating that real liquidity will likely reject these levels at 9:30. This setup suffers from an exhaustion structure combined with an opening-auction reversal risk, as the market has had sufficient time to digest the trial data catalyst and is now seeking to fade the initial spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRWD",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.20 = bull 0.90 - bear 0.70 (buy at >= +0.20). BULL: CRWD is showing a textbook breakout with 7.55x baseline pre-market volume, signaling institutional conviction following today's headlines regarding the CEO's commentary on AI and cybersecurity. The gap is not only holding but actively building, supported by the specific catalyst of sector-wide tailwinds tied to AI security warnings which are directly benefiting CrowdStrike's value proposition. The structural setup is a classic 'Gap and Go' that leaves little room for doubt, as the bid remains firm despite the significant 5.40% overnight appreciation. Given the sustained liquidity and high-conviction participation, the stock is primed for a continuation move at the open. BEAR: The current 5.40% gap is driven entirely by vague, repetitive headline noise concerning AI comparisons and generic cybersecurity jolts, none of which provide the fundamental catalyst required for sustained outperformance at this valuation. Despite the elevated 494k share volume, the move lacks a definitive earnings or macro anchor, leaving it vulnerable to an opening-auction reversal as institutional participants treat the early price hike as exit liquidity. The lack of material news confirms this is an exhausted move; with the gap failing to build further momentum in the latter half of the session, traders are likely to see the open as the day's high before a standard gap fade ensues.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DFTX",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.10 = bull 0.95 - bear 0.85 (buy at >= +0.20). BULL: The 48.83x volume surge relative to baseline provides irrefutable evidence of institutional accumulation ahead of today's Phase 3 Panorama study results announced on September 14, 2026. The gap is not merely a reaction to headlines, but a sustained bid that has held the +12.55% level consistently, indicating that market participants are positioning for a positive clinical data readout. With the candle agent confirming a high-conviction continuation pattern, the structural setup suggests that the price is likely to test the $66 analyst target as volatility unfolds. The sheer volume density validates the catalyst, supporting an aggressive move higher upon the market open. BEAR: The current 12.55% gap is being driven by anticipation of the Phase 3 Panorama study results scheduled for today, representing a classic 'buy the rumor' scenario where the market has already front-run the binary outcome. The headline regarding the Phase 3 results is already fully reflected in the pre-market price, and the exhaustion structure is evident as the move has stalled well before the opening bell. Because this gap is purely speculative based on a pending announcement that carries extreme volatility risk, the open is highly likely to serve as exit liquidity for early entrants seeking to avoid the 'sell the news' reversal common in clinical trial data releases.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DV",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.26,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: DV is exhibiting an extraordinary volume signature, with pre-market volume reaching 172.90x its baseline average, indicating massive institutional interest. While there are no headlines or specific dated events to anchor this move, the price action remains firm at a +1.49% gap, suggesting the heavy volume is buying, not liquidating. This structural continuity in the pre-market session warrants a bullish stance based on the sheer force of the volume anomaly alone. With no news to drive a retail narrative, this is a pure institutional accumulation play. BEAR: The absence of any news headlines to support this move confirms a classic gap-fade failure mode, as there is no durable catalyst to justify the surge in volume. With over 2.19 million shares traded pre-market, this is an exhaustion structure where the price has already stopped building, signaling that the initial buyers have satisfied their demand. The move is a classic case of an opening-auction reversal waiting to happen, where the lack of institutional news leaves the tape vulnerable to a dump as retail sentiment collides with the first wave of real opening liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PANW",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.26,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: The 7.97x relative volume surge combined with an island reversal structure confirms that institutional capital is aggressively accumulating PANW in response to the September 14th headlines regarding AI security demand. The gap has remained firm throughout the pre-market session, indicating that market participants are absorbing the valuation concerns mentioned earlier this week in favor of the current sector-wide momentum. This price action suggests a clear break from prior consolidation, setting the stage for sustained intraday buying pressure as market participants chase the sector leadership. The technical setup is reinforced by high conviction buyers who are willing to support the stock well above yesterday's close. BEAR: The +4.74% gap is fundamentally misaligned with the news cycle, as today's headlines regarding 'gloomy AI warnings' from Anthropic and OpenAI should pressure, not propel, high-valuation cybersecurity names like PANW. The technical 'island reversal' is an exhaustion structure that masks the reality of a thin-tape pump, as volume has already stopped building, signaling that the move is priced in before the opening bell. Buying at the open makes you the exit liquidity for participants front-running an AI narrative that the market is already beginning to view with skepticism per the September 12th warnings about high valuation bars.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: PMI exhibits a high-conviction volume signature with pre-market volume at 13.95x the daily average, indicating institutional interest rather than retail noise. The gap is holding firmly near its session highs, supported by a constructive continuation pattern that suggests meaningful buying pressure post-open. There is no specific headline explaining this move, as the last news from September 10th is purely generic, meaning this surge is driven by pure technical accumulation and order flow rather than a public catalyst. Because the move lacks a specific headline, I am tempering my confidence, but the raw volume footprint remains highly actionable for a trend-following play. BEAR: The 8.26% gap on PMI is a classic setup for a gap fade, as there is a complete absence of any fresh catalysts or company-specific news to justify the move; the only available headline from September 10th is four days stale and clearly irrelevant to today's action. With pre-market volume of only 153,912 shares, the price is sitting on a thin tape that will be immediately challenged by institutional liquidity at the opening auction. Because the move lacks a durable fundamental driver, this looks like a speculative reach that will succumb to an opening-auction reversal once the retail participants who drove the thin pre-market move attempt to exit into real size.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RBLX",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: The 6.61x surge in pre-market volume relative to average confirms that institutional interest is reacting to the string of transformative announcements from the Roblox Developers Conference on September 11, specifically the 'Roblox Everywhere' initiative and the new creator wallet features. This price action is not a random spike; it is a sustained breakout move that has held the gap steadily above the $47 level throughout the session. The technical breakout structure validates the fundamental momentum, indicating that market participants are aggressively pricing in the growth potential of these new platform features. The consistent bid pressure suggests a high probability of continuation as liquidity increases at the open. BEAR: The current 3.91% gap is fueled entirely by stale news from September 11th, such as the RDC announcements regarding 'Roblox Everywhere', which have been public for three sessions, rendering this move a classic 'already priced in' scenario. With the gap-building phase clearly stalling before the open, the current pre-market volume of 256k shares is insufficient to sustain a trend against institutional sell-side pressure at $47.28. This setup exhibits a textbook opening-auction reversal risk where momentum buyers are likely to become exit liquidity for participants who front-ran the developer conference headlines. Buying here relies on retail chasing a catalyst that the market has already digested, making the open the most probable high of the day.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RUM",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: The massive pre-market volume of nearly 3.8 million shares, representing a 160x increase over the baseline, confirms significant institutional conviction following the September 10th announcement regarding the aggressive squeeze-out and acquisition of Northern Data. Unlike a typical retail-driven gap, this sustains high-level liquidity that suggests large-scale re-positioning in anticipation of the ownership consolidation. While the candle agent signals exhaustion, the fundamental change in RUM's corporate structure and asset base provides a catalyst that overrides short-term technical caution. Buyers are effectively absorbing the supply at $7.91, setting the stage for a continuation as the market re-prices the entity for the completed acquisition. BEAR: The current 10.32% gap is built entirely on stale news from September 10th regarding the Northern Data acquisition, which is already reflected in the stock's 33% monthly gain noted on September 8th. The candle agent identifies a clear exhaustion structure, suggesting that the massive 160x volume spike relative to the baseline is a climactic event rather than the start of a sustained trend. Because the gap has failed to gain momentum beyond the initial overnight reaction, the current price represents a classic 'already priced in' exit opportunity for institutional sellers at the open. Buyers entering at $7.91 are likely providing the liquidity necessary for profit-taking following a multi-day run-up, setting the stage for an immediate opening-auction reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SLS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: SLS is exhibiting massive pre-market participation with over 1.6 million shares traded, representing 24.62x its average daily volume, which indicates significant institutional interest despite the gap down. While no specific headline from the last week explains this sharp move, the sheer scale of the volume suggests that a major position adjustment is taking place, likely clearing out weaker hands following the September 10 mention of institutional accumulation. This volume signature is a clear indicator that market makers are actively absorbing shares, and buying at the open offers a chance to capitalize on the likely oversold bounce as the selling pressure exhausts itself. BEAR: The current 12% gap down for SLS lacks any recent news catalyst to justify the move, as the last relevant news regarding institutional stake changes occurred on September 10th and is now stale. The 1.67 million share volume indicates this is an exhaustion structure driven by reactive selling rather than fundamental news, and the lack of any subsequent catalyst suggests the open will serve as exit liquidity. With no new information to explain this aggressive price decay, the move is prone to an opening-auction reversal as institutional buyers step in to fill the liquidity void created by the pre-market panic.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VRT",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: VRT is currently exhibiting a massive 5.11x volume spike in pre-market, indicating that the 8.42% gap down is absorbing significant institutional supply. While the headline 'Vertiv Sees Data Center Demand Strengthen as AI Infrastructure Pipeline Expands' from today supports the long-term fundamental thesis, the current bearish reversal structure suggests the market is pricing in a short-term shakeout rather than a permanent loss of value. The heavy volume signature implies that buyers are likely waiting for an opening wash-out to step in and support the AI infrastructure narrative. There is no specific negative news headline to explain this magnitude of a gap, suggesting this is a liquidity-driven event that presents a mean-reversion opportunity. BEAR: The pre-market gap of -8.42% lacks a specific negative catalyst, as the latest headlines from September 14th focus on strong AI infrastructure demand, confirming that this move is a disconnect rather than a news-driven repricing. With the candle agent signaling a high-conviction reversal pattern, the pre-market volume of 192,410 shares is insufficient to validate such a deep drop against institutional support. The setup suffers from an exhaustion structure where the price action has stalled, indicating that the move is finished and the opening auction will likely act as exit liquidity for trapped sellers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
