@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-09-15T14:23:29-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "SWMR",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: SWMR is currently undergoing a massive capitulation event with 8.15x relative volume, indicating a potential exhaustion bottom after a significant 29.66% decline. Despite the sharp drop, the tape shows resilient participation with seven consecutive observations and positive price acceleration of 1.2832 percentage points, suggesting buyers are absorbing the heavy selling pressure. While no specific catalyst explains today's intraday drop, the recent $224 million acquisition of Ratel Robotics announced on 2026-09-10 remains a strong fundamental long-term value driver for the company's defense-tech positioning. A tactical long position benefits from the extreme distance from the 20-day moving average, creating a high-probability mean reversion opportunity. BEAR: SWMR is suffering a massive -29.66% intraday collapse, with the price now sitting 39.69% below its 20-day moving average. The momentum data confirms a failure to recover, showing a -6.91% return since the stock was first spotted and a 7.63% drawdown from the observed session high. With no upcoming earnings or dividend catalysts to explain this steep decline, the price action reflects a structural breakdown in market confidence that significantly outweighs the five-day-old news regarding the Ratel Robotics acquisition. This is a classic case of chasing a falling knife where current volume is failing to prevent continued rank stagnation.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.24e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "PLAY",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: PLAY is demonstrating a significant capitulation event today with 7.00x normal relative volume, indicating a massive shift in hands following the Q2 earnings miss. Despite the negative headlines and price target cuts, the stock is showing technical resilience with positive price acceleration of 1.6741% and a recent return of 0.6637% over the last interval, suggesting the selling pressure is reaching exhaustion. An entry here capitalizes on a potential mean reversion from a deep 26.23% gap below the 20-day moving average as institutional buyers digest the analyst downgrades. This trade relies on the extreme volume turnover providing a floor for a rebound trade in a highly oversold environment. BEAR: The stock is currently suffering from a severe fundamental reset following a Q2 earnings miss, with multiple analysts immediately slashing price targets today. While the 19.42% drop might tempt bargain hunters, the tape confirms exhaustion: the 7.00x relative volume is fading as the relative volume rate per 30 minutes has dropped by 16.23%, and the stock is hovering 5.47% off its intraday high with a stagnant rank. Chasing this falling knife is dangerous because the downward pressure is driven by persistent negative institutional sentiment regarding the firm's growth trajectory. With the price now 26.23% below its 20-day moving average, buying into this momentum trap offers no support and high exposure to further liquidation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "SWMR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PLAY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-15T15:18:22-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "SWMR",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: SWMR is demonstrating significant exhaustion of selling pressure after a 25.37% intraday decline, with momentum shifting as evidenced by five positive intervals out of the last eight and a notable 5.5094% price acceleration. The stock is seeing massive institutional interest with relative volume at 9.49x normal, signaling a massive capitulation event that often precedes a sharp mean-reversion move. While the recent acquisition of Ratel Robotics announced on 2026-09-10 provides a strong fundamental backdrop, the current trade is supported by the tape-based reality of current rank 1 and consistent volume participation, suggesting that the shares are bottoming out from their current distance of -36.01% from the 20-day MA. BEAR: SWMR is undergoing a massive -25.37% collapse with extreme relative volume of 9.49x, suggesting the market is aggressively unwinding positions following the September 10th acquisition news. Despite the stock appearing on top loser lists, the price has failed to sustain any meaningful recovery, showing a -1.23% return since first being spotted and a -2.00% drawdown from the observed high. The negative score change of -0.3674 combined with the lack of any positive intraday momentum indicates that the price action is driven by a flight to liquidity rather than a dip-buying opportunity. Buying into this volatility constitutes catching a falling knife, as the sell-off is deep enough to have pushed the stock -36.01% away from its 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "SWMR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

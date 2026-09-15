@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-09-15T13:55:22-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "SWMR",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: SWMR is undergoing a massive capitulation event, indicated by 7.73x relative volume, which often marks a bottom when combined with extreme distance from the 20-day moving average of -40.01%. While the stock has seen significant intraday weakness, the recent September 10th announcement regarding the acquisition of Ratel Robotics for $224 million fundamentally strengthens its aerospace and defense portfolio, suggesting the current sell-off may be an overreaction to market-wide volatility. With 6 consecutive observations of active trading participation, the stock is currently ranking at the top of the watch list for momentum traders looking to capture an oversold bounce. Given the high relative volume and the potential for a technical mean reversion, there is a clear opportunity for a sharp tactical rebound. BEAR: SWMR is suffering a massive 30.04% collapse, exacerbated by a significant volume participation decline evidenced by a 69.79% drop in relative volume rate. The stock is currently showing clear signs of exhaustion with a -8.12% drawdown from its observed session high and a consistent trend of negative returns over its latest intervals. The lack of any specific negative catalyst in the news report suggests this is a momentum-driven washout where the lack of buyer support is confirming a continuation of the downward trend. Buying now is attempting to catch a falling knife in a name that is 40.01% away from its 20-day moving average, signaling an absence of technical floors.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.24e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "PLAY",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: PLAY is currently experiencing an extreme capitulation event following Q2 earnings results, as highlighted by the wave of price target cuts from firms like UBS and BMO Capital today. Despite the -19.95% drop, the stock is seeing significant institutional interest with a 6.64x relative volume spike, suggesting that the initial panic selling is being met by aggressive bargain hunting. The current price of $6.78 sits 26.72% below the 20-day moving average, creating a substantial mean-reversion opportunity for traders looking to capture a bounce from oversold conditions. Even with negative price development in our observations, the sheer volume participation on this specific earnings-driven headline date indicates that the market is rapidly re-pricing the stock, potentially setting a floor for a short-term recovery. BEAR: Buying PLAY today is a classic case of attempting to catch a falling knife following a negative earnings reaction. The stock is down 19.95% on the session, and multiple analyst firms, including UBS and BMO, have slashed price targets today, confirming that the negative Q2 results represent a structural overhang rather than a temporary dip. The tape shows clear deterioration, with price 26.72% below its 20-day MA and a drawdown of 6.09% from the observed session high. Furthermore, the volume rate is decelerating with a -0.1377 change in rel_volume_rate_per_30m, indicating that even as the stock sinks, conviction in a rebound is fading.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PDM",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: PDM is exhibiting clear institutional interest today, evidenced by a massive relative volume of 8.25x its 20-day average and a sustained 3.64% price gain. The stock's momentum is supported by 6 consecutive positive observations since 10:17 ET, showing resilient price acceleration of 0.1048%. This move is fundamentally underpinned by today's announcement of a $200 million exchangeable senior notes offering and yesterday's strategic $56.25 million acquisition of an Arlington office building, confirming an active and expansionary corporate agenda. With the price hovering just 0.68% below its 20-day MA and showing limited drawdown of only 0.5216% from its session high, the structural setup for a breakout is exceptionally strong. BEAR: The stock is currently being chased into a ceiling, evidenced by a -0.52% drawdown from the observed high and a deteriorating momentum profile where the score has dropped by -0.7755. While the $200 million note offering announced today explains the high relative volume of 8.25x, the negative relative volume rate change of -0.0716 signals that liquidity is drying up as the day progresses. Buying now forces an entry into an exhausting trend where the initial news-driven momentum has already been absorbed, leaving the stock vulnerable to mean reversion toward its 20-day MA.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.625e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FTFT",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.50 = bull 0.25 - bear 0.75 (buy at >= +0.20). BULL: FTFT is showing signs of a potential bounce following a sharp 36.42% decline, as evidenced by a 7.818% price acceleration metric despite the broader intraday pullback. While the catalyst report provided no specific fundamental news explaining the price action, the technical data shows 6 consecutive observations of active trading and a recent 0.9698% recovery from the previous interval. The stock remains significantly elevated at 92.32% above its 20-day moving average, suggesting that the recent sell-off may be an over-correction rather than a structural change in sentiment. Investors may look to capitalize on this price acceleration as the stock attempts to find a floor after today's heavy volatility. BEAR: Buying FTFT today is a clear case of catching a falling knife, as the stock is down 36.42% on the session and has suffered a 14.37% drawdown from its observed session high. The relative volume is an anemic 0.51x, confirming that the price collapse is occurring without broad market conviction or participation to support a floor. With the stock still trading 92.32% above its 20-day moving average despite the massive intraday decline, there is significant room for further mean reversion. The complete absence of specific news catalysts to explain such extreme volatility leaves buyers holding a speculative void with measurable tape deterioration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INDP",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.05 = bull 0.60 - bear 0.65 (buy at >= +0.20). BULL: INDP exhibits strong intraday momentum, evidenced by six consecutive positive observations since 10:17 ET, resulting in a 15.728% gain from its first seen price. The stock is showing sustained price acceleration at 2.3825 percentage points and is currently trading at its observed high of $3.565, indicating resilient buying pressure. While the catalyst report contains no specific news explaining this move, the persistent intraday performance and the fact that it is a participant in today's broader market strength, as noted in the September 15 Benzinga headline, support a continuation setup. With the stock trading 141.97% above its 20-day MA, the momentum confirms that the market is aggressively re-rating the asset. BEAR: The primary failure mode is a lack of volume confirmation, as INDP is currently trading at a relative volume of only 0.86x normal despite a +13.54% move. This disconnect, combined with the stock being extended 141.97% above its 20-day moving average, suggests the move is driven by low-conviction flows rather than fundamental institutional participation. Furthermore, there is no specific company-level catalyst in the news report to justify this volatility, leaving the price action vulnerable to a sharp mean reversion as the thin liquidity fails to support current levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EDHL",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.08,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: EDHL is showing significant institutional interest, evidenced by a relative volume of 6.43x its 20-day average and a strong 5.32% gain today. The price remains resilient, holding 15.74% above its 20-day moving average, with momentum supported by three positive intervals across six consecutive observations. While the lack of specific fundamental news beyond general unusual volume reports (2026-09-15) necessitates caution, the current price acceleration of 0.8866% and minimal drawdown of 0.3957% from observed highs indicate consistent buying pressure. We are capitalizing on this high-volume breakout momentum for a short-term tactical trade. BEAR: EDHL exhibits clear signs of chasing with a 15.74% extension from its 20-day MA and a failure to hold momentum, evidenced by a negative return of -0.1834% since the stock was first seen. The lack of a fundamental catalyst beyond a generic 'unusual volume' headline suggests the price action is speculative rather than news-driven, leaving the move vulnerable to immediate mean reversion. Furthermore, the intraday tape shows measurable deterioration with a rank drop to 6, a score decline of -0.5648, and a weakening relative volume rate of -0.0964, signaling that the initial buying interest is evaporating.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TRMD",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: TRMD is currently seeing massive volume participation at 6.61x its 20-day average, suggesting a major clearing event following the secondary public offering announced on September 14 and 15. While the stock has dipped on this news, the aggressive selling provides a prime liquidity entry for a mean-reversion play as the market absorbs the offering. With the stock still holding a 10.17% premium over its 20-day moving average, the underlying trend remains constructive despite today's reflexive volatility. Buying the dip now allows for participation in a likely snap-back once the overhang from the Oaktree Capital secondary offering is resolved. BEAR: TRMD is currently acting as exit liquidity for a secondary public offering, as evidenced by the concurrent news regarding the 9M share offering by Oaktree Capital Management. The stock shows clear signs of momentum exhaustion with a -0.8255% drawdown from its observed session high and a consistent decline in its score over the last six observations. With relative volume elevated at 6.61x and price still 10.17% above the 20-day moving average despite today's -3.42% slide, the technical setup is deteriorating while supply-side pressure from the secondary offering remains active. Buying into this session involves catching a falling knife fueled by institutional liquidation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ALHC",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: ALHC is currently trading at an extreme discount, sitting 24.32% below its 20-day moving average following a significant 22.18% sell-off, which provides a high-reward technical bounce opportunity. The 3.21x relative volume confirms massive institutional interest during this liquidity event, suggesting that the selling pressure is reaching an exhaustion point. While the recent headlines regarding senior support gaps and the Hoag Health partnership demonstrate the company's active role in the evolving healthcare landscape, the primary catalyst here is the pure statistical mean reversion potential driven by heavy volume participation. The current price level represents a capitulation point that typically precedes sharp, short-term recoveries as sellers are washed out. BEAR: ALHC is currently suffering from a severe technical breakdown, marked by a 22.18% decline and a price that is 24.32% below its 20-day moving average. The intraday tape shows clear evidence of deterioration, with 0 positive observed intervals and a consistent drawdown of 8.78% from the session high. Furthermore, relative volume momentum is failing, with a negative rel_volume_rate_change of -0.1183, confirming that selling pressure is not being met with any meaningful support. With no recent catalysts to justify this collapse, the stock lacks a fundamental floor, making any attempt to catch this knife an exercise in betting against established downward momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FPS",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Forgent Power Solutions is demonstrating extreme investor enthusiasm following today's Q4 earnings, which featured a record $3 billion backlog and a transformative 76% growth guidance for FY27. Despite a slight intraday consolidation from the highs, the stock maintains massive institutional interest with relative volume at 3.89x the 20-day average, signaling significant momentum. Investors are clearly pricing in the strong fiscal outlook, and the current price level offers an attractive entry point following the initial surge. With this level of fundamental backing and volume-backed participation, the stock is positioned for further upside as the market fully digests the guidance. BEAR: The stock is currently exhibiting clear signs of chasing and exhaustion, as evidenced by a 2.08% drawdown from the observed high of $32.13 and a negative price acceleration of -0.1014. Despite the high-impact catalyst of today's earnings report and strong growth guidance, the momentum has deteriorated over the last 212 minutes with a return of -2.0853% since first being observed. With a rank that has stalled at 9 and a score change of -0.3247, the initial market reaction appears fully baked in, leaving late entrants as exit liquidity for those who bought the pre-market gap. Entering at $31.46 represents buying into a fading tape that has already digested the day's positive news, making a mean-reversion move toward the 20-day MA increasingly likely.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 3e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "CRBP",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 3.44,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: CRBP is experiencing an aggressive intraday rebound, with price trading at its observed high of $6.70 despite a significant daily decline. The stock has demonstrated resilient momentum, showing a 1.9787% gain since being first observed, and maintaining positive price development across three of the five observed intervals today. This recovery is underpinned by highly relevant clinical news, specifically the September 15th report of CRB-913 delivering 5% weight loss in a Phase 1b obesity study, which follows a string of positive trial data releases and a $35 analyst price target reiteration from September 14th. With relative volume at 2.56x its 20-day history, the heavy institutional participation suggests that the market is beginning to rotate back into the stock after an initial overreaction. BEAR: CRBP is currently suffering from a massive technical divergence, trading 35.02% below its 20-day moving average despite news of a 5% weight loss result for CRB-913 released today. The tape shows clear deterioration as indicated by a negative price acceleration of -2.1693 and a declining relative volume rate of -0.0538 per 30 minutes, suggesting that market participants are using the today's catalyst as exit liquidity rather than a buying opportunity. The failure to sustain momentum despite fresh data, paired with a significant 17.08% daily decline, confirms that selling pressure is overwhelming the news-based narrative.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ASND",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: ASND presents a compelling tactical buy following a massive $400 million share buyback announcement and the recovery of rights to its obesity drug on 2026-09-15, which significantly bolsters the long-term value proposition. Despite the 12.56% intraday drop, the stock is seeing intense institutional interest with 3.24x relative volume, and the Raymond James analyst maintains a bullish price target of $287. Momentum is shifting favorably as seen in the last 182 minutes, with the stock improving its rank from 13 to 11 and exhibiting recent positive price acceleration of 1.1407 percentage points. With a drawdown of only -0.589% from its observed high, the stock is consolidating near session peaks, signaling a clear opportunity to capitalize on an oversold reaction to sectoral headwinds. BEAR: ASND is exhibiting a clear failure of 'sell the news' dynamics today, with the stock plunging 12.56% despite the release of positive news regarding the regaining of obesity drug rights and a $400 million share buyback. The tape confirms exhaustion and a lack of conviction, as the stock remains 10.38% below its 20-day moving average and shows a negative return of 0.2798% since the initial observation, despite high relative volume of 3.24x. The presence of a downgrade from Raymond James, even while maintaining an 'Outperform' rating, adds selling pressure that overrides the buyback announcement. Investors are clearly using the news as exit liquidity, and the lack of price stabilization suggests further downside as the market digests the negative sentiment surrounding the biotechnology sector today.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4e+08 - no matching value in source data",
+        "bear: cited 4e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "VERA",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Vera Therapeutics is a compelling buy today following the announcement that its TRUTAKNA drug successfully met primary endpoints in the ORIGIN 3 trial, demonstrating a 76% reduction in kidney disease progression risk. This massive clinical success, coupled with the confirmed plan for a full FDA filing in Q4, provides a fundamental catalyst that outweighs the intraday profit-taking. With relative volume at 4.50x the 20-day norm, there is significant institutional interest fueling the underlying demand for the shares. The stock has maintained positive momentum through recent intervals with a price acceleration of 2.1559%, suggesting that the current pullback from the session high is a constructive consolidation phase for the next leg higher. BEAR: VERA is a classic case of chasing liquidity, as the stock has retreated 5.346% from its observed high of $35.12 despite the positive news regarding the ORIGIN 3 trial results. The momentum history confirms measurable deterioration, showing a return of -0.0977% since the stock was first tracked and a negative score change of -0.1757, indicating that the initial surge is now being met with consistent selling pressure. With a relative volume rate of 0.1881 and a negative trend in volume pace, the buying activity is failing to sustain the early-session gains. Entering at $33.24 risks being trapped as early participants exit into the headline-driven retail interest.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VNCE",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: VNCE is exhibiting strong momentum today with a 10.39% gain on heavy volume of 2.19x the 20-day average, signaling sustained institutional interest following the positive September 11th catalyst where the company reported a sales surge and raised its forward outlook. The stock has demonstrated persistent trading strength, maintaining six consecutive observations since 10:17 ET and holding a positive return of 0.8961% from the first observed print despite recent intraday volatility. Trading 32.40% above its 20-day moving average confirms a breakout trend that reflects the market's digestion of the recent Q2 earnings success and the operational expansion of the OVO brand. BEAR: Buying VNCE at current levels is a classic chasing setup, as the stock is trading 32.40% above its 20-day moving average on news that is already four to five days old. The session momentum has clearly deteriorated, evidenced by a 1.69% drawdown from the observed high and a negative price acceleration of -4.5693. With relative volume rate-of-change declining (-0.0099) and a fading rank, the lack of new catalysts suggests the initial post-earnings momentum has been fully exhausted.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MEOH",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.43,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: MEOH is displaying significant institutional participation with relative volume reaching 3.64x the 20-day average, signaling strong buying interest despite the broader market backdrop. The technical momentum is confirmed by the stock trading 7.52% above its 20-day moving average, accompanied by positive price acceleration of 0.4449 points in the latest session. While the catalyst report shows no breaking news for today, the upcoming ex-dividend date on 2026-09-16 often serves as a focal point for income-oriented accumulation. The resilience shown by the 3.64x relative volume during today's session provides a solid technical floor for a short-term momentum play. BEAR: Buying MEOH today forces a trader into a technical exhaustion trap, evidenced by a 61-minute drawdown of 0.35% from its observed high alongside a negative score change of 0.1928, signaling the initial momentum has failed to sustain. The stock is currently trading 7.52% above its 20-day moving average, increasing the likelihood of a mean-reversion pull-back as the high relative volume of 3.64x appears to be functioning as exit liquidity rather than accumulation. Furthermore, the stock faces an ex-dividend date tomorrow, which will mechanically pressure the price downward and likely trigger stop-loss orders for those chasing today's exhausted move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PERI",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: PERI is showing robust buying interest today with relative volume at 3.88x its 20-day average, signaling strong institutional participation. The stock has demonstrated persistent positive momentum, maintaining a 1.3774% gain since it was first flagged 212 minutes ago, while holding firm near its observed high of $9.225 despite minor volatility. Although the recent headlines from September 9 regarding value comparisons provide no direct catalyst for today's price action, the technical strength and consistent accumulation observed across 6 consecutive scan intervals make a compelling case for a continuation play. The stock is currently consolidating just 2.63% below its 20-day moving average, providing significant room to challenge and break through that resistance level on this elevated volume. BEAR: PERI exhibits clear signs of exhaustion as it struggles to maintain its intraday momentum, with a negative price acceleration of -0.5427% and a widening drawdown from its session high. Despite a relative volume of 3.88x, the price is failing to meaningfully break above its 20-day moving average, suggesting that heavy volume is resulting in 'spinning wheels' rather than a sustainable breakout. The recent headlines from September 9th are now six days old and provide no fresh catalyst to justify a further chase at these levels, effectively rendering the volume spike as exit liquidity. With a declining score and weakening relative volume pace, the risk of a mean reversion to the 20-day MA is significant.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "SWMR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PLAY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PDM",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "FTFT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INDP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EDHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TRMD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ALHC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FPS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRBP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ASND",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VERA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VNCE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MEOH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PERI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

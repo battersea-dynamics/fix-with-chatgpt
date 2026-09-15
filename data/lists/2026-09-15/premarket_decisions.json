@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-09-15T08:53:19-04:00",
+  "decisions": [
+    {
+      "symbol": "ADNT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: ADNT is exhibiting a legitimate institutional accumulation signature, characterized by pre-market volume that is 33.56 times its baseline average. The price action is holding steady at $19.45, confirming that the overnight buyers are absorbing supply rather than exiting into strength. While there is no specific headline or dated event to attribute this move to, the 0.85 conviction reversal pattern suggests that professional money is establishing a new floor. The combination of sustained heavy volume and a clean gap suggests this move has the momentum to retest recent resistance levels. BEAR: The absence of any news catalyst to justify this +3.68% gap confirms that the move is purely speculative and devoid of fundamental support. With a volume profile of only 28,395 shares, this move is highly susceptible to thin-tape pricing, where the opening auction will likely see institutional sell-side pressure crush the artificial pre-market premium. Because the price has stopped building momentum, this gap is a prime candidate for an opening-auction reversal, functioning primarily as exit liquidity for those looking to dump into early retail enthusiasm.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CART",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The 14.75x volume surge on a -6% gap indicates a massive liquidity event that is likely absorbing institutional sellers at a critical support level. There is no specific negative news headline from the last seven days to justify this breakdown, suggesting the move is driven by technical exhaustion or forced liquidation rather than a fundamental shift. If the price holds above the $46.50 print at the open, it provides a high-reward mean reversion opportunity back toward the recent $49 area. The volume signature implies this is a capitulation event rather than the start of a fundamental decay. BEAR: CART is suffering from a classic exhaustion gap where the lack of any catalyst\u2014notably ignoring the positive sentiment from the September 11th transaction growth headlines\u2014suggests the selling is purely mechanical and lacks fundamental conviction. The pre-market volume of 31,442 shares is insufficient to validate a move below the $49.48 support level, marking this as a thin-tape pricing trap where the price will likely snap back upon institutional liquidity arrival. Because the move has failed to build momentum despite the aggressive gap-down structure, the opening auction is almost certain to function as an exhaustion point rather than a sustained breakdown.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FPS",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net +0.25 = bull 0.95 - bear 0.70 (buy at >= +0.20). BULL: The 36x increase in pre-market volume relative to the baseline confirms this move is driven by the 2026-09-15 headline regarding a Q4 earnings beat and robust FY27 guidance. The sustained volume signature and the +6.49% gap indicate institutional accumulation rather than a retail spike, backed by an 0.85 conviction 'Reversal' pattern. With the market reacting positively to the specific fundamental upgrade, the momentum is positioned for a strong continuation after the open as participants digest the guidance beat. BEAR: The +6.49% gap on 36.58x relative volume suggests that the 'Q4 Beat and Strong FY27 Guidance' news from today, September 15, has already been fully digested by participants before the market open. The 'Reversal' pattern identified by the candle agent indicates that the initial momentum from the earnings beat is already meeting exhaustion. Because the price has stopped building in the final hour of pre-market trade, the opening auction is likely to serve as exit liquidity for early momentum traders rather than a foundation for further gains. Buying at the open invites a standard gap-fade, as there is no further catalyst to sustain the valuation lift against a large volume of eager profit-takers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FTFT",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: There is absolutely no specific news or company-driven catalyst to explain this 22% gap, and the price action suggests a forced liquidation rather than a reaction to a fundamental event. While the volume is 1.78x the baseline, it is likely driven by panic selling following the broader market sentiment cited in the September 14th Benzinga report. The case for a long position is purely contrarian, relying on the 'exhaustion' pattern to mean-revert following the gap-down. Because there is no specific headline or event justifying this move, this remains a purely speculative trade based on the hope that the massive sell-off in the pre-market overshot the mark. BEAR: FTFT exhibits a classic exhaustion structure as identified by the candle agent, indicating that the 22.15% gap is a terminal move rather than the start of a trend. The complete absence of any company-specific news in the headlines, coupled with the reliance on stale 'most active' listicles, confirms that this gap is an unanchored sentiment play that will likely fade upon meeting real opening liquidity. With nearly 3 million shares traded pre-market, the volume signature suggests the move has already exhausted its catalyst-free momentum, making the opening bell prime exit liquidity for trapped retail longs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IMMX",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: IMMX is exhibiting a massive volume anomaly, trading at 141.75x its baseline pre-market average, which signals aggressive institutional accumulation despite the lack of a specific news headline. The price has held its gap at $12.50 throughout the pre-market session, suggesting that the buying interest is sustained rather than a single spike. With a bullish reversal pattern identified on the daily chart, this stock is poised for a breakout as the intense volume signature indicates that participants are positioned for a significant move post-open. There is no specific news to explain this price action, making this a purely technical play based on extreme volume demand. BEAR: The absence of any news catalyst to justify this move is the primary red flag, indicating a speculative vacuum that lacks the institutional backing required to sustain a gap above $12.50. While volume is elevated relative to the baseline, it is insufficient to provide true price discovery against real opening liquidity, making this a classic case of thin-tape pricing susceptible to an immediate opening-auction reversal. Without a fundamental driver, the candle agent's 'reversal' signal suggests that the market is already pricing in the exhaustion of this move before the opening bell even rings, turning current holders into liquidity for institutional sellers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PDM",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: The market is aggressively reacting to the successful pricing of the $200,000,000 Exchangeable Senior Notes announced on September 15, which removes uncertainty and secures capital for the firm. This catalyst has driven a massive 19.56x volume surge relative to the two-week baseline, indicating strong institutional accumulation rather than retail noise. The gap at $9.75 is holding firm, and the technical structure points toward a sustained 'Gap and Run' continuation as the market re-evaluates the stock's valuation post-offering. The strength of this volume signature at the open suggests a genuine move rather than a transient spike. BEAR: The pricing of a $200 million exchangeable senior notes offering announced today is fundamentally dilutive or at least creates a debt overhang that the current 5.98% gap fails to rationally account for. Buying at the open invites an opening-auction reversal because the market is likely using this initial uptick as exit liquidity to reposition after the financing news. With volume of only 15,058 shares, the pre-market print is thin-tape pricing that lacks the institutional backing to sustain a breakout above the $9.75 level when real liquidity hits the tape at 9:30. This is a classic gap-fade setup where the catalyst is a balance-sheet event that usually pressures equity price action rather than driving sustained growth.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PLAY",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The massive pre-market volume of 201,897 shares, representing 75x the baseline average, confirms that the Q2 earnings miss reported on 2026-09-14 has already been heavily digested by institutional hands. While the price action is currently bearish, the sheer scale of the turnover suggests that the selling is climax-style exhaustion rather than a long-term liquidation event. A disciplined entry at the open targets a mean reversion as the market realizes the negative sentiment was fully priced into this 13.47% gap. This is a classic 'bad news, but no more sellers' setup where high-volume displacement at open often marks the bottom. BEAR: The 13.47% gap lower is a direct reaction to the September 14 reports of a Q2 loss and revenue miss, which serves as a definitive catalyst that has already been digested by the market. With 201,897 shares traded, this is clearly an exhaustion structure where the primary selling pressure has already hit the tape, leaving buyers at the open to act as liquidity for institutional exits. The gap-down reversal pattern suggests that the initial negative shock has been fully realized, and without new information, the open will likely mark the high for any intraday relief rally before the downward trend resumes. Buying at the open assumes that the market has overreacted to the earnings miss, but given the significant volume spike, this is a clear case of professional distribution following the poor report.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RCKT",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: RCKT is exhibiting a massive volume anomaly, trading at over 94 times its average pre-market baseline, which confirms institutional participation rather than retail noise. There is no specific headline from the last 7 days that explains this immediate surge, suggesting the gap is driven by institutional positioning or insider anticipation of an impending catalyst. The technical structure remains in a clear continuation pattern, and the ability of the price to hold the 10% gap suggests sustained buying interest rather than a transient spike. This is a high-conviction volume play on momentum that is structurally primed to challenge recent highs. BEAR: The current 9.91% gap in RCKT is a classic case of 'already priced in' given that the most relevant news headline is from September 9th, rendering the catalyst stale by nearly a week. With no fresh news to drive the move, this pre-market volume is merely exhaustion-style buying following a previous rally, meaning today's open is likely to serve as exit liquidity for earlier longs. The move has already stopped building, signaling that the pre-market tape is thin and incapable of supporting a sustained break above the $3.77 level once real institutional liquidity arrives at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SYY",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The pre-market gap is driven by a definitive catalyst, the 'Pricing of Common Stock Offering' announced on 2026-09-15, which typically removes uncertainty and allows institutions to establish positions. While the 112x volume spike is significant, suggesting a liquidity event rather than a fundamental breakdown, the selling pressure may be overextended as traders price in the dilution. A bull case relies on this offering creating a localized bottom where the stock clears the 'offering overhang' early in the session. I would only look to initiate a position if the bid shows resilience near the $81.50 level after the initial sell-off. BEAR: The primary catalyst is the September 15th announcement of a common stock offering, which guarantees immediate dilution and typically forces an opening-auction reversal as institutional buyers wait for liquidity to stabilize. Because the gap has failed to build momentum despite the news hitting the tape, we are seeing classic exhaustion structure where the price discovery phase has effectively concluded before the opening bell. Buying here is a clear trap; the pre-market volume of 119k is significantly elevated, signaling that aggressive sellers are already offloading positions, likely turning the open into a liquidity exit for short-term traders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TRMD",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: TRMD is gapping down 7.56% on massive, institutional-grade volume of over 1.1 million shares, which is 64x its baseline average. This extreme liquidity is driven by the September 14th announcement of a secondary public offering by a selling shareholder, creating a classic 'clearing event' where large-scale supply is being absorbed at lower levels. Given the stock's strong fundamentals as a high-yield tanker leader, this sharp pre-market drop provides an attractive entry point for a mean reversion trade as the market digests the dilution and resets the price floor. The sheer scale of the volume suggests that the 'selling shareholder' is being matched by aggressive institutional buyers looking to accumulate shares at a discount. BEAR: The 7.56% gap down is directly driven by the September 14 secondary public offering announcement, an event that mathematically dilutes current shareholders and forces institutional repositioning. The massive pre-market volume of 1.13M shares against a baseline of 17k confirms the market is aggressively absorbing this supply, meaning the gap is not a thin-tape fluke but a structural repricing of the equity. With the daily candle pattern signaling a bearish reversal and the selling shareholder event establishing a clear ceiling for the session, any attempt to buy the open is simply providing exit liquidity to the institutional sellers liquidating their positions.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VERA",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.42,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: VERA is exhibiting a textbook institutional accumulation signature with a massive 118x surge in volume relative to its baseline, indicating that the market is repricing the stock following the JP Morgan upgrade from September 8th. The gap to $39.85 is holding steady without evidence of profit-taking fades, suggesting that the recent price target hike to $83 is acting as a magnetic anchor for buyers. This isn't just a momentum play; the sustained pre-market volume confirms that smart money is actively supporting the new floor, creating a high-conviction environment for a 'Gap and Go' continuation. The absence of immediate counter-selling despite a 17% jump reinforces that the market expects a higher valuation, making this an ideal long setup at the open. BEAR: The 17% gap is built entirely on the momentum of a week-old JP Morgan price target hike from September 8, which is now clearly stale news acting as the primary catalyst for an exhausted move. With no fresh fundamental catalyst driving this 118x volume spike, we are seeing a classic exhaustion structure where the gap has failed to build further during pre-market, marking the open as prime exit liquidity for institutions. This is a classic gap-fade failure mode where the price is driven by thin-tape speculation rather than sustained buyer interest at the 9:30 open. Consequently, early buyers are likely to find themselves holding the bag as the opening-auction reversal corrects the gap-up toward the previous day's close.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WAY",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.1,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net +0.10 = bull 0.90 - bear 0.80 (buy at >= +0.20). BULL: WAY is exhibiting a high-conviction breakout driven by the explicit headline from September 15 regarding the company exploring a potential sale. The volume signature is exceptional, with 78,208 shares traded representing 50x the baseline, confirming that institutional players are actively positioning around this M&A catalyst. The gap has maintained its strength throughout the pre-market session, and the bullish continuation structure indicates that the market is pricing in a significant premium for a potential deal. This is not a generic move, but a reaction to a concrete strategic event that provides a clear runway for further upside. BEAR: The 11.89% gap is anchored solely on speculation regarding a potential sale, which is already reflected in the headlines from earlier this morning and lacks a definitive, binding deal announcement. With pre-market volume of only 78,208 shares, this move is vulnerable to thin-tape pricing that rarely survives the institutional liquidity arriving at 9:30. Given that the 'potential sale' headline is the catalyst and no further details have emerged, the current price reflects a market that has already priced in the rumor, making today's open a classic exit liquidity trap for retail buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
