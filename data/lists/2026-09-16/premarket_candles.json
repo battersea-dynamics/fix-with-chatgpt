@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-16T08:49:19-04:00",
+  "session_date": "2026-09-16",
+  "reads": {
+    "FANG": {
+      "symbol": "FANG",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "JBHT": {
+      "symbol": "JBHT",
+      "pattern": "gap-down exhaustion breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ALVO": {
+      "symbol": "ALVO",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "TKC": {
+      "symbol": "TKC",
+      "pattern": "gap-down exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "HBAN": {
+      "symbol": "HBAN",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "TCOM": {
+      "symbol": "TCOM",
+      "pattern": "island reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "RCKT": {
+      "symbol": "RCKT",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "AUR": {
+      "symbol": "AUR",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "EXK": {
+      "symbol": "EXK",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "FTFT": {
+      "symbol": "FTFT",
+      "pattern": "Bullish Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "IBM": {
+      "symbol": "IBM",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "BORR": {
+      "symbol": "BORR",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    }
+  }
+}

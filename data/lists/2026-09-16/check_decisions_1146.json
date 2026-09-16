@@ -1,0 +1,261 @@
+{
+  "generated_at": "2026-09-16T11:54:43-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "MRLN",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: MRLN is showing signs of a classic oversold mean-reversion, trading at 4.90x normal volume following a 25.74% drop. The tape shows signs of stabilization with a clear improvement in rank from 2 to 1 and positive price acceleration of 5.0314 percentage points, suggesting the selling pressure is reaching an exhaustion point. While there is no specific positive news today to explain the move, the stock is showing intense participation, providing a tactical opportunity for a bounce back toward its 20-day MA. The recent strategic shift toward large aircraft certification announced on September 9th remains the fundamental narrative, providing a floor for valuation as the market digests the current price dislocation. BEAR: MRLN is currently experiencing a massive price collapse of -25.74%, exacerbated by a total absence of specific fundamental catalysts today to justify such volatility. The stock's tape deterioration is evident, with a -6.21% drawdown from the day's observed high and a string of zero positive observed intervals over the last 90 minutes. Buying into this high-volume selling pressure\u2014nearly 5x normal relative volume\u2014is essentially catching a falling knife as investors react to the negative sentiment surrounding the company's recent strategic shifts. The lack of a near-term catalyst to flip the momentum suggests that the technical breakdown is likely to continue as buyers remain entirely absent.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FTFT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: FTFT is showing exceptional momentum, trading at a 33.62% gain for the session and sitting 176.40% above its 20-day moving average, signaling an aggressive breakout. The tape is supported by four consecutive observations of active trading, with a consistent increase in relative volume rate (0.1061 per 30 minutes) indicating strong participant interest. While there is no specific headline catalyst explaining this surge in the provided report, the sustained ranking of the stock as a top gainer confirms the trend's persistence over the last 90 minutes. Investors are chasing the immediate volume and price strength, as indicated by its inclusion in the 'Gapping stocks' report today. BEAR: FTFT is a textbook case of chasing an exhausted move, as the stock is trading 176.40% above its 20-day moving average without a single fundamental catalyst to justify the 33.62% gain. Evidence of exhaustion is clear in the intraday tape, where the price has suffered a -0.3896% drawdown from the observed high and shows negative price acceleration of -1.1413%. Furthermore, the relative volume of 0.95x confirms that this price surge is happening on lackluster participation, marking the stock as primary exit liquidity for anyone who bought earlier in the session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BWIN",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: The primary catalyst for BWIN is the significant news from September 15th regarding the company's planned $7.7 billion buyout in a Sequence-Dell deal, which provides a fundamental floor for the stock price. Despite today's minor pullback, relative volume remains highly elevated at 3.86x normal, indicating sustained institutional interest in the post-announcement liquidity. With a rank improvement observed in today's session and the stock trading 4.13% above its 20-day moving average, the current price offers an attractive entry point ahead of potential arbitrage-driven consolidation. BMO Capital's recent increase of its price target to $32.5 underscores that the market continues to revalue the company based on this acquisition news. BEAR: BWIN is currently trading at $31.96, dangerously close to the $32.50 price target set by BMO Capital, leaving minimal upside for a stock already priced for its $7.7bn acquisition news. The tape shows clear signs of momentum exhaustion, with a 0.76% drawdown from the session high and a negative price acceleration of -0.4205%. Furthermore, the relative volume rate per 30 minutes is decelerating at -0.0447, confirming that the participation required to push the stock past its psychological resistance is fading. Buying now is effectively acting as exit liquidity for those who entered on yesterday's takeover headlines.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 7.7e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: VEEA shows persistent interest, having been identified in Benzinga's September 15 coverage as a stock on investors' radars, which provides a narrative foundation for continued retail activity. Despite a recent pullback, the stock remains 3.59% above its first observed price from 90 minutes ago, proving that the buying interest is holding well above the session start. With the stock currently trading 154.04% above its 20-day moving average, it is demonstrating significant momentum and institutional attention. This combination of recent media visibility and an elevated technical position suggests that the current dip is a consolidation before a potential move back toward the session high of $6.35. BEAR: VEEA presents a classic chasing risk as the stock is trading 154.04% above its 20-day moving average with no fresh catalysts in the provided news to justify this level of extension. The intraday tape shows clear signs of deterioration, with a significant 8.82% drawdown from the observed session high and a negative price acceleration of -14.83%. Participation is fading rapidly, as evidenced by a relative volume rate of only 0.1082 and a declining volume pace, suggesting buyers are absent at these inflated levels. With the stock losing momentum and slipping in rank, an entry now relies on catching a falling knife in a name that is disconnected from its recent technical baseline.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FANG",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: FANG is presenting a compelling mean-reversion opportunity backed by the Solitude Pipeline announcement on 2026-09-16, which directly improves the company's long-term infrastructure and operational outlook. Despite today's 8.74% decline, massive institutional interest is confirmed by a 3.36x relative volume surge, signaling strong accumulation at these levels. Momentum is beginning to shift, evidenced by a 0.54% return over the most recent observation interval and a positive price acceleration of 0.93% points, indicating that sellers are losing control. The stock is currently oversold relative to its 20-day moving average, creating a favorable risk-reward setup for a sharp bounce as the market digests the structural benefits of the new pipeline deal. BEAR: FANG is experiencing a significant intraday rejection with an 8.74% drop, exacerbated by a 3.36x relative volume spike that signals heavy distribution rather than accumulation. Despite the positive news regarding the Solitude Pipeline, the stock has failed to maintain its observed high of $194.80, suffering a 0.9086% drawdown from that peak. The downward momentum is confirmed by a deteriorating score change of -0.8192 and a weakening relative volume rate, indicating that the initial session volatility is exhausting itself against aggressive selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JBHT",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: JBHT is presenting an aggressive mean-reversion opportunity following a sharp 12.88% sell-off driven by a CFO warning regarding diesel prices. Crucially, Barclays has already flagged that this earnings headwind is balanced against a 'freight demand inflection,' suggesting the market may be overreacting to the downside. With relative volume at 2.82x normal, the heavy capitulation provides the necessary liquidity for a rapid bounce, and recent intraday price acceleration of 1.0863 percentage points indicates buying pressure is beginning to stabilize the stock. Investors can capitalize on the potential for the stock to reclaim lost ground as the market digests the distinction between temporary cost pressures and long-term volume growth. BEAR: JBHT is currently suffering from a fundamental reassessment as the market reacts to the company's explicit warning that near-term earnings will fall due to high diesel costs. The stock is down 12.88% on high relative volume of 2.82x, indicating that institutional liquidation is actively in progress following these fresh headlines. The momentum history confirms this exhaustion, as the price is currently drawing down from its observed session high, and the consecutive rank of 6 suggests no stabilization in the tape. Buying here is attempting to catch a falling knife in the immediate wake of an adverse company-issued catalyst that permanently shifts the near-term earnings outlook.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INDP",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: INDP is exhibiting signs of a potential exhaustion bottom after a sharp intraday decline, with price acceleration jumping by 6.95 percentage points despite the overall downturn. While the catalyst report contains no specific news driving today's price action, the stock's 90% distance from its 20-day moving average suggests a significant oversold condition ripe for a mean-reversion bounce. The recent rank improvement from 8 to 7, alongside 4 consecutive observations of tracking data, indicates that selling pressure is beginning to stabilize. This setup presents a tactical opportunity to capture a rebound from current deeply discounted levels. BEAR: INDP is currently experiencing a technical breakdown with a 16.21% daily loss and a lack of volume support, evidenced by a relative volume of only 0.44x. The stock remains significantly overextended at 90% above its 20-day moving average, creating a massive risk of mean reversion as the momentum observations confirm consistent deterioration with a 10.29% drawdown from the observed high. There is no fresh fundamental catalyst in the news report to justify the current price level, leaving the stock exposed as buyers remain absent and the tape shows clear signs of exhaustion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VRA",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: VRA is exhibiting significant momentum following its Q2 2027 earnings release, with headlines highlighting a direct sales surge that supports the current +4.65% price appreciation. The stock is seeing strong market participation with a relative volume of 2.59x its 20-day average, confirming that the move is backed by institutional interest. Price action has remained resilient throughout the session, maintaining 1.7788% gains since being first seen 90 minutes ago, while successfully clearing 30-minute observation intervals despite broader market volatility. BEAR: VRA is currently trading 31.73% above its 20-day moving average, creating a highly extended technical posture that invites profit-taking. The stock shows clear signs of intraday exhaustion, with its relative volume rate dropping by 11.58% and its rank slipping from 7th to 8th despite the day's positive momentum. Furthermore, with the Q2 2027 earnings call transcripts already published today, the primary catalyst for the stock's volatility has been fully processed by the market, leaving no immediate fuel to support further upside. Buying here constitutes chasing a move that has already lost its internal momentum and is retreating from its session high.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBNX",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net +0.00 = bull 0.75 - bear 0.75 (buy at >= +0.20). BULL: BBNX is showing strong momentum with a 7.70% gain today supported by high volume of 2.53x the 20-day average. The stock's price action is robust, having established a sustained upward trend that includes four consecutive positive observations and price acceleration of 1.7672 percentage points. The bullish sentiment is backed by specific fundamental news from today, September 16, 2026, regarding a 'fair value lift' by analysts due to reassessments of the company's pipeline timing, which provides a concrete catalyst for this move. With the stock currently trading at its observed high of $20.71, the technical confirmation and positive analyst outlook support continued near-term strength. BEAR: BBNX is exhibiting clear signs of chasing exhaustion, with the rel_volume_rate_change dropping by -0.0862, indicating that participation is fading even as the price hits a new high of $20.71. The stock is extended 9.32% above its 20-day MA, and the rally is being fueled by an announced public offering of common stock and warrants, which is inherently dilutive and often acts as a supply overhang that caps further upside momentum. Because the market has already factored in the analyst pipeline assessment while simultaneously absorbing the news of a dilutive equity raise, the current +7.70% price jump is likely an overreaction providing exit liquidity for institutional participants. The combination of cooling volume participation and the negative impact of a pending share issuance makes a short-term reversal highly probable.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSIG",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: PSIG is exhibiting strong momentum today, with a 9.65% gain and a sustained price acceleration of 5.5741 percentage points. My confidence in this momentum is supported by 4 consecutive scanner observations showing positive price development, an improvement in relative rank by 3 positions, and 0.0% drawdown from the observed high of $3.75. While the catalyst report contains no specific news explaining today's move, the stock's persistent intraday performance and rank improvement provide a compelling technical entry for short-term traders. The stock is currently showing disciplined, sustained continuation as indicated by the 90-minute observation window. BEAR: PSIG is trading at an extreme 77.94% premium to its 20-day moving average, signaling an overextended technical state that leaves little room for further upside. The move is occurring on exceptionally thin participation, with a relative volume of only 0.52x, indicating that the price gain lacks the institutional support necessary for sustainability. Furthermore, there is no fundamental catalyst in the news report to justify this aggressive rally, leaving the stock vulnerable to a sharp mean reversion as the excitement dissipates. The combination of a massive MA deviation and anemic volume creates a high risk of exhaustion for buyers chasing this move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EAF",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.4,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: EAF is showing strong momentum with a 14.66% gain on 1.15x relative volume, supported by recent strategic collaboration news with Antora Energy regarding carbon-based thermal batteries announced on September 10th and 11th. The intraday technical setup is robust, characterized by four consecutive observations, a 2.76% return since the first scan, and zero drawdown from the observed high of 8.175. With the price showing acceleration of 3.4552 percentage points and consistent rank improvement, the stock is demonstrating sustained buying pressure that validates a short-term long position. This momentum, backed by recent industry-relevant news, suggests continued room for appreciation despite the 21.08% distance from the 20-day moving average. BEAR: EAF is currently trading 21.08% above its 20-day moving average, a level of extension that significantly limits upside while increasing the probability of a sharp mean-reversion snap. The news catalyst from September 10th and 11th is now 5 to 6 days old, meaning the primary momentum from the collaboration announcement has already been absorbed by the market, leaving the current +14.66% gain unsupported by fresh events. Furthermore, the relative volume rate is showing signs of deterioration with a -0.0786 change, indicating that market participation is thinning out just as the stock hits an extreme overbought position. Buying here represents 'chasing' the tail end of a move that lacks new fundamental catalysts and is suffering from diminishing volume-backed conviction.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ALHC",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.40 = bull 0.30 - bear 0.70 (buy at >= +0.20). BULL: ALHC is showing early signs of a technical floor after a significant 9.21% decline, with momentum shifting positively as evidenced by a 0.37% return and rank improvement of 2 spots over the last 30 minutes. While the recent headlines regarding Star Ratings uncertainty and general sector-wide volatility on September 15th explain the sharp sell-off, the current 1.48x relative volume suggests that institutional interest in this oversold level is picking up. Given that the stock is trading 28.41% below its 20-day moving average, there is clear potential for a mean-reversion bounce if the current price stabilization persists. Nothing in the news reports provides a specific fundamental catalyst for an immediate reversal, so this remains a tape-driven play on extreme oversold conditions. BEAR: ALHC is currently trading 28.41% below its 20-day moving average following a significant 9.21% decline, indicating a sharp momentum collapse rather than a stable base. The stock is reacting to specific, negative September 15 headlines regarding executive silence on Star Ratings, which suggests the market is pricing in fundamental uncertainty regarding the company's core operations. Despite a slight tick in intra-day ranking, the relative volume rate of 0.5176 over the last 30 minutes shows waning participation, suggesting the minor rebound is mere exhaustion or low-conviction buying rather than a reversal. Entering now is a classic falling knife attempt while the company navigates a negative news cycle with no clear floor established.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "YDES",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: YDES is currently trading at a significant discount, sitting 20.08% below its 20-day moving average following a sharp 16.46% decline, which presents a classic mean-reversion opportunity. The stock has an earnings event scheduled for September 23, 2026, which may act as a catalyst for a price recovery as investors position themselves ahead of the announcement. While current momentum remains insufficient due to a single observed interval, the technical oversold condition offers a favorable risk-reward setup for a tactical bounce. Nothing in the current news or sentiment reports explains or supports this downward move, suggesting the selling pressure may be exhaustion-driven. BEAR: YDES is currently exhibiting a bearish technical breakdown, trading 20.08% below its 20-day moving average on a significant 16.46% decline. With relative volume at 0.80x normal, the price collapse is occurring on lacklustre participation, suggesting a lack of institutional support for a floor at these levels. Furthermore, the company faces an earnings catalyst on 2026-09-23, only seven calendar days away, which introduces excessive volatility risk within the desired holding window. Buying into this momentum vacuum while staring down an impending earnings event is a high-risk proposition with no clear structural support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BMGL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.50 = bull 0.20 - bear 0.70 (buy at >= +0.20). BULL: BMGL presents a classic potential rebound opportunity following an oversold condition, evidenced by its 16.42% distance from its 20-day moving average. Despite the broader intraday decline, the stock demonstrated immediate resilience with a 7.5% return since its initial observation just 30 minutes prior. While the catalyst report lacks specific news to explain the current volatility, the observed price action shows the stock holding its intraday high of $4.30 with zero drawdown, suggesting buyer interest at these support levels. Given the extreme 19.48% daily drop, a short-term mean reversion trade is supported by the technical setup. BEAR: BMGL is suffering from extreme liquidity evaporation, evidenced by a relative volume of 0.06x which suggests that any 'rebound' is occurring in a vacuum without institutional participation. The stock is down 19.48% on the day, and despite a minor 7.5% tick off the lows, the rank deterioration from 10 to 14 over the observed interval confirms that buying interest is failing to sustain momentum. There is no fundamental catalyst in the news report to justify a reversal, leaving the current price action as an unsupported attempt to catch a falling knife that remains 16.42% below its 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FPS",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 9.0,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: Forgent Power Solutions is experiencing strong buying momentum today, supported by a 12.44% price increase and relative volume of 1.16x. The move is fundamentally underscored by a TD Cowen analyst note from today, 2026-09-16, which maintains a buy rating and significantly raises the price target to $76, suggesting substantial upside from current levels. Furthermore, the company is directly benefiting from the ongoing AI-driven data center boom, a theme specifically highlighted in sector-related news from 2026-09-15. This confluence of institutional backing and structural tailwinds provides a compelling setup for further appreciation as the stock breaks away from its 20-day moving average. BEAR: FPS is currently extended 11.71% above its 20-day moving average, a level that invites mean reversion following a sharp 12.44% single-session gain. The rally is heavily tied to a 'buy' rating upgrade and price target hike from TD Cowen, which, as a same-session headline, represents the peak of the fundamental catalyst cycle and suggests the move is now fully priced in. Furthermore, the stock is rallying against a backdrop of broader market weakness, as indicated by the Dow tumbling 300 points and the Fear-Greed index signaling broad investor anxiety, increasing the likelihood of a pullback when broad market sentiment overwhelms idiosyncratic gains. Entering at these levels assumes the momentum from a single analyst report can persist despite the immediate exhaustion of the news cycle.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "MRLN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FTFT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BWIN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VEEA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FANG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JBHT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INDP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VRA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BBNX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSIG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EAF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ALHC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "YDES",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BMGL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FPS",
+      "action": "submitted",
+      "order": {
+        "symbol": "FPS",
+        "qty": 5,
+        "est_cost": 177.05,
+        "entry_ref": 35.41,
+        "take_profit": 38.43,
+        "remaining_take_profit_pct": 8.54,
+        "stop_loss": 34.08,
+        "confidence": 0.675,
+        "client_order_id": "ta-20260916-115443-FPS",
+        "analysis_price": 35.26,
+        "live_price_change_pct": 0.43
+      },
+      "broker": {
+        "id": "ca4a27a3-efe1-4d93-b9f0-760d2ecad97a",
+        "client_order_id": "ta-20260916-115443-FPS",
+        "symbol": "FPS",
+        "qty": "5",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 38.43,
+        "stop_loss": 34.08,
+        "legs": [
+          "7d44b763-07d7-466b-a108-38d2996d913f",
+          "97b85762-3f40-46ae-957c-1bb96646cf6e"
+        ]
+      }
+    }
+  ]
+}

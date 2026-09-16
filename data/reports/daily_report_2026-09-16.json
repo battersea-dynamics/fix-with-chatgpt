@@ -1,0 +1,1370 @@
+{
+  "date": "2026-09-16",
+  "events": [
+    {
+      "at_et": "2026-09-16T08:47:01-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-16T08:52:54-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-16T09:32:07-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BORR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EXK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HBAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCKT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TCOM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T10:31:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1016.json",
+        "shortlist": [
+          "FTFT",
+          "MRLN",
+          "FANG",
+          "BWIN",
+          "JBHT",
+          "VEEA",
+          "BBNX",
+          "VRA",
+          "INDP",
+          "PSIG",
+          "TKC",
+          "CIFR",
+          "ALVO",
+          "EAF",
+          "NIKI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NIKI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T10:52:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1046.json",
+        "shortlist": [
+          "FTFT",
+          "MRLN",
+          "BWIN",
+          "VEEA",
+          "FANG",
+          "JBHT",
+          "VRA",
+          "BBNX",
+          "INDP",
+          "PSIG",
+          "EAF",
+          "CIFR",
+          "TKC",
+          "ALVO",
+          "FGL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CIFR",
+            "action": "submitted",
+            "order": {
+              "symbol": "CIFR",
+              "qty": 17,
+              "est_cost": 293.93,
+              "entry_ref": 17.29,
+              "take_profit": 18.28,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 16.76,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260916-105216-CIFR",
+              "analysis_price": 17.33,
+              "live_price_change_pct": -0.23
+            },
+            "broker": {
+              "id": "7eb09bf0-4f31-426c-aa5e-bb4f63b8b33e",
+              "client_order_id": "ta-20260916-105216-CIFR",
+              "symbol": "CIFR",
+              "qty": "17",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 18.28,
+              "stop_loss": 16.76,
+              "legs": [
+                "52c5102e-cad6-4d85-b20f-06ccd621e8e0",
+                "a15629ee-cdfe-41ca-9ec4-cade276cce8a"
+              ]
+            }
+          },
+          {
+            "symbol": "ALVO",
+            "action": "submitted",
+            "order": {
+              "symbol": "ALVO",
+              "qty": 44,
+              "est_cost": 240.24,
+              "entry_ref": 5.46,
+              "take_profit": 5.89,
+              "remaining_take_profit_pct": 7.9,
+              "stop_loss": 5.29,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260916-105216-ALVO",
+              "analysis_price": 5.435,
+              "live_price_change_pct": 0.46
+            },
+            "broker": {
+              "id": "852e15eb-4c5f-415d-a5dd-78a11ad7e5f8",
+              "client_order_id": "ta-20260916-105216-ALVO",
+              "symbol": "ALVO",
+              "qty": "44",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.89,
+              "stop_loss": 5.29,
+              "legs": [
+                "6c6356fb-eb14-49fd-a833-fed0afa5e368",
+                "f653684b-2d53-4025-a30b-c2a51dcb5119"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FGL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T11:22:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1116.json",
+        "shortlist": [
+          "FTFT",
+          "MRLN",
+          "VEEA",
+          "BWIN",
+          "FANG",
+          "JBHT",
+          "VRA",
+          "INDP",
+          "BBNX",
+          "BMGL",
+          "XTND",
+          "EAF",
+          "PSIG",
+          "ALHC",
+          "TKC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BMGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XTND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TKC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T11:54:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1146.json",
+        "shortlist": [
+          "MRLN",
+          "FTFT",
+          "BWIN",
+          "VEEA",
+          "FANG",
+          "JBHT",
+          "INDP",
+          "VRA",
+          "BBNX",
+          "PSIG",
+          "EAF",
+          "ALHC",
+          "YDES",
+          "BMGL",
+          "FPS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "FPS",
+            "action": "submitted",
+            "order": {
+              "symbol": "FPS",
+              "qty": 5,
+              "est_cost": 177.05,
+              "entry_ref": 35.41,
+              "take_profit": 38.43,
+              "remaining_take_profit_pct": 8.54,
+              "stop_loss": 34.08,
+              "confidence": 0.675,
+              "client_order_id": "ta-20260916-115443-FPS",
+              "analysis_price": 35.26,
+              "live_price_change_pct": 0.43
+            },
+            "broker": {
+              "id": "ca4a27a3-efe1-4d93-b9f0-760d2ecad97a",
+              "client_order_id": "ta-20260916-115443-FPS",
+              "symbol": "FPS",
+              "qty": "5",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 38.43,
+              "stop_loss": 34.08,
+              "legs": [
+                "7d44b763-07d7-466b-a108-38d2996d913f",
+                "97b85762-3f40-46ae-957c-1bb96646cf6e"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BMGL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T12:29:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1216.json",
+        "shortlist": [
+          "MRLN",
+          "FTFT",
+          "VEEA",
+          "FANG",
+          "JBHT",
+          "BWIN",
+          "INDP",
+          "VRA",
+          "PSIG",
+          "BBNX",
+          "ALHC",
+          "EAF",
+          "YDES",
+          "KNX",
+          "SWMR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T12:55:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1246.json",
+        "shortlist": [
+          "MRLN",
+          "FTFT",
+          "VEEA",
+          "FANG",
+          "JBHT",
+          "BWIN",
+          "PSIG",
+          "INDP",
+          "BBNX",
+          "VRA",
+          "ALHC",
+          "SWMR",
+          "EAF",
+          "BMGL",
+          "YDES"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BMGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T13:34:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1316.json",
+        "shortlist": [
+          "MRLN",
+          "FTFT",
+          "VEEA",
+          "JBHT",
+          "FANG",
+          "BWIN",
+          "INDP",
+          "BBNX",
+          "VRA",
+          "ALHC",
+          "SWMR",
+          "PSIG",
+          "EAF",
+          "KNX",
+          "YDES"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T13:55:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1346.json",
+        "shortlist": [
+          "MRLN",
+          "FTFT",
+          "JBHT",
+          "FANG",
+          "VEEA",
+          "BWIN",
+          "INDP",
+          "BBNX",
+          "ALHC",
+          "VRA",
+          "PSIG",
+          "SWMR",
+          "AEHL",
+          "EAF",
+          "YDES"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T14:22:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1416.json",
+        "shortlist": [
+          "MRLN",
+          "FTFT",
+          "VEEA",
+          "JBHT",
+          "FANG",
+          "AEHL",
+          "BBNX",
+          "BWIN",
+          "ALHC",
+          "INDP",
+          "VRA",
+          "PSIG",
+          "SWMR",
+          "EAF",
+          "IIIV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IIIV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T14:55:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1447",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1447.json",
+        "shortlist": [
+          "MRLN",
+          "AEHL",
+          "FTFT",
+          "VEEA",
+          "FANG",
+          "JBHT",
+          "BBNX",
+          "ALHC",
+          "BWIN",
+          "INDP",
+          "VRA",
+          "PSIG",
+          "SWMR",
+          "EAF",
+          "IIIV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IIIV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T15:22:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1516.json",
+        "shortlist": [
+          "MRLN",
+          "AEHL",
+          "FTFT",
+          "FANG",
+          "BBNX",
+          "JBHT",
+          "VEEA",
+          "ALHC",
+          "INDP",
+          "BWIN",
+          "VRA",
+          "PSIG",
+          "SWMR",
+          "EAF",
+          "RCAT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T15:51:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-16/shortlist_1546.json",
+        "shortlist": [
+          "MRLN",
+          "AEHL",
+          "FTFT",
+          "VEEA",
+          "BBNX",
+          "FANG",
+          "JBHT",
+          "ALHC",
+          "BWIN",
+          "INDP",
+          "PSIG",
+          "VRA",
+          "EAF",
+          "SWMR",
+          "RCAT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "EAF",
+            "action": "submitted",
+            "order": {
+              "symbol": "EAF",
+              "qty": 36,
+              "est_cost": 291.96,
+              "entry_ref": 8.11,
+              "take_profit": 8.63,
+              "remaining_take_profit_pct": 6.38,
+              "stop_loss": 7.85,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260916-155156-EAF",
+              "analysis_price": 8.14,
+              "live_price_change_pct": -0.37
+            },
+            "broker": {
+              "id": "fe5b15f1-be4c-4481-a759-b90c492596ea",
+              "client_order_id": "ta-20260916-155156-EAF",
+              "symbol": "EAF",
+              "qty": "36",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 8.63,
+              "stop_loss": 7.85,
+              "legs": [
+                "8dcb5290-40ac-48ba-a004-58e8777ce995",
+                "addb2bbc-ac8e-4ba8-aa87-1db11669c498"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MRLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBHT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BWIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SWMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-16T15:51:56-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
