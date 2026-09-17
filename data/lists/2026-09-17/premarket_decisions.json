@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-09-17T08:52:24-04:00",
+  "decisions": [
+    {
+      "symbol": "ALMU",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: ALMU is gapping down 15% following the Q4 2026 earnings release on 2026-09-17, despite the company highlighting a strategic shift toward AI Datacom. While the market is currently reacting negatively to the headlines, the pre-market volume of 35,762 shares is 2.83x the average, suggesting high institutional engagement that often marks the point of maximum pessimism. Buying here is a play on the 'exhaustion gap' potential, betting that the initial sell-off overshoots the reality of the company's long-term pivot to AI infrastructure. With the price now significantly detached from yesterday's close, the reward-to-risk profile favors a mean reversion play as market participants digest the strategic earnings highlights. BEAR: ALMU is displaying a classic exhaustion gap following the Q4 2026 earnings release, where the 15.16% drop reflects a market that has already processed the 'Strategic Shift to AI Datacom' highlights from the September 16-17 news cycle. The candle agent identifies this as an exhaustion pattern, signaling that the initial sell-off has likely reached its terminal point rather than initiating a new trend. With pre-market volume of only 35,762 shares, the price action is defined by thin-tape pricing that lacks the necessary institutional conviction to hold these levels once real opening liquidity arrives at 9:30. Consequently, this gap is highly susceptible to an opening-auction reversal, making any attempt to 'buy the dip' a trap for premature entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BULL",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.3,
+      "stop_loss_pct": 1.5,
+      "reasoning": "net -0.40 = bull 0.40 - bear 0.80 (buy at >= +0.20). BULL: BULL is exhibiting an extreme volume signature at 14.37x its baseline, which indicates aggressive institutional accumulation following the sharp overreaction to the September 16th regulatory news. While the candle agent characterizes this as a 'dead cat bounce,' the massive pre-market volume relative to the small 1.82% gap suggests sellers are exhausted and trapped at current levels, creating an asymmetric opportunity for a squeeze. No specific positive news explains this rebound, meaning this is a pure liquidity-driven move by buyers stepping in to defend the $7.69 support zone after recent headline-driven volatility. The sheer weight of the volume provides a structural floor that outweighs the current bearish technical bias. BEAR: The +1.82% gap on BULL is a textbook dead-cat bounce following a 9% sell-off on 2026-09-16, with no fresh positive catalyst to justify the reversal. The lack of any constructive news suggests this is merely a thin-tape reaction, and the exhaustion structure identified by the candle agent indicates the move has already hit its ceiling. Because the price has stopped building in pre-market, today's open is likely serving as exit liquidity for trapped shorts rather than a sustained recovery. Buying here is a clear trap as real liquidity at 9:30 will likely overwhelm the current, low-conviction volume.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CORZ",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: CORZ is exhibiting a strong volume signature at 7.09x its baseline, indicating that the move is driven by genuine institutional interest rather than retail noise. The price action is anchored by the persistent momentum surrounding the sector-wide pivot to AI hosting, specifically validated by the September 16 reports of ERCOT's 5 GW conditional capacity disclosure. By holding its gap near the session highs despite the volatility seen in the broader peer group on September 15, CORZ is showing superior relative strength and a clear technical setup for a continuation of the primary trend. The combination of sustained volume and sector-specific catalysts suggests this gap represents a durable breakout rather than a liquidity-driven fade. BEAR: CORZ is currently suffering from the 'already priced in' failure mode, as the positive sentiment regarding ERCOT capacity and AI hosting bids from September 16th was already heavily traded yesterday. The current 6.34% gap is essentially a stale reaction to the same sector-wide news that drove price action yesterday, leaving the current pre-market move as little more than exit liquidity for those looking to lock in gains. Furthermore, the volume of 261,249 shares is insufficient to sustain a breakthrough above recent resistance, making this a classic 'thin-tape pricing' trap where the move will likely reverse upon the arrival of opening liquidity. With the bullish conviction of the candle agent already baked into the price, the setup lacks a fresh catalyst and faces an imminent opening-auction reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRWV",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: CRWV is displaying massive institutional churn with over 6.6 million shares traded, nearly 12x the baseline volume, indicating a major reassessment of valuation despite the negative headline about the $3B debt cloud. The 'exhaustion' pattern often serves as a liquidity trap for shorts when accompanied by such heavy, sustained pre-market volume, suggesting that the 'higher-priced AI compute deals' mentioned in the 2026-09-17 news outweigh the debt concerns for long-term holders. Buying the opening dip allows for a momentum capture as traders reconcile the company's pricing power against the initial knee-jerk reaction to the debt news. The volume signature is simply too large to ignore, pointing to a shakeout rather than a structural breakdown. BEAR: CRWV is exhibiting a classic exhaustion structure as it gaps down despite positive headlines regarding NVIDIA Vera Rubin clusters and expansion funding. The market is clearly digesting the $3B debt cloud mentioned in today's news as a counter-weight to price hikes, rendering the current gap an exhaustion move rather than a sustained trend. With volume at 11.93x the average, the high-liquidity sell-off is already likely priced in, suggesting the open will serve as exit liquidity for institutions. Buying now risks an opening-auction reversal where the massive pre-market volume creates a ceiling that real institutional size will look to fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FLNC",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The 22% gap lower is a direct reaction to the Houston plant delays and guidance cuts reported on 2026-09-16, triggering a classic capitulation sell-off. While the price action is currently bearish, the massive pre-market volume of over 3.2 million shares suggests that institutional weak hands are being flushed out in a single session. This high-volume exhaustion often sets the stage for a strong mean-reversion bounce as the market realizes the negative impact of the supply chain issues may already be fully priced in at the $7.00 support level. BEAR: The 22% gap is anchored by the catastrophic revelation that Houston plant delays have forced a guidance cut, making this a fundamental repricing rather than a speculative trade. With the SeekingAlpha headline confirming persistent execution and supply chain failures, the 'continuation' bias in the candle structure suggests the market is not done punishing this stock. Any attempt to buy the open is a classic trap where retail liquidity provides an exit for the institutional sellers who drove the 21x surge in pre-market volume. Because the exhaustion structure shows no sign of a bottom, the open will likely serve as the daily high before the next leg lower.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GLOO",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: GLOO is exhibiting a massive volume anomaly with 134x its baseline pre-market average, signaling aggressive institutional participation that validates the 15% gap. Unlike retail-driven pumps, the price is holding firm at $4.68, suggesting the market is digesting the recent September 10th Analyst 'Buy' rating and earnings updates with sustained conviction. The technical structure confirms a clear continuation pattern, implying that the overhead supply from the recent $8 target adjustment is now being aggressively tested. There is no new catalyst headline today, so this strength is purely derived from heavy, volume-backed accumulation following its post-earnings base construction. BEAR: The 14.99% gap in GLOO is a classic 'already priced in' trap, as the most recent relevant news\u2014the September 10th Lake Street analyst note and earnings reports\u2014are nearly a week old and provide no fresh catalyst for today's price action. The volume of 216,505 shares, while high relative to its specific baseline, is negligible for a sustained move, exposing this move to thin-tape pricing volatility once real institutional liquidity enters at the 9:30 open. Given that the candle agent identifies this as a continuation pattern without any new fundamental developments, the pre-market high is likely to serve as immediate exit liquidity for overnight participants looking to dump into the opening auction. The gap is effectively an exhaustion move disconnected from any current news, creating a high probability of a swift intraday fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GNRC",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.16,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: GNRC is experiencing a massive, sustained breakout driven by the fundamental news of an $8B supply deal with Amazon, as reported on September 16, 2026. The pre-market volume of 183,912 shares is an extraordinary 129.79x the baseline, indicating deep institutional conviction that outweighs the bearish 'exhaustion gap' signal from the candle agent. Given that this is a transformative, multi-billion dollar contract, the price action is likely reflecting a fundamental revaluation of the company's long-term earnings potential rather than a temporary spike. Buying the open allows for participation in a structural trend change supported by concrete deal-flow news. BEAR: The 29% gap is heavily driven by the 'Generac stock surges 18% on $8B Amazon supply deal' headline, which has already been digested by multiple cycles of late-day and overnight trading since September 16th. The exhaustion structure identified in the pre-market candle suggests that the buying interest has saturated, leaving the current $226.36 price as a classic exit liquidity trap for aggressive retail buyers. Given that the move has essentially stopped building pre-market, this fits the 'already priced in' and 'exhaustion structure' failure modes perfectly. Buying at the open assumes sustained institutional follow-through on news that is now over 12 hours old, which typically invites a sharp gap fade once real-market liquidity arrives.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LCID",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: LCID is demonstrating a robust, high-conviction breakout with pre-market volume hitting 8.93x its baseline average, signaling genuine institutional interest rather than a transient retail spike. While the headline regarding robotaxi expansion provides a potential fundamental catalyst, the technical footprint\u2014a clear bullish reversal pattern on the daily chart combined with the sustained gap above $4.20\u2014is the primary driver for a tactical long position. The volume signature remains consistent and concentrated, suggesting that the recent sell-side pressure has been fully absorbed by incoming buyers looking to retest higher resistance levels. With the stock holding its pre-market bid firmly, the setup supports a move to recover yesterday's losses. BEAR: The +5.20% gap on today's session lacks a material news catalyst, as the SeekingAlpha piece on 'Robotaxi Expansion' is merely speculative analysis rather than a fundamental corporate development. This is a classic gap-fade setup where retail interest is chasing the previous day's decline without any institutional buy-in to support price discovery above $4.25. The volume at 710k shares is artificially thin for a name like Lucid, meaning the current print is vulnerable to an immediate opening-auction reversal as real institutional liquidity hits the tape at 9:30 AM. Consequently, buying this gap is simply providing exit liquidity to sellers waiting to dump into the morning spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MGNI",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.0,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: The 62x surge in pre-market volume relative to the two-week baseline indicates institutional accumulation following yesterday's positive momentum, specifically bolstered by the September 16 announcement regarding Magnite's expansion into agentic orchestration layers for media owners. The gap is holding firmly at the $25.60 level, demonstrating a strong bid that is absorbing supply rather than fading. This structural breakout confirms a shift in sentiment supported by both technical momentum and fundamental progress in their core ad-tech value proposition. With sustained volume backing the price action, this move is primed for a continuation beyond the initial opening volatility. BEAR: The +7.65% gap is driven primarily by the September 16th headline regarding Magnite's 'Orchestration Layer,' which is a strategic roadmap update rather than a material, immediate earnings catalyst, suggesting this is a 'priced in' move. With only 71,599 shares traded pre-market, the tape is exceptionally thin for a stock with such institutional interest, making the $25.60 print a playground for retail momentum that will likely succumb to an opening-auction reversal as real institutional liquidity enters. The gap has failed to build momentum throughout the pre-market session, signaling that the initial excitement has exhausted itself and the opening bell will serve as prime exit liquidity for overnight participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NAMI",
+      "signal": "hold",
+      "confidence": 0.075,
+      "take_profit_pct": 1.31,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.85 = bull 0.10 - bear 0.95 (buy at >= +0.20). BULL: There is no credible bull case for NAMI today; the volume is an abysmal 0.10x of the baseline average, indicating a lack of institutional interest or catalyst conviction. None of the provided news headlines explain this massive 29.49% gap, suggesting the move is driven by illiquidity rather than fundamental shifts. With a bearish daily structure and no evidence of a bid holding in the pre-market, any attempt to play this is purely speculative and devoid of technical or news-based support. BEAR: NAMI is a classic example of thin-tape pricing and exhaustion, as the -29.49% gap on a pathetic 0.10x relative volume indicates there is zero institutional conviction behind the move. The total absence of any fundamental headline justifying such a collapse means this is likely just retail panic or stop-loss cascading that will face an immediate opening-auction reversal when real liquidity enters the tape. With the candle agent signaling a 0.95 conviction on a reversal, the current $2.20 level is nothing more than exit liquidity for the few trapped traders left, making the risk of a swift continuation of the sell-off extreme.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "S",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Despite the negative gap, the volume is elevated at nearly 5x the baseline average, indicating that the move is driven by meaningful market participation rather than a thin, order-book drift. No specific headline explains today's downward price action, suggesting the sell-off is likely a profit-taking reaction to the CEO share sale reported on 2026-09-16 rather than a fundamental shift. Given the recent positive momentum and the 13.58% increase in the consensus price target to $24.59 reported on 2026-09-15, this dip provides a structural opportunity to buy into a liquid name that remains supported by its recent upward analyst re-rating. I am treating the current gap as an exhaustion of selling pressure that will likely draw in institutional buyers looking to reclaim the $23.00 level. BEAR: The pre-market gap lower for S follows a series of positive news cycles from September 15th, including a consensus price target upgrade to $24.59, creating a classic exhaustion structure where the stock has failed to sustain momentum. With the candle agent identifying a bearish reversal and the lack of a negative catalyst in the news block, this gap appears to be a disconnect between thin-tape pre-market sellers and the broader bullish sentiment established earlier this week. The move is currently exhibiting an opening-auction reversal risk, as the price is bleeding lower without fresh selling headlines, indicating the gap is likely to be filled by opening liquidity. Investors buying at the open are effectively providing exit liquidity for traders who caught the exhaustion move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TGL",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 6.3,
+      "stop_loss_pct": 2.89,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: Despite the severe 26.78% gap down, the massive volume spike at over 20x the baseline suggests significant institutional absorption of the selling pressure following the September 16th announcement of a $52 million partnership. While the technical structure reflects exhaustion, the sheer magnitude of liquidity entering at these lower levels suggests a capitulation event rather than a fundamental decay, providing a high-reward risk profile for a mean reversion trade. The market is reacting negatively to the news, but the volume signature confirms that large participants are actively re-positioning at these discounted prices, setting the stage for a potential V-shaped recovery as the market digests the magnitude of the government contract. BEAR: TGL is exhibiting a classic exhaustion gap where the market is dumping the stock despite the September 16 announcement of a US$52 million partnership, indicating the news is already priced in or insufficient to arrest the downward momentum. The exhaustion structure and extreme volume relative to baseline confirm that this 26.78% gap is not a catalyst-driven revaluation but a sentiment collapse. Buying at the open is a high-risk trap as the price has clearly stopped building, signaling that the pre-market low will likely serve as initial exit liquidity before further downside pressure resumes.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.2e+07 - no matching value in source data",
+        "bear: cited 5.2e+07 - no matching value in source data"
+      ]
+    }
+  ]
+}

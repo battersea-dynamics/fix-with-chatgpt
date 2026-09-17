@@ -1,0 +1,1311 @@
+{
+  "date": "2026-09-17",
+  "events": [
+    {
+      "at_et": "2026-09-17T08:46:46-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-17T08:52:24-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-17T09:31:50-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCID",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "S",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T10:22:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1016.json",
+        "shortlist": [
+          "GLOO",
+          "MEDS",
+          "AEHL",
+          "FLNC",
+          "GNRC",
+          "VEEA",
+          "USDE",
+          "TGL",
+          "PSIG",
+          "BIAF",
+          "FTFT",
+          "SECZ",
+          "NCT",
+          "NAMI",
+          "ALMU"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T10:51:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1046.json",
+        "shortlist": [
+          "GLOO",
+          "MEDS",
+          "GNRC",
+          "AEHL",
+          "FLNC",
+          "USDE",
+          "VEEA",
+          "PSIG",
+          "FTFT",
+          "TGL",
+          "SECZ",
+          "BIAF",
+          "ALMU",
+          "JDZG",
+          "NAMI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAMI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T11:23:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1116.json",
+        "shortlist": [
+          "GLOO",
+          "MEDS",
+          "GNRC",
+          "FLNC",
+          "PSIG",
+          "VEEA",
+          "USDE",
+          "SDGR",
+          "SECZ",
+          "FTFT",
+          "TGL",
+          "AEHL",
+          "ALMU",
+          "BIAF",
+          "INDP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T11:52:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1146.json",
+        "shortlist": [
+          "GLOO",
+          "MEDS",
+          "GNRC",
+          "FLNC",
+          "PSIG",
+          "AEHL",
+          "SDGR",
+          "VEEA",
+          "USDE",
+          "FTFT",
+          "SECZ",
+          "TGL",
+          "ALMU",
+          "JDZG",
+          "INDP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T12:21:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1216.json",
+        "shortlist": [
+          "GLOO",
+          "MEDS",
+          "GNRC",
+          "BIAF",
+          "AEHL",
+          "FLNC",
+          "PSIG",
+          "VEEA",
+          "SDGR",
+          "FTFT",
+          "TGL",
+          "USDE",
+          "ALMU",
+          "SECZ",
+          "JDZG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GLOO",
+            "action": "submitted",
+            "order": {
+              "symbol": "GLOO",
+              "qty": 65,
+              "est_cost": 302.9,
+              "entry_ref": 4.66,
+              "take_profit": 4.91,
+              "remaining_take_profit_pct": 5.29,
+              "stop_loss": 4.52,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260917-122148-GLOO",
+              "analysis_price": 4.64,
+              "live_price_change_pct": 0.43
+            },
+            "broker": {
+              "id": "9a70be9a-f218-4428-a319-a38d29d3e2ea",
+              "client_order_id": "ta-20260917-122148-GLOO",
+              "symbol": "GLOO",
+              "qty": "65",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.91,
+              "stop_loss": 4.52,
+              "legs": [
+                "effbd9af-ee4a-4384-8d0b-a4f6f60c58f3",
+                "27ff5c7d-6cbb-4114-b967-ba3f451bd140"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T12:55:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1246.json",
+        "shortlist": [
+          "BIAF",
+          "MEDS",
+          "AEHL",
+          "GNRC",
+          "FLNC",
+          "PSIG",
+          "SDGR",
+          "VEEA",
+          "GBTG",
+          "FTFT",
+          "SECZ",
+          "TGL",
+          "ALMU",
+          "USDE",
+          "JDZG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SDGR",
+            "action": "submitted",
+            "order": {
+              "symbol": "SDGR",
+              "qty": 8,
+              "est_cost": 226.4,
+              "entry_ref": 28.3,
+              "take_profit": 29.62,
+              "remaining_take_profit_pct": 4.66,
+              "stop_loss": 27.44,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260917-125551-SDGR",
+              "analysis_price": 28.01,
+              "live_price_change_pct": 1.04
+            },
+            "broker": {
+              "id": "3e3170d2-598c-4ef5-9ea5-07be5363308a",
+              "client_order_id": "ta-20260917-125551-SDGR",
+              "symbol": "SDGR",
+              "qty": "8",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 29.62,
+              "stop_loss": 27.44,
+              "legs": [
+                "711b8167-2ac6-4c4b-b59a-68cfd6960d8b",
+                "6e8a943e-4117-4f4d-bdb7-7be864731c30"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T13:22:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1316.json",
+        "shortlist": [
+          "BIAF",
+          "MEDS",
+          "AEHL",
+          "GNRC",
+          "FLNC",
+          "PSIG",
+          "QSR",
+          "VEEA",
+          "FTFT",
+          "GBTG",
+          "USDE",
+          "TGL",
+          "ALMU",
+          "SECZ",
+          "INDP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T13:58:59-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1347",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1347.json",
+        "shortlist": [
+          "AEHL",
+          "MEDS",
+          "BIAF",
+          "GNRC",
+          "FLNC",
+          "PSIG",
+          "VEEA",
+          "QSR",
+          "INDP",
+          "FTFT",
+          "GBTG",
+          "TGL",
+          "ALMU",
+          "USDE",
+          "SECZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "position size cap exceeded, skipped: 1 share at $217.49 > current cash-based budget ($200.00)"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T14:32:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1416.json",
+        "shortlist": [
+          "AEHL",
+          "MEDS",
+          "GNRC",
+          "BIAF",
+          "FLNC",
+          "PSIG",
+          "VEEA",
+          "QSR",
+          "INDP",
+          "FTFT",
+          "SECZ",
+          "ALMU",
+          "TGL",
+          "GBTG",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T14:52:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1446.json",
+        "shortlist": [
+          "MEDS",
+          "GNRC",
+          "AEHL",
+          "BIAF",
+          "FLNC",
+          "PSIG",
+          "INDP",
+          "VEEA",
+          "QSR",
+          "FTFT",
+          "SECZ",
+          "TGL",
+          "ALMU",
+          "GBTG",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T15:42:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1516.json",
+        "shortlist": [
+          "MEDS",
+          "AEHL",
+          "GNRC",
+          "BIAF",
+          "FLNC",
+          "PSIG",
+          "INDP",
+          "VEEA",
+          "QSR",
+          "SECZ",
+          "FTFT",
+          "ALMU",
+          "TGL",
+          "GBTG",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GBTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T15:51:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-17/shortlist_1546.json",
+        "shortlist": [
+          "MEDS",
+          "BIAF",
+          "SDGR",
+          "GNRC",
+          "FLNC",
+          "AEHL",
+          "INDP",
+          "VEEA",
+          "FTFT",
+          "PSIG",
+          "SECZ",
+          "QSR",
+          "ALMU",
+          "TGL",
+          "NAMI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GNRC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALMU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NAMI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-17T15:51:47-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

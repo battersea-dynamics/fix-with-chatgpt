@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-09-17T08:52:24-04:00",
+  "session_date": "2026-09-17",
+  "cases": {
+    "GNRC": {
+      "symbol": "GNRC",
+      "bear_case": "The 29% gap is heavily driven by the 'Generac stock surges 18% on $8B Amazon supply deal' headline, which has already been digested by multiple cycles of late-day and overnight trading since September 16th. The exhaustion structure identified in the pre-market candle suggests that the buying interest has saturated, leaving the current $226.36 price as a classic exit liquidity trap for aggressive retail buyers. Given that the move has essentially stopped building pre-market, this fits the 'already priced in' and 'exhaustion structure' failure modes perfectly. Buying at the open assumes sustained institutional follow-through on news that is now over 12 hours old, which typically invites a sharp gap fade once real-market liquidity arrives.",
+      "bear_risk": 0.85,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "GLOO": {
+      "symbol": "GLOO",
+      "bear_case": "The 14.99% gap in GLOO is a classic 'already priced in' trap, as the most recent relevant news\u2014the September 10th Lake Street analyst note and earnings reports\u2014are nearly a week old and provide no fresh catalyst for today's price action. The volume of 216,505 shares, while high relative to its specific baseline, is negligible for a sustained move, exposing this move to thin-tape pricing volatility once real institutional liquidity enters at the 9:30 open. Given that the candle agent identifies this as a continuation pattern without any new fundamental developments, the pre-market high is likely to serve as immediate exit liquidity for overnight participants looking to dump into the opening auction. The gap is effectively an exhaustion move disconnected from any current news, creating a high probability of a swift intraday fade.",
+      "bear_risk": 0.85,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "TGL": {
+      "symbol": "TGL",
+      "bear_case": "TGL is exhibiting a classic exhaustion gap where the market is dumping the stock despite the September 16 announcement of a US$52 million partnership, indicating the news is already priced in or insufficient to arrest the downward momentum. The exhaustion structure and extreme volume relative to baseline confirm that this 26.78% gap is not a catalyst-driven revaluation but a sentiment collapse. Buying at the open is a high-risk trap as the price has clearly stopped building, signaling that the pre-market low will likely serve as initial exit liquidity before further downside pressure resumes.",
+      "bear_risk": 0.95,
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "cited 5.2e+07 - no matching value in source data"
+      ]
+    },
+    "FLNC": {
+      "symbol": "FLNC",
+      "bear_case": "The 22% gap is anchored by the catastrophic revelation that Houston plant delays have forced a guidance cut, making this a fundamental repricing rather than a speculative trade. With the SeekingAlpha headline confirming persistent execution and supply chain failures, the 'continuation' bias in the candle structure suggests the market is not done punishing this stock. Any attempt to buy the open is a classic trap where retail liquidity provides an exit for the institutional sellers who drove the 21x surge in pre-market volume. Because the exhaustion structure shows no sign of a bottom, the open will likely serve as the daily high before the next leg lower.",
+      "bear_risk": 0.85,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "MGNI": {
+      "symbol": "MGNI",
+      "bear_case": "The +7.65% gap is driven primarily by the September 16th headline regarding Magnite's 'Orchestration Layer,' which is a strategic roadmap update rather than a material, immediate earnings catalyst, suggesting this is a 'priced in' move. With only 71,599 shares traded pre-market, the tape is exceptionally thin for a stock with such institutional interest, making the $25.60 print a playground for retail momentum that will likely succumb to an opening-auction reversal as real institutional liquidity enters. The gap has failed to build momentum throughout the pre-market session, signaling that the initial excitement has exhausted itself and the opening bell will serve as prime exit liquidity for overnight participants.",
+      "bear_risk": 0.75,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "S": {
+      "symbol": "S",
+      "bear_case": "The pre-market gap lower for S follows a series of positive news cycles from September 15th, including a consensus price target upgrade to $24.59, creating a classic exhaustion structure where the stock has failed to sustain momentum. With the candle agent identifying a bearish reversal and the lack of a negative catalyst in the news block, this gap appears to be a disconnect between thin-tape pre-market sellers and the broader bullish sentiment established earlier this week. The move is currently exhibiting an opening-auction reversal risk, as the price is bleeding lower without fresh selling headlines, indicating the gap is likely to be filled by opening liquidity. Investors buying at the open are effectively providing exit liquidity for traders who caught the exhaustion move.",
+      "bear_risk": 0.85,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "CRWV": {
+      "symbol": "CRWV",
+      "bear_case": "CRWV is exhibiting a classic exhaustion structure as it gaps down despite positive headlines regarding NVIDIA Vera Rubin clusters and expansion funding. The market is clearly digesting the $3B debt cloud mentioned in today's news as a counter-weight to price hikes, rendering the current gap an exhaustion move rather than a sustained trend. With volume at 11.93x the average, the high-liquidity sell-off is already likely priced in, suggesting the open will serve as exit liquidity for institutions. Buying now risks an opening-auction reversal where the massive pre-market volume creates a ceiling that real institutional size will look to fade.",
+      "bear_risk": 0.85,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "NAMI": {
+      "symbol": "NAMI",
+      "bear_case": "NAMI is a classic example of thin-tape pricing and exhaustion, as the -29.49% gap on a pathetic 0.10x relative volume indicates there is zero institutional conviction behind the move. The total absence of any fundamental headline justifying such a collapse means this is likely just retail panic or stop-loss cascading that will face an immediate opening-auction reversal when real liquidity enters the tape. With the candle agent signaling a 0.95 conviction on a reversal, the current $2.20 level is nothing more than exit liquidity for the few trapped traders left, making the risk of a swift continuation of the sell-off extreme.",
+      "bear_risk": 0.95,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "BULL": {
+      "symbol": "BULL",
+      "bear_case": "The +1.82% gap on BULL is a textbook dead-cat bounce following a 9% sell-off on 2026-09-16, with no fresh positive catalyst to justify the reversal. The lack of any constructive news suggests this is merely a thin-tape reaction, and the exhaustion structure identified by the candle agent indicates the move has already hit its ceiling. Because the price has stopped building in pre-market, today's open is likely serving as exit liquidity for trapped shorts rather than a sustained recovery. Buying here is a clear trap as real liquidity at 9:30 will likely overwhelm the current, low-conviction volume.",
+      "bear_risk": 0.8,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "ALMU": {
+      "symbol": "ALMU",
+      "bear_case": "ALMU is displaying a classic exhaustion gap following the Q4 2026 earnings release, where the 15.16% drop reflects a market that has already processed the 'Strategic Shift to AI Datacom' highlights from the September 16-17 news cycle. The candle agent identifies this as an exhaustion pattern, signaling that the initial sell-off has likely reached its terminal point rather than initiating a new trend. With pre-market volume of only 35,762 shares, the price action is defined by thin-tape pricing that lacks the necessary institutional conviction to hold these levels once real opening liquidity arrives at 9:30. Consequently, this gap is highly susceptible to an opening-auction reversal, making any attempt to 'buy the dip' a trap for premature entry.",
+      "bear_risk": 0.85,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "CORZ": {
+      "symbol": "CORZ",
+      "bear_case": "CORZ is currently suffering from the 'already priced in' failure mode, as the positive sentiment regarding ERCOT capacity and AI hosting bids from September 16th was already heavily traded yesterday. The current 6.34% gap is essentially a stale reaction to the same sector-wide news that drove price action yesterday, leaving the current pre-market move as little more than exit liquidity for those looking to lock in gains. Furthermore, the volume of 261,249 shares is insufficient to sustain a breakthrough above recent resistance, making this a classic 'thin-tape pricing' trap where the move will likely reverse upon the arrival of opening liquidity. With the bullish conviction of the candle agent already baked into the price, the setup lacks a fresh catalyst and faces an imminent opening-auction reversal.",
+      "bear_risk": 0.7,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    "LCID": {
+      "symbol": "LCID",
+      "bear_case": "The +5.20% gap on today's session lacks a material news catalyst, as the SeekingAlpha piece on 'Robotaxi Expansion' is merely speculative analysis rather than a fundamental corporate development. This is a classic gap-fade setup where retail interest is chasing the previous day's decline without any institutional buy-in to support price discovery above $4.25. The volume at 710k shares is artificially thin for a name like Lucid, meaning the current print is vulnerable to an immediate opening-auction reversal as real institutional liquidity hits the tape at 9:30 AM. Consequently, buying this gap is simply providing exit liquidity to sellers waiting to dump into the morning spike.",
+      "bear_risk": 0.85,
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  }
+}

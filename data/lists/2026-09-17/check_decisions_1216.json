@@ -1,0 +1,267 @@
+{
+  "generated_at": "2026-09-17T12:21:49-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "GLOO",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: GLOO is exhibiting extreme momentum with a 14.00% daily gain and 8.46x relative volume, indicating strong institutional interest. The stock has demonstrated persistent strength throughout the session, confirmed by five consecutive positive observations and a 2.42% return since first being identified. The catalyst is clear, with multiple headlines on 2026-09-17 identifying GLOO as a trending mover in the technology sector, directly validating the price surge. With price trading at its observed high and consistent volume participation, GLOO shows a sustainable setup for continued momentum in the near term. BEAR: GLOO is currently trading at a severe extension of 40.78% above its 20-day moving average, significantly increasing the probability of a sharp mean reversion. The momentum score has deteriorated with a drop of -0.5793, suggesting that the initial surge driven by today's 'Trending Overnight' headline news is losing its capacity to drive further price discovery. With price acceleration turning negative at -0.0011 despite the 8.46x relative volume, the setup shows signs of buyer exhaustion as the stock struggles to improve upon its session high. Chasing this move at the current peak, far removed from the support of the 20-day moving average, leaves a long position highly vulnerable to a rapid liquidity exit.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MEDS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Despite a sharp intraday pullback, MEDS recently bolstered its long-term growth profile through the acquisition of Helomics on 2026-09-16, a strategic move to scale its cancer diagnostics footprint. While current momentum indicators show a drawdown from highs, the stock remains significantly elevated relative to its 20-day moving average, suggesting the recent volatility is a consolidation rather than a fundamental trend reversal. Given the company's visibility on investor radars as a leading AI-driven healthcare player, the current price represents a tactical entry point to capture a rebound as the broader market turbulence stabilizes. BEAR: MEDS is displaying clear signs of technical exhaustion, with a 233.04% deviation from its 20-day moving average and a 25.09% day change that suggests a corrective pullback is underway. The tape confirms this deterioration, with a negative price acceleration of -9.4093% and a widening drawdown from the observed high, indicating that buying at the current level serves as exit liquidity for those who entered earlier. Furthermore, the $1.5 million Helomics acquisition headline is from yesterday, meaning the primary news catalyst has already been priced in and failed to sustain momentum. With relative volume at a meager 0.42x and declining volume rate, there is no institutional participation to support a recovery from this sharp intraday decline.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 1.5e+06 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "GNRC",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.58,
+      "reasoning": "net +0.25 = bull 0.95 - bear 0.70 (buy at >= +0.20). BULL: Generac is experiencing an exceptional breakout today driven by a massive, transformative catalyst: the announcement of an $8 billion generator deal with Amazon, which includes $2.4 billion in initial deliveries and an equity warrant stake. This fundamental news is confirmed by overwhelming institutional participation, evidenced by a relative volume of 5.35x normal and a robust 21.42% price gain. The intraday momentum remains firmly positive, with 5 consecutive observations showing price acceleration and zero drawdown from the observed high, signaling that the market is aggressively absorbing this supply at current levels. BEAR: GNRC is exhibiting classic signs of exhaustion after a parabolic 21.42% single-day move, as evidenced by a significant 20.7% decline in its relative volume rate per 30 minutes over the last two hours. While the Amazon deal headlines are fresh, the stock is already trading 11.7% above its 20-day moving average, suggesting that the massive 5.35x relative volume spike has likely provided all the liquidity needed for institutional profit-taking. The price acceleration has slowed to just 0.4364 percentage points, indicating that buying pressure is failing to match the aggressive move seen earlier in the session. Entering now forces a buyer into a position that has already realized its full catalyst impact and is now showing clear signs of fading participation.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.4e+09 - no matching value in source data",
+        "bull: cited 8e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BIAF",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 3.58,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: BIAF is seeing significant momentum today, surging 62.90% on 1.77x relative volume, driven by the major catalyst of a newly granted Hong Kong patent for its CyPath Lung noninvasive diagnostic. The market is reacting strongly to this intellectual property milestone, which validates the company's proprietary platform technology. The stock has demonstrated sustained strength with a 22.0571% return since it first hit the scanner, and it is currently trading at its observed session high, indicating zero drawdown and high buyer interest. With the stock holding 16.57% above its 20-day moving average, the technical setup confirms that the news-driven volume is successfully sustaining a powerful breakout. BEAR: BIAF is currently trading at a 16.57% premium to its 20-day moving average on the back of a 62.90% single-day spike, suggesting the news regarding the Hong Kong patent grant is already fully absorbed by the market. The stock is currently sitting at its observed high of $8.71, leaving no room for upward technical continuation and creating significant exit liquidity risks for new buyers at this valuation. Given the 1.77x relative volume and the rapid 22.06% gain since first observation, the current price reflects a climax in buying interest rather than a sustainable trend. Buying at these levels forces an entry at the absolute intraday peak, exposing the position to an immediate mean reversion as the novelty of the patent news fades.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AEHL",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Antelope Enterprise Holdings is currently showing significant momentum with a 45.23% gain today, building on strong after-hours activity reported on 2026-09-16. The stock's internal strength is evident in its current price acceleration of 0.3968% points and the recent rank improvement from 6 to 5. Despite the volatility, the stock is showing persistence with five consecutive observations of market interest and a solid score change of 4.7879. Traders are currently aggressively pricing in the continued impact of the news catalyst that sparked this rally, providing a clear technical setup for momentum-based participation. BEAR: AEHL is currently suffering from a clear case of chasing after a 45.23% daily gain that has left the stock 107.19% above its 20-day moving average. The momentum has already deteriorated, as evidenced by a 3.29% drawdown from its observed high of $13.84 and a relative volume of only 0.83x, suggesting that participation is insufficient to sustain these levels. The primary catalyst, a jump reported on September 16, is already fully priced in, and the lack of fresh, specific news for the current session leaves the stock vulnerable to profit-taking. Buying at this extension, with tape data confirming a current 'exhausted or reversing' setup, presents a high probability of mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FLNC",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.89,
+      "stop_loss_pct": 1.58,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: FLNC is displaying an aggressive intraday bounce following an oversold condition, evidenced by a 3.68% gain from its first observation despite a heavy sell-off earlier in the session. Trading volume is exceptionally high at 3.85x normal levels, indicating significant institutional churn and potential capitulation exhaustion as the stock recovers from its observed intraday low. While news of a guidance cut on 2026-09-17 has pressured shares, the stock's ability to maintain a positive return since the 10:17 ET observation while holding near its intraday high of $7.815 suggests immediate demand at these levels. This setup presents a classic mean-reversion opportunity for a technical bounce given the distance from the 20-day moving average. BEAR: FLNC is experiencing a catastrophic collapse following the news that the company has slashed its fiscal 2026 guidance, an event underscored by Baird turning 'incrementally negative' on the stock. The technicals confirm this breakdown, with the stock trading 26.40% below its 20-day moving average and exhibiting a measurable deterioration in momentum evidenced by a declining rank and a negative price acceleration of -4.2102. Furthermore, the volume rate of change is dropping at -0.1566, suggesting that the initial selling wave is not seeing sufficient support to stabilize the price near its lows. Buying this name today is essentially catching a falling knife as the market continues to reprice the stock downward in light of these fundamental guidance cuts.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSIG",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.05 = bull 0.60 - bear 0.65 (buy at >= +0.20). BULL: PSIG is exhibiting strong momentum with a 24.54% gain and a sustained 1.21x relative volume profile, signaling significant institutional interest today. The tape data confirms this move is not a fluke, as I have observed five consecutive periods of positive price development since 10:17 ET, showing a total return of 10.93% while holding at the session high of $4.77 with zero drawdown. While the provided news reports do not contain a specific catalyst to explain this surge, the technical momentum and consistent volume participation establish a robust case for further upside as price continues to accelerate away from its 20-day MA. BEAR: Buying PSIG at current levels requires ignoring its extreme technical overextension, as the price is 114.91% above its 20-day moving average. The intraday momentum is actively decaying, evidenced by a negative price acceleration of -0.8426% and a worsening relative volume rate change of -0.0899. Furthermore, there is a total absence of a fundamental catalyst in the news report to justify a 24.54% jump, meaning participants are likely buying into an information vacuum. With the stock's rank slipping from 5 to 7, the setup shows clear signs of fading participation rather than sustained momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: VEEA is currently showing significant investor interest, highlighted by its inclusion in recent Benzinga and ChartMill reports on September 15th and 17th regarding active IT stocks. While the price has retreated from its session high of $6.62, the stock maintains a relative volume of 1.03x, indicating continued market engagement. Furthermore, the stock remains significantly extended above its 20-day moving average by 142.15%, signaling a strong, ongoing trend that warrants buying the current dip as institutional interest persists. BEAR: VEEA is showing clear signs of exhaustion with a -10.56% drawdown from its observed high of $6.62, confirming that the initial momentum has failed. The stock is extended 142.15% above its 20-day moving average, making it highly susceptible to a mean-reversion move as speculative interest wanes. With a negative price acceleration of -1.35 percentage points and a weakening relative volume rate, the stock is currently acting as exit liquidity for those who entered earlier in the session. Furthermore, the absence of any specific material catalyst to justify this massive deviation from its 20-day average suggests that the price movement is purely driven by volatility that is now reversing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SDGR",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: SDGR is experiencing a significant breakout, evidenced by a 15.38% surge and massive relative volume of 2.64x its 20-day average. The move is backed by active interest surrounding recent positive news, specifically the SeekingAlpha article highlighting its evolution into a robust drug business, alongside its presentation at the Morgan Stanley Global Healthcare Conference on 9/16. While intra-session momentum has cooled slightly from the high of $27.98, the stock remains well-positioned, maintaining a strong position 36.52% above its 20-day moving average. The combination of high volume participation and institutional focus suggests this price level serves as a platform for further upside. BEAR: SDGR is currently showing clear signs of exhaustion, with the stock trading 36.52% above its 20-day moving average and experiencing a measurable deterioration in momentum over the last hour. The relative volume rate per 30 minutes has declined by 0.0688, and the price has slipped 1.32% from its observed high of $27.98, indicating the rally is struggling to maintain upward pressure. Furthermore, the news cycle\u2014consisting of routine inducement grants and analyst-driven commentary\u2014is insufficient to justify a 15.38% gain, suggesting the move is driven by momentum chasing that has already priced in the available information. Entering now exposes a buyer to imminent mean reversion as the high volume fails to push the stock to new highs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FTFT",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.50 = bull 0.20 - bear 0.70 (buy at >= +0.20). BULL: FTFT is currently displaying a significant price acceleration of 2.6588 percentage points, indicating a potential reversal of its earlier intraday decline. Despite the lack of specific fundamental catalysts in the news report, the stock is demonstrating technical resilience with two positive observed intervals within the last 120 minutes. Holding 113.94% above its 20-day moving average highlights strong structural momentum that traders may look to capitalize on during this consolidation phase. As the drawdown from the observed high remains limited at 1.5528%, the current price level offers an attractive entry for a short-term bounce. BEAR: FTFT exhibits a classic 'chasing' failure mode, with the stock trading 113.94% above its 20-day moving average despite anemic relative volume of only 0.05x normal. The absence of any fresh catalysts in the news report suggests the recent volatility is disconnected from fundamental developments, leaving the price vulnerable to a sharp mean reversion. Furthermore, the tape shows deterioration, with a drawdown of 1.55% from the observed session high and a stagnant rank of 10, confirming that volume is not participating in the current price level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TGL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: TGL is currently presenting a contrarian recovery opportunity following a significant 38.60% decline, supported by a major fundamental catalyst from September 16, 2026, where the company's subsidiary, Tadaa Technology, secured a $52 million partnership for an AI-powered agricultural supply chain platform. While the current session reflects intense volatility, the stock has shown signs of stabilization with five consecutive observation intervals and a return of 0.7009% since it was first tracked today. The recent rank improvement and uptick in relative volume rate change suggest that selling pressure is beginning to exhaust, providing a technical floor for a potential mean reversion toward the 20-day moving average. BEAR: TGL is currently displaying clear signs of exhaustion, evidenced by a -38.60% day change and a price that has fallen significantly below its 20-day moving average. The intraday tape shows concrete deterioration with a negative price acceleration of -0.9179 percentage points and a drawdown of -3.9276% from the observed intraday high. Furthermore, the volume profile is weak at 0.79x normal participation, suggesting the move lacks conviction and has transitioned into exit liquidity for earlier participants. While the company announced a major $52 million partnership yesterday, the market reaction is overwhelmingly negative, indicating that the news has been unable to support the stock price against aggressive selling pressure.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.2e+07 - no matching value in source data",
+        "bear: cited 5.2e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: USDE is exhibiting strong momentum with a 33.74% gain today on relative volume of 1.24x, signaling significant market interest. The catalyst driving this volatility is the StablecoinX announcement on 2026-09-17 regarding the waiver of the ENA token lock-up, which introduces a new liquidity event for the market to digest. While the stock has pulled back from its observed high of $8.98, the fact that it remains 20.52% above its 20-day moving average confirms a robust bullish trend that continues to attract active trading participation. BEAR: USDE is currently exhibiting clear signs of exhaustion as it trades 20.52% above its 20-day MA, with the tape showing a 7.66% drawdown from its observed session high of $8.98. The intraday history confirms measurable deterioration, evidenced by a negative return since the first observed interval and a worsening rank from 9 to 12. Furthermore, the volume rate is decelerating at -0.0173, suggesting that participation is fading exactly when the stock is most extended, making the current entry point high-risk 'chasing' territory.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ALMU",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: ALMU is seeing an aggressive retail and institutional reaction to its Q4 2026 earnings results, which highlighted a strategic pivot toward AI datacom. While the price has retreated, the high relative volume of 2.36x suggests significant interest from market participants reacting to the new strategic guidance rather than simple churn. The current 15.54% discount from its 20-day moving average offers an attractive entry point for a mean-reversion play as the market digests the long-term potential of the company's datacom shift. Given the sustained 2.36x relative volume and active trading interest today, the stock is primed for a snap-back recovery as the initial selling pressure exhausts itself. BEAR: ALMU is currently suffering from a severe post-earnings sell-off, down nearly 15% on the session, confirming that investors are aggressively repricing the stock following the Q4 earnings call highlights released yesterday and today. The tape shows clear signs of momentum deterioration, with a negative price acceleration of -1.4888% and a steady drawdown from the observed high, indicating that the initial sell-off is not finding a support floor. With relative volume at 2.36x normal and a rank that has failed to improve despite the massive drop, the stock is showing signs of exhaustion and continued downward pressure rather than an oversold bounce. Entering now is dangerous as the market continues to process the strategic shift news, leaving the stock technically broken and vulnerable to further panic-selling.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SECZ",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: SECZ is exhibiting powerful relative strength, trading 28.80% above its 20-day moving average on 1.96x normal volume. While there is no specific catalyst in the news report, the tape confirms significant institutional participation with five consecutive observations showing high engagement. Despite a modest intraday pullback from a high of $9.47, the stock maintains a substantial 17.76% gain for the session, suggesting the current volatility is driven by genuine order flow rather than news-based speculation. This level of participation and momentum makes it a compelling candidate for a momentum-based breakout trade. BEAR: SECZ is exhibiting clear signs of exhaustion with a -3.38% drawdown from its observed session high and a negative price acceleration of -1.50%. The stock is currently trading 28.8% above its 20-day moving average with no fundamental news or catalyst to justify the surge, suggesting the move is purely speculative and prone to rapid mean reversion. With the rank dropping from 11 to 14 over the last two hours, the price action is failing to maintain its early session momentum, making current buyers likely exit liquidity for those who entered earlier in the day.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JDZG",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.40 = bull 0.30 - bear 0.70 (buy at >= +0.20). BULL: JDZG is demonstrating significant market participation today with relative volume at 2.70x normal levels, suggesting institutional interest despite the session-wide price decline. While there is no specific positive news catalyst in the report beyond being identified as a moving stock, the price remains elevated 9.38% above its 20-day moving average, indicating a strong underlying trend is still intact. Current momentum is cooling with a 1.707% drawdown from the observed high of 4.1, representing a potential entry point for a mean reversion play as volume remains robust. Nothing in the provided report explains the current volatility, so this trade is strictly a technical play on elevated volume levels. BEAR: JDZG is currently exhibiting clear chasing behavior, with the stock trading 9.38% above its 20-day MA while suffering a -5.18% decline during the session. The tape deterioration is evident, as the stock has dropped -1.71% from its observed high since being spotted 90 minutes ago, and its rank has slipped from 14 to 15. With no immediate catalysts in the news report to justify the 2.70x relative volume, this move appears driven by momentum that is now failing, creating a high probability of further mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "GLOO",
+      "action": "submitted",
+      "order": {
+        "symbol": "GLOO",
+        "qty": 65,
+        "est_cost": 302.9,
+        "entry_ref": 4.66,
+        "take_profit": 4.91,
+        "remaining_take_profit_pct": 5.29,
+        "stop_loss": 4.52,
+        "confidence": 0.6,
+        "client_order_id": "ta-20260917-122148-GLOO",
+        "analysis_price": 4.64,
+        "live_price_change_pct": 0.43
+      },
+      "broker": {
+        "id": "9a70be9a-f218-4428-a319-a38d29d3e2ea",
+        "client_order_id": "ta-20260917-122148-GLOO",
+        "symbol": "GLOO",
+        "qty": "65",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 4.91,
+        "stop_loss": 4.52,
+        "legs": [
+          "effbd9af-ee4a-4384-8d0b-a4f6f60c58f3",
+          "27ff5c7d-6cbb-4114-b967-ba3f451bd140"
+        ]
+      }
+    },
+    {
+      "symbol": "MEDS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GNRC",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "BIAF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FLNC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSIG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VEEA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SDGR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FTFT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TGL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ALMU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SECZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JDZG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
