@@ -1,0 +1,241 @@
+{
+  "generated_at": "2026-09-18T14:51:07-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "XENE",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: XENE is experiencing an extreme liquidation event with relative volume at 20.60x normal, suggesting that a significant portion of forced selling has already occurred in today's session. While the news catalyst regarding a pause in depression study enrollment is negative, the stock is trading 32.78% below its 20-day moving average, creating a classic mean-reversion setup for a bounce. With 4 out of 9 observed intervals showing positive price action since being first tracked, the intraday momentum is beginning to stabilize despite the initial gap down. This provides a high-reward opportunity for a short-term trade as the market absorbs the headline shock. BEAR: XENE is suffering from active, negative fundamental sentiment following the headline 'Update: Xenon Shares Fall on Pause in Enrollment for Depression Studies,' which directly explains the massive 30.13% single-day collapse. The tape confirms persistent selling pressure with a 2.66% drawdown from the observed high, a negative price acceleration of -0.1374, and a decelerating relative volume rate (-0.0249), suggesting that initial panic-selling is being followed by sustained liquidation. With the stock trading 32.78% below its 20-day moving average, there is no technical support structure to justify catching this falling knife while the market digests the negative news catalyst.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PAAI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: PAAI is experiencing a significant pullback after a massive $1 billion 10-year strategic agreement with Roundtable was announced on September 17, which validates the company's long-term business model and revenue potential. While the stock has retraced from its intraday highs, the relative volume remains extremely high at 14.89x the 20-day average, indicating sustained institutional interest in this new fundamental reality. With price acceleration showing positive momentum of 10.99% points despite the sharp daily decline, the current price represents a tactical entry for a mean-reversion trade as the market digests the magnitude of the Roundtable partnership news. The extreme dislocation from the 20-day moving average of +36.18% suggests the selling may be exhausted and prime for a sharp snap-back. BEAR: PAAI is suffering from severe exhaustion as buyers from the initial news-driven surge are now providing significant exit liquidity. The stock has experienced a massive 31.96% drawdown from its observed high of $2.19, and the momentum has completely collapsed with 8 out of 9 observed intervals showing negative returns. Furthermore, the relative volume rate is plummeting at -0.2406, indicating that the institutional conviction behind yesterday's $1 billion Roundtable deal is rapidly evaporating as the session matures. Buying now means catching a falling knife that has already shed most of its momentum, with the price still dangerously extended at +36.18% above its 20-day moving average.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+09 - no matching value in source data",
+        "bear: cited 1e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "TJGC",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 5.31,
+      "reasoning": "net -0.15 = bull 0.60 - bear 0.75 (buy at >= +0.20). BULL: TJGC is displaying significant momentum, fueled by the recent September 16 appointment of electronics manufacturing veteran Kalvin Kwok to lead its strategic expansion into AI hardware components. The stock is currently showing strong participation with a 1.13x relative volume and has maintained a 13.74% return since it first appeared on scanners four hours ago. Despite a pullback from the intraday high, the stock has persisted across nine consecutive observations, confirming active institutional interest in the new strategic growth narrative. Investors are betting that this AI-focused leadership change provides a durable catalyst for higher valuations. BEAR: TJGC is currently showing clear signs of exhaustion, with the price having retreated 11.92% from its session high of 17.95 and suffering a 4.04% decline in the most recent observation interval. The stock is significantly overextended, trading 71.85% above its 20-day moving average, while price acceleration has turned sharply negative at -8.31 percentage points. Furthermore, the news regarding the AI hardware appointment is two days old, meaning the primary volatility is likely driven by momentum chasers rather than immediate new information, leaving late-stage buyers as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MEDS",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.74,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: MEDS presents a compelling recovery play following the announcement on 2026-09-18 that the company extinguished approximately $19 million in liabilities and retired 364,099 common shares, a significant balance sheet cleanup. Despite a sharp intra-day pullback, the stock is demonstrating renewed momentum with a rank improvement from 5th to 4th and positive price acceleration of 4.9889% points. The current relative volume of 1.09x and the fact that the price has moved up 2.1538% since the previous observation suggest that the initial sell-off may have overshot the positive implications of the settlement news. This setup provides a high-reward opportunity to capture a mean reversion as the market digests the improved financial outlook. BEAR: MEDS is deep into a 'chasing' failure mode, with an observed 21.56% drawdown from its intra-day high and a persistent loss of momentum since first seen. Despite the fresh news regarding the litigation settlement, the market has aggressively faded the initial reaction, evidenced by a -17.00% day change and a score change of -0.2062 over the last 30-minute observation intervals. The stock is currently trading 152.41% above its 20-day moving average, signaling that the 'exhausted or reversing' setup is corroborated by the ongoing price deterioration rather than a temporary dip.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.9e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "GLOO",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: GLOO is demonstrating significant investor interest following a 14% after-hours surge reported on September 17, indicating sustained momentum that has resulted in a 6.40x relative volume spike today. Despite current price consolidation, the stock maintains a strong position relative to its 20-day moving average, trading 52.60% above that baseline. With 270 minutes of active trading volume confirming institutional participation and continued high interest, the current pullback from daily highs provides a tactical entry point before the next potential move. The heavy volume underscores the validity of the recent price discovery phase, supporting the prospect of further upside momentum. BEAR: GLOO is currently exhibiting clear chasing characteristics, as it is trading 52.60% above its 20-day moving average while simultaneously showing measurable deterioration in its session momentum. The stock has experienced a drawdown of 6.45% from its session high, and the negative price acceleration of -2.27% combined with a drop in rank suggests the initial momentum from yesterday's 14% after-hours move is exhausted. With no new catalysts emerging today to justify the high 6.40x relative volume, the current price is acting as exit liquidity for earlier buyers rather than a sustainable breakout.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AEMD",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: AEMD has maintained strong intraday momentum, showing positive price development with 6 of 9 observed intervals being positive and a return of 2.2152% since first being seen today. The price has successfully hit an observed high of $6.46 with zero current drawdown, signaling sustained buyer interest even while being 189.10% above its 20-day moving average. This activity follows the publication of the company's Q1 2027 Earnings Call Transcript on 2026-09-18, providing a fresh fundamental catalyst for investors to re-evaluate the stock. The combination of technical resilience and active investor attention confirms that momentum remains in favor of the bulls for a near-term continuation play. BEAR: AEMD is suffering from a massive lack of volume participation with a relative volume of only 0.28x normal, suggesting the current price level is not supported by genuine buying interest. The stock is extended 189.10% from its 20-day moving average, creating a precarious setup where the price has far outrun the underlying trend. While the Q1 2027 earnings call occurred today, the lack of follow-through momentum and declining score suggest the market has already factored in the news, leaving little room for further upside. Buying now puts you in the position of providing exit liquidity for those who entered earlier in the session, as the current volume rate of 0.0119 per 30 minutes is insufficient to sustain the current valuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NCT",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: NCT is currently undergoing a sharp technical reset, trading nearly 90% below its 20-day moving average, which creates a significant potential for a mean-reversion bounce. While there is no specific catalyst in the provided news report to justify the 23% drop, the intra-day data shows a minor rank improvement from 8th to 7th in our observations, indicating early signs of institutional interest or bottom-fishing. Given the extreme oversold condition and the setup as exhausted, a tactical long position targets a recovery from these compressed levels as short-term momentum stabilizes. The risk is high given the low relative volume of 0.13x, so a disciplined stop-loss is essential to protect against continued downside volatility. BEAR: NCT is exhibiting clear evidence of a decaying trend with a -23.03% daily loss and a massive 89.36% distance from its 20-day MA, suggesting that any attempt to catch this knife is a high-risk gamble. The intraday momentum confirms a worsening setup, as the stock has endured an 8.96% drawdown from its first-seen price and continues to suffer from a 9.09% drawdown from its observed session high. With relative volume at a negligible 0.13x and no catalyst provided in the news report to justify or support a reversal, the current lack of participation confirms that this is not a 'dip' but a lack of buying interest. The asset is effectively trapped in a sustained downtrend with no upcoming earnings or dividends to provide a structural floor in the near term.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MNOV",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: MNOV is currently supported by a fresh analyst initiation from Roth Capital on 2026-09-17, which sets a bullish price target of $6, providing significant upside potential from the current $3.54 level. The stock shows strong institutional interest with a relative volume of 2.36x and has maintained sustained momentum, evidenced by 10 consecutive observations over 270 minutes and a 7.27% gain since it was first flagged. Despite the recent run-up, the price remains resilient, holding a shallow drawdown of only 1.66% from its observed high, while the relative volume rate is actively accelerating, indicating persistent buying pressure. BEAR: MNOV is currently extended 104.03% above its 20-day moving average, signaling an extreme technical disconnect that invites profit-taking rather than momentum continuation. The bullish catalyst regarding the Roth Capital initiation occurred yesterday, making it stale news that has already been factored into the current price level. Furthermore, the intraday tape shows signs of exhaustion with a rank drop from 7 to 8, a negative price acceleration of -0.0056, and a deepening drawdown of 1.66% from its session high. Chasing the stock here offers poor risk-reward as the momentum has clearly slowed while the price remains heavily deviated from its mean.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: USDE is exhibiting strong intraday momentum with a 32.04% gain and is trading at its session high of $10.18, confirming aggressive buyer appetite. The stock is showing sustained participation with a relative volume of 1.07x and two consecutive positive snapshots demonstrating rank improvement and price persistence. While the catalyst report lacks a direct fundamental driver for today's specific move, the stock's inclusion in multiple 'stocks moving' headlines confirms broad market interest. Given the 43.16% extension from its 20-day MA, the momentum is significant enough to support a short-term breakout trade. BEAR: USDE is currently trading 43.16% above its 20-day moving average, creating a highly extended technical posture that invites profit-taking rather than further expansion. The lack of a specific, company-driven catalyst in the news report for today\u2014coupled with the fact that the move has already seen a 32.04% gain\u2014suggests the stock is acting as exit liquidity for earlier entrants. With a relative volume of only 1.07x and a stagnant price action evidenced by only a 0.444% return over the last 30 minutes, the buying momentum is already failing to confirm the initial breakout. Entering here risks a mean-reversion trap where the lack of sustained volume and stretched moving average distance force a sharp, immediate pullback.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GEMI",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: GEMI is exhibiting significant momentum, evidenced by a 26.07% gain today on 2.13x relative volume, indicating strong institutional interest. The price action is characterized by sustained positive development, with the stock closing at $5.58\u2014its observed high\u2014following three consecutive observations showing a 2.8545% return since initial tracking and a clear improvement in rank from 12 to 10. Jim Cramer\u2019s explicit recommendation today to 'keep it as your spec' provides a relevant bullish catalyst that bolsters sentiment despite conflicting analyst fair value reports. The combination of price acceleration at 1.1804% and a 0.0% drawdown from its observed high demonstrates high buyer conviction to close the session. BEAR: The stock is currently trading 25.44% above its 20-day moving average on news that provides conflicting sentiment, specifically the bearish report of falling fair value due to weak crypto execution appearing alongside Cramer's speculative mention. While price acceleration remains positive, the relative volume rate per 30 minutes is already showing marginal decay at -0.0077, suggesting that participation may be failing to sustain the current 26.07% intraday gain. Entering now forces a position at the absolute observed high of $5.585, leaving no room for error in a ticker currently caught between regulatory headwinds from the Clarity Act failure and speculative day-trader momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NHIC",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.5,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.10 = bull 0.50 - bear 0.60 (buy at >= +0.20). BULL: NHIC presents a compelling setup following the September 17, 2026 announcement that shareholders approved the business combination with newcleo plc, providing a major fundamental catalyst for post-merger interest. Despite the day's 3.31% decline, the stock is seeing significant institutional attention with relative volume at 5.96x normal levels. Recent momentum shows positive price acceleration of 0.9992 percentage points and a recovery in recent intervals, suggesting the market is absorbing the news and potentially positioning for a rebound from the current -13.48% distance from its 20-day MA. The massive volume participation confirms that the stock is currently in active discovery, providing the liquidity needed for a quick move higher. BEAR: NHIC is experiencing a classic post-news drift lower, with the September 17th approval of the newcleo plc business combination having been fully digested by the market. Despite a relative volume of 5.96x, the stock is currently failing to hold momentum, reflected in its rank regression from 9 to 11 and a negative price performance since the first scan. The 13.48% distance from the 20-day MA indicates that despite the high volume, participants are actively distributing into the price, leaving the stock vulnerable to further mean reversion toward its historical averages.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CYPH",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: CYPH is showing significant momentum with a 13.99% gain today and relative volume at 1.54x, suggesting institutional interest in the stock. Despite a slight intraday pullback, the stock remains 71.04% above its 20-day moving average, signaling strong underlying bullish trend strength. While there is no specific fundamental catalyst in the recent news reports to explain this move, the consistent observation of 9 consecutive data points demonstrates sustained active trading interest. The current technical positioning suggests that buyers are holding firm at higher levels, providing a foundation for potential further breakout if the volume intensity persists. BEAR: CYPH is currently experiencing clear technical deterioration, evidenced by a 5.68% drawdown from its observed high and a negative return of 1.70% since it first appeared on the scanner. The stock is significantly overextended, trading 71.04% above its 20-day moving average, while the price acceleration has turned negative at -1.6976 percentage points. Furthermore, there is no fundamental catalyst to justify this move, as the most recent news headlines are one to two days old and reflect historical data rather than forward-looking events. This combination of an overstretched technical base and fading momentum confirms the stock is currently serving as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HALO",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 4.12,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: HALO is showing exceptional market strength today, confirmed by a massive relative volume of 5.14x, signaling strong institutional absorption of the $1.3 billion convertible note offering finalized this session. The price momentum is sustained, evidenced by six consecutive positive observations over 150 minutes and an acceleration of 0.3489 percentage points, hitting new highs of $112.07 with zero drawdown. This combination of a successful capital raise and clear, persistent intraday accumulation provides a compelling tactical entry point as the stock tests breakout levels. BEAR: The stock is currently being driven by the pricing of an upsized $1.3 billion convertible note offering announced today, which introduces immediate equity dilution concerns that outweigh the momentum of the move. Despite a high relative volume of 5.14x, the internal momentum metrics show a fading 'rel_volume_rate_change' of -0.0206, suggesting that the initial surge of buying interest is already decelerating. With the price currently trading at a 3.84% premium to the 20-day MA, buying now involves chasing an exhaustion point where the supply of new convertible debt creates a ceiling that limits further upside potential.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.3e+09 - no matching value in source data",
+        "bear: cited 1.3e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BNC",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: BNC is showing significant momentum with a 12.36% gain today, supported by elevated trading volume at 1.11x the 20-day average. The stock is positioned for a potential run-up heading into its upcoming earnings release on September 21, 2026, which is drawing investor interest as highlighted by the September 16 SeekingAlpha piece identifying it as a 'super-discounted' accumulation play. While the intra-day price has seen some consolidation from its highs, the sustained relative volume and consistent presence on the tape suggest that market participants are actively building positions ahead of the catalyst. BEAR: BNC is exhibiting clear signs of exhaustion as it sits 59.51% above its 20-day MA with no fresh catalyst to justify the surge, given the last relevant headline is from September 16th. The intraday tape shows concrete deterioration, with a negative return of -1.45% since its first observation and a persistent drawdown of -2.79% from its intraday high. Furthermore, the upcoming earnings release on September 21st falls directly within a potential holding window, creating significant event risk that makes this entry an uncompensated coin flip. With declining rank and negative price acceleration, the current buying interest is failing to sustain momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: VEEA presents a potential mean-reversion opportunity following yesterday's announcement regarding a cornerstone investment in Novagen tied to the VEEA business combination. While the stock has pulled back significantly today, it remains well above its 20-day moving average, suggesting that the broader trend remains intact despite current volatility. The recent headlines highlight significant corporate action that provides a fundamental narrative for traders to re-enter at these lower levels. With the stock currently experiencing low relative volume at 0.14x, a return of buying interest could lead to a swift recovery toward previous highs. BEAR: VEEA is currently suffering from a severe case of chasing and exhaustion, as evidenced by a 10.16% drawdown from its observed high and an extremely low relative volume of 0.14x, suggesting the market is no longer participating in this move. The primary catalyst, the Geonova Capital cornerstone investment news, is now one day old and failed to provide sustained support, leaving the stock 16.32% lower on the day. Despite this pullback, the stock remains 72.26% above its 20-day moving average, signaling that the price is still significantly overextended and prone to further mean reversion as the excitement from the merger announcement dissipates.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "XENE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PAAI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TJGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MEDS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GLOO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEMD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MNOV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GEMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NHIC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CYPH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HALO",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "BNC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VEEA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

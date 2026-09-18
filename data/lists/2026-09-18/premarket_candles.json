@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-18T08:49:22-04:00",
+  "session_date": "2026-09-18",
+  "reads": {
+    "XENE": {
+      "symbol": "XENE",
+      "pattern": "gap-down exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "USDE": {
+      "symbol": "USDE",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "STUB": {
+      "symbol": "STUB",
+      "pattern": "breakout continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ONON": {
+      "symbol": "ONON",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PPTA": {
+      "symbol": "PPTA",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "MEDS": {
+      "symbol": "MEDS",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SECZ": {
+      "symbol": "SECZ",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "HELP": {
+      "symbol": "HELP",
+      "pattern": "continuation gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "MNOV": {
+      "symbol": "MNOV",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.75
+    },
+    "SDGR": {
+      "symbol": "SDGR",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.75
+    },
+    "ARRY": {
+      "symbol": "ARRY",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "MGN": {
+      "symbol": "MGN",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

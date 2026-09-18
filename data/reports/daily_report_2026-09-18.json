@@ -1,0 +1,1342 @@
+{
+  "date": "2026-09-18",
+  "events": [
+    {
+      "at_et": "2026-09-18T08:46:07-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-18T08:58:07-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-18T09:31:43-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PPTA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T10:23:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1015",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1015.json",
+        "shortlist": [
+          "PAAI",
+          "XENE",
+          "MEDS",
+          "AEMD",
+          "BIAF",
+          "MGN",
+          "BNC",
+          "NCT",
+          "MNOV",
+          "GLOO",
+          "AEHL",
+          "DAIC",
+          "FTFT",
+          "SECZ",
+          "VEEA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T10:53:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1046.json",
+        "shortlist": [
+          "PAAI",
+          "XENE",
+          "MEDS",
+          "AEMD",
+          "GLOO",
+          "TJGC",
+          "NCT",
+          "CYPH",
+          "VEEA",
+          "BNC",
+          "BIAF",
+          "MNOV",
+          "AEHL",
+          "DAIC",
+          "SECZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T11:21:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1116.json",
+        "shortlist": [
+          "PAAI",
+          "XENE",
+          "GLOO",
+          "MEDS",
+          "AEMD",
+          "CYPH",
+          "NCT",
+          "BNC",
+          "VEEA",
+          "MNOV",
+          "SECZ",
+          "DAIC",
+          "TJGC",
+          "DFDV",
+          "BIAF"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SECZ",
+            "action": "submitted",
+            "order": {
+              "symbol": "SECZ",
+              "qty": 33,
+              "est_cost": 339.57,
+              "entry_ref": 10.29,
+              "take_profit": 10.81,
+              "remaining_take_profit_pct": 5.05,
+              "stop_loss": 9.98,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260918-112147-SECZ",
+              "analysis_price": 10.0,
+              "live_price_change_pct": 2.9
+            },
+            "broker": {
+              "id": "771202bd-5e48-4cf7-9efb-2883d9f3f6bb",
+              "client_order_id": "ta-20260918-112147-SECZ",
+              "symbol": "SECZ",
+              "qty": "33",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 10.81,
+              "stop_loss": 9.98,
+              "legs": [
+                "eec9fe77-d03b-467e-9329-aa047b30bb3f",
+                "39dfa6f3-741f-4f23-848b-d4480fec937d"
+              ]
+            }
+          },
+          {
+            "symbol": "DFDV",
+            "action": "submitted",
+            "order": {
+              "symbol": "DFDV",
+              "qty": 50,
+              "est_cost": 279.5,
+              "entry_ref": 5.59,
+              "take_profit": 6.08,
+              "remaining_take_profit_pct": 8.75,
+              "stop_loss": 5.41,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260918-112147-DFDV",
+              "analysis_price": 5.63,
+              "live_price_change_pct": -0.71
+            },
+            "broker": {
+              "id": "701c3e17-2426-4b9c-be9c-c25a5d10a16d",
+              "client_order_id": "ta-20260918-112147-DFDV",
+              "symbol": "DFDV",
+              "qty": "50",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 6.08,
+              "stop_loss": 5.41,
+              "legs": [
+                "9aa9d9d4-ff4a-41c1-9571-a0b65c3e7332",
+                "c6a9c4cf-88d9-4a63-b886-8653264c2ee2"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T11:52:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1146.json",
+        "shortlist": [
+          "PAAI",
+          "XENE",
+          "GLOO",
+          "MEDS",
+          "TJGC",
+          "AEMD",
+          "CYPH",
+          "BNC",
+          "MNOV",
+          "VEEA",
+          "NCT",
+          "SECZ",
+          "DAIC",
+          "NCI",
+          "BIAF"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SECZ",
+            "action": "submitted",
+            "order": {
+              "symbol": "SECZ",
+              "qty": 29,
+              "est_cost": 290.58,
+              "entry_ref": 10.02,
+              "take_profit": 10.82,
+              "remaining_take_profit_pct": 7.99,
+              "stop_loss": 9.72,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260918-115219-SECZ",
+              "analysis_price": 10.0101,
+              "live_price_change_pct": 0.1
+            },
+            "broker": {
+              "id": "7ddddded-42da-4750-8eee-d6c4f0b9688e",
+              "client_order_id": "ta-20260918-115219-SECZ",
+              "symbol": "SECZ",
+              "qty": "29",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 10.82,
+              "stop_loss": 9.72,
+              "legs": [
+                "50abb447-e1c1-4969-bf6e-da3e9670c142",
+                "834b4f68-e9bf-4903-9675-8180f64cc0eb"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T12:23:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1216.json",
+        "shortlist": [
+          "PAAI",
+          "XENE",
+          "TJGC",
+          "GLOO",
+          "MEDS",
+          "AEMD",
+          "CYPH",
+          "MNOV",
+          "BNC",
+          "NHIC",
+          "NCI",
+          "NCT",
+          "VEEA",
+          "HALO",
+          "DAIC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "live ask $4.11 has reached or passed the original take-profit target $3.85"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T12:51:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1246.json",
+        "shortlist": [
+          "PAAI",
+          "XENE",
+          "TJGC",
+          "GLOO",
+          "MEDS",
+          "AEMD",
+          "MNOV",
+          "NHIC",
+          "BNC",
+          "CYPH",
+          "NCT",
+          "NCI",
+          "VEEA",
+          "HALO",
+          "MGN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T13:21:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1316.json",
+        "shortlist": [
+          "PAAI",
+          "XENE",
+          "TJGC",
+          "GLOO",
+          "MEDS",
+          "AEMD",
+          "NHIC",
+          "MNOV",
+          "NCT",
+          "NCI",
+          "MGN",
+          "CYPH",
+          "BNC",
+          "HALO",
+          "VEEA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T13:51:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1346.json",
+        "shortlist": [
+          "XENE",
+          "PAAI",
+          "TJGC",
+          "GLOO",
+          "MEDS",
+          "AEMD",
+          "NCT",
+          "MNOV",
+          "NHIC",
+          "NCI",
+          "CYPH",
+          "HALO",
+          "BNC",
+          "GEMI",
+          "VEEA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GEMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T14:21:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1416.json",
+        "shortlist": [
+          "XENE",
+          "PAAI",
+          "TJGC",
+          "GLOO",
+          "MEDS",
+          "AEMD",
+          "MNOV",
+          "NCT",
+          "NHIC",
+          "USDE",
+          "CYPH",
+          "GEMI",
+          "BNC",
+          "HALO",
+          "NCI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GEMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T14:51:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1446.json",
+        "shortlist": [
+          "XENE",
+          "PAAI",
+          "TJGC",
+          "MEDS",
+          "GLOO",
+          "AEMD",
+          "NCT",
+          "MNOV",
+          "USDE",
+          "GEMI",
+          "NHIC",
+          "CYPH",
+          "HALO",
+          "BNC",
+          "VEEA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GEMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T15:21:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1516.json",
+        "shortlist": [
+          "XENE",
+          "PAAI",
+          "TJGC",
+          "GLOO",
+          "MEDS",
+          "AEMD",
+          "USDE",
+          "NCT",
+          "GEMI",
+          "CYPH",
+          "MNOV",
+          "NHIC",
+          "HALO",
+          "VEEA",
+          "FTFT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GEMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T16:03:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-18/shortlist_1546.json",
+        "shortlist": [
+          "XENE",
+          "PAAI",
+          "TJGC",
+          "MEDS",
+          "GLOO",
+          "AEMD",
+          "GEMI",
+          "NCT",
+          "MNOV",
+          "CYPH",
+          "USDE",
+          "NHIC",
+          "HALO",
+          "VEEA",
+          "AEHL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XENE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GEMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NHIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HALO",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-18T16:03:21-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
