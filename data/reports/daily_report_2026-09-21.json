@@ -1,0 +1,1145 @@
+{
+  "date": "2026-09-21",
+  "events": [
+    {
+      "at_et": "2026-09-21T08:46:03-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-21T08:51:23-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-09-21T09:31:07-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "WBD",
+            "action": "submitted",
+            "order": {
+              "symbol": "WBD",
+              "qty": 12,
+              "est_cost": 357.12,
+              "entry_ref": 29.76,
+              "take_profit": 31.34,
+              "remaining_take_profit_pct": 5.31,
+              "stop_loss": 29.16,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260921-093107-WBD",
+              "analysis_price": 29.8,
+              "live_price_change_pct": -0.13
+            },
+            "broker": {
+              "id": "a7f36a6b-c956-41d7-b261-1aef9de0f7b7",
+              "client_order_id": "ta-20260921-093107-WBD",
+              "symbol": "WBD",
+              "qty": "12",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 31.34,
+              "stop_loss": 29.16,
+              "legs": [
+                "d5a578c9-e494-4cc6-ae94-c462f0ce5b87",
+                "6c98c4c8-f97c-4150-b2e9-e4ac4da756f4"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFDV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HPQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XXI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T10:24:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1016.json",
+        "shortlist": [
+          "CRML",
+          "NUAI",
+          "CPOP",
+          "MEDS",
+          "GRAL",
+          "USDE",
+          "AEMD",
+          "NVO",
+          "BNC",
+          "ARM",
+          "IMCC",
+          "ZTO",
+          "SECZ",
+          "DAIC",
+          "VEEA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPOP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T11:51:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1145",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1145.json",
+        "shortlist": [
+          "CRML",
+          "NUAI",
+          "GRAL",
+          "USDE",
+          "MEDS",
+          "AEMD",
+          "PAL",
+          "NVO",
+          "ZTO",
+          "BNC",
+          "ARM",
+          "IMCC",
+          "CPOP",
+          "FTFT",
+          "INTC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "live ask $361.16 has reached or passed the original take-profit target $334.01"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPOP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T12:31:03-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1216.json",
+        "shortlist": [
+          "CRML",
+          "NUAI",
+          "GRAL",
+          "MEDS",
+          "USDE",
+          "AEMD",
+          "ZTO",
+          "PAL",
+          "NVO",
+          "ZH",
+          "BNC",
+          "ARM",
+          "IMCC",
+          "FTFT",
+          "MNOV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NUAI",
+            "action": "submitted",
+            "order": {
+              "symbol": "NUAI",
+              "qty": 43,
+              "est_cost": 330.67,
+              "entry_ref": 7.69,
+              "take_profit": 8.31,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 7.35,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260921-123103-NUAI",
+              "analysis_price": 7.73,
+              "live_price_change_pct": -0.52
+            },
+            "broker": {
+              "id": "3ad70d78-1c4b-4c1a-a090-7b93a3f23609",
+              "client_order_id": "ta-20260921-123103-NUAI",
+              "symbol": "NUAI",
+              "qty": "43",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 8.31,
+              "stop_loss": 7.35,
+              "legs": [
+                "f1509bf7-7879-4eda-9080-caef5fb7f540",
+                "871c07c7-74b1-40b0-a9df-8f43edacf32b"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "live ask $361.16 has reached or passed the original take-profit target $337.00"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T13:14:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1246.json",
+        "shortlist": [
+          "CRML",
+          "GRAL",
+          "USDE",
+          "MEDS",
+          "ZTO",
+          "AEMD",
+          "ZH",
+          "NVO",
+          "PAL",
+          "ARM",
+          "BNC",
+          "IMCC",
+          "FTFT",
+          "MNOV",
+          "VNCE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VNCE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T13:28:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1316.json",
+        "shortlist": [
+          "CRML",
+          "GRAL",
+          "USDE",
+          "MEDS",
+          "ZTO",
+          "AEMD",
+          "NVO",
+          "ZH",
+          "PAL",
+          "ARM",
+          "BNC",
+          "SST",
+          "EAF",
+          "YDES",
+          "IMCC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRML",
+            "action": "submitted",
+            "order": {
+              "symbol": "CRML",
+              "qty": 28,
+              "est_cost": 258.72,
+              "entry_ref": 9.24,
+              "take_profit": 9.99,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 8.93,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260921-132801-CRML",
+              "analysis_price": 9.275,
+              "live_price_change_pct": -0.38
+            },
+            "broker": {
+              "id": "e7178b31-3736-439a-ac76-014dd10bd36d",
+              "client_order_id": "ta-20260921-132801-CRML",
+              "symbol": "CRML",
+              "qty": "28",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 9.99,
+              "stop_loss": 8.93,
+              "legs": [
+                "329d488d-a8d0-4927-8fbd-deab18509647",
+                "c0a08e82-cf4c-4365-ad2e-e0ae1a84943d"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T13:52:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1346.json",
+        "shortlist": [
+          "GRAL",
+          "AEMD",
+          "ZTO",
+          "USDE",
+          "NVO",
+          "MEDS",
+          "ZH",
+          "PAL",
+          "ARM",
+          "BNC",
+          "SST",
+          "YDES",
+          "SECZ",
+          "IMCC",
+          "FTFT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "live ask $13.66 has reached or passed the original take-profit target $12.64"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T14:30:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1415",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1415.json",
+        "shortlist": [
+          "CRML",
+          "GRAL",
+          "MEDS",
+          "AEMD",
+          "ZTO",
+          "NVO",
+          "USDE",
+          "ZH",
+          "PAL",
+          "ARM",
+          "SST",
+          "BNC",
+          "PSIG",
+          "NCT",
+          "SECZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "live ask $13.66 has reached or passed the original take-profit target $12.65"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T15:01:20-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1446.json",
+        "shortlist": [
+          "CRML",
+          "GRAL",
+          "MEDS",
+          "AEMD",
+          "ZTO",
+          "USDE",
+          "NVO",
+          "ZH",
+          "PAL",
+          "ARM",
+          "SECZ",
+          "BNC",
+          "SST",
+          "NCT",
+          "YDES"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "live ask $14.19 has reached or passed the original take-profit target $13.50"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T15:21:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1516.json",
+        "shortlist": [
+          "CRML",
+          "GRAL",
+          "MEDS",
+          "AEMD",
+          "ZTO",
+          "NVO",
+          "ZH",
+          "USDE",
+          "PAL",
+          "SECZ",
+          "ARM",
+          "PSIG",
+          "NCT",
+          "YDES",
+          "BNC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "live ask $14.69 has reached or passed the original take-profit target $13.82"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "position size cap exceeded, skipped: 1 share at $325.00 > current cash-based budget ($262.99)"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T15:50:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-21/shortlist_1546.json",
+        "shortlist": [
+          "CRML",
+          "GRAL",
+          "MEDS",
+          "SECZ",
+          "AEMD",
+          "ZTO",
+          "NVO",
+          "ZH",
+          "PAL",
+          "ARM",
+          "USDE",
+          "PSIG",
+          "YDES",
+          "BRVE",
+          "BNC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SECZ",
+            "action": "submitted",
+            "order": {
+              "symbol": "SECZ",
+              "qty": 19,
+              "est_cost": 256.5,
+              "entry_ref": 13.5,
+              "take_profit": 14.57,
+              "remaining_take_profit_pct": 7.94,
+              "stop_loss": 13.04,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260921-155007-SECZ",
+              "analysis_price": 13.48,
+              "live_price_change_pct": 0.15
+            },
+            "broker": {
+              "id": "bf9e3fe1-489f-4c5d-a192-6432b9ef8ee9",
+              "client_order_id": "ta-20260921-155007-SECZ",
+              "symbol": "SECZ",
+              "qty": "19",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 14.57,
+              "stop_loss": 13.04,
+              "legs": [
+                "20726932-00d7-4674-a99c-6558f82fb8ce",
+                "9c59fcc5-65a5-4eb1-8e42-cd612555c1ea"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARM",
+            "reason": "position size cap exceeded, skipped: 1 share at $325.00 > current cash-based budget ($211.69)"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 9
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-21T15:50:07-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 10,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-09-21T15:50:07-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CRML",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.58,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: CRML is experiencing significant momentum today, underscored by a massive relative volume of 6.63x and a sharp 30.97% gain. The catalyst is clear, with today's Benzinga report highlighting the Nasdaq granting Greenland Mines an additional 180-day compliance period, which is driving the stock's inclusion among the day's top movers. Although the stock has pulled back slightly from its $9.275 high, it maintains its position as the top-ranked stock in our scanner with 4 consecutive positive intervals, demonstrating strong participation and persistence. Given the 13.82% increase in relative volume rate, the buying pressure remains high enough to support a short-term trend continuation. BEAR: CRML is currently exhibiting clear signs of momentum exhaustion, having drifted 4.97% off its observed session high despite high relative volume of 6.63x. While the news of an additional 180-day period for Nasdaq compliance is fresh, the stock has failed to hold its intraday gains, evidenced by a negative return of 3.46% since its first-seen time and a score change of -0.4921. Buying here represents classic 'chasing' of a headline-driven move that has already lost its initial intraday vigor and is now significantly extended, trading 24.55% above its 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRAL",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 3.58,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: GRAL is experiencing extreme institutional interest, evidenced by a massive relative volume of 3.55x and a 34.16% intraday surge. The stock is currently in the spotlight due to an imminent FDA regulatory catalyst highlighted in today's news cycle, which provides a clear fundamental driver for this price action. Momentum remains strong with 11 consecutive observations, showing sustained market participation and only a minor 1.72% drawdown from the session high. The positive price acceleration of 0.16% points and increasing relative volume rates confirm that the momentum is still actively building. BEAR: GRAL is currently in a state of exhaustion, evidenced by a drawdown of 1.72% from its session high and a negative return over the most recent observation interval. The stock is extended 37.25% above its 20-day moving average, making it highly vulnerable to mean reversion as the momentum score has declined by 0.1161. While the stock faces an imminent FDA regulatory catalyst, the lack of specific, actionable news today suggests that the 34.16% price surge is an over-extended reaction likely to serve as exit liquidity for earlier buyers. Buying now forces an entry at the top of a parabolic move with clear signs of intraday momentum cooling.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MEDS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.44,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: MEDS maintains strong momentum, holding an 11.30% gain today despite low relative volume, with the stock currently positioned 154.99% above its 20-day moving average indicating sustained buyer interest. While the recent DataMeds acquisition has faced skepticism, the September 18th announcement of a $19 million liability settlement and share retirement provides a fundamental floor that supports current price levels. With 11 consecutive observations on the tape today and the stock retaining a top-three rank, the price action demonstrates resilience against localized profit-taking. The case is driven by the impact of recent balance sheet improvements rather than high-volume speculation, suggesting potential for further consolidation before another leg higher. BEAR: MEDS is currently displaying clear signs of exhaustion with a -3.79% drawdown from its observed intraday high and a negative price acceleration of -2.63 percentage points. Despite the +11.30% gain, volume participation is exceptionally low at 0.14x the 20-day average, indicating that the move is failing to attract institutional conviction. Furthermore, the stock is stretched +154.99% above its 20-day moving average, a level of overextension that, combined with the cooling momentum and negative rel-volume rate, makes the current entry essentially exit liquidity for earlier buyers. No fresh, fundamental catalyst justifies this premium, as the most recent relevant news regarding the DataMeds litigation settlement is already three days old.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.9e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SECZ",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: SECZ is demonstrating immense relative strength, closing at $13.48 with a 24.13% gain and 1.95x relative volume. The momentum is clearly backed by fundamental support, specifically the September 21, 2026, analyst notes from Rosenblatt maintaining a Buy rating and Cantor Fitzgerald initiating coverage with an Overweight rating and a $21.20 price target, providing substantial room for upside. Technical confirmation is robust, with 5 consecutive scans showing a 15.35% return since first seen and zero drawdown from the observed high. The accelerating rel_volume_rate_change of 0.0945 and a price acceleration of 3.3002 points confirm this as a high-conviction breakout move. BEAR: The stock is currently trading at an extreme 80.41% deviation from its 20-day moving average, signaling an unsustainable parabolic move. The day's momentum is entirely predicated on analyst reports from Rosenblatt and Cantor Fitzgerald that have been fully digested by the market, evidenced by the price hitting a current high of $13.48 and trading with no observed drawdown. Chasing this entry effectively requires buying into the immediate ceiling created by the $13 price target from Rosenblatt, leaving only the $21.20 target from Cantor as a speculative outlier. With the price accelerating by 3.30% in its latest interval, the risk of a sharp exhaustion reversal is elevated as participants look to lock in profits from today's 24.13% gain.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AEMD",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: AEMD shows remarkable price resilience, maintaining a position at its observed high of $6.36 with zero drawdown, despite the absence of fresh catalysts following the Q1 earnings call on September 18. The tape demonstrates clear persistence with 11 consecutive observations of sustained price appreciation, showing a 2.41% gain since first being spotted. While volume remains low, the stock\u2019s current price acceleration of 1.04% points reflects strong intraday momentum that validates a continuation move. Investors remain focused on the stock following recent earnings volatility, providing a liquid baseline for a short-term momentum trade. BEAR: AEMD is currently exhibiting classic signs of a volume-less exhaustion move, trading 163.35% above its 20-day MA with a dismal 0.09x relative volume. The lack of participation is further confirmed by the rank deterioration, as the stock slipped from rank 4 to 5 despite positive price intervals. With the most recent headline catalyst\u2014the Q1 2027 Earnings Call Transcript\u2014dating back to September 18th (three days ago), there is no fresh institutional interest to justify this technical extension. Buying at these levels represents chasing a move that has exhausted its buying liquidity, leaving the stock vulnerable to mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZTO",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.15 = bull 0.55 - bear 0.70 (buy at >= +0.20). BULL: ZTO is showing significant exhaustion of selling pressure combined with a surge in liquidity, as evidenced by a relative volume of 4.91x the 20-day average. The stock is currently being identified as a Peter Lynch-style GARP (Growth at a Reasonable Price) candidate in today's news cycle, suggesting the 7.56% decline is an opportunity rather than a fundamental shift. Intra-session momentum is turning with a 0.7278% return since the previous observation and a strong price acceleration of 0.1527 percentage points. With volume momentum increasing at a rate of 0.1766 per 30-minute interval, the setup is primed for a sharp mean-reversion move off current lows. BEAR: ZTO is experiencing a clear failure of momentum as evidenced by a 7.56% decline and a 7.62% distance from its 20-day moving average, showing no signs of stabilization. The stock exhibits measurable deterioration with a rank worsening from 5 to 6 and a declining score change of -0.1146. Furthermore, the fresh ChartMill headline regarding a 'GARP candidate' has failed to provide any support, indicating the market is pricing in fundamental weakness rather than reacting to news. The combination of high relative volume at 4.91x and a persistent drawdown from the observed high highlights significant liquidation pressure that makes a recovery attempt in the coming days high-risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NVO",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.93,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Despite the market's overreaction to long-term growth targets, the positive catalyst of the CagriSema REIMAGINE 5 trial results proves Novo Nordisk's core pipeline remains superior. The stock is currently seeing massive participation with 4.35x relative volume, and the tape shows clear resilience with 11 consecutive observations of sustained continuation and a 0.1512% recovery since first being tracked today. With price acceleration at 0.1006% and limited drawdown from the observed session high, the heavy selling is being met with significant institutional buying interest as investors digest the company's clear competitive edge in obesity treatments. BEAR: NVO is suffering from a classic 'sell the news' reaction to its Capital Markets Day, evidenced by multiple headlines on 2026-09-21 confirming that the 2030 growth strategy failed to impress investors. The stock is currently trading 12.01% below its 20-day MA, and despite a 4.35x relative volume surge, the price has failed to stabilize, showing a rank deterioration from 6 to 7 and a consistent drawdown of -0.55% from the observed high. The negative price acceleration of 0.1006 indicates that the selling pressure remains active, making any long entry an attempt to catch a falling knife in the wake of clear institutional disappointment.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZH",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.10 = bull 0.55 - bear 0.65 (buy at >= +0.20). BULL: ZH is exhibiting strong price persistence supported by a significant 4.46x relative volume spike and a 6.07% gain on the day. The momentum is confirmed by eight consecutive observations of sustained activity, with the stock maintaining a 4.28% return since it was first flagged and currently hovering at its session high of $3.405. While there is no specific catalyst in the news report to explain this move, the volume-backed technical setup suggests robust accumulation and upward participation. This tape-only case relies on the clear evidence of sustained volume growth and price strength throughout the session. BEAR: ZH is currently extended 17.17% above its 20-day moving average on a day where 4.46x normal volume has already been exhausted, leaving no clear catalyst or news-driven justification for the move. The momentum data indicates clear deterioration, evidenced by a negative rank improvement and a negative price acceleration of -0.3005, suggesting the rally is stalling after 210 minutes. With no fundamental news to support current price levels, the stock is showing signs of chasing an unsustainable move that lacks active participation catalysts.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PAL",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: PAL is showing significant accumulation, evidenced by a relative volume of 4.39x the 20-day norm and a positive return of 4.1667% since its initial appearance on the radar 240 minutes ago. The stock is demonstrating persistent momentum with 9 consecutive observations and a price acceleration of 1.3846 percentage points, maintaining its observed high of $4.00 with zero drawdown. While the catalyst report is empty, the strength of the tape-driven price action despite the lack of news signals a structural buying interest that is independent of public headlines. This technical persistence, coupled with the stock trading 19.92% below its 20-day moving average, suggests a strong mean-reversion opportunity with significant room to run. BEAR: PAL is currently trading with an extreme 4.39x relative volume without any news catalyst to justify the move, creating significant uncertainty regarding the sustainability of this price action. Despite a 4.16% return since its first observation, the momentum has clearly deteriorated, evidenced by a rank improvement of zero and a score change of -0.6213 over the last 240 minutes. Furthermore, the relative volume rate is actively weakening with a -0.1478 change, suggesting that market participation is thinning out just as the stock hits its session high of $4.00, making this a classic case of momentum exhaustion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARM",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: ARM is experiencing a powerful breakout supported by a 2.67x relative volume surge and 11 consecutive sessions of positive momentum. The catalyst is fundamental, as news on 2026-09-21 confirms that Meta has partnered with ARM on a new AGI CPU, while speculation regarding ARM's shift toward silicon manufacturing is reshaping the company's valuation. With the stock holding gains of 3.575% since first being identified today and maintaining strong participation, the current technical structure suggests continued institutional demand. The combination of sector-wide tailwinds in the semiconductor space and specific news-driven growth provides a robust setup for further upside. BEAR: ARM is currently overextended, trading 29.34% above its 20-day moving average, which creates a significant vulnerability to profit-taking. The tape shows clear signs of exhaustion with a negative price acceleration of -0.562 and a return of -0.0132 from the observed high, indicating the intraday momentum is failing to hold near session peaks. Furthermore, the news regarding Meta's involvement and the shift toward silicon manufacturing is now fully reflected in the 16.97% daily surge, leaving no remaining catalysts to support further upside from these levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CRML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GRAL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MEDS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SECZ",
+      "action": "submitted",
+      "order": {
+        "symbol": "SECZ",
+        "qty": 19,
+        "est_cost": 256.5,
+        "entry_ref": 13.5,
+        "take_profit": 14.57,
+        "remaining_take_profit_pct": 7.94,
+        "stop_loss": 13.04,
+        "confidence": 0.6,
+        "client_order_id": "ta-20260921-155007-SECZ",
+        "analysis_price": 13.48,
+        "live_price_change_pct": 0.15
+      },
+      "broker": {
+        "id": "bf9e3fe1-489f-4c5d-a192-6432b9ef8ee9",
+        "client_order_id": "ta-20260921-155007-SECZ",
+        "symbol": "SECZ",
+        "qty": "19",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 14.57,
+        "stop_loss": 13.04,
+        "legs": [
+          "20726932-00d7-4674-a99c-6558f82fb8ce",
+          "9c59fcc5-65a5-4eb1-8e42-cd612555c1ea"
+        ]
+      }
+    },
+    {
+      "symbol": "AEMD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZTO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NVO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PAL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARM",
+      "action": "skipped",
+      "reason": "position size cap exceeded, skipped: 1 share at $325.00 > current cash-based budget ($211.69)"
+    }
+  ]
+}
