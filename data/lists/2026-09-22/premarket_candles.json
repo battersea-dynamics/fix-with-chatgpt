@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-22T08:48:10-04:00",
+  "session_date": "2026-09-22",
+  "reads": {
+    "DBRG": {
+      "symbol": "DBRG",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "GRML": {
+      "symbol": "GRML",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "VKTX": {
+      "symbol": "VKTX",
+      "pattern": "Breakout Continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CLDX": {
+      "symbol": "CLDX",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "IMCC": {
+      "symbol": "IMCC",
+      "pattern": "Gap and Run Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "XNDU": {
+      "symbol": "XNDU",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "VICR": {
+      "symbol": "VICR",
+      "pattern": "Gap and Go Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ONON": {
+      "symbol": "ONON",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SOFI": {
+      "symbol": "SOFI",
+      "pattern": "Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BB": {
+      "symbol": "BB",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "IMSR": {
+      "symbol": "IMSR",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SHOP": {
+      "symbol": "SHOP",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    }
+  }
+}

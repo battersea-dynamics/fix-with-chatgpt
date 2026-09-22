@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-22T13:48:39-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "GRML",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.31,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: GRML is experiencing a massive surge with 7.35x relative volume and a 59.02% daily gain, identifying it as a primary focus for institutional capital in today's session as highlighted by Benzinga. The stock remains firmly in play as the top-ranked ticker with 8 consecutive observations, holding a 14.39% gain since it was first sighted. While it has pulled back from its high of $17.06, the sustained participation and status as a focal point in today's news suggest this is a high-momentum event rather than a transitory spike. The current consolidation offers a tactical entry for traders looking to capture the tail end of this extreme volatility move. BEAR: GRML is exhibiting textbook exhaustion with a 12.2% drawdown from its observed session high and a significant price acceleration drop of -11.17 percentage points. Participation is rapidly drying up, evidenced by the volume rate falling by 13.15% alongside a negative momentum score change. While the stock is in the news, no specific operational catalyst explains this 208% extension from its 20-day MA, suggesting the move is purely speculative and currently serving as exit liquidity for early buyers. With a return of -7.87% since the previous observation, the immediate trend has clearly pivoted toward aggressive mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VKTX",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: Viking Therapeutics is seeing massive institutional interest today with relative volume at 15.60x its 20-day average, signaling strong conviction behind its 28.49% price gain. The stock is being actively recognized by market participants as a top mover, as highlighted in today's news reports identifying it among key big stocks moving higher. Momentum remains resilient, with a 0.75% gain since the first observation and a drawndown from the observed high of only -2.55% after 210 minutes of active trading. This sustained price action, combined with significantly elevated volume, supports a continuation play as the market digests the current breakout. BEAR: VKTX is currently trading 19.68% above its 20-day moving average on 15.60x relative volume, indicating an extreme price extension that leaves little room for further upside. The catalyst report offers no specific news justifying the massive move, as headlines like 'On Holding, Viking Therapeutics, Shopify And Other Big Stocks Moving Higher' simply describe the price action without citing a fundamental driver. Furthermore, the intraday tape shows early signs of exhaustion with a 2.55% drawdown from the session high of $39.70, suggesting that late-day buyers are providing exit liquidity for the early morning surge. Entering now essentially involves chasing a parabolic move in the absence of a confirmed fundamental catalyst.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "GRML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VKTX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

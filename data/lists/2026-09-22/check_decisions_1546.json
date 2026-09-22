@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-22T15:48:00-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "GRML",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 9.38,
+      "stop_loss_pct": 5.0,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: GRML is exhibiting massive momentum, trading with 8.23x its normal volume and a 49.58% price increase, indicating intense institutional interest. The stock has shown remarkable persistence, appearing in 12 consecutive observations over 330 minutes with a positive price acceleration of 13.597 percentage points and a robust relative volume rate increase of 0.0564. While the catalyst report contains no specific news explanation for the move, the consistent ranking as the #1 active stock throughout the session confirms strong buying support. This tape-driven momentum, supported by sustained volume and price action, warrants a bullish entry as the stock establishes a new high-volatility baseline. BEAR: GRML is exhibiting classic exhaustion, with a 17.42% drawdown from the session high despite a 49.58% move, indicating that the supply is overwhelming buyers at current levels. The stock is extended 189.99% from its 20-day moving average, making it highly susceptible to a mean-reversion collapse as the 8.23x relative volume fails to hold the peak price. The complete lack of a specific, company-issued fundamental catalyst in the news feed suggests this surge is driven by speculative momentum that is currently pricing in maximum optimistic sentiment, leaving no room for further upside. Buying now puts the trader in the position of providing exit liquidity to early session participants as the price acceleration and rank stability show signs of peaking.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "GRML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

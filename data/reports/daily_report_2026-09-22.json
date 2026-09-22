@@ -1,0 +1,1017 @@
+{
+  "date": "2026-09-22",
+  "events": [
+    {
+      "at_et": "2026-09-22T08:46:04-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-22T08:51:26-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-09-22T09:31:10-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "SHOP",
+            "action": "submitted",
+            "order": {
+              "symbol": "SHOP",
+              "qty": 1,
+              "est_cost": 146.94,
+              "entry_ref": 146.94,
+              "take_profit": 151.35,
+              "remaining_take_profit_pct": 3.0,
+              "stop_loss": 144.84,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260922-093109-SHOP",
+              "analysis_price": 146.1235,
+              "live_price_change_pct": 0.56
+            },
+            "broker": {
+              "id": "e1b48554-f1c8-49bf-9e10-bb19dffded0f",
+              "client_order_id": "ta-20260922-093109-SHOP",
+              "symbol": "SHOP",
+              "qty": "1",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 151.35,
+              "stop_loss": 144.84,
+              "legs": [
+                "9457a78c-cfa5-47bf-aa8d-aeb1faa34621",
+                "1fe51bd3-29df-461b-9abb-82eb656b7aef"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMSR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SOFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VICR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VKTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T10:24:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1016.json",
+        "shortlist": [
+          "XNDU",
+          "VKTX",
+          "GRML",
+          "IMCC",
+          "CLDX",
+          "NCT",
+          "MNOV",
+          "AEMD",
+          "MEDS",
+          "MAZE",
+          "DBRG",
+          "ONON",
+          "VEEE",
+          "SECZ",
+          "AEHL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ONON",
+            "action": "submitted",
+            "order": {
+              "symbol": "ONON",
+              "qty": 9,
+              "est_cost": 278.73,
+              "entry_ref": 30.97,
+              "take_profit": 32.67,
+              "remaining_take_profit_pct": 5.5,
+              "stop_loss": 29.99,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260922-102451-ONON",
+              "analysis_price": 30.8397,
+              "live_price_change_pct": 0.42
+            },
+            "broker": {
+              "id": "5847420a-587d-4cb8-9b74-d7e7f05da651",
+              "client_order_id": "ta-20260922-102451-ONON",
+              "symbol": "ONON",
+              "qty": "9",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 32.67,
+              "stop_loss": 29.99,
+              "legs": [
+                "92817a6b-6e17-4297-b0ae-fda67bd15611",
+                "77d704b9-95a9-4476-b6de-04270b7ad1be"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "VKTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T10:56:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1046.json",
+        "shortlist": [
+          "GRML",
+          "XNDU",
+          "VKTX",
+          "CLDX",
+          "IMCC",
+          "AEMD",
+          "MNOV",
+          "NCT",
+          "MAZE",
+          "MEDS",
+          "DBRG",
+          "VEEE",
+          "SECZ",
+          "AEHL",
+          "VICR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VKTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VICR",
+            "reason": "position size cap exceeded, skipped: 1 share at $253.89 > current cash-based budget ($232.96)"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T11:44:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1116.json",
+        "shortlist": [
+          "GRML",
+          "XNDU",
+          "VKTX",
+          "CLDX",
+          "IMCC",
+          "AEMD",
+          "NCT",
+          "MNOV",
+          "MAZE",
+          "MEDS",
+          "DBRG",
+          "BFLY",
+          "CYPH",
+          "EVER",
+          "SECZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T12:12:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1146.json",
+        "shortlist": [
+          "GRML",
+          "XNDU",
+          "VKTX",
+          "CLDX",
+          "IMCC",
+          "AEMD",
+          "MAZE",
+          "MNOV",
+          "NCT",
+          "MEDS",
+          "EAF",
+          "BFLY",
+          "DBRG",
+          "EVER",
+          "INDP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "BFLY",
+            "action": "submitted",
+            "order": {
+              "symbol": "BFLY",
+              "qty": 24,
+              "est_cost": 228.48,
+              "entry_ref": 9.52,
+              "take_profit": 10.05,
+              "remaining_take_profit_pct": 5.6,
+              "stop_loss": 9.22,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260922-121245-BFLY",
+              "analysis_price": 9.685,
+              "live_price_change_pct": -1.7
+            },
+            "broker": {
+              "id": "88ee7e82-c6f8-4401-9fc6-ccbb3314734e",
+              "client_order_id": "ta-20260922-121245-BFLY",
+              "symbol": "BFLY",
+              "qty": "24",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 10.05,
+              "stop_loss": 9.22,
+              "legs": [
+                "20457eb2-cd62-45ae-94b2-5c79a7996e31",
+                "b170772b-8732-43e4-a320-243d1c93be44"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "VKTX",
+            "reason": "live ask $39.99 has reached or passed the original take-profit target $39.92"
+          },
+          {
+            "symbol": "CLDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 9
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T12:32:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1216.json",
+        "shortlist": [
+          "GRML",
+          "VKTX",
+          "XNDU",
+          "CLDX",
+          "IMCC",
+          "AEMD",
+          "NCT",
+          "MAZE",
+          "MNOV",
+          "INDP",
+          "MEDS",
+          "EVER",
+          "EAF",
+          "MNKD",
+          "DBRG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "VKTX",
+            "action": "submitted",
+            "order": {
+              "symbol": "VKTX",
+              "qty": 4,
+              "est_cost": 160.44,
+              "entry_ref": 40.11,
+              "take_profit": 42.92,
+              "remaining_take_profit_pct": 7.01,
+              "stop_loss": 38.81,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260922-123245-VKTX",
+              "analysis_price": 39.7,
+              "live_price_change_pct": 1.03
+            },
+            "broker": {
+              "id": "9d70c822-a81d-4f0b-bf18-eb5de69ca4b1",
+              "client_order_id": "ta-20260922-123245-VKTX",
+              "symbol": "VKTX",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 42.92,
+              "stop_loss": 38.81,
+              "legs": [
+                "95c86349-b715-4906-bba6-9fedc31d2a8c",
+                "37ae1cf9-59cb-41dc-b6b4-6472d3bb72ba"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBRG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T13:14:12-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1246.json",
+        "shortlist": [
+          "GRML",
+          "XNDU",
+          "CLDX",
+          "IMCC",
+          "AEMD",
+          "MAZE",
+          "MNOV",
+          "NCT",
+          "INDP",
+          "MEDS",
+          "EVER",
+          "EAF",
+          "MNKD",
+          "DBRG",
+          "CYPH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DBRG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CYPH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T13:41:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1315",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1315.json",
+        "shortlist": [
+          "GRML",
+          "XNDU",
+          "CLDX",
+          "IMCC",
+          "AEMD",
+          "MNOV",
+          "MAZE",
+          "NCT",
+          "INDP",
+          "MEDS",
+          "EVER",
+          "GLXY",
+          "EAF",
+          "ONON",
+          "MNKD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAZE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INDP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLXY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONON",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T13:48:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1346.json",
+        "shortlist": [
+          "GRML",
+          "VKTX",
+          "XNDU",
+          "CLDX",
+          "IMCC",
+          "AEMD",
+          "MAZE",
+          "MNOV",
+          "NCT",
+          "INDP",
+          "EVER",
+          "MEDS",
+          "EAF",
+          "GLXY",
+          "ONON"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VKTX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T14:19:18-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1416.json",
+        "shortlist": [
+          "GRML",
+          "XNDU",
+          "VKTX",
+          "CLDX",
+          "IMCC",
+          "MAZE",
+          "AEMD",
+          "NCT",
+          "MNOV",
+          "INDP",
+          "EVER",
+          "MEDS",
+          "ONON",
+          "GLXY",
+          "MNKD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VKTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 5
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T14:47:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1446.json",
+        "shortlist": [
+          "GRML",
+          "VKTX",
+          "XNDU",
+          "IMCC",
+          "CLDX",
+          "MAZE",
+          "AEMD",
+          "MNOV",
+          "NCT",
+          "INDP",
+          "EVER",
+          "MEDS",
+          "INOD",
+          "JDZG",
+          "ONON"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T15:17:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1516.json",
+        "shortlist": [
+          "GRML",
+          "IMCC",
+          "VKTX",
+          "XNDU",
+          "CLDX",
+          "MAZE",
+          "AEMD",
+          "MNOV",
+          "NCT",
+          "EVER",
+          "INDP",
+          "MEDS",
+          "INOD",
+          "EAF",
+          "PRTH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T15:48:00-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-22/shortlist_1546.json",
+        "shortlist": [
+          "GRML",
+          "VKTX",
+          "XNDU",
+          "CLDX",
+          "IMCC",
+          "MAZE",
+          "AEMD",
+          "INDP",
+          "MNOV",
+          "NCT",
+          "EVER",
+          "INOD",
+          "MEDS",
+          "EAF",
+          "PRTH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 1
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-22T15:48:00-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
