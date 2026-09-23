@@ -1,0 +1,508 @@
+{
+  "date": "2026-09-23",
+  "events": [
+    {
+      "at_et": "2026-09-23T08:46:06-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-23T09:07:57-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-09-23T09:31:10-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CART",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRL",
+            "reason": "live ask $54.23 has reached or passed the original take-profit target $51.37"
+          },
+          {
+            "symbol": "DCOY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMVT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NNBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-23T11:58:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ServerError: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      }
+    },
+    {
+      "at_et": "2026-09-23T13:23:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "RemoteProtocolError: Server disconnected without sending a response."
+      }
+    },
+    {
+      "at_et": "2026-09-23T14:03:21-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-23/shortlist_1346.json",
+        "shortlist": [
+          "IPDN",
+          "JAGX",
+          "DCOY",
+          "GRML",
+          "IMCC",
+          "TJGC",
+          "NNBR",
+          "ALKT",
+          "SECZ",
+          "XNDU",
+          "NFE",
+          "VOYG",
+          "AEMD",
+          "MEDS",
+          "GRAL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCOY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NNBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALKT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VOYG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-23T14:32:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-23/shortlist_1416.json",
+        "shortlist": [
+          "IPDN",
+          "JAGX",
+          "DCOY",
+          "GRML",
+          "IMCC",
+          "NNBR",
+          "ALKT",
+          "NFE",
+          "XNDU",
+          "SECZ",
+          "VOYG",
+          "TJGC",
+          "AEMD",
+          "MEDS",
+          "GRAL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NNBR",
+            "action": "submitted",
+            "order": {
+              "symbol": "NNBR",
+              "qty": 80,
+              "est_cost": 309.6,
+              "entry_ref": 3.87,
+              "take_profit": 4.04,
+              "remaining_take_profit_pct": 4.52,
+              "stop_loss": 3.77,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260923-143239-NNBR",
+              "analysis_price": 3.85,
+              "live_price_change_pct": 0.52
+            },
+            "broker": {
+              "id": "f0730451-5640-4e1b-a739-b64400612bb0",
+              "client_order_id": "ta-20260923-143239-NNBR",
+              "symbol": "NNBR",
+              "qty": "80",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.04,
+              "stop_loss": 3.77,
+              "legs": [
+                "828e273a-3907-4e3a-bb54-6594534c49dd",
+                "dd0f17d5-54c6-409c-bcff-c42dc0569712"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCOY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALKT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VOYG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRAL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-23T14:53:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-23/shortlist_1446.json",
+        "shortlist": [
+          "IPDN",
+          "JAGX",
+          "GRML",
+          "DCOY",
+          "IMCC",
+          "ALKT",
+          "NFE",
+          "XNDU",
+          "TJGC",
+          "SECZ",
+          "VOYG",
+          "FSLY",
+          "AEMD",
+          "MEDS",
+          "GRAL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCOY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALKT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VOYG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FSLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEMD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-23T15:17:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-23/shortlist_1516.json",
+        "shortlist": [
+          "IPDN",
+          "JAGX",
+          "GRML",
+          "DCOY",
+          "IMCC",
+          "FSLY",
+          "ALKT",
+          "NFE",
+          "TJGC",
+          "XNDU",
+          "VOYG",
+          "AEMD",
+          "SECZ",
+          "MEDS",
+          "INOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-23T15:48:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-23/shortlist_1546.json",
+        "shortlist": [
+          "IPDN",
+          "JAGX",
+          "GRML",
+          "DCOY",
+          "TJGC",
+          "IMCC",
+          "NFE",
+          "FSLY",
+          "ALKT",
+          "VOYG",
+          "XNDU",
+          "AEMD",
+          "SECZ",
+          "MEDS",
+          "INOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-23T15:48:05-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 7,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

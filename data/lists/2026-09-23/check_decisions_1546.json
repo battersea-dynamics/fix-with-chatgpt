@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-23T15:48:05-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "IPDN",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: IPDN is showing extreme market interest with a relative volume of 15.01x normal and a strong 38.72% gain on the day. The stock has been consistently captured in the top-ranked momentum scans for nine consecutive observations, proving sustained trader attention throughout the session. While the catalyst report lacks specific fundamental news behind this move, the sheer price participation and the stock's positioning 49.53% above its 20-day moving average suggest an aggressive trend in progress. The recent drawdown from the daily high of $6.209 provides a tactical entry point to capture a potential resumption of this high-conviction momentum. BEAR: IPDN is currently exhibiting clear signs of exhaustion with a 12.87% drawdown from its observed high of $6.209. The volume momentum is actively deteriorating, evidenced by a negative relative volume rate change of -0.0226 and negative price acceleration. Despite a 15x relative volume spike, there is no company-specific news catalyst to justify this move, suggesting the rally is entirely speculative and lacks fundamental support. Entering now means buying into an exhausted trend that has already signaled a significant intraday reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JAGX",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 7.88,
+      "stop_loss_pct": 4.2,
+      "reasoning": "net -0.75 = bull 0.20 - bear 0.95 (buy at >= +0.20). BULL: JAGX is seeing extreme volume participation at 7.55x its normal level, indicating significant market interest in this price discovery phase. While there is no specific fundamental news catalyst explaining the move, the stock remains a high-rank focus in today's momentum reports as a major mover. The technical setup is one of extreme exhaustion, creating a high-volatility opportunity for a mean-reversion trade from these depressed levels. This case relies entirely on the massive liquidity spike and the potential for a technical bounce after a sharp intraday drop. BEAR: JAGX is experiencing a severe collapse with a 74.75% day change and a massive 46.42% drawdown from its observed high, indicating a total loss of buying momentum. The tape deterioration is stark, evidenced by a negative price acceleration of -5.5187 and only 2 positive intervals out of 8, confirming that current buyers are simply serving as exit liquidity for those caught in the initial move. The complete absence of company-specific news in the catalyst report leaves the stock vulnerable to further uncontrolled selling, as there is no fundamental floor supporting the current valuation. Entering this trade is essentially catching a falling knife during a liquidation event.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "IPDN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JAGX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

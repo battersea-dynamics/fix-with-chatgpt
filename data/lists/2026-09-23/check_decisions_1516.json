@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-23T15:17:45-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "IPDN",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 5.31,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: IPDN is showing intense investor interest today with a massive relative volume of 14.93x its 20-day average, signaling strong institutional or momentum-driven participation. While no specific company-level catalyst explains the 37.60% move, the stock has maintained its position as the top-ranked mover in our scanner for eight consecutive observations today. Price action remains robust with a positive price acceleration of 10.05%, suggesting that despite the recent drawdown from its peak, buyers are aggressively defending current levels. BEAR: IPDN exhibits clear signs of chasing exhaustion, having surged 37.6% on 14.93x relative volume while sitting 48.33% above its 20-day moving average, with no company-specific catalyst provided to justify the move beyond generic mentions in market-wide scanner headlines. The intraday tape shows confirmed deterioration, as the stock has suffered a 13.57% drawdown from its observed high of $6.209 and demonstrates a weakening relative volume pace, which has declined by 0.0608. Buying now offers poor risk-reward, as the price is currently retreating from its peak while lacking any fundamental driver to sustain the extended valuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JAGX",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.74,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: JAGX is experiencing massive institutional interest today with relative volume hitting 7.38x, indicating significant active participation during this high-volatility session. While the catalyst report lacks specific news to explain the move, the ticker shows early signs of stabilization with a price acceleration of 7.44% and positive returns over the last few observed intervals. At 300 minutes into the session, the stock has maintained a consistent rank of 2, suggesting it remains a primary focal point for market participants despite the intraday drawdown from the observed high of $16.23. Entering at the current $9.00 level offers a tactical opportunity to play a mean-reversion move based on this heavy volume confirmation. BEAR: JAGX is exhibiting clear signs of exhaustion with a massive 44.57% drawdown from its observed session high, indicating that the initial momentum has completely collapsed. The volume participation is actively deteriorating, as evidenced by a negative change in the relative volume rate per 30 minutes, confirming that buying interest is drying up. Furthermore, the absence of any specific company-level catalyst to explain the volatility leaves the current price action purely speculative and susceptible to further mean reversion. With the relative volume rate falling and price momentum struggling despite high scanner rank, the stock is currently serving as exit liquidity for those who entered earlier in the session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "IPDN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JAGX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
