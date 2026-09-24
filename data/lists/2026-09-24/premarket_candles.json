@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-24T08:58:05-04:00",
+  "session_date": "2026-09-24",
+  "reads": {
+    "MGM": {
+      "symbol": "MGM",
+      "pattern": "gap-down exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "KYTX": {
+      "symbol": "KYTX",
+      "pattern": "bullish reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VSA": {
+      "symbol": "VSA",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "NEOV": {
+      "symbol": "NEOV",
+      "pattern": "Gap Down Continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ARTL": {
+      "symbol": "ARTL",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "FRVO": {
+      "symbol": "FRVO",
+      "pattern": "Breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "TSSI": {
+      "symbol": "TSSI",
+      "pattern": "breakout gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ZTO": {
+      "symbol": "ZTO",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "BB": {
+      "symbol": "BB",
+      "pattern": "indecision",
+      "bias": "neutral",
+      "conviction": 0.5
+    }
+  }
+}

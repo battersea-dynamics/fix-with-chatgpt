@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-09-24T14:00:40-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "GIL",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: Gildan Activewear is showing a strong mean-reversion setup following an extreme 10.78% drop, bolstered by high trading participation at 3.60x normal volume. Momentum data over three consecutive observations confirms a recovery, with the stock climbing to its session high of $41.21 and demonstrating significant price acceleration of 2.541% points. While the recent September 23rd news headline questions the stock's valuation, this current buying pressure suggests market participants are capitalizing on the oversold condition, evidenced by the 16.95% distance from the 20-day moving average. The combination of rank improvement and sustained volume participation provides a compelling technical entry point for a short-term bounce. BEAR: GIL is suffering from a massive technical breakdown, down 10.78% on the day and trading 16.95% below its 20-day moving average, creating an environment where even a minor bounce functions as exit liquidity for trapped institutional holders. The recent news regarding its valuation remains unresolved, and the lack of a clear fundamental catalyst for today's specific 3.60x relative volume spike suggests this is a distressed liquidation event rather than an accumulation phase. While the stock shows minor intraday acceleration, it remains detached from its 20-day trend, meaning any attempt to buy this falling knife is essentially betting against a structural momentum collapse without a verifiable floor in place.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QMCO",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: QMCO is seeing powerful momentum today, driven by a 2.87x surge in relative volume and a 15.11% gain that has pushed the stock significantly above its 20-day moving average. The rally is supported by explicit market interest, including today's coverage on the 'Quantum Corporation: AI Infrastructure Turnaround' and whale activity identified yesterday, signaling institutional participation. Furthermore, recent news concerning its addition to the S&P index provides a fundamental tailwind for continued buying pressure. Given the strong daily breakout, the stock is well-positioned for momentum traders looking to capture further upside in this high-volume move. BEAR: QMCO is currently trading at a 23.96% premium to its 20-day moving average, a level of extension that leaves little margin for error following a 15.11% single-day spike. Much of the recent catalyst news, including the S&P index entry reported two days ago and the 'whale activity' from yesterday, has already been digested by the market, potentially leaving this session's move as a late-stage 'blow-off' top. With relative volume at 2.87x and no new, material fundamental drivers beyond broad AI sector sentiment, the risk of a mean-reversion pull-back is elevated for any trader entering at current highs. The lack of intraday price improvement history beyond the initial pop underscores that this is a momentum trade heavily reliant on continuation that may already be exhausted.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TJGC",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.84,
+      "reasoning": "net -0.05 = bull 0.60 - bear 0.65 (buy at >= +0.20). BULL: TJGC is currently supported by a significant positive catalyst: the company announced a share repurchase program on September 24, 2026, which provides immediate fundamental justification for the +10.87% price jump. The tape shows sustained interest with three consecutive observations and strong price acceleration of 3.2518 percent points. While relative volume is low, the stock has maintained a strong distance from its 20-day moving average (+118.14%), indicating strong momentum that is being reinforced by the new buyback announcement. The minor drawdown of -0.8452% from the observed high suggests a controlled consolidation that serves as an attractive entry point before further potential upside. BEAR: TJGC is currently showing significant signs of exhaustion, with the stock trading 118.14% above its 20-day moving average and experiencing a notable intraday drawdown of 0.8452% from its observed high. While the company announced a share repurchase program today, the extremely low relative volume of 0.16x suggests that the market lacks the conviction to sustain this +10.87% move. The stock's failure to improve its rank\u2014actually sliding from 6th to 7th place\u2014combined with a lack of consistent price acceleration indicates that this trade is likely serving as exit liquidity for earlier buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "GIL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "QMCO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TJGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

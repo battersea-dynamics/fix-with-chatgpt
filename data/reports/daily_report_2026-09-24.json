@@ -1,0 +1,272 @@
+{
+  "date": "2026-09-24",
+  "events": [
+    {
+      "at_et": "2026-09-24T08:46:08-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-24T09:20:36-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 8,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-24T09:31:07-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KYTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "P",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 8
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-24T14:00:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-24/shortlist_1316.json",
+        "shortlist": [
+          "GRML",
+          "MGM",
+          "VKTX",
+          "GIL",
+          "QMCO",
+          "NEOV",
+          "TJGC",
+          "MAAS",
+          "WHLR",
+          "SNX",
+          "SECZ",
+          "GEN",
+          "TSSI",
+          "KYTX",
+          "NCT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 3
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-24T14:17:08-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-24/shortlist_1416.json",
+        "shortlist": [
+          "GRML",
+          "MGM",
+          "VKTX",
+          "GIL",
+          "WCT",
+          "TJGC",
+          "NEOV",
+          "QMCO",
+          "SECZ",
+          "MAAS",
+          "YDES",
+          "SNX",
+          "GRAL",
+          "NCT",
+          "GEN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-24T14:47:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-24/shortlist_1446.json",
+        "shortlist": [
+          "GRML",
+          "YDES",
+          "MGM",
+          "QMCO",
+          "GIL",
+          "VKTX",
+          "TJGC",
+          "WCT",
+          "SECZ",
+          "GRAL",
+          "GEN",
+          "NEOV",
+          "SNX",
+          "MAAS",
+          "AEMD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-24T15:17:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-24/shortlist_1516.json",
+        "shortlist": [
+          "GRML",
+          "YDES",
+          "MGM",
+          "TJGC",
+          "QMCO",
+          "GIL",
+          "VKTX",
+          "WCT",
+          "SECZ",
+          "GRAL",
+          "NEOV",
+          "GEN",
+          "SNX",
+          "MAAS",
+          "DCH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-24T15:47:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-24/shortlist_1546.json",
+        "shortlist": [
+          "GRML",
+          "YDES",
+          "GIL",
+          "MGM",
+          "TJGC",
+          "QMCO",
+          "VKTX",
+          "SECZ",
+          "DNA",
+          "WCT",
+          "GRAL",
+          "NEOV",
+          "SNX",
+          "GEN",
+          "ACAD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-24T15:47:14-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 5,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
