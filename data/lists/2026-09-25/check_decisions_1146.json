@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-09-25T11:53:36-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: APUS is exhibiting massive institutional interest today with relative volume at 7.20x its 20-day normal and a 38.21% gain, confirming that investors are aggressively rotating into the stock. While specific fundamental news is absent from the report, the stock remains the #1 ranked security in our observations, showing consistent market leadership even amidst a period of consolidation. The price remains significantly extended at 165.81% above its 20-day moving average, signaling that this momentum is driven by a powerful, sustained breakout event. Traders should capitalize on this outlier volume profile as the stock continues to attract high-conviction participation. BEAR: APUS is a classic case of chasing a move that has already experienced clear intraday deterioration, as evidenced by a 6.41% drawdown from its observed high of $7.27 within just 90 minutes of being tracked. The stock is extended 165.81% above its 20-day moving average without any fundamental catalyst in the news report to justify such a massive move, suggesting the rally is driven by technical momentum that is now fading. With negative price acceleration and a decline of 6.41% since first being observed, the stock is showing clear signs of exhaustion as intraday participants increasingly view the current price level as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JAGX",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: JAGX is experiencing massive institutional interest today with relative volume at 11.59x the 20-day average, signaling a significant shift in market participation. The company announced a major balance sheet improvement on 2026-09-25, involving the reduction of its 2021 note balance and the full cancellation of the 2025 Streeterville note, which removes a material overhang and positions the company for cleaner capital structure growth. While the stock has retraced from its intraday highs, the high relative volume and immediate impact of this debt cleanup provide a fundamental floor for a quick mean-reversion play. Entering at these levels allows for capitalizing on the initial price discovery following this positive corporate news. BEAR: JAGX is exhibiting clear signs of retail exhaustion after a sharp intraday reversal, with a 28.14% drawdown from the observed high despite the 11.59x relative volume. The stock is currently being sold into the news of a dilutive equity issuance to Streeterville Capital, which compounds the negative price momentum as the rally fades. Furthermore, the 45.92% decline in the relative volume rate per 30 minutes confirms that participation is drying up, leaving late-entry buyers as exit liquidity for the initial spike. With the price failing to hold near the high and continuing to show a negative return over the last 90 minutes, the technical setup is actively deteriorating.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GLND",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: GLND is exhibiting extreme momentum with a 19.07% gain on the session and 2.97x relative volume, signaling significant institutional interest. The tape confirms persistent strength with four consecutive observations showing price acceleration of 6.6057 percentage points and a drawdown of 0.0% from the observed high of 6.3701, indicating the stock is holding its peak levels. While the catalyst report contains no specific fundamental news regarding this ticker, the price action independently confirms a strong continuation pattern supported by a 0.2666 increase in the relative volume rate over 90 minutes. This combination of volume-backed breakout and consistent price retention makes it a compelling candidate for a momentum scalp. BEAR: GLND is currently trading 272.90% above its 20-day moving average, creating a precarious extension that lacks a fundamental catalyst in the provided news report to justify the 19.07% daily gain. While the stock shows a sustained momentum setup, it is effectively trading into a vacuum where the absence of company-specific news leaves the price vulnerable to rapid mean reversion. With the relative volume rate per 30 minutes at only 0.6266, the participation rate is struggling to keep pace with the aggressive price acceleration of 6.6057 percentage points, suggesting that the current buying pressure is exhausted and primarily fueled by retail momentum. Buying at these levels forces an entry at the session high with no structural support, making the position highly susceptible to a sharp, sentiment-driven pullback.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AKAM",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Akamai is experiencing a fundamental re-rating today following the announcement of an $11.6 billion deal with Anthropic, which Piper Sandler projects will shift the company from a value asset into a hypergrowth play. The stock is seeing massive institutional engagement with relative volume at 5.91x its 20-day average, confirming significant buying conviction. While the intraday price has experienced a pullback from its $119.01 high, the underlying support from this massive, transformative catalyst provides a robust foundation for near-term momentum to re-establish as the market digests the magnitude of this deal. The move is supported by a significant price gap over the 20-day moving average, signaling a structural change in the stock's market position. BEAR: AKAM is currently exhibiting clear signs of chasing exhaustion following the initial spike on the Anthropic deal news. The price has experienced a 2.73% drawdown from its observed high of $119.01, and the momentum data shows a 2.68% decline over the most recent interval. With the relative volume rate dropping by 0.2862 and price acceleration turning negative at -2.63%, the initial buying interest is rapidly fading. The stock is extended 6.56% above its 20-day moving average, making it vulnerable to a mean-reversion move as the excitement of the same-day news is already being absorbed by the market.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.16e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "WHLR",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: WHLR is exhibiting powerful momentum today, trading at a 36.95% gain on 1.74x relative volume. The tape confirms persistent buying pressure with four consecutive positive observations, a 12.05% return since the first scan, and zero drawdown from the session high of $5.1221. While there is no specific catalyst in the news report to explain this move, the price acceleration of 8.35% and improving rank indicate strong institutional interest and continued demand. This sustained technical momentum makes it a compelling candidate for a momentum scalp. BEAR: WHLR is currently trading at an extreme 18.07% above its 20-day moving average on a 36.95% single-day gain, creating a high probability of mean reversion for any short-term holder. The move lacks any underlying fundamental catalyst in the news report, rendering the massive price spike speculative and detached from company-specific developments. While momentum remains positive, the relative volume rate per 30 minutes of 0.2526 suggests that the initial surge of retail interest is cooling, making new entries at the $5.12 level susceptible to becoming exit liquidity for earlier buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRML",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: GRML displays strong price action following the September 24 news that catalyzed a 370% surge, with the momentum remaining sustained in today's session. The tape-only data confirms persistence with four consecutive observations showing a 1.0303% gain since the first scan and a price acceleration of 2.7718%. The stock is showing strong relative performance, currently trading 175.19% above its 20-day moving average, and despite a minor 1.5674% drawdown from its observed high, the positive price development across 90 minutes suggests ongoing buying interest. While there is no specific new catalyst today, the momentum following yesterday's significant news-driven move creates a clear trend continuation opportunity. BEAR: GRML is exhibiting a classic 'chasing' failure mode, trading at a staggering 175.19% premium over its 20-day moving average while suffering from low conviction volume at only 0.73x normal levels. The momentum is already deteriorating, evidenced by a rank drop from 5 to 6 and a measurable drawdown of 1.57% from the observed session high. Furthermore, the massive 370% headline-driven catalyst from yesterday is now effectively 'old news,' leaving today's participants to chase a move that has exhausted its primary fundamental driver.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ONEN",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: ONEN is presenting a potential mean-reversion opportunity following its recent 20.15% decline and the volatility associated with its business combination closing on September 23, 2026. While the stock has seen a significant pullback from its 20-day moving average, it has maintained 4 consecutive observations since 10:17 ET with a 4.56% return relative to its first observed price point. The increase in relative volume rate change to 0.1477 indicates building interest, suggesting that the current sell-off may be reaching exhaustion. Investors can capitalize on this technical oversold state following the company's recent structural transformation. BEAR: The stock is currently suffering a -20.15% drawdown, significantly decoupled from its 20-day moving average by -69.03%, suggesting a collapse in investor confidence following the September 23rd business combination closing. The tape confirms this deterioration with a -5.1062% return since its observed high and a sharp -16.3443% price acceleration, signaling that the initial post-merger interest has transitioned into an exit liquidity trap. With relative volume at a modest 1.05x and a falling price-acceleration metric, buyers are attempting to catch a falling knife that lacks the participation required to sustain a reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NCT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: NCT is exhibiting significant volatility on 1.50x relative volume, drawing attention as an industrials stock moving in today's pre-market session. While the price has retreated from its session high of $4.44, the stock maintains a 2.37% gain since it was first tracked 90 minutes ago, indicating underlying buying interest despite the -7.10% day change. With a score improvement of 0.5019 and four consecutive observations confirming active participation, this setup suggests a potential mean reversion play off the current oversold conditions relative to the 20-day MA. The absence of specific negative news allows for a technical bounce as volume remains elevated compared to historical averages. BEAR: NCT is exhibiting clear evidence of chasing a dead-cat bounce that has already begun to fade, with the stock currently down 7.10% on the session and showing a -2.70% drawdown from its observed high of $4.44. The internal momentum has deteriorated significantly, evidenced by a price acceleration of -8.6668 percentage points and only one positive interval out of three, indicating that the buyers are failing to sustain momentum. Furthermore, there is no fundamental catalyst to support this price action, as the latest news regarding industrial stock movements is merely generic sector headlines, leaving the stock vulnerable to further mean reversion toward its extreme -88.33% distance from the 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QMCO",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.05 = bull 0.75 - bear 0.70 (buy at >= +0.20). BULL: QMCO is demonstrating strong momentum with a 10.74% daily gain and 1.72x relative volume, supported by active market interest as evidenced by recent 'AI Infrastructure Turnaround' commentary published on September 24th. The tape confirms persistent strength with three consecutive positive observations over the last 60 minutes, a return of 2.1194% since first detected, and no drawdown from the observed high of $32.6578. The stock's ability to improve its rank from 12th to 9th while maintaining price near the high confirms sustained buying pressure. Investors are reacting to the narrative of a fundamental pivot in AI infrastructure, providing a momentum-based entry at current levels. BEAR: QMCO is significantly overextended, trading 33.68% above its 20-day moving average, which creates a high likelihood of a mean-reversion trap for new buyers. The momentum is already deteriorating, evidenced by a significant price acceleration drop of -1.9473 and a weakening volume pace with a -0.1764 change in rel_volume_rate. The news cycle, headlined by generic 'AI Infrastructure Turnaround' pieces from yesterday, is stale and fails to justify today's continued double-digit rally, suggesting the move is now driven by retail momentum rather than institutional conviction. Entering at current levels risks becoming immediate exit liquidity as the rel_volume_rate_per_30m of 0.2328 confirms participation is drying up while price remains at its intraday high.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CM",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 1.88,
+      "stop_loss_pct": 1.12,
+      "reasoning": "net -0.05 = bull 0.45 - bear 0.50 (buy at >= +0.20). BULL: CM is showing strong institutional interest today with relative volume at 3.24x its 20-day norm, signaling significant accumulation. The stock is exhibiting immediate positive momentum, having improved its market rank from 11th to 10th in the latest 30-minute observation window while maintaining the day's high of $112.65 with 0% drawdown. While the catalyst report contains no news directly explaining today's specific jump, the market's focus on CIBC's recent initiatives in bond deals and digital tokenized deposit solutions provides a constructive background for this price action. Investors are also positioned ahead of the September 28 ex-dividend date, adding a tactical incentive to hold into the coming sessions. BEAR: The stock is currently being chased at 3.24x relative volume, yet it remains 1.63% below its 20-day moving average, suggesting the recent breakout move has yet to overcome significant overhead technical resistance. Furthermore, the upcoming ex-dividend date on 2026-09-28 creates a mechanical price adjustment risk within the short-term holding window that will erode entry gains. With no fresh catalysts today to justify this volume surge, the price action reflects retail momentum exhaustion rather than a sustained fundamental shift, increasing the risk of a mean-reversion trap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AEMD",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: AEMD is currently demonstrating a recovery in its market ranking, moving from 13 to 11 in recent sessions, which suggests emerging interest despite today's overall pullback. While the catalyst report from 2026-09-18 provides no fresh news for today, the stock is trading significantly above its 20-day moving average by 91.59%, indicating a strong structural trend. The current intraday performance shows a minor drawdown of only 1.74% from the observed high, reflecting resilient consolidation rather than a collapse. There is nothing in the news report that explains the current movement, so this is a momentum-based tactical play focusing on the technical floor established near the $6.20 level. BEAR: AEMD presents a textbook case of chasing an overextended ticker where the technicals have already begun to roll over. The stock sits at a dangerous +91.59% deviation from its 20-day moving average, yet the relative volume is essentially non-existent at 0.01x, indicating that the recent price action lacks any institutional conviction. The intra-day data confirms this deterioration, showing a price acceleration of -2.8651% and a continued drawdown from the observed high, signaling that the move is failing to find support. Furthermore, with no fresh news catalyst since the earnings call seven days ago, the current price reflects residual volatility rather than fundamental demand.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PFSA",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: PFSA presents a classic oversold mean-reversion opportunity following a significant 25.84% decline, which has left the stock trading at a 10.90% discount to its 20-day moving average. While the catalyst report contains no news to explain the current volatility, the internal price action shows a recent positive tick, with a 1.6787% return since the previous observation and a notable 2.1292% price acceleration. This recovery momentum suggests the selling pressure has reached an exhaustion point, allowing for a tactical rebound as buyers step into the price gap created during today's session. BEAR: PFSA is demonstrating clear 'chasing' risk as the stock has undergone a significant -25.84% drop with no explanatory catalyst or news in the report to justify the move. Participation is actively drying up, evidenced by a relative volume of just 0.39x normal and a negative change in the relative volume rate. Furthermore, the intraday momentum is deteriorating, with the rank falling from 10 to 12 and a consistent 5.97% drawdown from the day's observed high, suggesting that there is no bottoming support at these levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TJGC",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: TJGC presents a compelling buying opportunity following the announcement of a share repurchase program on September 24, which provides a structural floor for the stock price. Despite current intraday weakness, the stock remains significantly elevated at 111.34% above its 20-day moving average, signaling strong underlying institutional interest. While the tape currently reflects a pullback, the recent rank improvement from 15 to 13 suggests that momentum is stabilizing. Entering at these levels allows for capitalizing on the buyback catalyst while the stock is consolidating after its recent move. BEAR: TJGC is currently suffering from a clear deterioration in momentum, with a 4.22% drawdown from its observed high and price acceleration deep in negative territory at -6.83 percentage points. Despite the 111.34% distance from the 20-day moving average, there is no fresh catalyst to justify such an extension, as the most recent news regarding a share repurchase program occurred yesterday and has clearly failed to sustain price support. With a relative volume of only 0.03x and a weakening score change, the current price action reflects exhaustion rather than a momentum breakout, leaving little reason to expect a reversal of the ongoing intraday decline.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SECZ",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: SECZ is currently at the center of a major fundamental shift, bolstered by multiple fresh headlines today confirming that the company has secured a landmark tokenization deal with ARK Invest and received regulatory approval from the SEC. Despite the headline price decline, the stock has demonstrated immediate resilience, posting a 1.3758% return since its initial observation 90 minutes ago and showing zero drawdown from its observed high of $15.1354. This stock is effectively pricing in the transition from RWA theory to trading reality, and the combination of institutional adoption by Cathie Wood and formal regulatory clarity provides a powerful catalyst for a continued rally. Current price action indicates buyers are stepping in at these levels, positioning the stock for a recovery as the market digests the long-term implications of these major announcements. BEAR: SECZ is currently suffering from a massive technical overextension, trading 67.41% above its 20-day moving average, which creates significant vulnerability to mean reversion. While the headlines regarding the SEC's tokenization exemption and ARK Invest's venture fund deal are fresh, the stock is experiencing a severe lack of participation with a relative volume of only 0.76x, indicating that the move is not being confirmed by institutional conviction. This exhaustion of buying interest, coupled with the stock's failure to maintain its momentum during the session, makes entering at these elevated levels a high-stakes gamble on continued retail excitement rather than a sound technical position.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VNCE",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.35 = bull 0.30 - bear 0.65 (buy at >= +0.20). BULL: VNCE is exhibiting powerful momentum with an 11.62% gain, showing significant separation from its 20-day moving average by 57.86%. While the catalyst report lacks specific news explaining this move, the price action clearly demonstrates aggressive buyer interest today. Given the high degree of volatility reflected in the double-digit percentage move, there is potential for further upside as traders react to the sudden breakout. As we only have a single observation at this time, we acknowledge that the bullish case is driven primarily by the tape's immediate response. BEAR: VNCE is exhibiting a classic volume-detached spike, with the stock trading at a significant 57.86% premium to its 20-day moving average on a relative volume of only 0.47x. The catalyst report reveals no fundamental news or corporate events to justify an 11.62% move, suggesting the price action is likely liquidity-driven or retail-fueled rather than institutional. Without meaningful volume participation to confirm this extension, the stock is highly susceptible to a sharp mean reversion as intraday participants look to lock in these sudden gains. Chasing this move at the current distance from the mean is dangerous when there is no verifiable news to support the price floor.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "APUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JAGX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GLND",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AKAM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WHLR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GRML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ONEN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "QMCO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEMD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PFSA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TJGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SECZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VNCE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

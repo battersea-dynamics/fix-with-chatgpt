@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-25T15:47:55-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: APUS is demonstrating powerful market leadership today, confirmed by a massive 7.94x relative volume spike and a 41.26% gain that places it as the rank-one mover in the healthcare sector for 2026-09-25. While the catalyst report lacks a specific fundamental news driver, the tape shows remarkable persistence with 12 consecutive observations and a positive 2.507% price acceleration in the most recent interval. The stock has successfully maintained its status as the top-ranked mover throughout the session, proving that strong institutional accumulation is offsetting any short-term consolidation from its intraday high. BEAR: APUS is a classic case of chasing liquidity, as the stock is currently trading 171.67% above its 20-day moving average on a 41.26% gain without any fundamental catalyst to justify the move. While the stock remains rank 1 in terms of movement, the data confirms it has already peaked, showing a 4.34% drawdown from the observed high of 7.2654 over the last 330 minutes. The lack of specific news or earnings to support this surge, combined with the observed exhaustion indicated by the 330-minute negative return since the first scan, makes this a high-risk entry for anyone looking to go long. Entering now forces a position into the hands of traders already taking profits after a parabolic, news-absent move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "APUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
