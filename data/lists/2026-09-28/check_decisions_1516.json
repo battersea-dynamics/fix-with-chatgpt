@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-28T15:18:14-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "XHLD",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: XHLD is experiencing extreme elevated interest with a relative volume of 5.04x, indicating significant market participation despite today's sharp price decline. While there is no news catalyst in the report to explain this move, the stock has maintained its position on the momentum scanner for 7 consecutive observations, demonstrating persistent trading activity. With the price currently 91.49% below its 20-day moving average, a mean reversion trade is supported by the high volume, even though the current momentum trend remains bearish. This is a purely technical, tape-based play relying on extreme oversold conditions and liquidity. BEAR: XHLD exhibits clear signs of chasing and exhaustion, as evidenced by a 13.11% drawdown from its observed high and a consistent negative return trend since it was first identified at 11:47 ET. The absence of any catalyst news leaves the stock without fundamental support, making the 5.04x relative volume look like a liquidity trap for late-stage buyers. With a price acceleration of -1.18% and a weakening relative volume rate, the tape indicates that momentum has definitively shifted toward a mean-reversion phase.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NCI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.89,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: NCI is exhibiting extreme volume participation with a relative volume of 4.74x, signaling an massive institutional or speculative interest that often precedes sharp reversals following deep oversold conditions. The stock is currently trading 80.46% below its 20-day moving average, providing significant room for a mean-reversion bounce given its high volatility. While the catalyst report lacks specific news, the tape shows seven consecutive observations of activity with positive price development of 2.5391% in the most recent interval, indicating that the selling pressure is beginning to stabilize. This setup presents a high-beta opportunity for traders looking to capitalize on an oversold snap-back move. BEAR: NCI is a clear example of chasing a falling knife, as the stock has already endured a brutal 82.08% decline and is trading 80.46% below its 20-day moving average. The tape shows definitive deterioration, with a 24.35% drawdown from the observed high of $3.47 and a negative price acceleration of -13.30%. Furthermore, there is a total absence of a fundamental catalyst in the news reports to support a reversal, rendering the current high relative volume of 4.74x little more than exit liquidity for trapped holders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "XHLD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NCI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

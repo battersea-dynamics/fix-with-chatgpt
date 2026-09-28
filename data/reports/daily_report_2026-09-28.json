@@ -1,0 +1,681 @@
+{
+  "date": "2026-09-28",
+  "events": [
+    {
+      "at_et": "2026-09-28T08:46:54-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-28T08:53:09-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-09-28T09:31:54-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DPRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GFI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDIC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T10:23:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1016.json",
+        "shortlist": [
+          "KOD",
+          "MSGY",
+          "MDB",
+          "GLND",
+          "MX",
+          "MEDS",
+          "APUS",
+          "SHMD",
+          "NCT",
+          "DCX",
+          "GRML",
+          "OCUL",
+          "TJGC",
+          "USDE",
+          "SECZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SECZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T11:22:03-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1046.json",
+        "shortlist": [
+          "KOD",
+          "MSGY",
+          "MX",
+          "MDB",
+          "GLND",
+          "MEDS",
+          "APUS",
+          "OCUL",
+          "SHMD",
+          "GRML",
+          "NCT",
+          "DCX",
+          "YDES",
+          "TJGC",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 8
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T13:10:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1246.json",
+        "shortlist": [
+          "KOD",
+          "XHLD",
+          "NCI",
+          "MSGY",
+          "MX",
+          "MDB",
+          "MEDS",
+          "GLND",
+          "APUS",
+          "OCUL",
+          "SHMD",
+          "GRML",
+          "NCT",
+          "YDES",
+          "DCX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T13:42:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1316.json",
+        "shortlist": [
+          "KOD",
+          "XHLD",
+          "NCI",
+          "MSGY",
+          "MX",
+          "MEDS",
+          "MDB",
+          "GLND",
+          "APUS",
+          "OCUL",
+          "SHMD",
+          "GRML",
+          "YDES",
+          "DCX",
+          "NCT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "live ask $4.61 has reached or passed the original take-profit target $4.44"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T14:07:38-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1346.json",
+        "shortlist": [
+          "KOD",
+          "XHLD",
+          "NCI",
+          "MSGY",
+          "MX",
+          "MDB",
+          "MEDS",
+          "GLND",
+          "OCUL",
+          "APUS",
+          "SHMD",
+          "GRML",
+          "NCT",
+          "YDES",
+          "DCX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OCUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHMD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T14:17:58-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1416.json",
+        "shortlist": [
+          "KOD",
+          "XHLD",
+          "NCI",
+          "MSGY",
+          "MX",
+          "MDB",
+          "MEDS",
+          "GLND",
+          "APUS",
+          "OCUL",
+          "SHMD",
+          "GRML",
+          "NCT",
+          "DCX",
+          "YDES"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "KOD",
+            "action": "submitted",
+            "order": {
+              "symbol": "KOD",
+              "qty": 3,
+              "est_cost": 271.44,
+              "entry_ref": 90.48,
+              "take_profit": 99.04,
+              "remaining_take_profit_pct": 9.46,
+              "stop_loss": 86.65,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260928-141758-KOD",
+              "analysis_price": 90.245,
+              "live_price_change_pct": 0.26
+            },
+            "broker": {
+              "id": "d33fa525-646b-4e7d-9389-fde68c325103",
+              "client_order_id": "ta-20260928-141758-KOD",
+              "symbol": "KOD",
+              "qty": "3",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 99.04,
+              "stop_loss": 86.65,
+              "legs": [
+                "8170887c-dca5-4f11-8c93-ff677a0bee5d",
+                "b1fdeec7-babf-41a1-a7df-aea60b8e717f"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [],
+        "counts": {
+          "orders": 1,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T14:48:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1446.json",
+        "shortlist": [
+          "XHLD",
+          "NCI",
+          "MSGY",
+          "MX",
+          "MDB",
+          "MEDS",
+          "GLND",
+          "OCUL",
+          "NCT",
+          "APUS",
+          "YDES",
+          "SHMD",
+          "TJGC",
+          "GRML",
+          "DCX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T15:18:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1516.json",
+        "shortlist": [
+          "XHLD",
+          "NCI",
+          "MSGY",
+          "MX",
+          "MDB",
+          "MEDS",
+          "GLND",
+          "NCT",
+          "OCUL",
+          "APUS",
+          "TJGC",
+          "YDES",
+          "SHMD",
+          "GRML",
+          "ITG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "XHLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T15:47:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-28/shortlist_1546.json",
+        "shortlist": [
+          "XHLD",
+          "NCI",
+          "MSGY",
+          "MX",
+          "NCT",
+          "MDB",
+          "OCUL",
+          "GLND",
+          "APUS",
+          "MEDS",
+          "GRML",
+          "ITG",
+          "SHMD",
+          "TJGC",
+          "DCX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-28T15:47:40-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 9,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
