@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-09-29T15:48:45-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "QURE",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: QURE is experiencing a significant capitulation event today, with relative volume reaching 19.06x normal as market participants react to new data from the Phase I/II AMT-130 study in Huntington's disease. While the stock has faced sharp downward pressure, the publication of data highlighting the slowing of disease progression provides a fundamental anchor for a potential mean reversion from current oversold levels. The massive volume turnover suggests a final flush of weak hands, and with the price trading 43.28% below its 20-day moving average, the technical setup is primed for a snap-back. Investors are now evaluating the 'marginally bullish' sentiment expressed in recent analysis following the 48-month data release, which may serve as a floor for this volatility. BEAR: QURE is currently suffering a catastrophic 36.23% decline on heavy volume, reflecting a violent negative market reaction to the fresh 48-month Huntington data released today. The tape shows clear signs of momentum decay, with a price acceleration of -0.399% and a continued negative return over the observed intervals confirming that buyers are failing to establish a floor despite the news being public. With the stock trading 43.28% below its 20-day moving average, there is no technical support structure to justify catching this falling knife, and the persistent rank of 1 in the losers' category confirms it remains the primary source of exit liquidity for sellers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MSGY",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.44,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: MSGY is displaying powerful momentum as evidenced by an 8.00x relative volume spike and a 38.66% single-day gain. The tape confirms persistent strength with 12 consecutive positive observation intervals since 10:17 ET, resulting in a 31.11% return for those tracking the move throughout the day. While there is no specific headline catalyst, the stock\u2019s inclusion in today's 'Top movers' and 'Unusual volume' analysis confirms strong institutional attention and high liquidity. The recent price acceleration of 4.78% points and ability to sustain gains despite a modest 5.65% drawdown from the day's high support continued upside volatility. BEAR: Buying MSGY now represents a classic case of chasing, as the stock is trading 87.03% above its 20-day moving average on 8.00x relative volume with no specific company catalyst to justify such an extreme move. The internal tape shows clear signs of exhaustion, evidenced by a 5.65% drawdown from the observed session high and a stall in rank improvement, despite the relative volume rate continuing to fade. With the stock already appearing in listicles regarding 'top movers' and 'unusual volume' on 2026-09-29, the retail momentum that fueled today's 38.66% gain is likely reaching peak saturation. Entering here leaves the trader holding exit liquidity for institutional participants who have already secured massive intraday profits.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IOVA",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: IOVA is exhibiting massive relative strength today, trading at 5.10x its normal volume and surging 33.08% as it establishes itself as a core momentum leader. The stock has shown strong persistence, with 6 consecutive observations on the tape and a 3.98% return since first being identified at 10:17 ET. The Benzinga headline from 2026-09-29 confirms investor interest, explicitly highlighting the stock as one of the big market movers capturing significant attention. Despite a minor recent pullback from the session high, the sustained high relative volume suggests that the influx of institutional interest remains a primary driver for a potential continuation. BEAR: IOVA exhibits clear signs of exhaustion as it trades 54.76% above its 20-day moving average, leaving it highly vulnerable to a mean-reversion move. The momentum history confirms significant deterioration, with price acceleration falling by 2.91% and the relative volume pace per 30 minutes slowing as the session concludes. The stock has already drifted 4.02% off its intraday high, and the lack of any specific fundamental catalyst beyond general 'moving higher' headlines suggests that the momentum is purely speculative and devoid of structural support. Entering at this level essentially requires buying into exit liquidity as the initial buying frenzy evaporates.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "QURE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MSGY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IOVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

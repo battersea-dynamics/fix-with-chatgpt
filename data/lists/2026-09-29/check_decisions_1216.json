@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-09-29T12:26:15-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "QURE",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: QURE is experiencing an extreme capitulation event with 15.08x relative volume, signaling a potential exhaustion of sellers following today's 36.99% decline. The momentum data shows 5 consecutive observations since 10:17 ET, with price acceleration improving at 0.5127% points and a 2.1554% rebound observed in the most recent interval. While news catalysts currently provide no clear buy-side fundamental driver, the intense volume and emerging price stabilization suggest a classic mean-reversion trade as the stock trades 43.95% below its 20-day moving average. BEAR: QURE is currently displaying signs of chasing, as the stock is down 36.99% and trading 43.95% below its 20-day moving average, yet the relative volume rate per 30-minute interval has significantly deteriorated, falling by 25.92%. Despite the 15.08x relative volume, the lack of a specific fundamental driver beyond vague headlines regarding 'why the stock is sinking' creates a void of catalyst clarity, making the price action purely reactionary. The momentum data further shows measurable deterioration, with a negative return since first seen and a consistent drawdown from the observed high, indicating that the initial selling panic has not yet established a supportive floor.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MSGY",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 3.58,
+      "reasoning": "net +0.05 = bull 0.75 - bear 0.70 (buy at >= +0.20). BULL: MSGY is demonstrating powerful momentum following the announcement of a $1.0 million private placement on September 28, which provides fresh capital for its acquisition strategy. The stock is currently trading at its session high of $3.76 with 6.77x relative volume, confirming intense institutional participation. My bullish outlook is supported by 5 consecutive strong observations, including a 13.59% return since first seen and a price acceleration of 6.51 percentage points. With price currently 62.03% above its 20-day moving average and sustaining a drawdown of 0.0% from its observed high, the tape confirms strong buying pressure that warrants a long entry. BEAR: MSGY is currently extended 62.03% above its 20-day moving average, suggesting an extreme parabolic stretch that is highly susceptible to mean reversion. The primary news catalyst, a $1.0 million private placement announced on 2026-09-28, is now fully absorbed by the market, leaving the stock to rely on momentum rather than fundamental revaluation. With a relative volume of 6.77x, the stock is showing signs of potential retail exhaustion where the marginal buyer is now paying a massive premium over recent participants. Entering at the daily high of $3.76 offers poor risk-to-reward given that any pause in this high-volume velocity will likely trigger aggressive profit-taking from those who entered at lower levels earlier in the session.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+06 - no matching value in source data",
+        "bear: cited 1e+06 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "IOVA",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 5.6,
+      "stop_loss_pct": 3.15,
+      "reasoning": "net +0.25 = bull 0.85 - bear 0.60 (buy at >= +0.20). BULL: IOVA is demonstrating powerful momentum today with a 30.03% gain on 2.73x relative volume, indicating strong institutional conviction. The tape confirms persistent strength with 5 consecutive positive observations, a rank improvement of 2, and zero drawdown from the session high of $14.29, supported by a 1.4365% price acceleration. This move is fundamentally bolstered by recent positive analyst coverage from Goldman Sachs on 2026-09-24, which set a $15 price target, providing a clear upside catalyst as the stock reaches that level. The stock's sustained participation and price action suggest significant trend continuation potential for the coming sessions. BEAR: IOVA is trading at a significant 51.22% premium to its 20-day moving average, making it highly vulnerable to a mean-reversion pull-back. The catalyst report contains no fundamental news explaining today's 30.03% move, as the only recent substantive events occurred five days ago and are already fully discounted. Furthermore, the relative volume rate is showing signs of subtle exhaustion with a negative change of -0.0117, suggesting that the buying interest is failing to accelerate at current levels. Buying at these highs relies on speculative momentum rather than fresh information, creating a classic entry-point risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PWP",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.73,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: PWP is currently experiencing a significant move driven by a massive, takeover-related catalyst, specifically the WSJ report from today regarding talks for Piper Sandler to acquire the firm. This fundamental news explains the extreme relative volume of 5.54x and the 14.11% price surge, confirming institutional interest following the headline. While the short-term momentum data shows a modest 2.48% drawdown from the day's high of $17.13, the sustained trading activity over 120 minutes and five consecutive observations underscore strong market conviction in the merger narrative. With the stock trading 13.22% above its 20-day moving average, the momentum remains firmly in the hands of the buyers, supported by the potential for a significant M&A premium. BEAR: The stock is currently exhibiting clear exhaustion, as evidenced by a 2.48% drawdown from its observed high of $17.13 and a rank drop from 3 to 4. With a relative volume rate declining by 11.43% per 30-minute interval, the buying momentum that pushed the stock 14.11% higher is fading rapidly. The 'Piper Sandler' buyout news hit the wire today and is now fully priced in, leaving the stock vulnerable to profit-taking after it extended 13.22% above its 20-day moving average. Entering at these levels essentially positions the buyer as exit liquidity for those who rode the initial news spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DCX",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: DCX is exhibiting a potential mean-reversion setup following an extreme 37.44% intraday sell-off. While the news report mentions a negative headline from yesterday regarding the stock's drop, the technical tape shows a recent internal price acceleration of 17.1667 percentage points and a positive return of 1.0471% in the most recent observation interval. With the stock currently trading at a 93.73% discount to its 20-day moving average, the current level suggests a significant oversold condition that could attract aggressive value-seeking participants. This trade is purely a technical scalp based on the observed price acceleration within the last two hours of monitoring. BEAR: DCX is exhibiting clear signs of exhaustion with a -37.44% price collapse and extreme distance of -93.73% from its 20-day moving average. The momentum data confirms a failure to stabilize, showing a 25.19% drawdown from the session high and a rank that has worsened to 5, indicating that the stock is acting as exit liquidity rather than a recovery play. Furthermore, the relative volume rate is declining, confirming that participation is fading as the price attempts to find a floor. With the negative headlines from yesterday (2026-09-28) providing no clear catalyst for a reversal, the current lack of buying conviction makes this a dangerous environment for a long position.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QMLS",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: QMLS presents a significant opportunity following today's announcement of $240.9M in new agreements for over 2,000 NVIDIA Blackwell B300 GPUs, confirming fundamental demand for its AI infrastructure services. Despite the intraday price decline, the stock is seeing exceptional activity with relative volume at 4.43x its 20-day average, suggesting a massive institutional repricing event is currently underway. The momentum history shows the stock climbing in rank over the last 120 minutes, indicating that sellers are being aggressively absorbed by buyers interested in this major contract win. At $6.16, the stock is currently trading near its 20-day MA, providing an attractive entry point to capitalize on this positive news-driven volume surge. BEAR: QMLS exhibits a textbook case of negative market reception despite a fresh $240.9M contract announcement released today. The stock is down 14.01% on 4.43x relative volume, indicating that the news is being treated as exit liquidity rather than a growth catalyst. Furthermore, the intraday tape confirms deterioration with a 3.34% drawdown from the observed high and a negative price acceleration of -1.75%, suggesting buyers are overwhelmed. With a relative volume rate change of -0.0391, participation is already fading, leaving no technical floor to support a reversal in the current session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CTNT",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: CTNT is currently oversold following a 25.31% drop, with price sitting nearly 97% below its 20-day moving average, creating a classic mean-reversion setup. While there is no specific catalyst in the recent news report to explain this decline, the tape shows nascent signs of stabilization with positive price acceleration of 1.1133 percentage points over the last 120 minutes. The stock has maintained five consecutive observations of activity, and current momentum suggests that the extreme selling pressure is reaching a point of exhaustion. A recovery toward the 20-day MA from these levels provides significant upside potential for a short-term tactical trade. BEAR: CTNT is suffering from a massive -25.31% price collapse accompanied by a severe lack of participation, evidenced by a relative volume of just 0.45x. The momentum profile shows measurable deterioration with a rank slide from 6 to 7 and a consistent drawdown of 6.31% from the observed intraday high. With no fresh catalysts in the last 7 days to support a rebound, the combination of stale news from late September and an extreme 96.94% gap from the 20-day moving average suggests this is simply a stock in freefall, making any entry today an act of catching a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MX",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: MX is seeing massive institutional interest with relative volume at 3.98x its 20-day average, signaling significant market participation. While the stock has pulled back from its intraday high of $4.215, it remains up 3.83% on the day, supported by its presence in the Information Technology sector movers list on 2026-09-29. The current price level sits 28.09% above its 20-day moving average, confirming strong underlying momentum that justifies a short-term tactical entry for a rebound. Despite the intraday drawdown, the combination of elevated volume and active sector interest provides a compelling setup for a price recovery. BEAR: MX is currently exhibiting clear chasing behavior, having reached an intraday high of $4.215 before suffering a 6.64% drawdown over the last two hours. The stock is extended 28.09% above its 20-day moving average, and the momentum has shifted negative with a 0.33x decline in the relative volume rate per 30 minutes, confirming that buying interest is drying up. Furthermore, there is no fundamental catalyst in the news report to justify this volatility, meaning the current price action is likely driven by momentum exhaustion rather than underlying value.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KOD",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: KOD is experiencing significant momentum driven by a major catalyst, specifically the positive wet AMD trial results reported on 2026-09-28 which triggered a surge in interest today. The stock shows sustained institutional participation with relative volume at 1.15x and positive price acceleration of 2.9454 percentage points observed in the last two hours. Despite a modest intraday pullback, the stock has shown consecutive rank improvement and maintained positive returns since first being observed at 10:17. This strong news-driven momentum suggests that the current pullback from the intraday high of 88.8 represents a consolidation phase rather than a trend reversal. BEAR: KOD is exhibiting classic signs of exhaustion after a massive, news-driven rally, currently sitting at 136.47% above its 20-day moving average. The intraday tape shows concrete deterioration, with a negative score change of -0.298 and a relative volume rate that is actively declining (-0.0375). Investors buying at $87.01 are chasing momentum that has already peaked for the session, evidenced by a 2.0137% drawdown from the observed high and only two positive intervals out of the last four. The hype surrounding the wet AMD trial is already fully baked into the price, leaving little upside cushion for late entrants while exposure to volatility remains extreme.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CLPT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.0,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: CLPT is showing a classic capitulation reversal, having recovered 2.87% from its first seen price point over the last 120 minutes despite a sharp initial drop. The stock is exhibiting sustained participation with 2.70x normal relative volume, and the tape shows consistent positive momentum across three of the four observed intervals. While the catalyst report contains no specific fundamental news to explain the 20.48% drop, the aggressive buying off the lows suggests that institutional players are absorbing the supply at these oversold levels, providing a high-reward tactical entry opportunity as the stock regains its 20-day moving average distance. BEAR: CLPT is suffering from a massive -20.48% drawdown today, and the tape shows clear signs of momentum exhaustion despite the 'sustained_continuation' label. The rel_volume_rate_change has dropped by -0.0521, indicating that participation is fading even as the price attempts a bounce. Furthermore, the stock's rank has slipped from 9 to 10 with a negative score change of -0.5164, signaling that the current recovery is nothing more than exit liquidity in a stock struggling to reclaim its 20-day moving average. With no material catalyst news to justify the extreme volatility, buying now is essentially betting on a knife-catch in a downward-trending name.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: APUS is presenting a potential mean-reversion opportunity following today's significant 19.33% pullback. The company released a fresh, same-session headline regarding a 12-month software development and technology services agreement with Flash Sports & Media to build and operate FlashChain, providing a concrete operational catalyst that may be currently undervalued by the market. While volume is currently light at 0.09x, the stock has shown intraday resilience with a positive price acceleration of 4.0776% points during recent monitoring, suggesting early accumulation off the lows. This setup leverages the stock's elevated status relative to its 20-day moving average as a sign of underlying volatility that can be exploited for a short-term bounce. BEAR: APUS is exhibiting clear signs of exhaustion with a -19.33% intraday drop despite an 80.92% extension above its 20-day MA, suggesting the recent momentum has completely collapsed. Volume is exceptionally weak at 0.09x normal, confirming that the move lacks institutional conviction and is purely price-depletive. Furthermore, the intraday tape shows a 5.41% drawdown from the observed high with a deteriorating score and negligible volume replacement, indicating that the 'FlashChain' software agreement announcement was insufficient to sustain price support. Buying now constitutes chasing a collapsing asset where participation has vanished.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AIR",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: AIR is currently experiencing a massive surge in liquidity with relative volume at 3.35x its 20-day average, signaling strong institutional interest immediately following today's Q1 2027 earnings call. Despite an initial sell-off, the stock has shown intraday resilience, rebounding 2.5364% from its initial observation point as traders digest the earnings presentation and transcript released today. With the stock currently trading 10.41% below its 20-day moving average, there is significant technical room for a mean-reversion move as the market reconciles the latest financial results. The intense volume participation confirms that the market is actively repricing the stock today, providing a high-conviction opportunity for a short-term bounce. BEAR: AIR is experiencing a sharp 5.86% drawdown on the day, leaving the stock 10.41% below its 20-day moving average and suggesting a significant break in trend rather than a constructive setup. While the stock has seen 3.35x relative volume, this high participation is occurring in the context of an aggressive sell-off, signaling institutional distribution following the Q1 2027 earnings release. With the earnings call transcript now public and available to the market, the catalyst for the volatility has been fully processed, leaving little upside momentum to justify catching a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GLND",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: GLND presents a speculative short-squeeze opportunity following the company's direct rebuttal of a short-seller report on 2026-09-29, in which management forcefully defended its 13B-barrel exploration potential. While volume remains low, the price has shown intraday resilience with a return of 1.32% since it was first seen on the scanner 120 minutes ago, including three positive observed intervals out of four. Despite a recent drop, the stock is currently trading at its observed high of $4.21, suggesting a stabilization phase after the initial volatility triggered by the short report. This setup relies on the market pricing in the legitimacy of their exploration assets over the skepticism of the short report, providing a high-beta entry for a tactical bounce. BEAR: GLND is currently trading 103.41% above its 20-day moving average on extremely thin participation, with a relative volume of just 0.25x the norm, signaling that the current price level is not supported by institutional conviction. The stock is embroiled in a public short-seller dispute, with the company forced to issue a defensive statement today confirming it has no earnings, no production, and no proved reserves. The price momentum is failing, evidenced by a negative rank improvement and a significant price acceleration drop of -0.971, indicating the speculative bid is exhausting itself while retail volume fails to sustain the elevated valuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AVX",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: AVX is seeing intense market interest today, evidenced by a substantial 10.60% price gain and its inclusion in the ChartMill watchlist for gapping stocks on 2026-09-29. The momentum remains persistent, with five consecutive observations confirming the stock is holding its gains despite a minor pullback from the intraday high. While there is no specific fundamental catalyst beyond the market-wide interest, the price acceleration of 1.9717% points suggests strong buying intent that is likely to continue as traders capitalize on the current volatility. This tape-driven move, combined with the stock trading well above its 20-day moving average, indicates a bullish environment for a short-term capture. BEAR: AVX is exhibiting a clear 'chasing' profile as the price has stretched 69.56% above its 20-day moving average on fading participation, indicated by a relative volume rate change of -0.0223. The stock has already suffered a -4.51% drawdown from its observed session high, confirming that the initial momentum has failed to sustain itself. Furthermore, the absence of any fundamental company-specific catalyst in the news report suggests the current +10.60% move is a speculative gap that is now trapped as exit liquidity for earlier buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KMX",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: CarMax reported an earnings beat on 2026-09-29, with positive commentary highlighting that even lower-income customers are holding up against affordability pressures. The stock is seeing significant institutional interest today with relative volume at 2.69x normal levels. While there is a moderate drawdown from the session high of $62.065, the 5.61% gain confirms strong underlying sentiment following the Q2 earnings release. The combination of an immediate earnings catalyst and high participation volume creates a solid setup for continued momentum in the near term. BEAR: KMX is currently exhibiting clear signs of chasing exhaustion, as the stock has pulled back 3.77% from its session high of $62.06 following the earnings news. While the Q2 beat provides the narrative, the tape shows measurable deterioration with a negative relative volume rate change of -0.0744 and consecutive observation periods showing a lack of sustained buying interest. The market has already absorbed the news catalysts, and with the stock trading 2.69x its normal volume, the aggressive initial move is fading into significant intraday profit-taking. Buying at this juncture means absorbing the exit liquidity of early session participants as momentum continues to decelerate.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "QURE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MSGY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IOVA",
+      "action": "submitted",
+      "order": {
+        "symbol": "IOVA",
+        "qty": 20,
+        "est_cost": 291.8,
+        "entry_ref": 14.59,
+        "take_profit": 15.09,
+        "remaining_take_profit_pct": 3.43,
+        "stop_loss": 14.13,
+        "confidence": 0.625,
+        "client_order_id": "ta-20260929-122614-IOVA",
+        "analysis_price": 14.2901,
+        "live_price_change_pct": 2.1
+      },
+      "broker": {
+        "id": "9f91dbc3-453b-4ad8-9df1-302e4db83f80",
+        "client_order_id": "ta-20260929-122614-IOVA",
+        "symbol": "IOVA",
+        "qty": "20",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 15.09,
+        "stop_loss": 14.13,
+        "legs": [
+          "7ed59a48-2e22-4cfd-922e-b3b6e93641be",
+          "e5203600-4b87-48e8-9dee-c5175257f00e"
+        ]
+      }
+    },
+    {
+      "symbol": "PWP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DCX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "QMLS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CTNT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KOD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CLPT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "APUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AIR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GLND",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AVX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KMX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

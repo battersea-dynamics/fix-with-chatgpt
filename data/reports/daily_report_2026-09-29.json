@@ -1,0 +1,1202 @@
+{
+  "date": "2026-09-29",
+  "events": [
+    {
+      "at_et": "2026-09-29T08:46:39-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-09-29T08:53:15-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-09-29T09:31:51-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KMX",
+            "reason": "live ask $63.84 has reached or passed the original take-profit target $61.22"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T10:21:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1016.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "QMLS",
+          "PWP",
+          "CTNT",
+          "MX",
+          "CLPT",
+          "KOD",
+          "DCX",
+          "APUS",
+          "GLND",
+          "AVX",
+          "KMX",
+          "AIR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T10:52:58-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1046.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "PWP",
+          "QMLS",
+          "IOVA",
+          "CTNT",
+          "MX",
+          "KOD",
+          "CLPT",
+          "DCX",
+          "APUS",
+          "AVX",
+          "GLND",
+          "GRML",
+          "KMX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KMX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T11:22:30-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1116.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "PWP",
+          "IOVA",
+          "QMLS",
+          "CTNT",
+          "DCX",
+          "MX",
+          "CLPT",
+          "KOD",
+          "APUS",
+          "AVX",
+          "GLND",
+          "KMX",
+          "GRML"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "KMX",
+            "action": "submitted",
+            "order": {
+              "symbol": "KMX",
+              "qty": 5,
+              "est_cost": 304.5,
+              "entry_ref": 60.9,
+              "take_profit": 63.03,
+              "remaining_take_profit_pct": 3.51,
+              "stop_loss": 59.66,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260929-112230-KMX",
+              "analysis_price": 60.78,
+              "live_price_change_pct": 0.2
+            },
+            "broker": {
+              "id": "d4f981a5-0145-4b80-8cd3-a0e692c7d76a",
+              "client_order_id": "ta-20260929-112230-KMX",
+              "symbol": "KMX",
+              "qty": "5",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 63.03,
+              "stop_loss": 59.66,
+              "legs": [
+                "39effd3b-711b-4cdb-8c7a-e03ad780f112",
+                "de5c42d2-547d-4a07-8351-6e11f1d9ddee"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T11:53:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1146.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "PWP",
+          "DCX",
+          "IOVA",
+          "CTNT",
+          "QMLS",
+          "MX",
+          "CLPT",
+          "KOD",
+          "APUS",
+          "GLND",
+          "SMMT",
+          "AVX",
+          "KMX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KMX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T12:26:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1216.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "PWP",
+          "DCX",
+          "QMLS",
+          "CTNT",
+          "MX",
+          "KOD",
+          "CLPT",
+          "APUS",
+          "AIR",
+          "GLND",
+          "AVX",
+          "KMX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "IOVA",
+            "action": "submitted",
+            "order": {
+              "symbol": "IOVA",
+              "qty": 20,
+              "est_cost": 291.8,
+              "entry_ref": 14.59,
+              "take_profit": 15.09,
+              "remaining_take_profit_pct": 3.43,
+              "stop_loss": 14.13,
+              "confidence": 0.625,
+              "client_order_id": "ta-20260929-122614-IOVA",
+              "analysis_price": 14.2901,
+              "live_price_change_pct": 2.1
+            },
+            "broker": {
+              "id": "9f91dbc3-453b-4ad8-9df1-302e4db83f80",
+              "client_order_id": "ta-20260929-122614-IOVA",
+              "symbol": "IOVA",
+              "qty": "20",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 15.09,
+              "stop_loss": 14.13,
+              "legs": [
+                "7ed59a48-2e22-4cfd-922e-b3b6e93641be",
+                "e5203600-4b87-48e8-9dee-c5175257f00e"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KMX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T12:48:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ConnectError: [Errno 104] Connection reset by peer"
+      }
+    },
+    {
+      "at_et": "2026-09-29T13:22:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1316.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "DCX",
+          "PWP",
+          "XERS",
+          "CTNT",
+          "CLPT",
+          "QMLS",
+          "MX",
+          "KOD",
+          "APUS",
+          "AIR",
+          "WYY",
+          "KMX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KMX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T13:59:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1346.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "DCX",
+          "PWP",
+          "XERS",
+          "CTNT",
+          "CLPT",
+          "QMLS",
+          "KOD",
+          "GLND",
+          "MX",
+          "APUS",
+          "AIR",
+          "WYY"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T14:23:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1416.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "DCX",
+          "PWP",
+          "XERS",
+          "CLPT",
+          "CTNT",
+          "KOD",
+          "QMLS",
+          "WYY",
+          "GLND",
+          "APUS",
+          "MX",
+          "AIR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T14:54:26-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1446.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "DCX",
+          "PWP",
+          "WYY",
+          "XERS",
+          "CLPT",
+          "KOD",
+          "CTNT",
+          "QMLS",
+          "MX",
+          "APUS",
+          "AIR",
+          "DNA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T15:22:06-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1516.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "DCX",
+          "PWP",
+          "WYY",
+          "XERS",
+          "CLPT",
+          "KOD",
+          "LXEO",
+          "QMLS",
+          "CTNT",
+          "MX",
+          "APUS",
+          "DNA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "KOD",
+            "action": "submitted",
+            "order": {
+              "symbol": "KOD",
+              "qty": 3,
+              "est_cost": 275.76,
+              "entry_ref": 91.92,
+              "take_profit": 98.66,
+              "remaining_take_profit_pct": 7.34,
+              "stop_loss": 88.81,
+              "confidence": 0.6,
+              "client_order_id": "ta-20260929-152205-KOD",
+              "analysis_price": 91.27,
+              "live_price_change_pct": 0.71
+            },
+            "broker": {
+              "id": "17a65ebf-49da-4e8c-bb0c-0a810266eba1",
+              "client_order_id": "ta-20260929-152205-KOD",
+              "symbol": "KOD",
+              "qty": "3",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 98.66,
+              "stop_loss": 88.81,
+              "legs": [
+                "46425bfc-1363-41ec-8ad0-1cb44b0f3c61",
+                "752a9adf-9885-4460-afcd-afe39b240a2e"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PWP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WYY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LXEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QMLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T15:48:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-09-29/shortlist_1546.json",
+        "shortlist": [
+          "QURE",
+          "MSGY",
+          "IOVA",
+          "DCX",
+          "PWP",
+          "XERS",
+          "TJGC",
+          "WYY",
+          "CLPT",
+          "LXEO",
+          "CTNT",
+          "APUS",
+          "QMLS",
+          "MX",
+          "KMX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 3
+        }
+      }
+    },
+    {
+      "at_et": "2026-09-29T15:48:45-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
