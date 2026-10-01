@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-10-01T14:51:50-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.15,
+      "take_profit_pct": 4.2,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.70 = bull 0.25 - bear 0.95 (buy at >= +0.20). BULL: CTVA is experiencing extreme liquidity, with relative volume reaching 13.51x, confirming massive market attention following the news that the company's market cap tumbled by over $42B to hit a record low. While the price has retreated from its session high, the stock has maintained its position as the number one ranked mover for 10 consecutive observations, demonstrating persistent market focus. Given the sheer scale of the sell-off, a technical bounce is plausible for traders looking to capitalize on mean reversion following an overextended move. The bull case rests entirely on the extreme volume-driven liquidity and the potential for a stabilizing relief rally after a historic single-session drop. BEAR: CTVA is exhibiting clear signs of total structural collapse, down 84.28% on the day with the company market cap eroding by over $42 billion. The evidence shows measurable deterioration in the intraday momentum, with a 5.35% drawdown from the observed session high and a price acceleration metric of -1.20% indicating the selling pressure is intensifying rather than stabilizing. With the stock currently 85.16% below its 20-day moving average, this is not a 'dip' but a fundamental breakdown, leaving buyers to act as exit liquidity for institutions fleeing the record-low price point.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 4.2e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FHTX",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.73,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: FHTX is staging a powerful recovery, evidenced by 25.75x relative volume and a 35.07% return from its first observed point today. The intraday tape confirms strong persistence with 8 out of 9 intervals posting gains and a price acceleration of 3.8478% points, indicating aggressive buyer interest near the highs. While the catalyst report lacks specific fundamental news, the extreme volume and sustained momentum demonstrate that the market is aggressively re-pricing the stock off its lows. This level of participation over 10 consecutive observations creates a high-conviction short-term momentum trade for a bounce. BEAR: FHTX is currently experiencing a severe technical divergence, with a day change of -20.17% and a price sitting 32.41% below its 20-day moving average, signaling a deep downtrend rather than a breakout. While the stock has seen a 35.07% rebound from its intraday lows, the lack of any company-specific fundamental news in the catalyst report\u2014despite the stock appearing in generic 'moving stocks' lists\u2014suggests this volatility is driven by speculative churn rather than a shift in company value. Furthermore, the relative volume rate change of -2.09% indicates participation is already beginning to wane relative to the earlier session pace, increasing the likelihood that the current rally is merely exit liquidity for trapped holders. Attempting to buy into this recovery involves catching a falling knife during a session of extreme, unexplained selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WCT",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: WCT is presenting a classic capitulation setup with a massive 3.23x relative volume spike suggesting heavy institutional liquidation is nearing its exhaustion point. Despite a significant daily decline, the stock has maintained consistent monitor activity over four consecutive observations, indicating that market participants are actively price-discovering at these depressed levels. While there is no specific catalyst in the current report, the proximity to the October 15th earnings date suggests that the market may be aggressively repricing the stock ahead of potential fundamental updates. Given the extreme distance from the 20-day moving average, any stabilization here offers a high-reward mean reversion play for a short-term bounce. BEAR: WCT is suffering from clear tape deterioration as evidenced by a -35.87% drawdown from its observed session high and a worsening return of -9.22% since the previous interval. With no news to justify this -77.01% collapse, the stock is currently acting as a trap for those attempting to catch a falling knife, confirmed by a significant decline in relative volume pace to 0.64 per 30 minutes. The lack of any catalytic news creates deep uncertainty, while the negative price acceleration of -15.37 percentage points indicates that the selling pressure is intensifying rather than stabilizing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPN",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: XRPN is exhibiting powerful, sustained momentum with a 35% gain and 2.69x relative volume, indicating strong institutional interest. The tape confirms persistent buying pressure with 10 consecutive observations, a 23.86% return since first being spotted, and price acceleration of 3.23 percentage points. While the catalyst report contains no specific company news to explain the move, the price action is at an observed high with zero drawdown, confirming significant demand. This clear, tape-driven trend suggests continued participation over the coming days as the stock decouples from its 20-day moving average. BEAR: XRPN is currently trading 101.97% above its 20-day moving average, a extreme level of extension that significantly increases the probability of a sharp mean-reversion snap. The stock lacks any identifiable fundamental catalyst in the provided report to justify a 35% single-day move, suggesting the rally is driven by technical momentum that is highly susceptible to exhaustion. While price action remains positive, the sheer verticality of the move without news support leaves any buyer at $22.14 as primary exit liquidity for those who entered earlier in the 270-minute window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LQDA",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: Liquidia is currently seeing extreme volume at 7.71x its 20-day average, signaling an intense re-evaluation of the stock following today's mixed analyst reactions. While BTIG downgraded the stock, Needham maintained a 'Buy' rating with a $72 price target, indicating significant upside potential from the current $26.67 level. Despite today's volatility, the stock remains 2.6164% above its first observed price of the day, showing resilience amidst high trading activity. This setup presents a classic mean-reversion opportunity given the stock is trading nearly 60% below its 20-day moving average, suggesting the recent sell-off has been significantly overextended. BEAR: LQDA is exhibiting clear signs of trend exhaustion and structural weakness, evidenced by a 3.75% drawdown from its observed session high and a negative price acceleration of 9.67 percentage points. The stock is currently fighting a hostile news cycle, specifically a BTIG downgrade to neutral and a lowered price target from Needham, suggesting the market is re-pricing the asset lower following the volatility. With volume momentum cooling as indicated by a negative change in relative volume rate, buying now risks acting as exit liquidity for institutional sellers who are responding to the analyst revisions occurring today.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PUSA",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: PUSA presents a speculative opportunity following its market debut today, October 1, as a public company resulting from the Powerus merger. Despite the significant initial price drop, the stock has shown resilience, trading 4.45% above its first seen price even while enduring volatility. With a massive relative volume of 6.57x and positive price acceleration, the market is aggressively price-discovering the new entity, suggesting high interest in the post-merger structure. Investors may look for a bounce as the dust settles from this high-profile corporate event. BEAR: PUSA is currently experiencing a massive intraday failure following its public listing, as evidenced by a severe -18.30% day change and a significant 8.38% drawdown from its session high. The stock has clearly failed to maintain momentum, with a negative return since the previous interval and a setup explicitly flagged as exhausted or reversing. Because this price action is tied to the completion of the Powerus merger as of 2026-10-01, the market is signaling that this highly anticipated catalyst has already been priced in and met with immediate selling pressure. With the stock trading 13.48% below its 20-day MA, it is in a clear state of technical distribution rather than accumulation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ACN",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: Accenture reported a strong Q4 2026 earnings beat today, which is currently driving a significant 17.06% price appreciation and massive relative volume of 4.17x normal. While the stock has pulled back 5.02% from its observed high of $226.00, it remains in a powerful momentum state with 10 consecutive observations showing significant institutional interest. Given that the news is fresh today and the volume confirms strong market conviction, the current price represents an attractive entry point to capture the continued momentum of a clear earnings-driven catalyst. The 4.17x volume multiplier indicates that the market is still actively absorbing the report, supporting the potential for a rebound toward today's highs. BEAR: ACN is a clear case of chasing, as the stock is trading 16.80% above its 20-day MA and has already suffered a 5.02% drawdown from its observed high of $226.00 today. The momentum history shows measurable deterioration, with a negative score change and a failure to improve its rank despite the massive initial reaction to the Q4 earnings beat. The fact that the stock is 4.17x above normal volume after a 17% gain suggests that the 'news-based' buying wave has already been absorbed as exit liquidity. Buying at these levels forces an entry into a cooling momentum setup that has already failed to sustain its peak intraday valuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MEDS",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: MEDS is currently demonstrating significant market interest with 2.10x relative volume and a strong 24.32% intraday gain, indicating robust momentum following the recent launch of its Health Lives Here AI app on September 28. While current price action shows a consolidation phase, the stock is holding well above its 20-day moving average by 48.93%, suggesting a sustained shift in investor sentiment toward its pivot into AI-driven GLP-1 telehealth. The high volume participation validates the recent news catalyst, providing a foundation for potential further upside as the market digests the new product launch. Given the stock's significant move, it remains a high-beta opportunity for those looking to capitalize on the sustained institutional activity observed throughout today's session. BEAR: MEDS is a classic example of exhaustion-driven price decay, as the stock is trading 48.93% above its 20-day moving average but has failed to maintain its intraday high, suffering a 5.38% drawdown from that peak. The relative volume rate is actively decelerating (-0.0018), and the negative price acceleration of -1.1029 points indicates that the momentum supporting this 24.32% gain is rapidly collapsing. Furthermore, the news catalyst regarding the app launch is three days old, meaning the market has already digested this information and current buyers are essentially providing exit liquidity for those who entered earlier in the week.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KOD",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 4.23,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: KOD is riding intense momentum following the transformative 178% surge reported on 2026-09-29, driven by positive wet AMD data and the proximity of a BLA filing. The stock continues to show resilience, maintaining a 4.84% gain today despite the massive move earlier this week, signaling institutional accumulation rather than profit-taking. While the relative volume is 0.88x, the price acceleration of 0.6009 points across 10 observations confirms continued interest near the $100 psychological barrier. Given the B Riley Securities endorsement and the positive clinical catalyst, the stock remains in a strong position to build on its recent 52-week high breakout. BEAR: KOD is exhibiting classic signs of exhaustion after a massive multi-day run, currently trading 134.55% above its 20-day MA while failing to attract new volume, as evidenced by a weak 0.88x relative volume ratio. The tape confirms a clear chasing scenario; despite being 270 minutes into the session, the stock is down 1.36% from its session high and is suffering from negative score momentum. The primary catalyst\u2014a 178% surge based on positive data\u2014is now 48 hours old and fully priced in, leaving the stock vulnerable to profit-taking without any fresh news to justify further upside from current levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SOMN",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 1.88,
+      "stop_loss_pct": 1.12,
+      "reasoning": "net -0.15 = bull 0.35 - bear 0.50 (buy at >= +0.20). BULL: SOMN is exhibiting massive buying interest today with relative volume at 7.41x its 20-day average, signaling significant institutional accumulation that far outpaces normal trading patterns. While no specific breaking news explains this surge, the heightened focus on utility sector dividend strength and data center infrastructure demand, highlighted in reports from September 30, creates a supportive backdrop for sustained interest in the stock. The move is occurring as the stock trades just 2.11% below its 20-day moving average, providing a constructive technical setup for a mean-reversion trade that could see it reclaim that level as momentum builds. BEAR: The 7.41x relative volume spike lacks a clear, proprietary catalyst, as the recent news flow from September 28-30 focuses on generic industry comparisons rather than company-specific developments. Buying here is effectively chasing a move that has already detached the stock from its 20-day moving average, creating a structural dependency on liquidity that is not supported by fundamental news. With no earnings or dividend catalysts to anchor the price, the current volume surge risks acting as exit liquidity for institutional positioning rather than a sustainable breakout.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NKTR",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: NKTR is currently trading at a deep discount, down 20.01% on the day, offering a high-reward entry point following the presentation of new Phase 2b data for Rezpegaldesleukin at the EADV Congress. Despite the sharp price drop, the stock is seeing significant institutional interest with relative volume at 3.00x normal, confirming high liquidity and active participation during this volatility. The company is actively addressing the market with a shareholder and analyst call occurring today, October 1, 2026, which serves as a critical catalyst to clarify the long-term potential of its immune pathway findings. Price action is showing signs of stabilization with a 1.915% return since the previous observation, indicating that the market may be overreacting to news flow and setting the stage for a mean-reversion move. BEAR: NKTR is currently experiencing a severe 20.01% intraday collapse, with the price trading 27.31% below its 20-day moving average, signaling an aggressive trend toward capitulation rather than a buying opportunity. Despite the fresh news headlines regarding Rezpegaldesleukin data released today, the market reaction has been overwhelmingly negative, suggesting the clinical data failed to meet expectations or was priced in beforehand. The intraday tape confirms exhaustion, with the stock showing a consistent drawdown from its observed high and a deteriorating volume pace of only 0.1775 relative volume rate per 30 minutes. Buying into this level constitutes a dangerous attempt to catch a falling knife while participation is clearly fading.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TJGC",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: TJGC is currently sustaining a significant move of +12.02%, backed by a recent share repurchase program announcement from September 24 that provides structural support to the share price. While volume is currently light at 0.07x, the stock is trading nearly 99% above its 20-day moving average, signaling high momentum and investor interest that often accompanies institutional buyback programs. The stock has maintained a consistent presence in our scans over 10 consecutive observations, demonstrating that the price elevation is not a flash in the pan. Despite a minor recent pullback, the resilience of the move suggests participants are holding firm near the $34 level. BEAR: TJGC is currently suffering from both exhaustion and a lack of fresh momentum, with a price currently 98.77% above its 20-day moving average on near-zero relative volume (0.07x). The primary catalyst\u2014a share repurchase program announced seven days ago\u2014is stale and has failed to spark sustained interest, evidenced by the fact that the stock is now 1.6567% off its intraday high and has seen a steady decay in its relative rank and score. With no new catalysts to support such a massive deviation from the mean, the current price action represents dangerous exit liquidity for late entrants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MSGY",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.45 = bull 0.30 - bear 0.75 (buy at >= +0.20). BULL: MSGY is currently showing signs of a potential reversal following its sharp 9.72% decline, as evidenced by a positive 2.2% return over the most recent observation interval. Although the catalyst report offers no specific news to explain the current price action, the technical data shows internal momentum with a price acceleration of 0.7801 percentage points. Given the stock's significant distance from its 20-day moving average, a mean reversion trade is supported by the recent uptick in volume participation and the observed shift in price momentum. BEAR: MSGY presents a clear chasing failure mode, as the stock is trading 93.60% above its 20-day moving average on anemic relative volume of just 0.08x normal. The tape shows measurable deterioration with a negative rank change and a persistent drawdown of 8.75% from its observed high over a 270-minute window. Furthermore, there is a complete absence of fresh catalysts, as all news items date back to the previous two sessions and fail to explain the extreme technical extension. Investors are essentially providing exit liquidity for a stock that has stalled and is drifting lower without institutional participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LGHL",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: LGHL is experiencing a significant intraday dislocation, trading down 29.23% and 45.63% below its 20-day moving average, which presents a classic mean-reversion opportunity for a sharp technical snap-back. While the catalyst report lacks specific fundamental news to explain the move, the stock remains active in the financial sector, as noted in the Benzinga pre-market coverage today. Despite low relative volume of 0.17x, the stock has shown resilience with four positive observed intervals in its momentum history, indicating pockets of buying interest even during a broad sell-off. At these extreme oversold levels, the risk-to-reward profile favors an aggressive play on a technical bounce. BEAR: LGHL is experiencing a severe collapse with a 29.23% decline and a price position 45.63% below its 20-day MA, signaling a major breakdown in market structure. The current relative volume of 0.17x indicates a complete absence of institutional participation, turning the price action into a liquidity vacuum rather than a dip-buying opportunity. Furthermore, the tape shows clear evidence of deterioration with a 5.18% drawdown from the observed high and negative price acceleration, suggesting the stock is struggling to find a floor. While news of movement exists in today's headlines, the lack of specific, directional catalysts to explain such a violent move creates an environment of extreme downside volatility.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GLND",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: The stock has shown significant resilience by recording positive price intervals in 4 of the last 9 observed windows, suggesting a stabilization phase after the initial sell-off. Greenland Energy's management has publicly defended their exploration strategy and 13B-barrel potential, signaling a clear intention to combat short-seller sentiment. With price acceleration showing a positive 1.1768 percentage point improvement, the stock is showing signs of building a base near the $4.43 level. Given the extreme 82.85% distance from its 20-day MA, a mean reversion bounce represents a high-reward tactical opportunity for traders looking for an oversold reversal. BEAR: GLND is exhibiting classic exhaustion, with a 6.53% drawdown from its observed high and a deteriorating rank of 15 from 13. Participation is actively drying up, evidenced by a dismal relative volume of 0.24x and a declining volume pace of -0.001 per interval, indicating that the -13.55% price drop is not finding a liquidity floor. Furthermore, the stock remains fundamentally vulnerable as it is still 82.85% above its 20-day moving average, creating a massive vacuum for mean reversion following the unresolved short-seller confrontation reported on 2026-09-29. This is a classic 'chasing' trap where the move has already failed to hold, and no fresh catalyst exists to support a rebound from these elevated, stretched levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CTVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FHTX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LQDA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PUSA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ACN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MEDS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KOD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SOMN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NKTR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TJGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MSGY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GLND",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

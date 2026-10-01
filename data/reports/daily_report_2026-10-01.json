@@ -1,0 +1,1207 @@
+{
+  "date": "2026-10-01",
+  "events": [
+    {
+      "at_et": "2026-10-01T08:46:53-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-01T08:53:36-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-10-01T09:31:51-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "INFY",
+            "action": "submitted",
+            "order": {
+              "symbol": "INFY",
+              "qty": 24,
+              "est_cost": 279.36,
+              "entry_ref": 11.64,
+              "take_profit": 12.0,
+              "remaining_take_profit_pct": 3.08,
+              "stop_loss": 11.46,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261001-093150-INFY",
+              "analysis_price": 11.6,
+              "live_price_change_pct": 0.34
+            },
+            "broker": {
+              "id": "ba727dd9-aecc-4242-bcbd-58ab09625e18",
+              "client_order_id": "ta-20261001-093150-INFY",
+              "symbol": "INFY",
+              "qty": "24",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 12.0,
+              "stop_loss": 11.46,
+              "legs": [
+                "7721fc71-a024-40d3-8492-4aeb3eea7737",
+                "75fbd5cf-716b-4493-927f-9979effd4b96"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ACN",
+            "reason": "live ask $231.21 has reached or passed the original take-profit target $225.86"
+          },
+          {
+            "symbol": "CTSH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLOB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T10:24:44-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1016.json",
+        "shortlist": [
+          "FHTX",
+          "CTVA",
+          "LQDA",
+          "MEDS",
+          "ACN",
+          "PUSA",
+          "KOD",
+          "TJGC",
+          "GOW",
+          "GLND",
+          "LGHL",
+          "MSGY",
+          "DCX",
+          "XRPN",
+          "NKTR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ACN",
+            "action": "submitted",
+            "order": {
+              "symbol": "ACN",
+              "qty": 1,
+              "est_cost": 227.5,
+              "entry_ref": 227.5,
+              "take_profit": 238.5,
+              "remaining_take_profit_pct": 4.83,
+              "stop_loss": 221.59,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261001-102443-ACN",
+              "analysis_price": 226.0,
+              "live_price_change_pct": 0.66
+            },
+            "broker": {
+              "id": "97409f89-52d2-4c6f-af98-b03101cc962f",
+              "client_order_id": "ta-20261001-102443-ACN",
+              "symbol": "ACN",
+              "qty": "1",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 238.5,
+              "stop_loss": 221.59,
+              "legs": [
+                "8b495f30-13f8-4182-81f6-89a7c5e1b6ff",
+                "7149ddea-5735-4d33-83dc-62b6005ea7cc"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T11:03:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1046.json",
+        "shortlist": [
+          "FHTX",
+          "CTVA",
+          "LQDA",
+          "ACN",
+          "MEDS",
+          "PUSA",
+          "XRPN",
+          "KOD",
+          "TJGC",
+          "LGHL",
+          "NKTR",
+          "GOW",
+          "GLND",
+          "MSGY",
+          "DCX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T11:23:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1116.json",
+        "shortlist": [
+          "FHTX",
+          "CTVA",
+          "LQDA",
+          "ACN",
+          "MEDS",
+          "PUSA",
+          "XRPN",
+          "TJGC",
+          "KOD",
+          "LGHL",
+          "MSGY",
+          "GLND",
+          "NKTR",
+          "GOW",
+          "VICR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VICR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T11:55:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1146.json",
+        "shortlist": [
+          "FHTX",
+          "CTVA",
+          "LQDA",
+          "PUSA",
+          "ACN",
+          "MEDS",
+          "KOD",
+          "TJGC",
+          "XRPN",
+          "LGHL",
+          "NKTR",
+          "MSGY",
+          "GLND",
+          "GOW",
+          "EFXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EFXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T12:22:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1216.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "LQDA",
+          "PUSA",
+          "ACN",
+          "XRPN",
+          "KOD",
+          "MEDS",
+          "NKTR",
+          "LGHL",
+          "GLND",
+          "TJGC",
+          "MSGY",
+          "DCX",
+          "EGG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EGG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T12:54:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1246.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "LQDA",
+          "PUSA",
+          "ACN",
+          "XRPN",
+          "KOD",
+          "TJGC",
+          "LGHL",
+          "NKTR",
+          "MEDS",
+          "MSGY",
+          "GLND",
+          "YDES",
+          "FICO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FICO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T13:22:08-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1316.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "WCT",
+          "LQDA",
+          "PUSA",
+          "ACN",
+          "MEDS",
+          "XRPN",
+          "KOD",
+          "TJGC",
+          "NKTR",
+          "GLND",
+          "MSGY",
+          "LGHL",
+          "YDES"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YDES",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T13:51:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1346.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "WCT",
+          "LQDA",
+          "PUSA",
+          "ACN",
+          "XRPN",
+          "MEDS",
+          "KOD",
+          "NKTR",
+          "TJGC",
+          "MSGY",
+          "GLND",
+          "LGHL",
+          "FICO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FICO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T14:32:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1416.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "WCT",
+          "LQDA",
+          "XRPN",
+          "PUSA",
+          "ACN",
+          "MEDS",
+          "KOD",
+          "NKTR",
+          "TJGC",
+          "MSGY",
+          "GLND",
+          "LGHL",
+          "FICO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FICO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T14:51:50-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1446.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "WCT",
+          "XRPN",
+          "LQDA",
+          "PUSA",
+          "ACN",
+          "MEDS",
+          "KOD",
+          "SOMN",
+          "NKTR",
+          "TJGC",
+          "MSGY",
+          "LGHL",
+          "GLND"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PUSA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SOMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NKTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TJGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLND",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T15:19:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1516.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "WCT",
+          "XRPN",
+          "LQDA",
+          "PUSA",
+          "ACN",
+          "MAT",
+          "KOD",
+          "NKTR",
+          "MEDS",
+          "SOMN",
+          "TJGC",
+          "MSGY",
+          "LGHL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WCT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 3
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T15:48:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1547",
+        "shortlist_file": "data/lists/2026-10-01/shortlist_1547.json",
+        "shortlist": [
+          "CTVA",
+          "FHTX",
+          "WCT",
+          "XRPN",
+          "LQDA",
+          "PUSA",
+          "MAT",
+          "ACN",
+          "NKTR",
+          "MEDS",
+          "KOD",
+          "SOMN",
+          "TJGC",
+          "MSGY",
+          "GLND"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FHTX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-01T15:48:40-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-01T08:50:17-04:00",
+  "session_date": "2026-10-01",
+  "reads": {
+    "CTVA": {
+      "symbol": "CTVA",
+      "pattern": "catastrophic gap reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "FHTX": {
+      "symbol": "FHTX",
+      "pattern": "Gap Down Exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "MEDS": {
+      "symbol": "MEDS",
+      "pattern": "gap-and-go reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "LQDA": {
+      "symbol": "LQDA",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ACN": {
+      "symbol": "ACN",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "IVA": {
+      "symbol": "IVA",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "GLOB": {
+      "symbol": "GLOB",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "EPAM": {
+      "symbol": "EPAM",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "INFY": {
+      "symbol": "INFY",
+      "pattern": "breakout continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "GLUE": {
+      "symbol": "GLUE",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "CTSH": {
+      "symbol": "CTSH",
+      "pattern": "Breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "IBM": {
+      "symbol": "IBM",
+      "pattern": "Breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

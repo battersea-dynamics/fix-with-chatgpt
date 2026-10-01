@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-01T15:48:40-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.46,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.55 = bull 0.40 - bear 0.95 (buy at >= +0.20). BULL: CTVA is currently experiencing a historic liquidity event, with relative volume reaching an extraordinary 16.27x its 20-day average amid a reported $42B market cap decline. While the price drop is severe, the momentum tape shows resilience with 6 of the last 11 observed intervals posting positive returns and a recent price acceleration of 0.1579 percentage points. This massive volume spike suggests a capitulation bottom is potentially in progress, attracting high-frequency attention as the most active S&P 500 stock today. Entering near these record lows offers a high-risk, high-reward opportunity to capture a mean-reversion bounce as institutional rebalancing stabilizes the massive sell-off. BEAR: CTVA is currently experiencing a catastrophic collapse, evidenced by an 84.03% daily decline and the confirmation of a record low as reported in today's news. The stock is suffering from extreme technical deterioration, sitting 84.93% below its 20-day moving average and showing a measurable 3.876% drawdown from its observed session high. With relative volume at a massive 16.27x and the tape showing signs of exhaustion as it fails to sustain its recovery attempts, this is a clear case of catching a falling knife. Attempting to buy into a stock that has lost over $42 billion in market capitalization today presents an unacceptable risk of further institutional liquidation.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 4.2e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FHTX",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: FHTX is exhibiting a powerful intraday reversal, recovering from an 18.21% decline to hit its session high of $2.92. This move is supported by extreme volume, with a relative volume of 27.98x, and verified by 12 consecutive observations of sustained momentum that have driven a 38.39% gain from the first observed tick. While the catalyst report does not provide a specific fundamental reason for the volatility beyond general health care sector mentions on 2026-10-01, the sheer weight of buying pressure and the fact that the stock is currently trading at its observed high of the day suggests a momentum-driven breakout is underway. Traders are aggressively absorbing supply, making this a classic technical setup for a short-term continuation play. BEAR: FHTX presents a classic 'no catalyst' trap where the 27.98x relative volume spike lacks any company-specific news to justify such a massive move, leaving the stock vulnerable to indiscriminate profit-taking. The price acceleration has turned negative at -1.4135% and the score change is dropping, signaling that the momentum is stalling despite the session-high close. With the stock still sitting 30.75% below its 20-day moving average, this looks like a volatile dead-cat bounce rather than a sustainable trend reversal. Buying here is effectively acting as exit liquidity for the pre-market movers who have already harvested a 38.39% gain from the first observed print.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CTVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FHTX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-01T15:19:01-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.2,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.65 = bull 0.30 - bear 0.95 (buy at >= +0.20). BULL: CTVA is exhibiting an extreme capitulation event, with a massive relative volume of 14.38x normal and an 84.17% drop that has pushed the price to a record low. While the headline news confirms a $42B market cap wipeout, the tape shows signs of a potential short-term exhaustion bounce, with price acceleration of 0.6962% in the most recent observed interval and 5 of the last 10 intervals showing positive returns. Buying here is a tactical play on extreme mean reversion, relying on the fact that the stock is now 85.06% below its 20-day moving average. The high participation, as noted by its status as one of the most active S&P500 stocks today, suggests sufficient liquidity to facilitate a rapid, technical snap-back. BEAR: CTVA is currently experiencing a catastrophic loss of value, reflected in an 84.17% day change and a collapse to record lows as reported in today's headlines. Buying this stock now constitutes catching a falling knife during an extreme liquidity event, evidenced by the 14.38x relative volume spike that signals a massive institutional exodus rather than a constructive entry point. Despite a minor positive return in the most recent observation, the stock remains down nearly 4.7% from its session high, confirming that the downward momentum remains the dominant force. With no clear bottoming signal and the equity market reacting poorly to broader macroeconomic headwinds, there is no technical floor to support a long position.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FHTX",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: FHTX is exhibiting intense intraday interest, evidenced by a massive relative volume of 26.40x normal, indicating significant institutional or retail liquidity influx. The stock has demonstrated strong resilience after being observed for 300 minutes, recording a 37.67% recovery from its first seen price with 9 out of 10 positive intervals. Despite being caught in a broader healthcare sector move noted in the 2026-10-01 Benzinga headlines, the specific technical recovery\u2014hitting an observed high of 2.905 with effectively 0.0% drawdown\u2014suggests a strong mean reversion or short-squeeze dynamic is currently active. While there is no specific company-level catalyst in the news report, the tape strength on such elevated volume provides a compelling short-term momentum play. BEAR: FHTX presents a high risk of exhaustion as the stock is down 18.63% on the day while trading 31.10% below its 20-day moving average, suggesting this is a continuation of a severe structural sell-off rather than a bottoming play. Momentum data shows clear tape deterioration with a decelerating relative volume rate (-0.3499 change) and negative price acceleration. There is no specific company catalyst to justify a rebound; all available news headlines simply highlight the stock as a mover in a broader, negative context, confirming the price action is likely driven by institutional liquidation rather than a fundamental reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WCT",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 4.89,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: WCT is showing significant exhaustion after a 77.90% daily drop, currently trading at $1.79 with elevated relative volume of 3.41x, suggesting capitulation rather than a fundamental collapse. The tape indicates a technical setup for a bounce, supported by 5 consecutive observations and positive price acceleration of 5.3498 percentage points. While the catalyst report shows no immediate news and earnings are 14 days away, the extreme distance from its 20-day MA (-76.08%) provides massive potential for a mean-reversion snapback. This is a pure volatility trade banking on the high probability of a relief rally following excessive selling pressure. BEAR: WCT is experiencing a technical collapse with a -77.90% day change and a drawdown of -38.34% from its observed high, signaling severe structural damage rather than a standard retracement. The volume profile confirms this deterioration, as the relative volume rate has dropped by 46.58% in the last 120 minutes, indicating that participation is drying up even as the stock fails to stabilize. With no news catalyst to justify this massive volatility, the lack of information combined with clear tape decay makes this an active trap for buyers attempting to catch a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CTVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FHTX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WCT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
