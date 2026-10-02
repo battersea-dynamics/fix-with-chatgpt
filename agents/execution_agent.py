@@ -74,6 +74,10 @@ MAX_TAKE_PROFIT_PCT = 12.0
 MAX_STOP_LOSS_PCT = 5.0
 MAX_DOWNWARD_PRICE_DEVIATION_PCT = 2.0
 MIN_SECONDS_TO_CLOSE = 120
+# Experimental entry-quality floor. Compare the original target's remaining
+# reward with the actual cent-rounded stop distance at the live ask. This is
+# payoff geometry, not an estimate of win probability or a profitability claim.
+MIN_REMAINING_REWARD_RISK = 1.5
 ET = ZoneInfo("America/New_York")
 
 
@@ -207,6 +211,22 @@ def execute_signals(
             )
             continue
 
+        stop_loss = round(ask * (1 - decision.stop_loss_pct / 100), 2)
+        take_profit = round(take_profit, 2)
+        risk_per_share = ask - stop_loss
+        reward_per_share = take_profit - ask
+        if risk_per_share <= 0:
+            entry["reason"] = "rounded stop leaves no positive risk distance"
+            continue
+        remaining_reward_risk = reward_per_share / risk_per_share
+        if remaining_reward_risk + 1e-9 < MIN_REMAINING_REWARD_RISK:
+            entry["reason"] = (
+                f"remaining reward/risk {remaining_reward_risk:.2f} < "
+                f"{MIN_REMAINING_REWARD_RISK:.2f} minimum at live ask "
+                f"${ask:.2f}"
+            )
+            continue
+
         # Only submission mode needs the live session gate. Dry runs remain
         # runnable outside market hours, but a real paper-order attempt must
         # have at least two minutes left so a slow request cannot cross the
@@ -245,7 +265,6 @@ def execute_signals(
             )
             continue
 
-        stop_loss = ask * (1 - decision.stop_loss_pct / 100)
         available_cash -= qty * ask
 
         order = {
@@ -257,6 +276,7 @@ def execute_signals(
             "remaining_take_profit_pct": round(
                 (take_profit / ask - 1) * 100, 2
             ),
+            "remaining_reward_risk": round(remaining_reward_risk, 4),
             "stop_loss": round(stop_loss, 2),
             "confidence": decision.confidence,
             "client_order_id": _client_order_id(decision.symbol, now_et),

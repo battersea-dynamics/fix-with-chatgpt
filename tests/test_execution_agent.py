@@ -196,14 +196,61 @@ class DuplicateEntryGuardTests(unittest.TestCase):
             )
 
     def test_higher_live_price_keeps_original_target(self):
-        report = self._execute_at_price(103.0)
+        report = self._execute_at_price(100.5)
 
         self.assertEqual(report[0]["action"], "dry_run")
         self.assertEqual(report[0]["order"]["take_profit"], 104.0)
         self.assertEqual(
-            report[0]["order"]["remaining_take_profit_pct"], 0.97
+            report[0]["order"]["remaining_take_profit_pct"], 3.48
         )
-        self.assertEqual(report[0]["order"]["live_price_change_pct"], 3.0)
+        self.assertEqual(report[0]["order"]["live_price_change_pct"], 0.5)
+
+    def test_live_price_can_leave_upside_but_insufficient_reward_risk(self):
+        report = self._execute_at_price(103.0)
+        self.assertEqual(report[0]["action"], "skipped")
+        self.assertIn("remaining reward/risk", report[0]["reason"])
+
+    def test_exact_reward_risk_floor_accepts_and_lower_ratio_never_submits(self):
+        for target_pct, expected in [(3.0, "submitted"), (2.99, "skipped")]:
+            with self.subTest(target_pct=target_pct):
+                decision = buy_decision()
+                decision.take_profit_pct = target_pct
+                et = ZoneInfo("America/New_York")
+                clock = SimpleNamespace(
+                    is_open=True,
+                    timestamp=datetime(2026, 10, 2, 12, 0, tzinfo=et),
+                    next_close=datetime(2026, 10, 2, 16, 0, tzinfo=et),
+                )
+                with (
+                    patch.object(self.execution, "get_account", return_value=self.account),
+                    patch.object(self.execution, "get_positions", return_value=[]),
+                    patch.object(self.execution, "get_open_buy_orders", return_value=[]),
+                    patch.object(self.execution, "get_quote", return_value={"ask": 100.0}),
+                    patch.object(self.execution, "get_market_clock", return_value=clock),
+                    patch.object(self.execution, "place_bracket_order", return_value={"id": "paper-test"}) as submit,
+                ):
+                    report = self.execution.execute_signals([decision], submit=True)
+                self.assertEqual(report[0]["action"], expected)
+                if expected == "submitted":
+                    submit.assert_called_once()
+                    self.assertEqual(report[0]["order"]["remaining_reward_risk"], 1.5)
+                else:
+                    submit.assert_not_called()
+
+    def test_cent_rounded_stop_can_make_nominal_ratio_unacceptable(self):
+        decision = buy_decision()
+        decision.take_profit_pct = 3.0
+        decision.stop_loss_pct = 2.0
+        # At $3.26 the target rounds to $3.36 and stop to $3.19: 0.10/0.07.
+        with (
+            patch.object(self.execution, "get_account", return_value=self.account),
+            patch.object(self.execution, "get_positions", return_value=[]),
+            patch.object(self.execution, "get_open_buy_orders", return_value=[]),
+            patch.object(self.execution, "get_quote", return_value={"ask": 3.26}),
+        ):
+            report = self.execution.execute_signals([decision])
+        self.assertEqual(report[0]["action"], "skipped")
+        self.assertIn("remaining reward/risk 1.43", report[0]["reason"])
 
     def test_lower_live_price_shifts_target_by_same_percentage(self):
         report = self._execute_at_price(99.0)

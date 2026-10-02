@@ -97,6 +97,7 @@ one-cancels-other) — nothing watches positions after entry; the broker does.
 | Exit ceilings (asymmetric) | execution agent (shared by both pipelines) | take-profit above 12% is clamped down and proceeds (capping upside is safe); stop-loss above 5% skips the trade entirely — a wide stop is the bear's honest volatility read, and tightening it would convert noise into stop-outs |
 | Dead-quote guard | execution agent | market buys are never sized off a 0/absent ask (closed market, thin tape) |
 | Delayed-price exit guard | regular execution | a live ask more than 2% below the analysed price invalidates the thesis; an ask above it keeps the original absolute take-profit target, so already-realised movement reduces the remaining upside and reaching the target skips the trade |
+| Remaining reward/risk floor | shared execution | experimental minimum 1.5:1 from live ask to cent-rounded target and stop; reject insufficient remaining reward without moving the target or tightening the stop |
 | Closing-time guard | regular execution | immediately before submission Alpaca must report the market open with at least two minutes remaining |
 | Gemini daily-call ceiling | LLM runner | stops at 450 logical attempts, preserving headroom below the broker-agent project's 500-request daily limit |
 | Delayed-price exit guard | premarket execution | uses the same policy as regular execution: downside beyond 2% skips; a lower accepted entry shifts the target down by the same percentage, while a higher entry leaves the original target fixed |
@@ -157,6 +158,22 @@ must not double-order.
 - **Dry-run by default, everywhere.** Scheduled runs submit orders only if the repo *variable* `TRADING_SUBMIT` is exactly `true`; manual runs only if the `submit` checkbox is ticked. Neither exists by accident. (Everything is a paper account — the flag/variable are named `submit`, not `live`, so nothing ever reads as "real money".)
 - **Manual testing:** Actions → trading → "Run workflow" — pick a stage (`tick`, `premarket`, `daily_scan`, ...) and run it immediately.
 - **Daily report:** tick mode appends every stage outcome, order, guard trigger, and error to `data/reports/daily_report_<date>.json` (deterministic, no LLM); the workflow commits each day's full record (report + lists) once at end of day, so the audit trail is readable on GitHub without opening Action logs.
+
+Regular cycles now record `analysis_coverage`: candidates, held-symbol
+removals, evidence failures, completed decisions and missing decision symbols.
+`degraded` means coverage was incomplete even when the workflow completed
+successfully; a missing debate is never counted as a hold.
+
+### Offline tuning review
+
+Run `python -m tools.strategy_review --start 2026-09-10 --end 2026-10-01`
+to reproduce the archive diagnostics without API calls or orders. Threshold
+comparisons use one qualifying entry per symbol/day and only snapshots after
+the decision timestamp. These are censored snapshot diagnostics, not a
+backtest, closing returns or realized P&L. The proposed 1.5:1 entry floor is an
+experimental payoff constraint; it does not establish a profitable strategy.
+See [the 2 October review](docs/trading-review-2026-10-02.md) for evidence,
+limitations and the required broker reconciliation before activation.
 
 ### Scheduler reliability and Cloudflare operation (July 2026)
 
