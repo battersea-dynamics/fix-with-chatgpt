@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-10-02T14:23:40-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "SDEV",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 4.23,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: SDEV shows exceptional tape strength today, evidenced by 9 consecutive observations confirming sustained momentum and a significant 5.88x relative volume spike. The stock has maintained upward pressure with 6 out of 8 intervals showing positive development and a notable price acceleration of 3.358 percentage points, holding near its session highs with a minimal drawdown of only 0.6406%. While the news feed provides no specific fundamental catalyst to explain this 83.06% move, the volume-backed technical participation and consistent rank improvement to current #1 status suggest strong institutional interest or market-moving developments yet to be headline-reported. The stock is currently extended 396.29% from its 20-day moving average, confirming intense buying pressure that validates a momentum-based entry. BEAR: The stock is currently trading at a massive 396.29% extension from its 20-day moving average, signaling extreme vulnerability to a mean-reversion snap. Despite the 83.06% gain, there is a total absence of company-specific catalysts in the news report, suggesting the move is purely speculative and devoid of fundamental support. Furthermore, the 0.64% drawdown from the observed high indicates the first signs of profit-taking pressure despite the current 'sustained_continuation' label, making any entry at these highs equivalent to serving as exit liquidity for earlier buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPN",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: XRPN is demonstrating extraordinary market interest, evidenced by a massive 11.83x relative volume and a 72.94% price increase on the session. While the catalyst report lacks specific company news explaining the move, the stock remains a standout performer in current market sessions, consistently appearing in momentum-based trading updates throughout October 2nd. Despite the recent pullback from its daily high of $49.02, the stock has maintained a strong 31.64% gain since its first observation four hours ago. This persistence suggests significant buying pressure that may support a potential bounce back toward the session highs. BEAR: XRPN shows clear signs of distribution with a 17.34% drawdown from its observed high of $49.02 and a 4.21% decline since the previous interval. Momentum is actively fading, evidenced by a drop in relative volume rate (-54.98%) and negative price acceleration, indicating that buying interest is waning at these extreme levels of 249.09% above the 20-day moving average. The current price action is essentially chasing a move that has already exhausted, as the lack of a specific, material company catalyst to justify a 72.94% daily gain leaves the stock vulnerable to immediate profit-taking from early traders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NNBR",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.10 = bull 0.55 - bear 0.65 (buy at >= +0.20). BULL: NNBR is showing powerful momentum, trading at 4.70x its normal volume and surging 27.41% on the session. Despite the lack of an immediate catalyst, the stock has demonstrated impressive persistence with four positive intervals out of six observed, holding onto a 15.33% gain since the first 10:17 AM scan. With the price currently sitting only 0.96% off its session high despite the high relative volume, the tape indicates strong underlying demand. The catalyst report contains no news to explain this breakout, confirming that this move is purely driven by massive buying pressure that shows little sign of exhaustion. BEAR: NNBR is suffering from a clear chasing failure mode, as the stock has already moved 27.41% on the session and is trading 30.04% above its 20-day moving average with no fresh catalyst to justify the extension. The momentum history shows measurable deterioration, with a negative return of -0.96% since the observed high and a relative volume rate of only 0.7648, suggesting participation is fading as price struggles to re-test the $4.67 peak. Without any active company-specific news to drive this surge, the current price represents an exhausted move that is highly susceptible to mean reversion over the coming hours.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: CTVA presents a compelling contrarian entry point following today's significant 5.67x relative volume surge and a specific headline noting that Wall Street sees big upside in both entities following the company's split announcement on 2026-10-02. While the stock has seen a sharp intraday pullback, it has sustained nine consecutive observations of high-volume activity, signaling heavy institutional interest that likely provides a floor for a rebound. With the price currently 84.66% below its 20-day moving average, the stock is historically oversold and primed for a mean-reversion move as the market digests the structural split news. Given the price acceleration of 0.0074 and improving relative volume rate, the current exhaustion setup suggests the heavy selling pressure is reaching an equilibrium point for a short-term recovery trade. BEAR: CTVA is exhibiting clear signs of a failed breakout, as the stock is down 4.29% on high relative volume of 5.67x, indicating heavy distribution rather than accumulation. The internal momentum data confirms this deterioration, with a 7.35% drawdown from the session high and a negative return of 5.79% since the stock was first spotted. Furthermore, the news regarding the corporate split is clearly not providing support, as the stock is listed among today's top midday decliners, signaling that the market is viewing the event negatively or already pricing in the volatility. Chasing this entry is dangerous given the 84.66% distance from the 20-day moving average, which reflects a structural breakdown rather than a healthy retracement.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "THRM",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: THRM is displaying significant buying interest following the October 1st announcement regarding its strategic combination with Modine\u2019s Performance Technologies business. This fundamental catalyst is being validated by powerful tape action, specifically a 7.32x relative volume surge today. The stock shows clear persistence with 9 consecutive positive observations, a 2.3173% return since its first appearance today, and zero drawdown from its observed high, indicating strong buying support at the $30.82 level. Combined with today's ex-dividend event providing an immediate income component, the momentum indicates a breakout from its recent depressed price levels. BEAR: THRM is currently suffering from a mechanical price adjustment due to the ex-dividend date occurring in the same session, which fundamentally skews the day's performance metrics and creates immediate selling pressure. Despite the 'sustained_continuation' setup label, the stock is trading 10.71% below its 20-day MA, suggesting the current price action is struggling to overcome structural overhead despite the headline news of the Modine business combination. The combination of the dividend ex-date and a lack of clear momentum-based acceleration suggests that the current relative volume of 7.32x is primarily driven by institutional rebalancing related to the corporate restructuring rather than fresh bullish accumulation. Buying into this liquidity event exposes the trader to the mechanical downside of the dividend payment and the volatility of digesting a major business combination on the same day.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TNMG",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: TNMG is demonstrating significant market participation today with relative volume at 4.91x its normal levels, signaling strong institutional interest following the September 29th announcements regarding TNL Mediagene's B2G expansion through its Infobahn subsidiary. While the stock has pulled back from its intraday high of $4.89, it remains up 8.31% on the session, indicating that the initial momentum fueled by these strategic conference partnerships is holding well above the 20-day moving average. The combination of sustained high relative volume and fundamental momentum from the recent news suggests the stock is consolidating gains rather than failing, providing a constructive setup for a potential rebound as the market continues to price in its new operational footprint. BEAR: TNMG is currently exhibiting clear signs of exhaustion as it trades 8.08% below its session high of $4.89, confirming a definitive 'chasing' scenario for any buyer at current levels. The momentum profile shows measurable deterioration with a negative price acceleration of -1.2161 and a consistent decline in rank and score, indicating the massive relative volume of 4.91x has failed to sustain the price. Furthermore, the primary catalyst\u2014the B2G expansion news\u2014is three days old, leaving the stock vulnerable as the initial buying frenzy fades and the current price remains stretched 19.63% above its 20-day MA without fresh news to justify a breakout continuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BIRD",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: BIRD is exhibiting significant institutional interest today with relative volume at 3.42x its 20-day history and a price move +46.29% above its 20-day moving average. While the catalyst report contains no specific news driving today's price action, the sustained high relative volume and presence in intraday movement scanners demonstrate strong market engagement. The stock has maintained nine consecutive observations of participation, indicating that the move is built on more than just initial noise. With the stock currently showing 3.42x relative volume and a 3.44% gain, it is a momentum play positioned for further expansion as traders chase the clear trend breakout. BEAR: BIRD is exhibiting clear signs of exhaustion with a -3.99% return since it was first identified and a significant -5.74% drawdown from its observed session high. The stock is extended 46.29% above its 20-day moving average without any fresh catalyst, as the only available headlines date back to October 1st and provide no justification for today's price action. With a negative price acceleration of -0.96% and a worsening momentum score, the stock is currently acting as exit liquidity for those who entered earlier in the session. This is a classic case of a non-catalyst-driven move failing to hold its gains while participation metrics deteriorate.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FEAM",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: FEAM is demonstrating aggressive momentum with a 15.17% gain today on significant relative volume of 1.84x. The price action has remained robust across 9 consecutive observations, maintaining a gain of 2.0576% since it was first flagged, alongside positive price acceleration of 1.0547. While the news report lacks a specific fundamental catalyst for today's surge, the inclusion of FEAM in an October 1, 2026, 'Lithium Stocks To Own' piece provides recent positive sentiment that aligns with this session's volume-backed breakout. The stock is showing strong relative strength as it holds its gains despite a minor 2.49% drawdown from its observed session high. BEAR: FEAM is currently suffering from a severe case of chasing risk, trading 68.65% above its 20-day moving average on a day where there is no specific, price-driving catalyst to justify such an extension. The tape shows measurable deterioration as evidenced by the 2.49% drawdown from the observed session high of 3.815 and a negative return since the previous observation. With no earnings or dividends within the holding window to provide structural support, the current price action appears to be an exhaustion move that is failing to sustain its earlier momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AZTA",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: AZTA is displaying strong momentum with a 10.99% gain on the session and 2.85x relative volume, indicating significant market interest today. The stock is holding well above its 20-day moving average (+16.34%), showing established strength despite the recent drawdown from its session high of 40.77. While the catalyst report lacks a specific company-level event, the inclusion of AZTA in the Benzinga headline regarding stocks moving higher today confirms its current status as a market mover. With persistent high-volume interest across eight consecutive observations, the stock is showing the liquidity and participation necessary for a continued momentum trade. BEAR: AZTA is currently suffering from clear intraday exhaustion, having pulled back 6.13% from its observed high of $40.77. The evidence shows a classic chasing trap: despite a +10.99% gain today, the stock has posted negative returns in 6 of the last 7 observed intervals and is seeing a consistent decline in price acceleration and rank stability. The news catalyst provided is a generic sector-wide headline for 'Big Stocks' that lacks specific substance for AZTA, suggesting today's volatility is an overshoot rather than a fundamental repricing. With the stock trading 16.34% above its 20-day moving average on fading volume momentum, buying now ignores the confirmed tape deterioration since the 10:47 ET start.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WOLF",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: WOLF is exhibiting strong bullish momentum today, supported by a 12.92% gain and high relative volume at 2.30x. The stock is backed by a fresh catalyst as of 2026-10-02, specifically the news regarding a new substrate launch and participation in a sector-wide rally. Tape data confirms persistence with 8 consecutive observations and positive price acceleration of 0.0779 percentage points, showing investors are aggressively accumulating the stock despite the recent volatility. This combination of tangible product news and strong volume confirmation suggests the breakout from the 20-day moving average has significant legs for short-term follow-through. BEAR: WOLF is currently demonstrating clear signs of exhaustion with a 2.17% drawdown from its session high despite a 12.92% gain, suggesting the initial momentum is cooling. The stock is extended 31.55% above its 20-day moving average, creating a vulnerable risk-to-reward profile as the relative volume rate is actively decelerating at -0.0117 per interval. Furthermore, the news catalyst regarding the substrate launch is already fully baked into today's price action, leaving no secondary drivers to sustain the aggressive climb. The current setup is failing to maintain its intraday highs, signaling that late-session buyers are serving as exit liquidity for earlier participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STX",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Despite a sharp sell-off today, STX is showing significant bottom-fishing behavior with 2.89x relative volume, indicating aggressive institutional participation at these levels. The intraday tape confirms this resilience, as the stock has demonstrated positive price movement over its last nine observed intervals, including a 1.23% return since the previous scan and a recovery back to the session high of $841.98. While news headlines suggest concerns over Toshiba's expansion, this heavy selling appears to be an overreaction that is already being countered by sustained buying interest. The clear price acceleration of 1.44% points in the final hours suggests that the selling exhaustion point has been reached, setting the stage for a mean-reversion move. BEAR: STX is currently suffering from a sharp 10.96% decline driven by clear negative fundamental news regarding Toshiba's AI storage expansion plans, which directly threatens Seagate's competitive position. Despite a relative volume of 2.89x, the stock's score change of -0.2057 and failure to improve its rank indicate that the heavy participation is fueled by sell-side conviction rather than an accumulation opportunity. Buying into this 'sustained continuation' of a downward move ignores the structural headwind of potential long-term supply shortages and market share erosion. Attempting to catch this knife while the price remains -3.17% below its 20-day MA is a high-risk bet against active, news-driven momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MRP",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: MRP is exhibiting strong accumulation today with a relative volume of 3.23x, indicating significant institutional interest despite the session's slight price pullback. The stock is currently trading 13.91% below its 20-day moving average, creating a classic mean-reversion opportunity as the stock consolidates near its observed high. Furthermore, an upcoming ex-dividend date on 2026-10-05 provides a near-term catalyst that often draws income-seeking buyers as the payout date approaches. While news headlines are quiet, the combination of high liquidity and technical oversold conditions makes this an attractive entry for a short-term bounce. BEAR: MRP is suffering from a technical breakdown, currently trading 13.91% below its 20-day moving average on heavy selling volume that is 3.23x the norm. While the stock shows a 0.1016% rebound since being first seen 60 minutes ago, it lacks a fundamental catalyst to justify a reversal, as the only recent news is a day-old mention on a TV segment and looming ex-dividend pressure in 3 days. Buying here risks catching a falling knife during an intraday down-trend, as there is no evidence of institutional accumulation to support the price against the mechanical drop expected before the upcoming ex-dividend date.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MSGY",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: MSGY is showing price acceleration with positive price development in 5 of 8 observed intervals, suggesting potential for a mean-reversion bounce after an 18.76% intraday decline. While the catalyst report lacks specific positive news, the stock remains on the radar of market movers as noted in today's ChartMill headlines, indicating high interest. With the price still holding 49.76% above its 20-day moving average, the current level presents an opportunity to capture a recovery in a stock that has maintained a consistent rank of 13 across 9 observations. BEAR: MSGY presents a clear chasing risk, as the stock remains 49.76% above its 20-day moving average despite an 18.76% collapse in today's session. The volume is nearly non-existent at 0.05x normal, indicating that the current price level lacks institutional conviction and is prone to further slippage. While the stock has seen mentions in 'moving stocks' headlines today, there is no specific fundamental catalyst, and the intraday performance shows a drawdown from the observed high of 1.4085%. Buying now is essentially catching a falling knife with zero volume support and significant technical overextension.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WDC",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: WDC is exhibiting a classic capitulation reversal, evidenced by heavy relative volume at 2.77x the 20-day average following today's sharp sell-off. The price action demonstrates strong intraday resilience, showing a 5.24% recovery since the first observation at 11:47 ET, with positive price development recorded in three of the last five intervals. While news headlines highlight competitive concerns regarding Toshiba, this has likely been fully priced in by the 9.51% intraday decline, leaving the stock technically oversold and ripe for a mean-reversion trade. With price acceleration at 2.14% points and zero drawdown from the observed session high, the stock is currently showing clear signs of stabilizing at these levels. BEAR: WDC is currently suffering from a negative catalyst cycle driven by credible reports of Toshiba's AI storage expansion, which directly threatens WDC's competitive positioning and has triggered a 9.51% sell-off. While the price has attempted a modest 5.2% rebound from its intraday lows, the momentum is already faltering, as evidenced by a decline in rank from 12th to 14th and a negative score change of -0.46. Attempting to buy this move is a clear case of catching a falling knife during a headline-driven repricing event, where the fundamental competitive threat of increased HDD supply remains unresolved. With a relative volume of 2.77x, the stock is showing intense selling interest that has not yet demonstrated exhaustion, making any long position highly vulnerable to further downside once the intraday recovery attempt fails.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KOD",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 4.23,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: Kodiak Sciences recently experienced a significant value re-rating following positive wet AMD trial results reported on September 29, 2026, which drove the stock from $32 to over $90. While today's price shows a pullback of 8.02%, the stock maintains massive relative strength, trading 99.38% above its 20-day moving average. The recent price acceleration of 1.538% points and the recovery of 1.0714% over the most recent observation interval suggest that buyers are stepping in to support the stock at this new higher plateau. Given the transformative nature of the clinical data released just days ago, this volatility presents a window to capture the momentum as the market digests the fundamental shift in the company's valuation. BEAR: KOD is exhibiting clear signs of exhaustion and chasing risks following a massive 178% surge initiated by the September 29 news regarding positive trial results. The stock is now 99.38% above its 20-day moving average, and the current session shows aggressive mean-reversion with an 8.02% decline on weak participation, evidenced by a relative volume of only 0.45x normal. Momentum metrics confirm the deterioration, as the rank has slipped from 14 to 15 and the price remains in a drawdown from its observed high, indicating that the initial catalyst-driven buying frenzy has transitioned into exit liquidity for earlier entrants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "SDEV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NNBR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CTVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "THRM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TNMG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BIRD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FEAM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AZTA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WOLF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "STX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MRP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MSGY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WDC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KOD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

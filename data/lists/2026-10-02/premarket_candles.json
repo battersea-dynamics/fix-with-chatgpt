@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-02T08:50:48-04:00",
+  "session_date": "2026-10-02",
+  "reads": {
+    "NXL": {
+      "symbol": "NXL",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "SDEV": {
+      "symbol": "SDEV",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SYNA": {
+      "symbol": "SYNA",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "STX": {
+      "symbol": "STX",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "NKE": {
+      "symbol": "NKE",
+      "pattern": "Gap Down Continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "TNON": {
+      "symbol": "TNON",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "WDC": {
+      "symbol": "WDC",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "QMCO": {
+      "symbol": "QMCO",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ON": {
+      "symbol": "ON",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "TNMG": {
+      "symbol": "TNMG",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "APP": {
+      "symbol": "APP",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "UL": {
+      "symbol": "UL",
+      "pattern": "Reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    }
+  }
+}

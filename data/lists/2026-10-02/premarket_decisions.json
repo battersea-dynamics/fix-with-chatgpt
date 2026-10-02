@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-02T09:05:17-04:00",
+  "decisions": [
+    {
+      "symbol": "APP",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: The 4.55x surge in pre-market volume relative to baseline indicates aggressive institutional interest rather than a simple retail sell-off following the October 1st Wells Fargo report on pixel install metrics. While the market is reacting to concerns about a 'false start' in growth, the sustained volume suggests a significant counter-party is absorbing the supply at the $267 level. This gap-down effectively shakes out weak hands and provides a high-conviction entry point for a mean reversion as the market reconciles the negative analyst commentary against the company's aggressive legal move regarding MAX ad auctions. Given the high liquidity and elevated volume, the setup is primed for a snap-back if the stock clears its initial open print. BEAR: The 4.91% gap lower is a direct market reaction to the October 1st Wells Fargo note dismissing recent pixel install spikes as a 'false start,' confirming this move is a fundamental repricing rather than mere headline noise. With the candle agent flagging a bearish continuation pattern, the gap-fade risk is high as the market absorbs this downgrade in growth expectations. The volume, while 4.55x the baseline, suggests significant institutional liquidation rather than retail panic, meaning the opening auction is likely to provide exit liquidity for those late to the sell-off. Any attempt to buy at the open faces an exhaustion structure where the catalyst has already been priced in, leaving the $267.50 level vulnerable to further testing of support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NKE",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: NKE is seeing massive capitulation volume of over 12 million shares, representing a 17.6x increase over the baseline, which often serves as a classic climactic bottoming signature rather than mere continuation. While the headline regarding 'Limited' recovery visibility from Truist on 2026-10-02 has catalyzed this drop, the sheer scale of the turnover suggests institutional liquidity is being absorbed at these multi-year lows. Buying the open here is a mean-reversion play betting that the negative sentiment has been fully discounted by the aggressive gap-down. We are looking for a sharp snap-back once the initial morning flush exhausts the sellers. BEAR: NKE is exhibiting a classic exhaustion structure as the 7.77% gap down on massive 17.60x relative volume indicates the market has already fully digested the Truist analyst report regarding 'limited' visibility and structural weakness in China. The sheer volume traded in the pre-market suggests institutional capitulation is already complete, meaning there is no residual buy-side liquidity to support a bounce. Buying at the open traps the buyer in an 'already priced in' scenario where the morning auction will likely serve as the session's liquidity exit for those chasing the initial move. This is not a setup for a reversal, but a confirmation of sustained institutional selling that will likely see the $32.42 print become the high-water mark for the morning.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NXL",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Despite the sharp 20.40% gap down, NXL is showing extreme anomalous interest with pre-market volume at 109x its daily average, indicating a massive liquidity event following the October 1st announcement regarding their South America distribution and manufacturing agreement. While the technical bias is currently bearish, this level of volume suggests institutional clearing or aggressive positioning around the new commercial milestones in Brazil. If the bid holds near current levels, this creates an asymmetric entry for a mean reversion play against the excessive sentiment-driven sell-off. I am betting that the fundamental shift in revenue potential via the new distribution agreement outweighs the current technical weakness. BEAR: NXL is exhibiting a classic exhaustion structure following yesterday's attempt to trade on the South America distribution agreement headlines, which clearly failed to sustain momentum as the stock now gaps down 20.40%. With a high-conviction bearish continuation signal from the candle agent and massive pre-market volume of 274,670 shares\u2014over 100x the baseline\u2014the market has aggressively priced out the news catalysts from October 1st. This is a text-book opening-auction reversal where the initial excitement has been liquidated, and the gap-fade failure mode is highly likely as the stock transitions from yesterday's gainers list to today's heavy selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QMCO",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The significant 14.64x increase in pre-market volume relative to the baseline suggests institutional accumulation rather than panic selling, despite the negative headline gap. While the recent hiring of a new COO on September 28th and 30th has been priced in, this volume spike indicates traders are aggressively testing support levels following the recent 13.6% rally on September 25th. If the bid holds above current pre-market lows at the open, a mean reversion play is highly probable as the market absorbs the leadership transition news. There is no new, specific headline today to justify a 6.7% gap down, suggesting this is a liquidity-driven flush that offers a compelling entry for a swing back toward the recent highs. BEAR: QMCO is suffering from a clear exhaustion structure following the failed rally initiated by the September 28th COO appointment news, which has now fully cycled into a sell-the-news event. The current 6.73% gap lower on 14.64x baseline volume confirms an opening-auction reversal where liquidity is fleeing rather than entering, signaling the end of the previous bullish momentum seen on September 25th. Because there is no fresh catalyst to support this price level, the current pre-market slide is nothing more than liquidity exit, and buying at the open risks catching a falling knife as the stock continues its technical breakdown.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SDEV",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.68,
+      "stop_loss_pct": 2.48,
+      "reasoning": "net -0.45 = bull 0.45 - bear 0.90 (buy at >= +0.20). BULL: SDEV is exhibiting an aggressive volume signature with over 23 million shares traded pre-market, reflecting a 6.5x surge over its daily average which confirms institutional participation rather than retail noise. While there is no specific headline or news catalyst provided in the latest data to explain this move, the sustained price appreciation and consistent volume indicate strong buying interest that is likely to drive momentum at the open. The structural read confirms a continuation bias, suggesting the current gap is fueled by significant capital flow that will likely seek higher levels during the session. Without a specific fundamental driver, I am assigning a more moderate confidence rating despite the massive volume. BEAR: SDEV is exhibiting a classic gap-fade failure mode characterized by an absolute absence of a fundamental catalyst in the news block, which contains only generic market sentiment headlines from 10-01 that fail to justify a 36.89% spike. With over 23 million shares traded pre-market, this move has likely already reached its exhaustion point as the momentum has clearly stopped building ahead of the bell. Buyers at the open are acting as immediate exit liquidity for the heavy pre-market volume participants, setting the stage for a reversal once real institutional liquidity enters the tape and finds no substance behind the price action.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STX",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 1.15,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.75 = bull 0.10 - bear 0.85 (buy at >= +0.20). BULL: STX is facing a sharp 10.95% gap down, likely triggered by competitive pressures from Toshiba increasing hard disk output capacity as reported today, which has spooked the market. Despite the high volume of 919,701 shares, the structure is clearly bearish and there is no specific positive news to justify a reversal. I am forced to acknowledge that there is no legitimate bull case here based on the available evidence, as the price action and news flow are fundamentally aligned against the stock. This is a classic 'catch a falling knife' scenario where the volume confirms the selling pressure is active and sustained. BEAR: STX is facing a catastrophic gap-down driven by competitive pressure, specifically the Nikkei report that Toshiba will double hard disk capacity, which directly undermines Seagate's pricing power and margin outlook. This is an exhaustion structure where the 41x volume surge signifies a massive institutional exit rather than a buyable dip. The stock has stopped building downside momentum in the pre-market, indicating that the opening auction will likely act as liquidity for those trapped in the overnight move to dump their remaining positions. Given the 10.95% gap, this setup exhibits the classic gap-fade trap where the initial selling pressure will be absorbed by value hunters, leading to a liquidity trap rather than a reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SYNA",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net +0.10 = bull 0.95 - bear 0.85 (buy at >= +0.20). BULL: The massive +14.55% breakaway gap is driven by a concrete, transformative catalyst: the October 2, 2026, headline confirming an all-cash $5.7B acquisition by ON Semi. This is not speculative momentum; the 43x surge in pre-market volume relative to the baseline confirms heavy institutional conviction in the deal price. With the price holding firmly at $121.60 and the breakaway structure validated, the gap is likely to act as a launchpad for a sustained move toward the acquisition valuation. The presence of a clear, news-backed floor mitigates the risk of a typical post-gap fade. BEAR: The $5.7B all-cash acquisition news is a classic 'already priced in' catalyst where the arbitrage gap is now fully reflected in the pre-market print. With the price stagnant at $121.60 and volume thin relative to the scale of an M&A event, the current valuation provides zero buffer for a standard opening-auction reversal. Buyers entering at the open are acting as immediate exit liquidity for institutional holders who have already locked in their profits on the headline. The lack of upward momentum since the initial news release confirms that the market reaction is finished, making the morning open the most likely high of the day.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TNMG",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: TNMG is demonstrating a high-conviction breakout, backed by an impressive 4.53x surge in pre-market volume relative to its baseline, indicating institutional accumulation rather than retail noise. The gap is anchored by the fundamental momentum from the September 29th announcements regarding TNL Mediagene\u2019s B2G expansion and government partnership, which provides a concrete catalyst for this price discovery. With the stock holding its gains consistently throughout the pre-market session, the structure suggests strong support for a continuation breakout above $4.65. This volume profile confirms that market participants are actively repricing the stock based on its improved operational outlook. BEAR: The 12.05% gap is fundamentally stale, relying on a B2G expansion announcement from September 29th that has already been fully digested by the market over the last three trading days. With pre-market momentum stalling despite a 4.53x volume surge, the price action exhibits a clear exhaustion structure where the gap has failed to build further, signaling that the open will likely serve as exit liquidity for early participants. This setup is a textbook case of a gap fade, as there is no fresh catalyst to justify a sustained move above yesterday's $4.15 close, leaving the stock vulnerable to an opening-auction reversal once institutional liquidity enters the tape at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TNON",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: TNON is exhibiting an exceptional volume signature with over 3.1 million shares traded, representing 18.8x its average volume, which validates the significant 9.40% gap. This move is fundamentally supported by the confirmed full commercial launch of the SImmetry+ SI Joint Fusion 3D Printed Lateral Screw announced on 2026-09-30, providing a clear catalyst for sustained institutional interest. The price action demonstrates a continuation pattern that is holding firm near pre-market highs, indicating strong conviction from buyers rather than a speculative fade. This combination of structural strength and a concrete product milestone points to high potential for a momentum breakout at the open. BEAR: TNON is currently suffering from an 'already priced in' failure mode, as the primary catalyst\u2014the SImmetry+ launch announced on 2026-09-30\u2014is now two days old and has been fully digested by the market. Despite the high pre-market volume of 3.1 million shares, the momentum is stale, and the gap has failed to push meaningfully higher during the late morning session. This exhaustion structure indicates that the pre-market price is merely providing exit liquidity for institutional participants looking to capitalize on retail optimism before the opening bell. Because there is no new, actionable news to justify a follow-through move, this gap is highly susceptible to an opening-auction reversal as real institutional liquidity forces a retest of yesterday's range.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "UL",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 1.62,
+      "stop_loss_pct": 0.78,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: The 6.83x volume surge relative to baseline confirms institutional participation following the September 29th market discourse regarding Unilever's portfolio pruning strategy. Price action is showing a constructive reversal pattern, and the ability to maintain the gap at $60.03 in pre-market indicates buyers are absorbing overnight selling pressure. While the headlines are not breaking news today, the sheer volume intensity implies a re-rating event as investors digest the strategic roadmap laid out earlier this week. The technical structure confirms the market is looking to close the gap on the daily chart with sustained accumulation. BEAR: The +0.76% gap on UL is a classic example of an exhaustion structure, as the move lacks any fresh news catalyst beyond stale speculation about portfolio pruning from September 29th. Despite the higher relative volume, the price action has effectively stalled before the bell, signaling that the pre-market tape is exhausted and merely providing exit liquidity for institutional positioning. This is a classic gap-fade setup where the thin-tape pricing of the pre-market will likely succumb to heavy selling pressure at the opening auction as traders take profits on a non-event move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WDC",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: WDC is showing a significant pre-market volume of 14.45x the baseline, indicating that institutional participants are aggressively rebalancing their positions despite the negative gap. While no direct news headline confirms the reason for this specific decline, the massive volume spike suggests a wash-out event rather than a fundamental breakdown. If the bid holds near the $427 level at the opening bell, this represents an attractive entry for a mean-reversion trade. The stock is reacting to broader sector volatility surrounding memory chip peers, making this an opportunity to capture a bounce from an oversold condition. BEAR: The 7.64% gap down on 14.45x volume is an exhaustion structure rather than a directional breakout, as there is no specific company news to justify the massive price drop, making the move entirely speculative. The Nikkei headline regarding Toshiba expanding hard disk capacity is a broad sector commentary rather than a WDC-specific catastrophe, suggesting the market is overreacting to general industry noise. With the candle agent flagging a bearish reversal, the pre-market liquidity is likely setting a trap where the opening auction will absorb forced liquidations, leading to a gap fade as buyers re-enter at these relative lows.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
