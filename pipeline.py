@@ -40,6 +40,7 @@ from datetime import datetime
 from pathlib import Path
 
 from tools.broker import get_account, get_positions
+from tools.analysis_coverage import summarize_analysis
 from tools.datapaths import list_path
 from tools.catalysts import (
     build_catalyst_report,
@@ -211,6 +212,13 @@ def check_shortlist(
         momentum_context=momentum_context,
         session_date=generated,
     )
+    analysis_coverage = summarize_analysis(
+        [row["symbol"] for row in payload["shortlist"]],
+        [row.symbol for row in evidence_ready],
+        [decision.symbol for decision in decisions],
+        currently_held,
+        evidence_skips,
+    )
     reference_prices = {r.symbol: r.close for r in shortlist}
     report = evidence_skips + execute_signals(
         decisions,
@@ -228,6 +236,7 @@ def check_shortlist(
     check_record.write_text(json.dumps({
         "generated_at": datetime.now(ET).isoformat(timespec="seconds"),
         "submit": submit,
+        "analysis_coverage": analysis_coverage,
         "decisions": [d.model_dump() for d in decisions],
         "execution_report": report,
     }, indent=2))
@@ -257,10 +266,14 @@ def daytime_cycle(submit: bool = False) -> dict:
         record_id=cycle_id,
     )
     shortlist_payload = json.loads(shortlist_path.read_text())
+    decisions_payload = json.loads(
+        list_path(f"check_decisions_{cycle_id}.json").read_text()
+    )
     return {
         "cycle_id": cycle_id,
         "shortlist_file": str(shortlist_path),
         "shortlist": [r.symbol for r in shortlist],
+        "analysis_coverage": decisions_payload["analysis_coverage"],
         "catalyst_prescan": shortlist_payload.get("catalyst_prescan", {
             "ok": True,
             "warnings": [],
