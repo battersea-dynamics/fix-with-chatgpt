@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-10-05T08:53:44-04:00",
+  "decisions": [
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.88,
+      "stop_loss_pct": 3.94,
+      "reasoning": "net -0.10 = bull 0.85 - bear 0.95 (buy at >= +0.20). BULL: APUS is exhibiting an explosive vertical breakout supported by over 13.9 million shares traded in pre-market, an 18.6x increase over its baseline average. While the news block contains a technology service agreement from September 29, it does not explain this massive 99% gap, indicating this move is likely driven by intense speculative order flow or an undisclosed catalyst that is currently sustaining massive buying pressure. The volume signature is remarkably consistent and heavy, signaling institutional or high-conviction retail accumulation that is holding the gap near highs rather than fading. This structural strength suggests immediate continuation potential as participants chase the momentum above $6.43. BEAR: The 99.69% gap on APUS is fundamentally hollow, as the only available news regarding a FlashChain software agreement is dated September 29, making it six days stale and incapable of supporting a near-doubling in valuation. With no fresh catalyst to sustain this massive momentum, the volume signature is purely speculative and characteristic of an exhaustion structure where retail participants are providing exit liquidity for early movers. The current price action is a textbook gap-fade setup, as the lack of new information ensures that real opening liquidity at 9:30 will dismantle the thin-tape pre-market valuation once the initial buying pressure evaporates.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CHRW",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: The 7.75% gap down is a knee-jerk reaction to the October 5th acquisition announcement of RXO for $5.8 billion, which the market is currently pricing as an overpayment risk despite the long-term consolidation potential in logistics. With pre-market volume at an extreme 410x baseline, institutional hands are clearly moving aggressively to reprice the stock, creating a high-liquidity environment for a mean-reversion trade. Buyers have an opportunity to enter at these support levels before the market realizes that the strategic synergies mentioned in the headline will likely unlock the significant shareholder value predicted by analysts just days ago. The massive volume confirms this is an institutional event, not a retail fade, setting the stage for a strong rebound once the initial liquidation concludes. BEAR: The 7.75% gap down in CHRW is a classic 'buyer's remorse' reaction to the $5.8 billion RXO acquisition headline, suggesting the market is punishing the acquirer for the high price tag rather than treating this as a neutral event. With the pre-market volume already significantly elevated and the bearish reversal pattern confirmed, the gap is suffering from an exhaustion structure where the initial panic selling likely represents the bulk of the reaction. Investors buying this gap are playing into an opening-auction reversal where real institutional liquidity is poised to fade the move, as the $5.8 billion price tag for RXO creates immediate balance sheet uncertainty that will keep rallies capped. This is a classic gap-fade setup where the pre-market low is unlikely to hold once the larger market participants force a re-evaluation of the acquisition's accretion value.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.8e+09 - no matching value in source data",
+        "bear: cited 5.8e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "ITUB",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net +0.07 = bull 0.92 - bear 0.85 (buy at >= +0.20). BULL: The massive pre-market volume of 1.19 million shares, representing 160x the baseline average, signals institutional conviction driven by the October 5th headline regarding favorable Brazilian election results. Unlike speculative gaps, this move is underpinned by genuine macro-driven buying pressure that has successfully held the $9.80 level during the pre-market session. The gap-and-go structure indicates that the market is repricing the equity following a structural shift in regional political risk, providing a high-probability setup for continuation at the open. BEAR: The 14.09% gap is driven primarily by sentiment surrounding the Brazilian election results today, which serves as a classic macro-event headline that often triggers immediate exhaustion after the open. Because the price action has essentially paused in the pre-market, this gap is exhibiting clear signs of being 'already priced in' as retail liquidity flows into the thin tape. Relying on the 5.4% jump from October 1st as a persistent trend indicator is a mistake, as the current move is an emotional reaction to a singular political event that frequently invites rapid profit-taking once the opening auction begins. Buying at this level forces you to absorb the volatility of international market participants who have already had their primary reaction, making this a prime candidate for an opening-auction reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OI",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 3.0,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.60 = bull 0.20 - bear 0.80 (buy at >= +0.20). BULL: The case for OI is purely technical and speculative, as there are no news headlines or specific events to account for the massive 195x volume surge against the pre-market trend. While the current structure is bearish and the gap is negative, the extreme volume anomaly suggests institutional accumulation or a major block trade occurring under the radar. Buying here relies entirely on the premise that such aggressive volume will lead to a sharp reversal or short-covering rally once the market opens and the price floors at these levels. Without a fundamental catalyst, this is a statistical play on the abnormal volume signature rather than a directional conviction. BEAR: The absence of any recent news headlines to support this move signals a classic gap-fade failure mode, as there is no fundamental catalyst to sustain price action once the thin-tape pre-market liquidity evaporates. The 0.85 conviction bearish candle structure suggests an exhaustion pattern is already in play, indicating the move has likely already finished its primary reaction. Because the pre-market volume of 121,645 is significant against the baseline but lacks a narrative to defend the price level, buyers at the open are effectively providing exit liquidity for institutional positioning. This setup is a classic example of an opening-auction reversal where real liquidity at 9:30 will likely overwhelm the current, catalyst-free price action.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PCVX",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.2,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.15 = bull 0.95 - bear 0.80 (buy at >= +0.20). BULL: PCVX is exhibiting a massive, high-conviction breakout driven by the October 4th announcement regarding topline data from the pivotal OPUS-1 trial of VAX-31. The pre-market volume of over 1.6 million shares\u2014a staggering 783x the baseline\u2014confirms that institutional participants are aggressively repricing the stock based on the clinical trial results. The gap has held its gains throughout the morning, suggesting high absorption of supply at these elevated levels. This structural strength, combined with the clear catalyst for a multi-valent vaccine candidate, points to sustained momentum into the market open. BEAR: PCVX is suffering from an exhaustion structure where the +56% gap represents the full market reaction to the OPUS-1 topline data. The rally has stalled throughout the pre-market session, signaling that early buyers are already pivoting to exit liquidity once institutional volume arrives at the open. Furthermore, BofA\u2019s recent price target reduction to $130 on September 28 serves as a structural headwind, suggesting that while the news is positive, the current valuation surge is pricing in perfection that ignores the regulatory and manufacturing hurdles inherent in vaccine trials. Entering at $88.50 traps buyers into an opening-auction reversal where the initial pop will likely be sold off to fill the massive liquidity vacuum created by this gap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PTC",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 1.44,
+      "stop_loss_pct": 0.86,
+      "reasoning": "net +0.10 = bull 0.95 - bear 0.85 (buy at >= +0.20). BULL: PTC is gapping up on a definitive fundamental catalyst, specifically the 2026-10-05 confirmation of its acquisition by Schneider Electric for $23.7 billion. The volume signature is exceptional, with over 817,000 shares traded, representing a 734x increase over the baseline, which confirms massive institutional commitment to the new price level. The structure is a textbook 'Gap and Go' that reflects the market's immediate repricing toward the acquisition value. This move is backed by concrete M&A news, ensuring the gap is structural and not speculative noise. BEAR: The 36% gap is already fully priced in following the $23.7 billion acquisition announcement by Schneider Electric, leaving no room for further catalysts. Because the acquisition price effectively caps the upside near current pre-market levels, this move is a classic 'already priced in' setup where the opening bell serves only as liquidity for early institutional profit-takers. With 817,315 shares traded, the volume is massive for pre-market, suggesting the bulk of the trade is finished before the public open, leaving retail buyers as the bag-holders in an exhaustion structure.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.37e+10 - no matching value in source data",
+        "bear: cited 2.37e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "RXO",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: RXO is exhibiting an extraordinary volume signature with pre-market volume at 207x its baseline, signaling a major institutional transition rather than retail noise. The gap has held steady at elevated levels throughout the session, and while none of the recent generic headlines explain this specific move, the sheer magnitude of the volume and the continuation structure suggest an unreleased catalyst of significant impact. The 0.95 conviction score from the candle agent confirms that technical momentum is aligned with the extreme buying pressure, making this a high-conviction breakout setup. BEAR: The 23.91% gap in RXO lacks a specific, high-impact catalyst, as the most recent headlines from October 2nd are generic 'stocks trading up' lists that fail to justify a double-digit breakout. This is a classic gap-fade setup where the absence of fundamental news confirms the move is driven by thin-tape speculation rather than institutional accumulation. Because the price has stopped building in the pre-market, the 9:30 opening auction will likely serve as exit liquidity for early speculators as real volume overwhelms the thin pre-market order book. The bullish candle structure is a trap designed to invite late momentum players into a reversal at the open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SDEV",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: SDEV is seeing massive pre-market participation with over 26 million shares traded, nearly 5 times its average daily volume, suggesting legitimate institutional accumulation. While the technical structure is flagged as exhaustion, the bid is holding firm at a 37.83% premium, indicating strong absorption of yesterday's momentum. There is no specific news headline in the provided data to explain this surge, making this a purely speculative trade based on the sheer force of the volume signature. The gap is significant enough that continuation depends entirely on the open holding the $10.30 level against potential profit-taking. BEAR: SDEV is exhibiting a clear exhaustion structure following a 37.83% gap that lacks any fundamental news catalyst, as evidenced by the complete absence of material headlines since October 2nd. The reliance on purely speculative volume\u20144.61x the baseline\u2014without a news-driven justification indicates the price has reached an exhaustion point where the opening auction is likely to serve as the daily high. With no catalyst to sustain the move past the 9:30 AM liquidity injection, buying at the open represents exit liquidity for the early participants who pushed this into an overextended state. The lack of a specific news event to support such a volatile move confirms that this is a classic gap-fade setup that will likely fail to sustain momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STGW",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: STGW is exhibiting a massive, sustained volume signature with over 222,000 shares traded in pre-market, representing a nearly 1,000x increase over its typical baseline. The stock is maintaining its +2.87% gap with impressive stability, signaling institutional accumulation rather than speculative noise. While there is no specific headline or dated event directly linked to STGW in the recent news flow to explain this surge, the sheer magnitude of volume relative to the average suggests a major shift in investor interest. Given the 0.85 conviction rating on the continuation pattern, the setup supports a move higher as market participants absorb the float at this elevated price level. BEAR: STGW is a classic example of an exhaustion-gap fade driven by a total lack of a material catalyst. The most recent news regarding Jane Delworth's appointment on October 2nd is now three days stale and lacks any direct correlation to a price move of this magnitude, suggesting this gap is merely noise masquerading as momentum. With the move failing to build further in the pre-market session, the current price is likely just exit liquidity for any remaining momentum chasers before the 9:30 AM opening-auction reversal. The current volume signature confirms that there is no durable institutional conviction behind this move, making it a prime candidate for a rapid fade once real market liquidity hits the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "UMC",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: UMC is seeing massive capitulation volume at 11.76x the baseline, suggesting that the move lower is driven by institutional liquidity rather than a lack of interest. While the news cycle provides no specific headline explaining this morning's sharp decline, the volume surge at the open often precedes an exhaustion bottom in high-beta semiconductor names. The price is currently probing a significant gap, and the sheer scale of the pre-market volume indicates that sellers are being absorbed by aggressive buyers ready to establish a floor. This is a technical play on mean reversion, capitalizing on the high probability that such high-volume selling climaxes quickly after the opening bell. BEAR: UMC is exhibiting a clear gap-down exhaustion reversal pattern that confirms the downward momentum has decoupled from the actual fundamental news flow. With the most recent relevant headline dated September 30th regarding a 'breakout setup' directly contradicting today's -8.75% move, it is evident that the market is reacting to internal liquidation rather than a specific breaking news catalyst. The high pre-market volume of 791,797 shares indicates that institutional 'thin-tape' capitulation has likely already occurred, leaving the 9:30 open as a primary candidate for an opening-auction reversal where trapped shorts cover and liquidity providers lean against the move. Buying here ignores the lack of a fresh fundamental catalyst and exposes the trader to the classic exhaustion structure where the price has already overshot its value floor.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 3.16,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: VEEA is exhibiting a textbook high-conviction breakout, supported by a massive 12.94x surge in pre-market volume relative to its baseline. Unlike speculative gaps, this move is underpinned by sustained, heavy participation that indicates institutional accumulation following the momentum identified on October 1st. While there is no specific new headline today to anchor this move, the volume profile suggests a structural shift rather than a transient event, justifying a 'gap and run' expectation. The price is holding firmly at the elevated $5.21 level, confirming that the initial bid has matured into a stable floor for the opening session. BEAR: The move in VEEA is fundamentally unanchored, as the latest news headline, 'Why Is Veea Stock Gaining Thursday?', is dated October 1st, leaving today's 56.46% gap without a fresh, actionable catalyst to support the valuation shift. With no new information to justify this price action, the 12.94x surge in volume relative to the baseline indicates an exhaustive blow-off top rather than a sustainable trend. This is a classic 'already priced in' scenario where the market has likely exhausted its capacity for positive news, setting the stage for a classic opening-auction reversal as early liquidity providers exit into the retail buyers at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XP",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: XP is exhibiting a classic breakaway gap supported by extreme relative volume at 179x the baseline, signaling institutional accumulation. While no specific breaking headline explains this exact move, the setup follows a ChartMill technical strength rating of 9/10 issued on 10/01, suggesting this breakout was highly anticipated by technical traders. The gap has held steady through the pre-market session, indicating genuine conviction rather than a liquidity-starved pop. This structural break suggests significant upside momentum as previous resistance levels are cleared with heavy force. BEAR: The current 17.72% gap lacks a fundamental catalyst, as the most recent news on October 2nd regarding Treasury yields is stale and entirely generic to the financial sector. This is a classic 'already priced in' setup where the absence of breaking news suggests the move is driven by speculative thin-tape pricing rather than institutional conviction. With the pre-market volume of 242,690 shares failing to sustain momentum, we are likely looking at an opening-auction reversal where retail buyers become immediate exit liquidity for traders who front-ran the technical breakout headline from October 1st. The lack of a durable, event-driven catalyst makes the current price action highly susceptible to a swift gap-fade at the 9:30 open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

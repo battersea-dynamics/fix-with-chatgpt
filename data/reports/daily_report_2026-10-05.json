@@ -1,0 +1,1109 @@
+{
+  "date": "2026-10-05",
+  "events": [
+    {
+      "at_et": "2026-10-05T08:47:09-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-05T08:53:44-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-10-05T09:31:43-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHRW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STGW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UMC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T10:23:58-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1017",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1017.json",
+        "shortlist": [
+          "APUS",
+          "PTC",
+          "SDEV",
+          "PCVX",
+          "VEEA",
+          "QRVO",
+          "XP",
+          "XRPN",
+          "AMOD",
+          "RXO",
+          "STNE",
+          "JAGX",
+          "XRPNW",
+          "VELO",
+          "PAGS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "live ask $89.62 has reached or passed the original take-profit target $86.23"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T10:53:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1046.json",
+        "shortlist": [
+          "APUS",
+          "PTC",
+          "SDEV",
+          "VEEA",
+          "PCVX",
+          "JAGX",
+          "XRPN",
+          "XP",
+          "RXO",
+          "VELO",
+          "XRPNW",
+          "STNE",
+          "QRVO",
+          "PAGS",
+          "AMOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QRVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T11:25:33-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1116.json",
+        "shortlist": [
+          "PTC",
+          "APUS",
+          "SDEV",
+          "PCVX",
+          "VEEA",
+          "XP",
+          "JAGX",
+          "RXO",
+          "XRPN",
+          "XRPNW",
+          "VELO",
+          "STNE",
+          "INTR",
+          "PAGS",
+          "QRVO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QRVO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T11:54:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1146.json",
+        "shortlist": [
+          "PTC",
+          "SDEV",
+          "APUS",
+          "PCVX",
+          "VEEA",
+          "XP",
+          "RXO",
+          "JAGX",
+          "XRPN",
+          "XRPNW",
+          "VELO",
+          "STNE",
+          "INTR",
+          "PAGS",
+          "ACB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T12:28:06-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1216.json",
+        "shortlist": [
+          "PTC",
+          "SDEV",
+          "PCVX",
+          "APUS",
+          "VEEA",
+          "RXO",
+          "XP",
+          "JAGX",
+          "XRPN",
+          "VELO",
+          "XRPNW",
+          "STNE",
+          "INTR",
+          "PAGS",
+          "ACB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T13:01:27-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1246.json",
+        "shortlist": [
+          "PTC",
+          "SDEV",
+          "APUS",
+          "PCVX",
+          "VEEA",
+          "RXO",
+          "XP",
+          "JAGX",
+          "XRPNW",
+          "XRPN",
+          "VELO",
+          "STNE",
+          "INTR",
+          "PAGS",
+          "ACB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T13:24:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1317",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1317.json",
+        "shortlist": [
+          "PTC",
+          "SDEV",
+          "APUS",
+          "PCVX",
+          "VEEA",
+          "RXO",
+          "XP",
+          "JAGX",
+          "XRPN",
+          "XRPNW",
+          "VELO",
+          "STNE",
+          "INTR",
+          "PAGS",
+          "ACB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T13:57:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1346.json",
+        "shortlist": [
+          "PTC",
+          "SDEV",
+          "VEEA",
+          "PCVX",
+          "APUS",
+          "RXO",
+          "XP",
+          "XRPN",
+          "JAGX",
+          "VELO",
+          "XRPNW",
+          "STNE",
+          "INTR",
+          "PAGS",
+          "ACB"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ACB",
+            "action": "submitted",
+            "order": {
+              "symbol": "ACB",
+              "qty": 66,
+              "est_cost": 298.32,
+              "entry_ref": 4.52,
+              "take_profit": 4.81,
+              "remaining_take_profit_pct": 6.38,
+              "stop_loss": 4.38,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261005-135719-ACB",
+              "analysis_price": 4.545,
+              "live_price_change_pct": -0.55
+            },
+            "broker": {
+              "id": "66a22108-0b0a-4fdc-93bc-727ca6cd408f",
+              "client_order_id": "ta-20261005-135719-ACB",
+              "symbol": "ACB",
+              "qty": "66",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.81,
+              "stop_loss": 4.38,
+              "legs": [
+                "2bc03a74-20d3-47fd-b742-e8a0ebedfc38",
+                "49832d42-b4b8-432c-acc8-24a7e6d5b939"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T14:21:46-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1416.json",
+        "shortlist": [
+          "PTC",
+          "VEEA",
+          "SDEV",
+          "APUS",
+          "PCVX",
+          "RXO",
+          "XP",
+          "XRPN",
+          "VELO",
+          "XRPNW",
+          "JAGX",
+          "INTR",
+          "STNE",
+          "PAGS",
+          "DNA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RXO",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T14:49:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1446.json",
+        "shortlist": [
+          "PTC",
+          "VEEA",
+          "SDEV",
+          "APUS",
+          "PCVX",
+          "RXO",
+          "XP",
+          "XRPN",
+          "VELO",
+          "JAGX",
+          "INTR",
+          "XRPNW",
+          "STNE",
+          "PAGS",
+          "DNA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 3
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T15:18:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1517",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1517.json",
+        "shortlist": [
+          "PTC",
+          "VEEA",
+          "SDEV",
+          "PCVX",
+          "RXO",
+          "APUS",
+          "XP",
+          "XRPN",
+          "VELO",
+          "JAGX",
+          "XRPNW",
+          "INTR",
+          "DNA",
+          "STNE",
+          "PAGS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T15:48:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1547",
+        "shortlist_file": "data/lists/2026-10-05/shortlist_1547.json",
+        "shortlist": [
+          "PTC",
+          "VEEA",
+          "SDEV",
+          "RXO",
+          "PCVX",
+          "APUS",
+          "XP",
+          "XRPN",
+          "VELO",
+          "JAGX",
+          "NVAX",
+          "XRPNW",
+          "STNE",
+          "INTR",
+          "DNA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-05T15:48:10-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

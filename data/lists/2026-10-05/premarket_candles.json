@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-05T08:50:12-04:00",
+  "session_date": "2026-10-05",
+  "reads": {
+    "PCVX": {
+      "symbol": "PCVX",
+      "pattern": "Gap and Run",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "APUS": {
+      "symbol": "APUS",
+      "pattern": "Vertical Breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "PTC": {
+      "symbol": "PTC",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "STGW": {
+      "symbol": "STGW",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VEEA": {
+      "symbol": "VEEA",
+      "pattern": "gap and run",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "CHRW": {
+      "symbol": "CHRW",
+      "pattern": "Bearish Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "RXO": {
+      "symbol": "RXO",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "SDEV": {
+      "symbol": "SDEV",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "XP": {
+      "symbol": "XP",
+      "pattern": "Breakaway Gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "OI": {
+      "symbol": "OI",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "ITUB": {
+      "symbol": "ITUB",
+      "pattern": "Gap and Go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "UMC": {
+      "symbol": "UMC",
+      "pattern": "gap-down exhaustion reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-05T14:49:17-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "PTC",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: PTC is exhibiting extraordinary momentum, supported by a 13.40x relative volume spike and a 33.65% price jump, confirming significant institutional interest today. While the catalyst report lacks specific news, the stock's rank as the #1 active mover on the S&P 500 confirms it as a primary focus for market participants. The tape shows persistent, high-volume action across 10 consecutive observations, maintaining strong price acceleration of 0.0387% points even as the day concludes. Given the stock is trading 40.88% above its 20-day moving average, the current structure favors continuation on this massive relative volume expansion. BEAR: PTC exhibits clear signs of exhaustion with a -0.84% drawdown from the observed high and a shrinking rel_volume_rate_per_30m, indicating the momentum that drove the 33.65% gain is fading. The absence of any company-specific news to explain this massive rally suggests the move is driven by technical noise rather than fundamental value, leaving no support for the current +40.88% extension from the 20-day moving average. With a negative return since being first tracked and a score decrease of -0.0952 over the last 270 minutes, buying at this level constitutes chasing a move that has already lost its participation intensity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: VEEA is displaying powerful momentum with an 80.18% gain on the day supported by 3.25x relative volume, indicating strong institutional interest. While there is no specific fundamental news catalyst explaining this move in the provided report, the stock has maintained a persistent presence as a top mover throughout the session, having been observed for 10 consecutive intervals since 10:17 ET. The stock is currently trading at $6.00 and has held its ground well, showing a 15.83% return since first being identified despite a minor 4.76% drawdown from its observed high. The combination of high relative volume and sustained rank stability as a top mover supports a continuation play for the short term. BEAR: VEEA is displaying clear signs of exhaustion, with a price acceleration of -22.85% and a -4.76% drawdown from its observed high of $6.30. The relative volume rate is contracting at -0.0079 per interval, indicating that bullish momentum is failing as the stock sits 90.02% above its 20-day moving average. Furthermore, there is no specific company-level catalyst provided to justify an 80.18% move, suggesting this is a momentum trap where volume is insufficient to sustain current valuation levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SDEV",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: SDEV is exhibiting extreme relative volume of 2.89x today, signaling heavy participation despite a significant intraday decline. While there is no specific fundamental catalyst in the news report, the stock remains a focal point for traders as noted in Monday's volume and mover reports. The price is still elevated by 102.35% over its 20-day moving average, providing a technical buffer for a mean reversion play. With 10 consecutive observations showing sustained liquidity, the stock is positioned for a potential bounce from current oversold levels. BEAR: SDEV is suffering from clear tape deterioration as evidenced by a 38.98% drawdown from its observed session high and a consistent slide in momentum score. The stock is exhibiting 'chasing' risk because it remains 102.35% above its 20-day moving average despite a 54.57% collapse today, indicating the initial move has already evaporated into exit liquidity. Furthermore, the absence of any specific fundamental news catalyst\u2014despite multiple generic scan headlines\u2014leaves the massive 2.89x relative volume to reflect only panicked technical selling rather than institutional accumulation. Buying here ignores the negative price acceleration and the reality that the stock is struggling to hold any gains, with only 3 out of 9 observed intervals showing positive movement.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "PTC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VEEA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SDEV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

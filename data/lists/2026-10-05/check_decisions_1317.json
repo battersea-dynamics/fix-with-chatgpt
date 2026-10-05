@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-10-05T13:24:16-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "PTC",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: PTC is experiencing a significant catalyst-driven breakout following the confirmed news today that it will be acquired by Schneider Electric for $23.7 billion. This acquisition provides a clear valuation floor and immediate momentum, supported by massive buying pressure with relative volume reaching 11.66x normal levels. Despite a minor intraday consolidation, the stock remains at the top of the daily rank list with seven consecutive observations and minimal drawdown from its session high of 194.14. Investors can capitalize on the post-announcement volatility as the market adjusts to the M&A valuation. BEAR: PTC is currently experiencing clear 'chasing' dynamics as the stock trades 41.11% above its 20-day moving average and has already seen its relative volume rate of change drop significantly by -59.69%. The immediate catalyst\u2014the acquisition news by Schneider Electric\u2014is fully baked into the price, evidenced by the 180-minute intraday drawdown from the observed high and the negative return since the initial observation. Buying now is acting as exit liquidity for early entrants, as the price momentum has shifted negative with an acceleration of -0.3062 and persistent intraday decay.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.37e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SDEV",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 7.88,
+      "stop_loss_pct": 4.2,
+      "reasoning": "net -0.75 = bull 0.20 - bear 0.95 (buy at >= +0.20). BULL: SDEV is currently exhibiting massive relative volume at 2.61x its normal levels, signaling extreme market interest following a sharp 51.8% intraday decline. While a negative research report regarding the company's structure was released today, the stock remains highly active with 7 consecutive observations and high liquidity participation, providing the necessary volume to support a potential mean-reversion trade from these depressed levels. Traders looking for a short-term bounce can capitalize on the elevated volatility as the stock attempts to stabilize from its current 35.28% drawdown relative to its observed session high of $5.57. Given the extreme sell-off, any sign of buying momentum could trigger a violent snap-back in price, allowing for significant profit capture within a short timeframe. BEAR: SDEV is currently suffering from a severe negative catalyst following the release of a Fugazi Research report titled 'SDEV: A Dilution Timebomb Wearing a Stablecoin Costume,' which is directly contributing to a -51.80% intraday crash. The internal data shows clear exhaustion, with a -35.27% drawdown from its observed high and consistent negative price acceleration of -3.59%. With the stock still trading +114.65% above its 20-day moving average despite the steep decline, the technical setup remains in a state of rapid, accelerating mean reversion. Attempting to catch this falling knife is extremely dangerous, as the combination of fundamental fraud allegations and confirmed intraday tape deterioration signals that the stock is acting as exit liquidity for early sellers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.74,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: APUS is exhibiting extreme momentum today, up 41.80% on massive relative volume of 4.88x its 20-day average, signaling strong institutional interest. While there is no new catalyst from the last seven days to explain this sudden surge, the stock has maintained its presence on the top mover leaderboards throughout the session with seven consecutive observations. Despite a drawdown of 11.68% from its session high, the price remains 47.85% above its 20-day moving average, indicating significant bullish strength and potential for a secondary breakout as traders capitalize on the high liquidity. BEAR: APUS is exhibiting classic signs of exhaustion after a 41.80% intraday surge, having already retraced 8.22% from its session high of $5.17. The current relative volume rate is decelerating at -0.0055, and the price acceleration of -2.0648% indicates that momentum is failing as the stock sits 47.85% above its 20-day moving average. With no material news provided today to justify the continued vertical move, the current setup represents buying into clear exit liquidity rather than a sustainable trend. The lack of fresh catalysts combined with the observed -11.68% drawdown from highs marks this as a high-risk chase.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PCVX",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: PCVX is surging today on the back of positive top-line results from its VAX-31 Phase 3 OPUS-1 trial, a major clinical catalyst driving the stock to new 52-week highs. The move is supported by heavy institutional interest, evidenced by a massive relative volume of 6.90x the 20-day average. Despite a slight pullback from its session high, the stock has maintained strong momentum with seven consecutive positive scan observations, keeping it ranked as a top mover in the market. The combination of successful clinical data and intense volume participation provides a compelling setup for further near-term upside as the market digests these results. BEAR: PCVX is exhibiting clear signs of chasing and exhaustion, with a 6.14% drawdown from its observed high of $78.31 despite the VAX-31 trial news being fully digested today. While the stock has seen a 6.90x increase in relative volume, the momentum has significantly deteriorated since it was first seen, evidenced by a negative return of -6.14% from that initial point. Trading at 25.93% above its 20-day moving average, the stock is extremely extended, and the current 'exhausted_or_reversing' setup label is corroborated by the observed decline in price and slowing momentum. Buying now requires entering into liquidity being provided by participants who caught the earlier gap-up move, leaving late entrants highly vulnerable to further mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: VEEA is showing significant momentum with a massive 49.25% gain today and relative volume reaching 2.57x its 20-day average, signaling strong institutional interest. While the catalyst report contains no specific news explaining this move, the stock remains well-extended, sitting 57.40% above its 20-day moving average, which underscores intense buyer conviction. Despite a minor recent pullback from the observed high, the consistency of being tracked for seven consecutive 30-minute intervals confirms sustained market attention that could drive further upside as the volatility persists. BEAR: VEEA is displaying clear signs of exhaustion with a 6.90% drawdown from its observed session high and a negative price acceleration of -5.08 percentage points. The relative volume rate is actively deteriorating with a change of -0.0068, suggesting buying participation is drying up while the stock sits 57.40% above its 20-day MA. Given that the news headlines from the 2026-10-05 session are generic market-mover reports rather than company-specific catalysts, the current 49.25% gain lacks a fundamental anchor and is susceptible to an immediate mean-reversion move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RXO",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: RXO is surging on the definitive catalyst of a $5.8 billion acquisition agreement by C.H. Robinson, announced today, October 5, 2026. Market participation is massive, with relative volume at 5.89x the 20-day average, signaling strong institutional buy-in to the merger news. Despite being held for 180 minutes, the stock has maintained significant gains of 21.83% and has demonstrated consistent, high-volume interest across 7 consecutive observation intervals. This M&A-driven momentum provides a clear structural floor for the stock as it aligns with the acquisition valuation. BEAR: The stock is currently trading 41.26% above its 20-day moving average, creating a significant technical extension that invites mean reversion. The intraday momentum has demonstrably deteriorated, with a 0.26% drawdown from the observed session high and negative price acceleration of -0.95%. Because the $5.8 billion C.H. Robinson acquisition news is already public, the primary catalyst is fully digested, leaving late-entry buyers as exit liquidity for early participants. With the price failing to improve its rank over the last 180 minutes, the risk of a parabolic blow-off top is high.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.8e+09 - no matching value in source data",
+        "bear: cited 5.8e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "XP",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net +0.00 = bull 0.75 - bear 0.75 (buy at >= +0.20). BULL: XP is experiencing massive buying interest today, evidenced by a 32.86% surge and relative volume at 3.99x its 20-day average, directly supported by a broader 14% rally in Brazilian stocks following Bolsonaro's first-round victory. The stock has demonstrated persistent institutional interest with seven consecutive observations since 10:17 AM and a minimal 0.902% drawdown from its observed high of $28.825. While the intraday momentum shows minor fluctuations, the sheer scale of the volume expansion and the direct alignment with positive macro headlines from 2026-10-05 provide a strong foundation for continued bullish momentum. BEAR: The stock is experiencing a clear exhaustion phase, with a +40.76% deviation from its 20-day moving average rendering it highly vulnerable to a mean-reversion move. The momentum data confirms this deterioration, showing a persistent drawdown from the observed high, a negative price acceleration, and a diminishing relative volume rate of -0.1258. Furthermore, the massive 32.86% surge is almost entirely tethered to macroeconomic beta associated with the Brazilian election headline, creating significant 'chasing' risk as the initial fervor cools and the trade becomes liquidity for earlier participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JAGX",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 4.23,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: JAGX is seeing significant momentum today with a 35.25% gain supported by strong relative volume of 3.82x. The move is backed by recent positive news, specifically the announcement of a special stock dividend on October 3, 2026, and the anticipation surrounding the upcoming ACG 2026 presentation of clinical data for Crofelemer. With 7 consecutive positive scan observations and a robust price acceleration of 5.0391, the stock is exhibiting high engagement. The current drawdown of only 3.88% from the observed high of $5.15 indicates healthy consolidation within a strong trending day. BEAR: JAGX is exhibiting clear signs of exhaustion, with the price now trading 1.78% below the initial morning peak despite the high relative volume of 3.82x. The tape deterioration is confirmed by the rel_volume_rate_change of -0.0197, indicating that buying interest is waning precisely as the stock struggles to sustain its intraday highs. With the stock already 24.72% below its 20-day moving average, the current rally is likely a transient liquidity spike rather than a sustainable trend change. Furthermore, the lack of fresh, high-impact news today suggests that the 35.25% move is highly vulnerable to profit-taking as momentum stalls.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPN",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: XRPN is showing robust participation with a relative volume of 1.85x, indicating strong interest despite the session's slight pullback. The stock is currently benefiting from significant structural momentum as evidenced by a 194.50% distance from its 20-day moving average. Furthermore, the upcoming October 8 listing of Evernorth with 473 million XRP provides a clear, high-impact fundamental catalyst that should sustain investor attention. With seven consecutive observations and a recent improvement in rank, the market is actively positioning ahead of this mid-week event. BEAR: XRPN shows clear signs of chasing exhaustion, with the stock trading 194.50% above its 20-day moving average while suffering a 3.55% drawdown from its observed session high. The momentum is rapidly deteriorating, evidenced by a sharp price acceleration of -10.27 points and a negative return since the first observed interval. Furthermore, the lack of a fresh catalyst\u2014with all relevant news being at least three days old\u2014suggests the current price action is disconnected from fundamental developments and vulnerable to a sharp mean reversion.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.73e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: XRPNW is displaying significant momentum with a 5.51% gain and relative volume of 1.94x, indicating strong market interest despite current price consolidation. While there is no specific breaking headline today, the stock is clearly in a heightened state of activity, holding 184.01% above its 20-day MA which reflects a powerful shift in trend. The tape shows persistent interest with seven consecutive observations and a return since first seen of 0.125%, suggesting that despite a minor drawdown from the session high of $4.00, the stock remains well-bid. Investors are likely reacting to the technical breakout sentiment noted in recent coverage regarding the stock's ability to clear historical resistance levels. BEAR: XRPNW is exhibiting clear signs of chasing risk, as it trades a massive 184.01% above its 20-day moving average with no fresh catalyst to justify the extension. The tape shows concrete deterioration over the last 180 minutes, marked by a decline in relative volume pace, a drop in rank, and a 1.875% drawdown from the session high. With price acceleration currently at -4.1323 and the setup labeled as exhausted, the momentum is clearly fading, suggesting that participants are retreating after the initial move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VELO",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: VELO is experiencing a significant liquidity event today, evidenced by massive volume at 5.45x its 20-day average despite an 18.3% price decline. The stock has shown resilience over the last 180 minutes, maintaining a positive return of 0.9934% since it was first tracked at 10:17 ET. While the catalyst report is empty, the combination of high relative volume and a price that has remained 0.9934% above its first-seen entry suggests institutional absorption of the selling pressure. This setup represents a high-volatility mean-reversion opportunity. BEAR: VELO is experiencing a violent 18.30% sell-off today on massive 5.45x relative volume, with no news catalyst to explain the breakdown. The intra-day data shows clear deterioration, as the relative volume rate per 30 minutes is declining (-0.1363) and price momentum has turned negative (-1.2917 percentage points). With the stock currently sitting 15.64% below its 20-day moving average and failing to improve its rank despite the session high, the absence of a recovery catalyst suggests this is a momentum-driven liquidation rather than a dip-buying opportunity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STNE",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: STNE is surging on massive volume, currently trading at 4.15x its 20-day average relative volume, which aligns with the broader rally in Brazilian stocks following Bolsonaro's first-round election victory reported on 2026-10-05. The stock has demonstrated strong institutional interest, maintaining a presence in our watchlist for seven consecutive observations and holding a significant 21.57% gain on the session. While the price has experienced a minor 2.97% drawdown from its intraday high of $11.965, the sustained high relative volume suggests persistent buying interest behind the fundamental catalyst. This environment supports a bullish continuation trade as the market digests the significant geopolitical news. BEAR: STNE is currently showing clear signs of exhaustion, with a 2.967% drawdown from its observed session high of $11.965 and negative price acceleration of -1.8148 percentage points. The stock is extended 20.11% above its 20-day moving average, making it highly vulnerable to a mean-reversion move as the intraday momentum fades. The primary catalyst is a broad, sector-wide rally following Bolsonaro's election victory, which is a macro-driven event rather than company-specific strength, suggesting the current +21.57% gain may be an overreaction that is already struggling to sustain its morning peak.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INTR",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: INTR is experiencing a significant breakout with a 21.90% daily gain on 3.67x relative volume, indicating strong institutional interest. The stock is holding its momentum well above the 20-day moving average, and its presence in the October 5th headline regarding financials moving in the pre-market suggests active trader attention. While the price has retraced slightly from its daily high of 6.79, the sustained volume participation supports the possibility of a continuation for traders looking to capture the current volatility. Nothing in the immediate news explains the move, so this trade is strictly a technical play on the massive surge in liquidity and relative strength. BEAR: INTR is exhibiting clear signs of exhaustion as it trades 23.33% above its 20-day MA with momentum actively deteriorating over the last two hours. The stock has failed to hold its intraday high of $6.79, suffering a 1.62% drawdown while return since first seen has turned negative at -1.5475%. Furthermore, there is no specific catalyst in the news report to justify a 21.90% move, suggesting this is a momentum-chase rally now running out of buyers. With price acceleration turning negative at -1.3277 points, the risk of a sharp mean-reversion is high as participation fades.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PAGS",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: PAGS is surging on massive relative volume of 3.69x, benefiting from the broader 14% rally in Brazilian stocks following positive election outcomes on 2026-10-05. The stock has demonstrated strong persistence with 7 consecutive observations and 3 positive intervals during the session, maintaining its momentum well above the 20-day moving average. Despite a minor recent pullback, the high relative volume and significant outperformance confirm strong institutional interest that validates the current bullish trend. BEAR: PAGS is exhibiting clear signs of chasing risk, with the stock trading 18.27% above its 20-day moving average on the back of a sector-wide rally rather than company-specific strength. The intraday tape shows concrete deterioration over the last 180 minutes, marked by a negative return of 1.25% from its observed high and a consistent decline in price acceleration. Furthermore, the 3.69x relative volume is fading, evidenced by a negative change in the relative volume rate, indicating that participation is drying up while the stock is already stretched. This disconnect between the macro-driven 21.74% jump and the weakening intraday momentum creates a high probability of mean reversion as the initial buying frenzy exhausts itself.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ACB",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 3.85,
+      "stop_loss_pct": 2.45,
+      "reasoning": "net +0.05 = bull 0.65 - bear 0.60 (buy at >= +0.20). BULL: ACB is demonstrating exceptional momentum today with 4.19x relative volume and a 15.31% price increase, supported by a 90-minute sustained participation period since 11:47 ET. The price action remains robust, evidenced by 0.704% returns since first observation and a tight drawdown of only 0.3308% from the session high of $4.535. While the catalyst report contains no news explaining today's specific jump, the tape is objectively strong, featuring positive price acceleration of 0.5518% points and an improving volume rate. This price persistence, combined with the stock trading 14.47% above its 20-day moving average, confirms significant institutional buying interest in this session. BEAR: ACB is experiencing a parabolic move with a 15.31% gain and a 4.19x relative volume spike that lacks any immediate fundamental catalyst in the news report, making this a pure momentum chase. While the setup is labeled as sustained, the price has already retreated 0.33% from its observed high, and the lack of fresh news suggests this move is susceptible to a rapid reversal once speculative interest wanes. Buying at a 14.47% premium to the 20-day moving average in the absence of a supporting company-specific catalyst creates significant downside exposure for a short-term holding.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "PTC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SDEV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "APUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PCVX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VEEA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RXO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JAGX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VELO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "STNE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INTR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PAGS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ACB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
