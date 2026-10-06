@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-10-06T12:25:23-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "AVBP",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: AVBP is demonstrating a powerful technical reversal off intraday lows, evidenced by 16.04x relative volume and a 20.26% recovery since its first observation two hours ago. The momentum is confirmed by five consecutive positive observations, three of which showed price appreciation, and a strong price acceleration of 12.81 percentage points. While there is no specific company-specific catalyst in the news report, the extreme volume and sustained price recovery signal a significant accumulation event following the initial sell-off. This setup leverages the high volatility of the stock to capture a mean-reversion move as it recovers from its heavily oversold state. BEAR: AVBP is currently suffering from a massive -49.84% day change and is trading 51.02% below its 20-day moving average, creating extreme technical instability. The complete lack of specific company-level catalysts in the news report suggests this volatility is driven by uninformed sentiment or a technical breakdown rather than a positive fundamental shift. While the momentum setup indicates recent improvement, the significant distance from the moving average and absence of news-backed conviction make this move vulnerable to violent mean reversion. Buying here constitutes catching a falling knife during a session where the stock has lost nearly half its value.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IPDN",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 5.31,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: IPDN is currently driven by a significant fundamental catalyst, specifically the October 6th announcement that its PDN Intelligence subsidiary has secured a lease deal with Goodwill Labs and HashForest Technology for Nvidia B300 eight-GPU systems, representing $1.177 million in initial capital commitments. This news provides clear justification for the massive surge in interest, evidenced by a relative volume of 19.68x its 20-day average. While the stock has retraced from its intraday high of $4.95, it remains up 42.16% on the day, showing high participation and sustained momentum. The entry at $4.41 captures a stock experiencing major operational restructuring and new infrastructure investment, making it a prime candidate for traders looking to capitalize on high-volatility news-driven breakouts. BEAR: IPDN is currently exhibiting clear signs of chasing exhaustion, as the stock has already endured an 10.97% drawdown from its observed session high of $4.95. Despite the headline catalyst regarding the $1.177M capital commitment for GPU systems, the momentum has deteriorated significantly with a negative return of 10.97% since the stock was first spotted 120 minutes ago. Furthermore, the asset is trading 19.73% above its 20-day moving average, creating a stretched technical profile that leaves little room for further upside without substantial new buying pressure, which is currently failing to materialize.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.177e+06 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "OPCH",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.25 = bull 0.95 - bear 0.70 (buy at >= +0.20). BULL: OPCH is surging today following the definitive news that it is being acquired by McKesson and CD&R in a $5.8 billion deal, a catalyst that justifies the significant upward price re-rating. Market conviction is exceptionally high, evidenced by a relative volume of 17.64x normal, demonstrating massive institutional participation. The price action confirms this momentum, as the stock has maintained its highs with zero drawdown from the observed high of $31.065 and shows a consistent positive price acceleration of 0.1612 percentage points. Given the fundamental nature of the acquisition catalyst and the 120 minutes of sustained accumulation, the stock is poised for continued strength. BEAR: OPCH is currently trading at a 32.40% premium to its 20-day moving average, a level that leaves almost no room for upside following the confirmed $5.8 billion buyout news. Buying at $31.07 essentially locks in an entry at the headline-driven ceiling, where the potential for further gains is capped by the fixed value of the acquisition deal. With relative volume at 17.64x normal, the primary institutional participation has likely already occurred, and the modest 0.007 decline in the relative volume rate suggests early signs of participation exhaustion.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.8e+09 - no matching value in source data",
+        "bear: cited 5.8e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: APUS is demonstrating powerful momentum with a 49.46% intraday gain and exceptional relative volume at 3.35x normal, indicating intense institutional interest. The stock has shown remarkable persistence, with five consecutive positive observation intervals and a 15.683% return since the first scan at 10:17 ET. While the catalyst report from October 5th highlights significant market attention, the current price action at $6.86 confirms the stock is holding its highs with zero drawdown from the observed peak, signaling sustained buying pressure. BEAR: APUS is currently trading at a precarious 114.59% above its 20-day moving average, signaling an extreme extension that leaves no margin for error. The intraday tape shows concrete signs of exhaustion, specifically a significant negative shift in the relative volume rate of change at -0.3181 and a stalling in price momentum with a -4.67 percentage point drop in acceleration. While there was news regarding the stock's movement on October 5th, the lack of a fresh fundamental catalyst for today's session leaves this massive 49.46% gain vulnerable to rapid mean reversion as liquidity dries up. Buying at these levels represents clear exit liquidity for earlier participants given the decaying volume pace and the severe distance from historical price averages.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPN",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: XRPN is experiencing an extreme oversold rebound candidate after a 52.08% daily decline, supported by elevated relative volume at 1.58x normal levels. While there is no specific catalyst in the news report, the stock is showing signs of stabilizing with a slight rank improvement from 6th to 5th place in the current session. The price remains 28.12% above its 20-day moving average, suggesting that despite the sharp intraday drop, the broader technical trend has room to reclaim higher ground. A tactical entry relies on the high-volume liquidity provided by today's massive sell-off to catch a mean-reversion bounce. BEAR: Buying XRPN currently involves chasing a stock that is undergoing rapid intraday deterioration, evidenced by a 6.51% drawdown from its observed high and consistent negative returns across 120 minutes of observation. The price acceleration is significantly negative at -3.44%, while the relative volume rate is fading, suggesting that participants are retreating rather than driving a sustained trend. With no company-specific catalyst in the news to justify a 28.12% premium to its 20-day moving average despite a 52.08% daily decline, the current price action reflects uncontrolled selling momentum rather than a buying opportunity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.50 = bull 0.25 - bear 0.75 (buy at >= +0.20). BULL: Despite a significant price drop today, MI is demonstrating technical resilience, with three of the last four observed intervals showing positive price development and an improvement in rank from 7 to 6. Although relative volume is currently low at 0.53x, the stock maintains a strong position relative to its 20-day moving average, trading 44.57% above it. There is no specific catalyst in today's news report to explain the volatility, but the recent tick-by-tick recovery efforts suggest a potential short-term bounce as the stock tests support levels after its intraday move. The current setup offers a speculative opportunity for a mean-reversion trade given the recent positive price acceleration intervals. BEAR: MI is exhibiting clear signs of exhaustion with a -51.64% daily change that is not backed by any specific company-level catalyst, leaving the price action driven by volatility rather than fundamental news. The internal tape shows measurable deterioration, evidenced by a -9.4896% drawdown from the observed session high and a negative price acceleration of -1.0894 points. Furthermore, the relative volume rate is fading with a negative change of -0.0077, indicating that participation is dropping as the stock struggles to sustain its momentum despite being 44.57% above its 20-day MA.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: XRPNW is displaying strong institutional interest today with relative volume at 1.79x its 20-day average, signaling significant buying participation that supports its current 6.63% gain since first observation. While the stock has pulled back from its intraday high of $4.0056, the price remains well-supported, and momentum persists through five consecutive tracked intervals. Recent coverage regarding its technical breakout potential above $1.54 provides a broader fundamental tailwind for this current momentum phase. The stock's ability to maintain a strong position 154% above its 20-day MA confirms a powerful trend that justifies a bullish outlook for continued volatility-driven gains. BEAR: XRPNW is currently exhibiting clear signs of momentum exhaustion after extending 154.03% above its 20-day moving average. The intraday tape shows measurable deterioration, with a price acceleration of -19.7393 and a drawdown of 3.6349% from the observed high, confirming that buying now is simply chasing a move that has already peaked. Furthermore, there is no fresh catalyst in the news report to justify these levels, as all available headlines are three to four days old and relate to technical breakouts that have likely been fully priced in by now. The decline in rank from 5 to 7 and the reduction in the momentum score further highlight that the buying pressure is fading at the current $3.86 level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JAGX",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 4.69,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: JAGX is experiencing massive institutional interest today, reflected in a relative volume of 5.06x normal and a significant 24.10% price jump. The stock has demonstrated sustained participation with five consecutive scanner observations, and recent headlines confirming the stock as a top-tier pre-market mover highlight strong market attention. Despite a temporary drawdown from the intraday high of $7.075, the asset remains highly liquid with positive price acceleration of 9.1583 points, suggesting that the recent consolidation is merely a pause in a wider upward trend. BEAR: JAGX is currently a textbook case of chasing, as the stock has already suffered a significant 17.03% drawdown from its observed high of $7.075 during the session. The relative volume rate is actively decelerating at -0.0868, indicating that the initial buying pressure is fading rapidly despite the headline-driven price surge. With only one of four observed intervals showing positive price action, the setup is defined by exhausted momentum rather than sustainable growth. Relying on news that has already been digested in the pre-market session leaves the current buyer as exit liquidity for those who entered at lower levels earlier today.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DNA",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: DNA is experiencing a high-volume capitulation event today with relative volume at 4.11x normal, which often precedes a sharp technical reversal for volatile stocks trading significantly above their 20-day moving average (+33.85%). While the immediate momentum shows a drawdown of 12.57% from the intraday high, the stock's recent fundamental involvement in the Antibody Developability Consortium announced on September 29 provides a structural floor for institutional interest. Trading volume confirms significant market participation, suggesting that the current 16.92% decline may be an exhaustive washout clearing weak hands before a potential stabilization. There is no specific catalyst explaining today's sell-off, but the elevated trading activity indicates a high-conviction pivot point is forming. BEAR: DNA is currently experiencing a classic chasing failure mode, as evidenced by a 12.57% drawdown from its observed session high and a clear deterioration in momentum with price acceleration dropping to -2.53%. Despite being 33.85% above its 20-day moving average, there is no fresh catalyst in the news report to justify the elevated volatility, leaving the stock vulnerable to mean reversion. Furthermore, the relative volume rate is slowing, down -0.0564 per interval, confirming that participation is fading while the stock remains extended from its baseline. Buying now ignores the objective tape evidence of exhaustion and the lack of fundamental news to support the current price level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SDEV",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: SDEV is exhibiting significant relative strength, trading 105.79% above its 20-day moving average on 1.65x relative volume, indicating sustained buyer interest despite current session volatility. While the catalyst report lacks a direct news headline for SDEV today, the stock remains a high-activity mover within the broader healthcare sector, which is seeing active trading as evidenced by recent sector-wide headlines. The price has maintained a gain of 13.21% since first being observed today, proving it is holding onto a substantial portion of its intraday move. This setup favors a momentum entry for traders looking to capture a bounce off the current drawdown from the day's high of 4.04. BEAR: SDEV is currently exhibiting clear signs of exhaustion as it trades 105.79% above its 20-day moving average without a proprietary catalyst to justify the surge. The momentum data confirms a significant reversal, marked by a 6.68% drawdown from the observed high and a precipitous 21.61 percentage point drop in price acceleration. Furthermore, the diminishing relative volume rate (down 0.1199 per interval) indicates that buying interest is evaporating, leaving late entrants as exit liquidity for those who rode the initial move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SAIQ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: SAIQ is significantly oversold at a 50.04% discount from its 20-day moving average, creating a classic mean-reversion opportunity following a 30.28% single-day decline. The company announced today that it is leading a $10M PIPE investment in WISeSat.Space at a valuation of $10.79/share, providing a significant fundamental anchor far above the current $4.65 market price. Although recent momentum is negative, the stock has shown signs of stabilization with a rank improvement from 12 to 11 and a positive score change of 1.5034, suggesting the aggressive selling pressure is beginning to exhaust. This creates a compelling technical setup for a bounce as the market digests the value implied by the new capital commitment. BEAR: SAIQ is exhibiting a clear case of chasing into a failing momentum setup, with a 30.28% intraday collapse and a 50.04% deviation from its 20-day MA signaling a structural breakdown rather than a healthy retracement. The tape shows measurable deterioration, evidenced by a negative return since first observation, a 10.09% drawdown from the observed high, and an acceleration of -9.459 percentage points. With relative volume at a lackluster 0.73x and no catalyst provided to justify a rebound, the stock is currently serving as exit liquidity for earlier participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DCX",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: DCX is currently experiencing an extreme dislocation, trading 91.82% below its 20-day moving average, which presents a significant mean-reversion opportunity for aggressive traders. While relative volume is low at 0.39x, the stock has shown signs of resilience by maintaining an observed high of $3.03 despite the broader intraday sell-off. There is no specific news catalyst in the report explaining today's 13.91% decline, suggesting the move may be driven by technical exhaustion or forced liquidation rather than fundamental deterioration. Given the lack of confirmed positive momentum and the limited observation history, this trade should be treated as a high-risk contrarian play on an oversold asset. BEAR: DCX is currently exhibiting signs of a structural collapse, evidenced by a massive -13.91% day change and a price that is 91.82% below its 20-day moving average. The stock lacks any immediate positive catalysts in the news report, and with relative volume at a mere 0.39x of normal, this price action is occurring on hollow participation. Furthermore, the intraday tape shows clear deterioration with a 3.32% decline since the first observation and a drawdown of 3.96% from the session high, indicating consistent selling pressure rather than a healthy retracement. Attempting to buy into this liquidation event is equivalent to catching a falling knife with no institutional support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LGHL",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: LGHL is experiencing significant institutional interest, evidenced by a relative volume of 3.51x, suggesting high conviction behind the current price action. Despite a modest intraday pullback, the stock remains a consistent feature in financial sector momentum scanners, with five consecutive observations signaling sustained trader attention. There is no specific news catalyst today, but the technical setup shows a significant discount from the 20-day moving average, creating a classic mean-reversion opportunity for a rapid swing trade. The high relative volume rate provides the liquidity necessary to support a move back toward recent observed highs of $3.96. BEAR: LGHL is suffering from clear momentum decay, as evidenced by a 3.79% drawdown from the session high and a consistent decline in rank from 11 to 13 over the last 120 minutes. The lack of any fresh, price-moving catalyst\u2014with the most recent relevant news dating back to October 5th\u2014leaves the 3.51x relative volume as an isolated spike rather than a sign of sustained institutional interest. With price currently 43.19% below its 20-day moving average, the current setup confirms an exhausted trend where buyers are consistently failing to hold gains, marking this as an entry into likely exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MSGY",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.40 = bull 0.25 - bear 0.65 (buy at >= +0.20). BULL: MSGY is demonstrating significant momentum today with a 13.70% gain, positioning it 80.36% above its 20-day moving average. While the catalyst report contains no news items dated today to explain this sudden spike, the price action reflects a sharp breakout attempt that deserves attention. The current tape shows the stock holding its highs with zero drawdown from the observed high, indicating underlying buyer interest despite low relative volume at 0.03x. Given the lack of specific news, this is a technical momentum play relying on the strength of the breakout movement. BEAR: MSGY presents a high-risk entry because it is trading 80.36% above its 20-day moving average on near-zero volume, with relative volume at a minuscule 0.03x. There is absolutely no fresh catalyst to justify today's 13.7% move, as all provided news headlines are at least four days old and represent stale market reports. The momentum has effectively stalled, showing no rank improvement or positive interval development over the last 30 minutes, confirming that this price action is devoid of real institutional participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: CTVA is exhibiting powerful momentum today, underscored by a 12.23% gain and a sustained 1.8681% return since first being observed at 10:17 ET. The tape is highly constructive, with three consecutive positive observations and zero drawdown from the observed high of $13.905, reflecting strong buying conviction. This move is supported by a fundamental headline suggesting the stock can gain 50% following 'post-spin confusion,' providing a clear narrative for institutional interest. With relative volume at 1.03x and a positive price acceleration of 0.0713, the technical breakout remains well-supported for further short-term upside. BEAR: The stock is currently trading 80.36% below its 20-day moving average, suggesting an extreme technical dislocation that likely requires a significant mean reversion rather than continued linear growth. While the headline regarding 'post-spin confusion' provides a narrative for today's +12.23% move, the momentum metrics show clear signs of fatigue with the relative volume rate dropping by 2.51% and the price rank improvement stalling at zero despite the sustained setup label. Entering at the day's high of $13.905 is precarious as buying interest is failing to push the stock to higher rank improvements after two hours of trading, signaling that the initial catalyst-driven buying is reaching an exhaustion point.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "AVBP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IPDN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OPCH",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "APUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JAGX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DNA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SDEV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SAIQ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DCX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LGHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MSGY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CTVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

@@ -1,0 +1,1210 @@
+{
+  "date": "2026-10-06",
+  "events": [
+    {
+      "at_et": "2026-10-06T08:46:55-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-06T08:52:28-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-10-06T09:32:13-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CEG",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PENN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SYK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XNDU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T10:23:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1017",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1017.json",
+        "shortlist": [
+          "IPDN",
+          "AVBP",
+          "OPCH",
+          "JAGX",
+          "MI",
+          "XRPN",
+          "APUS",
+          "XRPNW",
+          "SDEV",
+          "LGHL",
+          "BLFS",
+          "DNA",
+          "DCX",
+          "CTVA",
+          "SAIQ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T10:56:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1046.json",
+        "shortlist": [
+          "IPDN",
+          "AVBP",
+          "OPCH",
+          "APUS",
+          "JAGX",
+          "MI",
+          "XRPN",
+          "XRPNW",
+          "DNA",
+          "SDEV",
+          "LGHL",
+          "SAIQ",
+          "BLFS",
+          "DCX",
+          "AMOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BLFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T11:26:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1116.json",
+        "shortlist": [
+          "IPDN",
+          "AVBP",
+          "OPCH",
+          "APUS",
+          "JAGX",
+          "XRPN",
+          "MI",
+          "XRPNW",
+          "DNA",
+          "SDEV",
+          "LGHL",
+          "SAIQ",
+          "DCX",
+          "CTVA",
+          "AMOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T11:52:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1146.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "OPCH",
+          "APUS",
+          "XRPNW",
+          "XRPN",
+          "MI",
+          "JAGX",
+          "DNA",
+          "SDEV",
+          "LGHL",
+          "SAIQ",
+          "AMOD",
+          "MSGY",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T12:25:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1216.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "OPCH",
+          "APUS",
+          "XRPN",
+          "MI",
+          "XRPNW",
+          "JAGX",
+          "DNA",
+          "SDEV",
+          "SAIQ",
+          "DCX",
+          "LGHL",
+          "MSGY",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T12:51:43-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1246.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "OPCH",
+          "APUS",
+          "XRPN",
+          "MI",
+          "XRPNW",
+          "JAGX",
+          "DNA",
+          "SDEV",
+          "SAIQ",
+          "LGHL",
+          "DCX",
+          "TNXP",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T13:24:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1316.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "OPCH",
+          "APUS",
+          "XRPN",
+          "XRPNW",
+          "MI",
+          "DNA",
+          "JAGX",
+          "SDEV",
+          "SAIQ",
+          "DCX",
+          "TNXP",
+          "LGHL",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "OPCH",
+            "action": "submitted",
+            "order": {
+              "symbol": "OPCH",
+              "qty": 7,
+              "est_cost": 217.7,
+              "entry_ref": 31.1,
+              "take_profit": 31.69,
+              "remaining_take_profit_pct": 1.91,
+              "stop_loss": 30.42,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261006-132423-OPCH",
+              "analysis_price": 31.1,
+              "live_price_change_pct": 0.0
+            },
+            "broker": {
+              "id": "a622640a-a7b4-47f5-934c-e795ce4c8e4f",
+              "client_order_id": "ta-20261006-132423-OPCH",
+              "symbol": "OPCH",
+              "qty": "7",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 31.69,
+              "stop_loss": 30.42,
+              "legs": [
+                "c664adbd-42bf-424b-810d-3d80f1fe5b38",
+                "439680c5-5143-4e5a-b85c-1b084a0f092a"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T13:53:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1347",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1347.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "APUS",
+          "XRPNW",
+          "XRPN",
+          "MI",
+          "DNA",
+          "JAGX",
+          "SDEV",
+          "TNXP",
+          "SAIQ",
+          "LGHL",
+          "CTVA",
+          "DCX",
+          "AMOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T14:24:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1416.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "APUS",
+          "MI",
+          "XRPNW",
+          "XRPN",
+          "DNA",
+          "JAGX",
+          "SDEV",
+          "TNXP",
+          "SAIQ",
+          "CTVA",
+          "DCX",
+          "LGHL",
+          "AMOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T14:59:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1447",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1447.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "APUS",
+          "MI",
+          "XRPNW",
+          "XRPN",
+          "DNA",
+          "JAGX",
+          "SDEV",
+          "CTVA",
+          "TNXP",
+          "LGHL",
+          "DCX",
+          "SAIQ",
+          "AMOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CTVA",
+            "action": "submitted",
+            "order": {
+              "symbol": "CTVA",
+              "qty": 14,
+              "est_cost": 195.72,
+              "entry_ref": 13.98,
+              "take_profit": 14.44,
+              "remaining_take_profit_pct": 3.27,
+              "stop_loss": 13.65,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261006-145911-CTVA",
+              "analysis_price": 13.965,
+              "live_price_change_pct": 0.11
+            },
+            "broker": {
+              "id": "11b0984e-684c-4fc8-b3ad-4aa92d27d619",
+              "client_order_id": "ta-20261006-145911-CTVA",
+              "symbol": "CTVA",
+              "qty": "14",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 14.44,
+              "stop_loss": 13.65,
+              "legs": [
+                "e7d99dfb-ef75-4875-b62a-5d4496f0e503",
+                "6d32b9ac-64ce-48dc-8d71-531808754b4c"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T15:21:35-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-06/shortlist_1516.json",
+        "shortlist": [
+          "AVBP",
+          "IPDN",
+          "APUS",
+          "MI",
+          "XRPNW",
+          "XRPN",
+          "DNA",
+          "JAGX",
+          "SDEV",
+          "PENG",
+          "TNXP",
+          "DCX",
+          "LGHL",
+          "AMOD",
+          "CEG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-06T16:16:54-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 11,
+        "final_daytime_slot_attempted": false
+      }
+    }
+  ]
+}

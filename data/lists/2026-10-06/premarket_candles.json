@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-06T08:49:12-04:00",
+  "session_date": "2026-10-06",
+  "reads": {
+    "OPCH": {
+      "symbol": "OPCH",
+      "pattern": "momentum gap continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "IPDN": {
+      "symbol": "IPDN",
+      "pattern": "parabolic breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "LW": {
+      "symbol": "LW",
+      "pattern": "Gap and Run Continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SYK": {
+      "symbol": "SYK",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PENN": {
+      "symbol": "PENN",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "JAGX": {
+      "symbol": "JAGX",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BRUN": {
+      "symbol": "BRUN",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "NVAX": {
+      "symbol": "NVAX",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "CEG": {
+      "symbol": "CEG",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "XRPN": {
+      "symbol": "XRPN",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "XNDU": {
+      "symbol": "XNDU",
+      "pattern": "Continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "TRMD": {
+      "symbol": "TRMD",
+      "pattern": "Gap-and-crap reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}
