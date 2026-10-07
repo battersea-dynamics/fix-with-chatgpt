@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-10-07T14:58:17-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "PENG",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: PENG is exhibiting massive institutional accumulation, evidenced by an exceptional 8.12x relative volume and a 13.78% price surge today. The stock is backed by concrete catalysts including reports linking the company to a $10B Anthropic AI GPU project and positive analyst forecast revisions following strong Q4 results. Despite the high-momentum profile, the tape remains robust with three consecutive observation rankings at the top of the leaderboard and positive price acceleration of 2.0349%, confirming that market participants are aggressively pricing in the company's role in the agentic AI memory boom. BEAR: PENG is exhibiting clear exhaustion with a -3.01% drawdown from its observed session high despite high relative volume, indicating that intraday sellers are already absorbing the buying pressure from the morning's news cycle. The stock is currently trading 35.25% above its 20-day moving average, creating a significant technical vulnerability where any failure to sustain the intraday high will trigger profit-taking from early-session participants. Furthermore, with the 'exhausted_or_reversing' setup confirmed by the price acceleration metrics, the recent headline-driven excitement regarding the Anthropic deal is likely fully priced in, leaving no remaining catalyst to support this degree of extension.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: XRPNW demonstrates strong momentum with an 8-observation streak of consecutive scanner scans, reflecting sustained buy-side interest. The stock has shown significant price acceleration of 6.0796% and a 12.8056% gain since it was first tracked 270 minutes ago, while trading near its observed high with 0.0% drawdown. Although the news report regarding the delayed Nasdaq debut is mixed, the technical tape is clearly dominant, supported by 1.15x relative volume and a rank improvement of 3 positions in the latest session. The consistent volume rate growth of 0.0549 confirms that the buying interest is accelerating as the session progresses. BEAR: XRPNW is currently exhibiting extreme overextension, trading 191.61% above its 20-day moving average, which creates a massive mean-reversion risk that outweighs the momentum. The catalyst report contains a specific, negative headline from today stating that the 'XRP Treasury Giant Delays Nasdaq Debut,' which directly contradicts the aggressive 25.20% price surge and suggests the move is driven by market confusion rather than fundamental strength. With price acceleration slowing despite an observed-high of 4.845, the risk is that the current volume fails to sustain the price as the market digests the negative news regarding the delayed debut. Entering at these levels involves chasing a parabolic move that is fundamentally decoupled from the day's primary company-specific news.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPN",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: XRPN is exhibiting powerful, sustained momentum with a 43.45% intraday gain on 2.02x relative volume. The tape confirms persistent strength through seven consecutive observations, with 4.7061% price acceleration and a return since first seen of 25.5325% with zero drawdown from the observed high. While the headline regarding a delayed Nasdaq debut creates uncertainty, the market is aggressively choosing to ignore it in favor of the current buying pressure. Given the clear technical persistence and volume confirmation, the current trend remains dominant despite the lack of a positive fundamental catalyst. BEAR: The stock is currently trading 84.98% above its 20-day moving average, creating extreme vulnerability to a sharp mean reversion as the momentum appears decoupled from the actual news cycle. Specifically, the headline 'XRP Treasury Giant Delays Nasdaq Debut' is a fundamental negative catalyst that directly contradicts the stock's 43.45% rally, suggesting the current price action is an irrational anomaly rather than a sustainable trend. With the price currently sitting at the observed high of $27.54 with zero drawdown, the risk of a sudden collapse once the market digests the negative implications of the delayed listing is significantly elevated.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HESM",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: HESM is seeing a massive liquidity event with relative volume at 6.91x, indicating that the market is aggressively repricing the stock following the major strategic news announced on 2026-10-07 regarding the DJ Basin asset acquisition. Despite the initial gap down, the tape shows clear resilience with 8 consecutive observations and a positive return of 1.6682% since first being seen, signaling that buyers are stepping in to support the price at these lower levels. With a price acceleration of 0.6472 percentage points and a tight drawdown of only 0.0746% from the observed high, the momentum indicates a potential mean reversion as the market digests the structural changes to the company's asset base. BEAR: HESM is currently experiencing a severe technical breakdown with a 14.15% daily decline and a significant 14.94% distance below its 20-day MA, signaling a failure to find support despite the fresh headlines regarding a DJ Basin asset acquisition. The stock's momentum is showing clear signs of exhaustion, evidenced by a worsening rank, a decline in rank improvement, and a negative score change of -0.4049 across recent intervals. Furthermore, the volume participation is fading, indicated by a negative relative volume rate change of -0.0102, which suggests that the market is rejecting the current valuation after the news-driven restructuring announcements. Buying into this volatility constitutes catching a falling knife as the market digests potentially dilutive or restructuring-related uncertainty from the Chevron divestment.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BULL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: BULL is exhibiting a notable intraday resilience despite the negative sentiment surrounding the headline about its China ties reported on 2026-10-07. Despite a 19.07% drop, the stock has shown consistent tape activity with 8 consecutive observations and a positive return of 2.19% since it was first seen at 10:17 ET. With relative volume at a significant 5.58x, the massive participation suggests that the current level is being aggressively defended by buyers. The stock is holding near its observed high with a drawdown of only -0.73%, indicating a potential for a short-term mean reversion bounce from these oversold levels. BEAR: The stock is currently suffering from negative momentum following a severe 19.07% intraday decline, with price acceleration clearly in the red at -1.0744 percentage points. Participation is fading as the relative volume rate per 30 minutes shows a deterioration of -0.0523, indicating that buyers are retreating. The fundamental pressure is tied to today's news regarding national security risks associated with the company's China ties, creating a concrete overhang that likely prevents a quick recovery. With a worsening rank and a current drawdown from the session high, attempting to catch this falling knife is high-risk exposure to a stock facing regulatory scrutiny.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CANG",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: CANG is exhibiting extreme momentum with a 19.86% intraday gain and relative volume at 3.23x its 20-day average, signaling significant institutional or speculative interest. The stock has demonstrated clear persistence, maintaining an observed return of 7.7351% since being identified early in the session across eight consecutive observations. While the catalyst report contains no positive news to explain the move\u2014and actually notes a recent analyst target decrease\u2014the sheer strength of the price action and volume confirms a breakout above its 20-day MA. The current tape remains robust with the price hovering just 0.2782% off its session high, suggesting buyers are absorbing selling pressure and preparing for a potential continuation. BEAR: CANG is currently extended 61.57% above its 20-day moving average, signaling an extreme vertical move that lacks a clear, fresh fundamental catalyst to justify the sustained momentum. The intraday evidence shows clear signs of fatigue, with price acceleration dipping into negative territory at -3.1111% and the relative volume rate of change contracting by -0.068. Furthermore, the stock is showing clear signs of being 'chasing' territory, as it has failed to improve its rank over the last several observations while the price sits marginally off its observed high, suggesting an exhaustion of buying interest at the $3.62 level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: APUS is demonstrating significant relative strength today, trading at 2.10x its normal volume while maintaining a 2.66% gain and remaining 112.90% above its 20-day moving average, signaling an intense breakout phase. While the catalyst report lacks specific news, the stock's elevated volume confirms active institutional interest and momentum in the biotech sector. Although the stock has pulled back from its intraday high, the persistent eight-observation history confirms it remains a focal point for traders. The current entry point offers a tactical opportunity to catch a potential secondary leg higher as volume participation remains highly elevated. BEAR: APUS is a classic example of chasing as the stock is trading 112.90% above its 20-day moving average while demonstrating measurable tape deterioration over the current session. After reaching an observed high of 9.38, the stock has suffered a significant 21.98% drawdown and a 14.48% decline since it was first seen today. Furthermore, the absence of any fresh catalysts in the news report\u2014with the latest relevant headlines being one to two days old\u2014suggests that today's price action is a speculative exhaustion rather than a reaction to new information. With a rank that has stalled and a score change of -3.06, the momentum is clearly fading as participation slows, evidenced by a shrinking relative volume rate of change.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SAIQ",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: SAIQ is presenting a classic oversold mean-reversion opportunity following a massive 29.36% decline that has left the stock trading nearly 60% below its 20-day moving average. While the market has reacted sharply to the recent $10 million PIPE investment announcement\u2014which involved a significant price disparity at $10.79/share\u2014the current sub-$4 price point offers a compelling entry for a technical snapback. The tape shows signs of stabilization with positive price acceleration of 1.15% points and a marginal improvement in volume rate, suggesting that the selling exhaustion phase has been reached. Trading at these depressed levels relative to recent corporate financing provides a high-reward asymmetry for a short-term rebound play. BEAR: SAIQ exhibits clear evidence of exhaustion as it trades 59.73% below its 20-day moving average on extremely low participation, with relative volume at a mere 0.25x of normal levels. The stock is currently chasing its own decline, evidenced by a 14.23% drawdown from its observed high and consistent rank stagnation at 8th place over the last 270 minutes. Furthermore, the market appears to have negatively repriced the stock following the October 6th news regarding the $10 million PIPE investment at $10.79/share, as the current price of $3.65 indicates a complete decoupling from the reported redemption price. Buying into this level presents a high risk of catching a falling knife with no catalyst for a near-term bounce.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+07 - no matching value in source data",
+        "bear: cited 1e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FMS",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: FMS is currently experiencing a significant wash-out with volume at 3.76x normal levels, signaling strong institutional participation as the stock tests deep support. The market's reaction to today's news regarding margin expansion, as noted in the SeekingAlpha report, appears overdone, creating an attractive entry point for a mean-reversion play. Tape momentum is improving, evidenced by positive price acceleration of 0.2652% and a relative volume rate increase of 0.1252, indicating that buyers are stepping in to defend the $20.78 level. With 150 minutes of observation showing consecutive engagement and recent intraday price stabilization, the risk-reward profile favors a recovery toward the 20-day moving average. BEAR: FMS is suffering from significant technical deterioration, as evidenced by a 7.31% drop that has pushed the stock 7.50% below its 20-day moving average. The intraday tape shows clear exhaustion, with the stock failing to recover from its observed high and sitting at a stagnant rank of 9 despite extremely high volume of 3.76x the norm. Today's news regarding limited growth potential acts as a cap on any meaningful relief rally, confirming that the current volume is likely selling pressure rather than accumulation. Attempting to catch this falling knife is high-risk as the price remains trapped at a 0.57% drawdown from its observed high with no momentum improvement.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JDZG",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: JDZG is demonstrating significant momentum today, characterized by a robust relative volume of 3.05x its 20-day average and a solid 2.99% gain. The stock is currently trading 31.46% above its 20-day moving average, signaling strong buyer conviction and a clear break away from recent price consolidation. While there are no specific news catalysts or earnings reports to explain this move, the high volume participation suggests institutional interest or a reaction to shifting market sentiment. Given the nascent stage of this observation, the case relies strictly on the tape-driven strength of the price-volume breakout. BEAR: JDZG is exhibiting a significant extension, trading 31.46% above its 20-day moving average on 3.05x normal volume without any corresponding news or catalyst to justify the surge. The lack of a fundamental driver, combined with the stock being caught in an overextended technical state, suggests this move is driven by speculative flow rather than sustained institutional buying. Entering at $5.52 carries the specific risk of a sharp mean reversion as the price disconnects from its baseline with no headline support to anchor the valuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AIFA",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: AIFA is showing resilience with a strong 1.52x relative volume and a 2.4072% return since its first observation today. The price has maintained sustained momentum over 8 consecutive observations, demonstrating a positive price acceleration of 2.2039% points even while the broader session saw some volatility. While the catalyst report contains no company-specific news explaining the move, the stock's inclusion as an 'unusual volume' leader in the October 7th ChartMill report confirms high market participation. Given the current 93.06% distance from the 20-day moving average and limited drawdown from the observed high, the stock exhibits a clear breakout trend suitable for a short-term momentum play. BEAR: AIFA is currently trading at a staggering 93.06% premium to its 20-day moving average, a level of extension that significantly increases the probability of a sharp mean reversion. Evidence of exhaustion is mounting as the stock shows a negative rank improvement and a declining score change, while volume participation is cooling with a negative relative volume rate change. Furthermore, there is a total absence of a company-specific catalyst in the news report, leaving the stock's move vulnerable to speculative exhaustion rather than fundamental support. With a 1.88% drawdown from the observed session high and a weakening volume pace, the entry is currently serving as exit liquidity for earlier buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSQL",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: PSQL is supported by a flurry of highly positive catalysts from October 6, 2026, including StoneX initiating coverage with a Buy rating and a $15 price target, which suggests significant upside potential from the current $7.20 level. The stock is demonstrating high market interest with relative volume at 3.25x the 20-day average, signaling institutional accumulation. Despite a slight intraday pullback, the company's strategic positioning in the EU's quantum chip pilot program and its neutral-atom technology leadership provide a fundamental narrative that justifies the current price consolidation near its 20-day MA. BEAR: PSQL is exhibiting clear signs of chasing risk as the stock has retreated 1.57% since it first hit the scanner, currently trading at a 2.31% drawdown from its session high. While the stock saw a 3.25x relative volume spike, the momentum data shows a deteriorating trend with a falling rank and negative price movement across recent intervals. The flurry of news from October 6th, including the StoneX Buy initiation and EU-backed pilot line announcement, appears to have served as primary exit liquidity for early buyers rather than providing sustained upside momentum. With the stock already priced in these catalysts from the previous day, the current session is showing a loss of participation that suggests a likely mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZSQR",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: ZSQR is exhibiting significant momentum today with a 12.16% gain and volume at 1.47x its 20-day average, signaling strong institutional interest. While there is no specific news catalyst in the provided report to justify the move, the ticker has maintained presence on the momentum scanner for 8 consecutive observation intervals, indicating sustained market attention. Despite the 9.19% drawdown from the intraday high of $5.385, the stock remains well-positioned 46.37% above its 20-day moving average, showing powerful underlying trend strength. I am trading this as a pure tape-driven breakout play due to the lack of specific news. BEAR: The stock is currently trading 46.37% above its 20-day moving average with no clear catalyst to justify the valuation, suggesting the move is driven by momentum rather than fundamental news. Participation is actively deteriorating, evidenced by a relative volume rate change of -0.0378 and a significant 9.19% drawdown from the observed high. With the stock failing to improve its rank over the last eight observations and a negative return since it was first scanned, buying here constitutes chasing an exhausted move into a vacuum of liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AVBP",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: AVBP is demonstrating a strong rebound on 1.65x relative volume, signaling an aggressive market reaction to yesterday's 52-week low. Despite the negative trial news from October 6th, major analysts at Guggenheim and BTIG maintained 'Buy' ratings today, suggesting that the recent sell-off may have overshot the company's intrinsic value. The stock has sustained a 6.14% gain since its first observation at 10:17 ET, showing resilience against intraday profit-taking. This technical bounce from significantly oversold levels (-40.66% from its 20-day MA) presents a high-beta opportunity to capture a mean-reversion trade. BEAR: The stock is currently exhibiting clear signs of exhaustion as it faces a 2.57% drawdown from its intraday high, paired with a declining rank and a negative price acceleration of -0.45 percentage points. This move is fundamentally disconnected from the previous day's news of a failed primary trial endpoint, suggesting today's rally is a speculative disconnect rather than a recovery. With the relative volume rate dropping by 0.1048 per 30-minute interval, market participation is fading, indicating that current buyers are failing to sustain the momentum. Buying now involves chasing an inverted move that is already seeing deteriorating tape metrics.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PCVX",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.0,
+      "reasoning": "net -0.15 = bull 0.60 - bear 0.75 (buy at >= +0.20). BULL: PCVX is displaying remarkable resilience following its recent capital raise, as evidenced by a 3.27x relative volume surge and 6 consecutive positive momentum observations over the last 270 minutes. Despite the headline news of concurrent public offerings on 2026-10-07, the stock has maintained a tight drawdown of only 0.03% from its observed high of $66.585, reflecting significant institutional absorption of the new supply. The price acceleration of 0.2856 percentage points and consistent positive interval returns demonstrate strong buying pressure that is actively countering the negative sentiment from the prior day's dilution news. Investors are successfully anchoring the price above its 20-day MA, suggesting the market is prioritizing the underlying VAX-31 trial success over the near-term financing overhang. BEAR: PCVX is exhibiting classic exit-liquidity behavior as it attempts to recover following a massive $1 billion equity and convertible note dilution event announced today. Despite a high relative volume of 3.27x, the price is failing to gain meaningful momentum, evidenced by the 0.2856% price acceleration rate being insufficient to push the stock significantly above its 20-day MA extension of 12.22%. With the market now absorbing fresh supply from concurrent public offerings, buying here is effectively chasing a dead-cat bounce into a massive liquidity overhang that already triggered a 10% decline yesterday. The inability to show rank improvement (stuck at rank 15) while volume participation continues at a steady but stalling pace suggests institutional sellers are currently utilizing the 3.27x volume to offload positions into retail optimism.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 1e+09 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "PENG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HESM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BULL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CANG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "APUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SAIQ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FMS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JDZG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AIFA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSQL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZSQR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AVBP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PCVX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

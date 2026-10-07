@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-07T08:49:37-04:00",
+  "session_date": "2026-10-07",
+  "reads": {
+    "BULL": {
+      "symbol": "BULL",
+      "pattern": "breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "STZ": {
+      "symbol": "STZ",
+      "pattern": "Bearish Gap and Trap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "NEOG": {
+      "symbol": "NEOG",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PENG": {
+      "symbol": "PENG",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "U": {
+      "symbol": "U",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "HMY": {
+      "symbol": "HMY",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "FUTU": {
+      "symbol": "FUTU",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "AAL": {
+      "symbol": "AAL",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "IPDN": {
+      "symbol": "IPDN",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "KLAC": {
+      "symbol": "KLAC",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "FCEL": {
+      "symbol": "FCEL",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "SAIQ": {
+      "symbol": "SAIQ",
+      "pattern": "Bearish Continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

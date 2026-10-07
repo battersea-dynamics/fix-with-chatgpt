@@ -1,0 +1,1172 @@
+{
+  "date": "2026-10-07",
+  "events": [
+    {
+      "at_et": "2026-10-07T08:47:21-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-07T08:53:03-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-10-07T09:32:08-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUTU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HMY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IPDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NEOG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PENG",
+            "reason": "live ask $79.79 has reached or passed the original take-profit target $70.89"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "U",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T10:24:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1016.json",
+        "shortlist": [
+          "PENG",
+          "BULL",
+          "APUS",
+          "HESM",
+          "XRPNW",
+          "CANG",
+          "AIFA",
+          "MNTS",
+          "SAIQ",
+          "DCX",
+          "ZSQR",
+          "SDEV",
+          "PCVX",
+          "AVBP",
+          "FCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSQR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCEL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T11:08:39-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1047",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1047.json",
+        "shortlist": [
+          "PENG",
+          "APUS",
+          "BULL",
+          "HESM",
+          "XRPNW",
+          "CANG",
+          "AIFA",
+          "SAIQ",
+          "DCX",
+          "XRPN",
+          "LFCR",
+          "PSQL",
+          "MNTS",
+          "ZSQR",
+          "SDEV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFCR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SDEV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T12:27:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1217",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1217.json",
+        "shortlist": [
+          "PENG",
+          "APUS",
+          "BULL",
+          "HESM",
+          "XRPNW",
+          "CANG",
+          "XRPN",
+          "ZSQR",
+          "SAIQ",
+          "FMS",
+          "AIFA",
+          "DCX",
+          "PSQL",
+          "PCVX",
+          "BKH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSQR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T12:57:29-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1246.json",
+        "shortlist": [
+          "PENG",
+          "XRPNW",
+          "APUS",
+          "BULL",
+          "HESM",
+          "XRPN",
+          "CANG",
+          "SAIQ",
+          "ZSQR",
+          "FMS",
+          "AIFA",
+          "PSQL",
+          "DCX",
+          "PCVX",
+          "LFCR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PENG",
+            "action": "submitted",
+            "order": {
+              "symbol": "PENG",
+              "qty": 2,
+              "est_cost": 147.46,
+              "entry_ref": 73.73,
+              "take_profit": 77.96,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 71.49,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261007-125729-PENG",
+              "analysis_price": 74.9829,
+              "live_price_change_pct": -1.67
+            },
+            "broker": {
+              "id": "54b48a35-e24a-4cb0-b6c4-44c2fc38a010",
+              "client_order_id": "ta-20261007-125729-PENG",
+              "symbol": "PENG",
+              "qty": "2",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 77.96,
+              "stop_loss": 71.49,
+              "legs": [
+                "b1ff6c77-99bf-480c-8e73-93d88600415a",
+                "83fdd612-4f3d-41a8-ad44-6b353f4d8401"
+              ]
+            }
+          },
+          {
+            "symbol": "PSQL",
+            "action": "submitted",
+            "order": {
+              "symbol": "PSQL",
+              "qty": 26,
+              "est_cost": 193.96,
+              "entry_ref": 7.46,
+              "take_profit": 7.97,
+              "remaining_take_profit_pct": 6.8,
+              "stop_loss": 7.23,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261007-125729-PSQL",
+              "analysis_price": 7.37,
+              "live_price_change_pct": 1.22
+            },
+            "broker": {
+              "id": "c86bf796-5e99-4a70-aa19-12213b85a8c8",
+              "client_order_id": "ta-20261007-125729-PSQL",
+              "symbol": "PSQL",
+              "qty": "26",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 7.97,
+              "stop_loss": 7.23,
+              "legs": [
+                "8f1e9c8e-d85b-4637-a272-2e95000dbff9",
+                "9651bb4f-44ca-42d7-97c3-d60556e7c501"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSQR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFCR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T13:26:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1316.json",
+        "shortlist": [
+          "HESM",
+          "BULL",
+          "XRPNW",
+          "XRPN",
+          "APUS",
+          "CANG",
+          "SAIQ",
+          "ZSQR",
+          "FMS",
+          "AIFA",
+          "DCX",
+          "PCVX",
+          "BKH",
+          "NWE",
+          "LFCR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "BKH",
+            "action": "submitted",
+            "order": {
+              "symbol": "BKH",
+              "qty": 2,
+              "est_cost": 154.1,
+              "entry_ref": 77.05,
+              "take_profit": 80.31,
+              "remaining_take_profit_pct": 4.23,
+              "stop_loss": 74.97,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261007-132647-BKH",
+              "analysis_price": 76.93,
+              "live_price_change_pct": 0.16
+            },
+            "broker": {
+              "id": "16e2a24e-48b9-4dbb-84bc-a9a48b5ae53a",
+              "client_order_id": "ta-20261007-132647-BKH",
+              "symbol": "BKH",
+              "qty": "2",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 80.31,
+              "stop_loss": 74.97,
+              "legs": [
+                "9a9d60b0-8498-4e86-91a6-db6d9e04f694",
+                "dc1a0aa2-4aa0-4fd8-816c-45685f8cad9d"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSQR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFCR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T14:05:53-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1347",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1347.json",
+        "shortlist": [
+          "PENG",
+          "HESM",
+          "BULL",
+          "XRPN",
+          "XRPNW",
+          "CANG",
+          "APUS",
+          "SAIQ",
+          "FMS",
+          "ZSQR",
+          "AIFA",
+          "AVBP",
+          "DCX",
+          "PCVX",
+          "NWE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSQR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T14:24:18-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1416.json",
+        "shortlist": [
+          "PENG",
+          "HESM",
+          "XRPN",
+          "BULL",
+          "XRPNW",
+          "CANG",
+          "APUS",
+          "SAIQ",
+          "FMS",
+          "AIFA",
+          "PSQL",
+          "AVBP",
+          "ZSQR",
+          "NWE",
+          "PCVX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSQR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T14:58:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1446.json",
+        "shortlist": [
+          "PENG",
+          "XRPNW",
+          "XRPN",
+          "HESM",
+          "BULL",
+          "CANG",
+          "APUS",
+          "SAIQ",
+          "FMS",
+          "JDZG",
+          "AIFA",
+          "PSQL",
+          "ZSQR",
+          "AVBP",
+          "PCVX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZSQR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T15:23:12-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1516.json",
+        "shortlist": [
+          "PENG",
+          "XRPN",
+          "HESM",
+          "XRPNW",
+          "BULL",
+          "CANG",
+          "APUS",
+          "SAIQ",
+          "FMS",
+          "JDZG",
+          "LEVI",
+          "AIFA",
+          "PSQL",
+          "PRME",
+          "AVBP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PSQL",
+            "action": "submitted",
+            "order": {
+              "symbol": "PSQL",
+              "qty": 27,
+              "est_cost": 196.02,
+              "entry_ref": 7.26,
+              "take_profit": 7.85,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 7.04,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261007-152312-PSQL",
+              "analysis_price": 7.26,
+              "live_price_change_pct": 0.0
+            },
+            "broker": {
+              "id": "b8fc0eb2-bd32-48e3-bcb9-5dcd3a34f7f5",
+              "client_order_id": "ta-20261007-152312-PSQL",
+              "symbol": "PSQL",
+              "qty": "27",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 7.85,
+              "stop_loss": 7.04,
+              "legs": [
+                "d5f32036-89af-4655-aad0-667874b532e9",
+                "112bb9fc-0f90-4098-a23e-2c857cf4631b"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVBP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T15:52:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-07/shortlist_1546.json",
+        "shortlist": [
+          "PENG",
+          "XRPN",
+          "HESM",
+          "XRPNW",
+          "BULL",
+          "CANG",
+          "BSP",
+          "APUS",
+          "LEVI",
+          "SAIQ",
+          "FMS",
+          "PRME",
+          "JDZG",
+          "AIFA",
+          "PCVX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PENG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HESM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BULL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCVX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-07T15:52:19-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 10,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
