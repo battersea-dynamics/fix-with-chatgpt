@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-08T08:50:05-04:00",
+  "session_date": "2026-10-08",
+  "reads": {
+    "PCRX": {
+      "symbol": "PCRX",
+      "pattern": "breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "WOLF": {
+      "symbol": "WOLF",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PFAI": {
+      "symbol": "PFAI",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "ANGO": {
+      "symbol": "ANGO",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "GFS": {
+      "symbol": "GFS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PLTR": {
+      "symbol": "PLTR",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "WRD": {
+      "symbol": "WRD",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "PEP": {
+      "symbol": "PEP",
+      "pattern": "Bullish Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "LEVI": {
+      "symbol": "LEVI",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "HLN": {
+      "symbol": "HLN",
+      "pattern": "indecision",
+      "bias": "neutral",
+      "conviction": 0.5
+    },
+    "XRX": {
+      "symbol": "XRX",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "SBET": {
+      "symbol": "SBET",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

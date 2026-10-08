@@ -1,0 +1,1117 @@
+{
+  "date": "2026-10-08",
+  "events": [
+    {
+      "at_et": "2026-10-08T08:47:13-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-08T08:56:49-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-10-08T09:32:23-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "GFS",
+            "action": "submitted",
+            "order": {
+              "symbol": "GFS",
+              "qty": 4,
+              "est_cost": 199.2,
+              "entry_ref": 49.8,
+              "take_profit": 51.58,
+              "remaining_take_profit_pct": 3.58,
+              "stop_loss": 48.99,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261008-093223-GFS",
+              "analysis_price": 50.03,
+              "live_price_change_pct": -0.46
+            },
+            "broker": {
+              "id": "37127986-1506-446c-8394-78e6403f7511",
+              "client_order_id": "ta-20261008-093223-GFS",
+              "symbol": "GFS",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 51.58,
+              "stop_loss": 48.99,
+              "legs": [
+                "d12328bc-28aa-4e02-bef4-1d92c1d3cab1",
+                "668b4dca-22e7-4f8d-960a-afd51e699972"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LEVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SBET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T11:25:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1117",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1117.json",
+        "shortlist": [
+          "PCRX",
+          "XRPNW",
+          "ANGO",
+          "MANE",
+          "APUS",
+          "WOLF",
+          "PFAI",
+          "AIFA",
+          "SMXT",
+          "CTVA",
+          "LQDA",
+          "URGN",
+          "NFE",
+          "VEEA",
+          "XRPN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "URGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T11:56:55-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1146.json",
+        "shortlist": [
+          "PCRX",
+          "XRPNW",
+          "ANGO",
+          "APUS",
+          "WOLF",
+          "MANE",
+          "AIFA",
+          "PFAI",
+          "SMXT",
+          "CTVA",
+          "NFE",
+          "XRPN",
+          "SAIQ",
+          "VEEA",
+          "LQDA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T12:36:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1216.json",
+        "shortlist": [
+          "PCRX",
+          "ANGO",
+          "XRPNW",
+          "APUS",
+          "WOLF",
+          "MANE",
+          "SMXT",
+          "AIFA",
+          "PFAI",
+          "NFE",
+          "CTVA",
+          "XRPN",
+          "GLAS",
+          "SAIQ",
+          "VEEA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T13:00:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1246.json",
+        "shortlist": [
+          "PCRX",
+          "ANGO",
+          "XRPNW",
+          "SMXT",
+          "MANE",
+          "APUS",
+          "WOLF",
+          "AIFA",
+          "PFAI",
+          "GLAS",
+          "CTVA",
+          "NFE",
+          "XRPN",
+          "SAIQ",
+          "KOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T13:28:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1317",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1317.json",
+        "shortlist": [
+          "PCRX",
+          "XRPNW",
+          "ANGO",
+          "SMXT",
+          "WOLF",
+          "GLAS",
+          "APUS",
+          "MANE",
+          "AIFA",
+          "PFAI",
+          "CTVA",
+          "XRPN",
+          "SAIQ",
+          "NFE",
+          "KOD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T13:54:02-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1346.json",
+        "shortlist": [
+          "PCRX",
+          "XRPNW",
+          "ANGO",
+          "GLAS",
+          "WOLF",
+          "APUS",
+          "MANE",
+          "SMXT",
+          "AIFA",
+          "PFAI",
+          "CTVA",
+          "EQPT",
+          "SAIQ",
+          "NN",
+          "NFE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EQPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T14:24:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1416.json",
+        "shortlist": [
+          "PCRX",
+          "ANGO",
+          "XRPNW",
+          "APUS",
+          "SMXT",
+          "GLAS",
+          "WOLF",
+          "MANE",
+          "PFAI",
+          "AIFA",
+          "CTVA",
+          "NFE",
+          "KOD",
+          "NN",
+          "XRPN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T14:53:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1447",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1447.json",
+        "shortlist": [
+          "PCRX",
+          "ANGO",
+          "XRPNW",
+          "GLAS",
+          "APUS",
+          "WOLF",
+          "SMXT",
+          "MANE",
+          "CABO",
+          "AIFA",
+          "PFAI",
+          "CTVA",
+          "NFE",
+          "BRUN",
+          "XRPN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T15:22:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1517",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1517.json",
+        "shortlist": [
+          "PCRX",
+          "ANGO",
+          "XRPNW",
+          "CABO",
+          "GLAS",
+          "APUS",
+          "SMXT",
+          "WOLF",
+          "MANE",
+          "AIFA",
+          "PFAI",
+          "CTVA",
+          "NFE",
+          "LGHL",
+          "BRUN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "PCRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LGHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T15:53:25-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-08/shortlist_1546.json",
+        "shortlist": [
+          "PCRX",
+          "ANGO",
+          "XRPNW",
+          "SAIQ",
+          "GLAS",
+          "CABO",
+          "APUS",
+          "MANE",
+          "SMXT",
+          "WOLF",
+          "AIFA",
+          "CTVA",
+          "PFAI",
+          "NFE",
+          "BRUN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PCRX",
+            "action": "submitted",
+            "order": {
+              "symbol": "PCRX",
+              "qty": 5,
+              "est_cost": 181.9,
+              "entry_ref": 36.38,
+              "take_profit": 38.33,
+              "remaining_take_profit_pct": 5.36,
+              "stop_loss": 35.27,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261008-155325-PCRX",
+              "analysis_price": 36.365,
+              "live_price_change_pct": 0.04
+            },
+            "broker": {
+              "id": "9356ce04-d3d1-4af6-8d7d-9e9a843371fc",
+              "client_order_id": "ta-20261008-155325-PCRX",
+              "symbol": "PCRX",
+              "qty": "5",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 38.33,
+              "stop_loss": 35.27,
+              "legs": [
+                "a08ba615-8862-4d4b-8ddd-db0c14ee10f8",
+                "2ea3738a-a7cb-4da8-ac15-2db2d2a3875a"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ANGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GLAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WOLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AIFA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-08T15:53:25-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 10,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

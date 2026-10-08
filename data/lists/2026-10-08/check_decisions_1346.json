@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-10-08T13:54:02-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "PCRX",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: PCRX is exhibiting extreme momentum today with a 44.03% gain driven by massive market interest, evidenced by a relative volume of 42.17x the 20-day average. The stock has maintained its position as the top-ranked ticker for seven consecutive observation intervals, signaling powerful sustained leadership. While the price is slightly off its session high, the relative volume rate per 30 minutes of 1.2547 suggests persistent institutional participation, and the move is backed by mention in today's news as a high-motion stock alongside other significant market participants. This aggressive breakout strength supports further upside potential in the near term. BEAR: PCRX is currently trading 45.53% above its 20-day moving average, creating a significant technical vulnerability where buyers at these levels are acting as exit liquidity for earlier entrants. The intraday tape shows concrete deterioration over the last 210 minutes, evidenced by a negative return since the first observed interval and a measurable drawdown of -2.75% from the day's high. Furthermore, the market's enthusiasm is disconnected from reality as the recent analyst price target hike to $31 is already substantially surpassed by the current $36.30 price, suggesting the news is fully priced in and likely overextended. With a score change of -0.7465, the momentum is clearly fading despite the elevated relative volume, signaling a high probability of mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.62,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: XRPNW is currently demonstrating significant technical strength, trading 141.78% above its 20-day moving average, which indicates powerful momentum despite the recent minor daily pullback. While the Nasdaq debut headlines from October 7th highlight news-driven uncertainty, the stock remains anchored with a positive return of 1.1364% since its initial observation. The current rank of 2 and consistent inclusion across 7 consecutive scans confirm that the asset remains a focus of active market interest. As price consolidation occurs at these elevated levels, the ongoing interest surrounding the potential listing acts as a volatility catalyst that could drive a sharp recovery toward the observed highs. BEAR: XRPNW is currently suffering from a classic 'chasing' failure mode, as evidenced by a 5.5% drawdown from its observed high and negative price acceleration of -2.8%. Despite the news headlines regarding the Nasdaq debut, the volume is not confirming the move, with a relative volume of only 0.62x and a fading volume rate per 30 minutes. The stock is extended 141.78% from its 20-day moving average, and the momentum observations confirm clear tape deterioration with only two positive intervals out of six. Buying now is essentially serving as exit liquidity for the early morning move as the price action stalls.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ANGO",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: ANGO presents a tactical mean-reversion opportunity following an aggressive 18.46% sell-off triggered by today's Q1 2027 earnings release, which noted a narrower loss despite guidance below consensus. The stock has demonstrated clear intra-day accumulation, with 7 consecutive observations over 210 minutes and a 1.89% recovery from its initial detection point. Crucially, volume participation is exceptionally high at 3.20x normal levels, indicating that the market is actively re-evaluating the stock at these lower levels. As the stock is currently trading at its observed high of $11.57 with zero drawdown, the persistent buying pressure suggests the initial knee-jerk reaction to the earnings news may have been overdone. BEAR: Buying ANGO here is a classic 'chasing' failure as the stock has already sustained an 18.46% drop and remains 24.44% below its 20-day moving average. The fundamental catalyst, the Q1 2027 earnings report released today, shows the company holding guidance below consensus, which explains the sharp selling pressure rather than providing a reason for a rebound. Furthermore, the intraday tape shows clear signs of exhaustion with price acceleration at -0.7814% and a declining relative volume rate, indicating that the initial volatility is fading into a weak, downward drift. Entering now risks catching the continuation of this negative reaction to the soft guidance, as there is no evidence of a reversal on the current volume or momentum profiles.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GLAS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: GLAS is exhibiting a classic exhaustion setup with significant relative volume of 2.55x, indicating intense market interest during today's aggressive sell-off. Despite the steep 15.98% drop, the stock has shown signs of stabilization with 4 consecutive observations and a recent positive rank improvement from 6 to 4, alongside a 0.9368% return since the previous interval. While there is no news or catalyst in the report to explain this volatility, the 4.0015% price acceleration suggests buyers are stepping in to defend the current level of $4.31. The trade relies strictly on the technical observation of localized momentum reversal after a deep oversold position relative to the 20-day moving average. BEAR: GLAS is suffering from a massive -15.98% intraday collapse, leaving it trading 38.20% below its 20-day moving average with no clear catalyst to justify the move. The momentum data confirms severe deterioration, as the relative volume rate has dropped by 44.18% over the last 90 minutes. With a 5.51% drawdown from the observed session high and a total lack of news to explain this price action, buying now is essentially trying to catch a falling knife in a vacuum of information. The combination of extreme technical dislocation and cooling volume participation indicates that the downward momentum remains the dominant force.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WOLF",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 4.06,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: WOLF is displaying significant market participation today, evidenced by massive relative volume at 6.48x its 20-day normal level, indicating strong institutional interest despite the session drawdown. The stock remains in a technical uptrend, currently trading 7.70% above its 20-day moving average, which provides a solid base for a bounce. While the headline news on 2026-10-08 confirms its status as a high-activity stock, the primary bull case is the extreme liquidity and relative strength that typically precedes a recovery from an initial sell-off. The current price acceleration of 0.9432 percentage points suggests that internal momentum is shifting toward buyers, providing a tactical opportunity for a short-term rebound. BEAR: WOLF is currently suffering from a clear chasing failure mode, having peaked at $32.03 and subsequently drifted to a 6.56% drawdown from that high. Participation is rapidly drying up, evidenced by a relative volume rate of only 0.1883 that is experiencing a negative change of -20.66%, indicating that the morning's news-driven volatility is already fading. Despite being mentioned in several headlines today regarding stock movement, there is no fundamental catalyst to sustain the price 7.7% above its 20-day MA, leaving it as nothing more than exit liquidity for the early morning move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "APUS",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: APUS is exhibiting extreme oversold conditions following a 23.90% decline, positioning it as a potential mean-reversion candidate. While volume is currently light, the stock remains 45.94% above its 20-day moving average, suggesting significant underlying bullish sentiment despite today's pullback. There is no specific catalyst in the recent news report, but the stock's presence in health care sector momentum lists indicates it remains on the radar of active market participants. With 7 consecutive observations and a slight rank improvement from 7 to 6, a technical bounce is plausible from these levels. BEAR: APUS is currently showing clear tape deterioration, with a 9.07% drawdown from its observed high and consistent negative returns since the first observation. The stock is exhibiting a 'no catalyst' profile as the only available news headlines are several days old and provide no justification for the current price action, suggesting the move is decoupled from fundamental news. With relative volume at a minuscule 0.08x of normal and price acceleration deep in negative territory, the stock is currently acting as a liquidity sink for traders caught in a downward drift. Buying here means catching a falling knife that is still 45.94% above its 20-day moving average, creating significant room for further mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MANE",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: MANE is seeing exceptional participation today with a relative volume of 3.23x, signaling strong institutional interest alongside the 13.56% move higher. While today's news headline notes the stock is moving higher alongside other significant market participants, the primary bull case rests on the heavy volume supporting the breakout 13.19% above its 20-day moving average. Despite the recent consolidation from the $131.93 high, the stock has maintained its presence on the momentum shortlist for seven consecutive observation periods, demonstrating persistent buyer appetite. We are betting on a continuation of this high-volume trend as the stock tests its intraday strength. BEAR: MANE is currently suffering from a classic chasing dynamic as the stock is 13.19% extended from its 20-day moving average while simultaneously exhibiting measurable same-session deterioration. Evidence shows a 4.49% drawdown from the session high of $131.93 and a negative return of -1.56% since the previous observation interval. Furthermore, the volume rate is decelerating with a -0.0634 change, suggesting that the initial momentum from today's headline news is fading. The absence of a company-specific catalyst\u2014relying instead on a broad mention in a Benzinga article alongside unrelated firms\u2014leaves this 13.56% gain vulnerable to rapid mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SMXT",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: SMXT exhibits significant momentum, having maintained its presence on our observation list for seven consecutive scans while achieving a 9.2072% return since its first appearance at 10:17 ET. The stock is currently attracting buyer attention as evidenced by the ChartMill headline from today, October 8, regarding its status as a stock with unusual volume. While the price has retreated 5.2611% from its intraday high, the stock remains up 2.51% on the session with 1.01x relative volume, indicating that interest remains elevated even amidst minor profit-taking. There are no fundamental catalysts, but the technical setup shows strong retail or institutional activity that often precedes continued volatility in the short term. BEAR: SMXT is exhibiting clear signs of exhaustion with a -5.26% drawdown from its observed session high and a significant negative price acceleration of -6.32 percentage points. The stock is currently priced 88.68% above its 20-day moving average, suggesting an extreme extension that is not supported by any fundamental catalyst in the report. With its rank deteriorating from 4 to 8 and a score decline of 3.01, the momentum is actively fading, making a long entry at this level a classic example of chasing a move that has already lost its primary support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AIFA",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: AIFA is currently exhibiting significant strength by remaining 59.69% above its 20-day moving average, despite today's pullback. While the catalyst report lacks specific news to explain today's 12.15% decline, the stock has maintained a positive return of 0.44% since being first identified 210 minutes ago, indicating underlying resilience. With 3 out of 6 observed intervals showing positive price development, the stock is holding its ground relative to its initial entry point despite broader market volatility. This setup offers a tactical entry for a mean-reversion trade given the stock's proven trend momentum over the recent 20-day period. BEAR: AIFA is currently exhibiting clear signs of price exhaustion, trading 59.69% above its 20-day moving average while simultaneously suffering a significant 12.15% intra-day decline. The volume profile is notably unconfirmed, with relative volume at 0.88x normal and a declining relative volume rate of -0.0363 per interval, indicating that participation is drying up even as the stock tests recent lows. Furthermore, there is a total lack of any fresh, session-specific catalyst to justify this volatility, rendering the price action speculative and driven by momentum decay rather than fundamental news. With a price acceleration of -3.86% points and a consistent 1.21% drawdown from its observed high, the tape confirms that the stock is currently acting as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PFAI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: PFAI is currently undergoing a significant retracement, down 17.43% on the session, which presents a tactical long opportunity for traders looking for mean reversion given the stock remains 43.71% above its 20-day moving average. While the catalyst report lacks specific company-level news to explain today's volatility, PFAI has shown persistent interest as a top-10 ranked mover in seven consecutive observations throughout the trading day. Despite the low relative volume of 0.39x, the stock has demonstrated positive momentum with a return of 10.17% since being first identified, and the price acceleration of 3.467 suggests that buyers are stepping in to defend levels despite the day's headline-driven noise in the industrial sector. BEAR: PFAI is currently exhibiting clear signs of chase-risk, with price trading 43.71% above its 20-day MA while liquidity evaporates, evidenced by a relative volume of only 0.39x normal. The tape shows measurable deterioration, with a drawdown of 3.7586% from the observed high and a negative score change of -0.1654, indicating that the initial momentum has failed to sustain itself. Furthermore, there is no fundamental catalyst in the news report to justify this volatility, meaning buyers are acting solely on technical momentum that has already stalled within the session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: CTVA presents a speculative recovery opportunity following today's inclusion in market reports regarding unusual volume, which provides a high-visibility catalyst for potential mean reversion. Despite the recent price decline, the stock has shown intraday resilience with a positive return of 0.404% since first being observed at 10:17 ET. The mention by Jim Cramer regarding the company's structural changes provides a fundamental talking point to support the narrative of a potential revaluation. While current relative volume is muted at 0.75x, the ongoing market interest and intraday price stability suggest that the current 20-day MA gap is overextended and primed for a bounce. BEAR: CTVA presents a clear case of volume not confirming price movement, as relative volume sits at a tepid 0.75x despite the session's volatility. The internal momentum data confirms the deterioration, with price acceleration at -0.6199% and a -2.0263% drawdown from the observed high, indicating that the stock is struggling to maintain upward momentum. Furthermore, the news regarding the 'breakup' and Jim Cramer's commentary on the session date appears to have generated insufficient buying interest to offset the -1.96% day change and the significant -77.76% distance from the 20-day moving average, suggesting this is a dead-cat bounce in a failing trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EQPT",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: EQPT is currently presenting a deep value play following a 17.45% intraday sell-off, which has pushed the stock nearly 19% below its 20-day moving average. While the price action is volatile, the 1.62x relative volume indicates high institutional interest in absorbing this supply. The recent fundamental outlook remains supportive, with Truist Securities maintaining a 'Buy' rating as recently as October 5th and the company actively rebuking recent short-seller reports on October 1st. Given that the stock is trading significantly lower than analyst price targets, this rapid pullback may offer an attractive entry point for a mean-reversion trade. BEAR: EQPT is currently suffering an intense 17.45% drawdown that has pushed the price 18.75% below its 20-day moving average, signaling a severe loss of technical support rather than a buying opportunity. The high relative volume of 1.62x indicates that market participants are aggressively liquidating positions rather than absorbing the selling pressure. Furthermore, the absence of fresh catalysts to justify such a collapse suggests that market confidence in the company's rebuttal to recent short reports is failing. Buying into this level of technical decay without a clear positive catalyst creates significant exposure to a continuing downward spiral.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SAIQ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 3.16,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: SAIQ presents a compelling contrarian opportunity following a $10 million PIPE investment at $10.79/share, a price significantly higher than the current $3.62 trading level. The company is actively building momentum with the confirmed new satellite launch today, October 8, alongside a high-profile Nasdaq opening bell ceremony scheduled for tomorrow. Despite a deep discount to its 20-day MA, the stock has shown positive price acceleration of 0.828 percentage points in recent observations, signaling a potential stabilization. The combination of imminent space infrastructure catalysts and a substantial valuation gap relative to recent institutional investment offers a high-reward setup for a tactical recovery. BEAR: SAIQ is exhibiting severe technical deterioration, trading 58.67% below its 20-day moving average with effectively zero buyer participation at a 0.10x relative volume level. Despite fresh news regarding a satellite launch today, the stock has failed to gain momentum, showing a -0.31% return since first being observed and a drawdown of -1.30% from the session high. The market is clearly ignoring the recent PIPE investment and launch news, as the stock is unable to climb out of its -6.94% daily deficit, signaling exhaustion and lack of interest as potential exit liquidity dries up.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "NN",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: NextNav is seeing significant volume at 1.63x its normal level, suggesting that the recent 14.28% pullback is attracting institutional bargain hunters. The company has strong underlying momentum, evidenced by the partnership with AiRANACULUS announced on October 5th and growing industry interest in its GPS backup network supported by SpaceX. While today's price action shows a deviation of -24.34% from its 20-day MA, this level creates a high-reward mean-reversion opportunity for traders looking to capitalize on an oversold condition in a technologically significant firm. The confluence of recent strategic partnerships and high-volume capitulation provides a tactical entry point for a short-term bounce. BEAR: NN is suffering a significant -14.28% sell-off, with the price currently trading 24.34% below its 20-day moving average, signaling a collapse in momentum rather than an entry point. The positive news regarding the AiRANACULUS partnership occurred three days ago, meaning the market has already digested the catalyst, leaving no fresh sentiment to support a recovery. High relative volume of 1.63x amid this sharp decline indicates strong distribution and aggressive selling pressure rather than a dip-buying opportunity. Attempting to catch this falling knife is dangerous, as the technical breakdown has not yet found a verified base or support level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NFE",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: NFE is trading at a significant discount, currently positioned 51.39% below its 20-day moving average, which presents a classic mean-reversion opportunity for aggressive traders. While the catalyst report is empty, the extreme negative deviation from the moving average often invites short-covering activity. The trade relies on the historical tendency for significant intraday sell-offs in energy equities to find support when volume remains thin, as seen with today's 0.50x relative volume. This is a pure technical play on oversold conditions rather than a fundamental narrative. BEAR: NFE is exhibiting classic tape deterioration characterized by a 10.39% single-session drop and a weak relative volume of 0.50x, signaling that the move is occurring without institutional conviction. The lack of any catalyst in the news or earnings report leaves the stock drifting lower on its own technical weakness, compounded by a significant 51.39% divergence from its 20-day moving average. With a measured drawdown of 3.16% since being observed and negative price acceleration, the stock is essentially falling into a vacuum with no fundamental floor to catch the sell-off.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "PCRX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ANGO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GLAS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WOLF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "APUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MANE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SMXT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AIFA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PFAI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CTVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EQPT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SAIQ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NFE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
