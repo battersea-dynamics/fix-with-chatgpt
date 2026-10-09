@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-09T08:49:31-04:00",
+  "session_date": "2026-10-09",
+  "reads": {
+    "CRGY": {
+      "symbol": "CRGY",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.8
+    },
+    "HUM": {
+      "symbol": "HUM",
+      "pattern": "gap-and-go",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "VEEA": {
+      "symbol": "VEEA",
+      "pattern": "Gap and Run",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ALHC": {
+      "symbol": "ALHC",
+      "pattern": "gap-down exhaustion",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "TMUS": {
+      "symbol": "TMUS",
+      "pattern": "Bearish Gap Down Reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "T": {
+      "symbol": "T",
+      "pattern": "gap-down breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "INHD": {
+      "symbol": "INHD",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "VZ": {
+      "symbol": "VZ",
+      "pattern": "gap-down breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "CLOV": {
+      "symbol": "CLOV",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DAL": {
+      "symbol": "DAL",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CMG": {
+      "symbol": "CMG",
+      "pattern": "indecision",
+      "bias": "neutral",
+      "conviction": 0.7
+    },
+    "NN": {
+      "symbol": "NN",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-10-09T08:53:03-04:00",
+  "decisions": [
+    {
+      "symbol": "ALHC",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 4.46,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: The massive 63x relative volume spike indicates an aggressive liquidation event following the CMS Star Ratings news on 2026-10-09, which often marks a climactic bottom for retail-sensitive healthcare names. While the sentiment is bearish, the sheer weight of 414,300 shares traded suggests institutional turnover and the potential for an 'overshoot' reversal once the initial selling pressure exhausts itself at the open. Betting on a rebound here is a tactical play on mean reversion, assuming the market has overreacted to the 2028 bonus structure headline. This is a high-conviction contrarian trade based on liquidity exhaustion rather than fundamental strength. BEAR: The 19.40% gap down is driven by the October 9th CMS Star Ratings headline, but the market has already factored in the structural blow to 2028 bonuses, meaning this is a classic exhaustion move. With 414,300 shares traded in pre-market, the gap has stopped building, confirming that the initial liquidity reaction is finished and the open will likely serve as exit liquidity rather than a tradeable floor. The candle agent's identification of a gap-down exhaustion pattern confirms the failure mode is a complete dissipation of buying interest, making any attempt to catch this knife a high-probability trap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CLOV",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: CLOV is demonstrating a high-conviction breakaway gap driven by the October 8 news that its Medicare Advantage PPO plans achieved a prestigious 5-star rating for 2027. The volume signature is exceptional, with pre-market volume tracking at over 31x the recent baseline, indicating institutional accumulation rather than speculative froth. Because the stock is holding its gap gains consistently into the open, this structure suggests a fundamental repricing of the company\u2019s competitive position in the MA market. This move has the hallmarks of a sustained trend change following the positive star rating catalyst. BEAR: The 10.7% gap is a classic 'already priced in' reaction to the October 8th '5 Star Rating' headline, which has already been fully digested by the tape. While the volume is 31x the baseline, it represents only a fraction of total float, making this a classic case of thin-tape pricing that will inevitably face a liquidity drain once institutional sellers meet the opening print. Because the move is tied to a specific news event from yesterday, the opening auction will function as exit liquidity for early momentum chasers rather than a new floor. Buying now invites an immediate reversal as the lack of follow-through volume after the initial pre-market pop signals the move is exhausted.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CMG",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.3,
+      "stop_loss_pct": 1.5,
+      "reasoning": "net -0.05 = bull 0.75 - bear 0.80 (buy at >= +0.20). BULL: CMG is showing a massive volume anomaly with over 1.28 million shares traded, which is 44.30x the typical pre-market average, fueled by intense retail interest and institutional speculation regarding a potential takeover by Starbucks as highlighted in the October 9, 2026 reports. Despite the marginal gap down, the extreme volume indicates that institutional participation is likely absorbing the selling pressure, suggesting the market is waiting for a clear catalyst confirmation to trigger a move back to recent highs. The heavy liquidity provided by this headline-driven activity ensures that any move off the open will be supported by significant order flow, making a reversal to the upside the highest probability outcome as traders position for further M&A developments. BEAR: The gap is already priced in, as the 'Starbucks-Chipotle Takeover' catalyst from October 8th has been fully digested, leaving the stock to trade sideways with an indecisive candle structure today. The pre-market volume of 1.28 million shares reflects retail hysteria over speculative buyout rumors rather than institutional conviction, setting the stage for an opening-auction reversal. Because the stock has failed to sustain the momentum from yesterday's report and currently sits at a slight negative gap, the pre-market tape is acting as exit liquidity for those chasing stale headlines.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRGY",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.3,
+      "stop_loss_pct": 1.8,
+      "reasoning": "net -0.40 = bull 0.40 - bear 0.80 (buy at >= +0.20). BULL: The massive pre-market volume of over 2.4 million shares indicates that the market is aggressively absorbing the supply from the public offering announced on 2026-10-09. While the stock is gapping down, this volume levels suggest institutional rotation following the strategic $3.85B Eagle Ford asset acquisition announced on 2026-10-08. The aggressive hand-off of shares at these levels establishes a floor where long-term investors are likely accumulating ahead of the $140M in projected synergies. Buying at the open allows for a rebound play as the market shifts focus from the dilution of the offering to the transformative nature of the acquisition. BEAR: The stock is facing a classic 'already priced in' failure mode following the October 9th announcement of the public offering of Class A common stock. While the acquisition news from October 8th is significant, the market reaction is now fully consumed by the dilution reality of the secondary offering, which is causing the gap to stall at $12.75 despite massive pre-market volume of 2.4 million shares. The combination of an exhaustion structure in the candle analysis and the fact that price is trending away from the positive headline narrative confirms that the open will likely serve as exit liquidity for institutional participants. Buyers attempting to chase this setup will find that the pre-market volume has already satisfied the market's need to digest the news, leaving no fuel for a sustained move above yesterday's levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DAL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Delta is undergoing a massive volume event with over 1.2 million shares traded, indicating that the market is aggressively repricing the stock following the Q3 earnings headlines on 2026-10-09 regarding profit misses and outlook cuts. While the narrative is currently bearish, the extreme volume spike suggests a 'washout' capitulation where institutional sellers are clearing their positions into the open. If the bid holds steady despite the negative news cycle, the stock is primed for a mean-reversion trade as the market absorbs the fuel cost concerns and pivots back to Delta's resilient sales performance. This is a volatility-driven contrarian play leveraging the high-liquidity sell-off to find an entry at a significant discount. BEAR: The combination of a massive 35x volume spike and an exhaustion-pattern reversal suggests that the reaction to the Q3 profit miss and full-year outlook cut is already fully priced in by the time the market approaches the open. Because the sell-off is driven by a fundamental deterioration in margins due to fuel costs, this is not a liquidity-driven dip but a structural re-pricing that leaves the opening print as prime exit liquidity for institutions. The 'reversal' candle structure confirms that the downward momentum has exhausted its initial energy in the thin tape, making the open a classic trap for those hoping to chase the momentum downward.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HUM",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.10 = bull 0.95 - bear 0.85 (buy at >= +0.20). BULL: Humana's 16.09% gap is supported by an massive volume spike of 130x the baseline, confirming that institutional players are aggressively repricing the stock following the October 9, 2026, announcement regarding improved CMS Star Ratings. With 95% of Medicare Advantage members now in 4-star or above plans, this is a fundamental, sector-shifting catalyst that justifies sustained buying interest at the open. The 'gap-and-go' structure combined with the clear comparative advantage over peers like CVS makes this a high-conviction breakout move that is built to trend higher. BEAR: The 16% gap is entirely driven by the CMS Star Ratings headline from today, which has already been fully digested by the market given the stock's parabolic climb across the last two days. Because this jump is based on a binary policy outcome that is now public knowledge, we are facing an exhaustion structure where the opening bell serves as the primary exit point for institutional participants who front-ran the news. With the pre-market volume of 52,446 shares being significantly dwarfed by the massive real-world liquidity that will hit at 9:30, the thin-tape pricing has likely created an artificial ceiling that will collapse under profit-taking. Relying on this momentum at the open is high-risk because there are no further catalysts pending to support this valuation level against the broader sector pressure mentioned in the TD Cowen warning.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INHD",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: INHD is showing a massive 22x volume spike on a 10.97% gap down, suggesting significant capitulation that often precedes a mean reversion. There are no recent headlines to explain this move, meaning this is purely a technical flush on high volume rather than a fundamental repricing event. While the chart pattern indicates exhaustion, the sheer scale of the pre-market liquidity suggests that institutional buyers are likely absorbing the selling pressure at these levels. Because there is no news to justify a permanent shift in valuation, the aggressive volume signature makes a tactical long entry viable for a bounce. BEAR: The complete absence of news in the face of an 11% gap suggests an unanchored move prone to a sharp opening-auction reversal as real institutional liquidity corrects the thin-tape pricing. With the candle agent identifying an exhaustion pattern, the significant 22x volume spike likely represents retail capitulation rather than a fundamental repricing event. Because the move has failed to build further momentum in the pre-market, the opening bell is primed to act as exit liquidity for those trying to catch a bottom, confirming the exhaustion structure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NN",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: The 8.88x surge in pre-market volume relative to the baseline confirms a genuine institutional interest, far exceeding a retail-driven fluke. While no new headline broke in the last 24 hours, the market is aggressively correcting the sentiment following the October 8th 'slide,' pivoting back to the fundamental strength of the October 5th AiRANACULUS partnership. The reversal pattern confirms that the $11.60 floor is well-defended, and the current momentum suggests the stock is repricing to reflect the long-term potential of its GPS backup network. This is a high-conviction breakout play supported by sustained pre-market order flow. BEAR: The 12.11% gap is entirely decoupled from the news cycle, as the most recent relevant partnership headlines date back to October 5th and the only recent coverage on October 8th explicitly noted the stock was sliding. With 67,416 shares traded, the volume is insufficient to confirm a breakout, indicating thin-tape pricing that will likely collapse once institutional liquidity hits at the open. The 'reversal' pattern identified by the candle agent suggests this move is an exhaustion structure rather than a sustainable breakout, making the pre-market high likely the session's peak.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "T",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The massive volume of 1.1 million shares traded in pre-market indicates an aggressive market overreaction to the SpaceX spectrum acquisition news headline from 2026-10-09. While the gap-down breakdown is steep, the sheer liquidity confirms that institutional positioning is occurring at these levels, often creating a exhaustion point for retail sellers. Buying the open allows for capturing an immediate mean reversion as the market realizes the competitive threat from SpaceX is structurally distant and AT&T's core cash flows remain insulated. This is a classic volatility trap where a high-volume capitulation event sets the stage for a strong bounce off the $23.00 psychological support. BEAR: The 7.48% gap driven by the SpaceX spectrum acquisition headline represents a fundamental threat to AT&T's long-term competitive moat, making this a structural breakdown rather than a simple exhaustion gap. With pre-market volume at 44.99x the baseline, the heavy liquidation indicates institutional repositioning that will likely create immediate overhead supply at the 9:30 open. Given that the gap-down breakdown pattern is reinforced by this specific competitive shift, buyers attempting to catch a bounce are stepping in front of a institutional exit. The volume signature confirms this is a genuine repricing event, leaving the stock highly vulnerable to a sustained flush once liquidity hits the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TMUS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: The 7.3% gap down is a direct reaction to today's news regarding SpaceX acquiring 800 MHz spectrum, which the market is currently overreacting to as a existential threat to T-Mobile. Despite the bearish sentiment, the pre-market volume of 164,726 shares is exceptionally high, indicating that institutional players are aggressively absorbing the supply at these levels rather than just liquidating. Given T-Mobile's dominant position in 5G infrastructure, this sell-off creates a mean-reversion opportunity as the market realizes the competitive barrier of network density remains intact. The sustained heavy volume suggests a large-scale accumulation phase is occurring near the $158 mark, setting the stage for a recovery once the initial panic-selling subsides after the opening bell. BEAR: The 7.30% gap triggered by the SpaceX 800 MHz spectrum acquisition headline is a classic overreaction, as the threat of satellite-based mobile competition is a multi-year structural shift rather than an immediate revenue impairment. The volume signature is inconsistent with a sustained sell-off, and the bearish gap down reversal pattern signals an exhaustion of initial selling pressure. By the time the opening auction clears at 9:30, the market will likely view this price discovery as an entry point for buyers, effectively making the pre-market gap an opening-auction reversal trap. Investors buying now are ignoring the reality that this is a mature, cash-generative telco being repriced on a headline that has likely been fully digested by thin-tape volume.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: VEEA is exhibiting a textbook high-conviction breakout, backed by massive volume of over 18 million shares\u2014a 4x increase over its baseline, signaling genuine institutional accumulation rather than speculative churn. The gap is clearly anchored in the October 6th headline regarding the landmark 'Agentic Real-time Aware and Secure Community' agreement, which provides fundamental justification for this re-rating. With a 'Gap and Run' structure confirmed and price holding firm near $5.49, the volume signature suggests the market is pricing in the long-term revenue potential of this new partnership. This is a sustained move with robust participation that warrants an aggressive long position at the open. BEAR: The 41.86% gap is already stale, as the landmark smart community agreement was announced on 2026-10-06 and has been fully digested over the last two sessions. With 18 million shares traded in the pre-market, the exhaustion structure is evident; buyers are now trapped behind the 4x baseline volume surge with no fresh catalyst to sustain momentum beyond the opening bell. This setup is a classic gap-fade failure where the opening auction serves as exit liquidity for early momentum chasers rather than a launchpad for further gains.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VZ",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 1.44,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: The 6.95% gap down is driven by competitive concerns surrounding the SpaceX spectrum deal mentioned in today's Yahoo headline, yet the massive 40x surge in volume suggests an capitulation event rather than a structural terminal failure for a utility-like incumbent. While the chart reflects a breakdown, VZ is a dividend-heavy defensive name where institutional support often steps in once the initial 'news' panic selling clears the order book. Buying at the open targets a mean-reversion trap for aggressive sellers who are pricing in the absolute worst-case scenario for long-term subscriber erosion. This is a volatility play betting that the reaction to the SpaceX news is overextended relative to actual near-term earnings impact. BEAR: The massive 40.10x volume surge in pre-market indicates that the 'Verizon Shares Fall 5.4% After SpaceX Spectrum Deal Raises Competition Concerns' news has already been fully digested by institutional participants, rendering the current gap exhaustion structure. With the gap-down breakdown pattern now firmly established, the pre-market price of $43.13 represents a floor that is likely to see immediate selling pressure from institutional rebalancing at the 9:30 open. This is a classic opening-auction reversal setup where the volume has peaked, suggesting the move has exhausted its initial momentum and buyers stepping in now will likely provide the liquidity for the next leg down.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-10-09T13:52:37-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "VEEA",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: VEEA is displaying significant institutional interest today with a massive 3.55x relative volume and a 40.57% intraday gain, despite broader market headlines remaining silent on specific company news. While the price has retreated 19.39% from its intraday high of $6.749, the stock maintains a strong rank of 1 in our momentum scans over 8 consecutive observations, indicating it remains a primary focus for traders. This persistent liquidity profile suggests that the initial buying surge is finding a new base, creating a high-volatility opportunity for a bounce back toward recent highs. BEAR: VEEA represents a clear chasing risk, as the stock has already logged a 40.57% gain and sits 43.97% above its 20-day moving average with no specific company-level catalyst provided in the news report to justify the move. The momentum history confirms active distribution, showing a 12.26% decline from the initial observation and a significant 19.39% drawdown from the session high. Furthermore, the deteriorating relative volume rate and negative price acceleration indicate that buying at current levels is providing exit liquidity for earlier participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CABO",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: CABO is showing significant signs of a mean-reversion opportunity following an aggressive 32.51% sell-off, with high participation marked by 2.73x relative volume. The intraday momentum confirms a stabilization phase, with eight consecutive observations showing a recent 3.59% recovery from the session lows and strong price acceleration of 5.84%. While the news catalyst remains focused on recent financing, the technical setup demonstrates exhaustion of selling pressure, positioning the stock for a tactical bounce from its oversold condition relative to its 20-day MA. BEAR: CABO is experiencing a significant intraday collapse of -32.51%, currently trading 32.13% below its 20-day moving average, signaling a severe breakdown in market confidence. Despite the recent WSJ report regarding a $1.25 billion financing deal, the stock is failing to find a floor, with a 10.05% drawdown from its observed session high of $11.54. The momentum history confirms active deterioration, as the stock shows a -8.87% return since it was first seen and is struggling with poor volume participation relative to its aggressive price decline. Buying into this volatility constitutes clear 'chasing' of a falling knife, as the lack of support suggests the financing news is insufficient to counteract the current selling pressure.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 1.25e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SAIQ",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: SAIQ is presenting a classic oversold bounce opportunity following today's significant 14.88% decline, which has pushed the stock to a notable distance of 45.58% from its 20-day moving average. The stock is seeing massive engagement with a relative volume of 3.20x normal, suggesting that today's selling is attracting heavy institutional or speculative interest at these levels. Investors can capitalize on the association with the Quantisimo deal announced today, as SAIQ\u2019s parent entity, WISeQey, is explicitly linked to the transaction. While the recent price action shows volatility, the high-volume participation during this drawdown provides a technical floor for a potential mean-reversion trade. BEAR: SAIQ is exhibiting clear signs of exhaustion, with a 19.55% drawdown from its observed high and consistent negative price acceleration of -1.72%. Despite the headlines regarding the $666 million Quantisimo deal, the market reaction is sharply negative, suggesting the news is acting as an exit liquidity event rather than a catalyst for further gains. With the stock currently 45.58% below its 20-day MA and showing a declining relative volume rate, the technical setup is fundamentally broken and failing to attract the participation needed to reverse the downward trend.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 6.66e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "ASTS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: ASTS is currently experiencing a significant wash-out with a relative volume of 3.65x, indicating intense market participation and potential capitulation selling that often precedes a mean reversion. Despite the headline pressure regarding SpaceX and spectrum concerns today, the price is trading at a extreme distance of -19.30% from its 20-day moving average, creating a classic setup for a sharp snap-back. Positive price acceleration of 1.8226% points over the observed interval suggests that buyers are beginning to absorb the selling pressure at these lower levels. With a high relative volume and excessive deviation from the moving average, the current sell-off provides an attractive entry for a tactical rebound trade. BEAR: ASTS is currently suffering from a clear case of chasing after a 14.84% single-session drop and a 6.95% drawdown from its observed high. The market is reacting negatively to breaking news regarding SpaceX's move for grain spectrum, which threatens the company's competitive standing and creates immediate fundamental uncertainty. With relative volume at 3.65x and a negative price acceleration of 1.82%, the tape shows significant downward pressure and exhaustion of buying interest as investors digest the negative headlines. Buying into this volatility while the stock trades 19.30% below its 20-day moving average is effectively catching a falling knife during an active shift in market sentiment.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CANG",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: CANG is exhibiting significant retail interest today with relative volume surging to 3.45x its 20-day history, indicating active market participation. Despite a recent price target adjustment on October 2, the stock is currently trading 47.69% above its 20-day moving average, signaling strong recent momentum despite the intraday pullback from the $4.06 observed high. While there is no specific catalyst in the recent news flow to explain today's volatility, the persistence of 6 consecutive observations demonstrates that the stock remains a primary focus of market activity. The current price level provides a tactical entry point to capture a bounce back toward recent highs as volume remains elevated. BEAR: CANG is currently suffering from a clear chasing failure mode, as the stock is trading 47.69% above its 20-day moving average with no fresh catalyst to justify the extension. The intraday tape confirms exhaustion, marked by an 8.95% drawdown from the session high and a negative price acceleration of -4.92%. Furthermore, the relative volume rate is decaying at -0.0916 per 30-minute interval, indicating that participation is drying up while the stock hangs near its highs. With a 35.83% consensus price target cut from October 2nd acting as a fundamental anchor, there is no structural support for this current momentum spike.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRGY",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: Crescent Energy is seeing massive activity today, driven by the $4.2 billion acquisition of Devon Energy's Eagle Ford assets, a deal confirmed in headlines across the board on October 9, 2026. This fundamental growth catalyst is supported by exceptional volume participation, with relative volume hitting 4.05x the 20-day average. Despite a public offering announcement, the stock maintains high engagement with 8 consecutive observations and recent price acceleration of 0.3909 percentage points, suggesting the market is working through the supply to absorb the acquisition story. With Brent oil prices holding above $100, the firm's strategic expansion in a high-priced energy environment provides a clear bullish backdrop for near-term momentum. BEAR: The stock is currently exhibiting clear signs of exhaustion as it struggles with a 2.21% drawdown from its observed session high, compounded by a negative 1.27% day change and a price that remains 5.60% below its 20-day moving average. Market participation is actively deteriorating, as evidenced by a weakening relative volume rate that has declined by 0.0961 since the start of the session. Furthermore, the massive $4.2 billion asset acquisition and the simultaneous announcement of a public equity offering\u2014a significant dilution event\u2014creates substantial overhead supply and uncertainty that will likely suppress immediate price appreciation.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.2e+09 - no matching value in source data",
+        "bear: cited 4.2e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: Despite recent news regarding a delayed Nasdaq debut, XRPNW maintains a strong technical position, trading 114.34% above its 20-day moving average. The stock shows notable persistence with 8 consecutive observed intervals and a positive return of 8.37% since its first appearance today, despite current intraday volatility. While the volume is currently light, the stock has shown rank improvement in recent intervals, indicating underlying interest as it consolidates near the $4.33 level. BEAR: XRPNW exhibits classic exhaustion as evidenced by a significant -10.39% price acceleration point drop and a steady 2.36% drawdown from its observed high. The stock is currently trading at a precarious 114.34% distance from its 20-day moving average, yet relative volume is weak at 0.67x, indicating that the move is not being confirmed by institutional participation. Furthermore, the catalysts surrounding the Nasdaq debut delay are now two days old, meaning the market has already factored this uncertainty into the current price action, leaving no fresh news to sustain a rally.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRRR",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.05 = bull 0.75 - bear 0.70 (buy at >= +0.20). BULL: GRRR presents a compelling technical reversal play today, driven by a fresh catalyst as the company announced a letter of intent to acquire its first data center. This fundamental news aligns with strong price action, evidenced by 7 consecutive positive observations and a notable price acceleration of 3.5567% points. With 3.19x relative volume confirming significant market participation and the stock currently trading at its observed high of $11.13, the momentum indicates a robust recovery effort from the 16.01% distance from its 20-day MA. The combination of structural news and sustained intraday volume makes this a strong candidate for a mean-reversion trade. BEAR: GRRR is showing signs of exhaustion as its relative rank has slipped from 7 to 8 despite the positive news of a letter of intent for a data center acquisition. The stock is already trading 16.01% below its 20-day moving average, suggesting that today's price bounce is an attempt to recover from a sharp broader decline rather than a momentum breakout. With a score change of -0.7627, the tape is displaying measurable deterioration even while the stock attempts to hold its session high. Chasing this move presents a high risk as the current 3.19x relative volume is struggling to drive meaningful, sustained rank improvement.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VZ",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: Verizon is experiencing a massive liquidity event with relative volume at 2.97x its 20-day average, coinciding with its ex-dividend date on 2026-10-09. While the stock has seen a sharp 9.84% intraday decline, the high volume indicates significant institutional turnover that often precedes a mean-reversion move, especially given the stock is now trading 11.93% below its 20-day moving average. With a score change of 0.3648 across six consecutive observations, the market is actively repricing this volatility, providing a tactical entry point for a bounce as sellers exhaust themselves into the ex-dividend floor. There is no specific negative news headline provided in the catalyst report to justify this sell-off, suggesting the move is mechanically driven and potentially overextended. BEAR: VZ is facing a severe -9.84% sell-off with high volume at 2.97x, indicating heavy institutional selling rather than a temporary dip. The ex-dividend date occurring today exacerbates the technical breakdown, as the automatic price adjustment creates a mechanical headwind on top of the already negative momentum. Furthermore, the 4.76% drawdown from the observed high, combined with a persistent 'exhausted_or_reversing' setup and negative price acceleration, suggests the stock lacks the buying support to stage a meaningful recovery. The presence of negative news regarding potential dividend cuts only serves to amplify the ongoing liquidation pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "T",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: AT&T is currently experiencing an oversold condition, trading 11.08% below its 20-day moving average, which presents a classic mean-reversion opportunity following today's 10.07% decline. The volume is significant at 2.73x normal levels, suggesting an exhaustion of selling pressure and high liquidity for a potential rebound. Furthermore, today marks the ex-dividend date for T, which often triggers artificial price volatility that tends to stabilize as the market recalibrates. With a positive rank improvement noted in the final session observations, the stock is showing early signs of bottoming out from its intraday drawdown. BEAR: Buying T today is an attempt to catch a falling knife that has already suffered a 10.07% drop, with the stock closing well beneath its 20-day moving average. The sharp sell-off is corroborated by the recent headlines regarding SpaceX's spectrum acquisition and its implications for the mobile network landscape, suggesting a fundamental shift that keeps pressure on legacy carriers. Furthermore, the intraday tape shows clear deterioration, with a 3.5% drawdown from the observed high and negative price acceleration, indicating that the selling momentum remains intact and is not currently providing a floor for entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HUM",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: HUM is showing significant strength today, surging 11.70% on massive relative volume of 2.59x, driven by market reaction to its Medicare Advantage quality ratings as highlighted in news headlines on 2026-10-09. The price action demonstrates sustained interest, maintaining an 11.01% lead over its 20-day moving average and holding consistent momentum through 8 consecutive observations over 210 minutes. Despite a minor 1.3% drawdown from its intraday high, the stock's ability to maintain high volume and a sharp double-digit percentage gain suggests institutional accumulation is likely to carry the move forward. BEAR: HUM is currently exhibiting clear signs of chasing risk, as the stock is trading 11.01% above its 20-day moving average on significant volume that has slowed its pace, evidenced by a relative volume rate change of -0.0124. The intraday tape shows clear deterioration with an observed drawdown of -1.30% from the session high and negative price acceleration of -0.5312 points. While the headline news regarding Humana's quality ratings sparked the surge, the simultaneous negative report regarding the elimination of Part B givebacks for 62% of members poses a fundamental headwind that the market may aggressively reprice once the initial momentum fades.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FEAM",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.10 = bull 0.75 - bear 0.65 (buy at >= +0.20). BULL: FEAM is currently experiencing powerful momentum, surging 19.64% on 1.06x relative volume as the market digests recent transformative news. The company recently announced the acquisition of Searles Valley Minerals assets, a move that explicitly targets $40M in EBITDA and provides substantial operational infrastructure including three processing sites and 54MW of power capacity. Price action remains robust, currently trading at the session high of $3.96 with a positive return of 0.76% observed over the last 30 minutes, indicating strong institutional follow-through. This fundamental pivot, supported by recent analyst interest as a top lithium stock to watch, provides a clear catalyst for a sustained breakout above the 20-day moving average. BEAR: FEAM is currently trading at an extreme extension of 45.57% above its 20-day moving average, signaling that the move is technically exhausted rather than supported by fresh fundamentals. All relevant catalysts, such as the Searles Valley asset acquisition, are 2-3 days old and fully digested by the market, leaving the current 19.64% daily gain without any immediate news-driven support. With the stock pushing against its daily high of 3.96 and relative volume at a modest 1.06x, the lack of accelerating institutional participation suggests this rally is likely providing exit liquidity for earlier buyers rather than establishing a new base.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TMUS",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.19,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: TMUS is undergoing a massive liquidity event with 2.37x relative volume, signaling an extreme institutional reaction that is currently overextended at -11.67% from its 20-day MA. The intraday tape shows encouraging signs of stabilization, with a positive price acceleration of 1.1141 percentage points and consistent participation across five consecutive observations. While the headline news regarding SpaceX's spectrum buy is specific to the telecom sector, nothing in the provided catalyst report directly validates this specific sharp decline, suggesting the sell-off may be a transient technical exhaustion. Buying here plays for a mean-reversion move as the stock recovers from an oversold intraday condition. BEAR: TMUS is suffering from significant structural weakness with a 13.17% intraday collapse, leaving it 11.67% below its 20-day moving average. The stock is currently serving as exit liquidity for those reacting to sector-wide concerns, specifically headlines regarding SpaceX's spectrum acquisition which highlight potential competitive pressures on traditional telco infrastructure. Technical momentum is actively deteriorating, as evidenced by a rank decline to 13 and a continued drawdown from the observed high, confirming that this is not a 'dip buy' but a liquidation event. The absence of a company-specific bullish catalyst to counter the heavy 2.37x relative volume suggests that the current downside pressure is driven by fundamental repricing rather than temporary volatility.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CCI",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: CCI is experiencing a massive breakout fueled by a specific catalyst today, October 9, 2026, where SpaceX's $8 billion spectrum acquisition has kept tower expansion opportunities active for the company. This news has driven an explosive 12.56% price surge on heavy institutional participation, evidenced by a relative volume of 2.20x the 20-day norm. The stock has demonstrated clear momentum, maintaining a 2.16% return since its initial surge was captured, and the sustained high volume suggests significant follow-through potential ahead of the October 21 earnings date. This move is supported by both fundamental news and extreme technical confirmation, creating a high-conviction momentum trade. BEAR: CCI is currently chasing a headline-driven spike, with a 12.56% daily gain that has left the stock trading 10.82% above its 20-day moving average. The stock shows clear signs of intraday exhaustion, having retreated 1.93% from its observed session high of $79.065. Buying now is fundamentally flawed because the primary catalyst\u2014SpaceX's spectrum investment\u2014is fully public and priced in, leaving no remaining momentum to absorb the incoming wave of profit-taking. With earnings scheduled for October 21, traders attempting to hold through this volatility face the dual risk of a mean-reversion pull-back combined with the uncertainty of a major event within the holding window.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 8e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SMXT",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: SMXT is presenting a potential mean-reversion opportunity following its 9.33% decline on October 9th, as the stock remains significantly elevated at 69.20% above its 20-day moving average. While the Q2 earnings report on October 8th showed a widening EPS loss of $(0.98), the significant increase in sales to $10.2M YoY provides a fundamental anchor for investors looking for long-term growth. Recent 30-minute interval data indicates price acceleration of 4.92% points and a 0.93% return since the previous observation, suggesting early signs of stabilization despite extremely low relative volume. This setup suggests that the post-earnings sell-off may be overextended, offering a tactical entry for a bounce back toward higher levels. BEAR: SMXT is currently suffering from a classic 'chasing' failure, as the stock is trading 69.20% above its 20-day moving average while suffering a 9.33% intraday decline. Evidence of exhaustion is clear, with a -8.94% drawdown from the observed session high and only 2 out of 7 intervals showing positive momentum. Furthermore, the market has already digested the poor Q2 earnings report from yesterday, and the extremely low relative volume of 0.18x suggests there is no institutional conviction supporting the current price level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "VEEA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CABO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SAIQ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ASTS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CANG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRGY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GRRR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "T",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HUM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FEAM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TMUS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CCI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SMXT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

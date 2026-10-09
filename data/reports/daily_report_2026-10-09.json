@@ -1,0 +1,1198 @@
+{
+  "date": "2026-10-09",
+  "events": [
+    {
+      "at_et": "2026-10-09T08:46:48-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-09T08:53:03-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-10-09T09:32:03-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLOV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INHD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T10:24:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1016.json",
+        "shortlist": [
+          "VEEA",
+          "SAIQ",
+          "XRPNW",
+          "CRGY",
+          "HUM",
+          "CABO",
+          "ALHC",
+          "XRPN",
+          "SMXT",
+          "ASTS",
+          "T",
+          "CCI",
+          "NVAX",
+          "CTVA",
+          "VZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "position size cap exceeded, skipped: 1 share at $434.48 > current cash-based budget ($216.38)"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T10:53:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "APIError: {\"base_price\":\"77.66\",\"code\":42210000,\"message\":\"stop_loss.stop_price must be \\u003c= base_price - 0.01\"}"
+      }
+    },
+    {
+      "at_et": "2026-10-09T11:23:22-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1116.json",
+        "shortlist": [
+          "VEEA",
+          "SAIQ",
+          "XRPNW",
+          "CRGY",
+          "CABO",
+          "HUM",
+          "CANG",
+          "GRRR",
+          "ASTS",
+          "XRPN",
+          "ALHC",
+          "VZ",
+          "SMXT",
+          "CCI",
+          "T"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "live ask $455.00 has reached or passed the original take-profit target $451.83"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T11:58:01-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1146.json",
+        "shortlist": [
+          "VEEA",
+          "SAIQ",
+          "CANG",
+          "CABO",
+          "ASTS",
+          "XRPNW",
+          "GRRR",
+          "CRGY",
+          "HUM",
+          "VZ",
+          "T",
+          "CCI",
+          "TMUS",
+          "XRPN",
+          "SMXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CCI",
+            "action": "submitted",
+            "order": {
+              "symbol": "CCI",
+              "qty": 2,
+              "est_cost": 157.56,
+              "entry_ref": 78.78,
+              "take_profit": 81.7,
+              "remaining_take_profit_pct": 3.71,
+              "stop_loss": 77.18,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261009-115801-CCI",
+              "analysis_price": 79.065,
+              "live_price_change_pct": -0.36
+            },
+            "broker": {
+              "id": "90061cf9-cca1-443f-b44a-9dbee57c14fc",
+              "client_order_id": "ta-20261009-115801-CCI",
+              "symbol": "CCI",
+              "qty": "2",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 81.7,
+              "stop_loss": 77.18,
+              "legs": [
+                "acbe1896-21d1-4a3e-9c96-dc4e9d37b970",
+                "9f3eb234-f7ee-4bae-b0d0-7d93bc529dea"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "position size cap exceeded, skipped: 1 share at $440.75 > current cash-based budget ($216.38)"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T12:27:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1216.json",
+        "shortlist": [
+          "VEEA",
+          "SAIQ",
+          "CABO",
+          "ASTS",
+          "CANG",
+          "GRRR",
+          "XRPNW",
+          "CRGY",
+          "VZ",
+          "HUM",
+          "T",
+          "TMUS",
+          "SMXT",
+          "XRPN",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T12:53:20-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1247",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1247.json",
+        "shortlist": [
+          "VEEA",
+          "CABO",
+          "SAIQ",
+          "ASTS",
+          "CANG",
+          "XRPNW",
+          "CRGY",
+          "GRRR",
+          "VZ",
+          "HUM",
+          "T",
+          "TMUS",
+          "SMXT",
+          "NVAX",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "position size cap exceeded, skipped: 1 share at $436.07 > current cash-based budget ($200.00)"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T13:23:03-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1317",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1317.json",
+        "shortlist": [
+          "VEEA",
+          "CABO",
+          "SAIQ",
+          "ASTS",
+          "CANG",
+          "CRGY",
+          "GRRR",
+          "XRPNW",
+          "VZ",
+          "HUM",
+          "T",
+          "TMUS",
+          "FEAM",
+          "SMXT",
+          "DNA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "position size cap exceeded, skipped: 1 share at $437.41 > current cash-based budget ($200.00)"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DNA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T13:52:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1346.json",
+        "shortlist": [
+          "VEEA",
+          "CABO",
+          "SAIQ",
+          "ASTS",
+          "CANG",
+          "CRGY",
+          "XRPNW",
+          "GRRR",
+          "VZ",
+          "T",
+          "HUM",
+          "FEAM",
+          "TMUS",
+          "CCI",
+          "SMXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T14:22:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1416.json",
+        "shortlist": [
+          "VEEA",
+          "CABO",
+          "SAIQ",
+          "ASTS",
+          "CANG",
+          "XRPNW",
+          "CRGY",
+          "GRRR",
+          "VZ",
+          "T",
+          "HUM",
+          "TMUS",
+          "CDNL",
+          "CCI",
+          "FEAM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "position size cap exceeded, skipped: 1 share at $434.92 > current cash-based budget ($215.77)"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCI",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "FEAM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T14:53:40-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1446.json",
+        "shortlist": [
+          "VEEA",
+          "CABO",
+          "SAIQ",
+          "ASTS",
+          "CANG",
+          "XRPNW",
+          "CRGY",
+          "VZ",
+          "GRRR",
+          "CDNL",
+          "T",
+          "HUM",
+          "TMUS",
+          "XRPN",
+          "NVAX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "position size cap exceeded, skipped: 1 share at $434.48 > current cash-based budget ($215.77)"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T15:22:08-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1517",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1517.json",
+        "shortlist": [
+          "VEEA",
+          "CABO",
+          "CDNL",
+          "SAIQ",
+          "ASTS",
+          "CANG",
+          "XRPNW",
+          "CRGY",
+          "VZ",
+          "GRRR",
+          "T",
+          "TMUS",
+          "HUM",
+          "XRPN",
+          "NVAX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "position size cap exceeded, skipped: 1 share at $436.18 > current cash-based budget ($215.77)"
+          },
+          {
+            "symbol": "XRPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T15:52:26-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-09/shortlist_1546.json",
+        "shortlist": [
+          "VEEA",
+          "SVC",
+          "CABO",
+          "CDNL",
+          "XRPNW",
+          "SAIQ",
+          "ASTS",
+          "CRGY",
+          "CANG",
+          "VZ",
+          "HUM",
+          "TMUS",
+          "GRRR",
+          "T",
+          "CCI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRGY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HUM",
+            "reason": "live ask $455.00 has reached or passed the original take-profit target $452.81"
+          },
+          {
+            "symbol": "TMUS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "T",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-09T15:52:26-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
