@@ -1,0 +1,239 @@
+{
+  "generated_at": "2026-10-12T14:59:05-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "WFF",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 5.2,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: WFF is demonstrating extreme momentum, having surged 234.50% today on 3.64x relative volume, placing it as the number one rank in our monitoring scanners. The tape is robust, showing 10 consecutive positive observations since 10:17 ET with zero drawdown from its observed high of $41.11, confirming sustained buying pressure. While there is no specific fundamental news catalyst explaining this move in the provided report, the combination of extreme price acceleration and sustained participation indicates significant institutional or speculative inflow that typically carries through the short term. We are riding this intense momentum as the stock continues to trade at the top of its range. BEAR: WFF is currently trading at an extreme 1430.67% above its 20-day moving average, indicating a parabolic move that has completely disconnected from historical valuation norms. The catalyst report reveals an absence of company-specific news to justify this move, suggesting that the +234.50% gain is driven entirely by speculative momentum rather than fundamental information. Furthermore, the volume participation is showing signs of potential stalling, as the relative volume rate change is negative at -0.1074, suggesting that buying pressure is not confirming the intensity of the price acceleration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CTNM",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: CTNM is currently witnessing an extreme surge in liquidity, evidenced by a massive 8.09x relative volume, indicating significant institutional interest despite today's sharp price decline. While there is no specific catalyst in the news report, the stock has maintained consistent intraday activity with 10 consecutive observations, demonstrating that the market is actively repricing the shares. The stock showed resilience with positive price movement in 3 out of the last 9 observed intervals, suggesting the initial sell-off may be finding an inflection point. Given the distance of -30.32% from its 20-day MA, a mean-reversion trade offers a compelling risk-reward opportunity for a short-term bounce. BEAR: CTNM is experiencing a catastrophic collapse of over 31%, with tape deterioration confirmed by a 10.01% drawdown from the observed high and negative price acceleration of -3.41%. The lack of any specific fundamental catalyst explaining this massive move creates significant uncertainty, exacerbated by a declining relative volume rate of -0.236, indicating participation is fading as the stock sinks. Buying now is an attempt to catch a falling knife in a name that is 30% below its 20-day moving average and showing clear exhaustion in the momentum data.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TRAX",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: TRAX is exhibiting exceptional institutional interest today, evidenced by massive relative volume at 7.50x its 20-day average and a headline-driven move identifying it as a standout performer in the biotech sector. Despite a recent drawdown from its session high, the stock maintains a 10.20% gain, confirming that buyers are aggressively supporting the breakout. With 10 consecutive positive momentum observations tracked throughout the session, the underlying participation remains robust despite the intraday consolidation. This sustained activity, highlighted by Benzinga as a stock 'soaring' today, suggests the potential for a resumption of the primary uptrend as it sits near its 20-day MA. BEAR: TRAX is currently exhibiting clear signs of price exhaustion, having retraced 4.71% from its observed daily high of $36.835 since first being tracked. Despite the initial intraday pop, the momentum score has deteriorated by 1.2034 points, and the relative volume rate is slowing with a change of -0.06 per 30-minute interval, suggesting that buying interest is drying up. The lack of specific, material fundamental news\u2014beyond generic headlines about the stock moving\u2014leaves the current +10.20% gain vulnerable to a rapid mean-reversion as momentum traders exit their positions into the ongoing drawdown.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SVC",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: SVC is trading at significantly elevated volume at 2.08x normal, suggesting strong institutional interest following the news from October 9 regarding an unsolicited $2 billion acquisition proposal for its hotel portfolio from TKO Hotels. Despite the intraday price decline, the stock has shown a rank improvement of 3 spots in the final observations, and the rising relative volume rate of 0.0331 indicates that buying support is beginning to materialize. The current price represents a discount of 11.67% from its 20-day MA, offering an attractive entry point for a mean-reversion play as the market digests the potential value unlocked by the acquisition proposal. BEAR: SVC is exhibiting clear signs of downward momentum exhaustion, with a 19.23% day loss and a consistent inability to post any positive intervals across nine observed segments. The stock is currently 11.67% below its 20-day moving average, and the 11.56% drawdown from the observed session high confirms that recent buyers are trapped in a liquidity trap. Furthermore, the news of an unsolicited $2 billion acquisition proposal from October 9th is now three days old and failing to provide a floor, suggesting the market has already factored in skepticism regarding the deal's viability. With no clear recovery signal and significant negative price acceleration of -0.5362, buying now invites further downside as the stock continues to drift toward its session lows.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2e+09 - no matching value in source data",
+        "bear: cited 2e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "TMC",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: TMC is seeing significant accumulation with relative volume at 2.23x, signaling institutional interest despite the session drawdown. The momentum data confirms persistence with nine consecutive observations and a recent rank improvement from 6 to 5. Furthermore, price acceleration has turned positive at 0.0042, and the drawdown from the session high is tightly contained at just 1.94%, suggesting the selling pressure is exhausting. There are no specific catalysts in the report today, so this case relies purely on the tape-based evidence of bottoming behavior and elevated participation. BEAR: TMC is currently suffering from a significant breakdown, trading 22.80% below its 20-day moving average on heavy relative volume of 2.23x. The lack of any identifiable catalyst in the news or earnings report suggests this price action is purely technical capitulation rather than a response to fundamental development. While the stock shows a minor rank improvement, the negative score change and a sustained drawdown from its observed high indicate that the selling pressure remains firmly in control. Buying now is dangerous because the momentum is trapped in a downward trend without a clear fundamental floor to anchor the price.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MMED",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net +0.05 = bull 0.70 - bear 0.65 (buy at >= +0.20). BULL: MMED is showing significant accumulation today with relative volume at 2.71x the 20-day norm, signaling strong institutional interest following the oversubscription of the MiniMed share exchange offer announced today. Despite a slight intraday dip, the stock has shown resilience with positive price acceleration of 0.2064 and a rank improvement from 9 to 6. Analysts are highlighting the upside potential, evidenced by Mizuho\u2019s recent $28 price target, which provides substantial room to run from current levels near $19.29. The combination of high liquidity and positive structural catalysts creates a compelling setup for a near-term mean reversion higher. BEAR: MMED is currently facing exhaustion as the relative volume rate is decaying (-0.0104) and price momentum has weakened, resulting in a drawdown from its observed high. The flurry of news regarding the oversubscribed MiniMed share exchange offer and the Jefferies hold initiation suggest that the market has already processed the primary catalysts for the session. With the stock trading -6.20% below its 20-day moving average and showing a negative day change, the current volume surge of 2.71x acts more as exit liquidity for institutional balancing than a sustained breakout. Entering now risks being trapped on the wrong side of an oversubscribed dilution event where price discovery is already constrained by the recent influx of supply.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VIVK",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: VIVK is currently experiencing a severe technical oversold condition, trading 68.55% below its 20-day moving average following a significant 40.53% decline today. While the catalyst report contains no news specific to the company's operations, the extreme price dislocation suggests a potential for a sharp mean-reversion trade. The stock has shown signs of stabilization with a return of 0.6682% over the most recent observation interval and has successfully held above its session lows despite the initial selling pressure. Given the current volatility, a technical bounce from these deeply oversold levels offers a high-risk, high-reward opportunity for a short-term scalp. BEAR: VIVK exhibits a severe failure of market participation, evidenced by a relative volume of only 0.61x and a collapse of 40.53% in price today, signaling an institutional exit rather than a buyable dip. Momentum metrics confirm the deterioration, showing a decline in rank from 4 to 7 and a persistent drawdown of 5.44% from its observed high over the last 270 minutes. There is no positive catalyst in the current news cycle to support a reversal, making this a classic case of chasing a falling knife with no institutional volume to arrest the decline.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.94,
+      "stop_loss_pct": 5.0,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: XRPNW is currently benefiting from heightened market interest following its high-profile Nasdaq debut date of October 12, 2026, which has spurred significant speculative coverage. Despite a temporary intraday drawdown of 8.61% from its observed high of $5.69, the stock maintains a strong technical position, trading 136.04% above its 20-day moving average with an 11.83% gain on the session. The momentum, while currently in an exhausted phase, shows persistent engagement with 10 consecutive observations over 270 minutes and a notable acceleration in price points of 4.96%. The ongoing public discourse regarding its valuation relative to XRP ensures that volatility will likely remain high, providing a favorable environment for momentum traders to capture a recovery toward previous highs. BEAR: XRPNW is displaying textbook exhaustion as it trades 136.04% above its 20-day MA with no fresh catalyst to justify the surge, given that all available news headlines regarding its Nasdaq debut are five days old. Momentum has clearly deteriorated with a -8.61% drawdown from the observed session high and a rank that has slipped from 5 to 8. Participation is thin with relative volume at only 0.92x, confirming that the current price action is failing to attract sustainable buying interest at these elevated levels. This setup represents classic exit liquidity where the move has already occurred and the tape is actively rolling over.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CANG",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: CANG is currently exhibiting high-volume interest with relative volume at 1.80x, indicating significant market participation despite the day's sharp pull-back. While there is no specific new catalyst in the news report to explain today's movement, the stock remains technically extended, trading 23.07% above its 20-day moving average. The intraday tape shows a modest rank improvement from 10 to 9 over the last 270 minutes, suggesting potential support forming as the intraday drawdown stabilizes. Entering here capitalizes on a potential mean reversion following the sharp 12.54% decline, provided the elevated volume sustains the floor at current levels. BEAR: Buying CANG today is a classic case of chasing a move that has already failed, evidenced by a 9.44% drawdown from its observed session high of $3.3901. Despite the stock remaining 23.07% above its 20-day MA, volume participation is actively deteriorating with a negative relative volume rate change of -0.0082. Furthermore, there is no fresh catalyst to justify the current premium; the available news from October 6th and 7th is clearly stale, leaving the price action to be driven by momentum that is currently undergoing measurable decay.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRRR",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: GRRR is showing signs of a technical floor forming after a recent overreaction to its data center expansion plans, evidenced by a relative volume of 1.93x normal. While the news from October 9th pressured the stock, current intraday momentum is improving with three consecutive positive observations and a price acceleration of 1.4128%. The stock has successfully climbed to its observed high of $10.08 with zero drawdown, and its rank improvement from 12 to 10 indicates increasing institutional interest as it bounces off its 20-day moving average deviation. BEAR: The stock is currently trading 23.22% below its 20-day moving average following a significant 9.43% decline, indicating a sharp bearish trend rather than a constructive entry. The recent catalyst regarding a non-binding data center letter of intent is three days old and has consistently resulted in selling pressure, suggesting the market views the news as a disappointment or a source of dilution. While there is a minor uptick in the last 60 minutes, the relative volume rate is decelerating (-0.0271), suggesting that the current modest recovery is acting as exit liquidity for trapped holders rather than a genuine shift in trend. Buying into a stock that is both structurally broken and suffering from a clear negative reaction to its primary catalyst is high-risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CBRS",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: CBRS is exhibiting a high-conviction rebound as evidenced by a 1.84x relative volume spike and positive price acceleration of 1.21 percentage points today. The stock's recovery momentum is supported by the news on 2026-10-12 that shares rose 9% following favorable commentary from Sam Altman regarding the firm's AI chip technology. With a 2-rank improvement in the momentum shortlist and increasing relative volume rates, the stock is demonstrating significant buyer interest despite today's initial volatility. Positioned 21.61% below its 20-day MA, the stock has substantial room for a mean-reversion move over the coming sessions as institutional interest stabilizes. BEAR: CBRS is currently in a state of technical exhaustion, trading 21.61% below its 20-day moving average while suffering a 10.26% single-session decline. Despite the volatility, intraday momentum remains negative with a 2.83% drawdown from the observed high and a lackluster rank improvement of only 2 despite being seen for 270 minutes. The catalyst environment is flooded with contradictory headlines, including reports of a sell-off due to an OpenAI chip report followed by speculative recovery noise, suggesting that the recent price action is driven by reactive news cycles rather than sustained fundamental conviction. Entering now requires catching a falling knife during an intraday period where volume participation remains inconsistent with the depth of the price breach.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STFS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.5,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.30 = bull 0.30 - bear 0.60 (buy at >= +0.20). BULL: STFS is showing significant relative volume at 1.95x normal, indicating active market interest despite a minor daily pullback. The stock is currently trading 2.86% above its 20-day moving average, signaling that the broader trend remains intact. While the catalyst report contains no news specific to today's action, the elevated volume suggests participants are positioning ahead of further volatility in the communication services sector. This setup reflects a potential mean-reversion opportunity on a stock with resilient underlying momentum. BEAR: STFS is exhibiting a precarious technical profile characterized by a 3.16% intraday decline despite maintaining elevated relative volume of 1.95x, suggesting aggressive selling pressure is absorbing incoming demand. The lack of any recent company-specific catalysts since the stale news headline six days ago leaves the stock without a fundamental narrative to support its current premium of 2.86% above the 20-day moving average. Entering at this level amounts to buying into a descending trend where the absence of positive momentum indicators makes the current price point vulnerable to further mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AI",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.10 = bull 0.55 - bear 0.65 (buy at >= +0.20). BULL: C3.ai is currently benefiting from sustained market attention, as evidenced by multiple headlines from 2026-10-12 highlighting the stock as a mover alongside other major names. The stock is demonstrating strong participation with a relative volume of 1.93x, significantly outpacing its 20-day average. While price action has seen a slight pullback from its session high, the current 7.42% premium to its 20-day moving average confirms a clear bullish trend is currently in play. This combination of active news flow and high volume participation provides a compelling setup for momentum continuation. BEAR: The primary risk here is chasing an exhausted intraday move, as evidenced by the 2.579% drawdown from the observed high of $12.02. Despite the stock trading at 1.93x its normal volume, the price action has demonstrably failed to hold its peak since the 10:17 ET observation, signaling that the 'news' headlines from earlier today are failing to sustain buying interest. With the stock already extended 7.42% above its 20-day moving average, buying into this clear intraday momentum decay makes the current entry effectively act as exit liquidity for earlier buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PSIG",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: PSIG is presenting a compelling mean-reversion opportunity following a steep 28.43% intraday decline that has left the stock significantly oversold at 16.65% below its 20-day moving average. The intraday momentum is showing signs of stabilization with a 4.28% return since the previous observation and a notable price acceleration of 3.41% points. While the catalyst report contains no specific positive news to explain the move, the technical setup suggests the selling pressure has become exhausted, allowing for a tactical entry to capture a bounce back toward the mean. The current price level offers a favorable risk-reward profile for a short-term trade as the stock attempts to reclaim some of today's lost value. BEAR: PSIG is a classic value trap exhibiting clear tape deterioration, evidenced by a -28.43% day change and a rank that has slipped to 14 from 11 over the recent interval. With relative volume at a paltry 0.65x, there is zero institutional participation to support a recovery, leaving any buyer as exit liquidity for the heavy selling pressure. The lack of a specific catalyst in the current news report leaves the stock drifting 16.65% below its 20-day moving average without a clear fundamental floor to anchor against, making the current $3.65 price level a precarious place to catch a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TTMI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: TTMI is presenting a classic overreaction play following today's 11.08% decline, which was driven by a $400 million investment announcement for AI infrastructure capacity in China and Malaysia. While the market initially penalized the stock for capital expenditure concerns, this strategic investment is a long-term catalyst designed to accelerate growth in critical AI-related technologies. With relative volume at 1.51x and the price trading significantly below its 20-day moving average, the stock is oversold and ripe for a technical snap-back. Buying now captures a significant discount on a company aggressively positioning itself for the long-term AI infrastructure cycle. BEAR: TTMI is facing a sharp 11.08% sell-off following the announcement of a $400 million capital expenditure plan, which investors appear to be interpreting as a drag on near-term free cash flow and a potential risk to balance sheet efficiency. With the stock trading 12.75% below its 20-day moving average and experiencing relative volume of 1.51x, the market is aggressively pricing in the negative implications of this strategic investment. Buying into this momentum constitutes catching a falling knife, as the high volume indicates sustained institutional liquidation following the fresh news. There is no technical floor established yet, and the negative sentiment surrounding the capital intensive nature of this China-focused expansion suggests continued pressure in the coming days.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4e+08 - no matching value in source data",
+        "bear: cited 4e+08 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "WFF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CTNM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TRAX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SVC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TMC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MMED",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VIVK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CANG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GRRR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CBRS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "STFS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PSIG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TTMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
