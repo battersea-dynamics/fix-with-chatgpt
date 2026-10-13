@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-13T08:49:27-04:00",
+  "session_date": "2026-10-13",
+  "reads": {
+    "BMBL": {
+      "symbol": "BMBL",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FRMI": {
+      "symbol": "FRMI",
+      "pattern": "Gap and Run",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SNDX": {
+      "symbol": "SNDX",
+      "pattern": "Gap-and-Go Bearish",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "MNDR": {
+      "symbol": "MNDR",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "UNH": {
+      "symbol": "UNH",
+      "pattern": "Gap and Go Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "CIFR": {
+      "symbol": "CIFR",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "S": {
+      "symbol": "S",
+      "pattern": "Continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "GS": {
+      "symbol": "GS",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "DEO": {
+      "symbol": "DEO",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "VFC": {
+      "symbol": "VFC",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FUN": {
+      "symbol": "FUN",
+      "pattern": "gap down exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "NB": {
+      "symbol": "NB",
+      "pattern": "bullish engulfing reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    }
+  }
+}

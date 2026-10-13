@@ -1,0 +1,1077 @@
+{
+  "date": "2026-10-13",
+  "events": [
+    {
+      "at_et": "2026-10-13T08:47:06-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-13T08:52:38-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-10-13T09:32:12-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BMBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GS",
+            "reason": "live ask $974.40 has reached or passed the original take-profit target $959.01"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "S",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UNH",
+            "reason": "live ask $418.43 has reached or passed the original take-profit target $405.91"
+          },
+          {
+            "symbol": "VFC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T10:22:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1017",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1017.json",
+        "shortlist": [
+          "BMBL",
+          "WFF",
+          "MNDR",
+          "FRMI",
+          "XRPNW",
+          "SNDX",
+          "CANG",
+          "CIFR",
+          "VEEA",
+          "FUN",
+          "BIAF",
+          "NXL",
+          "SAIQ",
+          "EFXT",
+          "SMXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BMBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BIAF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EFXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T10:56:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1046.json",
+        "shortlist": [
+          "BMBL",
+          "WFF",
+          "FRMI",
+          "MNDR",
+          "CANG",
+          "XRPNW",
+          "ECC",
+          "SNDX",
+          "FUN",
+          "VEEA",
+          "CIFR",
+          "NXL",
+          "ZURA",
+          "GIXI",
+          "SMXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BMBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T11:24:54-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1116.json",
+        "shortlist": [
+          "BMBL",
+          "WFF",
+          "ZURA",
+          "MNDR",
+          "FRMI",
+          "CANG",
+          "VEEA",
+          "ECC",
+          "XRPNW",
+          "FUN",
+          "SNDX",
+          "CIFR",
+          "SCNX",
+          "SAIQ",
+          "SMXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BMBL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SCNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SAIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T11:59:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1146.json",
+        "shortlist": [
+          "BMBL",
+          "WFF",
+          "ZURA",
+          "CANG",
+          "MNDR",
+          "FRMI",
+          "ECC",
+          "VEEA",
+          "XRPNW",
+          "FUN",
+          "SMXT",
+          "ENGS",
+          "SNDX",
+          "NXL",
+          "CIFR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "BMBL",
+            "action": "submitted",
+            "order": {
+              "symbol": "BMBL",
+              "qty": 42,
+              "est_cost": 249.48,
+              "entry_ref": 5.94,
+              "take_profit": 6.01,
+              "remaining_take_profit_pct": 1.2,
+              "stop_loss": 5.84,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261013-115931-BMBL",
+              "analysis_price": 5.94,
+              "live_price_change_pct": 0.0
+            },
+            "broker": {
+              "id": "b61cc0b0-0f0d-43fe-bfad-f555390e1335",
+              "client_order_id": "ta-20261013-115931-BMBL",
+              "symbol": "BMBL",
+              "qty": "42",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 6.01,
+              "stop_loss": 5.84,
+              "legs": [
+                "223aba58-5c98-4728-85b5-baba5cd564a4",
+                "6f918026-cb14-432c-bea9-62fd03ca8dff"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T12:30:56-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1216.json",
+        "shortlist": [
+          "WFF",
+          "ZURA",
+          "CANG",
+          "MNDR",
+          "FRMI",
+          "ECC",
+          "FUN",
+          "XRPNW",
+          "VEEA",
+          "ENGS",
+          "SNDX",
+          "CIFR",
+          "SMXT",
+          "NXL",
+          "SCNX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SCNX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T13:00:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1246.json",
+        "shortlist": [
+          "WFF",
+          "ZURA",
+          "CANG",
+          "FRMI",
+          "MNDR",
+          "ECC",
+          "XRPNW",
+          "FUN",
+          "ENGS",
+          "SNDX",
+          "NXL",
+          "SMXT",
+          "CDNL",
+          "CIFR",
+          "VEEA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FRMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T13:25:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "ServerError: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      }
+    },
+    {
+      "at_et": "2026-10-13T14:00:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1346.json",
+        "shortlist": [
+          "WFF",
+          "ZURA",
+          "CANG",
+          "FRMI",
+          "ECC",
+          "MNDR",
+          "FUN",
+          "XRPNW",
+          "SNDX",
+          "ENGS",
+          "NXL",
+          "CIFR",
+          "CDNL",
+          "VEEA",
+          "VTEX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "FRMI",
+            "action": "submitted",
+            "order": {
+              "symbol": "FRMI",
+              "qty": 52,
+              "est_cost": 202.28,
+              "entry_ref": 3.89,
+              "take_profit": 4.22,
+              "remaining_take_profit_pct": 8.44,
+              "stop_loss": 3.76,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261013-140036-FRMI",
+              "analysis_price": 3.925,
+              "live_price_change_pct": -0.89
+            },
+            "broker": {
+              "id": "fc52c4ee-c990-4927-8b0e-ab08c6acbb8f",
+              "client_order_id": "ta-20261013-140036-FRMI",
+              "symbol": "FRMI",
+              "qty": "52",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.22,
+              "stop_loss": 3.76,
+              "legs": [
+                "bf07a22d-5bfc-43bc-b2db-89181d442ee9",
+                "640c9e13-4b18-4c5a-b38e-69d1dee03eb3"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VEEA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTEX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T14:25:28-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1417",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1417.json",
+        "shortlist": [
+          "WFF",
+          "ZURA",
+          "CANG",
+          "MNDR",
+          "ECC",
+          "FUN",
+          "XRPNW",
+          "SNDX",
+          "ENGS",
+          "CDNL",
+          "NXL",
+          "CIFR",
+          "SMXT",
+          "VTEX",
+          "SCNX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CIFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SCNX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T14:51:24-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1446.json",
+        "shortlist": [
+          "WFF",
+          "ZURA",
+          "CANG",
+          "MNDR",
+          "ECC",
+          "FUN",
+          "XRPNW",
+          "SNDX",
+          "CIFR",
+          "ENGS",
+          "CDNL",
+          "NXL",
+          "VTEX",
+          "SMXT",
+          "EFXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 8
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T15:18:05-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1516.json",
+        "shortlist": [
+          "WFF",
+          "ZURA",
+          "CANG",
+          "MNDR",
+          "FUN",
+          "ECC",
+          "XRPNW",
+          "SNDX",
+          "NXL",
+          "CIFR",
+          "ENGS",
+          "CDNL",
+          "VTEX",
+          "SCNX",
+          "SMXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T15:48:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-13/shortlist_1546.json",
+        "shortlist": [
+          "WFF",
+          "ZURA",
+          "CANG",
+          "MNDR",
+          "FRMI",
+          "FUN",
+          "ECC",
+          "XRPNW",
+          "SNDX",
+          "CIFR",
+          "NXL",
+          "CDNL",
+          "ENGS",
+          "VTEX",
+          "EFXT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "WFF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-13T15:48:41-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

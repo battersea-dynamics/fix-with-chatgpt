@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-13T15:48:41-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "WFF",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 7.88,
+      "stop_loss_pct": 4.2,
+      "reasoning": "net -0.75 = bull 0.20 - bear 0.95 (buy at >= +0.20). BULL: WFF is experiencing massive relative volume of 4.62x, indicating significant market attention during today's session as it appears on multiple scanners for unusual activity. While the price has retreated significantly from its highs, the stock remains a primary focus of institutional monitoring as evidenced by its current rank and the consistent, high-volume participation over 12 observations. There is no specific fundamental news catalyst, but the extreme volatility and liquidity provide a high-beta opportunity for a mean-reversion trade or a short-term bounce off the current price of $2.04. The current setup is purely technical, driven by the massive volume participation that supports a rapid price discovery process. BEAR: WFF is a classic 'catching a falling knife' scenario, currently suffering an 88.22% intra-day collapse with a 73.08% drawdown from its observed high. The technical tape confirms significant deterioration, evidenced by a price acceleration of -15.57% and a relative volume rate that is actively declining. With no specific company-level catalyst provided in the news report to justify the magnitude of this move, entering now exposes the buyer to an ongoing liquidation event rather than a bottoming process. Buying into such severe negative momentum with no clear fundamental support carries extreme danger.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZURA",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.08,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: ZURA is exhibiting significant buyer interest today with relative volume surging to 10.35x its 20-day average, signaling strong institutional participation. While the stock has seen a moderate pullback from its session high of $4.39, it remains up 7.37% on the day, maintaining a constructive position 1.29% above its 20-day moving average. The stock was recently highlighted as a top pick by Guggenheim on 2026-10-07, providing a fundamental anchor for the current momentum. Given the sustained 11-scan presence and positive performance since the first observation, the current dip offers a tactical entry point for a momentum-driven move back toward recent highs. BEAR: ZURA is currently exhibiting a textbook exhaustion pattern, as evidenced by a 2.16% drawdown from its observed high and a significant deceleration in price momentum of -5.04%. The 10.35x relative volume spike is occurring in the absence of any fresh catalysts, as the available news from October 7 is six days old and already fully discounted by the market. With the relative volume rate per 30 minutes falling by 36% compared to the earlier pace, the buying interest is clearly evaporating, leaving current buyers as exit liquidity for those who entered earlier in the session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "WFF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZURA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-10-13T14:51:24-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "WFF",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: WFF is experiencing extreme intraday volatility with relative volume at 4.10x its normal levels, indicating significant market attention and liquidity. While the stock has seen a sharp decline, the price acceleration of 4.3098% points suggests a potential for a technical mean reversion after the massive 88.37% single-session drop. There is no specific news catalyst explaining this move, but the intense volume suggests a capitulation event that often precedes a short-term bounce. Traders can look to capitalize on this extreme oversold condition, as the distance from the 20-day MA at -41.76% provides substantial room for a relief rally. BEAR: WFF is currently exhibiting severe tape deterioration, down 88.37% on the day with a 73.41% drawdown from its observed high of $7.56. The internal momentum metrics confirm exhaustion, as the stock has only seen two positive intervals out of nine observed, coupled with a stagnant rank and a decaying relative volume rate of 0.3335. Furthermore, there is a total absence of company-specific news to justify or support a reversal, leaving buyers as mere exit liquidity for the significant supply currently flooding the market at a $2.01 price level.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZURA",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.56,
+      "reasoning": "net -0.10 = bull 0.55 - bear 0.65 (buy at >= +0.20). BULL: ZURA is showing significant buying interest today with relative volume at 9.17x the 20-day norm and a price gain of 5.50%. The stock has maintained momentum through 9 consecutive observations, showing a strong positive price acceleration of 4.4276% despite a minor intraday drawdown. While the recent catalyst of being named a top pick at Guggenheim occurred 6 days ago, the sustained high-volume interest suggests institutional accumulation is ongoing. With the price currently trading nearly flat against the 20-day moving average, there is ample technical room for a momentum-driven breakout. BEAR: ZURA exhibits clear signs of exhaustion with the price sitting 3.87% below its observed session high despite high relative volume, indicating that buying pressure is failing to sustain momentum. The rel_volume_rate_change of -0.2217 confirms that participation is actively fading as the day progresses, suggesting the move is losing its engine. Furthermore, there is a total absence of fresh catalysts to support today's 5.50% gain, as the most recent news regarding a Guggenheim analyst pick is six days old and already priced in. Buying here constitutes chasing a move that has already decoupled from its high and lacks fresh fundamental backing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CANG",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: CANG is exhibiting strong technical momentum, highlighted by a 14.90% gain and exceptional relative volume of 3.48x. The stock has shown resilience with 10 consecutive observations of strength and a 1.1868% return since first being identified 270 minutes ago, proving significant investor appetite following the recent positive news regarding the testing of its AI-based bookkeeping platform. While the stock has experienced a minor 7.2193% drawdown from its observed high of $3.74, its price acceleration of 1.437% points underscores a persistent bullish trend that remains well above its 20-day moving average. This combination of strong volume confirmation and recent AI-focused product development provides a concrete fundamental and technical basis for further upside in the near term. BEAR: CANG is currently exhibiting clear signs of chasing exhaustion, evidenced by a 7.22% drawdown from its observed session high and a weakening relative volume rate per 30 minutes (-0.0658). The stock is extended 35.92% above its 20-day moving average, making it highly susceptible to profit-taking following yesterday's AI-platform announcement. Furthermore, the stock was explicitly named as a 'Strong Sell' in today's news cycle, creating significant overhead pressure that outweighs the momentum of the morning's rally. With participation fading and price action stalling, buying at these elevated levels presents an unfavorable risk-reward profile for short-term holders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MNDR",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: MNDR has experienced a significant intraday drawdown of 51.64%, presenting a potential mean-reversion opportunity for aggressive traders looking for a bounce from oversold levels. While the catalyst report confirms the stock is moving on high-volatility volume as a top mover today, there is no specific fundamental news explaining the magnitude of the drop, suggesting the price action may be driven by technical exhaustion. With a positive price acceleration of 2.4586 observed in recent intervals, the stock is showing signs of attempting to stabilize. Given the current 6.48% distance from the 20-day moving average, a short-term recovery play is grounded in the potential for a rebound following an extreme, likely overextended, sell-off. BEAR: MNDR is experiencing a massive single-session collapse of 51.64%, confirming that the stock is currently in a state of extreme price deterioration rather than a rebound setup. With a relative volume of only 0.38x, the price action is failing to attract institutional participation, suggesting that the recent sell-off lacks the conviction needed to stabilize at the $1.47 level. Furthermore, there is a total absence of specific company-level catalysts in the news report to justify or reverse this move, and the current 30.66% drawdown from the observed session high confirms that buyers are failing to hold critical support levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ECC",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: ECC is showing significant accumulation today with relative volume at 5.11x its 20-day normal, confirming strong institutional interest despite the session's initial weakness. The tape-only data is compelling, with 9 consecutive observations, a positive return of 1.58% since first being seen, and price acceleration of 0.173 percentage points. Furthermore, the stock is trading exactly at its observed high of $2.88 with 0% drawdown, indicating a breakout of selling pressure concurrent with its ex-dividend date of 2026-10-13. BEAR: ECC is trading ex-dividend today, meaning the $0.06 payout is mechanically adjusting the price downward regardless of underlying market sentiment. Despite the high 5.11x relative volume, the stock is currently 14.58% below its 20-day moving average, suggesting a sharp downtrend that the session's slight 0.52% recent price improvement has failed to meaningfully reverse. With no new company-specific catalysts to justify a momentum shift, buying into a stock that is both struggling to reclaim its moving average and absorbing a dividend-related price hit creates a high probability of immediate mechanical loss.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FUN",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: FUN is currently exhibiting a strong technical bounce after an initial overreaction to the tragic October 13 news regarding a fatal incident at a park. Despite the severe 14.47% daily decline, the stock is showing clear signs of stabilization with 3.72x relative volume and a sustained price recovery over the last 270 minutes. The momentum data confirms this resilience, with a return since the first observation of 0.0491% and positive price acceleration of 0.3331 points, indicating the market is finding a floor. Entering at these levels targets a reversion toward the 20-day moving average as investors digest the news and the emotional selling pressure subsides. BEAR: The stock is reacting to a fatal incident at Six Flags Over Georgia, which serves as a fresh and significant fundamental catalyst for selling pressure. Despite the massive 14.47% drawdown and relative volume at 3.72x, the tape shows anemic recovery momentum with a price acceleration of only 0.3331% and a rank improvement of zero. The current price level of $10.20 remains 14.26% below the 20-day MA, signaling that the structural damage from the news is ongoing rather than an exhaustion move. Buying here is attempting to catch a falling knife while market sentiment is fundamentally resetting based on the tragic events reported today.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 5.0,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: XRPNW presents a high-conviction mean-reversion opportunity following a sharp 16.51% intraday sell-off, with the price still elevated 82.16% above its 20-day moving average. Recent market sentiment remains constructively bullish as noted in the October 12th report that XRP traders are leaning long by two-to-one and whale activity has subsided, signaling potential accumulation. While relative volume is currently low at 0.43x, the recent inflow of 473M XRP into Nasdaq via Evernorth provides a fundamental anchor for long-term valuation that justifies capitalizing on this temporary liquidity exhaustion. The current pullback from the observed $5.20 high offers a tactical entry point for traders betting on a bounce back toward recent highs. BEAR: XRPNW is currently displaying significant signs of exhaustion, with a 15.38% drawdown from its observed high and consistent price acceleration degradation of -4.73 percentage points. Despite the hype surrounding the Evernorth XRP integration headlines, the lack of confirming participation is evident in the 0.43x relative volume, indicating that buyers are not stepping up to defend the current price level. This creates a clear chasing failure mode, as the stock remains extended 82.16% above its 20-day moving average while suffering a 16.51% intraday collapse that suggests the market is already rotating out of the initial speculative wave.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SNDX",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: SNDX is presenting a classic oversold mean-reversion opportunity following a sharp 17.31% drop that has driven the price 22.71% below its 20-day moving average. Despite the negative headline regarding the Axatilimab IPF trial, the market's reaction appears extreme, and HC Wainwright & Co. reaffirmed their Buy rating and $38 price target on 2026-10-13, suggesting significant upside potential from current levels. With volume at 2.56x its 20-day average, the stock is seeing intense participation, and the fact that it has held near its session highs despite the initial volatility suggests a base is forming. Traders are provided with an asymmetric risk-reward setup where the institutional price target provides a substantial buffer for a short-term rebound. BEAR: SNDX is suffering from fundamental degradation following the news that its Axatilimab IPF trial failed to meet its endpoint, a headline that directly accounts for the massive 17.31% drop. The tape confirms this damage as the stock remains trapped in a persistent downtrend, evidenced by a 270-minute observation window showing a continuous decline from its observed high with a drawdown of 0.9768%. Furthermore, the relative volume rate is decelerating at a pace of -0.0204 per 30-minute interval, indicating that the selling pressure is not being met with meaningful support. Buying this stock now is essentially catching a falling knife as the market digests negative clinical data that significantly alters the company's valuation thesis.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "WFF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZURA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CANG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MNDR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ECC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FUN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SNDX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
