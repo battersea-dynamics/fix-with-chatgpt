@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-10-14T08:53:03-04:00",
+  "decisions": [
+    {
+      "symbol": "ARWR",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.08,
+      "reasoning": "net +0.25 = bull 0.95 - bear 0.70 (buy at >= +0.20). BULL: ARWR is surging on the back of a high-conviction catalyst: the October 14 release of Phase 1/2a data for ARO-MAPT showing deep and durable Tau reductions. The 57x surge in pre-market volume relative to the baseline confirms institutional participation is driving this move, not retail noise. With the price holding firmly above the $61 level and a Bullish Engulfing Reversal pattern forming on the daily, the momentum is primed for a significant breakout above current levels as the market digests the clinical trial success. BEAR: The +6.33% gap on the ARO-MAPT interim data release is a classic 'already priced in' setup, as the pre-market volume of 80,713 shares has already stalled, suggesting the initial speculative interest is exhausted before the 9:30 open. While the 'Bullish Engulfing Reversal' pattern looks constructive, it often serves as a trap for retail participants chasing liquidity in a thin-tape pre-market environment. Given the high-beta nature of biotech and the binary reaction to clinical data, the lack of continued momentum into the opening minutes indicates that institutional traders are likely using this gap as exit liquidity. Consequently, the opening auction is highly prone to a swift reversal as early buyers hit their limit orders and the 'sell the news' dynamic takes over.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BAC",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 1.44,
+      "stop_loss_pct": 0.86,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: The significant 6.19% gap lower on 9.8x baseline volume is a direct reaction to the Q3 2026 earnings miss and the $1.2 billion AML charge reported on 2026-10-14. While the structure is currently bearish, the massive volume spike indicates a capitulation event where institutional exhaustion is likely occurring at these levels. If the price fails to break below the $50.50 support level in the first 30 minutes, it suggests the bad news is fully priced in and a mean-reversion trade to fill a portion of the gap becomes high probability. This is a classic volatility play based on the violent reaction to the earnings release. BEAR: The 6.19% gap down is driven by a double-whammy of a Q3 revenue miss and a significant $1.2 billion AML charge, creating a fundamental structural impairment that makes this an 'exhaustion structure' rather than a dip-buy opportunity. With volume at 9.80x the baseline, the selling is institutional and persistent, leaving no room for a gap fade as the market digests the permanent loss of capital and earnings potential. Attempting to catch this falling knife at the open ignores the fact that the breakdown continuation pattern is already confirmed, leaving the morning session as an exit trap for liquidity-starved retail buyers.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.2e+09 - no matching value in source data",
+        "bear: cited 1.2e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FAST",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: The 27x volume surge accompanying the Q3 earnings results on 2026-10-14 indicates significant institutional liquidity is participating in this repricing. While market sentiment is bearish due to margin and spending concerns highlighted in the recent headlines, the sheer volume demonstrates that professional participants are absorbing shares at the $48.50 level. Buying into this liquidation provides an opportunity to capitalize on an overreaction to in-line results, betting on a mean-reversion as the market processes the revenue beat. The conviction is tempered by the structural bearish pattern, but the massive scale of today's volume is a strong signal that a floor is being established. BEAR: The 5.70% gap downward on FAST is driven by 'heavier spending expectations' and 'margin mix' concerns, which are fundamental headwinds that institutional sellers prioritize over the top-line revenue beat. The candle agent's 0.95 conviction on a reversal pattern signals that this move is an exhaustion structure rather than a continuation, indicating the market has already fully digested the Q3 news. With the gap-down having effectively stopped building prior to the open, the current pre-market price represents the bottom of the liquidation cycle, making any buying at the open nothing more than providing exit liquidity to institutions.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRML",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 3.74,
+      "reasoning": "net +0.07 = bull 0.92 - bear 0.85 (buy at >= +0.20). BULL: GRML is exhibiting a high-conviction breakout fueled by massive, sustained pre-market volume that is 59x the baseline average. The surge is directly validated by the October 12th news regarding the EU's strategic project designation for Neo Performance Materials' Silmet 2.0, which positions GRML's Sarfartoq project as a critical link in the transatlantic rare earth supply chain. With the price holding firmly at $7.76, the technical structure confirms a classic Gap and Go setup that attracts institutional accumulation. This alignment of geopolitical catalyst significance and extreme relative volume provides a strong foundation for immediate continuation. BEAR: The 40% gap is driven by a series of headlines regarding Neo Performance Materials' Silmet 2.0 project from October 12, making this price action a 'priced-in' reaction to news that is now 48 hours old. With 8.5 million shares already traded pre-market, the move has likely exhausted its primary retail buyers before the opening bell, turning the morning session into classic exit liquidity. Because the catalyst is third-party news rather than direct company fundamental improvement, the 'gap and go' structure is highly susceptible to an opening-auction reversal where real institutional liquidity will look to harvest this premature optimism. Buying at $7.76 forces an entry at the peak of a stale sentiment cycle, making a gap fade the most probable outcome.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JBDI",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: JBDI is experiencing a massive volume spike of 327x its baseline, indicating an extreme liquidity event that often precedes a violent mean-reversion. There is absolutely no company-specific news in the provided headlines to justify this 27.99% gap, suggesting the move is driven entirely by technical capitulation. While the structure is currently flagged as bearish exhaustion, the sheer volume provides the necessary fuel for a rapid bounce if the price finds a floor at the open. This is a purely speculative play on overextended volatility rather than a fundamental breakout. BEAR: JBDI is suffering from an exhaustion structure that signals the primary move is finished, rendering any bounce at the open a likely trap for liquidity-seekers. The complete absence of any material, company-specific headlines on October 13th or 14th confirms this move is a reflexive, news-void dump that has already overextended on technical momentum. With the candle agent identifying an exhaustion pattern, the pre-market volume has effectively dried up its utility, leaving the open as nothing more than exit liquidity for those who rode the initial panic.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KVUE",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 0.98,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: KVUE is exhibiting an extreme volume outlier with 2,013,909 shares traded, representing a 268x multiplier over the baseline, which indicates institutional accumulation rather than retail noise. This massive inflow is directly tied to the news on October 13 regarding the successful consent solicitations and EU regulatory approval of its acquisition terms, clearing a significant overhang on the stock's future structure. The price has successfully held the gap into the open, confirming that the market is repricing the equity to account for this resolution of corporate uncertainty. Given the technical reversal pattern identified, the massive volume spike suggests a sustained trend breakout rather than a flash in the pan. BEAR: The +0.96% gap is entirely driven by the procedural news regarding Kimberly-Clark's acquisition terms and EU approval, which are legacy events already fully baked into the stock's consolidation. The pre-market volume of 2.01M shares, while seemingly high, represents a standard reaction to a corporate structure headline and has already stopped building, signaling that this is exit liquidity for early buyers. With the stock failing to sustain momentum above the $17.93 level, the 'reversal' candle structure indicates a classic gap-fade failure mode where the opening print will serve as the intraday ceiling. Buying at the open ignores the fact that this is an ordinary gap on headline noise that is likely to see immediate institutional selling pressure as the session normalizes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LQDA",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: The massive 17.58x volume surge is firmly anchored by the October 13 news of a definitive global litigation settlement with United Therapeutics, which removes the primary existential overhang on the company\u2019s YUTREPIA franchise. Unlike speculative gaps, this is a fundamental re-rating event that justifies a structural shift in valuation. The sustained liquidity in pre-market indicates aggressive institutional accumulation as investors price in the certainty of commercialization. While the candle agent flags potential exhaustion, the magnitude of this legal win suggests the market is still catching up to the new reality, favoring a continuation move as shorts are forced to cover into the open. BEAR: The 40% jump on the settlement with United Therapeutics is a classic 'priced-in' event where the market has fully digested the removal of patent litigation risk before the bell even rings. With the candle agent identifying an exhaustion pattern at these elevated levels, the massive 17.58x volume surge indicates early retail enthusiasm is likely being met by institutional supply, creating a trap for open-market buyers. Furthermore, the timing of the Chairman's share sale reported just yesterday suggests insiders view these prices as an opportune exit, signaling that the rally is fundamentally capped. Buying at the open invites an immediate opening-auction reversal as early liquidity provides a perfect window for profit-taking.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.26,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: STT is seeing extreme, sustained pre-market volume of over 338x the baseline, indicating that institutional players are actively absorbing the supply generated by the Q3 2026 earnings release today. While the headlines suggest an 'in-line' report caused a slide, the sheer volume depth at $160.00 suggests aggressive accumulation by those looking to capitalize on a market overreaction compared to sector peers like BlackRock. The massive liquidity injection at these lower levels provides a high-conviction foundation for a mean-reversion trade once the initial selling exhaustion clears. I am betting that the market's 'bearish' interpretation of in-line results is a temporary emotional discount that will be bought up by value-oriented participants. BEAR: STT is exhibiting a clear gap-fade failure mode as the 8.1% drop on in-line Q3 results appears to be a reactionary sell-off that has already exhausted its momentum. The exhaustion structure identified by the candle agent indicates that the market has already fully digested the news, leaving little incentive for institutional buying at the opening bell. Because the price drop is occurring despite 'in-line' results while competitors like BlackRock are showing strength, the move is fundamentally hollow, suggesting that the open will likely serve as exit liquidity for retail participants chasing the overnight headline gap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TCRT",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 3.74,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: TCRT is exhibiting a massive, high-conviction move driven by the acquisition of Velaris Therapeutics announced on 2026-10-13, which provides a concrete fundamental catalyst for the current price action. The volume signature is exceptional, with 23.78 million shares traded pre-market\u2014over 4x the baseline average\u2014demonstrating sustained institutional accumulation rather than a speculative spike. The stock is maintaining its gains well above the $3.03 close, and the continuation-pattern structure on the daily chart suggests significant momentum remains to be unlocked at the open. This level of participation indicates that the market is aggressively repricing the stock based on the strategic growth implied by the acquisition. BEAR: The primary risk for TCRT is that the acquisition news involving Velaris Therapeutics from yesterday is already fully priced in, as the market had the entirety of the prior session to digest the announcement. With 23.7 million shares traded in the pre-market, the gap is suffering from an exhaustion structure where the momentum is clearly decelerating before the opening bell rings. This heavy volume without further price appreciation suggests that the pre-market high will serve as significant overhead resistance for the rest of the day, as institutional participants likely use this elevated liquidity to offload positions into retail's buying impulse. The stock is exhibiting classic 'already priced in' behavior, making the opening auction a prime candidate for a liquidity reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VAL",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net +0.05 = bull 0.80 - bear 0.75 (buy at >= +0.20). BULL: VAL is seeing a powerful 43x surge in pre-market volume, indicating that institutions are aggressively absorbing the negative headlines from yesterday to accumulate shares. The price has held its gap gains firmly, suggesting that the $220M in contract backlog additions reported between October 7th and October 9th is finally being re-evaluated as fundamental value rather than noise. This consistent volume signature and bullish reversal structure suggest a breakout move is imminent as the market rotates back into undervalued energy service names. The strength of the pre-market bid against negative press confirms that sellers are exhausted and the buyers are firmly in control of the tape. BEAR: The 3.30% gap is a classic case of an already priced-in event, as the catalyst headlines concerning the $220 million contract backlog date back to October 7th and 9th, providing no fresh justification for today's price action. Despite the high pre-market volume of 126,045 shares, the move has stalled well before the opening bell, signaling that the initial interest is exhausted and the stock is likely to become an opening-auction reversal candidate. By ignoring the negative sentiment flagged in yesterday's October 13th headlines regarding 'headwinds' and analyst avoidance, bulls are buying a stale story that will likely face a liquidity trap as institutional sellers offload into the open.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 2.2e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "VIR",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: VIR is exhibiting a high-conviction reversal structure with pre-market volume hitting 6.25x the 2-week average, signaling strong institutional interest. The price action is holding the +9.33% gap, which serves as a technical confirmation of the momentum shift following the recent HC Wainwright price target hike to $22 and the FDA Fast Track designation for VIR-5500 on 2026-10-08. With the stock price reacting positively to these fundamental catalysts while maintaining a clear bullish bias in the candle structure, the setup supports a continuation move toward the recent analyst target. The sustained buying pressure indicates traders are pricing in the potential value of the current oncology pipeline advancements. BEAR: The 9.33% gap is driven entirely by stale news from October 8th regarding the FDA Fast Track designation for VIR-5500, meaning the market has already digested this catalyst for six days. With only 28,526 shares traded, the move is a classic thin-tape pricing trap that lacks the conviction of institutional follow-through. Because the catalyst is not fresh, this gap is highly susceptible to an opening-auction reversal where the 9:30 AM liquidity will treat current prices as exit opportunities rather than entry points. The setup is a textbook example of a dead-cat bounce exhaustion structure where the price rise has already stalled in the pre-market session.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VSTM",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: The volume signature here is absolute institutional-grade intensity, with pre-market volume at a staggering 485x the baseline, indicating that the market is aggressively absorbing supply at this level. While no specific breaking headline from today explains the move, the persistent momentum builds on the recent BTIG buy-side support and the $18 analyst consensus mentioned on 2026-10-12. The volatility expansion structure suggests a trend shift, and with such sustained volume, this gap is not a fade candidate but a breakout in progress. The market is pricing in the potential for the 79% rally highlighted in recent analyst commentary, and the depth of the volume suggests this isn't retail noise. BEAR: The pre-market move in VSTM is a classic exhaustion structure, characterized by a Volatility Expansion Reversal that signals the exhaustion of buyers rather than a sustainable breakout. The recent news headlines from October 8th and 12th are entirely stale, offering no fresh catalyst to justify a 7.11% gap; the market is simply chasing old analyst commentary that has already been digested. With the gap-fade failure mode in play, the massive pre-market volume has served only to provide exit liquidity for trapped holders, meaning the opening auction will likely act as the high of the day as real liquidity sweeps the thin tape. Buying here is effectively entering into a vacuum where the news is dead and the technical setup is actively reversing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

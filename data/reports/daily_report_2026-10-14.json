@@ -1,0 +1,396 @@
+{
+  "date": "2026-10-14",
+  "events": [
+    {
+      "at_et": "2026-10-14T08:47:00-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-14T08:53:03-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-10-14T09:32:16-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARWR",
+            "reason": "live ask fell 5.27% from delayed scan price $61.81; 2% max downside"
+          },
+          {
+            "symbol": "BAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FAST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JBDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KVUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LQDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TCRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VAL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSTM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-14T10:53:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1017",
+        "shortlist_file": "data/lists/2026-10-14/shortlist_1017.json",
+        "shortlist": [
+          "TCRT",
+          "VSTM",
+          "BSP",
+          "LQDA",
+          "JBDI",
+          "GRML",
+          "FLYE",
+          "XRPNW",
+          "PMI",
+          "CANG",
+          "CRWV",
+          "CDNL",
+          "SMXT",
+          "BAC",
+          "CABO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TCRT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VSTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 7
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-14T11:43:09-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "RemoteProtocolError: Server disconnected without sending a response."
+      }
+    },
+    {
+      "at_et": "2026-10-14T14:14:57-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-14/shortlist_1346.json",
+        "shortlist": [
+          "VSTM",
+          "BSP",
+          "TCRT",
+          "LQDA",
+          "CANG",
+          "JBDI",
+          "BZH",
+          "SMXT",
+          "CRWV",
+          "PMI",
+          "CMCT",
+          "FLYE",
+          "DFH",
+          "XRPNW",
+          "NUAI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SMXT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMCT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLYE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DFH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XRPNW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 7
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-14T14:18:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1417",
+        "shortlist_file": "data/lists/2026-10-14/shortlist_1417.json",
+        "shortlist": [
+          "VSTM",
+          "BSP",
+          "TCRT",
+          "CANG",
+          "LQDA",
+          "BZH",
+          "JBDI",
+          "CRWV",
+          "SMXT",
+          "PMI",
+          "CMCT",
+          "DFH",
+          "GRRR",
+          "FLYE",
+          "CIFR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-14T14:48:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-14/shortlist_1446.json",
+        "shortlist": [
+          "VSTM",
+          "BSP",
+          "TCRT",
+          "BZH",
+          "CANG",
+          "LQDA",
+          "JBDI",
+          "DFH",
+          "SMXT",
+          "CRWV",
+          "PMI",
+          "GRRR",
+          "CMCT",
+          "FLYE",
+          "BRUN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VSTM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 1
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-14T15:19:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-14/shortlist_1516.json",
+        "shortlist": [
+          "VSTM",
+          "BSP",
+          "TCRT",
+          "LQDA",
+          "BZH",
+          "CANG",
+          "JBDI",
+          "DFH",
+          "SMXT",
+          "CRWV",
+          "PMI",
+          "GRRR",
+          "FLYE",
+          "BRUN",
+          "CMCT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VSTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-14T15:48:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1547",
+        "shortlist_file": "data/lists/2026-10-14/shortlist_1547.json",
+        "shortlist": [
+          "BSP",
+          "VSTM",
+          "TCRT",
+          "BZH",
+          "LQDA",
+          "CANG",
+          "DFH",
+          "JBDI",
+          "CRWV",
+          "PMI",
+          "UNIT",
+          "GRRR",
+          "SMXT",
+          "CMCT",
+          "BRUN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 1
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-14T15:48:51-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 7,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

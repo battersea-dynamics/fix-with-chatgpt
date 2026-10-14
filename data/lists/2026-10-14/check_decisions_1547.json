@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-14T15:48:51-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "BSP",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 4.23,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: BSP is currently seeing explosive interest following the confirmed $330M investment from Berkshire Hathaway reported on October 14, 2026. The stock is exhibiting significant momentum with 9 consecutive observations, a 5.34x relative volume spike, and a 41.65% gain today. With the stock holding its position as the top-ranked mover and maintaining positive price development throughout the session, the influx of institutional capital serves as a clear catalyst for continued participation. The price has shown resilience despite a modest drawdown from its session high, indicating strong underlying demand. BEAR: BSP is currently exhibiting classic signs of exhaustion following the $330M Berkshire Hathaway investment catalyst, as evidenced by a 3.62% drawdown from the session high of $55.65. While the stock has seen a massive 5.34x relative volume, the price acceleration is stalling and the setup is officially labeled as exhausted or reversing. With the stock trading 50.47% above its 20-day moving average, any cooling of sentiment will likely trigger an aggressive mean-reversion as day traders exit liquidity into the afternoon. The primary risk is that the news is fully priced in and the current 41.65% daily gain will struggle to sustain itself given the observed deceleration in interval performance.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "BSP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

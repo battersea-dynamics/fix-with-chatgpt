@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-14T08:49:39-04:00",
+  "session_date": "2026-10-14",
+  "reads": {
+    "JBDI": {
+      "symbol": "JBDI",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "VSTM": {
+      "symbol": "VSTM",
+      "pattern": "Volatility Expansion Reversal",
+      "bias": "neutral",
+      "conviction": 0.6
+    },
+    "GRML": {
+      "symbol": "GRML",
+      "pattern": "Gap and Go Breakout",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "STT": {
+      "symbol": "STT",
+      "pattern": "gapping reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "LQDA": {
+      "symbol": "LQDA",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "KVUE": {
+      "symbol": "KVUE",
+      "pattern": "Reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "TCRT": {
+      "symbol": "TCRT",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ARWR": {
+      "symbol": "ARWR",
+      "pattern": "Bullish Engulfing Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VIR": {
+      "symbol": "VIR",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BAC": {
+      "symbol": "BAC",
+      "pattern": "breakdown continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "VAL": {
+      "symbol": "VAL",
+      "pattern": "Bullish Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FAST": {
+      "symbol": "FAST",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}

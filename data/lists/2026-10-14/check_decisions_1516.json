@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-14T15:19:32-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "VSTM",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.15 = bull 0.60 - bear 0.75 (buy at >= +0.20). BULL: Verastem Oncology is seeing a massive surge in interest today, supported by 11.63x relative volume and multiple positive catalysts, including the announcement of a new CEO and encouraging initial data from the TARGET-D 101 clinical trial. While the stock has pulled back from its intraday high of $8.81, the fundamental news regarding robust clinical activity in their VS-7375 program provides a strong foundation for a rebound. The high volume confirms heavy institutional participation today, suggesting that the recent price consolidation is a healthy digestion of the morning\u2019s news rather than a lack of conviction. BEAR: VSTM is currently exhibiting classic signs of exhaustion after an initial news-driven surge, having already retraced 11.42% from its observed session high of $8.81. The price momentum has turned negative with a significant -1.54% acceleration decline and a consistent pattern of falling returns over the last 300 minutes. With volume participation weakening to a 0.2678 rate per 30 minutes, the market is effectively treating the clinical trial news as exit liquidity rather than a sustained catalyst for further appreciation. Buying now involves catching a falling knife that has already shed most of its intraday gains and is trading below its 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BSP",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 3.44,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: BSP is experiencing a massive fundamental re-rating today following a confirmed $330M investment from Berkshire Hathaway, as reported on 2026-10-14. This catalyst has driven extreme market participation, evidenced by a relative volume of 5.11x and a 38.68% gain. Despite intraday volatility, the stock has shown remarkable persistence, appearing in our monitoring for eight consecutive observation intervals over five hours with a 2.73% return since first seen. This sustained institutional interest and high-momentum flow suggest the stock is in a strong breakout phase with significant upward potential. BEAR: BSP is exhibiting classic exhaustion, with the stock trading 47.31% above its 20-day moving average and experiencing a notable 5.65% drawdown from its intra-day high. The tape confirms a loss of momentum, evidenced by a negative return in the most recent interval and a weakening relative volume rate that has decelerated by 10.17% per 30 minutes. While the $330M Berkshire Hathaway investment is a significant catalyst, the market reaction appears to have fully front-run the news, leaving current buyers as exit liquidity for early entrants who have already realized a 38.68% gain.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "VSTM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BSP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

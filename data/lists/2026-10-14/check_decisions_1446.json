@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-14T14:48:32-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "VSTM",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: Verastem Oncology is showing immense institutional interest with a massive 11.36x relative volume on a day punctuated by dual positive catalysts: the announcement of robust initial data from the TARGET-D 101 Phase 1/2 clinical trial and the appointment of Michael P. Bailey as the new CEO. Despite a intraday pullback from the session high of $8.81, the stock maintains a strong +5.30% gain for the session, signaling that the market is recalibrating its value based on these fundamental developments. The combination of verified clinical success and leadership transition provides a solid foundation for price recovery as the market digests these developments over the coming days. BEAR: VSTM is exhibiting clear evidence of 'chasing' as the stock has undergone a significant reversal from its daily high of $8.81, suffering a 10.95% drawdown from that peak. The momentum data confirms exhaustion, showing a negative return of 9.04% since first being observed today, alongside a decelerating relative volume rate. While the company announced new clinical trial data today, the market reaction is now failing to sustain initial interest, with the price action showing a negative trend over the last 270 minutes of observation. Buying at current levels exposes the trader to ongoing mean reversion as the excitement from the clinical data announcement is clearly fading in real-time.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "VSTM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
