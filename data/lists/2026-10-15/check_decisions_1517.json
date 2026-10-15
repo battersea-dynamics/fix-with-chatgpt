@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-10-15T15:22:35-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "FMC",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.2,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.50 = bull 0.45 - bear 0.95 (buy at >= +0.20). BULL: FMC is experiencing an intense technical rebound following a significant intraday oversold condition, evidenced by a massive 4.72x relative volume and price acceleration of 2.3114 percentage points. The momentum data over 11 consecutive observations shows a resilient recovery, with a 6.2082% return since its first observation and a drawdown of only -0.9795% from the day's high, suggesting the market is aggressively absorbing the selling pressure triggered by today's guidance headlines. While the catalyst report highlights fundamental headwinds, the current tape confirms strong buying interest attempting to stabilize the stock at these extremely depressed levels compared to its 20-day MA. This setup favors a short-term mean reversion play as active participants step in to support the stock after the initial panic-driven sell-off. BEAR: Buying FMC is equivalent to catching a falling knife as the stock is down 31.27% following catastrophic headlines regarding guidance cuts, weak demand, and inventory pressures. The 'sustained_continuation' label masks significant risk, as the stock is trading 39.16% below its 20-day moving average, creating a massive technical overhead that will likely draw in sellers at any sign of a bounce. With fundamental guidance concerns now public, the current 4.72x relative volume indicates heavy institutional liquidation rather than a constructive entry point. Attempting to long this ticker while the market digests a 46% plunge in outlook creates an unacceptable risk of further downward capitulation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MAN",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: MAN is presenting a classic oversold bounce opportunity after a sharp 15.95% drop on an in-line Q3 earnings report. Despite the negative price action, the stock is seeing significant institutional interest with a 2.48x relative volume spike. Momentum has improved consistently over the last 300 minutes, evidenced by 11 consecutive observations, a 1.1582% return since the previous scan, and a positive price acceleration of 1.9966%. With the stock trading 20.73% below its 20-day moving average, there is clear room for a mean-reversion trade as the market digest the Q3 earnings results. BEAR: MAN is currently experiencing a massive -15.95% sell-off following in-line Q3 2026 earnings results, indicating that the market is punishing the company's outlook or underlying fundamentals despite meeting estimates. The stock is severely extended at -20.73% below its 20-day moving average, a sign of extreme selling momentum rather than a buying opportunity. Furthermore, the intraday tape shows measurable deterioration with a -3.1278% drawdown from the observed session high and a setup categorized as exhausted or reversing, suggesting that investors are currently acting as exit liquidity for ongoing institutional liquidation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: PMI is exhibiting high-conviction participation with relative volume at 2.12x normal, signaling robust market interest despite the recent volatility. The stock maintains a significant position relative to its 20-day moving average, trading 88.49% above that benchmark, which confirms an aggressive breakout trend. While the catalyst report contains no news to explain today's move, the high relative volume and persistence across 11 consecutive observations demonstrate significant institutional engagement. Given the stock's ability to maintain a +4.18% day change, the current price action provides a compelling entry point for traders looking to capture short-term momentum. BEAR: PMI is currently showing clear signs of momentum exhaustion, with a 22.93% drawdown from the session high of $17.14 and a significant price decline of 15.21% since the previous interval. The stock is currently trading 88.49% above its 20-day moving average, making it extremely vulnerable to mean reversion as the buying pressure fades. Furthermore, there is a complete absence of fresh catalysts, as the available news is stale, dating back to October 13th, suggesting the current volatility is decoupled from fundamental news and represents classic exit liquidity for retail chasers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TLK",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 1.75,
+      "stop_loss_pct": 1.05,
+      "reasoning": "net -0.20 = bull 0.40 - bear 0.60 (buy at >= +0.20). BULL: TLK is showing significant institutional interest today with relative volume at 4.91x the 20-day normal, signaling a massive breakout in participation. Despite a lack of news catalysts, the tape confirms active accumulation with the stock improving its relative rank to 4th place and demonstrating a positive score change of 0.0736. While the price has faced a minor drawdown from the session high, the consistent 6-interval observation streak and improving volume participation rate of 0.1497 provide a technical basis for a mean-reversion move toward the 20-day moving average. The combination of high volume and rank improvement suggests the current price of $12.78 is being defended, offering a tactical entry point. BEAR: TLK exhibits signs of chasing with no fundamental news catalyst to explain the 4.91x relative volume, suggesting the stock is being bid up without a clear driver. The tape shows measurable deterioration over the last 150 minutes, evidenced by a drawdown of -0.3121% from the observed high and negative price acceleration. Despite the high relative volume, the stock is struggling to maintain momentum, sitting 2.81% below its 20-day moving average and showing a negative return since being first seen. Buying here relies on the hope of a reversal in a stock that is currently failing to hold its intraday peak.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SAIQ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: SAIQ is presenting a compelling mean-reversion opportunity following a significant 17.53% single-session decline that has pushed the price 56.16% below its 20-day moving average. Recent sector-relevant catalysts, including the October 12 reports regarding WISeSat.Space\u2019s advancements in post-quantum-ready communications, highlight high-value technological developments that the market may have overreacted against today. Momentum data confirms a shift in sentiment with 11 consecutive observations, a rank improvement from 6 to 5, and a positive price acceleration of 0.9464% in the most recent interval. With the stock showing signs of stabilization and a recovery in rank, the current extreme oversold condition offers substantial room for a short-term rebound toward the moving average. BEAR: SAIQ is currently suffering from a severe liquidity vacuum, evidenced by a relative volume of 0.07x normal and a -17.53% daily decline. The stock is fundamentally broken, trading 56.16% below its 20-day MA, and the complete lack of any fresh, price-moving catalyst since the October 9-12 news cycle leaves the stock without a bid. With a 7.38% drawdown from its observed high and consistent tape deterioration over the last 300 minutes, this is a classic value trap where participation is fading, not building.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FLYE",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: FLYE is currently experiencing a significant retracement, sitting 92.75% above its 20-day moving average, which indicates that the stock remains in a strong primary uptrend despite today's pullback. While there is no specific catalyst in the recent news flow to explain today's 5.83% decline, the intraday tape shows a modest rank improvement from 7th to 6th place and positive price development in 4 out of the last 10 observation intervals. Buying at these levels represents a play on the stock's proven momentum capacity, banking on a mean-reversion trade that utilizes the existing structural distance from moving averages to capture a snapback. The current relative volume of 0.23x suggests the selling pressure is light and potentially exhausting. BEAR: FLYE is currently exhibiting a classic exhaustion pattern, as evidenced by a 11.95% drawdown from its observed session high and a consistent negative price acceleration of -1.09%. The stock is severely extended, trading 92.75% above its 20-day moving average, yet relative volume is extremely anemic at 0.23x, signaling that the move lacks institutional participation to sustain current levels. With no fresh catalysts in the last 48 hours to justify such an extreme valuation divergence, the current 5.83% session decline suggests the market is already correcting the previous overextension.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XRPNW",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: XRPNW is supported by the fresh catalyst from October 15, 2026, stating that Evernorth targets Q4 2026 for active XRP treasury management, providing institutional backing for the stock's underlying assets. Despite a high drawdown of 4.28% from the observed high of $4.90, the stock remains up 15.95% on the session, trading 70.19% above its 20-day MA, which underscores significant breakout momentum. Although the relative volume is low at 0.40x, the recent news indicates the beginning of a strategic operational cycle for the company that warrants a long-term bullish outlook. Investors should capitalize on the volatility driven by the recent Nasdaq listing and the specific mention of active treasury management. BEAR: The stock is significantly overextended, currently trading 70.19% above its 20-day moving average on weak participation, evidenced by a relative volume of only 0.40x. Momentum is demonstrably decaying, with a price acceleration of -8.0773 and a 4.28% drawdown from the observed high within the last 60 minutes. Furthermore, the news regarding Evernorth's Q4 treasury management is already priced in, leaving no liquidity to sustain the +15.95% intraday gain as the asset fails to hold its peak rank.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WULF",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: WULF is demonstrating aggressive relative strength today, rallying 9.84% on substantial volume at 2.76x its 20-day average, signaling a powerful breakout attempt despite a challenging macro backdrop. The momentum is confirmed by a consistent upward trend, evidenced by a 2.42% return since first being identified and a 4-spot improvement in its market rank during the observation window. While the catalyst report lacks a direct, company-specific headline, the stock's significant move despite wider sector headwinds indicates strong institutional accumulation and active buying interest. This rapid price acceleration suggests immediate upside potential as the stock works to close the 15.99% gap to its 20-day moving average. BEAR: WULF is attempting a move despite significant macroeconomic headwinds, specifically the broader decline in crypto-linked equities following yesterday's hot CPI data and rising Treasury yields. While the stock shows a 9.84% gain today, it remains deeply disconnected from its mean, trading 15.99% below its 20-day moving average, suggesting this rally is a high-beta volatility trap rather than a fundamental shift. Furthermore, there is no company-specific catalyst to explain this surge, as the most recent news involves sector-wide AI data center competition rather than direct bullish drivers for WULF. Chasing this momentum at a 2.76x relative volume peak is dangerous given that the stock has failed to reclaim its key moving average, making it highly susceptible to a sharp mean reversion as broader market risk appetite remains dampened.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SMXT",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: SMXT is presenting a potential mean-reversion opportunity following a significant 7.40% intraday decline. Despite the lack of immediate positive news in the recent catalyst report, the stock is exhibiting early signs of stabilization with a slight rank improvement from 10 to 9 and positive price acceleration of 1.8182 percentage points. While relative volume is currently thin at 0.12x, the stock remains significantly extended above its 20-day moving average by 66.07%, suggesting that buyers may step in at these levels to capitalize on the dip. This is a speculative entry based on the observed price acceleration and technical distance from the moving average. BEAR: SMXT is displaying clear signs of technical exhaustion, currently trading 66.07% above its 20-day moving average while exhibiting a significant 5.87% drawdown from its observed session high. The extreme lack of participation\u2014evidenced by a relative volume of just 0.12x normal and a negative relative volume rate\u2014indicates that there is no institutional conviction driving this price action. Furthermore, the absence of any fresh catalysts since the October 9th earnings report suggests that recent intraday movement is purely speculative, leaving the stock vulnerable to mean reversion as the momentum fails to gain traction.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CANG",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.84,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: CANG demonstrates sustained momentum with 11 consecutive positive observation intervals and a current price at the session high of $3.92, indicating strong buying pressure. The stock shows robust participation with 2.07x relative volume and a price acceleration of 1.8182 percentage points, supported by the ongoing tailwinds from the company's recent AI platform testing announcement on October 12th. Given the 44.54% distance from the 20-day moving average and the consistent positive return of 1.292% since the first observation, the tape confirms institutional interest and technical breakout potential. BEAR: CANG is currently trading at a precarious 44.54% premium to its 20-day moving average, a level of technical extension that invites mean reversion in the absence of any fresh catalysts today. The most recent news concerning the company's AI platform is three days old, indicating that the current volume surge of 2.07x is not driven by new information but rather by speculative momentum that is already failing to sustain significant gains. With only 4 out of 10 observed intervals showing positive momentum and a rank hovering at 10, the stock displays symptoms of chasing exhaustion where the price is stretched while participation is effectively stalling. Relying on current entry levels requires ignoring these clear signs of technical overextension and the lack of a current fundamental narrative to support the price action.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.81,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: CTVA presents a tactical mean-reversion opportunity following a significant 5.04% decline driven by sector-wide contagion from FMC Corp's guidance downgrade today. While the headlines regarding FMC create negative sentiment, the market reaction for CTVA is largely reflexive, providing a discounted entry point at a 72.50% distance from its 20-day MA. The tape shows signs of resilience with an observed rank improvement of 3 places and positive interval performance over the last 300 minutes, indicating that selling pressure is beginning to stabilize. Given the extreme oversold condition, a rapid bounce toward the prior support levels is a high-probability expectation for a short-term swing. BEAR: CTVA is currently suffering from negative sector contagion following the catastrophic earnings guidance and revenue collapse reported by peer FMC today. While CTVA is down 5.04% and trading 72.50% below its 20-day moving average, the stock is exhibiting 'chasing' characteristics with a relative volume of only 0.45x, indicating that the selling pressure is broad and liquidating rather than driven by deep conviction or high-volume capitulation. The current price acceleration of -0.6327% and the continued drawdown from observed highs suggest that the market is still processing the negative outlook for the materials sector, leaving little technical support for a bottom. Any attempt to buy this dip faces significant headwinds from the fresh 'Modest Negative Reaction' anticipated by Citi in the wake of the FMC disaster.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TBCH",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: TBCH is displaying significant institutional interest, evidenced by a 1.70x relative volume surge and a 13.26% gain today, pulling the stock 24.07% above its 20-day moving average. While the October 12th earnings transcript provides recent context, the current move is driven primarily by intense tape participation, with the stock maintaining a top-15 momentum rank across three consecutive observation intervals. Despite a minor 2.27% pullback from the day's high of $16.69, the persistence of buyer interest suggests this is a momentum breakout rather than a exhaustion peak. The confluence of high relative volume and sustained rank improvement provides a strong tactical entry for a momentum trade. BEAR: TBCH is currently exhibiting classic signs of exhaustion after a 13.26% move that has stretched the stock 24.07% above its 20-day moving average. The momentum has measurably deteriorated, with a 2.28% drawdown from the observed high of $16.69 and a negative price acceleration of -2.33 percentage points over the last hour. Furthermore, there is no fresh catalyst to justify today's surge, as the most recent news is a Q2 transcript from October 12, leaving this move without fundamental support and vulnerable to a mean reversion as volume participation wanes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DFH",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: DFH is demonstrating significant price strength today with a 13.75% gain on high volume, reaching 1.87x its 20-day average. The stock shows sustained momentum with 8 consecutive positive scans, a steady increase in rank, and price acceleration of 0.4739 percentage points, indicating strong buyer commitment despite the release of a short-focused report earlier today. The current price drawdown of only -0.3554% from the observed high highlights the market's refusal to sell into the news, suggesting the stock is successfully absorbing bearish sentiment. While there is no positive fundamental catalyst, the technical resilience and clear accumulation make this a strong momentum play leading into earnings on October 29. BEAR: Buying DFH is dangerous because the stock is moving counter to a fresh, same-session report from Hunterbrook Media specifically titled 'Problems at Dream Finders Homes'. While the stock is rallying today, it remains significantly disconnected from its 20-day moving average, creating a precarious setup where the price spike may function as exit liquidity against negative institutional scrutiny. Furthermore, with earnings approaching on October 29th, any retail-led momentum is vulnerable to a sharp reversal as the market digests the implications of the Hunterbrook report. The current drawdown from the session high, combined with this specific negative news catalyst, makes chasing the +13.75% gain a high-probability trap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRWV",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.4,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.25 = bull 0.40 - bear 0.65 (buy at >= +0.20). BULL: CRWV is displaying significant technical strength with a 4.73% intraday gain on high volume, reaching 2.54x its 20-day average, signaling a clear shift in market sentiment. The move is fundamentally supported by fresh 10/15/2026 headlines indicating that Wall Street analysts are actively defending the stock despite sector-wide pressure. Trading significantly below its 20-day moving average (-18.45%) provides a compelling mean-reversion opportunity, suggesting room for further upside as buying interest accelerates. This combination of strong institutional volume and direct analyst support creates a tactical setup for short-term outperformance. BEAR: CRWV is displaying significant structural weakness despite its 4.73% day gain, as the stock remains deeply oversold at 18.45% below its 20-day moving average. The price action appears driven by high-velocity churn rather than fundamental strength, highlighted by headlines citing a 'debt scare' that continues to plague sentiment despite analyst defensive efforts. Entering at the daily high with a relative volume of 2.54x suggests this move is primarily fueled by frantic retail or short-term participant interest reacting to conflicting news headlines rather than sustained trend conviction. With the stock still under heavy fundamental pressure from broader tech volatility, this buying opportunity lacks the necessary technical support to justify a long position.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SHAZ",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.4,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.20 = bull 0.45 - bear 0.65 (buy at >= +0.20). BULL: SHAZ is showing aggressive intraday momentum with a 11.22% return since its initial observation at 10:17 ET and significant volume participation at 2.11x its 20-day average. The stock is currently trading at its observed high of $31.32, demonstrating zero drawdown and persistent strength throughout the session. While the technical setup is early, the recent October 13 headline regarding AI data center demand provides a thematic tailwind that aligns with the stock's technology sector classification. With the stock trading substantially below its 20-day moving average, there is significant room for a mean-reversion rally if this volume-backed breakout holds. BEAR: SHAZ is currently experiencing a severe technical disconnect, trading 36.60% below its 20-day moving average while exhibiting a massive 11.22% return in just 300 minutes. The rally appears to be driven by speculative momentum rather than a fresh catalyst, as the most recent relevant news\u2014a sector-wide mention of Southeast Asia AI data centers\u2014is two days old and lacks specific company-level developments. With relative volume at 2.11x, the price is currently stalled at its observed session high, leaving entry participants as the primary exit liquidity for earlier, lower-cost buyers. Chasing a move that has already extended significantly without any new, actionable fundamental support creates a high probability of a mean-reversion pull-back.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "FMC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MAN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TLK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SAIQ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FLYE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XRPNW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WULF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SMXT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CANG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CTVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TBCH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DFH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRWV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SHAZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

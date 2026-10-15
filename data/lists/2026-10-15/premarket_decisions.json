@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-10-15T08:52:34-04:00",
+  "decisions": [
+    {
+      "symbol": "ASX",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The significant 4.75x volume spike in pre-market activity suggests a massive flush of weak hands following the broad market weakness mentioned in the October 14th headline regarding Asian equities, rather than a fundamental break in ASE's AI-driven value proposition. Despite the technical bearish bias, this volume density indicates a high likelihood of a climactic bottoming process at the open. The drop appears to be a sympathetic reaction to sector-wide volatility, providing a tactical entry point to fade the irrational panic. There is no company-specific news explaining this magnitude of gap, making this a play on market-wide mean reversion supported by intense liquidity. BEAR: The current 6.38% gap is driven entirely by broad macro sentiment rather than stock-specific news, as the most recent relevant headline regarding ASE Technology is from October 13th and focuses on product expansion. With the candle agent signaling a high-conviction bearish continuation pattern, the pre-market volume of 369,441 shares indicates that professional participants are aggressively offloading positions rather than finding value at the $41.50 level. This is a classic gap-fade setup where the absence of a fresh, concrete catalyst suggests the opening-auction will likely be used as exit liquidity by institutions, leaving retail buyers to absorb the follow-through selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CORZ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Despite the negative headline regarding valuation on 2026-10-15, the massive volume spike of 7.25x the baseline indicates institutional absorption of the selling pressure at the $13.00 level. The KBW outperform rating from 2026-10-14, which highlighted the underappreciated 1.9 GW AMD reservation, provides a fundamental floor that market participants appear to be defending against this gap-down. The current volume signature suggests that this is a liquidity-providing event rather than a breakout of a bearish trend, allowing for a mean reversion play as the market reconciles the valuation concerns against the tangible growth catalyst. The high relative volume suggests that sellers are being met with significant institutional bid support. BEAR: CORZ is currently suffering from a clear exhaustion structure following the October 15th 'overvalued' headline, which likely triggered the pre-market sell-off. The bearish continuation pattern combined with the fact that the stock is gapping down 3.77% on elevated 7.25x volume suggests this is a momentum-driven dump rather than a value-driven entry point. The gap has failed to show any buying interest in the thin tape, indicating an opening-auction reversal is highly probable as the market rejects the current price level. This is a classic gap-fade setup where the early sellers are already positioning for further downside, making the current pre-market price nothing more than an exit point for existing holders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRWV",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: CRWV is showing massive institutional interest with 4.9 million shares traded in pre-market, nearly 8x the average volume, indicating a capitulation event rather than a drift. The stock is reacting to specific market concerns regarding borrowing costs mentioned in the October 15 headlines, but the sheer volume suggests that aggressive buyers are stepping in to absorb this forced selling. With the stock currently in a four-day slide, the extreme volume signature marks a classic exhaustion point where the 'grossly overexaggerated' selloff narrative becomes a contrarian buying opportunity. I am banking on a sharp snap-back as the selling pressure exhausts itself against this high-liquidity support level. BEAR: CRWV is suffering from a clear exhaustion structure following a 4-day slide, and the current 3.47% gap is essentially an echo of the 'CoreWeave debt test' concerns that have been priced in since early morning. The volume spike to 7.69x baseline indicates panic-driven capitulation rather than a fundamental change in the thesis, suggesting that the pre-market low will likely serve as the liquidity exit for institutional sellers at the open. Because the sell-off is reacting to known headlines regarding borrowing costs, the gap has already stopped building, signaling that buyers attempting to catch this falling knife will be met with immediate opening-auction reversal as the selling momentum stabilizes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ERIC",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.1,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net +0.15 = bull 0.95 - bear 0.80 (buy at >= +0.20). BULL: ERIC is demonstrating a textbook breakaway gap fueled by a massive volume spike of 60x the baseline average, directly linked to the Q3 2026 earnings report and structural reorganization news released today, 2026-10-15. The volume signature is exceptionally high and sustained, confirming institutional conviction in the new group structure and earnings trajectory rather than a fleeting reaction. With the stock holding its gains firmly against the pre-market high, the structural setup indicates a clear break from previous trading ranges with significant momentum for a follow-through. This is a high-conviction setup where institutional participation matches the material fundamental catalysts announced this morning. BEAR: The +11.48% gap fueled by the 2026-10-15 Q3 earnings release and structural reorganization announcement is a classic 'sell the news' setup, as the market typically front-runs these specific operational changes in the days prior. Despite the high pre-market volume of 3.36 million shares, the price has already hit a plateau, indicating that early institutional appetite has been exhausted and current levels will serve as exit liquidity for those who bought the run-up. The move is highly susceptible to an opening-auction reversal, as the complexity of 'simplification of Group structure' reports often leads to immediate profit-taking once the headlines are fully absorbed by retail liquidity at 9:30. This is an exhaustion structure where the price has failed to build further momentum despite the high-volume activity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FMC",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 6.3,
+      "stop_loss_pct": 4.46,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: FMC is experiencing a massive liquidity event with pre-market volume at 486x its baseline, indicating that institutional hands are aggressively clearing positions at these levels. While the sentiment is bearish, this volume signature represents a classic capitulation wash-out that often marks a significant bottom for a stock as deeply oversold as this. There is no specific headline from today to explain the move, meaning this is a pure technical liquidation where the extreme volatility offers an opportunity to buy the exhaustion of sellers. I am betting that the sheer volume of shares changing hands will provide a stable floor for a rapid relief bounce once the initial panic selling is absorbed by value-oriented buyers at the open. BEAR: FMC is exhibiting a classic exhaustion structure following a massive -45.61% gap that lacks a corresponding fresh, high-impact headline to justify the magnitude of the move. While the October 13th Mizuho downgrade maintains an 'Outperform' rating despite a price target cut, the market is aggressively front-running the narrative established in the October 12th SeekingAlpha piece, meaning the downside move is likely already priced in by the time the market opens. This is a clear case of an opening-auction reversal where the 486x volume surge reflects panic liquidity that has already cleared its energy, leaving any buyer at the open as the final bag-holder for an exhausted move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IBRX",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.1,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.05 = bull 0.75 - bear 0.80 (buy at >= +0.20). BULL: IBRX is sustaining a 6.23x volume surge relative to its baseline, directly supported by the significant FDA label expansion for ANKTIVA reported on October 14. Despite the current headline noise regarding a retail slump, the pre-market volume signature indicates institutional accumulation following the broader regulatory approval. The stock is successfully holding its gap above the previous close, signaling that buyers are absorbing the profit-taking from yesterday's rally. This structural continuation setup is driven by a tangible, positive catalyst that fundamentally changes the commercial outlook for its lead asset. BEAR: The 1.41% gap is a classic example of an already priced-in event where the market has already factored in the FDA expansion news from October 14th. The stock's pre-market momentum has stalled, evidenced by the headlines already citing a 'weekly slump' despite the positive news, suggesting the initial reaction is finished and liquidity at the open will likely provide an exit for late longs. This is a clear case of exhaustion structure where the price is failing to meaningfully build on yesterday's catalyst, leaving the open as prime territory for a gap-fade as the thin-tape enthusiasm dries up.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MAN",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: ManpowerGroup is trading down 17.34% following the October 15, 2026, release of Q3 results and a leadership transition announcement. While the technical agent suggests an exhaustion reversal, the massive pre-market volume of 125,441 shares\u2014165 times the baseline average\u2014indicates institutional liquidation has likely already hit a wash-out floor. This liquidity event provides an opportunity to scalp a bounce as short-term sellers exhaust their supply against the leadership transition news. The stock is deeply oversold, and the intensity of the volume confirms that the market is aggressively pricing in the new information, creating a potential mean-reversion setup at the open. BEAR: The 17.34% gap down on 165x relative volume is a classic exhaustion reversal structure following the Oct 15 Q3 earnings report, indicating that the market has already fully priced in the disappointment of 'in-line' results combined with a leadership transition. This move is a textbook case of an already priced-in event where the pre-market volume has peaked and stalled, suggesting that there is no durable follow-through momentum left for the opening bell. Because the headline news is already stale and the chart indicates an exhaustion reversal, any attempt to buy at the open will likely serve as exit liquidity for institutional sellers. The combination of a leadership change alongside stagnant earnings makes the price action here highly susceptible to a gap-fade failure mode once real liquidity enters the market at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RKLB",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The 10.44% gap down on 4.34x relative volume is a classic capitulation event triggered by the October 15, 2026, news regarding the Neutron rocket delay to 2027. While the headline initially fueled a selloff, the massive volume indicates significant institutional absorption at these lower levels as traders rotate out of the stock. RKLB is known for its volatility, and the speed of this move suggests an overreaction that leaves the stock oversold on the intraday timeframe. Buying at the open captures the likely snap-back as momentum traders exhaustion-sell and long-term holders defend the technical support levels now that the catalyst is priced in. BEAR: The 15% slide tied to the Neutron rocket delay until 2027 represents a fundamental structural disappointment that significantly impairs RKLB's growth narrative, making this gap look like a persistent trend rather than a tradable dip. With volume at 4.34x the baseline, the high conviction for a continuation pattern suggests the selling pressure is broad-based and institutional, not a thin-tape fluke. Because the reaction is driven by a long-term milestone failure, any attempt to buy the opening auction is effectively catching a falling knife as market participants re-price the valuation for a two-year delay in key revenue-generating capabilities.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RXRX",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: The significant 4.82x volume surge in RXRX is evidence of a capitulation event rather than a fundamental change, with no specific headline news today to justify this 9% gap lower. This volume signature suggests institutional rotation or a liquidity-driven flush that often precedes a mean-reversion move, especially given the lack of concrete negative catalysts in the recent 7-day news cycle. By buying into this liquidity-heavy flush, there is a technical opportunity to capture a bounce as the selling pressure absorbs and the market realizes the move is decoupled from company-specific events. There is nothing specific here, and the technical structure remains bearish, warranting a low-confidence outlook. BEAR: RXRX is exhibiting a classic exhaustion structure combined with a gap-fade failure mode, as the lack of any fresh, negative news post-October 12th suggests this 9% gap is fueled by momentum selling rather than a fundamental catalyst. The volume, while 4.82x the baseline, is failing to push price discovery deeper, indicating the market is treating the open as exit liquidity for existing shareholders. With the candle agent signaling a bearish breakdown, buying at the open ignores the reality that pre-market volume here is merely rotating shares among exiting positions before the inevitable opening-auction reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TSM",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: TSM is experiencing an irrational sell-off despite delivering a 'beat-and-raise' third-quarter report on 2026-10-15 and confirming 'extremely robust demand' for AI chips. The pre-market volume of 889,281 shares represents 4.65x the baseline, proving that institutional participation is heavy and liquidity is abundant, likely soaking up the panic selling from broader market fears. With the fundamentals showing record profits, this gap down is a temporary disconnect that provides a prime entry point before the market reconciles the strong earnings against the reflexive AI sell-off sentiment. BEAR: TSM is suffering from an 'already priced in' failure mode where the market is dumping the stock despite the 'Beat-And-Raise' headline because the specific detail regarding a 'sequential fourth-quarter gross margin decline' provides a concrete fundamental anchor for sellers. The gap-fade is imminent as the pre-market volume of 889k, while elevated, is absorbing profit-taking rather than institutional accumulation, signaling that today's open is likely being used as exit liquidity. With the candle agent confirming a 'bearish continuation' bias, the initial reaction to the earnings news has already completed, leaving no room for a bullish reversal at the open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VG",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: The significant 10.41x relative volume indicates heavy institutional interest reacting to the Oct 15th headlines regarding new grid-independent power network agreements and data center infrastructure developments. Despite the bearish sentiment suggested by the technical candle agent, the high-volume flush appears to be a reactive digestion of the SeekingAlpha concern piece rather than a fundamental shift, providing a potential exhaustion low. If the bid holds the $12.60 level at the open, the stock is positioned for a mean reversion as market participants digest the expansion-focused news over the fee-structure concerns. There is no clear technical setup for a long, as the momentum is currently against the grain, necessitating a cautious entry. BEAR: The 4.45% gap in VG is a classic trap driven by conflicting headlines, specifically the SeekingAlpha report highlighting a critical $1.49 per unit shortfall in LNG fees that undermines the optimistic 'data center power' narrative. Despite elevated pre-market volume of 384,781 shares, the move is exhibiting an exhaustion structure that has already stalled, signaling the market is treating the news as exit liquidity rather than a fresh accumulation phase. With the gap failing to expand further and the candle agent confirming a bearish continuation bias, the open is highly likely to face an immediate reversal as the thin-tape enthusiasm collides with institutional liquidation of positions based on the negative fee-structure revelation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WMT",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 0.98,
+      "reasoning": "net +0.20 = bull 0.90 - bear 0.70 (buy at >= +0.20). BULL: WMT is showing a textbook breakout footprint with volume running at 4.61x the baseline, signaling institutional conviction following the Deutsche Bank upgrade and clear market share gains over Kroger noted on 2026-10-15. The price action is holding the $119 level steadily into the open, confirming that this gap is driven by sustained demand rather than speculative noise. This structure suggests a strong continuation move as traders digest the fundamental tailwinds from pricing power and competitive dominance. With high conviction in the candle structure and significant relative volume, the setup favors a breakout above the pre-market high. BEAR: The +2.90% gap is fueled entirely by stale industry sentiment regarding Kroger's losses and minor promotional headlines, which are insufficient catalysts for a large-cap stock already trading at a high conviction technical bias. With pre-market volume at 4.6x the baseline but failing to show aggressive accumulation in the last hour, this qualifies as a classic exhaustion structure where the price has already hit its limit. Investors are chasing a 'priced-in' narrative, making this a prime candidate for an opening-auction reversal as institutional size flows hit the tape and liquidate into the retail-driven gap. Buying at the open exposes the buyer to an immediate gap fade as the market pivots toward the broader tech rotation fears mentioned in today's news.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
