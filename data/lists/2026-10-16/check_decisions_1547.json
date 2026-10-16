@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-10-16T15:49:33-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "VRNS",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 1.56,
+      "stop_loss_pct": 0.94,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: VRNS is witnessing massive accumulation today with relative volume at 21.04x normal, fueled by the major news headline that Varonis is set to be acquired in a $6.3 billion takeover. While the stock has faced analyst downgrades today, the market is aggressively voting in favor of the deal price, keeping the stock at rank 1 in our momentum scanner for 8 consecutive observations. With a 330-minute track record since being first identified and price holding up just 0.03% off the session high, the buying pressure remains exceptionally resilient. This price action suggests a clear arbitrage-driven momentum play as traders position for the takeover premium. BEAR: The stock is facing immediate, well-defined resistance at $49.75, which is the uniform price target set by Jefferies, Wells Fargo, and Wedbush in their fresh, same-session analyst notes. The price of $48.70 is already struggling to maintain momentum, as evidenced by a negative price acceleration of -0.0616 and a declining relative volume rate per 30 minutes. Furthermore, with the stock trading near its observed high of $48.71 and showing a drawdown of -0.0308% while analyst coverage has shifted to a neutral or 'hold' consensus, the setup is exhibiting signs of exhaustion rather than breakout potential. Entering at this level essentially requires buying into a 'go private' news event where the upside is already capped by the collective analyst ceiling.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 6.3e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "PMI",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: PMI is exhibiting powerful, sustained momentum with a 24.61% gain supported by massive relative volume of 3.73x normal. The stock has demonstrated persistent strength throughout the session, confirmed by three consecutive observations and a 34.71% return since it was first flagged, while maintaining a price currently at its observed high with 0.0% drawdown. While the catalyst report lacks specific fundamental news, the stock's inclusion in multiple 'stocks moving in Friday's pre-market' headlines on 2026-10-16 validates its status as a high-participation breakout leader. With price acceleration at 0.1335 and consistent rank positioning, the tape confirms strong institutional interest favoring continuation. BEAR: PMI is currently trading at a precarious 72.39% extension above its 20-day moving average, suggesting that the move is statistically overextended. While the stock has seen high participation today, the relative volume rate per 30 minutes has dropped significantly by 53.69%, indicating that institutional interest is fading precisely as the price reaches new session highs. The absence of a specific fundamental catalyst for this 24.61% gain leaves the move vulnerable to a rapid reversal, as there is no news to support the premium being priced into the stock during this session. Entry here represents taking the role of exit liquidity for earlier buyers who have already captured a 34.71% gain since the stock was first spotted.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "VRNS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PMI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

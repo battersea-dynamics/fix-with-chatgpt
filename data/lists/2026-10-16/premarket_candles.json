@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-16T08:52:07-04:00",
+  "session_date": "2026-10-16",
+  "reads": {
+    "VRNS": {
+      "symbol": "VRNS",
+      "pattern": "continuation gap",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "PMI": {
+      "symbol": "PMI",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.8
+    },
+    "FOXF": {
+      "symbol": "FOXF",
+      "pattern": "gap-and-crap reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "SITC": {
+      "symbol": "SITC",
+      "pattern": "breakaway gap",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "TLK": {
+      "symbol": "TLK",
+      "pattern": "gap-down bearish continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "BBCI": {
+      "symbol": "BBCI",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "JAGX": {
+      "symbol": "JAGX",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "MBLY": {
+      "symbol": "MBLY",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.95
+    },
+    "IRD": {
+      "symbol": "IRD",
+      "pattern": "Bullish Reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FOX": {
+      "symbol": "FOX",
+      "pattern": "breakout continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "OMER": {
+      "symbol": "OMER",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

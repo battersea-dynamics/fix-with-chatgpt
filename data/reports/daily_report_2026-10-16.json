@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-16",
+  "events": [
+    {
+      "at_et": "2026-10-16T08:46:48-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-16T09:02:35-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-10-16T09:32:06-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BBCI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOXF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MBLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SITC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TSLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRNS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-16T10:58:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-10-16/shortlist_1016.json",
+        "shortlist": [
+          "VRNS",
+          "TLK",
+          "SITC",
+          "FLYE",
+          "FOXF",
+          "JAGX",
+          "OMER",
+          "XRPNW",
+          "PMI",
+          "DFNS",
+          "PFAI",
+          "LGHL",
+          "SLS",
+          "BIAF",
+          "FMC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SITC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLYE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOXF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 5
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-16T13:57:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "RemoteProtocolError: Server disconnected without sending a response."
+      }
+    },
+    {
+      "at_et": "2026-10-16T14:44:03-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-16/shortlist_1416.json",
+        "shortlist": [
+          "VRNS",
+          "SITC",
+          "TLK",
+          "CANG",
+          "ENGS",
+          "SMCIP",
+          "FOXF",
+          "STFS",
+          "OMER",
+          "FLYE",
+          "JAGX",
+          "SLS",
+          "DFNS",
+          "SHO",
+          "CRWV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "TLK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOXF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STFS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLYE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 8
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-16T14:49:14-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1447",
+        "shortlist_file": "data/lists/2026-10-16/shortlist_1447.json",
+        "shortlist": [
+          "VRNS",
+          "SITC",
+          "TLK",
+          "CANG",
+          "ENGS",
+          "PMI",
+          "SMCIP",
+          "STFS",
+          "FOXF",
+          "FLYE",
+          "JAGX",
+          "OMER",
+          "SLS",
+          "SHO",
+          "CRWV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-16T15:19:49-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-16/shortlist_1516.json",
+        "shortlist": [
+          "VRNS",
+          "PMI",
+          "SITC",
+          "TLK",
+          "CANG",
+          "ENGS",
+          "FOXF",
+          "SMCIP",
+          "FLYE",
+          "OMER",
+          "JAGX",
+          "STFS",
+          "SLS",
+          "SHO",
+          "CRWV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VRNS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 1
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-16T15:49:33-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1547",
+        "shortlist_file": "data/lists/2026-10-16/shortlist_1547.json",
+        "shortlist": [
+          "VRNS",
+          "PMI",
+          "SITC",
+          "TLK",
+          "CANG",
+          "ENGS",
+          "FOXF",
+          "SMCIP",
+          "OMER",
+          "FLYE",
+          "SHO",
+          "JAGX",
+          "UPB",
+          "STFS",
+          "SLS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "VRNS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PMI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-16T15:49:33-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 6,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
