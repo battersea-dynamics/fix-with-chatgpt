@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-19",
+  "events": [
+    {
+      "at_et": "2026-10-19T08:46:29-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-19T08:53:21-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-10-19T09:31:36-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ASST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CORZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EQPT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HDB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MANE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-19T12:55:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-19/shortlist_1216.json",
+        "shortlist": [
+          "SLN",
+          "IRON",
+          "GLAS",
+          "PMI",
+          "CLF",
+          "TLK",
+          "CANG",
+          "JAGX",
+          "RGC",
+          "CABO",
+          "CTVA",
+          "MXL",
+          "VICR",
+          "AXTI",
+          "FOXF"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAGX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MXL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VICR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOXF",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 7
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-19T14:47:45-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-19/shortlist_1416.json",
+        "shortlist": [
+          "SLN",
+          "IRON",
+          "GLAS",
+          "CLF",
+          "PMI",
+          "TLK",
+          "CANG",
+          "JAGX",
+          "DXC",
+          "CABO",
+          "RGC",
+          "BMGL",
+          "FOXF",
+          "ARQT",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ARQT",
+            "action": "submitted",
+            "order": {
+              "symbol": "ARQT",
+              "qty": 6,
+              "est_cost": 196.74,
+              "entry_ref": 32.79,
+              "take_profit": 35.33,
+              "remaining_take_profit_pct": 7.75,
+              "stop_loss": 31.56,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261019-144745-ARQT",
+              "analysis_price": 32.415,
+              "live_price_change_pct": 1.16
+            },
+            "broker": {
+              "id": "b769e263-f026-4b8c-b8f0-be9970dce789",
+              "client_order_id": "ta-20261019-144745-ARQT",
+              "symbol": "ARQT",
+              "qty": "6",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 35.33,
+              "stop_loss": 31.56,
+              "legs": [
+                "4860dd82-2da6-4c06-b0ee-b4b970bb4db4",
+                "254c6234-a61c-4c9d-a470-ca907b204803"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "TLK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CANG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CABO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RGC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BMGL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOXF",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 7
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-19T14:49:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1448",
+        "shortlist_file": "data/lists/2026-10-19/shortlist_1448.json",
+        "shortlist": [
+          "SLN",
+          "IRON",
+          "GLAS",
+          "CLF",
+          "PMI",
+          "TLK",
+          "CANG",
+          "RGC",
+          "DXC",
+          "JAGX",
+          "FOXF",
+          "BMGL",
+          "CABO",
+          "CTVA",
+          "BYRN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-19T15:18:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-19/shortlist_1516.json",
+        "shortlist": [
+          "SLN",
+          "IRON",
+          "GLAS",
+          "PMI",
+          "CLF",
+          "TLK",
+          "CANG",
+          "DXC",
+          "JAGX",
+          "RGC",
+          "FOXF",
+          "BMGL",
+          "CABO",
+          "CTVA",
+          "SAIQ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 1
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-19T15:47:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-19/shortlist_1546.json",
+        "shortlist": [
+          "SLN",
+          "IRON",
+          "GLAS",
+          "PMI",
+          "CLF",
+          "CANG",
+          "TLK",
+          "JAGX",
+          "DXC",
+          "FOXF",
+          "BMGL",
+          "RGC",
+          "CABO",
+          "RAMP",
+          "APUS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-19T15:47:41-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 5,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

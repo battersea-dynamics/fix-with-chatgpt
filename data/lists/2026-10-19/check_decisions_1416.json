@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-10-19T14:47:45-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "TLK",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: TLK is presenting a compelling mean-reversion opportunity after trading 18.85% below its 20-day moving average, supported by significant exhaustion-level volume of 4.71x the normal rate. The intraday tape shows resilient participation, with 5 consecutive observations and a rank improvement from 7 to 6, suggesting that recent selling pressure is meeting substantial absorption. While the catalyst report lacks specific news to explain today's volatility, the price has maintained a positive return of 0.62% since it was first tracked despite broader market noise. This combination of extreme relative volume and a technical disconnect from the 20-day average provides a high-conviction setup for a short-term bounce. BEAR: TLK is currently experiencing a sharp -4.99% decline and is trading 18.85% below its 20-day moving average, signaling a deep technical breakdown rather than a temporary dip. The evidence shows clear exhaustion and a failure to sustain momentum, with price acceleration at -2.2354 percentage points and a drawdown of -0.992% from the observed high. Furthermore, the lack of any specific internal news catalyst leaves the stock vulnerable to the negative sentiment surrounding MSCI's potential reclassification of Indonesia indexes, as noted in the October 16 reports. With a rel_volume_rate_change of -0.0183 indicating that participation is fading as the price struggles, entering here is essentially catching a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CANG",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: CANG is exhibiting a classic capitulation reversal, trading at 1.59x normal volume following a significant 26.96% intraday decline. The tape shows signs of stabilization with a price acceleration of 6.9673 percentage points and a positive return of 1.5909% over the most recent observation interval. While there is no specific catalyst in the recent news flow to explain the move, the oversold condition relative to the 20-day moving average suggests potential for a mean-reversion trade as participants absorb the heavy selling pressure. This setup relies entirely on intraday momentum and liquidity-driven recovery potential. BEAR: CANG is currently suffering from a severe 26.96% single-day drawdown, leaving it 20.56% below its 20-day moving average with no immediate catalyst to justify a reversal. The intraday tape shows clear deterioration, highlighted by a declining rank and a 6.68% drawdown from the observed high, while the relative volume rate is contracting by -0.1523. This combination of a lack of fresh news and measurable momentum decay indicates the stock is currently acting as exit liquidity rather than a recovery candidate.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DXC",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 4.23,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: DXC is experiencing significant momentum with a 5.40% daily gain and strong volume at 3.35x its 20-day average, signaling high market interest. The stock is currently trading 22.59% above its 20-day moving average, highlighting a robust breakout trend leading into its October 29 earnings release. Recent headlines on October 16 regarding a strategic pivot toward AI governance for regulated clients provide a fundamental narrative to support this price action. While the intraday price has pulled back from a high of $14.885, the massive relative volume confirms that market participants are actively positioning ahead of the upcoming earnings report. BEAR: DXC is currently suffering from a clear chasing failure mode, as evidenced by a 3.56% drawdown from the session high within just one hour of observation. The stock is extended 22.59% above its 20-day moving average, a level that has failed to attract further momentum as relative volume has slowed to a tepid 0.41 rate per 30 minutes. Furthermore, the news headlines regarding AI governance and earnings release dates are several days old, leaving the current +5.40% daily gain without an active catalyst to sustain price discovery above the 20-day MA. Buyers at this level are providing exit liquidity for earlier longs as the tape shows meaningful intraday deterioration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CABO",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: CABO is currently undergoing an extreme technical correction, trading at a 51.56% distance from its 20-day moving average following a single-day decline of 15.98%, which positions it for a potential mean-reversion trade. While the catalyst report lacks a direct fundamental driver, the recent headlines regarding the stock provide the necessary attention to fuel volatility for a short-term bounce. The price action shows slight signs of stabilization with a rank improvement from 12 to 10 and a small increase in relative volume rate, indicating that some institutional interest may be building at these depressed levels ahead of the October 29 earnings release. This setup relies on the assumption that the recent selling pressure has reached an exhaustion point given the significant disconnect from the 20-day MA. BEAR: CABO is suffering from persistent downward momentum, evidenced by a 10% drawdown from its observed session high and a consistent inability to post any positive intervals across four observations. The stock's current price is 51.56% below its 20-day moving average, yet the relative volume of 0.49x indicates this sell-off is occurring on waning participation, often a sign of forced liquidation rather than a balanced re-pricing. Furthermore, the stock faces an imminent earnings event in just 10 days, creating significant event risk that looms over any short-term long entry. With headlines like '1 Unprofitable Stock Worth Investigating and 2 That Underwhelm' surfacing today, the market is already framing the name negatively, providing a persistent headwind for any attempt at a rebound.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RGC",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.44,
+      "reasoning": "net -0.35 = bull 0.40 - bear 0.75 (buy at >= +0.20). BULL: RGC is showing sustained market interest, underscored by a strong relative volume of 2.39x and a solid 4.80% gain for the session. While recent news regarding a wider full-year loss presents a fundamental headwind, the stock's ability to maintain a 42.09% distance from its 20-day MA indicates significant underlying demand and momentum. With five consecutive observations showing continued market participation and a price still holding well above earlier levels, the current pullback from the session high of $10.90 represents a consolidation opportunity before a potential continuation. BEAR: RGC is currently suffering from clear intraday deterioration, as evidenced by a 7.7982% drawdown from its observed high of $10.90 and a negative price acceleration of -5.3524%. The stock is significantly overextended at 42.09% above its 20-day moving average, and its rank has slipped from 8 to 11, confirming that buying now represents chasing a move that has already lost momentum. Furthermore, there is a total absence of a positive fundamental catalyst to justify this extension; the most recent news from October 17 highlights a 'Wider Full Year Loss,' suggesting the current price action is disconnected from the company's financial reality and vulnerable to a sharp mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BMGL",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: BMGL is demonstrating significant institutional interest today with relative volume at 4.56x its 20-day average, indicating a breakout move is potentially underway. The stock is currently trading at $3.95, maintaining a 8.58% premium over its 20-day moving average and showing a positive return of 3.81% since being first detected. While there are no specific news catalysts or earnings events to explain this price action, the combination of high volume and price strength suggests a technical momentum play in progress. As this is a tape-only case without fundamental news, I remain cautious but see technical upside if it sustains this elevated activity. BEAR: BMGL presents a high risk of chasing an exhaustion point, as the stock is trading 8.58% above its 20-day moving average on 4.56x relative volume with zero fundamental news catalyst to justify the move. The momentum is already stalling, evidenced by a drop in rank from 11 to 12 and a decline in the score over the last hour. With no earnings or dividend events to support the price action, the current strength appears to be an unsupported liquidity spike rather than a sustainable trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FOXF",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: FOXF is experiencing an extreme oversold condition, trading 20.86% below its 20-day moving average, which creates a compelling mean-reversion setup following the recent negative headlines regarding the CEO transition and outlook reduction on 2026-10-16. While the stock is down today, the relative volume at 2.79x normal indicates significant institutional participation, suggesting that the market is aggressively absorbing the selling pressure ahead of the earnings release on 2026-10-29. The intraday rank improvement and the fact that we have seen three consecutive observations indicate that the exhaustion point is being tested at these levels. This provides a high-conviction tactical entry for a quick recovery bounce as the market prices in the worst of the news. BEAR: FOXF is suffering from significant structural deterioration following the Oct 16 announcement of a CEO departure and outlook reduction, with the stock now trading 20.86% below its 20-day moving average. The momentum data confirms a classic exhaustion pattern, as price acceleration has turned negative at -4.4057% and relative volume rate is fading at -0.0856 per 30-minute interval. With the drawdown from the observed high deepening to 3.19% over the last two hours, the stock is currently serving as exit liquidity for investors reacting to the recent negative fundamental news. Entering now forces a position into an active downtrend just 10 days ahead of the next earnings report, where the company must face the reality of its reduced guidance.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARQT",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 9.0,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.20 = bull 0.70 - bear 0.50 (buy at >= +0.20). BULL: ARQT is showing powerful momentum with a 12.47% daily gain and 1.36x relative volume, signaling strong institutional interest. The bullish sentiment is backed by a recent Cantor Fitzgerald initiation on October 15 with an 'Overweight' rating and a $48 price target, providing significant upside potential from current levels. With earnings approaching on October 29, the stock is positioned for continued volatility as market participants anticipate the upcoming financial report. The current price trend, sitting 23.43% above its 20-day MA, reflects a breakout phase that often precedes further momentum gains. BEAR: ARQT is currently trading 23.43% above its 20-day moving average, creating a significant technical extension that leaves the stock vulnerable to mean reversion. The primary bullish news regarding the Cantor Fitzgerald initiation and stock surge occurred four days ago, suggesting that the current rally is driven by momentum rather than fresh information. Furthermore, with earnings scheduled for October 29th, only 10 days away, the stock is entering a high-volatility window that discourages holding into the looming binary event. The combination of a stale news cycle and significant deviation from the moving average indicates that new buyers are effectively providing liquidity to earlier participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "TLK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CANG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DXC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CABO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RGC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BMGL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FOXF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARQT",
+      "action": "submitted",
+      "order": {
+        "symbol": "ARQT",
+        "qty": 6,
+        "est_cost": 196.74,
+        "entry_ref": 32.79,
+        "take_profit": 35.33,
+        "remaining_take_profit_pct": 7.75,
+        "stop_loss": 31.56,
+        "confidence": 0.6,
+        "client_order_id": "ta-20261019-144745-ARQT",
+        "analysis_price": 32.415,
+        "live_price_change_pct": 1.16
+      },
+      "broker": {
+        "id": "b769e263-f026-4b8c-b8f0-be9970dce789",
+        "client_order_id": "ta-20261019-144745-ARQT",
+        "symbol": "ARQT",
+        "qty": "6",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 35.33,
+        "stop_loss": 31.56,
+        "legs": [
+          "4860dd82-2da6-4c06-b0ee-b4b970bb4db4",
+          "254c6234-a61c-4c9d-a470-ca907b204803"
+        ]
+      }
+    }
+  ]
+}
