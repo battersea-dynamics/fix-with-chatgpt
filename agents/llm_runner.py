@@ -20,12 +20,13 @@ The numbers, and where they come from:
   not a sleep inside any one loop: bull then bear on the same stock
   are two calls from two modules, and both must count.
 
-  Retries handle the 429s that slip through anyway (CrewAI can make
-  more than one request per task, e.g. schema-validation retries).
+  Busy/rate-limit errors (503 high demand, 429) fall through to the
+  next free model in GEMINI_MODELS after a ~2s pause instead of a 45s
+  sleep (CrewAI can also make more than one request per task).
   Anything non-retryable surfaces immediately — a bug should crash,
   not be silently retried.
 
-  After all retries fail: return None. The caller treats a missing
+  After every model fails (twice): return None. The caller treats a missing
   opinion as "no trade" — degradation must always land on the safe
   side of the ledger.
 """
@@ -43,34 +44,63 @@ from dotenv import load_dotenv
 load_dotenv()
 
 CALL_SPACING_SECONDS = 8
-RATE_LIMIT_RETRIES = 3
-RATE_LIMIT_BACKOFF_SECONDS = 45
+# Short pause before trying the NEXT model after a busy/rate-limited
+# reply. Different models have separate quotas, so no long wait needed.
+MODEL_SWITCH_PAUSE_SECONDS = 2
+# If every model in the list failed on one call: one short backoff,
+# then one more pass over the list, then give up (None = no trade).
+ALL_MODELS_BACKOFF_SECONDS = 10
+ALL_MODELS_PASSES = 2
 MAX_DAILY_CALL_ATTEMPTS = 450
+# Stop calling the LLM once the run has used this long, so the 45-min
+# GitHub job limit never kills the state-saving step after the debate.
+RUN_TIME_BUDGET_SECONDS = 35 * 60
 USAGE_PATH = Path("data/llm_usage.json")
 ET = ZoneInfo("America/New_York")
 
-# Pinned GA model, deliberately NOT a rolling alias and NOT -preview.
+# Pinned GA models, deliberately NOT rolling aliases and NOT -preview.
 # History: we used gemini-flash-latest, and overnight it started
 # resolving to gemini-3.5-flash - whose free tier allows 20 requests
 # per DAY, less than one debate run. Rolling aliases let Google change
 # our quota out from under us; a pinned model can only break loudly.
-# The lite tier carries the highest free-tier daily quotas, which is
-# what a 30+-calls-per-run pipeline actually needs. (gemini-2.5-flash
-# itself now 404s: "no longer available to new users".)
-GEMINI_MODEL = "gemini/gemini-3.1-flash-lite"
+# (gemini-2.5-flash now 404s: "no longer available to new users"; the
+# models page says all 2.5 models are limited to past users, so the
+# 2.5 family is excluded.)
+#
+# Ordered fallback list - edit here. Primary first. All three are
+# listed as "Free of charge" on the Free Tier at
+# https://ai.google.dev/gemini-api/docs/pricing and as stable names at
+# https://ai.google.dev/gemini-api/docs/models (checked 2026-10-28).
+# Per-model free RPM/RPD are NOT published in the docs any more (only
+# in AI Studio), so lite models come first (historically the highest
+# free quotas) and the full Flash model is last resort.
+GEMINI_MODELS = [
+    "gemini/gemini-3.1-flash-lite",
+    "gemini/gemini-3.5-flash-lite",
+    "gemini/gemini-3.6-flash",
+]
+GEMINI_MODEL = GEMINI_MODELS[0]
 
+_RETRYABLE_MARKERS = ("RateLimitError", "ServiceUnavailable",
+                      "APIConnectionError", "UNAVAILABLE", "RESOURCE_EXHAUSTED",
+                      "high demand", "overloaded", "429", "503")
+
+_run_started_at = time.monotonic()
 _last_call_at = 0.0
-_daily_quota_exhausted = False
+_daily_quota_exhausted = False      # local 450 ceiling hit, or all models dead
+_exhausted_models: set = set()      # models that returned a per-day 429
 
 
-def gemini_llm() -> LLM:
+def gemini_llm(model: str = GEMINI_MODEL) -> LLM:
     # CrewAI 1.15 routes Gemini models through its native provider.
     # requirements.txt installs the matching google-genai extra; keeping
     # the model on that supported path avoids a startup-only ImportError.
-    return LLM(model=GEMINI_MODEL)
+    return LLM(model=model)
 
 
 def _throttle():
+    # Global spacing across all models: 8s => <=7.5 calls/min overall,
+    # within the primary's 15 RPM even if every call lands on one model.
     global _last_call_at
     elapsed = time.monotonic() - _last_call_at
     if elapsed < CALL_SPACING_SECONDS:
@@ -78,42 +108,49 @@ def _throttle():
     _last_call_at = time.monotonic()
 
 
-def _reserve_daily_call() -> bool:
+def _reserve_daily_call(model: str = GEMINI_MODEL) -> bool:
     """
-    Persistently reserve one logical Gemini attempt before making it.
+    Persistently reserve one Gemini attempt before making it.
 
     GitHub runs are separate processes, so an in-memory counter would reset
-    every 30 minutes. This file is carried in the existing data cache and
-    keeps all pre-market, regular-session, retry, and manual attempts under
-    the project's 500-request daily allowance.
+    every 30 minutes. "attempts" counts every request on ANY model (each
+    fallback hop is one attempt) and is capped at MAX_DAILY_CALL_ATTEMPTS:
+    a conservative overall ceiling, since each model actually has its own
+    quota. "per_model" is informational. Old files without "per_model"
+    are read fine; everything resets when the ET date changes.
     """
     today = datetime.now(ET).date().isoformat()
-    usage = {"date": today, "attempts": 0}
+    usage = {"date": today, "attempts": 0, "per_model": {}}
     if USAGE_PATH.exists():
         loaded = json.loads(USAGE_PATH.read_text())
         if loaded.get("date") == today:
-            usage = loaded
+            usage.update(loaded)
+            usage.setdefault("per_model", {})
     if usage["attempts"] >= MAX_DAILY_CALL_ATTEMPTS:
         return False
     usage["attempts"] += 1
+    usage["per_model"][model] = usage["per_model"].get(model, 0) + 1
     USAGE_PATH.parent.mkdir(parents=True, exist_ok=True)
     USAGE_PATH.write_text(json.dumps(usage, indent=2))
     return True
 
 
+def _over_time_budget() -> bool:
+    return time.monotonic() - _run_started_at > RUN_TIME_BUDGET_SECONDS
+
+
 def run_task(agent: Agent, task: Task, label: str, symbol: str):
     """
-    Run one single-task Crew with pacing and rate-limit retries.
-    Returns the task's pydantic output, or None if rate limits
-    persisted through all retries (caller must treat None as
-    "no opinion -> no trade").
+    Run one single-task Crew with pacing and model fallback.
+    Returns the task's pydantic output, or None (caller must treat None
+    as "no opinion -> no trade").
 
-    Daily-quota 429s are handled differently from per-minute ones:
-    a per-minute limit passes with a pause; a per-day limit means
-    every further call today is a guaranteed failure. Retrying those
-    would turn an already-dead run into an hour of sleeps, so the
-    first daily-quota error latches _daily_quota_exhausted and every
-    subsequent call fast-fails to None.
+    On a busy/rate-limit error the next model in GEMINI_MODELS is tried
+    after a ~2s pause. A per-day 429 marks that model exhausted for the
+    rest of the run. If every model fails, one <=10s backoff and one
+    more pass; then None. Non-retryable errors raise immediately.
+    Candidates are processed in the caller's order, so the time-budget
+    guard only ever drops the lowest-ranked ones.
     """
     global _daily_quota_exhausted
     if _daily_quota_exhausted:
@@ -121,46 +158,61 @@ def run_task(agent: Agent, task: Task, label: str, symbol: str):
               file=sys.stderr)
         return None
 
-    crew = Crew(agents=[agent], tasks=[task], verbose=True)
-
-    for attempt in range(RATE_LIMIT_RETRIES):
-        if not _reserve_daily_call():
-            print(f"[{label}] {symbol}: skipped - internal daily Gemini "
-                  f"safety ceiling ({MAX_DAILY_CALL_ATTEMPTS}) reached",
+    for pass_no in range(ALL_MODELS_PASSES):
+        if pass_no:
+            print(f"[{label}] {symbol}: all models busy, backing off "
+                  f"{ALL_MODELS_BACKOFF_SECONDS}s then one more pass",
                   file=sys.stderr)
-            _daily_quota_exhausted = True
-            return None
-        _throttle()
-        try:
-            result = crew.kickoff()
-            output = result.tasks_output[0].pydantic
-            # Trust nothing that crosses a process boundary: the LLM
-            # fills the symbol field itself, so pin it to the stock we
-            # actually asked about.
-            if getattr(output, "symbol", symbol) != symbol:
-                output.symbol = symbol
-            return output
-        except Exception as exc:
-            # APIConnectionError ("Server disconnected") observed in
-            # live pre-market runs: a transient network drop, not a
-            # bug - retry it like a 503 rather than crashing the run.
-            retryable = ("RateLimitError", "ServiceUnavailable",
-                         "APIConnectionError")
-            marker = type(exc).__name__ + str(exc)
-            if "PerDay" in marker or "per day" in marker:
-                print(f"[{label}] {symbol}: DAILY quota exhausted - "
-                      f"skipping all remaining LLM calls this run",
+            time.sleep(ALL_MODELS_BACKOFF_SECONDS)
+        tried_any = False
+        for model in GEMINI_MODELS:
+            if model in _exhausted_models:
+                continue
+            if _over_time_budget():
+                print(f"[{label}] {symbol}: skipped - run time budget "
+                      f"({RUN_TIME_BUDGET_SECONDS // 60} min) used up; "
+                      f"no more LLM calls this run", file=sys.stderr)
+                return None
+            if not _reserve_daily_call(model):
+                print(f"[{label}] {symbol}: skipped - internal daily Gemini "
+                      f"safety ceiling ({MAX_DAILY_CALL_ATTEMPTS}) reached",
                       file=sys.stderr)
                 _daily_quota_exhausted = True
                 return None
-            if not any(m in marker for m in (*retryable, "429", "503")):
-                raise
-            print(f"[{label}] {symbol}: rate-limited, waiting "
-                  f"{RATE_LIMIT_BACKOFF_SECONDS}s "
-                  f"(attempt {attempt + 1}/{RATE_LIMIT_RETRIES})",
-                  file=sys.stderr)
-            time.sleep(RATE_LIMIT_BACKOFF_SECONDS)
+            if tried_any:
+                time.sleep(MODEL_SWITCH_PAUSE_SECONDS)
+            tried_any = True
+            _throttle()
+            agent.llm = gemini_llm(model)
+            crew = Crew(agents=[agent], tasks=[task], verbose=True)
+            try:
+                result = crew.kickoff()
+                output = result.tasks_output[0].pydantic
+                # Trust nothing that crosses a process boundary: the LLM
+                # fills the symbol field itself, so pin it to the stock we
+                # actually asked about.
+                if getattr(output, "symbol", symbol) != symbol:
+                    output.symbol = symbol
+                return output
+            except Exception as exc:
+                marker = type(exc).__name__ + str(exc)
+                if "PerDay" in marker or "per day" in marker:
+                    print(f"[{label}] {symbol}: {model} DAILY quota exhausted "
+                          f"- skipping it for the rest of this run",
+                          file=sys.stderr)
+                    _exhausted_models.add(model)
+                    continue
+                if not any(m in marker for m in _RETRYABLE_MARKERS):
+                    raise
+                print(f"[{label}] {symbol}: {model} busy/rate-limited "
+                      f"({type(exc).__name__}) - trying next model",
+                      file=sys.stderr)
+        if not tried_any:
+            print(f"[{label}] {symbol}: skipped - every Gemini model's daily "
+                  f"quota exhausted", file=sys.stderr)
+            _daily_quota_exhausted = True
+            return None
 
-    print(f"[{label}] {symbol}: skipped - rate limit persisted",
+    print(f"[{label}] {symbol}: skipped - all models failed twice",
           file=sys.stderr)
     return None
