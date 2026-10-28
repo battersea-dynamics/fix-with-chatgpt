@@ -28,7 +28,7 @@ class LLMConfigurationTests(unittest.TestCase):
         )
 
         llm = gemini_llm()
-        self.assertEqual(GEMINI_MODEL, "gemini/gemini-3.1-flash-lite")
+        self.assertEqual(GEMINI_MODEL, "gemini/gemini-3.5-flash-lite")
         self.assertEqual(CALL_SPACING_SECONDS, 8)
         self.assertEqual(MAX_DAILY_CALL_ATTEMPTS, 450)
         self.assertEqual(llm.provider, "gemini")

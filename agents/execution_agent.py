@@ -73,6 +73,7 @@ MIN_POSITION_BUDGET = 200.0
 MAX_TAKE_PROFIT_PCT = 12.0
 MAX_STOP_LOSS_PCT = 5.0
 MAX_DOWNWARD_PRICE_DEVIATION_PCT = 2.0
+MAX_SPREAD_PCT = 1.0  # skip quotes wider than this (percent of midpoint)
 MIN_SECONDS_TO_CLOSE = 120
 ET = ZoneInfo("America/New_York")
 
@@ -153,6 +154,27 @@ def execute_signals(
         ask = quote["ask"]
         if not ask or ask <= 0:
             entry["reason"] = f"no usable ask price (got {ask!r})"
+            continue
+
+        # Alpaca checks bracket legs against its own current price, not our
+        # ask. A stale or wide ask can put the stop ABOVE that price and the
+        # order is rejected. Use the bid/ask midpoint as the price the stop
+        # and target are checked against, and skip wide/one-sided quotes.
+        bid = quote.get("bid")
+        if not bid or bid <= 0:
+            entry["reason"] = f"no usable bid price (got {bid!r})"
+            continue
+        if bid > ask:
+            entry["reason"] = f"crossed quote: bid ${bid:.2f} > ask ${ask:.2f}"
+            continue
+        market_ref = (bid + ask) / 2
+        spread_pct = (ask - bid) / market_ref * 100
+        if spread_pct > MAX_SPREAD_PCT:
+            entry["reason"] = (
+                f"bid/ask spread too wide: {spread_pct:.2f}% "
+                f"(bid ${bid:.2f}, ask ${ask:.2f}); "
+                f"{MAX_SPREAD_PCT:.0f}% max"
+            )
             continue
 
         # The delayed scan defines an absolute upside thesis. A lower live
@@ -245,7 +267,15 @@ def execute_signals(
             )
             continue
 
-        stop_loss = ask * (1 - decision.stop_loss_pct / 100)
+        stop_loss = round(market_ref * (1 - decision.stop_loss_pct / 100), 2)
+        take_profit = round(take_profit, 2)
+        if (stop_loss > round(market_ref - 0.01, 2)
+                or take_profit < round(market_ref + 0.01, 2)):
+            entry["reason"] = (
+                f"bracket legs invalid vs price ${market_ref:.2f}: "
+                f"stop ${stop_loss:.2f}, take-profit ${take_profit:.2f}"
+            )
+            continue
         available_cash -= qty * ask
 
         order = {
@@ -271,10 +301,19 @@ def execute_signals(
             )
 
         if submit:
-            result = place_bracket_order(
-                decision.symbol, qty, take_profit, stop_loss,
-                client_order_id=order["client_order_id"],
-            )
+            try:
+                result = place_bracket_order(
+                    decision.symbol, qty, take_profit, stop_loss,
+                    client_order_id=order["client_order_id"],
+                )
+            except Exception as exc:  # incl. Alpaca APIError: one order only
+                available_cash += qty * ask
+                entry.update(
+                    action="rejected", order=order,
+                    reason=f"broker rejected order: "
+                           f"{type(exc).__name__}: {exc}",
+                )
+                continue
             entry.update(action="submitted", order=order, broker=result)
             ordered_symbols.add(decision.symbol)
         else:

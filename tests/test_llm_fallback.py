@@ -52,6 +52,13 @@ class GeminiFallbackTests(unittest.TestCase):
     def assert_no_long_sleeps(self):
         self.assertTrue(all(s <= 10 for s in self.sleeps), self.sleeps)
 
+    def test_model_order(self):
+        self.assertEqual(self.r.GEMINI_MODELS, [
+            "gemini/gemini-3.5-flash-lite",
+            "gemini/gemini-3.1-flash-lite",
+            "gemini/gemini-3.6-flash",
+        ])
+
     def test_falls_back_to_second_model_on_503(self):
         out = SimpleNamespace(symbol="AAPL")
         self.outcomes = [Exception("503 UNAVAILABLE high demand"), out]

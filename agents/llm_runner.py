@@ -74,9 +74,11 @@ ET = ZoneInfo("America/New_York")
 # Per-model free RPM/RPD are NOT published in the docs any more (only
 # in AI Studio), so lite models come first (historically the highest
 # free quotas) and the full Flash model is last resort.
+# 3.5-flash-lite is first: on 2026-10-28 3.1-flash-lite was overloaded
+# on every call while 3.5-flash-lite answered every one.
 GEMINI_MODELS = [
-    "gemini/gemini-3.1-flash-lite",
     "gemini/gemini-3.5-flash-lite",
+    "gemini/gemini-3.1-flash-lite",
     "gemini/gemini-3.6-flash",
 ]
 GEMINI_MODEL = GEMINI_MODELS[0]
