@@ -2,7 +2,7 @@
 
 A multi-agent intraday trading system built from the ground up as a learning project — each piece is added and understood individually rather than pulled in as a black box. Runs against Alpaca's **paper trading** account only; nothing here places live trades.
 
-**Stack:** Python, [alpaca-py](https://github.com/alpacahq/alpaca-py) (paper only), [CrewAI](https://github.com/crewAIInc/crewAI) for agent orchestration, Google Gemini as the LLM (pinned to `gemini-3.1-flash-lite` through CrewAI's native Gemini provider — a rolling alias once silently moved us onto a model with a 20-requests/day quota, so the model is pinned on purpose), Finnhub for earnings/news.
+**Stack:** Python, [alpaca-py](https://github.com/alpacahq/alpaca-py) (paper only), [CrewAI](https://github.com/crewAIInc/crewAI) for agent orchestration, Google Gemini free tier as the LLM through CrewAI's native Gemini provider (models are pinned by name, never a rolling alias — one once silently moved us onto a model with a 20-requests/day quota. An ordered list is tried in turn: `gemini-3.5-flash-lite`, then `gemini-3.1-flash-lite`, then `gemini-3.6-flash`; see `GEMINI_MODELS` in `agents/llm_runner.py`), Finnhub for earnings/news.
 
 ## Branches
 
@@ -28,7 +28,7 @@ every 30min  repeat the complete cycle; final start at close-15min
 
 ```
 market_calendar    gate: is there a session today? (every component checks)
-premarket_scanner  whole dynamic universe (~2,300 stocks) -> pre-market
+premarket_scanner  whole dynamic universe (a couple of thousand stocks) -> pre-market
                    rel volume + gap vs a PRE-MARKET baseline -> top 12
                    -> data/premarket_scan.json
 premarket_news     Finnhub headlines for the shortlist
@@ -56,7 +56,9 @@ stage 0: portfolio state     (start of every check run)
 stage 1: daily_scan          python pipeline.py scan
   held-symbol filter - shortlist slots never wasted on stocks already owned
   universe_builder   - all tradable US equities: price >= $3, avg volume
-                       >= 500k, real stocks only (no ETPs/OTC/preferred)
+                       >= 500k, real stocks only (no ETPs/preferred). Every exchange
+                       Alpaca lists is scanned (including TXSE) except OTC and
+                       crypto (`EXCLUDED_EXCHANGES` in tools/universe_builder.py)
   catalysts prescan  - one bulk Finnhub call: earnings in the next 1-3 days?
   scanner            - rel volume + % change + MA distance, z-scored, plus
                        an absolute-volume kicker and a catalyst boost
@@ -96,9 +98,12 @@ one-cancels-other) — nothing watches positions after entry; the broker does.
 | Cash-based position cap | execution agent (shared by both pipelines) | max 20% of currently available cash per position, with a $200 minimum budget that can never exceed the cash left (`$10,000 -> $2,000`, `$500 -> $200`, `$200 -> $200`, `$50 -> $50`); whole shares only and no margin buying power |
 | Exit ceilings (asymmetric) | execution agent (shared by both pipelines) | take-profit above 12% is clamped down and proceeds (capping upside is safe); stop-loss above 5% skips the trade entirely — a wide stop is the bear's honest volatility read, and tightening it would convert noise into stop-outs |
 | Dead-quote guard | execution agent | market buys are never sized off a 0/absent ask (closed market, thin tape) |
+| Quote-spread and bracket-leg guard | execution agent | a missing bid, a crossed quote, or a bid/ask gap above 1% skips the stock. The stop-loss and take-profit are computed from the bid/ask midpoint and must sit at least one cent below/above it, because Alpaca checks bracket legs against its own price and rejects a stop that lands above it (seen 28 Oct 2026). Skips are logged as `bracket legs invalid vs price …` |
+| Per-order rejection isolation | execution agent | if Alpaca refuses one order, it is recorded as `rejected` with the reason, the reserved cash is restored, and the remaining decisions still execute |
 | Delayed-price exit guard | regular execution | a live ask more than 2% below the analysed price invalidates the thesis; an ask above it keeps the original absolute take-profit target, so already-realised movement reduces the remaining upside and reaching the target skips the trade |
 | Closing-time guard | regular execution | immediately before submission Alpaca must report the market open with at least two minutes remaining |
-| Gemini daily-call ceiling | LLM runner | stops at 450 logical attempts, preserving headroom below the broker-agent project's 500-request daily limit |
+| Gemini daily-call ceiling | LLM runner | stops at 450 call attempts per day (counted across all models together), preserving headroom below the 500-request free-tier daily limit |
+| Gemini model fallback | LLM runner | when a model is busy (503/high demand) or rate-limited (429), the same call moves to the next model in `GEMINI_MODELS` after a 2 s pause instead of a long wait; a model that hits its daily limit is skipped for the rest of the run. If every model fails, one 10 s backoff and a second pass, then no opinion (= no trade) for that stock. A 35-minute run budget stops a debate from overrunning the half-hour cycle |
 | Delayed-price exit guard | premarket execution | uses the same policy as regular execution: downside beyond 2% skips; a lower accepted entry shifts the target down by the same percentage, while a higher entry leaves the original target fixed |
 | Stale-decisions guard | premarket execution | yesterday's gap thesis can never execute today |
 | GTC bracket orders | broker | exit legs never expire at the close, leaving an unprotected overnight position (Alpaca caps GTC at 90 days) |
@@ -156,6 +161,7 @@ must not double-order.
 
 - **Dry-run by default, everywhere.** Scheduled runs submit orders only if the repo *variable* `TRADING_SUBMIT` is exactly `true`; manual runs only if the `submit` checkbox is ticked. Neither exists by accident. (Everything is a paper account — the flag/variable are named `submit`, not `live`, so nothing ever reads as "real money".)
 - **Manual testing:** Actions → trading → "Run workflow" — pick a stage (`tick`, `premarket`, `daily_scan`, ...) and run it immediately.
+- **Failed stages show red.** The orchestrator still saves its state first, then exits non-zero if any stage failed during that tick, so the GitHub run is red rather than a misleading green. The end-of-day commit step runs even on a red run (it only commits once the day is marked complete).
 - **Daily report:** tick mode appends every stage outcome, order, guard trigger, and error to `data/reports/daily_report_<date>.json` (deterministic, no LLM); the workflow commits each day's full record (report + lists) once at end of day, so the audit trail is readable on GitHub without opening Action logs.
 
 ### Scheduler reliability and Cloudflare operation (July 2026)
