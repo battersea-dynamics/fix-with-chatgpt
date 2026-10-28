@@ -39,8 +39,6 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 from alpaca.trading.client import TradingClient
-from alpaca.trading.enums import AssetClass, AssetStatus
-from alpaca.trading.requests import GetAssetsRequest
 
 from tools.market_data import sip_safe_end
 
@@ -48,7 +46,9 @@ load_dotenv()
 
 MIN_PRICE = 3.0
 MIN_AVG_VOLUME = 500_000
-ALLOWED_EXCHANGES = {"NASDAQ", "NYSE", "AMEX"}
+# TXSE (Texas Stock Exchange) is newer than alpaca-py's AssetExchange enum,
+# so assets are fetched as raw dicts and exchange is compared as a string.
+ALLOWED_EXCHANGES = {"NASDAQ", "NYSE", "AMEX", "TXSE"}
 
 # ETPs listed on NASDAQ/NYSE slip past the exchange filter (AAPD is a
 # NASDAQ-listed 1x-inverse-AAPL fund). They're poison for a scanner
@@ -81,16 +81,25 @@ def _chunked(items: list, size: int):
 
 def list_candidate_symbols() -> list[str]:
     """Stage 1: metadata filter. One API call, no market data needed."""
-    assets = _trading_client.get_all_assets(
-        GetAssetsRequest(status=AssetStatus.ACTIVE, asset_class=AssetClass.US_EQUITY)
-    )
-    return sorted(
-        a.symbol for a in assets
-        if a.tradable
-        and a.exchange.value in ALLOWED_EXCHANGES
-        and a.symbol.isalpha()
-        and not FUND_NAME_PATTERN.search(a.name or "")
-    )
+    # Raw REST call, not get_all_assets(): alpaca-py validates each asset
+    # into a pydantic model whose exchange enum lacks newer venues (TXSE),
+    # so one unknown exchange crashed the whole listing.
+    assets = _trading_client.get(
+        "/assets", {"status": "active", "asset_class": "us_equity"}
+    ) or []
+    symbols = []
+    for a in assets:
+        if not isinstance(a, dict):
+            continue
+        symbol = str(a.get("symbol") or "")
+        if (
+            a.get("tradable") is True
+            and str(a.get("exchange") or "").upper() in ALLOWED_EXCHANGES
+            and symbol.isalpha()
+            and not FUND_NAME_PATTERN.search(a.get("name") or "")
+        ):
+            symbols.append(symbol)
+    return sorted(symbols)
 
 
 def filter_by_liquidity(symbols: list[str]) -> list[dict]:
