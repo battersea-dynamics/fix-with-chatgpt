@@ -10,9 +10,9 @@ illiquid junk the static list existed to avoid.
 
 Two-stage filter, cheapest first:
 
-  1. Metadata (free, one API call): active + tradable, listed on
-     NASDAQ/NYSE/AMEX (ARCA and BATS listings are overwhelmingly ETFs,
-     OTC is untouchable), and a plain alphabetic symbol — dots mark
+  1. Metadata (free, one API call): active + tradable, on any
+     exchange except OTC/CRYPTO (ETFs on ARCA/BATS etc. are caught by
+     the fund-name filter instead), and a plain alphabetic symbol — dots mark
      preferred shares, units, and warrants (MS.PRO, AAC.U), which
      aren't day-tradable equities in any useful sense.
   2. Price/volume (costs batched bar requests): last close >= $3
@@ -46,9 +46,11 @@ load_dotenv()
 
 MIN_PRICE = 3.0
 MIN_AVG_VOLUME = 500_000
-# TXSE (Texas Stock Exchange) is newer than alpaca-py's AssetExchange enum,
-# so assets are fetched as raw dicts and exchange is compared as a string.
-ALLOWED_EXCHANGES = {"NASDAQ", "NYSE", "AMEX", "TXSE"}
+# Exclusion list rather than an allow-list, so new venues (e.g. TXSE, which
+# alpaca-py's AssetExchange enum doesn't know) are scanned automatically.
+# OTC is untradeable for us; CRYPTO isn't a US equity. Fund-ish names on
+# ARCA/BATS are still removed by FUND_NAME_PATTERN below.
+EXCLUDED_EXCHANGES = {"OTC", "CRYPTO"}
 
 # ETPs listed on NASDAQ/NYSE slip past the exchange filter (AAPD is a
 # NASDAQ-listed 1x-inverse-AAPL fund). They're poison for a scanner
@@ -92,9 +94,11 @@ def list_candidate_symbols() -> list[str]:
         if not isinstance(a, dict):
             continue
         symbol = str(a.get("symbol") or "")
+        exchange = str(a.get("exchange") or "").strip().upper()
         if (
             a.get("tradable") is True
-            and str(a.get("exchange") or "").upper() in ALLOWED_EXCHANGES
+            and exchange
+            and exchange not in EXCLUDED_EXCHANGES
             and symbol.isalpha()
             and not FUND_NAME_PATTERN.search(a.get("name") or "")
         ):
@@ -150,7 +154,7 @@ def build_universe(cache_path: Path = CACHE_PATH) -> list[str]:
         "criteria": {
             "min_price": MIN_PRICE,
             "min_avg_volume": MIN_AVG_VOLUME,
-            "exchanges": sorted(ALLOWED_EXCHANGES),
+            "excluded_exchanges": sorted(EXCLUDED_EXCHANGES),
         },
         "candidates_screened": len(candidates),
         "symbols": symbols,

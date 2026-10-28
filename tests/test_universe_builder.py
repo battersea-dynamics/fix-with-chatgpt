@@ -12,6 +12,9 @@ FAKE_ASSETS = [
     {"symbol": "AAPL", "name": "Apple Inc.", "exchange": "NASDAQ", "tradable": True},
     {"symbol": "TXCO", "name": "Texas Co", "exchange": "TXSE", "tradable": True},
     {"symbol": "FUTR", "name": "Future Co", "exchange": "ZZZZ", "tradable": True},
+    {"symbol": "ARCS", "name": "Arca Stock Inc", "exchange": "ARCA", "tradable": True},
+    {"symbol": "OTCX", "name": "Pink Co", "exchange": "otc", "tradable": True},
+    {"symbol": "NOEX", "name": "No Exchange Co", "exchange": "", "tradable": True},
     {"symbol": "DEAD", "name": "Dead Co", "exchange": "NYSE", "tradable": False},
     {"symbol": "MS.PRO", "name": "Pref", "exchange": "NYSE", "tradable": True},
     {"symbol": "SPYX", "name": "Some ETF", "exchange": "NYSE", "tradable": True},
@@ -19,11 +22,11 @@ FAKE_ASSETS = [
 
 
 class ListCandidateSymbolsTest(unittest.TestCase):
-    def test_unknown_exchanges_do_not_crash_and_txse_kept(self):
+    def test_only_otc_crypto_and_missing_exchanges_excluded(self):
         with mock.patch.object(universe_builder, "_trading_client") as client:
             client.get.return_value = FAKE_ASSETS
             result = universe_builder.list_candidate_symbols()
-        self.assertEqual(result, ["AAPL", "TXCO"])
+        self.assertEqual(result, ["AAPL", "ARCS", "FUTR", "TXCO"])
         client.get.assert_called_once()
 
     def test_empty_response(self):
