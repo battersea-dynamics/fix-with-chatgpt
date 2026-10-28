@@ -114,7 +114,7 @@ jobs:
       # naturally idempotent). Commits the whole dated record: the
       # day's lists/cases/decisions and the daily report.
       - name: Commit daily records (end of day)
-        if: inputs.automated == true
+        if: always() && inputs.automated == true
         run: |
           if [ -f data/orchestrator_state.json ] && [ "$(jq -r '.day_complete' data/orchestrator_state.json)" = "true" ]; then
             git config user.name "github-actions[bot]"

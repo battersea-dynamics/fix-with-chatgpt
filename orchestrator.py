@@ -276,7 +276,15 @@ def run_tick(submit: bool = False):
         })
         state["session_recorded"] = True
 
+    failures = []
+
     def record(stage_name: str, fn) -> bool:
+        ok = _record(stage_name, fn)
+        if not ok:
+            failures.append(stage_name)
+        return ok
+
+    def _record(stage_name: str, fn) -> bool:
         try:
             result = fn()
             if (isinstance(result, dict)
@@ -358,6 +366,9 @@ def run_tick(submit: bool = False):
         _log("tick: trading day complete")
 
     _save_state(state)
+    if failures:
+        _log(f"tick: stage failures this run: {', '.join(failures)}")
+    return failures
 
 
 # ----- the scheduled day -----
@@ -417,7 +428,10 @@ if __name__ == "__main__":
              + (" | SUBMITTING paper orders" if args.submit else " | dry-run"))
         STAGES[args.force](args.submit)
     elif args.tick:
-        run_tick(submit=args.submit)
+        # State is already saved; a non-zero exit only makes the GitHub
+        # run show red so failed stages are not hidden behind a green tick.
+        if run_tick(submit=args.submit):
+            sys.exit(1)
     else:
         try:
             run_day(submit=args.submit)

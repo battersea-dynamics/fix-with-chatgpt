@@ -129,7 +129,7 @@ class DuplicateEntryGuardTests(unittest.TestCase):
                 self.execution, "get_open_buy_orders", return_value=[]
             ),
             patch.object(
-                self.execution, "get_quote", return_value={"ask": 100.0}
+                self.execution, "get_quote", return_value={"ask": 100.0, "bid": 100.0}
             ),
             patch.object(
                 self.execution, "get_market_clock", return_value=clock
@@ -169,7 +169,7 @@ class DuplicateEntryGuardTests(unittest.TestCase):
                     patch.object(
                         self.execution,
                         "get_quote",
-                        return_value={"ask": 10.0},
+                        return_value={"ask": 10.0, "bid": 10.0},
                     ),
                 ):
                     report = self.execution.execute_signals([buy_decision()])
@@ -186,7 +186,7 @@ class DuplicateEntryGuardTests(unittest.TestCase):
                 self.execution, "get_open_buy_orders", return_value=[]
             ),
             patch.object(
-                self.execution, "get_quote", return_value={"ask": ask}
+                self.execution, "get_quote", return_value={"ask": ask, "bid": ask}
             ),
         ):
             return self.execution.execute_signals(
@@ -236,7 +236,7 @@ class DuplicateEntryGuardTests(unittest.TestCase):
                 self.execution, "get_open_buy_orders", return_value=[]
             ),
             patch.object(
-                self.execution, "get_quote", return_value={"ask": 100.0}
+                self.execution, "get_quote", return_value={"ask": 100.0, "bid": 100.0}
             ),
         ):
             report = self.execution.execute_signals(
@@ -262,7 +262,7 @@ class DuplicateEntryGuardTests(unittest.TestCase):
                 self.execution, "get_open_buy_orders", return_value=[]
             ),
             patch.object(
-                self.execution, "get_quote", return_value={"ask": 100.0}
+                self.execution, "get_quote", return_value={"ask": 100.0, "bid": 100.0}
             ),
             patch.object(
                 self.execution, "get_market_clock", return_value=clock
