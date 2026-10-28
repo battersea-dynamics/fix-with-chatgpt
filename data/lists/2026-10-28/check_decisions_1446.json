@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-10-28T14:58:11-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "BCAX",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 5.75,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: BCAX is experiencing an extreme capitulation event down -44.82% on the session to $9.64, accompanied by massive volume confirmation at 13.55x normal levels. The catalyst report contains no earnings, dividends, or news headlines, meaning the move is entirely tape-driven. While the price has dropped 29.39% from its observed high of $13.66 across 9 consecutive observations, it maintains a top rank of 1 with positive price acceleration of 0.92 percentage points and improving relative volume rate change. This sets up a classic oversold mean-reversion trade for a violent intraday bounce off extreme liquidation. BEAR: Buying BCAX today involves stepping directly into a cascading liquidation event with zero fundamental news coverage to explain the velocity. The stock has crashed 44.82% on the session to $9.64, sitting 44.67% below its 20-day moving average while suffering a continuous 29.39% drawdown from its observed high of $13.66. Furthermore, with relative volume fading to a sluggish 0.59 rate per 30 minutes and only 2 out of 8 observed intervals showing positive returns over 269 minutes, participation is rapidly drying up. Attempting to catch this falling knife exposes a trader to severe continuation risk with no catalyst to anchor a floor.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BRAI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: BRAI presents an aggressive tactical bounce opportunity backed by a massive relative volume of 18.15x normal and a day change of +7.25% at $3.55. The catalyst report contains general premarket mover headlines from October 28, 2026, though none explicitly name the company. The technical tape shows 9 consecutive observations and 269 minutes of persistence since first seen, despite a severe 29.98% drawdown from its observed high of $5.07. Price acceleration of +1.8369 percentage points provides a short-term momentum spark for a mean-reversion scalp toward its 20-day moving average. BEAR: Buying BRAI today at $3.55 is a textbook example of chasing an aggressive intraday reversal after a massive distribution event. While same-session headlines on October 28, 2026, mention premarket and general technology movers, BRAI has suffered a brutal 29.98% drawdown from its observed high of $5.07 across 9 consecutive deteriorating observation intervals. Furthermore, volume participation has completely collapsed with a relative volume rate of only 0.1484 per 30 minutes, confirming that buyers have vanished while the stock sits 18.25% below its 20-day moving average despite a modest +7.25% day change. Entering this position means catching a falling knife where fading volume and severe intraday retracement point directly to exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AXGN",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Axogen, Inc. is surging by 32.54% on heavy volume following its October 28, 2026 earnings beat and strong revenue guidance release. The momentum is exceptionally well-supported by the tape, featuring 9 consecutive scanner observations over 269 minutes, an 8.32% gain since first seen, and a zero drawdown from its observed high of $49.65. With relative volume running at 4.69x normal alongside positive price acceleration, the fundamental catalyst and robust intraday persistence justify an immediate long entry. BEAR: AXGN is trading up 32.54% at $49.65 on 2026-10-28, sitting 34.57% above its 20-day moving average directly following same-session headlines regarding its Q3 earnings beat and 2026 revenue guidance. Buying here forces an entry at the absolute highs of the day with a drawdown of 0.0% from the observed high of $49.65, meaning all positive Q3 earnings and guidance catalysts are fully public and instantly priced into the stock. Furthermore, the relative volume rate per 30-minute interval has slowed to 0.3419, indicating that participation is fading rapidly even as the price holds its peak. Entering long at this extreme statistical extension without fresh buying volume leaves a buyer exposed to an immediate mean-reversion pullback.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EVMN",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: EVMN presents a high-volume momentum opportunity trading at $6.29 with an exceptional relative volume of 7.30x normal and a day change of +22.00%. The catalyst report confirms zero near-term earnings or news events, meaning this is a pure tape-driven move backed by strong participation rather than a headline reaction. However, the same-session history shows 5 consecutive observations with a drawdown of 7.83% from its observed high of $6.83 and negative interval returns, indicating fading momentum rather than persistent accumulation. Because the tape fails to confirm persistence and there is no supporting news catalyst, this is an unconfirmed move that limits confidence in immediate continuation. BEAR: Buying EVMN today at $6.29 represents clear chasing behavior into a dead-catalyst environment, as the catalyst report reveals zero news, earnings, or dividends to justify the +22.00% daily surge. Same-session momentum data confirms severe deterioration, showing a 7.83% drawdown from the observed high of $6.83 across 120 minutes with zero positive observed intervals and a negative return rate of -0.788% per period. Furthermore, volume participation is rapidly drying up with a meager rel_volume_rate_per_30m of 0.2015 and a falling rate change of -0.0576, meaning buyers are exhausting themselves while late entrants provide exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PRME",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: PRME is showing persistent intraday tape strength on 2.24x relative volume, gaining 20.11% on the session to trade at $5.22 and holding near its observed high of $5.23 with a negligible drawdown of just -0.0956%. The momentum is confirmed by 9 consecutive scan observations over 269 minutes, featuring 6 positive intervals and a rank improvement from 6 to 5. Note that the catalyst report contains no earnings, dividends, or news items to explain or drive this move, leaving it entirely as a technical momentum continuation. Supported by these exact tape metrics, the continuation setup provides a compelling short-term trade vehicle despite the absence of an external headline. BEAR: PRME is severely overextended, sitting 46.64% above its 20-day moving average on a 20.11% daily gain while the catalyst report is completely empty of news, earnings, or dividends to justify the advance. Participation is already cooling off with a negative relative volume rate change of -0.0035 and price acceleration turning negative at -0.4858 percentage points across its observed intervals. Buying here means chasing an unexplained liquidity spike near the day's high of $5.23 with fading momentum and no fundamental backing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FFIV",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: FFIV is experiencing extreme panic selling down -19.33% today following its Q4 revenue report and news headlines such as 'F5 Stock Is Having Its Worst Day in Over a Decade. Blame Its Costly AI Push' on 2026-10-28, creating an aggressive oversold bounce opportunity. The stock has printed 9 consecutive observations with a heavy relative volume of 4.59x normal, showing massive institutional turnover and liquidity to fuel a violent mean-reversion rally. Although the drawdown from the observed high of $383.915 sits at -3.476%, the latest interval posted a positive return of 0.1744% against its previous scan, indicating early stabilization. We can exploit this capitulation event for a swift technical recovery as the market digests its new cloud security AI tie-up initiatives announced on 2026-10-28. BEAR: FFIV is suffering its worst day in over a decade on 2026-10-28, plunging 19.33% due to a costly AI push and disappointing Q4 revenue and new guidance highlighted in headlines like 'F5 Stock Is Having Its Worst Day in Over a Decade. Blame Its Costly AI Push.' The same-session momentum confirms active deterioration with a drawdown of 3.476% from its observed high and negative price acceleration of -1.5344 percentage points across 9 consecutive scans. Buying this massive gap down into an unravelling fundamental narrative provides terrible risk-adjusted odds over a multi-day hold.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RAPP",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: Rapport Therapeutics priced separate offerings totaling ~$175M of stock at $21.00/share alongside warrants and convertible notes on 2026-10-28, driving a heavy-volume flush down to $22.75 that holds well above the $21 offering floor. The tape shows immense participation with relative volume at 4.53x normal and 9 consecutive observed intervals holding persistent interest despite the -17.39% daily drop. With a drawdown limited to just 1.98% from its observed high and positive score momentum (+0.1723), the stock is digesting the dilution news constructively. Buying near the offering support offers a high-beta bounce setup ahead of upcoming earnings on 2026-11-05. BEAR: Buying RAPP today involves stepping directly in front of heavy dilution, as the company announced separate offerings on 2026-10-28 of ~$175M of stock at $21.00/share, warrants to purchase up to ~$25M of stock, and $150M of convertible senior notes. This massive equity and convertible expansion explains the session's -17.39% plunge and leaves the stock trading at $22.75, uncomfortably close to the $21.00 offering price floor where institutional buyers acquired shares. Furthermore, with relative volume slowing to a rate of 0.1343 per 30 minutes and a drawdown sitting near its observed high, the heavy supply from these concurrent offerings will likely cap any short-term bounce over a multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ENPH",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Enphase Energy is heavily oversold after a steep 16.77 percent drop on October 28, 2026, accompanied by massive volume confirmation at 4.04x normal and 9 consecutive scanner observations. Although fresh analyst updates on October 28 include a price target cut to $26 from Susquehanna and a reiterated sell from GLJ Research, the extreme wash-out and heavy relative volume rate of 0.2445 per 30 minutes create a powerful mean-reversion setup. With a positive price acceleration of 1.8213 percentage points and a tight drawdown of only 2.0949 percent from the observed high of $25.30, intraday momentum shows clear signs of stabilization. This high-volume capitulation offers a compelling multi-day rebound opportunity as panic selling exhausts itself. BEAR: ENPH is suffering a severe selloff on 2026-10-28, down 16.77% and sitting 22.36% below its 20-day moving average amid fresh analyst pressure. Specifically, Susquehanna maintained a Neutral rating while lowering its price target to $26, and GLJ Research reiterated a Sell with a $21.49 target during the exact same trading session. Furthermore, the intraday momentum shows clear deterioration with the stock lingering at rank 8 and drawing down 2.09% from its observed high while relative volume rate slows to 0.2445 per 30 minutes. Buying this steep markdown risks catching a falling knife as negative analyst price target cuts weigh heavily on the stock.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WEN",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 2.67,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Wendy's is surging +14.98% to $7.06 on massive volume of 5.49x normal as Nelson Peltz's Trian Group submitted a non-binding proposal on October 28, 2026, offering a cash bid of $7.35 per share and reporting a 16.23% stake. The momentum is heavily confirmed by tape persistence, showing 9 consecutive scans over 269 minutes with a tight drawdown of only -0.28% from its observed high of $7.08. With the buyout offer sitting above the current price, there is immediate fundamental room to run toward the $7.35 cash bid target alongside powerful volume backing. BEAR: Buying WEN at $7.06 means chasing a stock that is already up 14.98% on the session and trading just 29 cents below Nelson Peltz's proposed $7.35 all-cash buyout bid announced on October 28, 2026. This leaves an extremely thin 4.1% spread to the hard acquisition ceiling while exposing the buyer to full downside if the non-binding deal encounters financing hiccups or resistance before the November 5 earnings release, 8 calendar days away. Furthermore, the tape shows clear same-session deceleration with a rel_volume_rate_per_30m of just 0.1953, negative price acceleration (-0.0005 percentage points), and a score change of -0.0795 after 269 minutes of observation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LPLA",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.15 = bull 0.55 - bear 0.70 (buy at >= +0.20). BULL: LPLA experienced a sharp same-session selloff of 13.40% on October 28, 2026, driven by Q3 earnings results and subsequent analyst target cuts from Wells Fargo to $350 and Truist to $335, providing an oversold mean-reversion setup. Despite the heavy losses, the tape demonstrates notable intraday resilience with 8 consecutive scan observations, a 0.703% return since first seen, and a very strong relative volume of 5.07x normal. Furthermore, price action is holding near its session highs with a modest drawdown of only -0.6018% from the observed high of $276.685, supported by positive price acceleration of 0.4239 percentage points. This combination of extreme liquid participation and stabilization after an earnings-related flush creates a compelling tactical long opportunity for a bounce. BEAR: LPLA is suffering a severe single-session breakdown down 13.40% to $275.02 on heavy volume of 5.07x normal following its Q3 earnings release on 2026-10-28 and subsequent price target cuts from Wells Fargo (to $350) and Truist (to $335). While the stock has bounced slightly off its lows with a 0.70% return since first seen at 11:17 ET, the relative volume rate per 30 minutes has dropped to 0.3993 with a negative change of -0.0847, showing that participation is rapidly drying up after the initial plunge. Buying into this steep downward gap on fresh negative analyst revisions risks catching a falling knife where institutional distribution overwhelms any short-term mean-reversion attempt.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "REPL",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: Replimune Group is seeing powerful same-session momentum on October 28, 2026, driven by a well-received Q2 2027 earnings beat where EPS of $(0.54) outperformed the $(0.77) estimate. The stock has surged 23.22% on heavy participation, showing a relative volume of 2.26x normal and trading at $16.08, which is 29.59% above its 20-day moving average. With zero drawdown from its observed high of $16.08 and fresh same-day fundamental validation from its earnings call transcript, buyers have strong near-term catalysts to push the momentum further. BEAR: Buying REPL right now means chasing a stock that is already up 23.22% on the session and trading 29.59% above its 20-day moving average. The sole catalyst driving this extension is the Q2 2027 earnings beat released on 2026-10-28, meaning the positive news is completely public and likely already fully priced in by the time of the 14:47 first scan. While the volume is elevated at 2.26x normal, entering at $16.08 leaves no room for error after a vertical move with zero confirmed positive sub-intervals of history yet established. Consequently, buying at this extreme extension carries high vulnerability to an immediate mean-reversion pullback.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LCII",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 1.87,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: LCII is surging on heavy volume today, up 9.27% to $98.17 with relative volume reaching 4.10x normal levels. The catalyst is explosive: on the same US trading-session date of 2026-10-28, LCI Industries confirmed receipt of an unsolicited, non-binding acquisition proposal from Monomoy Capital Partners for $101 per share in cash, providing an immediate fundamental anchor below that $101 target. Momentum is fully confirmed by the same-session history, showing 6 consecutive positive scans over 150 minutes, an observed high of $98.17 with 0.0% drawdown from that high, and accelerating price development. BEAR: Buying LCII at $98.17 today exposes the trader to extreme headline-driven risk following the same-session Fintel and Benzinga reports that Monomoy Capital Partners has submitted an unsolicited, non-binding proposal to acquire LCI for $101 per share in cash, alongside an existing merger agreement with Patrick that remains in place. With the stock surging +9.27% on 4.10x relative volume and sitting 18.76% above its 20-day moving average, a massive portion of the buyout premium is already priced in, leaving an unappealing risk-reward ratio of less than 3% upside to the $101 offer price versus severe downside if the deal falls through or gets tied up. Furthermore, upcoming earnings are scheduled for November 5, 2026, just 8 calendar days away, placing the company's fundamental report directly inside the multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SLS",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.1,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.10 = bull 0.70 - bear 0.80 (buy at >= +0.20). BULL: SLS presents a compelling dip-buying opportunity on October 28, 2026, following a steep 14.67% pullback to $10.38 alongside heavy volume running at 3.59x normal. Despite the negative day change, the tape shows remarkable persistence with 9 consecutive scan observations over 269 minutes, positive price development yielding a 2.16% return since the previous scan, and a minimal drawdown of only 0.67% from its observed high of $10.455. Furthermore, fundamental catalysts are actively driving high engagement today, highlighted by the same-session announcement that its pivotal Phase 3 study of Galinpepimut-S in acute myeloid leukemia surpassed its pre-specified 80th event. BEAR: SLS is experiencing a severe 14.67% drop on the session to $10.38 alongside negative same-session momentum, showing a drawdown of 0.67% from its observed high after 269 minutes of observation and a worsening rank from 11 to 13. Furthermore, fresh same-session headlines on 2026-10-28 including Benzinga's 'SELLAS Life Sciences Stock Stumbles: What's Going On?' and SeekingAlpha's 'Sellas Life Sciences: The Longer The Wait, The More Likely A REGAL Failure' highlight deep underlying doubts regarding its pivotal Phase 3 study. Buying into this falling knife ahead of upcoming earnings on 2026-11-10 exposes the position to acute downside volatility and active negative momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OSS",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.05 = bull 0.75 - bear 0.70 (buy at >= +0.20). BULL: One Stop Systems presents a compelling fundamental bull case today on October 28, 2026, driven by a major Q3 earnings beat where sales reached $12.584M against a $10.939M estimate alongside an aggressively raised FY2026 sales guidance to $45.102M. This fundamental strength is complemented by heavy heavy market participation with relative volume running at 3.53x normal despite a session pullback of -6.36% to $6.33. Furthermore, the stock shows robust tape persistence with 7 consecutive scan observations over 180 minutes, 3 positive observed intervals, and a tightly contained drawdown of only -1.40% from its observed high of $6.42. BEAR: Buying OSS today faces significant downside risk despite the fresh Q3 revenue beat and raised 2026 guidance announced on 2026-10-28. The stock is reacting negatively with a 6.36% drop and sits 11.19% below its 20-day moving average, showing that the market is actively selling into the news. Furthermore, the simultaneous announcement of an ATM equity offering worth up to $50M with Piper Sandler introduces heavy dilution fears that threaten to cap any short-term upside. With relative volume dropping to a rate of 0.1286 per 30 minutes and the rank worsening to 14, the tape demonstrates clear deterioration and lack of buying absorption.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EDU",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.75,
+      "stop_loss_pct": 3.0,
+      "reasoning": "net +0.00 = bull 0.50 - bear 0.50 (buy at >= +0.20). BULL: EDU presents a high-volume capitulation setup on October 28, 2026, dropping -12.59% to $50.69 alongside heavy relative volume of 3.45x normal. Fresh same-session news includes the release of Q1 Fiscal 2027 results and an affirmation of FY2027 sales guidance of $6.454B-$6.680B, giving bargain hunters concrete fundamental backing to absorb the flush. The tape shows initial stabilization with two consecutive scan observations, zero drawdown from the current observed high of $50.69, and a positive return of 0.267% since the previous scan. With heavy liquidation potentially exhausting sellers, this steep selloff offers a high-beta bounce opportunity. BEAR: EDU is down 12.59% on the session and trading at $50.69 following fresh same-session earnings headlines released on 2026-10-28, including results and a reaffirmed sales guidance of $6.454B-$6.680B that brackets against estimates. While volume is elevated at 3.45x normal, the 30-minute interval observations show weak continuation momentum with a rel volume rate of only 0.1968 per 30m and a minuscule return of 0.0099% since first seen 150 minutes ago. Buying this falling knife setup risks catching a continuing downward repricing as the market digests the Q1 results and guidance figures.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "BCAX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BRAI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AXGN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EVMN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PRME",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FFIV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RAPP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ENPH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WEN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LPLA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "REPL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LCII",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SLS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OSS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EDU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

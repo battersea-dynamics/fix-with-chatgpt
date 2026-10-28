@@ -1,0 +1,1005 @@
+{
+  "date": "2026-10-28",
+  "events": [
+    {
+      "at_et": "2026-10-28T08:46:15-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-28T08:46:18-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": false,
+        "error": "ValidationError: 17 validation errors for list[Asset]\n2746.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n3220.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n5138.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n5474.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n6304.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n6410.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n6515.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n8655.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n10269.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n11949.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n12366.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n12835.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n13112.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n13266.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n13863.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n13948.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum\n14165.exchange\n  Input should be 'AMEX', 'ARCA', 'ASCX', 'BATS', 'NYSE', 'NASDAQ', 'NYSEARCA', 'FTXU', 'CBSE', 'GNSS', 'ERSX', 'OTC', 'CRYPTO' or '' [type=enum, input_value='TXSE', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/enum"
+      }
+    },
+    {
+      "at_et": "2026-10-28T09:31:33-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": false,
+        "error": "SystemExit: data/lists/2026-10-28/premarket_decisions.json not found - run the premarket trader first"
+      }
+    },
+    {
+      "at_et": "2026-10-28T11:35:23-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "APIError: {\"base_price\":\"142.77\",\"code\":42210000,\"message\":\"stop_loss.stop_price must be \\u003c= base_price - 0.01\"}"
+      }
+    },
+    {
+      "at_et": "2026-10-28T12:05:52-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1146.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "GMAB",
+          "WEN",
+          "RAPP",
+          "PRME",
+          "ENPH",
+          "FFIV",
+          "SLS",
+          "LPLA",
+          "SXTC",
+          "EAT",
+          "WING",
+          "OSS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GMAB",
+            "action": "submitted",
+            "order": {
+              "symbol": "GMAB",
+              "qty": 3,
+              "est_cost": 174.84,
+              "entry_ref": 58.28,
+              "take_profit": 60.6,
+              "remaining_take_profit_pct": 3.98,
+              "stop_loss": 56.31,
+              "confidence": 0.7,
+              "client_order_id": "ta-20261028-120552-GMAB",
+              "analysis_price": 56.9641,
+              "live_price_change_pct": 2.31
+            },
+            "broker": {
+              "id": "92bfed19-e2ef-4efb-b1b8-b380afe83876",
+              "client_order_id": "ta-20261028-120552-GMAB",
+              "symbol": "GMAB",
+              "qty": "3",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 60.6,
+              "stop_loss": 56.31,
+              "legs": [
+                "b7311c26-93fe-4390-b7b8-fb0b1ddd24af",
+                "143bd5e6-cdd3-4998-8317-79e3e29e5523"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WING",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T12:26:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1216.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "RAPP",
+          "WEN",
+          "FFIV",
+          "PRME",
+          "ENPH",
+          "SLS",
+          "LPLA",
+          "SXTC",
+          "OSS",
+          "LCII",
+          "EAT",
+          "EDU"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T12:57:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1246.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "EVMN",
+          "RAPP",
+          "PRME",
+          "WEN",
+          "FFIV",
+          "ENPH",
+          "LPLA",
+          "SLS",
+          "SXTC",
+          "LCII",
+          "OSS",
+          "EAT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "bid/ask spread too wide: 27.81% (bid $41.46, ask $54.85); 1% max"
+          },
+          {
+            "symbol": "EVMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EAT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T13:24:53-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1316.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "EVMN",
+          "PRME",
+          "RAPP",
+          "FFIV",
+          "WEN",
+          "ENPH",
+          "LPLA",
+          "SLS",
+          "SXTC",
+          "OSS",
+          "LCII",
+          "STLA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "STLA",
+            "action": "submitted",
+            "order": {
+              "symbol": "STLA",
+              "qty": 41,
+              "est_cost": 197.21,
+              "entry_ref": 4.81,
+              "take_profit": 5.1,
+              "remaining_take_profit_pct": 6.03,
+              "stop_loss": 4.66,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261028-132453-STLA",
+              "analysis_price": 4.815,
+              "live_price_change_pct": -0.1
+            },
+            "broker": {
+              "id": "5d626cb3-5658-4bb0-93cf-7a62dd715c69",
+              "client_order_id": "ta-20261028-132453-STLA",
+              "symbol": "STLA",
+              "qty": "41",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.1,
+              "stop_loss": 4.66,
+              "legs": [
+                "f11ab152-d696-4d5c-a00a-85cf081e12aa",
+                "ee3840bc-8ae9-486e-b905-e74cbe4ecfb5"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T13:54:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1346.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "EVMN",
+          "FFIV",
+          "RAPP",
+          "PRME",
+          "ENPH",
+          "WEN",
+          "LPLA",
+          "SLS",
+          "SXTC",
+          "LCII",
+          "WING",
+          "OSS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WING",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T14:29:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1416.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "EVMN",
+          "FFIV",
+          "PRME",
+          "RAPP",
+          "ENPH",
+          "WEN",
+          "LPLA",
+          "SLS",
+          "OSS",
+          "LCII",
+          "SXTC",
+          "EDU"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "bid/ask spread too wide: 13.25% (bid $48.90, ask $55.84); 1% max"
+          },
+          {
+            "symbol": "EVMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T14:58:11-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1446.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "EVMN",
+          "PRME",
+          "FFIV",
+          "RAPP",
+          "ENPH",
+          "WEN",
+          "LPLA",
+          "REPL",
+          "LCII",
+          "SLS",
+          "OSS",
+          "EDU"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T15:22:32-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1516.json",
+        "shortlist": [
+          "BCAX",
+          "BRAI",
+          "AXGN",
+          "EVMN",
+          "FFIV",
+          "RAPP",
+          "PRME",
+          "ENPH",
+          "LPLA",
+          "WEN",
+          "REPL",
+          "OSS",
+          "LCII",
+          "SLS",
+          "LII"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REPL",
+            "reason": "bid/ask spread too wide: 1.06% (bid $15.99, ask $16.16); 1% max"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LII",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T15:52:19-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-28/shortlist_1546.json",
+        "shortlist": [
+          "BCAX",
+          "JDZG",
+          "BRAI",
+          "AXGN",
+          "PRME",
+          "EVMN",
+          "FFIV",
+          "RAPP",
+          "LPLA",
+          "ENPH",
+          "REPL",
+          "WEN",
+          "OSS",
+          "LCII",
+          "SLS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "REPL",
+            "action": "submitted",
+            "order": {
+              "symbol": "REPL",
+              "qty": 12,
+              "est_cost": 194.28,
+              "entry_ref": 16.19,
+              "take_profit": 17.71,
+              "remaining_take_profit_pct": 9.39,
+              "stop_loss": 15.57,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261028-155218-REPL",
+              "analysis_price": 16.29,
+              "live_price_change_pct": -0.61
+            },
+            "broker": {
+              "id": "e42325d7-cf58-4555-a65a-c9f78a06e87a",
+              "client_order_id": "ta-20261028-155218-REPL",
+              "symbol": "REPL",
+              "qty": "12",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 17.71,
+              "stop_loss": 15.57,
+              "legs": [
+                "3931b9d5-4d48-4041-9804-bfdb43d47c5c",
+                "15e6bf38-4d52-4488-8d72-dca7826891c2"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BCAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JDZG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXGN",
+            "reason": "bid/ask spread too wide: 14.19% (bid $42.57, ask $49.07); 1% max"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FFIV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RAPP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LPLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENPH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LCII",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-28T15:52:19-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": false,
+        "exec_done": true,
+        "daytime_cycles_attempted": 10,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
