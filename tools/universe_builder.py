@@ -10,9 +10,9 @@ illiquid junk the static list existed to avoid.
 
 Two-stage filter, cheapest first:
 
-  1. Metadata (free, one API call): active + tradable, listed on
-     NASDAQ/NYSE/AMEX (ARCA and BATS listings are overwhelmingly ETFs,
-     OTC is untouchable), and a plain alphabetic symbol — dots mark
+  1. Metadata (free, one API call): active + tradable, on any
+     exchange except OTC/CRYPTO (ETFs on ARCA/BATS etc. are caught by
+     the fund-name filter instead), and a plain alphabetic symbol — dots mark
      preferred shares, units, and warrants (MS.PRO, AAC.U), which
      aren't day-tradable equities in any useful sense.
   2. Price/volume (costs batched bar requests): last close >= $3
@@ -39,8 +39,6 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 from alpaca.trading.client import TradingClient
-from alpaca.trading.enums import AssetClass, AssetStatus
-from alpaca.trading.requests import GetAssetsRequest
 
 from tools.market_data import sip_safe_end
 
@@ -48,7 +46,11 @@ load_dotenv()
 
 MIN_PRICE = 3.0
 MIN_AVG_VOLUME = 500_000
-ALLOWED_EXCHANGES = {"NASDAQ", "NYSE", "AMEX"}
+# Exclusion list rather than an allow-list, so new venues (e.g. TXSE, which
+# alpaca-py's AssetExchange enum doesn't know) are scanned automatically.
+# OTC is untradeable for us; CRYPTO isn't a US equity. Fund-ish names on
+# ARCA/BATS are still removed by FUND_NAME_PATTERN below.
+EXCLUDED_EXCHANGES = {"OTC", "CRYPTO"}
 
 # ETPs listed on NASDAQ/NYSE slip past the exchange filter (AAPD is a
 # NASDAQ-listed 1x-inverse-AAPL fund). They're poison for a scanner
@@ -81,16 +83,27 @@ def _chunked(items: list, size: int):
 
 def list_candidate_symbols() -> list[str]:
     """Stage 1: metadata filter. One API call, no market data needed."""
-    assets = _trading_client.get_all_assets(
-        GetAssetsRequest(status=AssetStatus.ACTIVE, asset_class=AssetClass.US_EQUITY)
-    )
-    return sorted(
-        a.symbol for a in assets
-        if a.tradable
-        and a.exchange.value in ALLOWED_EXCHANGES
-        and a.symbol.isalpha()
-        and not FUND_NAME_PATTERN.search(a.name or "")
-    )
+    # Raw REST call, not get_all_assets(): alpaca-py validates each asset
+    # into a pydantic model whose exchange enum lacks newer venues (TXSE),
+    # so one unknown exchange crashed the whole listing.
+    assets = _trading_client.get(
+        "/assets", {"status": "active", "asset_class": "us_equity"}
+    ) or []
+    symbols = []
+    for a in assets:
+        if not isinstance(a, dict):
+            continue
+        symbol = str(a.get("symbol") or "")
+        exchange = str(a.get("exchange") or "").strip().upper()
+        if (
+            a.get("tradable") is True
+            and exchange
+            and exchange not in EXCLUDED_EXCHANGES
+            and symbol.isalpha()
+            and not FUND_NAME_PATTERN.search(a.get("name") or "")
+        ):
+            symbols.append(symbol)
+    return sorted(symbols)
 
 
 def filter_by_liquidity(symbols: list[str]) -> list[dict]:
@@ -141,7 +154,7 @@ def build_universe(cache_path: Path = CACHE_PATH) -> list[str]:
         "criteria": {
             "min_price": MIN_PRICE,
             "min_avg_volume": MIN_AVG_VOLUME,
-            "exchanges": sorted(ALLOWED_EXCHANGES),
+            "excluded_exchanges": sorted(EXCLUDED_EXCHANGES),
         },
         "candidates_screened": len(candidates),
         "symbols": symbols,
