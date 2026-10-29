@@ -1,0 +1,239 @@
+{
+  "generated_at": "2026-10-29T13:58:53-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ADT",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 0.5,
+      "stop_loss_pct": 0.86,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: ADT is surging +34.01% on massive volume of 13.95x normal, backed by a definitive same-session catalyst headline on 2026-10-29 that ADT is to be acquired by Thrive Holdings for $10.00 per share in cash. With the stock trading at $9.93 against a $10.00 cash acquisition offer, there is an immediate, highly defined spread to capture with low remaining downside volatility. Furthermore, the intraday tape confirms complete rank persistence, maintaining rank 1 across 8 consecutive observations with an extremely minor drawdown of just -0.05% from its observed high of $9.935. BEAR: Buying ADT at $9.93 offers virtually zero upside because the stock is trading essentially flat to the fresh same-session catalyst headline that 'ADT To Be Acquired By Thrive Holdings For $10.00/Share In Cash'. With the price sitting just 7 cents below the hard cash acquisition ceiling, the maximum remaining spread is a meager 0.7%, while downside risk spans the entire gap back to pre-deal levels if the transaction faces any regulatory or financing hurdles. Furthermore, volume participation is actively drying up as indicated by a rel_volume_rate_per_30m of just 0.2654 and a negative volume rate change of -0.2929, showing that chase momentum has stalled out.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GOOGM",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: GOOGM is experiencing an extreme downside wash-out session, down 9.29% to $42.38 on massive volume of 13.04x normal, creating an oversold bounce candidate for a short-term swing. The tape shows strong persistence with 8 consecutive scan observations spanning 210 minutes and a holding rank of 2, while the upcoming ex-dividend date on 2026-10-30 with a $0.78125 rate provides an immediate structural catalyst to attract income-seeking buyers. Furthermore, fresh same-session commentary like the 2026-10-29 SeekingAlpha headline 'Dear Market, You Got Alphabet Wrong' directly supports a narrative-driven reversal from these deeply discounted levels. BEAR: GOOGM is suffering a severe session selloff down -9.29% to $42.38, sitting 12.45% below its 20-day moving average alongside high relative volume of 13.04x normal. This sharp drop is compounded by an ex-dividend date on 2026-10-30, exactly 1 calendar day after the session, which introduces a mechanical price drop that can immediately trip a stop. Furthermore, the same-session momentum history shows measurable deterioration with only 3 positive observed intervals out of 7 and a persistent drawdown from the observed high, while fresh same-session headlines like Dear Market, You Got Alphabet Wrong offer conflicting sentiment without a stabilizing catalyst.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BHC",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: BHC is surging on powerful fundamental catalysts, having reported Q3 2026 earnings that surpassed estimates with $2.94 billion in consolidated revenues on October 29. The stock demonstrates extreme relative strength with a massive day change of +27.18%, an incredible relative volume of 6.66x normal, and sitting 42.31% above its 20-day moving average. This momentum is fully backed by intraday persistence, showing 8 consecutive observations across 210 minutes with 5 positive observed intervals and zero drawdown from its observed high of $8.8012. Furthermore, its rank improved from 4 to 3 with a score change of 0.5249, confirming that sustained buying pressure remains robust. BEAR: BHC is trading up 27.18% on the session at $8.80, sitting a massive 42.31% above its 20-day moving average following its Q3 2026 earnings release and conference call on October 29, 2026. While the earnings beat headlines are fresh today, the explosive gap leaves the stock exceptionally extended and vulnerable to immediate profit-taking as the public reaction fully prices in the $2.94 billion revenue report. Furthermore, the relative volume rate per 30 minutes has dropped to 0.3504 with a negative change of -0.0353, and price acceleration has deteriorated by -1.4557 percentage points, signaling that participation is waning precisely as the price tests its observed high of $8.8012.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.94e+09 - no matching value in source data",
+        "bear: cited 2.94e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "NUWE",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Nuwellis is trading with extraordinary momentum, backed by a massive relative volume of 10.37x normal and a day change of +12.99% as of October 29, 2026. Fundamental backing is provided by the October 27, 2026 headline regarding the acceptance of their multicenter pediatric Aquadex study in Pediatric Nephrology, adding clinical credibility to their ongoing strength. While the intraday session shows a pullback of -4.69% from its observed high of $6.71 across 8 consecutive observations over 210 minutes, the stock remains up +20.14% above its 20-day moving average. This combination of heavy volume participation, clinical catalyst news from two days prior, and persistent trading interest creates a viable short-term swing opportunity. BEAR: NUWE is currently exhibiting clear chasing behavior and intraday deterioration following its October 27 news of a multicenter pediatric Aquadex study acceptance. After reaching an observed high of $6.71, the stock has pulled back 4.69% to $6.39 while suffering a negative price acceleration of -1.27% points and a drop in rank from 3 to 4. With a relative volume rate per 30 minutes dropping to just 0.09x and participation fading after a 10.37x daily relative volume spike, buying now means entering into late-stage momentum that is actively reversing. Furthermore, upcoming earnings on November 10 (12 calendar days away) loom directly over any multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IOVA",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.75,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: IOVA presents an aggressive dip-buying opportunity after closing down 36.23% to $9.45 on heavy volume of 3.75x normal, supported by fresh catalysts including updated Phase 2 IOV-LUN-202 trial results and an after-hours surge reported on October 29, 2026. The tape shows 8 consecutive observations with positive momentum kicking in recently, evidenced by a 0.2654% return since the previous scan, positive price acceleration of 0.5829 percentage points, and positive interval developments despite the steep intraday decline. With an upcoming earnings report on November 5, 2026, and positive clinical data driving after-hours interest, the stock exhibits high volatility and strong potential for a sharp mean-reversion bounce over the next few sessions. BEAR: IOVA is suffering from severe intraday deterioration on 2026-10-29, showing a -36.23% day change and a -33.27% distance from its 20-day MA despite high volume of 3.75x normal. The same-session momentum history reveals a continuous drawdown of -8.18% from its observed high with declining relative volume rate (0.1184 per 30m), indicating that buying the current price of $9.45 represents chasing a plunging knife. Furthermore, upcoming earnings on 2026-11-05 sit squarely within the 7-day holding window, introducing binary event risk right as clinical trial data updates from Benzinga and Yahoo on the IOV-LUN-202 trial are already fully digested.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ALNY",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Alnylam Pharmaceuticals experienced a sharp sell-off of 25.23% on October 29, 2026, despite reporting Q3 earnings and revenues that topped estimates according to multiple same-session headlines. This steep drop offers a classic capitulation entry backed by extraordinary volume of 4.57x normal. The tape shows early stabilization with 7 consecutive observations and a slight rank improvement from 7 to 6, suggesting initial seller exhaustion following the knee-jerk reaction to earnings. With price sitting deeply oversold at -23.53% from its 20-day moving average, a mean-reversion bounce provides an attractive short-term trading window. BEAR: Buying ALNY today represents an active falling knife rather than a dip-buying opportunity, with the stock plunging 25.23% on heavy volume despite fresh Q3 earnings headlines on 2026-10-29 beating estimates. The same-session momentum history demonstrates relentless deterioration, showing a 10.11% drawdown from its observed high across 7 consecutive scans with negative interval returns continuing. Attempting to catch this sharp intraday drop violates basic risk discipline as selling pressure remains dominant and the negative momentum shows no confirmed stabilization.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SFM",
+      "signal": "hold",
+      "confidence": 0.29,
+      "take_profit_pct": 2.7,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net -0.42 = bull 0.50 - bear 0.92 (buy at >= +0.20). BULL: SFM is experiencing an extreme capitulation event today, down 21.89% to $48.43 amid an earnings miss and margin pressure headlines released on 2026-10-29. Despite the heavy selling, relative volume has surged to 6.12x normal levels, indicating massive institutional participation and potential washout conditions. Furthermore, incoming CEO comments on 2026-10-29 about the company needing to 'evolve faster' coupled with new product rollouts like Beyond Steak at Sprouts stores offer a fundamental reset for bargain buyers. With 8 consecutive observations and positive intervals attempting to stabilize off the observed high drawdown of 4.27%, an oversold mean-reversion bounce is primed for hours to a few days. BEAR: Buying SFM today means stepping directly in front of a catastrophic -21.89% collapse driven by fresh same-session catalysts, including the Q3 earnings miss on soft comps and margin pressure, alongside the incoming CEO's warning that the company 'must evolve faster.' The tape shows severe internal deterioration with volume fading down to a 0.1688 rel volume rate per 30m, rank slipping to 7, and the price sitting 4.27% off its observed high after 210 minutes of persistent pressure. Entering this name is pure catching-a-falling-knife behavior against overwhelming fundamental headwinds and active intraday exhaustion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TDOC",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: TDOC is surging today with a powerful fundamental catalyst backed by an impressive earnings double beat and a raised FY26 GAAP EPS outlook, as reported on October 29, 2026. This fundamental momentum is strongly confirmed by extreme technical participation, featuring a 28.85% day change, a massive relative volume of 3.41x normal, and 8 consecutive observation scans demonstrating sustained continuation. With zero observed drawdown from the high and a robust price development showing a 3.0215% gain since first seen, the high relative volume and exceptional volume rate support immediate continuation. The combination of an actual earnings beat and elite tape persistence creates a compelling entry for short-term momentum traders. BEAR: TDOC is trading +48.42% above its 20-day moving average following its same-session 'Teladoc Stock Rallies After Double Beat; Lifts FY26 GAAP EPS Outlook' earnings release, leaving the stock extremely overextended. Furthermore, major analyst firms such as Stifel and Needham have responded to the beat by maintaining 'Hold' ratings, while Stifel's price target of only $6.50 sits significantly below the current trading price of $8.87. This disconnect between the fresh earnings headline and cautious analyst reiterations at much lower valuation targets exposes buyers to sharp mean-reversion risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TWI",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Titan International is experiencing extreme downside volatility on 2026-10-29 following a Q3 revenue miss and soft Q4 outlook, dropping 24.92% to $4.97 with relative volume surging to 3.48x normal. Despite the heavy sell-off, intraday tape persistence is visible through 8 consecutive observations over 210 minutes, featuring a recent rank improvement from 10 to 9 and positive price acceleration of 0.1851 percentage points. This sharp capitulation event creates an oversold bounce opportunity for a mean-reversion play over the next few hours to days. Confidence is modest due to the fundamental earnings headwind, but the extreme volume spike offers a clear tactical window. BEAR: Buying TWI today means stepping directly in front of a fresh, verified fundamental breakdown driven by the ChartMill and Fintel headlines from 2026-10-29 showing a Q3 revenue miss and soft Q4 outlook. The stock is down 24.92% on the session and trading 26.94% below its 20-day moving average with heavy volume, reflecting genuine institutional liquidation rather than an oversold bounce candidate. Furthermore, the intraday momentum history shows continued stagnation with a drawdown of 2.93% from the observed high and a low relative volume rate of 0.1878 per 30 minutes, confirming that participation is exhausted and the severe downward momentum is actively persisting.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NOW",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: ServiceNow is seeing massive capitulation volume at 4.08x normal as software stocks sink broadly following earnings disappointments, highlighted by headlines on 2026-10-29 such as 'Alphabet tumbles, software and cybersecurity stocks sink as earnings disappoint: AlphaCheck'. Despite the heavy -26.24% day change and a -23.66% distance from its 20-day MA, the tape shows 8 consecutive observations with positive price acceleration of 1.6967% points and a recent return of 0.4079% since the previous scan. This extreme oversold condition provides substantial room for a sharp mean-reversion bounce as buyers step into the high-volume flush. BEAR: Buying NOW today at $110.74 exposes a trader to an active sector-wide tech selloff verified by fresh 2026-10-29 headlines showing software and cybersecurity stocks sinking as earnings disappoint across peers like Alphabet. Although the stock is down 26.24% on the session and trading 23.66% below its 20-day moving average, the same-session momentum history reveals clear signs of exhaustion and volume drying up with a relative volume rate of just 0.2473 per 30 minutes and a declining rank of 10. The price action shows ongoing downward pressure with a 2.79% drawdown from its observed high and only 2 of 7 observed intervals posting positive returns. Attempting to catch this falling knife in a crumbling software sector where participation is fading constitutes an unacceptable risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GKOS",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net +0.05 = bull 0.80 - bear 0.75 (buy at >= +0.20). BULL: GKOS is surging +30.70% on the session with massive relative volume of 3.26x normal, backed by fresh analyst actions on October 29, 2026, including Wells Fargo raising its price target to $226 and Piper Sandler reiterating an Overweight while raising its target to $240. The momentum is firmly confirmed by 8 consecutive scan observations over 210 minutes, maintaining a positive return since first seen of 2.96% and a minor drawdown of only -1.30% from its observed high of $240.24. With strong institutional analyst alignment and persistent tape volume, the stock has solid legs to continue its upward momentum. BEAR: Buying GKOS at $237.12 requires chasing a massive 30.70% single-day gain that has already pushed the stock 39.60% above its 20-day moving average. Furthermore, the fresh same-session analyst upgrades from Wells Fargo to $226 and Piper Sandler to $240 have been fully absorbed, with the current price of $237.12 already resting above Wells Fargo's target and nearly hitting Piper Sandler's cap. The same-session momentum history reveals clear signs of exhaustion and volume not confirming, as the rel volume rate per 30m has dropped to 0.1158 with a rate change of -0.0621, price acceleration is negative at -0.0717 percentage points, and the stock is sitting 1.2987% off its observed high of $240.24. Entering now means buying the exact exhaustion point where public analyst targets have been met and participation is rapidly fading.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GOOGN",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: GOOGN presents a compelling mean-reversion opportunity after suffering an overdone intraday selloff of -9.01% down to $42.42, driven by heavy capitulation volume running at 7.18x normal. Sentiment catalysts from the same session include supportive SeekingAlpha headlines such as 'The AI Bubble Won't Burst In 2027' and 'Dear Market, You Got Alphabet Wrong,' countering the negative price action. Furthermore, an upcoming ex-dividend date on 2026-10-30 providing a $0.78125 payout creates immediate short-term demand to lock in the distribution. With the price sitting 11.89% below its 20-day MA and showing stability after 8 consecutive observations, the setup is primed for a sharp technical bounce. BEAR: GOOGN is suffering a sharp intraday selloff, down 9.01% on the session to $42.42 and sitting 11.89% below its 20-day moving average despite an elevated relative volume of 7.18x. The same-session momentum history confirms ongoing deterioration with a negative return since first seen (-0.6557%), a drawdown of 1.0035% from its observed high, and negative price acceleration. Furthermore, an ex-dividend date of 2036-10-30 sits exactly 1 calendar day after the session, guaranteeing a mechanical price adjustment that can trip stops, while fresh same-session headlines like 'Dear Market, You Got Alphabet Wrong' and 'The AI Bubble Won't Burst In 2027' fail to halt the bleeding.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CROX",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.20 = bull 0.90 - bear 0.70 (buy at >= +0.20). BULL: CROX is exhibiting exceptional momentum backed by fundamental catalysts on 2026-10-29, surging 26.13% to $150.96 with heavy relative volume of 2.81x normal. Fresh news from the same session highlights a major Q3 revenue beat reaching $1.04 billion alongside increased 2026 guidance. The intraday tape confirms strong persistence with 8 consecutive observations over 210 minutes, a 3.66% return since first seen, and a negligible drawdown of just -0.043% from its observed high. This powerful alignment of fundamental earnings strength and robust volume-confirmed tape continuation creates a high-conviction setup for further upside. BEAR: Buying CROX today at $150.96 means chasing a massive 26.13% single-session surge that leaves the stock sitting 26.81% above its 20-day moving average. The primary catalysts\u2014such as the Q3 revenue reaching $1.04 billion and increased 2026 guidance reported on 2026-10-29\u2014are already fully public and driving the current extreme extension. Furthermore, the internal session dynamics reveal a slowing momentum profile, with negative price acceleration of -0.9994 percentage points and a meager relative volume rate of 0.3254 per 30 minutes indicating that participation is fading from its initial burst. Entering at this juncture exposes a buyer to immediate mean-reversion risk as late chasers act as exit liquidity for morning participants.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.04e+09 - no matching value in source data",
+        "bear: cited 1.04e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "LENZ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: LENZ is seeing massive volume participation today at 6.57x its normal 20-day levels, supported by ongoing market digestion of its Q3 2026 earnings call transcript and strategic reorganization announced on 2026-10-28. Although the stock has pulled back 8.0 percent from its observed high of $3.50 over 7 consecutive scanned observations, the exceptionally heavy relative volume confirms strong institutional interest following the recent earnings and executive updates. Trading at $3.22, the stock offers a compelling mean-reversion entry for a short-term bounce as the market processes the company's new consumer marketing focus and CEO succession. With heightened volatility and intense tape engagement, the setup provides an aggressive tactical window to capture upside continuation. BEAR: LENZ presents a textbook chasing failure mode following its October 28, 2026 Yahoo headline reporting a Q3 loss and missed revenue estimates alongside a strategic reorganization and CEO succession. The tape confirms immediate post-news deterioration, with the stock drawing down 8.0 percent from its observed high of $3.50 down to $3.22 over 180 minutes while falling in rank and showing a meager relative volume rate of 0.0676 per 30 minutes. Buying today means absorbing a dead-money stock that has already shed its initial volatility after disappointing earnings, leaving late entrants as exit liquidity into a weakening technical structure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FTNT",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Fortinet shares have suffered a severe 22.39% single-day sell-off on October 29, 2026, driven by headlines regarding a disappointing product revenue slowdown and service growth concerns despite beating Q3 earnings and revenue estimates. This heavy overreaction creates an extreme oversold mean-reversion setup, underscored by massive volume at 2.99x normal levels. Furthermore, intraday tape history shows resilience with 8 consecutive scans demonstrating positive price acceleration of 1.6609 percentage points and a recent 0.8284% bounce off the lows. This heavy capitulation offers a high-beta bounce opportunity for a short-term swing trade. BEAR: Buying FTNT today means stepping in front of an intense liquidation event backed by fresh, same-session negative catalysts, including BofA's warning on a Q3 disappointing slowdown and slowing product revenue growth down to 37%. The stock is down 22.39% on massive volume (2.99x normal) and sits 25.74% below its 20-day MA, showing severe structural damage rather than a simple dip. Furthermore, the intraday history demonstrates active deterioration with an 8-observation sequence, a 2.23% drawdown from its observed high, and a weak relative volume rate per 30 minutes of just 0.1409. Entering this trade offers terrible risk characteristics as the market aggressively reprices Fortinet's growth deceleration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ADT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GOOGM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BHC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NUWE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IOVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ALNY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SFM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TDOC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TWI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NOW",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GKOS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GOOGN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CROX",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "LENZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FTNT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

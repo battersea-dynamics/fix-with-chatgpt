@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-10-29T08:52:15-04:00",
+  "decisions": [
+    {
+      "symbol": "BHC",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: The 2026-10-29 earnings headlines, specifically reporting Q3 consolidated revenues of $2.94 billion and an earnings and revenue beat, provide the fundamental catalyst for BHC. This fundamental event is backed by an exceptional pre-market volume signature of 156,989 shares, representing a massive 127.84x multiple over the baseline average. The candle agent confirms a strong bullish continuation structure with a conviction of 0.9, supporting further upside as the gap holds at $7.60 from a $6.92 close. BEAR: BHC is displaying a classic already-priced-in failure mode following its October 29 earnings release highlighted by headlines like Bausch Health Companies Inc. Reports Third Quarter 2026 Consolidated Revenues of $2.94 billion. Despite the headline beat, the pre-market volume of 156,989 shares against a baseline of 1,228 represents a thin-tape pricing phenomenon where pre-market price action will likely be completely overruled by real opening liquidity. With the gap stalling at a +9.83% pre-market gain to $7.60, the reaction to the Q3 earnings call transcript and revenue numbers has completely run its course before the bell. Buying this open treats the high-water mark of a pre-market liquidity vacuum as a continuation signal when it is actually exit liquidity for early holders.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.94e+09 - no matching value in source data",
+        "bear: cited 2.94e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "CROX",
+      "signal": "buy",
+      "confidence": 0.61,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net +0.22 = bull 0.92 - bear 0.70 (buy at >= +0.20). BULL: CROX is exhibiting a textbook high-conviction gap and go following the release of the October 29, 2026 headlines detailing strong third-quarter results and an increased full-year outlook. The pre-market volume has exploded to 153,644 shares, representing a massive 59.67x multiple over its baseline average, accompanied by a clean +17.80% price surge to $141.00. With the candle structure reading firmly bullish and institutional accumulation visibly supporting the print, this foundational earnings catalyst provides sustained buying pressure capable of continuation past the open. BEAR: CROX is printing a massive 17.80% pre-market gap to $141.00 following today's 2026-10-29 headlines reporting Q3 earnings and a raised full-year outlook. However, a pre-market volume of just 153,644 shares\u2014while elevated relative to its tiny baseline\u2014is far too thin to support a sustainable multi-dollar expansion when institutional size hits the opening auction. Because the headline reaction is immediate and fully reflected in this thin-tape pricing, chasing the open risks stepping directly into an opening-auction reversal where real morning liquidity overwhelms the retail-driven pre-market prints and leaves buyers holding the high-of-day peak.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FTNT",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: Fortinet is experiencing an extreme negative reaction following its earnings release, as captured in the October 29, 2026 headline 'Dow Jones Futures Fall; Microsoft Rises, But Google, ServiceNow, Fortinet Dive On Earnings' and associated concerns regarding slowing product growth. Despite the massive 27.19% gap down to $126.75 and the heavy pre-market volume of 545,339 shares (47.86x the baseline), the sheer magnitude of the flush creates an oversold mean-reversion setup for intraday trading. Capitulation selling of this scale often exhausts immediate supply, providing a sharp snapback opportunity for nimble buyers willing to catch the falling knife near May support levels. However, because the candle structure explicitly reads as a massive gap down continuation with 0.95 bearish conviction, any long thesis is strictly a tactical counter-trend scalp rather than a structural investment. BEAR: Buying FTNT at the open after a 27.19% pre-market gap down to $126.75 is a classic trap where the gap has already stopped building and serves as exit liquidity. The October 29, 2026 Yahoo headline 'FTNT Stock On Track To Revisit May Levels Despite Strong Earnings \u2014 Analysts Flag Slowing Product Growth, Services Headwinds' confirms that the fundamental damage\u2014specifically slowing product growth and services headwinds\u2014is fully out in the open and priced in. Furthermore, the massive volume spike to 545,339 shares compared to an 11,393 baseline average indicates that institutional distribution is already heavily underway on the thin pre-market tape rather than setting up a durable continuation. Attempting to catch this falling knife risks stepping directly into an exhaustion structure where opening-auction liquidity will simply absorb remaining retail bids before the stock grinds even lower.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INSM",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: INSM shows an exceptional pre-market footprint with 523,522 shares traded, representing a massive 171.46x multiple over its baseline average, driving a +13.84% gap to $110.40. While the recent news block contains only speculative earnings previews from Yahoo on October 22 and October 27 rather than a direct announcement explaining today's specific jump, the sheer weight and sustained nature of this volume dwarfs normal activity. Combined with the candle agent's high conviction 0.85 bullish reversal structure, this volume signature reflects heavy institutional sponsorship rather than a retail fade. Buying at the open is supported by this undeniable footprint, targeting continuation as the market absorbs the heavy opening demand. BEAR: Insmed opens up 13.84% to $110.40 on a thin tape of 523,522 shares, completely disconnected from the actual news landscape. The most recent specific headlines from October 22 and October 27 explicitly warn that Insmed 'may report negative earnings' ahead of next week's release, directly undercutting the bullish conviction of this gap. Because no fresh catalyst exists to justify a break past yesterday's $96.98 close, this move is a classic gap-fade setup where the pre-market price serves merely as exit liquidity for early holders before opening auction liquidity dismantles the advance.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IOVA",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.2,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.45 = bull 0.50 - bear 0.95 (buy at >= +0.20). BULL: IOVA is experiencing massive pre-market volume of over 7.4 million shares, representing more than 213 times its baseline average, driven by recent news including the 2026-10-28 webcast on positive TIL therapy data for mNSCLC and subsequent after-hours fluctuations. Despite an exhaustion candle pattern pointing to a 32.14% gap down to $10.05, this extreme liquidity footprint indicates heavy institutional repositioning that often triggers an aggressive mean-reversion bounce at the open. Buying into this capitulation volume offers a high-beta trade setup for a recovery rally as intraday buyers step in to absorb the overhang. BEAR: IOVA is suffering a catastrophic 32.14% gap down to $10.05 on massive volume of 7.49 million shares, completely contradicting the headline 'Why Did IOVA Stock Jump Over 10% After-Hours Today?' from 2026-10-29. The candle agent identifies this exact structure as an exhaustion pattern with a bearish bias and 0.9 conviction, confirming that the earlier optimism surrounding the ESMO and mNSCLC data from October 28 has entirely imploded under heavy distribution. Buying this gap at the open acts as exit liquidity because the price action demonstrates that the recent clinical data was already priced in and the subsequent after-hours pop was a complete fakeout.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MAX",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: MAX is displaying an exceptional pre-market volume footprint with 67,977 shares traded, representing a massive 88.77x multiple over its baseline average, confirming genuine institutional accumulation. This heavy participation is directly tied to the October 28, 2026 Yahoo headline reporting that MediaAlpha beats expectations in a strong Q3 2026, causing an 18% stock jump backed by live earnings call transcripts on October 29. The candle agent reads a bullish reversal structure with a strong 0.7 conviction, proving that the gap to $13.84 is holding firm without fading. Buyers should step in at the open to capitalize on this earnings-driven momentum with high continuation potential. BEAR: MAX is suffering from an exhaustion structure following the October 28th Yahoo headline stating the company beats expectations in strong Q3 2026. Despite a pre-market volume of 67,977 shares trading up 18.09% to $13.84, the thin-tape pricing mechanism means this pre-market liquidity is vastly overshadowed by real opening institutional flow. Furthermore, with the earnings call transcript and financial results already fully digested as of October 29th, the gap has stopped building, leaving late retail buyers at the open to act as exit liquidity for overnight holders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NCLH",
+      "signal": "buy",
+      "confidence": 0.61,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.22 = bull 0.92 - bear 0.70 (buy at >= +0.20). BULL: NCLH exhibits a phenomenal pre-market volume signature of 4.39 million shares, representing a staggering 39.64x multiple over its baseline average, driven by explicit fundamental backing from the October 29, 2026 headlines detailing a Q3 sales and earnings beat. The candle agent's structure read confirms a high-conviction breakout continuation bias at 0.9, as the price holds firmly at $17.88 following an 11.33% gap up from yesterday's close. This sustained accumulation and fundamental catalyst combination points directly to heavy institutional buying that will support further continuation at the open. BEAR: The pre-market move of +11.33% to $17.88 is completely built on the October 29 headlines regarding 'Norwegian Cruise Line\u2019s (NYSE:NCLH) Q3 2026 sales beat estimates' and the simultaneous 'CFO Transition', creating an already priced-in exhaustion structure. With pre-market volume at 4.39M shares\u2014heavy compared to the 110k baseline\u2014the reaction has peaked right at the open bell, leaving buyers to absorb shares from early profit-takers. Because the earnings beat and executive departure are fully disseminated news items hitting simultaneously on the same date, the opening print acts as exit liquidity rather than a sustainable breakout continuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NOW",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: ServiceNow is experiencing a massive downside gap of -18.84% backed by 1.55 million shares of heavy pre-market volume (13.43x baseline average) following the October 29, 2026 headlines regarding an EPS miss, slowing backlog, and an overdone software sector selloff. While the candle structure registers a bearish reversal at 0.95 conviction, the extreme volume surge paired with the OpenAI partnership headline creates a classic capitulation washout scenario where panic sellers exhaust themselves at the open. Buying into this deep discount offers a high-beta mean reversion opportunity as institutional buyers step in to defend a market leader oversold on near-term macro and headline fears. BEAR: ServiceNow is plunging 18.84% pre-market to $121.85 following the October 29, 2026 earnings headline 'ServiceNow Sinks 20% on EPS Miss and Slowing Backlog Despite CEO\u2019s \u201cInflection Point\u201d Claim.' While the fundamental EPS miss and slowing backlog are real, buying this gap at the open risks stepping in front of a cascading sector-wide software sell-off explicitly highlighted in 'Software Stocks Are Getting Crushed Again After Hours.' With pre-market volume at 1.55 million shares (13.43x baseline), the heavy distribution confirms that institutional capital is actively exiting, leaving the opening auction vulnerable to further institutional liquidation rather than a reliable dip-buying setup.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NUAI",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: There are no recent headlines found for NUAI to explain the steep pre-market gap down of -17.12%, forcing us to rely purely on the footprint. The pre-market volume is exceptionally heavy at 1.01 million shares, representing 9.03x the baseline average, indicating genuine institutional participation and liquidity flush rather than a dead tape fade. However, the candle structure reads a bearish reversal with a high conviction of 0.9, meaning any long entry at the open is an aggressive counter-trend play against heavy downward momentum. Therefore, the bull case rests solely on an oversold bounce following an exhaustion flush, backed by massive volume turnover, making this a high-risk mean-reversion opportunity. BEAR: NUAI is flashing a severe opening-auction reversal and exhaustion structure with a 0.9 conviction bear bias after dropping -17.12% to $2.76 from yesterday's close of $3.33. The absence of any recent news headlines over the last 7 days means this pre-market drop lacks a fundamental catalyst, operating entirely on blind thin-tape panic that real opening liquidity at 9:30 will likely exploit or reverse. With pre-market volume sitting at 1,007,827 shares on a 9.03x baseline relative surge, the move has already built its exhaustion structure without fresh news to sustain it, making the open a prime candidate for an aggressive trap rather than a buyable dip.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NUWE",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: NUWE displays an exceptional pre-market volume signature with 3.51 million shares traded, representing a massive 114.11x multiple over its baseline average, paired with a solid +17.02% gap holding at $6.62. This aggressive participation is directly underpinned by the October 27, 2026 headline announcing the acceptance of their multicenter pediatric Aquadex study in Pediatric Nephrology. The candle agent confirms a strong bullish continuation structure with a conviction score of 0.85, indicating that the heavy institutional accumulation from yesterday's unusual volume movers list is translating into sustained opening momentum. BEAR: NUWE is walking straight into an already priced-in exhaustion structure. The 17.02% gap to $6.62 relies entirely on stale news from October 27 regarding the acceptance of a multicenter pediatric Aquadex study, meaning the market has had ample time to digest the headline and the opening bell will simply provide exit liquidity. While pre-market volume of 3.5M shares is heavy relative to its baseline, the lack of fresh catalysts indicates the move has stopped building before the open and will succumb to a classic gap fade once real liquidity arrives.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OPCH",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: OPCH is exhibiting an extraordinary volume footprint with 507,505 pre-market shares traded, representing a massive 2900x surge over its baseline average. There are no recent news headlines available to explain this gap, meaning the aggressive buying is purely technical and driven by heavy institutional accumulation or an imminent unannounced catalyst. The candle structure confirms a bullish continuation pattern with a conviction score of 0.7, supporting immediate upside continuation at the open. Despite the lack of an explicit headline, the sheer scale of the pre-market volume guarantees genuine sponsorship and immediate liquidity to drive a continuation play. BEAR: OPCH is exhibiting a classic gap-fade setup driven by a complete vacuum of fundamental catalysts, as evidenced by zero recent news headlines in the past seven days to justify the move. While the pre-market volume of 507,505 shares is exceptionally elevated against its 175-share baseline, this massive print on a mere 1.89% gap from $31.29 to $31.88 indicates churn or a thin-tape liquidity artifact rather than genuine institutional accumulation. With no headline to sustain buying interest past the opening bell, real opening liquidity will inevitably overrule the pre-market print and turn today's open into the high of the day.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SFM",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.58,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: Sprouts Farmers Market is experiencing a severe pre-market gap down of 23.48% to $47.44 accompanied by massive volume of 256,856 shares, representing 150.41x its baseline average. This extreme volume spike coincides directly with today's Q3 2026 earnings release and related transcripts published on 2026-10-29. Despite the bearish structure read and conviction of 0.9 pointing to heavy selling pressure, such an oversold gap on heavy institutional participation often triggers a sharp mean-reversion bounce as panic selling exhausts itself near the open. Buying into this capitulation offers a high-reward tactical bounce play if the bid holds the $47 handle. We target a quick recovery toward resistance while managing risk tightly below the opening panic low. BEAR: SFM is suffering a severe -23.48% gap down to $47.44 following its Q3 2026 earnings release and related announcements on October 29, 2026, making any dip-buying attempt an exceptional hazard. While volume has spiked to 256,856 shares (150.41x baseline), the candle agent identifies a bearish reversal structure with a high conviction of 0.9, signaling an exhaustion structure where institutional selling pressure is likely to overwhelm opening liquidity. Attempting to buy this gap down ignores the reality that the Q3 earnings transcripts and nationwide grocery price changes released today have initiated a massive repricing event rather than a temporary dip. Consequently, buying at the open provides immediate exit liquidity for trapped holders, and the gap-fade failure mode will trap any premature longs as real session liquidity arrives to flush the stock further below its previous $62.00 close.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

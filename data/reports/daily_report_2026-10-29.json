@@ -1,0 +1,1371 @@
+{
+  "date": "2026-10-29",
+  "events": [
+    {
+      "at_et": "2026-10-29T08:46:23-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-29T08:52:15-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-10-29T09:31:37-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "NCLH",
+            "action": "submitted",
+            "order": {
+              "symbol": "NCLH",
+              "qty": 11,
+              "est_cost": 193.38,
+              "entry_ref": 17.58,
+              "take_profit": 18.55,
+              "remaining_take_profit_pct": 5.52,
+              "stop_loss": 17.2,
+              "confidence": 0.61,
+              "client_order_id": "ta-20261029-093137-NCLH",
+              "analysis_price": 17.88,
+              "live_price_change_pct": -1.68
+            },
+            "broker": {
+              "id": "7c29908d-e8d9-44d4-aa45-7b2949927a2a",
+              "client_order_id": "ta-20261029-093137-NCLH",
+              "symbol": "NCLH",
+              "qty": "11",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 18.55,
+              "stop_loss": 17.2,
+              "legs": [
+                "158e1bc2-d210-43b0-85ba-5d5d8b27317d",
+                "ca2f775e-e688-4a83-baf4-8b0610b943ab"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "bid/ask spread too wide: 11.70% (bid $135.22, ask $152.02); 1% max"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPCH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T10:31:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1016.json",
+        "shortlist": [
+          "NUWE",
+          "ADT",
+          "GOOGN",
+          "SFM",
+          "BHC",
+          "IOVA",
+          "TDOC",
+          "GKOS",
+          "NOW",
+          "PRCH",
+          "FTNT",
+          "TWI",
+          "GOOGM",
+          "CROX",
+          "BOOM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PRCH",
+            "action": "submitted",
+            "order": {
+              "symbol": "PRCH",
+              "qty": 9,
+              "est_cost": 186.48,
+              "entry_ref": 20.72,
+              "take_profit": 22.16,
+              "remaining_take_profit_pct": 6.95,
+              "stop_loss": 19.85,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261029-103141-PRCH",
+              "analysis_price": 20.61,
+              "live_price_change_pct": 0.53
+            },
+            "broker": {
+              "id": "c51d1c60-6968-4901-9929-e8bcc1e518b1",
+              "client_order_id": "ta-20261029-103141-PRCH",
+              "symbol": "PRCH",
+              "qty": "9",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 22.16,
+              "stop_loss": 19.85,
+              "legs": [
+                "d6f93692-8163-4de3-a5d7-aa9aab9aa9b5",
+                "f5257146-0b99-47fb-993e-2295304195c5"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "bid/ask spread too wide: 14.06% (bid $227.54, ask $261.95); 1% max"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "bid/ask spread too wide: 8.17% (bid $138.22, ask $150.00); 1% max"
+          },
+          {
+            "symbol": "BOOM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T11:10:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1046.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "NUWE",
+          "GOOGN",
+          "BHC",
+          "SFM",
+          "IOVA",
+          "GKOS",
+          "LENZ",
+          "TWI",
+          "TDOC",
+          "NOW",
+          "FTNT",
+          "ALNY",
+          "CROX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "bid/ask spread too wide: 11.40% (bid $141.22, ask $158.29); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T11:33:37-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1116.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "NUWE",
+          "BHC",
+          "SFM",
+          "IOVA",
+          "GOOGN",
+          "GKOS",
+          "TWI",
+          "TDOC",
+          "NOW",
+          "LENZ",
+          "ALNY",
+          "CROX",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T12:09:34-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1146.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "NUWE",
+          "BHC",
+          "SFM",
+          "IOVA",
+          "GOOGN",
+          "GKOS",
+          "TWI",
+          "TDOC",
+          "NOW",
+          "LENZ",
+          "ALNY",
+          "CROX",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T12:31:15-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1216.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "NUWE",
+          "BHC",
+          "SFM",
+          "IOVA",
+          "GKOS",
+          "GOOGN",
+          "TWI",
+          "ALNY",
+          "TDOC",
+          "NOW",
+          "LENZ",
+          "CROX",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T12:58:41-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1246.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "NUWE",
+          "BHC",
+          "SFM",
+          "IOVA",
+          "ALNY",
+          "GKOS",
+          "GOOGN",
+          "TDOC",
+          "TWI",
+          "NOW",
+          "LENZ",
+          "CROX",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T13:26:47-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1316.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "NUWE",
+          "BHC",
+          "IOVA",
+          "SFM",
+          "ALNY",
+          "TDOC",
+          "NOW",
+          "TWI",
+          "GKOS",
+          "GOOGN",
+          "LENZ",
+          "CROX",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T13:58:53-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1346.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "BHC",
+          "NUWE",
+          "IOVA",
+          "ALNY",
+          "SFM",
+          "TDOC",
+          "TWI",
+          "NOW",
+          "GKOS",
+          "GOOGN",
+          "CROX",
+          "LENZ",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T14:22:29-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1416.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "BHC",
+          "NUWE",
+          "IOVA",
+          "ALNY",
+          "SFM",
+          "TDOC",
+          "GKOS",
+          "TWI",
+          "NOW",
+          "GOOGN",
+          "CROX",
+          "LENZ",
+          "PURR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PURR",
+            "action": "submitted",
+            "order": {
+              "symbol": "PURR",
+              "qty": 16,
+              "est_cost": 189.44,
+              "entry_ref": 11.84,
+              "take_profit": 12.6,
+              "remaining_take_profit_pct": 6.42,
+              "stop_loss": 11.48,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261029-142229-PURR",
+              "analysis_price": 11.8521,
+              "live_price_change_pct": -0.1
+            },
+            "broker": {
+              "id": "25f52b12-71cc-4253-88e3-ced6afaf1154",
+              "client_order_id": "ta-20261029-142229-PURR",
+              "symbol": "PURR",
+              "qty": "16",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 12.6,
+              "stop_loss": 11.48,
+              "legs": [
+                "b2332eb4-4ac9-4d0f-b21a-0f34caab613c",
+                "54e736ff-8f3e-4cfb-871f-a4c0e2d8a738"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T14:52:48-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1446.json",
+        "shortlist": [
+          "ADT",
+          "GOOGM",
+          "BHC",
+          "NUWE",
+          "ALNY",
+          "IOVA",
+          "SFM",
+          "TDOC",
+          "TWI",
+          "GKOS",
+          "NOW",
+          "GOOGN",
+          "CROX",
+          "LENZ",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T15:22:35-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1516.json",
+        "shortlist": [
+          "ADT",
+          "BHC",
+          "GOOGM",
+          "NUWE",
+          "ALNY",
+          "IOVA",
+          "TDOC",
+          "SFM",
+          "GKOS",
+          "TWI",
+          "NOW",
+          "CROX",
+          "GOOGN",
+          "LENZ",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ADT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BHC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T15:52:36-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-29/shortlist_1546.json",
+        "shortlist": [
+          "ADT",
+          "BHC",
+          "GOOGM",
+          "ALNY",
+          "NUWE",
+          "TWI",
+          "SFM",
+          "IOVA",
+          "TDOC",
+          "GKOS",
+          "NOW",
+          "CROX",
+          "GOOGN",
+          "LENZ",
+          "FTNT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ADT",
+            "action": "submitted",
+            "order": {
+              "symbol": "ADT",
+              "qty": 20,
+              "est_cost": 198.0,
+              "entry_ref": 9.9,
+              "take_profit": 9.98,
+              "remaining_take_profit_pct": 0.81,
+              "stop_loss": 9.75,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261029-155235-ADT",
+              "analysis_price": 9.895,
+              "live_price_change_pct": 0.05
+            },
+            "broker": {
+              "id": "a7e6289f-de09-43e1-9336-a556a594b1b0",
+              "client_order_id": "ta-20261029-155235-ADT",
+              "symbol": "ADT",
+              "qty": "20",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 9.98,
+              "stop_loss": 9.75,
+              "legs": [
+                "6c6dc395-5c32-488b-a699-5941fd3d62d1",
+                "5f453b3d-8644-402e-ac06-33de79f2f309"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "BHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUWE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SFM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TDOC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GKOS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOW",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CROX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GOOGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LENZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FTNT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-29T15:52:36-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
