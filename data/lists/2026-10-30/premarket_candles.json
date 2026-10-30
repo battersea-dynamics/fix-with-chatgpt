@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-10-30T08:49:44-04:00",
+  "session_date": "2026-10-30",
+  "reads": {
+    "NWL": {
+      "symbol": "NWL",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CPRI": {
+      "symbol": "CPRI",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "RDDT": {
+      "symbol": "RDDT",
+      "pattern": "gap-down continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "TWLO": {
+      "symbol": "TWLO",
+      "pattern": "gap down continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "ATEC": {
+      "symbol": "ATEC",
+      "pattern": "breakdown gap",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "RBLX": {
+      "symbol": "RBLX",
+      "pattern": "reversal gap down",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "INTC": {
+      "symbol": "INTC",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "COUR": {
+      "symbol": "COUR",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "RIVN": {
+      "symbol": "RIVN",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "ABR": {
+      "symbol": "ABR",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "SNY": {
+      "symbol": "SNY",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "HPQ": {
+      "symbol": "HPQ",
+      "pattern": "gap down continuation",
+      "bias": "bearish",
+      "conviction": 0.95
+    }
+  }
+}

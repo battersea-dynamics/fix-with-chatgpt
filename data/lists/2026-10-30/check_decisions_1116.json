@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-10-30T11:23:04-04:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ATEC",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.75,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Alphatec Holdings is experiencing a severe capitulation down -35.14% today to $7.38 on massive relative volume of 3.93x normal, creating an extreme oversold mean-reversion setup. On the catalyst front, Needham maintained its Buy rating on October 30, 2026, though lowering its price target to $12, which provides substantial fundamental upside headroom from current depressed levels. Furthermore, consecutive scans show the price holding a tight range with a score improvement of 1.0796 and a positive price acceleration of 2.8849 percentage points despite the broader market's weakness. This combination of an analyst-backed endorsement, extreme volume washout, and nascent stabilization offers a high-beta bounce opportunity for a short-term swing. BEAR: ATEC is suffering a severe intraday collapse, down 35.14% on the session to $7.38 and sitting 31.60% below its 20-day moving average. The tape shows clear deterioration with zero positive observed intervals across its recent snapshots, a growing drawdown of 3.15% from its observed high of $7.615, and a weak relative volume rate of 0.775 per 30 minutes. Furthermore, analyst support is crumbling as highlighted by Needham maintaining a Buy rating while actively slashing its price target to $12 on this same trading session date of 2026-10-30 amid a broader market pullback.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GDYN",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Grid Dynamics Holdings is surging on exceptionally strong fundamentals, supported by its Q3 earnings beat reported on 2026-10-29 and Needham maintaining a Buy rating while raising its price target to $15 on 2026-10-30. The technical tape confirms immense momentum with the stock up 31.72% at $12.50 on 2.65x relative volume, showing zero drawdown from its observed high of $12.50. Furthermore, the same-session history displays robust continuation across 3 consecutive scans over 60 minutes with a further 4.99% gain since first seen and rank improvement from 4 to 2. With strong analyst backing following a stellar earnings beat and persistent volume-backed buying, GDYN has a clear catalyst-driven path higher. BEAR: Grid Dynamics is severely extended after a 31.72% single-day surge, trading 52.64% above its 20-day moving average following its Q3 earnings beat and Needham raising its price target to $15 on 2026-10-30. Buying here means chasing the exact peak of the initial reaction to fully public news, as relative volume rate per 30m has slowed to 0.7636 alongside a negative price acceleration of -2.0162 percentage points. Entering at $12.50 leaves virtually no margin for error as early momentum stalls and participants exhaust their immediate buying capacity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RDDT",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Reddit is experiencing an extreme oversold panic on 2026-10-30, plunging 27.41% to $94.08 amid headlines regarding a search traffic slump and analyst target cuts following Q3 earnings. Despite this historic single-day drop, heavy volume participation at 2.99x normal relative volume indicates massive liquidity and accumulation interest at these distressed levels. Furthermore, the intraday history shows 3 consecutive observations with positive price acceleration of 0.2417 percentage points and a modest observed-high drawdown of only 2.9253%, signaling that selling pressure is beginning to stabilize. This sets up a classic capitulation-rebound play for a multi-hour to multi-day mean reversion. BEAR: Buying RDDT today exposes a trader to catastrophic structural momentum failure, evidenced by a brutal 27.41% single-day plunge and a close sitting 37.14% below its 20-day moving average. The same-session volume and price development show persistent downward drift, with a 2.92% drawdown from its observed high and zero positive observed intervals across snapshots. Fresh same-session headlines on 2026-10-30 confirm the drop is driven by a severe search traffic slump, soft outlook, and subsequent analyst target cuts for the worst single-day drop ever. Trying to catch this falling knife within a multi-hour or multi-day window is exceptionally dangerous given the confirmed fundamental headwinds and unbroken selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INTC",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: INTC is experiencing an extreme oversold panic session, down -28.21% to $66.09 amid broader market headlines on 2026-10-30 regarding tech stocks being crushed and a $6.3 billion Binance hack. Nothing in the catalyst report specifically targets INTC's core operations with company-specific bad news, creating a potential exhaustion washout. On the tape, it shows 3 consecutive observations over 60 minutes with a positive return of 0.7853% since first seen, alongside a tight drawdown of only -1.0702% from its observed high of $66.81 and a robust relative volume of 2.13x. This creates a high-beta mean-reversion setup for a short-term bounce, supported by improving rank up to 4. BEAR: Buying INTC today at $66.09 means catching a falling knife during an absolute market rout where Intel and Amazon are leading tech lower amid a broad sell-off and a $6.3 billion Binance hack on 2026-10-30. The stock is down a brutal 28.21% on the session and sits 33.28% below its 20-day moving average, accompanied by concrete tape deterioration showing a negative price acceleration of -2.94% points and a drawdown from its observed high of 1.07%. With relative volume slowing to a rate of 0.27 per 30 minutes and a flagged 'exhausted_or_reversing' setup, attempting to bottom-fish this carnage within a multi-day holding window invites immense downside continuation.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 6.3e+09 - no matching value in source data",
+        "bear: cited 6.3e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BFAM",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.45,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Bright Horizons Family Solutions Inc. released fresh Q3 2026 results and hosted its earnings call on 2026-10-30, coinciding with heavy capitulation selling that drove the stock down 17.74% to $55.10 on 2.85x normal volume. Despite the sharp selloff, tape metrics show persistent interest with three consecutive observations, an improving rank from 7 to 5, and a positive price acceleration of +1.96 percentage points. With the earnings uncertainty now public and a steep discount sitting 19.94% below its 20-day moving average, an oversold bounce play offers an attractive multi-day mean-reversion setup. A take-profit target of 6.0% captures the expected snap-back volatility, backed by a 5.0% stop-loss to manage downside exposure. BEAR: BFAM is experiencing a severe single-session selloff of 17.74% down to $55.10 alongside fresh same-session Q3 2026 earnings results and board change announcements reported today. The stock's momentum history reveals ongoing deterioration over its 60-minute observation window, including a negative return of -5.359% from its observed high of $58.22 and zero positive observed intervals. Furthermore, relative volume momentum is lagging with a rate per 30 minutes of just 0.4543, signaling that buyers are absent while the stock trades nearly 20% below its 20-day moving average. Catching this falling knife presents extreme near-term risk given the unabsorbed earnings-related selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HTO",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 1.95,
+      "stop_loss_pct": 0.98,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: HTO is seeing exceptional volume today at 3.86x normal relative volume alongside a +1.25% daily price increase to $59.30, trading 1.62% above its 20-day MA. The recent news flow includes a 1 day before session headline about a $325M public offering of equity units and positive Q3 earnings coverage meeting valuation doubts 2 days prior. Additionally, an upcoming dividend of $0.44 is scheduled for 10 calendar days after the session on 2026-11-09. However, because this is our first observation with insufficient intraday history development, the tape-only confirmation remains limited. BEAR: HTO is facing direct headwinds from a massive announced dilution event, specifically the October 29, 2026 Benzinga headline 'H2O America Announces $325M Public Offering Of 6.5M Equity Units At $50/Unit', which sits substantially below the current trading price of $59.30 and creates immediate downward pressure via equity overhang. Despite this significant valuation and dilution overhang following Q3 earnings, the stock trades at 3.86x relative volume on an ordinary 1.25% gain without further internal tape progression to absorb the heavy supply. Buying into this offering-heavy environment carries structural dilution risk that far outweighs the modest intraday uptick.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EDHL",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 2.54,
+      "stop_loss_pct": 1.45,
+      "reasoning": "net -0.15 = bull 0.40 - bear 0.55 (buy at >= +0.20). BULL: EDHL is showing solid persistence with three consecutive scan observations over 60 minutes and heavy volume confirmation at 3.77x normal levels, while trading +4.96% above its 20-day moving average. The catalyst report contains no news items to explain the move, meaning this is a pure tape-driven setup relying strictly on the elevated relative volume and sustained presence on the scanner. Drawdown from the observed high of $5.78 is extremely shallow at just -0.692%, indicating strong underlying support near the current $5.74 price despite slight intraday cooling. BEAR: EDHL presents a textbook no-catalyst fade setup combined with clear tape deterioration over its 60-minute observed history. The catalyst report is entirely empty with no earnings, dividends, or news to justify the 3.77x relative volume, leaving the move unsupported by fresh fundamental developments. Furthermore, the same-session momentum has measurably deteriorated as rank dropped from 5 to 7, score worsened by 2.33 points, and price pulled back 0.69% from its observed high of $5.78 down to $5.74. With relative volume rate dropping 26.46% and a negative price acceleration of -1.039 percentage points, participation is actively fading while the stock sits 4.96% above its 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "REGN",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: REGN is surging by +12.17% on Oct. 30, 2026, driven by a powerful Q3 2026 earnings beat and massive Dupixent sales growth that prompted management to project one of its 'strongest years ever.' Institutional participation is robust, confirmed by a relative volume of 2.03x normal and three consecutive session observations showing strong price retention near the observed high of $920.835 with a minimal drawdown of only -0.2671%. With momentum firmly established and major fundamental tailwinds supporting 2-year highs, the stock has clear runway to continue advancing over the coming sessions. BEAR: Buying REGN at today's price of $918.38 means chasing a +12.17% single-session surge driven by fresh same-session headlines like 'Regeneron, Sanofi Surge As Dupixent Wallops Sales Forecasts' and Q3 earnings beats. However, the same-session momentum history reveals clear intraday deterioration, showing a -0.2671% drawdown from its observed high of $920.835 and a slowing relative volume rate per 30 minutes of 0.2613 with a -0.0897 rate change. With the stock already stretched +17.85% above its 20-day moving average and volume participation cooling off from its initial pre-market and early-session burst, new buyers are entering as exit liquidity for early morning participants. This combination of extreme short-term extension and fading intraday momentum creates a high-probability mean-reversion trap over a multi-hour holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ABR",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: Arbor Realty Trust experienced a severe -28.97% drop on the session to $2.15 following its Q3 earnings miss reported on 2026-10-30, creating a potential oversold bounce candidate. Despite the negative catalyst and a drawdown of -3.37% from its observed high of $2.22, relative volume remains elevated at 1.09x normal with three consecutive observations. However, with zero positive observed intervals and falling price acceleration, the case relies entirely on an extreme mean-reversion setup following the earnings reaction rather than strong buying momentum. Therefore, confidence is low given the heavy selling pressure and weak tape continuation. BEAR: Buying ABR today at $2.15 after a catastrophic -28.97% drop is an extreme value trap, driven by fresh same-session news on 2026-10-30 reporting a severe Q3 Adj. EPS loss of $(0.04) missing estimates alongside a major sales miss. The session momentum exhibits clear measurable deterioration with negative interval returns, a 3.38% drawdown from its observed high, and zero positive observed intervals across its snapshots. Attempting to catch this falling knife exposes a trader to ongoing liquidation risk as the market digests these disastrous fundamentals.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CPRI",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Capri Holdings (CPRI) is surging on a major same-session catalyst on October 30, 2026, driven by a strong Q2 earnings beat with adjusted EPS of $0.42 crushing the $0.21 estimate alongside a sales beat of $809.00 million, paired with raised FY2027 GAAP EPS and sales guidance. The price has exploded +18.68% on the session to close at $19.06 with 1.28x relative volume and zero drawdown from the observed session high. Furthermore, the tape confirms robust continuation across 3 consecutive scan observations over 60 minutes, improving rank from 12 to 10 with positive return progression since first seen. BEAR: Buying CPRI right now means chasing a massive 18.68% single-session gap that has already stretched the stock 23.90% above its 20-day moving average. The primary positive catalysts\u2014including the October 30, 2026 headlines regarding its profit beat, margin recovery, and raised FY2027 guidance\u2014are entirely public and fully baked into the current $19.06 price. Furthermore, internal momentum metrics show early signs of exhaustion with price acceleration turning negative at -0.1948 percentage points and a meager relative volume rate of 0.182 per 30m failing to confirm sustained heavy buying. Entering at this extended level leaves fresh buyers vulnerable to an immediate mean-reversion pullback as profit-taking absorbs the morning's news-driven spike.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 8.09e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "CDNA",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: CareDx, Inc. (CDNA) is surging strongly on 2026-10-30, up 23.44% on the day with relative volume at 1.22x normal, supported by fresh Q3 earnings announcements and a BTIG price target raise to $92 published on the same session date. The intraday tape shows confirmed persistence with three consecutive scans over 60 minutes, a positive return since first seen of 1.6651%, and a minimal drawdown of just -0.3825% from the observed high of $88.625. With robust fundamental catalysts and strong participation holding near session highs, the momentum provides a compelling window for near-term continuation. BEAR: CareDx is currently trading up 23.44% on the session and is extended 31.55% above its 20-day moving average following same-session Q3 20th-century earnings headlines and a BTIG price target raise to $92, which leaves the stock sitting just below that analyst ceiling at $88.29. The same-session momentum history reveals clear signs of chasing and deterioration, showing a price drop of 0.38% from the observed high of $88.625 within the last 30 minutes, negative price acceleration of -2.438 percentage points, and a low relative volume rate of 0.2429 per 30 minutes. Entering at these levels means buying directly into the absorption of fresh public earnings news while short-term momentum stalls out just underneath a major analyst price target.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRMD",
+      "signal": "hold",
+      "confidence": 0.265,
+      "take_profit_pct": 2.95,
+      "stop_loss_pct": 2.36,
+      "reasoning": "net -0.47 = bull 0.35 - bear 0.82 (buy at >= +0.20). BULL: CRMD is currently experiencing a severe pullback down 18.56% to $6.22 on elevated relative volume of 1.86x, presenting a classic deep-value bounce opportunity ahead of its upcoming earnings report scheduled for November 11, 2026, exactly 12 calendar days after the session. Nothing in the catalyst report explains or supports this downward move, meaning the sell-off is likely overdone and driven by transient liquidity rather than fundamental deterioration. The intraday tape shows early stabilization with consecutive scans yielding a slight rank improvement from 13 to 12 and positive price acceleration of 0.4582 percentage points despite the broader session drawdown. With the stock trading 17.67% below its 20-day moving average, any mean reversion toward short-term moving averages offers a swift recovery window. BEAR: Buying CRMD right now involves stepping directly in front of a severe -18.56% collapse where the tape shows clear, measurable deterioration across all observed intervals. The stock has dropped 3.6873% since first seen 60 minutes ago with zero positive intervals, while relative volume rate continues to crawl at a weak 0.3076 per 30m, confirming that participation is completely failing to support any dip-buying interest. Furthermore, with earnings looming 12 calendar days away on 2026-11-11 and an absolute absence of any headline catalysts to justify or stabilize this plunge, entering today exposes capital to unmitigated downside momentum with no immediate catalyst to reverse the bleeding.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VRRM",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Verra Mobility reported robust Q3 2026 earnings on 2026-10-30 featuring an EPS beat of $0.36 versus $0.26 estimates and sales of $258.875M beating the $241.249M estimate alongside affirmed FY2026 guidance, creating a deep oversold value dislocation after shares dropped 21.22% on the session. Despite the headline-driven selloff regarding revenue declines, the fundamental earnings beat and reaffirmed guidance provide a strong catalyst for an aggressive mean-reversion bounce. The tape shows early stabilization with a relative volume of 1.25x and a slight rank improvement from 14 to 13 during the observed session. BEAR: Buying VRRM today represents an acute chasing risk after a brutal 21.22% single-session collapse to $2.63 on 2026-10-30. Despite fresh same-session headlines such as 'Verra Mobility (NASDAQ:VRRM) Shares Fall Despite Q3 2026 Earnings Beat as Revenue Declines', the market has punished the stock severely, and the supplied 30-minute tape confirms continued immediate deterioration with a -0.89% drawdown from the observed high and zero positive intervals. Attempting to catch this falling knife exposes a trader to severe downward momentum where the negative reaction to revenue declines completely overwhelms any EPS beat.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "COUR",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: Coursera faces heavy selling pressure today down -19.42% following multiple analyst downgrades and price target cuts on 2026-10-30, including actions from JP Morgan and Keybanc, alongside Needham maintaining a Buy with a lowered $6 target. Despite this steep capitulation, relative volume has expanded to 1.29x normal, and the stock shows early stabilization with a slight rank improvement from 15 to 14 over its brief two-observation history. This represents an oversold bounce candidate where capitulation volume may exhaust near-term sellers, offering a mean-reversion opportunity toward the lower analyst targets. BEAR: COUR is experiencing an intense sell-off down -19.42% on the session and trading 24.93% below its 20-day MA, driven by fresh, same-session downgrades and forecast cuts from major financial institutions including JP Morgan and Keybanc following Q3 results. Attempting to catch this falling knife exposes a buyer to sustained downward momentum, as evidenced by consecutive negative snapshots showing continued drawdown from the observed high and no positive intervals. Buying into active, headline-driven institutional downgrades without any sign of stabilization creates exceptional downside risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MEOH",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 4.12,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net +0.20 = bull 0.70 - bear 0.50 (buy at >= +0.20). BULL: Methanex is surging strongly today by +10.63% to $69.43, backed by robust fundamental momentum following its Q3 earnings and revenue beat reported on October 29, 2026, which highlighted higher earnings and cash flows. Volume is expanding healthily with relative volume hitting 1.74x normal, and the stock is trading +11.06% above its 20-day moving average. Although intraday session history is limited to a single observation at rank 15 with zero drawdown from its observed high of $69.43, the combination of a major post-earnings catalyst and strong volume confirmation provides solid continuation potential. Entering at current prices targets further upside as the market digests the strong Q3 fundamental report. BEAR: Methanex is up 10.63% on the session and trading 11.06% above its 20-day moving average following a flurry of Q3 earnings and revenue beat headlines released on 2026-10-29, exactly one calendar day before the current session. Because this positive catalyst is now a day old and the stock has already surged into an extended state with relative volume at 1.74x, late buyers are walking into a price-already-priced scenario where the primary post-earnings thrust has largely matured. Without continuous intraday positive momentum intervals to confirm ongoing accumulation at these highs, chasing a double-digit gap extension risks trapping capital right as profit-taking absorbs the initial earnings enthusiasm.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ATEC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GDYN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RDDT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INTC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BFAM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HTO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EDHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "REGN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ABR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CPRI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CDNA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRMD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VRRM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "COUR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MEOH",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 27.07% (bid $60.42, ask $79.34); 1% max"
+    }
+  ]
+}

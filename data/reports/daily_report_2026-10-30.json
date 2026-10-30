@@ -1,0 +1,1509 @@
+{
+  "date": "2026-10-30",
+  "events": [
+    {
+      "at_et": "2026-10-30T08:46:30-04:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-10-30T08:52:57-04:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-10-30T09:31:34-04:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "SNY",
+            "action": "submitted",
+            "order": {
+              "symbol": "SNY",
+              "qty": 4,
+              "est_cost": 179.76,
+              "entry_ref": 44.94,
+              "take_profit": 46.49,
+              "remaining_take_profit_pct": 3.45,
+              "stop_loss": 44.27,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261030-093133-SNY",
+              "analysis_price": 44.88,
+              "live_price_change_pct": 0.13
+            },
+            "broker": {
+              "id": "ec737be2-d468-49b7-89a8-232a893c8dc3",
+              "client_order_id": "ta-20261030-093133-SNY",
+              "symbol": "SNY",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 46.49,
+              "stop_loss": 44.27,
+              "legs": [
+                "9dfe151e-5cdb-464e-ba0a-60e94e1d99dc",
+                "ec69937a-4c09-4e96-acc5-300949489914"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPRI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HPQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NWL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBLX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWLO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T10:23:07-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1016.json",
+        "shortlist": [
+          "ATEC",
+          "OSPN",
+          "RDDT",
+          "EDHL",
+          "INTC",
+          "GDYN",
+          "ACCO",
+          "BFAM",
+          "REGN",
+          "ABR",
+          "NPKI",
+          "CPRI",
+          "CDNA",
+          "SXTC",
+          "CRMD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ACCO",
+            "action": "submitted",
+            "order": {
+              "symbol": "ACCO",
+              "qty": 38,
+              "est_cost": 196.08,
+              "entry_ref": 5.16,
+              "take_profit": 5.36,
+              "remaining_take_profit_pct": 3.88,
+              "stop_loss": 5.0,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261030-102306-ACCO",
+              "analysis_price": 5.06,
+              "live_price_change_pct": 1.98
+            },
+            "broker": {
+              "id": "32304da7-dab3-429d-85bd-5aa63c07f4fc",
+              "client_order_id": "ta-20261030-102306-ACCO",
+              "symbol": "ACCO",
+              "qty": "38",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.36,
+              "stop_loss": 5.0,
+              "legs": [
+                "44e9c65c-6a12-4e32-bf35-235d6a5cb305",
+                "1c6a9e59-03ac-4ab2-a9c3-9fc981ee36de"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "bid/ask spread too wide: 5.75% (bid $875.22, ask $927.00); 1% max"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPKI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPRI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T10:53:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1046.json",
+        "shortlist": [
+          "ATEC",
+          "OSPN",
+          "RDDT",
+          "GDYN",
+          "EDHL",
+          "INTC",
+          "BFAM",
+          "REGN",
+          "ABR",
+          "NPKI",
+          "CDNA",
+          "CPRI",
+          "CRMD",
+          "VRRM",
+          "COUR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "OSPN",
+            "action": "submitted",
+            "order": {
+              "symbol": "OSPN",
+              "qty": 7,
+              "est_cost": 181.16,
+              "entry_ref": 25.88,
+              "take_profit": 28.21,
+              "remaining_take_profit_pct": 9.0,
+              "stop_loss": 24.85,
+              "confidence": 0.65,
+              "client_order_id": "ta-20261030-105351-OSPN",
+              "analysis_price": 25.88,
+              "live_price_change_pct": 0.0
+            },
+            "broker": {
+              "id": "6138f12b-2012-48f2-b24a-bcd4d50bb948",
+              "client_order_id": "ta-20261030-105351-OSPN",
+              "symbol": "OSPN",
+              "qty": "7",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 28.21,
+              "stop_loss": 24.85,
+              "legs": [
+                "a4e17d6e-5c96-43b9-ae26-d821a9e41875",
+                "491c8258-e738-4798-b127-38a61ccf03b8"
+              ]
+            }
+          },
+          {
+            "symbol": "NPKI",
+            "action": "submitted",
+            "order": {
+              "symbol": "NPKI",
+              "qty": 19,
+              "est_cost": 190.76,
+              "entry_ref": 10.04,
+              "take_profit": 10.49,
+              "remaining_take_profit_pct": 4.48,
+              "stop_loss": 9.62,
+              "confidence": 0.65,
+              "client_order_id": "ta-20261030-105351-NPKI",
+              "analysis_price": 9.99,
+              "live_price_change_pct": 0.5
+            },
+            "broker": {
+              "id": "6998c0c7-455b-4983-9a2f-a34baa729a69",
+              "client_order_id": "ta-20261030-105351-NPKI",
+              "symbol": "NPKI",
+              "qty": "19",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 10.49,
+              "stop_loss": 9.62,
+              "legs": [
+                "86be6231-8eef-4864-86f3-22928f08d028",
+                "9de103b9-dd7e-40e3-ac22-ba90969035c9"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPRI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T11:23:04-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1116.json",
+        "shortlist": [
+          "ATEC",
+          "GDYN",
+          "RDDT",
+          "INTC",
+          "BFAM",
+          "HTO",
+          "EDHL",
+          "REGN",
+          "ABR",
+          "CPRI",
+          "CDNA",
+          "CRMD",
+          "VRRM",
+          "COUR",
+          "MEOH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPRI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "bid/ask spread too wide: 27.07% (bid $60.42, ask $79.34); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T11:52:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1146.json",
+        "shortlist": [
+          "ATEC",
+          "GDYN",
+          "RDDT",
+          "BFAM",
+          "INTC",
+          "HTO",
+          "EDHL",
+          "ACCO",
+          "REGN",
+          "CRMD",
+          "ABR",
+          "CDNA",
+          "CPRI",
+          "VRRM",
+          "MEOH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CPRI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "bid/ask spread too wide: 27.07% (bid $60.42, ask $79.34); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T12:22:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1216.json",
+        "shortlist": [
+          "ATEC",
+          "GDYN",
+          "RDDT",
+          "BFAM",
+          "INTC",
+          "ACCO",
+          "HTO",
+          "EDHL",
+          "CRMD",
+          "REGN",
+          "MEOH",
+          "ABR",
+          "CPRI",
+          "VRRM",
+          "CDNA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GDYN",
+            "action": "submitted",
+            "order": {
+              "symbol": "GDYN",
+              "qty": 15,
+              "est_cost": 190.95,
+              "entry_ref": 12.73,
+              "take_profit": 13.83,
+              "remaining_take_profit_pct": 8.64,
+              "stop_loss": 12.24,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261030-122242-GDYN",
+              "analysis_price": 12.685,
+              "live_price_change_pct": 0.35
+            },
+            "broker": {
+              "id": "e42f8521-bacb-4223-ad0f-53dc6dda0c2a",
+              "client_order_id": "ta-20261030-122242-GDYN",
+              "symbol": "GDYN",
+              "qty": "15",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 13.83,
+              "stop_loss": 12.24,
+              "legs": [
+                "c2786e2e-9ad3-44a3-b192-26671a7b70c5",
+                "715748c1-412d-4837-8937-09bd5cdb0322"
+              ]
+            }
+          },
+          {
+            "symbol": "CPRI",
+            "action": "submitted",
+            "order": {
+              "symbol": "CPRI",
+              "qty": 10,
+              "est_cost": 188.0,
+              "entry_ref": 18.8,
+              "take_profit": 19.98,
+              "remaining_take_profit_pct": 6.28,
+              "stop_loss": 18.27,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261030-122242-CPRI",
+              "analysis_price": 18.78,
+              "live_price_change_pct": 0.11
+            },
+            "broker": {
+              "id": "3248c326-14fb-4ee6-bffc-c5fcf5a0519f",
+              "client_order_id": "ta-20261030-122242-CPRI",
+              "symbol": "CPRI",
+              "qty": "10",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 19.98,
+              "stop_loss": 18.27,
+              "legs": [
+                "d90dbc02-c05e-4e29-bf77-f2def790fba1",
+                "b17c8ebb-54db-44cc-b749-6bece40a6fdc"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "bid/ask spread too wide: 28.86% (bid $60.42, ask $80.80); 1% max"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T13:00:16-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1246.json",
+        "shortlist": [
+          "ATEC",
+          "RDDT",
+          "BFAM",
+          "ACCO",
+          "CRMD",
+          "INTC",
+          "GPN",
+          "HTO",
+          "EDHL",
+          "REGN",
+          "ABR",
+          "COUR",
+          "MEOH",
+          "CDNA",
+          "SXTC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ACCO",
+            "action": "submitted",
+            "order": {
+              "symbol": "ACCO",
+              "qty": 15,
+              "est_cost": 79.8,
+              "entry_ref": 5.32,
+              "take_profit": 5.64,
+              "remaining_take_profit_pct": 6.02,
+              "stop_loss": 5.18,
+              "confidence": 0.65,
+              "client_order_id": "ta-20261030-130016-ACCO",
+              "analysis_price": 5.305,
+              "live_price_change_pct": 0.28
+            },
+            "broker": {
+              "id": "2c0dbab7-77f3-41ff-ab1f-157bfc06b4d9",
+              "client_order_id": "ta-20261030-130016-ACCO",
+              "symbol": "ACCO",
+              "qty": "15",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.64,
+              "stop_loss": 5.18,
+              "legs": [
+                "a83d2b69-df88-4399-9505-4a4031d590d5",
+                "7b1a3d3a-6f62-4a4c-b86e-f0d3fb81e131"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T13:22:42-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1316.json",
+        "shortlist": [
+          "ATEC",
+          "RDDT",
+          "BFAM",
+          "GPN",
+          "CRMD",
+          "INTC",
+          "HTO",
+          "COUR",
+          "EDHL",
+          "REGN",
+          "MEOH",
+          "SNY",
+          "ABR",
+          "SXTC",
+          "APPS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SNY",
+            "action": "submitted",
+            "order": {
+              "symbol": "SNY",
+              "qty": 4,
+              "est_cost": 178.2,
+              "entry_ref": 44.55,
+              "take_profit": 46.35,
+              "remaining_take_profit_pct": 4.04,
+              "stop_loss": 43.71,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261030-132242-SNY",
+              "analysis_price": 44.52,
+              "live_price_change_pct": 0.07
+            },
+            "broker": {
+              "id": "82e997e1-2f42-4316-b87f-4675499a7069",
+              "client_order_id": "ta-20261030-132242-SNY",
+              "symbol": "SNY",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 46.35,
+              "stop_loss": 43.71,
+              "legs": [
+                "bbbea8b1-c26c-4978-b65b-3adfef6a1101",
+                "34be485f-958b-4ddb-8332-8ba66a6e5867"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "bid/ask spread too wide: 14.19% (bid $71.57, ask $82.50); 1% max"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T13:52:51-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1346.json",
+        "shortlist": [
+          "ATEC",
+          "RDDT",
+          "BFAM",
+          "GPN",
+          "OSPN",
+          "CRMD",
+          "INTC",
+          "COUR",
+          "HTO",
+          "REGN",
+          "EDHL",
+          "MEOH",
+          "ABR",
+          "SXTC",
+          "APPS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "bid/ask spread too wide: 5.75% (bid $875.22, ask $927.00); 1% max"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APPS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T14:23:13-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1416.json",
+        "shortlist": [
+          "ATEC",
+          "RDDT",
+          "BFAM",
+          "OSPN",
+          "GPN",
+          "CRMD",
+          "INTC",
+          "COUR",
+          "HTO",
+          "REGN",
+          "MEOH",
+          "EDHL",
+          "ABR",
+          "SXTC",
+          "VRRM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRRM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T14:53:10-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1446.json",
+        "shortlist": [
+          "ATEC",
+          "RDDT",
+          "BFAM",
+          "OSPN",
+          "GPN",
+          "CRMD",
+          "INTC",
+          "NPKI",
+          "COUR",
+          "REGN",
+          "MEOH",
+          "HTO",
+          "EDHL",
+          "ABR",
+          "SXTC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OSPN",
+            "reason": "bid/ask spread too wide: 14.85% (bid $21.75, ask $25.24); 1% max"
+          },
+          {
+            "symbol": "GPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPKI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "bid/ask spread too wide: 16.20% (bid $60.34, ask $70.98); 1% max"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T15:23:31-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1516.json",
+        "shortlist": [
+          "ATEC",
+          "RDDT",
+          "BFAM",
+          "OSPN",
+          "GPN",
+          "CRMD",
+          "INTC",
+          "NPKI",
+          "COUR",
+          "REGN",
+          "MEOH",
+          "HTO",
+          "ABR",
+          "XMAX",
+          "EDHL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "OSPN",
+            "action": "submitted",
+            "order": {
+              "symbol": "OSPN",
+              "qty": 7,
+              "est_cost": 176.75,
+              "entry_ref": 25.25,
+              "take_profit": 27.47,
+              "remaining_take_profit_pct": 8.79,
+              "stop_loss": 24.28,
+              "confidence": 0.65,
+              "client_order_id": "ta-20261030-152331-OSPN",
+              "analysis_price": 25.2,
+              "live_price_change_pct": 0.2
+            },
+            "broker": {
+              "id": "655d7c88-29e8-4e88-9f12-bfb1b70a48b6",
+              "client_order_id": "ta-20261030-152331-OSPN",
+              "symbol": "OSPN",
+              "qty": "7",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 27.47,
+              "stop_loss": 24.28,
+              "legs": [
+                "5ba87811-3d65-496b-97c8-ada0afc074aa",
+                "fb017620-0085-4fc1-8b75-187a65ed3755"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPKI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T15:53:17-04:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-10-30/shortlist_1546.json",
+        "shortlist": [
+          "ATEC",
+          "RDDT",
+          "BFAM",
+          "GPN",
+          "CRMD",
+          "INTC",
+          "NPKI",
+          "COUR",
+          "REGN",
+          "MEOH",
+          "ABR",
+          "HTO",
+          "XMAX",
+          "CDNA",
+          "EDHL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RDDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BFAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRMD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPKI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "COUR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MEOH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-10-30T15:53:17-04:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
