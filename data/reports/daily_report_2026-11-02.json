@@ -1,0 +1,1343 @@
+{
+  "date": "2026-11-02",
+  "events": [
+    {
+      "at_et": "2026-11-02T07:46:39-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-02T08:52:49-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-11-02T09:31:51-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECHO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EL",
+            "reason": "bid/ask spread too wide: 9.54% (bid $105.94, ask $116.55); 1% max"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T10:21:53-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1016.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "SUPN",
+          "PGEN",
+          "AFYA",
+          "NVA",
+          "QURE",
+          "SXTC",
+          "IDXX",
+          "AXSM",
+          "SGML",
+          "LITE",
+          "ATEC",
+          "ULCC",
+          "IOVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AFYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "bid/ask spread too wide: 4.99% (bid $615.41, ask $646.89); 1% max"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T10:52:05-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1046.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "SUPN",
+          "NVA",
+          "PGEN",
+          "SGML",
+          "AFYA",
+          "QURE",
+          "IDXX",
+          "SXTC",
+          "AXSM",
+          "LITE",
+          "ATEC",
+          "ULCC",
+          "IOVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NVA",
+            "action": "submitted",
+            "order": {
+              "symbol": "NVA",
+              "qty": 43,
+              "est_cost": 198.66,
+              "entry_ref": 4.62,
+              "take_profit": 5.04,
+              "remaining_take_profit_pct": 9.09,
+              "stop_loss": 4.44,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261102-105205-NVA",
+              "analysis_price": 4.69,
+              "live_price_change_pct": -1.49
+            },
+            "broker": {
+              "id": "4d789842-a962-497f-adf6-1b094d8fa684",
+              "client_order_id": "ta-20261102-105205-NVA",
+              "symbol": "NVA",
+              "qty": "43",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.04,
+              "stop_loss": 4.44,
+              "legs": [
+                "ecdc11b2-624c-42e8-b7f5-937bc8ea6f8c",
+                "11f5f6c5-d106-43d4-b72b-1eb1bfbba4bc"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "bid/ask spread too wide: 7.09% (bid $41.92, ask $45.00); 1% max"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AFYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "bid/ask spread too wide: 18.68% (bid $23.00, ask $27.74); 1% max"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IOVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T11:21:54-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1116.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "SGML",
+          "PGEN",
+          "IDXX",
+          "NVA",
+          "QURE",
+          "SXTC",
+          "SUPN",
+          "AFYA",
+          "AXSM",
+          "LITE",
+          "ATEC",
+          "ULCC",
+          "MLYS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AFYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MLYS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T11:52:05-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1146.json",
+        "shortlist": [
+          "CLRO",
+          "DUKU",
+          "XMAX",
+          "SGML",
+          "PGEN",
+          "IDXX",
+          "NVA",
+          "SXTC",
+          "QURE",
+          "SUPN",
+          "AXSM",
+          "LITE",
+          "AFYA",
+          "ULCC",
+          "MLYS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "bid/ask spread too wide: 1.80% (bid $655.80, ask $667.68); 1% max"
+          },
+          {
+            "symbol": "NVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AFYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MLYS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T12:21:34-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1216.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "DUKU",
+          "SGML",
+          "IDXX",
+          "PGEN",
+          "NVA",
+          "SXTC",
+          "QURE",
+          "LITE",
+          "AXSM",
+          "SUPN",
+          "AFYA",
+          "ULCC",
+          "TEM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "bid/ask spread too wide: 7.19% (bid $615.89, ask $661.80); 1% max"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AFYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T12:51:51-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1246.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "DUKU",
+          "SGML",
+          "IDXX",
+          "NVA",
+          "PGEN",
+          "SXTC",
+          "QURE",
+          "LITE",
+          "AXSM",
+          "ATEC",
+          "ULCC",
+          "AFYA",
+          "TEM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "bid/ask spread too wide: 5.21% (bid $660.06, ask $695.37); 1% max"
+          },
+          {
+            "symbol": "NVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULCC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AFYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEM",
+            "reason": "bid/ask spread too wide: 7.35% (bid $76.19, ask $82.00); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T13:22:03-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1316.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "SGML",
+          "DUKU",
+          "IDXX",
+          "NVA",
+          "PGEN",
+          "SXTC",
+          "LITE",
+          "QURE",
+          "AXSM",
+          "ATEC",
+          "GDYN",
+          "ADAM",
+          "ULCC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "NVA",
+            "action": "submitted",
+            "order": {
+              "symbol": "NVA",
+              "qty": 42,
+              "est_cost": 195.72,
+              "entry_ref": 4.66,
+              "take_profit": 5.05,
+              "remaining_take_profit_pct": 8.37,
+              "stop_loss": 4.48,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261102-132203-NVA",
+              "analysis_price": 4.63,
+              "live_price_change_pct": 0.65
+            },
+            "broker": {
+              "id": "f90ee005-a602-4250-b682-b6db260f8264",
+              "client_order_id": "ta-20261102-132203-NVA",
+              "symbol": "NVA",
+              "qty": "42",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.05,
+              "stop_loss": 4.48,
+              "legs": [
+                "d7038b31-f0fc-40b5-a6e2-e5b865ea155d",
+                "c9b47c3b-2695-476e-9551-ae1cb931b0d4"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ULCC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T13:52:16-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1346.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "SGML",
+          "DUKU",
+          "CMPS",
+          "IDXX",
+          "PGEN",
+          "LITE",
+          "QURE",
+          "SXTC",
+          "HELP",
+          "GDYN",
+          "AXSM",
+          "ADAM",
+          "ATEC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATEC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T14:22:14-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1416.json",
+        "shortlist": [
+          "CLRO",
+          "XMAX",
+          "CMPS",
+          "SGML",
+          "DUKU",
+          "IDXX",
+          "PGEN",
+          "LITE",
+          "QURE",
+          "SXTC",
+          "HELP",
+          "MLYS",
+          "GDYN",
+          "ADAM",
+          "TEM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEM",
+            "reason": "bid/ask spread too wide: 9.96% (bid $76.21, ask $84.20); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T15:02:26-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1446.json",
+        "shortlist": [
+          "CLRO",
+          "CMPS",
+          "XMAX",
+          "SGML",
+          "DUKU",
+          "IDXX",
+          "PGEN",
+          "LITE",
+          "SXTC",
+          "QURE",
+          "MLYS",
+          "SRAD",
+          "HELP",
+          "ADAM",
+          "GDYN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T15:22:14-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1516.json",
+        "shortlist": [
+          "CLRO",
+          "SGML",
+          "CMPS",
+          "XMAX",
+          "DUKU",
+          "IDXX",
+          "PGEN",
+          "LITE",
+          "SXTC",
+          "QURE",
+          "MLYS",
+          "ADAM",
+          "SRAD",
+          "GDYN",
+          "ACCO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACCO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T15:52:08-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-02/shortlist_1546.json",
+        "shortlist": [
+          "CLRO",
+          "SGML",
+          "CMPS",
+          "XMAX",
+          "DUKU",
+          "IDXX",
+          "PGEN",
+          "LITE",
+          "SXTC",
+          "MLYS",
+          "REPL",
+          "QURE",
+          "ADAM",
+          "GDYN",
+          "SRAD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "REPL",
+            "action": "submitted",
+            "order": {
+              "symbol": "REPL",
+              "qty": 10,
+              "est_cost": 194.6,
+              "entry_ref": 19.46,
+              "take_profit": 21.65,
+              "remaining_take_profit_pct": 11.25,
+              "stop_loss": 18.72,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261102-155208-REPL",
+              "analysis_price": 19.61,
+              "live_price_change_pct": -0.76
+            },
+            "broker": {
+              "id": "47859e1d-d7a8-4cee-9580-50aa405cb6c7",
+              "client_order_id": "ta-20261102-155208-REPL",
+              "symbol": "REPL",
+              "qty": "10",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 21.65,
+              "stop_loss": 18.72,
+              "legs": [
+                "f0b52a51-5fd8-44ff-88a9-f5a821f27ce1",
+                "c9ed41bd-130c-4123-bdd3-5986a29b02ba"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGML",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CMPS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUKU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IDXX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LITE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SXTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MLYS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QURE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDYN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SRAD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-02T15:52:08-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

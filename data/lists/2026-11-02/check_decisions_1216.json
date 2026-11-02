@@ -1,0 +1,241 @@
+{
+  "generated_at": "2026-11-02T12:21:34-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CLRO",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: CLRO is demonstrating massive relative strength on the day with a 73.61% price surge to $5.92 and relative volume running at 4.48x normal alongside prominent premarket mover coverage on November 2, 2026. While the tape shows a 6.47% drawdown from its observed high of $6.33 across 5 consecutive scans over 120 minutes, it maintains rank #1 and sits 65.06% above its 20-day moving average. With upcoming earnings scheduled for November 12, 2026, building momentum and high visibility can fuel further continuation. BEAR: CLRO is exhibiting classic chasing and exhaustion characteristics, up 73.61% on the day to $5.92 and sitting 65.06% above its 20-day moving average on general premarket mover headlines from Benzinga and ChartMill that offer no proprietary company catalyst. Same-session momentum has measurably deteriorated over 120 minutes with 5 consecutive scans showing a 6.47% drawdown from its observed high of $6.33 and negative price acceleration of -3.63%. Furthermore, upcoming earnings are just 10 calendar days away on 2026-11-12, introducing severe event risk directly into the holding window. Buying here means stepping in as exit liquidity into a fading premarket sympathy move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XMAX",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: XMAX offers a compelling tactical bounce opportunity backed by a major same-session catalyst, featuring headlines on 2026-11-02 announcing a 5-year AI infrastructure services agreement with DSH HYPER expected to generate over $100 million in revenue. Despite a severe intraday sell-off of -32.74% down to $4.32, heavy participation persists with relative volume at 3.40x normal and recent tape stabilization shown by rank improvement from 3 to 2, positive price acceleration of +0.566 percentage points, and a score increase of 0.774 across five consecutive observations. With upcoming earnings on 2026-11-13 providing a secondary fundamental horizon, the extreme oversold condition (-48.68% from its 20-day MA) combined with the fresh multi-million dollar contract creates a powerful setup for a sharp mean-reversion rally. BEAR: Buying XMAX today presents a severe trap despite the fresh same-session AI Infrastructure Services Agreement headlines announcing over $100 million in expected revenue with DSH HYPER. The stock is experiencing a catastrophic -32.74% day change to $4.32, sitting -48.68% away from its 20-day moving average while displaying measurable tape deterioration including a 9.92% drawdown from its observed high of $4.79 and an ongoing -8.96% drop since first seen. With relative volume dropping to a rate of 0.293 per 30 minutes and earnings looming in just 11 calendar days on November 13, 2026, the steep price collapse confirms that market participants are aggressively selling into the headline news rather than accumulating.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+08 - no matching value in source data",
+        "bear: cited 1e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "DUKU",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: DUKU presents a unique technical entry today at $50.72 backed by an explosive 6.38x relative volume surge against its 20-day history despite a minor 1.20% daily pullback. The catalyst report contains no direct company-specific headline explaining the move, leaving the price action driven purely by extraordinary volume participation and a 3.18% buffer above its 20-day moving average. Across two consecutive observations spanning 30 minutes, the stock has held its observed high of $50.715 with 0.0% drawdown, demonstrating resilient institutional accumulation despite mixed intraday signals. This tape-driven momentum offers a compelling short-term swing opportunity for traders capitalizing on massive relative volume anomalies in the utilities sector. BEAR: DUKU is trading down 1.20% on the session at $50.72 while exhibiting a massive relative volume spike of 6.38x normal, yet its same-session momentum shows a rank deterioration from 2 to 3 with a negative score change of -1.5384 over its observed 30-minute window. The catalyst report lacks any direct company-specific news for DUKU today, relying instead on generic sector headlines like the Nov 1 Yahoo piece about utility stocks and dividend income that was published 1 calendar day before the session. Buying into this high-volume drop without a fresh company catalyst creates a severe chasing vulnerability, compounded by tape deterioration where participation is failing to lift price acceleration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SGML",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: SGML is experiencing extreme oversold conditions down 18.00% on the session to $5.74 and trading at 3.06x normal relative volume, presenting a classic washout dip-buying opportunity for a mean-reversion bounce. The intraday tape shows resilience across 5 consecutive scans over 120 minutes, featuring a recent 1.68% bounce in return since the previous period and positive price acceleration of 0.1998 percentage points despite a larger prior drop. While recent news from October 29 regarding lower costs and Brazil's industrial future highlights ongoing strategic positioning, the immediate bull case relies entirely on the heavy capitulation volume establishing an intraday floor. With a tight drawdown of only 4.73% from the observed high of $6.025, the stock retains solid room to run back toward psychological resistance levels over the next few sessions. BEAR: SGML is suffering a severe downside session with an 18.00% day change and a price sitting 32.87% below its 20-day moving average at $5.74, while volume participation shows measurable deterioration with a rel_volume_rate_per_30m of just 0.368 and a declining rel_volume_rate_change of -0.1651. Although the stock has managed a tiny positive return of 1.68% since the previous scan, it remains down 2.87% since first seen 120 minutes ago and sits 4.73% below its observed high of $6.025. Furthermore, the October 29 Yahoo headline 'Sigma Lithium bets on lower costs and Brazil\u2019s industrial future' is 4 days old and fails to provide any immediate bullish catalyst to arrest this heavy downward momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IDXX",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: IDXX is surging today on robust fundamental catalysts, specifically reporting a third-quarter earnings beat and increased FY2026 guidance as highlighted in headlines from 2026-11-02. The stock exhibits immense strength with a 19.29% day change, trading at 1.89x normal relative volume and holding near its session high of $659.17 with a minimal drawdown of only -0.2458%. Furthermore, consecutive momentum is confirmed by 5 observations over 120 minutes, 3 positive intervals, and an improving rank of 5 up from 6. This strong alignment of fundamental news and aggressive price persistence provides a compelling multi-hour to multi-day buying opportunity. BEAR: IDXX is trading up +19.29% on the session and is extended 20.91% above its 20-day moving average following fresh Q3 earnings beat headlines on 2026-11-02. However, the intraday momentum history shows immediate signs of exhaustion, featuring a negative return of -0.2458% since the previous interval, a drawdown of -0.2458% from the observed high of $659.17, and a negative price acceleration of -2.3414 percentage points. Buying at this juncture means chasing an overextended gap where the primary earnings catalyst is already fully public and priced in, leaving late buyers vulnerable to an intraday mean-reversion pull.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PGEN",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: PGEN presents a high-beta bounce opportunity following a sharp 23.99% pre-market sell-off on November 2, 2026, driven by retail speculation regarding a buyout opening as noted in headlines like 'PGEN Stock Crashes Premarket: Retail Sees Buyout Opening As Inovio Rival Crashes The Party Before Earnings'. Despite the steep gap down, same-session momentum shows five consecutive observations over 120 minutes with a positive return of 3.9409% since first seen and 0.0% drawdown from its observed high of $5.275. Volume participation remains elevated with a relative volume of 1.76x normal, offering an aggressive mean-reversion setup heading into upcoming earnings on November 11, 2026. BEAR: Buying PGEN today involves stepping directly in front of a catastrophic -23.99% day crash driven by fresh November 2, 2026 news headlines such as 'PGEN Stock Crashes Premarket: Retail Sees Buyout Opening As Inovio Rival Crashes The Party Before Earnings'. While the stock has bounced marginally off its lows with a 3.94% return since first seen, it is trading 24.01% below its 20-day moving average on weak relative volume rate of 0.1305 and a worsening rank from 5 to 6. Furthermore, with earnings scheduled in just 9 calendar days on November 11, 2026, entering now traps capital in a severely impaired downtrend right ahead of an unpredictable binary report.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NVA",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.10 = bull 0.80 - bear 0.70 (buy at >= +0.20). BULL: NVA is staging a major momentum breakout on October 28-29 headlines, including news from 5 calendar days before the session on October 28 that Nova Minerals cleared final permitting for its Alaska antimony project and targets 2027 production. The stock has surged 20.08% on the day with heavy volume confirmation at 2.25x normal and is trading 15.47% above its 20-day moving average. Furthermore, the intraday tape shows strong persistence with 5 consecutive scans over 120 minutes, 3 positive observed intervals out of 4, and a mild drawdown of only -2.45% from its observed high of $4.69. BEAR: NVA is up 20.08% on the session and trading 15.47% above its 20-day MA, but the positive catalysts\u2014such as the final approvals for the Alaska antimony development\u2014are already 5 calendar days old from October 28 and fully priced in. Furthermore, same-session momentum shows clear signs of fading as price acceleration has turned negative at -0.7824 percentage points and the relative volume rate per 30m has slowed to just 0.1688 with a -0.0361 rate change. Entering at this level means chasing an extended move where participation is actively drying up and the key headlines are behind the trade rather than ahead of it.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SXTC",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 1.44,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: SXTC is trading at $2.85 with five consecutive observations showing stabilization after an initial pullback, including a recent positive return of 0.3521 percent since the previous scan. The catalyst report contains no earnings, dividends, or news, meaning this is a pure tape-driven setup without known fundamental headlines to anchor the move. However, the observed high reached $2.91 with a modest drawdown of only 2.0619 percent from that high, reflecting steady holding behavior despite very low relative volume of 0.07x normal. Given the lack of confirming volume and catalysts, this is a speculative tape-only case with limited evidence of persistence. BEAR: Buying SXTC carries severe volume non-confirmation and total lack of participation, with a relative volume of just 0.07x normal and a stagnant rel volume rate of 0.0026 per 30 minutes. The stock is down 12.31% on the session and sits 92.45% below its 20-day moving average, signaling deep structural weakness rather than a buyable dip. Furthermore, the catalyst report shows zero earnings, dividends, or news events to provide fundamental backing for any recovery within the short-term holding window. This combination of dead volume, absence of catalysts, and persistent downward drift makes an entry extremely hazardous.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QURE",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: QURE presents a compelling catalyst-driven buying opportunity following the announcement on 2026-11-02 of FDA Acceptance and Priority Review of the Biologics License Application for ifezuntirgene inilparvovec in Huntington's Disease. Despite the session's 5.22% pullback to $23.54, volume remains robust at 2.40x normal with five consecutive observations showing steady persistence and a modest 2.58% drawdown from the observed high of $24.16. This heavy institutional engagement and major regulatory milestone provide strong fundamental backing for a sharp rebound over the coming sessions. The combination of an expedited FDA review path and active tape participation creates a high-conviction setup for intraday to multi-day momentum continuation. BEAR: Buying QURE today presents clear chasing and exhaustion dynamics, as the stock is down 5.22% on the session despite a fresh same-session catalyst regarding the FDA acceptance and priority review for iezuntirgene inilparvovec. The price has dropped 2.58% from its observed high of $24.16, showing negative price acceleration and a return of -1.19% since first seen 120 minutes ago. Furthermore, the broader context includes recent warnings that the stock could be overvalued despite a securities investigation, adding overhang to any immediate upside continuation. With relative volume fading and consecutive intervals pointing to downward drift from the high, entering here risks catching a 'buy the rumor, sell the news' fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LITE",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: Lumentum (LITE) has dropped 13.99% on the session to $723.08 amid massive sector focus driven by Marvell's $115 billion acquisition of optical components maker Lumentum announced on 2026-11-02. Despite a drawdown of 3.96% from its observed high of $752.93 and negative returns since first seen, the stock exhibits significant institutional participation with a relative volume of 1.39x normal and a rank improvement of 2 spots to rank 10. The monumental industry validation provided by the Marvell deal highlights the scarce value of AI optics, creating a compelling dip-buying opportunity for a sharp mean-reversion rebound. With a positive price acceleration of 0.0152 percentage points and improving rank momentum over 5 consecutive scans, LITE offers substantial upside as the market digests this transformative sector catalyst. BEAR: LITE is experiencing a severe downward shock, plunging -13.99% on the session and trading 21.56% below its 20-day moving average. Despite fresh same-session headlines regarding Marvell's $115 billion acquisition of Lumentum, the tape shows clear deterioration with the price extending 3.96% down from its observed high and falling further by 3.86% since first being seen. Furthermore, relative volume is contracting with a meager rate of 0.1246 per 30 minutes and a declining rate change of -0.0378, confirming that buying interest is drying up while the stock knives downward. Attempting to catch this falling knife exposes a trader to massive momentum bleed despite the high-profile acquisition news.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.15e+11 - no matching value in source data",
+        "bear: cited 1.15e+11 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "AXSM",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: Axsome Therapeutics presents a compelling dip-buying opportunity on 2026-11-02 following fresh Q3 earnings releases showing a 52% jump in revenue and narrowed losses, despite market volatility causing a 9.29% day change. Despite the intraday slide, the tape shows remarkable resilience through 5 consecutive observations over 120 minutes, generating a positive return since first seen of 2.3555% and 0.0% drawdown from the observed high of 131.015. With elevated relative volume at 1.55x normal and active participation confirming the recovery bounce from -16.99% below its 20-day MA, buyers are stepping in aggressively to reprice the strong fundamental earnings beat. This combination of strong Q3 revenue expansion headlines and immediate intraday stabilization provides a high-probability setup for a multi-day reversion rally. BEAR: AXSM is down 9.29% on the session and sits 16.99% below its 20-day moving average, reflecting severe downward pressure despite fresh Q3 earnings headlines published on 2026-11-02 that show mixed reactions of soaring revenue alongside sliding share prices. Although the 120-minute intraday history shows a minor bounce of 2.36% from its first seen price, the rel volume rate remains thin at 0.1581 per 30 minutes with a negative price acceleration of -0.75 percentage points. Buying today means stepping in front of a heavy institutional sell-off where post-earnings distribution is actively overwhelming minor intraday relief rallies.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SUPN",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.12,
+      "reasoning": "net -0.05 = bull 0.45 - bear 0.50 (buy at >= +0.20). BULL: SUPN shows notable volume backing with a relative volume of 2.69x normal while trading at $41.92, supported by fresh fundamental attention following the Q3 earnings release and Indivior merger headlines from October 30 to November 1, 2026. The stock has demonstrated persistent participation through 5 consecutive scan observations over 120 minutes with zero drawdown from its observed high of $41.92. However, price momentum has stalled with a return of 0.0% since first seen and flat interval returns, keeping confidence modest. We play for a breakout continuation given the heavy relative volume and recent portfolio integration news. BEAR: SUPN is presenting a stagnant chase setup following its Q3 earnings and Indivior merger headlines from 1 to 3 days ago (2026-10-30 to 2026-11-01), meaning the primary news driver is already fully public and priced in. Furthermore, the same-session momentum history reveals complete stagnation over 120 minutes with zero positive observed intervals, a negative score change of -0.7109, and a worsening rank dropping from 10 to 12. With volume rate dropping to 0.0 and no active price acceleration, buying here offers poor participation quality right as the post-earnings enthusiasm fades.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AFYA",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: Afya Limited trades at $10.65 with high relative volume running at 2.26x normal, confirming institutional interest and strong market participation. Although the stock is down 21.12% from its 20-day moving average, it has posted 5 consecutive scan observations over 120 minutes with a positive price acceleration of 1.1883 percentage points and a positive return interval of 0.1646% since the previous scan. Furthermore, upcoming earnings are scheduled for 2026-11-12 (10 calendar days after the session), providing an upcoming fundamental catalyst that can drive a sharp reversion toward its moving average. Nothing in the recent news report explicitly explains or drives this specific intraday move, making this a pure tape-driven bounce supported by solid relative volume and positive intraday price acceleration. BEAR: Afya Limited (AFYA) exhibits clear signs of chasing and deterioration despite its 2.26x relative volume and +1.94% day change. The stock trades -21.12% below its 20-day MA while sitting 3.16% below its observed session high of $11.00 after dropping 3.16% since first seen 120 minutes prior. Furthermore, its volume participation is fading rapidly with a rel_volume_rate_per_30m of just 0.0059 and a rel_volume_rate_change of -0.018, confirming that the bounce is running out of fuel. Compounding this, the company faces an upcoming earnings report on 2026-11-12, just 10 calendar days away, which lands squarely within a short-term holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ULCC",
+      "signal": "hold",
+      "confidence": 0.465,
+      "take_profit_pct": 2.95,
+      "stop_loss_pct": 1.77,
+      "reasoning": "net -0.07 = bull 0.75 - bear 0.82 (buy at >= +0.20). BULL: ULCC shows powerful same-session momentum with an 18.06% day change and a price sitting 37.90% above its 20-day moving average. The tape displays persistence backed by 5 consecutive observations over 120 minutes, maintaining a positive return of 1.5333% since first seen and a minimal drawdown of only -0.6523% from its observed high. Furthermore, fundamental tailwinds support this breakout, highlighted by Benzinga's fresh headline on 2026-11-02 titled '5 Top-Ranked Airline Stocks To Buy On IATA's Industry Forecast', which follows recent Q3 earnings beat headlines and analyst target raises from late October. BEAR: Buying ULCC today at $7.62 presents a severe chasing hazard as the stock is already extended +37.90% above its 20-day moving average on an +18.06% single-day surge. The same-session momentum history shows clear measurable deterioration 120 minutes after first being seen, including a negative return of -0.65% since the previous interval, a drawdown of -0.65% from the observed high of $7.655, price acceleration dropping by -1.59 percentage points, and a relative volume rate cooling to 0.0489 per 30m with a rate change of -0.0651. Furthermore, the fresh same-session catalyst headline '5 Top-Ranked Airline Stocks To Buy On IATA's Industry Forecast' coincides with exhausted intraday momentum and an analyst price target from Susquehanna on 2026-10-29 of only $6.50\u2014substantially below current trading levels following the Q3 earnings reports from October 30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TEM",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: Tempus AI is displaying exceptional fundamental and volume momentum following its reported Third Quarter 2026 Results on November 2, 2026, where it posted an adjusted EPS beat of $0.07 versus $(0.08) estimates alongside a sales beat of $411.537M and raised its FY2026 sales guidance. The stock is surging +13.11% on the session to trade at $81.69, supported by robust relative volume of 1.27x normal and institutional accumulation as evidenced by Cathie Wood's recent $11.2 million purchase. With immediate fundamental catalysts validating the move and strong participation, TEM presents a compelling long setup for continued upside over the next few sessions. BEAR: Buying TEM today at $81.69 means chasing a +13.11% single-session spike that has already extended the stock +16.47% above its 20-day moving average on fresh Q3 2026 earnings headlines. The primary catalysts\u2014such as the EPS beat of $0.07 versus $(0.08) and a minor FY2026 sales guidance raise from $1.595B-$1.605B to $1.600B-$1.605B\u2014are fully public right now on the session date of 2026-11-02, leaving new buyers vulnerable to an immediate post-news fade. Furthermore, relative volume is sitting at a modest 1.27x normal while the stock is observed at an intraday high with zero positive observed intervals of follow-through in the current snippet history, indicating limited participation to sustain further upside from these extended levels.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.12e+07 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CLRO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XMAX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DUKU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SGML",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IDXX",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 7.19% (bid $615.89, ask $661.80); 1% max"
+    },
+    {
+      "symbol": "PGEN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NVA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SXTC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "QURE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LITE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AXSM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SUPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AFYA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ULCC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TEM",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    }
+  ]
+}
