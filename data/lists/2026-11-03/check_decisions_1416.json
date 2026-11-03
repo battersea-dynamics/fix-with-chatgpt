@@ -1,0 +1,275 @@
+{
+  "generated_at": "2026-11-03T14:22:09-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ACB",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 9.38,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net +0.15 = bull 0.90 - bear 0.75 (buy at >= +0.20). BULL: Aurora Cannabis is backed by a monumental same-session catalyst headline on 2026-11-03 showing Organigram to acquire Aurora Cannabis for C$561 million, or C$7.80 per share, leaving substantial arbitrage room above the current $5.15 price. This blockbuster news is powerfully confirmed by massive volume expansion, trading at 8.03x normal relative volume alongside a 22.04% single-day surge and a position +23.95% above its 20-day moving average. Furthermore, the intraday tape shows exceptional persistence with 9 consecutive observations, 240 minutes since first seen, and a minimal drawdown of just -0.29% from its observed high of $5.165. BEAR: Buying ACB today at $5.15 exposes a buyer to severe chasing risk following a massive 22.04% single-session gain driven by the fresh Benzinga headline on 2026-11-03 regarding Organigram's acquisition offer of C$561 million, or C$7.80 per share. With the stock already trading 23.95% above its 20-day moving average and experiencing a blistering relative volume of 8.03x normal, much of the immediate arbitrage or headline-driven enthusiasm is already captured in the price. Furthermore, the intraday momentum shows measurable deceleration with a negative price acceleration of -0.6791 percentage points and a drawdown of -0.2904% from its observed high of $5.165 after 240 minutes of observation. Entering here risks buying the absolute peak of the acquisition announcement spike as the tape begins to stall.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.61e+08 - no matching value in source data",
+        "bear: cited 5.61e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "RYTM",
+      "signal": "hold",
+      "confidence": 0.56,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net +0.12 = bull 0.82 - bear 0.70 (buy at >= +0.20). BULL: Rhythm Pharmaceuticals reported a strong Q3 on November 3, 2026, beating consensus EPS at $(0.61) versus $(0.72) and beating sales estimates with $92.128M alongside securing $750 million in financing and amending its Bivamelagon royalty structure. Despite an initial sell-off of 7.97%, the stock has shown exceptional tape persistence with 9 consecutive observations, a 2.0411% return since first seen, and a zero drawdown from its observed high of $85.99. Volume confirmation is massive with relative volume hitting 6.68x normal alongside an accelerating price path of 1.7409 percentage points, indicating buyers are actively absorbing the news-driven dip. This combination of fundamental beats, major liquidity financing, and resilient intraday continuation creates a high-conviction long entry for a bounce. BEAR: Buying RYTM today exposes the trader to immediate digestion risk following the fresh Q3 earnings release and $750 million financing announcements on 2026-11-03, where launch execution concerns and high spending already weigh on shares and provoked a 7.97% day drop to $85.99. Despite a high relative volume of 6.68x, the same-session momentum history shows severe participation decay with a rel_volume_rate_per_30m of just 0.557 and only 4 positive intervals out of 8 observed. Entering now means buying into heavy institutional distribution on public earnings news that has already triggered a sharp intraday selloff.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 7.5e+08 - no matching value in source data",
+        "bear: cited 7.5e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BVS",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Bioventus is trading down significantly at $10.85 following its Q3 2026 earnings release and pre-market downward pressure, yet Canaccord Genuity has maintained its Buy rating on the stock with an $18 price target on 2026-11-03. The tape shows heavy institutional participation with relative volume surging to 3.86x normal, even though price action displays a deep pullback of -17.53% on the day and a -21.45% distance from its 20-day MA. Across 9 consecutive observed intervals over 240 minutes, the stock has held a stable rank of 3 despite a mixed setup and a modest drawdown of only -2.73% from its observed high of $11.15. This heavy volume capitulation combined with an unchanged analyst Buy rating and a multi-hour stabilization phase creates a compelling mean-reversion setup for a bounce. BEAR: Bioventus dropped sharply by 17.53% on November 3, 2026, coinciding with its Q3 2026 earnings release and a price target cut to $18 by Canaccord Genuity. The session data displays significant selling pressure alongside heavy volume (3.86x normal), with the stock sitting 21.45% below its 20-day moving average. Buying into this severe downward momentum exposes the trader to continued liquidation as the market digests the downbeat Q3 earnings report.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SUPN",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Supernus Pharmaceuticals shares present a classic oversold mean-reversion opportunity following a massive 29.26% single-day drop to $29.66 amid heavy participation with relative volume surging to 2.68x normal. The fundamental backdrop is anchored by major corporate news from November 2, 2026, announcing the completion of the merger between Supernus and Indivior to create a diversified CNS biopharmaceutical leader, accompanied by Q3 portfolio growth deep dives. Intra-day momentum shows stabilization with 9 consecutive observations, a positive score change of 0.8723, and a shallow drawdown of only 2.43% from its observed high of $30.395 over a 240-minute span. This heavy capitulation creates a compelling springboard for a sharp technical bounce as the market absorbs the structural merger integration details. BEAR: Supernus Pharmaceuticals is down a massive 29.26% on November 3, 2026, following the headline 'Supernus and Indivior Complete Merger Creating a Diversified CNS Biopharmaceutical Leader' released 1 calendar day before the session. While the relative volume is elevated at 2.68x normal, the same-session momentum history shows ongoing deterioration with negative returns since the first seen observation and a 2.43% drawdown from its observed high. Catching a falling knife of this magnitude with an active merger integration underway introduces severe structural uncertainty and volatility risks for a short-term hold.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XIFR",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: XIFR presents a compelling oversold bounce opportunity following its third-quarter 2026 earnings release on November 3, 2026, which reported net income of $51 million alongside active earnings call transcripts and presentations. Despite a sharp session drop of -15.39% to $8.16, the stock has shown high liquidity interest with a relative volume of 3.15x normal. Furthermore, the intraday tape demonstrates resilience across 9 consecutive observations over 240 minutes, featuring positive price acceleration of 2.61 percentage points and a score improvement of 0.1602. With the drawdown from its observed high at a manageable -4.67%, buyers have a solid foundation for a short-term mean-reversion trade. BEAR: Buying XIFR today exposes you to immediate chasing and tape deterioration, as the stock is already down -15.39% on the session at $8.16 with a 4.67% drawdown from its observed high of $8.565. The same-session momentum history reveals clear degradation, showing a negative return since first seen (-2.2741%) and a low relative volume rate per 30 minutes of just 0.178, confirming that volume is not supporting a recovery. Furthermore, the fresh same-session catalyst headlines regarding 'XPLR Infrastructure, LP Reports Third-Quarter 2026 Net Income of $51 million' and associated earnings call transcripts have already been fully digested by the market, leaving the steep -17.42% distance from its 20-day moving average without fresh upside fuel.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.1e+07 - no matching value in source data",
+        "bear: cited 5.1e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "VCIG",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: VCIG presents a high-beta bounce candidate following a steep 39.64 percent sell-off on the session down to $4.92, backed by elevated relative volume of 1.30x normal. The move follows a significant corporate catalyst on October 29, 2026, announcing a 1-for-18 reverse stock split effective November 2, 2026, which frequently triggers extreme post-split volatility and short-term mean reversion opportunities. Intraday momentum shows 9 consecutive observations over 240 minutes with positive intervals, offering a favorable setup for a sharp relief rally from deeply oversold levels. BEAR: VCIG presents an extreme collapse in today's session, down -39.64% to $4.92 and sitting -29.20% below its 20-day moving average. The fundamental overhang is starkly visible in the 5 calendar day(s) before the session catalyst report: a 1-for-18 reverse stock split that became effective on November 2, 2026, which structurally alters share supply and often triggers severe downward liquidation pressure. Furthermore, same-session momentum has measurably deteriorated with an observed high drawdown of -7.0176% and a weak relative volume rate of 0.0081 alongside negative price acceleration (-0.7233 percentage points). Buying this falling knife into an unconfirmed bounce during a post-reverse-split washout exposes the trader to rapid capital destruction.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BLZE",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.0,
+      "reasoning": "net +0.15 = bull 0.65 - bear 0.50 (buy at >= +0.20). BULL: Backblaze is seeing strong buying interest on November 3, 2026, backed by a fresh SeekingAlpha headline titled 'Backblaze: No AI Demise At All, The Revenge Rebound Is Here' and a Needham Buy rating with a $15 price target. The stock is trading at $7.80 with a massive relative volume of 3.96x normal and a +5.41% day change, showing significant momentum despite being -22.78% below its 20-day moving average which leaves plenty of room to run. Although the intraday session history shows a minor pullback of 2.98% from its observed high of $8.04 across 2 consecutive scans, the robust volume and bullish analyst backing provide strong catalysts for a multi-day recovery. We set a realistic take-profit target at 10.0% to capture the upside swing and a stop-loss at 4.0% to manage downside risk. BEAR: BLZE exhibits clear same-session deterioration after an initial premarket pop driven by headlines like Needham lowering its price target to $15 alongside 'Revenge Rebound' commentary. Despite a +5.41% day change, the stock sits 22.78% below its 20-day MA and has pulled back 2.98% from its observed session high of $8.04 down to $7.80 over 240 minutes since first seen. Furthermore, its relative volume rate has collapsed to a meager 0.1885 per 30 minutes with zero positive observed intervals, signaling that participation is rapidly fading while the price sags from its highs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SIBN",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 6.05,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.10 = bull 0.80 - bear 0.70 (buy at >= +0.20). BULL: SIBN is surging today by +17.61% to $23.78, backed by heavy relative volume of 3.16x normal and strong same-session momentum with 5 consecutive observations and a 4.59% return since first seen. This massive move is directly catalyzed by fresh Q3 2026 earnings results released on 2026-11-03, featuring a reduced Q3 loss and driving Needham to maintain its Buy rating. With zero drawdown from its observed high of $23.78 and continued positive intervals confirming buying pressure, the stock has clear fundamental and tape momentum to run further toward Needham's $26 price target. BEAR: SIBN is surging +17.61% on the back of fresh same-session Q3 2026 earnings headlines, but the tape reveals clear signs of exhaustion following its initial push. The stock has zero drawdown from its observed high of $23.78, yet price acceleration has turned negative at -1.62% points alongside a sluggish relative volume rate of 0.2642 per 30 minutes, indicating that buying participation is drying up while chase risk peaks 16.51% above its 20-day MA. Furthermore, Needham's concurrent downgrade of its price target to $26 provides an immediate ceiling to the rally, ensuring that the best news is already fully priced in.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INGM",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 2.93,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: INGM exhibits significant relative volume at 4.48x normal alongside 9 consecutive scan observations demonstrating persistence since 10:18 ET, including a return since first seen of 1.5885% and a minor drawdown of only -1.0071% from its observed high of $26.81. On the catalyst front, the company announced the pricing of a secondary offering of common stock and a concurrent stock repurchase on the same trading-session date of 2026-11-03, alongside spotlighting AI-native email innovation at the Hong Kong Partner Exchange. Furthermore, an upcoming dividend with an ex-date of 2026-11-09 provides an impending near-term income catalyst. These factors combine to offer a compelling entry opportunity for a multi-day holding period. BEAR: INGM is facing acute supply pressure following the same US trading-session date headlines announcing the pricing of a secondary offering of 11,000,000 shares of common stock by its principal stockholder alongside a concurrent stock repurchase. This heavy equity dilution overhang weighs directly on the tape, resulting in a session close down -1.63% at $26.54 and sitting -4.09% below its 20-day moving average. Furthermore, tape deterioration is confirmed by a low relative volume rate of 0.1709 per 30m and a price acceleration of -0.6002 percentage points, reflecting fading upside participation despite heavy earlier turnover.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARRY",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 4.5,
+      "stop_loss_pct": 2.25,
+      "reasoning": "net +0.25 = bull 0.75 - bear 0.50 (buy at >= +0.20). BULL: Array Technologies is showing exceptional intraday momentum, surging 22.24% on the session to close at $4.64 with a relative volume of 1.62x and sitting 32.34% above its 20-day MA. The tape confirms persistent buying strength through 4 consecutive observations over 90 minutes, a return of 1.86% since first seen, and a zero drawdown from its observed high of $4.645 alongside a rank improvement of 5 spots. This tape strength is complemented by clean energy retail attention following the November 2, 2026 political shift headline and an expected upcoming earnings beat. We press this aggressive continuation setup with a 6.0% target and a 3.0% stop loss to manage high volatility. BEAR: Buying ARRY at $4.64 requires chasing a stock that is already 32.34% above its 20-day moving average following retail-focused thematic coverage like Yahoo's November 2 'Blue Wave Shift' clean energy headline. Furthermore, Guggenheim's recent October 28 note lowered the price target to $6 while maintaining a buy, capping intermediate enthusiasm just as the stock extends vertically on relative volume of 1.62x. Although the 30-minute snapshots show zero drawdown from the observed high so far, entering at these extended levels offers poor risk-reward given that the main political catalyst headline is already a calendar day old and largely priced in.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ADEA",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: Despite an 11.90% daily drop following downbeat Q3 earnings on 2026-11-03, Adeia exhibits remarkable intraday accumulation with 8 consecutive scan observations, a 6.93% rebound from first seen, and zero drawdown from its observed high of $18.21. Heavy participation is confirmed by a relative volume of 3.14x normal, supported by Rosenblatt maintaining a Buy rating with a $35 price target alongside news that non-pay TV revenue jumped 48%. BEAR: Buying ADEA today means stepping directly in front of a heavy downbeat Q3 earnings reaction that has knocked the stock down 11.90% on the session and 18.32% below its 20-day moving average. Fresh November 3 headline catalysts from Benzinga confirm that Adeia posted downbeat Q3 earnings alongside a price target cut to $35 from Rosenblatt, undermining immediate upside momentum despite a temporary intraday bounce. Furthermore, volume participation is rapidly cooling off as shown by a rel_volume_rate_per_30m of just 0.2066 and a negative rate change of -0.0726, indicating that the session's high at $18.21 is facing fading participation rather than true institutional accumulation. Entering this trade ignores the fundamental damage of the earnings report and risks catching a falling knife as the market digests the negative headline catalysts.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PMN",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: ProMIS Neurosciences is demonstrating robust intraday persistence today, backed by 9 consecutive scans over 240 minutes and a strong +14.33% daily gain alongside a relative volume of 1.87x. The tape shows solid commitment with a narrow drawdown of only -1.10% from its observed high of $3.47 and positive price acceleration of 2.76 percentage points. Fundamental interest remains intact with Roth Capital maintaining a Buy rating and a $15 price target on November 2, 2026, providing a compelling backdrop ahead of earnings on November 10, 2026. BEAR: PMN is currently facing a heavy fundamental and structural headwind, sitting -59.48% below its 20-day moving average despite today's +14.33% bounce. The recent news catalyst consists of stale analyst commentary from 1 calendar day ago (Roth Capital maintaining a Buy while lowering its price target to $15) and speculative retail chatter from 5 calendar days ago, offering no fresh fundamental fuel for today's price action. Furthermore, upcoming negative-earnings exposure looms large with an EPS estimate of -$1.2911 scheduled for 2026-11-10, exactly 7 calendar days after the session, placing a high-risk binary event right in the middle of a short-term holding window. With relative volume fading and a mixed intraday development showing negative return since first seen, buying here means chasing a dead-cat bounce directly into an impending earnings trap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AEHR",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.05 = bull 0.75 - bear 0.70 (buy at >= +0.20). BULL: AEHR is surging 24.33% today supported by heavy relative volume at 2.40x normal and fresh same-session catalysts, notably the Benzinga headline from 2026-11-03 stating that the CEO announced AI chip complexity is accelerating burn-in demand. The tape displays persistence across 9 consecutive observations over 240 minutes with a moderate drawdown of only 2.73% from its observed high of $65.79. This combination of fundamental news on AI chip demand and robust volume confirmation provides a compelling catalyst-driven continuation setup. BEAR: AEHR is showing clear signs of chasing and intraday exhaustion after surging +24.33% on fresh 2026-11-03 headlines regarding CEO statements on AI chip complexity and burn-in demand. The tape reveals measurable deterioration across its 240-minute history: the stock has pulled back -2.72% from its observed high of $65.79 to current $63.99, experienced a negative return of -2.0285% since the previous scan, and slipped to rank 13 with negative rank and score changes. Furthermore, participation is rapidly drying up as indicated by a slow rel volume rate per 30m of 0.1066, meaning buyers who chased the pre-market and early session headlines are now providing exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EVER",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 11.25,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: EVER is surging on its same-session Q3 2026 earnings release reporting a record $218 million, providing an immediate fundamental catalyst that is reinforced by bullish analyst actions. On 2026-11-03, Needham maintained its Buy rating and raised its price target to $35, while Canaccord Genuity also maintained Buy and lifted its target to $32. This powerful combination of record earnings and immediate upward target revisions drives robust price action, highlighted by a 19.71% day change, a relative volume of 2.01x normal, and trading at $29.05 with room to run toward the new analyst targets. BEAR: EVER is trading up 19.71% on the session and is extended 34.11% above its 20-day moving average on 2026-11-03, driven entirely by fresh same-session catalysts including Q3 2026 earnings results and concurrent price target raises to $35 by Needham and $32 by Canaccord Genuity. Buying right now means stepping in at the exact moment the market is digesting maximum positive analyst revisions and a record Q3 earnings report, leaving zero room for execution errors. While the same-session momentum observations show a zero drawdown from its observed high of $29.0525, entering after a nearly 20% single-day expansion leaves the trade highly vulnerable to immediate profit-taking once the initial wave of analyst headline absorption concludes. With relative volume at 2.01x normal and the stock flashing an 'insufficient_history' setup tag on its first 14:17 ET appearance, chasing this vertical extension into published analyst targets offers poor risk-reward asymmetry over a short holding window.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.18e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FISV",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 6.38,
+      "stop_loss_pct": 3.0,
+      "reasoning": "net +0.20 = bull 0.70 - bear 0.50 (buy at >= +0.20). BULL: FISV is surging on heavy institutional participation, backed by same-session catalysts on 2026-11-03 including an earnings beat, a doubled savings target to $1 billion, and a planned $500 million buyback. The stock has exploded +13.64% on the day with 2.19x relative volume, currently trading 23.62% above its 20-day moving average. Even though session-level momentum history is limited to an initial observation, the fundamental headlines and massive volume surge provide robust momentum for continuation over the next few sessions. BEAR: Buying FISV today at $59.02 means chasing a massive 13.64% single-session surge that leaves the stock stretched 23.62% above its 20-day moving average. The aggressive upward move is fully priced around fresh same-session catalysts\u2014specifically an earnings beat, a doubled savings target to $1 billion, a $500 million buyback, and talks of potential asset buyers released on 2026-11-03. Entering at these highs after such an extreme gap means absorbing all the public euphoria right as the headline-driven momentum exhausts its initial volume surge of 2.19x normal.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5e+08 - no matching value in source data",
+        "bull: cited 1e+09 - no matching value in source data",
+        "bear: cited 5e+08 - no matching value in source data",
+        "bear: cited 1e+09 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ACB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RYTM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BVS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SUPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XIFR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VCIG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BLZE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SIBN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INGM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARRY",
+      "action": "submitted",
+      "order": {
+        "symbol": "ARRY",
+        "qty": 12,
+        "est_cost": 56.04,
+        "entry_ref": 4.67,
+        "take_profit": 4.85,
+        "remaining_take_profit_pct": 3.85,
+        "stop_loss": 4.56,
+        "confidence": 0.625,
+        "client_order_id": "ta-20261103-142209-ARRY",
+        "analysis_price": 4.645,
+        "live_price_change_pct": 0.54
+      },
+      "broker": {
+        "id": "94270d81-6782-4623-a577-023215962248",
+        "client_order_id": "ta-20261103-142209-ARRY",
+        "symbol": "ARRY",
+        "qty": "12",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 4.85,
+        "stop_loss": 4.56,
+        "legs": [
+          "eb2f93a4-94c6-4ab6-b9d4-2d20df1363e0",
+          "f2ac4cb3-f463-4789-8106-073eaee609fe"
+        ]
+      }
+    },
+    {
+      "symbol": "ADEA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PMN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEHR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "EVER",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "FISV",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    }
+  ]
+}
