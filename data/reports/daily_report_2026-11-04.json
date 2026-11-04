@@ -1,0 +1,1310 @@
+{
+  "date": "2026-11-04",
+  "events": [
+    {
+      "at_et": "2026-11-04T07:46:26-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-04T08:58:57-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-04T09:31:26-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DDOG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RWT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T10:31:40-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1016.json",
+        "shortlist": [
+          "ALIT",
+          "CVI",
+          "ARRY",
+          "DUOL",
+          "NRIX",
+          "CRCT",
+          "DOX",
+          "YOU",
+          "MOD",
+          "RIOT",
+          "FIS",
+          "KD",
+          "STVN",
+          "VCIG",
+          "BTU"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRCT",
+            "action": "submitted",
+            "order": {
+              "symbol": "CRCT",
+              "qty": 23,
+              "est_cost": 194.35,
+              "entry_ref": 8.45,
+              "take_profit": 9.02,
+              "remaining_take_profit_pct": 6.75,
+              "stop_loss": 8.13,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261104-103140-CRCT",
+              "analysis_price": 8.2785,
+              "live_price_change_pct": 2.07
+            },
+            "broker": {
+              "id": "bd7f1235-02b8-4107-8217-a00e2109befe",
+              "client_order_id": "ta-20261104-103140-CRCT",
+              "symbol": "CRCT",
+              "qty": "23",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 9.02,
+              "stop_loss": 8.13,
+              "legs": [
+                "f3033c4a-ff3b-4eae-88cc-e99ca39e695b",
+                "cc615e59-4038-45fc-bc78-633a6d11786a"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RIOT",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T11:10:01-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1046.json",
+        "shortlist": [
+          "ALIT",
+          "CVI",
+          "ARRY",
+          "NRIX",
+          "DOX",
+          "DUOL",
+          "MOD",
+          "KD",
+          "YOU",
+          "FIS",
+          "STVN",
+          "RIOT",
+          "LIVN",
+          "SHLS",
+          "DDOG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "LIVN",
+            "action": "submitted",
+            "order": {
+              "symbol": "LIVN",
+              "qty": 2,
+              "est_cost": 190.08,
+              "entry_ref": 95.04,
+              "take_profit": 99.89,
+              "remaining_take_profit_pct": 5.1,
+              "stop_loss": 91.58,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261104-111001-LIVN",
+              "analysis_price": 93.9,
+              "live_price_change_pct": 1.21
+            },
+            "broker": {
+              "id": "52356d27-3339-4a2f-b10e-a963bb62fca4",
+              "client_order_id": "ta-20261104-111001-LIVN",
+              "symbol": "LIVN",
+              "qty": "2",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 99.89,
+              "stop_loss": 91.58,
+              "legs": [
+                "71a23a35-cc54-443e-a9b2-48ad6b018a32",
+                "90c6ba00-2928-4f98-83b6-90132b34a27a"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHLS",
+            "reason": "live ask fell 2.57% from delayed scan price $9.35; 2% max downside"
+          },
+          {
+            "symbol": "DDOG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T11:31:12-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1116.json",
+        "shortlist": [
+          "ALIT",
+          "CVI",
+          "ARRY",
+          "NRIX",
+          "DOX",
+          "DUOL",
+          "MOD",
+          "KD",
+          "STVN",
+          "YOU",
+          "FIS",
+          "VRDN",
+          "SHLS",
+          "RIOT",
+          "BTU"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SHLS",
+            "action": "submitted",
+            "order": {
+              "symbol": "SHLS",
+              "qty": 21,
+              "est_cost": 192.78,
+              "entry_ref": 9.18,
+              "take_profit": 10.04,
+              "remaining_take_profit_pct": 9.37,
+              "stop_loss": 8.86,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261104-113112-SHLS",
+              "analysis_price": 9.2,
+              "live_price_change_pct": -0.22
+            },
+            "broker": {
+              "id": "c71dc158-c2c0-48a0-8698-304400adb190",
+              "client_order_id": "ta-20261104-113112-SHLS",
+              "symbol": "SHLS",
+              "qty": "21",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 10.04,
+              "stop_loss": 8.86,
+              "legs": [
+                "3ba6696a-64bf-4ef4-a4e2-59499d10d84d",
+                "7729f3ac-7726-4b15-88fa-2529c5f3e033"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RIOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T12:00:08-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1146.json",
+        "shortlist": [
+          "ALIT",
+          "CVI",
+          "CRCT",
+          "ARRY",
+          "NRIX",
+          "DOX",
+          "DUOL",
+          "STVN",
+          "MOD",
+          "YOU",
+          "KD",
+          "FIS",
+          "VRDN",
+          "BTU",
+          "OPRT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRCT",
+            "action": "submitted",
+            "order": {
+              "symbol": "CRCT",
+              "qty": 22,
+              "est_cost": 197.34,
+              "entry_ref": 8.97,
+              "take_profit": 9.98,
+              "remaining_take_profit_pct": 11.26,
+              "stop_loss": 8.63,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261104-120008-CRCT",
+              "analysis_price": 8.9961,
+              "live_price_change_pct": -0.29
+            },
+            "broker": {
+              "id": "a3a79f4e-8b4b-4dcf-8417-3831a4908590",
+              "client_order_id": "ta-20261104-120008-CRCT",
+              "symbol": "CRCT",
+              "qty": "22",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 9.98,
+              "stop_loss": 8.63,
+              "legs": [
+                "76c79c29-3d58-41be-a7fc-a274fa80c556",
+                "d3fcdac5-98ce-44be-b777-fb3231b58188"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPRT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T12:31:02-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1216.json",
+        "shortlist": [
+          "CVI",
+          "ALIT",
+          "ARRY",
+          "NRIX",
+          "DOX",
+          "DUOL",
+          "MOD",
+          "STVN",
+          "YOU",
+          "KD",
+          "FIS",
+          "SNDX",
+          "VRDN",
+          "BTU",
+          "OPRT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRDN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPRT",
+            "reason": "bid/ask spread too wide: 1.28% (bid $12.44, ask $12.60); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T12:56:05-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "RemoteProtocolError: Server disconnected without sending a response."
+      }
+    },
+    {
+      "at_et": "2026-11-04T13:29:56-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1316.json",
+        "shortlist": [
+          "CVI",
+          "ALIT",
+          "NRIX",
+          "ARRY",
+          "DOX",
+          "DUOL",
+          "MOD",
+          "STVN",
+          "YOU",
+          "KD",
+          "FIS",
+          "SNDX",
+          "TBLA",
+          "UNM",
+          "OPRT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPRT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T13:57:50-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1347",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1347.json",
+        "shortlist": [
+          "ALIT",
+          "CVI",
+          "NRIX",
+          "ARRY",
+          "DOX",
+          "DUOL",
+          "MOD",
+          "STVN",
+          "KD",
+          "YOU",
+          "FIS",
+          "SNDX",
+          "UNM",
+          "TBLA",
+          "OPRT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPRT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T14:26:04-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1416.json",
+        "shortlist": [
+          "ALIT",
+          "CVI",
+          "DOX",
+          "NRIX",
+          "ARRY",
+          "DUOL",
+          "MOD",
+          "YOU",
+          "STVN",
+          "SNDX",
+          "FIS",
+          "KD",
+          "TBLA",
+          "UNM",
+          "ECG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UNM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T14:53:09-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1446.json",
+        "shortlist": [
+          "ALIT",
+          "CVI",
+          "CRCT",
+          "ARRY",
+          "DOX",
+          "NRIX",
+          "DUOL",
+          "MOD",
+          "YOU",
+          "STVN",
+          "SNDX",
+          "KD",
+          "FIS",
+          "ECG",
+          "TBLA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CRCT",
+            "action": "submitted",
+            "order": {
+              "symbol": "CRCT",
+              "qty": 23,
+              "est_cost": 197.11,
+              "entry_ref": 8.57,
+              "take_profit": 9.31,
+              "remaining_take_profit_pct": 8.63,
+              "stop_loss": 8.24,
+              "confidence": 0.65,
+              "client_order_id": "ta-20261104-145309-CRCT",
+              "analysis_price": 8.54,
+              "live_price_change_pct": 0.35
+            },
+            "broker": {
+              "id": "e754e460-a6d6-4fd3-8ec8-dfd0d44c7fcd",
+              "client_order_id": "ta-20261104-145309-CRCT",
+              "symbol": "CRCT",
+              "qty": "23",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 9.31,
+              "stop_loss": 8.24,
+              "legs": [
+                "538d3778-1bbc-4855-ae63-eb43c3b3bd14",
+                "fe978faf-9e5c-4244-8069-e5ab923ca484"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T15:22:24-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1516.json",
+        "shortlist": [
+          "CVI",
+          "ALIT",
+          "ARRY",
+          "NRIX",
+          "DOX",
+          "DUOL",
+          "YOU",
+          "MOD",
+          "SNDX",
+          "ECG",
+          "KD",
+          "TBLA",
+          "STVN",
+          "FIS",
+          "UNM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UNM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T15:52:32-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-04/shortlist_1546.json",
+        "shortlist": [
+          "CVI",
+          "ALIT",
+          "NRIX",
+          "DOX",
+          "ARRY",
+          "DUOL",
+          "MOD",
+          "YOU",
+          "ECG",
+          "TBLA",
+          "KD",
+          "SNDX",
+          "DJT",
+          "FIS",
+          "VRDN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CVI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALIT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DOX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARRY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YOU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ECG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TBLA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DJT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRDN",
+            "reason": "bid/ask spread too wide: 3.97% (bid $27.64, ask $28.76); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-04T15:52:32-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

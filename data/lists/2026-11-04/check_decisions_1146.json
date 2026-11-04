@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-11-04T12:00:08-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ALIT",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: ALIT is surging on 2026-11-04 with a massive day change of +38.24% and an extraordinary relative volume of 8.35x normal, trading at $13.99 while holding rank 1 across 4 consecutive observations. The catalyst report contains no specific positive fundamental news explaining the surge, as headlines like SeekingAlpha's Nov. 4 piece highlight secular headwinds, making this a pure tape-driven momentum play. Although the price has pulled back -8.1795% from first seen and features a drawdown of -11.5149% from its observed high of $15.81, the persistent top-rank status and explosive volume provide enough momentum for a short-term bounce. Therefore, this tape-only case scores modestly due to the lack of supportive news and retreating intraday metrics. BEAR: ALIT is exhibiting textbook chasing and intraday exhaustion after surging +38.24% on Nov. 4, 2026, with the price now sitting 52.26% above its 20-day moving average. The tape shows severe deterioration across its 90 minutes of observed history: the stock has pulled down 11.51% from its observed high of $15.81 to current $13.99, posting consecutive negative returns including a -8.18% drop from first seen. Furthermore, volume participation is completely drying up as evidenced by a sluggish relative volume rate of 0.5341 per 30 minutes, confirming that buyers who chased the premarket mover headlines are now trapped as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CVI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: CVR Energy Inc trades at $41.62 following extreme exhaustion down 14.37% on the session and 29.32% below its 20-day moving average, accompanied by massive volume running at 10.35x normal levels. The catalyst report features same-session news on 2026-11-04 regarding record Q3 2026 earnings highlights alongside a common stock offering announcement, creating an overreaction washout that provides deep value for a mean-reversion bounce. While same-session momentum shows a drawdown of 9.83% from the observed high and negative returns across four consecutive scans, price acceleration has ticked up by 1.46 percentage points and score change improved by 1.22, signaling that selling pressure is beginning to absorb. Furthermore, an upcoming ex-dividend date on 2026-11-16 offers a $0.10 payout support factor twelve calendar days away. BEAR: CVI is experiencing severe downward momentum on the session, down -14.37% at $41.62 and trading 29.32% below its 20-day moving average alongside an extreme relative volume of 10.35x. The same-session momentum history confirms ongoing deterioration with 0 positive observed intervals, a continuous drawdown reaching -9.8315% from the observed high, and a collapsing volume pace as `rel_volume_rate_change` drops by -0.6734. Furthermore, the fresh same-session headline 'CVR Energy Announces Pricing of Offering of Common Stock' provides a concrete, dilutive catalyst for the heavy selling pressure. Attempting to catch this falling knife exposes a trader to severe continuation risk rather than a reliable bounce.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRCT",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 11.25,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: CRCT is rallying powerfully on fresh Q3 2026 earnings beats and double-digit revenue growth highlighted in multiple same-session news reports on 2026-11-04. The stock is reacting aggressively with a day change of +50.69%, trading at $9.00 with a massive 4.39x relative volume confirming intense institutional and retail participation. Price action shows robust momentum, sitting 42.05% above its 20-day moving average while maintaining zero drawdown from its observed high of $8.9961. With explosive fundamental confirmation and extreme volume backing the breakout, the continuation setup has substantial near-term upside room. BEAR: CRCT is trading +50.69% on the day and +42.05% away from its 20-day moving average following fresh Q3 earnings reports released on 2026-11-03 and 2026-11-04 that beat estimates with double-digit revenue growth. While the catalyst is completely fresh today rather than stale, buying now means chasing an extreme vertical extension where the initial headline reaction is already fully absorbed by the market at $9.00. Relative volume is running at 4.39x normal, but the same-session history shows a tight consolidation near the observed high of $8.9961 with zero drawdown yet no further price acceleration over a 90-minute window since first seen. Entering long at this overextended level exposes the buyer to an immediate mean-reversion pullback as late retail momentum exhausts itself against the initial earnings gap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARRY",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: Array Technologies is surging today on a same US trading-session date earnings report where sales of $330.212M beat the $322.724M estimate alongside broader clean energy sector momentum. The stock is showing explosive volume participation with a relative volume of 4.79x normal and a day change of +19.29% to $5.54. Although intra-session momentum shows a minor drawdown of -3.82% from its observed high of $5.755 across 4 consecutive scans, the sustained high relative volume rate change of 0.0858 and positive price acceleration of 4.73 percentage points indicate strong ongoing buyer interest. With Guggenheim maintaining a Buy rating at a $6 target on October 28 and recent policy tailwinds supporting clean energy, ARRY has clear fundamental catalysts and momentum to push higher. BEAR: Array Technologies is suffering from clear same-session chasing and deteriorating participation after its fresh Q3 earnings release on 2026-11-04 where an EPS miss of $0.06 against $0.09 estimates was overshadowed by an initial sales beat. Despite the +19.29% day change and a massive +56.40% extension from its 20-day MA, the stock has shown measurable tape deterioration 90 minutes into its first-seen window, pulling back -3.82% from its observed high of $5.755. Furthermore, relative volume momentum is rapidly cooling with a rate of just 0.64x per 30 minutes, confirming that buyers are exhausting themselves at these highs while fading participation leaves late-to-the-party chasers holding the bag.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NRIX",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: NRIX presents a classic oversold bounce setup following a severe 41.15% single-day drop and a prior after-hours headline on November 3, 2026 regarding a 35% slump. Despite the lack of a positive fundamental catalyst in the November 4 news report explaining a reversal, the tape shows remarkable resilience with 4 consecutive observations over 90 minutes, positive interval returns totaling 0.48% since first seen, and zero drawdown from the observed high of $15.195. Furthermore, relative volume remains extraordinarily elevated at 3.61x normal, indicating intense institutional or retail participation that could easily spark a sharp mean-reversion rally. The aggressive volatility allows for a high-reward technical bounce target while keeping risk tightly managed. BEAR: NRIX is suffering from severe fundamental damage, down 41.15% on the session at $15.20 following a 35% after-hours selloff on 2026-11-03 and continued premarket pressure on 2026-11-04 as documented by Yahoo and Benzinga headlines. While relative volume is elevated at 3.61x, the intraday tape shows clear signs of fading participation with a relative volume rate per 30 minutes of just 0.5183 and a rank drop from 4 to 5 over the observed snapshots. Buying this falling knife means catching a plunging biotechnology stock with active negative headlines and zero concrete stabilization in the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DOX",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: DOX is experiencing extreme volume participation with a relative volume of 4.37x normal on a same US trading-session date of November 4, 2026, alongside news that Stifel maintains a Buy rating while lowering its price target to $46. Despite a steep 27.05% drop following downbeat earnings headlines, the intraday momentum history shows 4 consecutive observations across 90 minutes with a positive return of 2.1019% since first seen and a minimal drawdown of 0.8815% from its observed high. This combination of heavy washout volume, ongoing analyst support at these levels, and persistent short-term stabilization provides a tactical bounce opportunity for a multi-hour hold. BEAR: DOX is experiencing a massive valuation reset down 27.05% on the session, triggered by downbeat Q4 earnings and a Stifel price target cut to $46 on November 4, 2026. While the stock shows a minor bounce of 2.10% since first seen, its rank worsened from 5 to 6 and score dropped by 0.7816 with relative volume slowing to 0.3622 per 30m. Buying this falling knife ahead of upcoming earnings on November 17, 2026, exposes a portfolio to further fundamental downward revisions and severe momentum degradation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DUOL",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.10 = bull 0.80 - bear 0.70 (buy at >= +0.20). BULL: Duolingo is surging strongly on 2026-11-04, highlighted by same-session headlines including 'Duolingo stock soars over 30% on strong user growth, monetization plans' and Q3 2026 earnings transcripts showing robust market engagement despite mixed headlines. Momentum is firmly validated by an exceptional 4.07x relative volume surge, a massive +33.22% daily gain, and a sequence of 4 consecutive scans showing persistent buying interest over 90 minutes. With price acceleration at +0.57% points and a tight drawdown of only -2.65% from the observed high of $175.16, the stock displays explosive momentum that can carry higher into subsequent sessions. BEAR: DUOL is heavily extended today, trading up 33.22% at $170.52 and sitting 20.90% above its 20-day moving average following fresh same-session earnings and monetization headlines. However, the tape shows clear signs of chasing and exhaustion as the stock has pulled back 2.65% from its observed high of $175.16 over its 90 minutes of tracked history. Furthermore, volume participation is decaying rapidly with a rel_volume_rate_per_30m of just 0.407 and a rate change of -0.1358, confirming that the aggressive buying has peaked while the price remains severely stretched.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STVN",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Stevanato Group S.p.A. reported fresh Q3 2026 earnings on November 4, 2026, highlighting EUR 326.1 million in revenue and an 8% year-over-year revenue growth. Despite this fundamental progress, the stock has dropped 14.33% in the session to $12.08, sitting 36.80% below its 20-day moving average on high relative volume of 3.64x normal. Although price action shows a significant drawdown from its observed high of $13.51 with four consecutive observations, the severe oversold condition and verified top-line growth provide a deep-value mean-reversion setup for patient buyers. BEAR: STVN is experiencing severe downward momentum following its fresh Q3 2026 earnings release on 2026-11-04, showing a -14.33% day change and sitting 36.80% below its 20-day moving average. The supplied same-session history confirms active deterioration, with a negative return of -10.58% since first seen and zero positive observed intervals across 4 consecutive scans. Furthermore, participation is severely lagging relative to the sharp drop, as evidenced by a relative volume rate of only 0.60 per 30 minutes, indicating a continuing liquidation wave without buyer support.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 3.261e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "MOD",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Modine Manufacturing presents an extreme oversold mean-reversion opportunity after dropping 23.81% in a single session to $95.58, leaving it 36.30% below its 20-day moving average alongside heavy volume running at 3.16x normal. Highlighting institutional backing, Keybanc maintained its Overweight rating on the same US trading-session date of 2026-11-04 even while adjusting its price target to $225, signaling that the post-earnings selloff following the Q2 revenue beat and EPS miss on 2026-11-03 has created an overdone discount. The tape shows early stabilization with 4 consecutive scans over 90 minutes, a positive return of 1.1589% since the previous observation, and a price acceleration of 1.8787 percentage points despite a modest 2.82% drawdown from the observed high of $98.36. BEAR: Modine Manufacturing is experiencing a severe downward repricing, plunging 23.81% on 2026-11-04 following a mixed Q2 earnings report on 2026-11-03 that featured an EPS miss. Although Keybanc maintained an Overweight rating on 2026-11-04, they simultaneously slashed their price target to $225, highlighting immediate fundamental damage. Furthermore, the same-session momentum shows measurable deterioration with a 2.83% drawdown from the observed high, a rank worsening to 9, and a relative volume rate cooling off to 0.30, confirming that trying to catch this falling knife exposes an investor to ongoing liquidation without volume confirmation of a bottom.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "YOU",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Clear Secure (YOU) is surging today by +36.73% to $65.30, backed by a powerful fundamental catalyst on 2026-11-04 featuring a Q3 EPS beat and a massive $175.0 million increase in its share repurchase authorization. The tape completely validates this expansion, demonstrating 4 consecutive scan observations, 1.86x relative volume, and zero drawdown from its observed high of $65.30. With strong price acceleration of +2.87 percentage points and positive return progression since first seen, momentum is firmly locked in for further gains. BEAR: Buying YOU at $65.30 exposes a long position to severe vertical exhaustion after a +36.73% day change and a +45.10% extension above its 20-day moving average. The primary same-session catalyst \u2014 Clear Secure's Q3 2026 earnings release and increased share repurchase authorization on 2026-11-04 \u2014 is already fully public and priced in, leaving no fresh immediate upside drivers. Furthermore, the relative volume rate has slowed to 0.2555 per 30 minutes with a negative rate change of -0.0142, indicating that participation is fading rapidly just as price hits the absolute session high.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.75e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "KD",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.75,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: Kyndryl (KD) is surging today, backed by fresh 2026-11-04 earnings catalysts including headlines like 'Kyndryl (NYSE:KD) Shares Jump as EPS Beat Outweighs Revenue Miss' and multiple reports of surpassing estimates. The tape fully confirms this fundamental strength with 4 consecutive observations over 90 minutes, a stellar +7.56% return since first seen, 0.0% drawdown from its observed high of $17.79, and an impressive relative volume of 1.85x normal. With positive price acceleration and sustained continuation, momentum is firmly in the buyer's court for a multi-hour to multi-day continuation. BEAR: Buying KD at today's price of $17.79 exposes you to severe exhaustion risks following a massive 37.48% single-session surge that has stretched the stock 33.77% above its 20-day moving average. The relative volume rate has dropped to 0.2051 per 30 minutes with a negative volume rate change of -0.0715, showing that participation is rapidly fading even as the price hits the observed high. Furthermore, the core catalyst\u2014reported Q2 and Q3 earnings results released on 2026-11-04 containing mixed signals like an EPS beat alongside a revenue miss\u2014is already fully public and driving the entirety of the move. Entering here means buying the exact peak of a headline-driven gap up into exhausted liquidity with declining volume confirmation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FIS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Fidelity National Information Services (FIS) experienced a massive capitulation event on November 4, 2026, plunging 24.15% to $29.57 amid Q3 earnings releases that matched estimates. Despite the heavy sell-off, the stock is seeing intense market participation with relative volume surging to 2.76x normal, alongside four consecutive observations showing price acceleration attempting to stabilize. With a drawdown of only 2.15% from its observed high of $30.225 during the session and positive price acceleration of 0.4435 percentage points, panic selling may be exhausting itself and offering a high-beta bounce opportunity for day-to-day traders. However, because the tape shows continuous negative interval returns since first seen and zero positive observed intervals, this is a pure oversold bounce play relying entirely on extreme volume exhaustion rather than a confirmed trend reversal. BEAR: Buying FIS today involves stepping directly in front of a catastrophic -24.15% single-session crash driven by the fresh Nov. 4 Q3 earnings release showing results that merely matched estimates rather than inspiring confidence. The tape shows clear, measurable deterioration over its short history: despite a relative volume rate of 2.76x normal, participation is bleeding out with a low per-30-minute volume rate of 0.2968 and a declining rank of 12 alongside continuous negative intervals. With zero positive observed intervals and a stagnant drawdown from its high at -2.1505%, attempting to bottom-fish this heavy liquidation risks catching a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VRDN",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 6.38,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.05 = bull 0.55 - bear 0.50 (buy at >= +0.20). BULL: Viridian Therapeutics is surging +12.31% on the session backed by a fresh Q3 earnings release and earnings call on 2026-11-04, showing an EPS beat of $(0.81) versus $(1.00) estimates. Institutional engagement is evident with heavy volume participation at 2.51x normal levels while sitting 30.82% above its 20-day moving average. Although momentum observations show only two consecutive scans with a limited tape history, the active catalyst and strong relative volume provide immediate momentum persistence. Entering at the current price of $28.25 captures ongoing reaction to today's earnings headline with room for continuation over the coming sessions. BEAR: VRDN is trading up 12.31% on the session and is heavily extended at 30.82% above its 20-day moving average, creating an elevated chasing risk for new capital entering today. The same-session momentum history shows subtle tactical deterioration across its snapshots, with the rank slipping from 12 to 13 and the score dropping by 0.0485 while the relative volume rate sits at a modest 0.1756 per 30 minutes. Furthermore, the fresh same-session catalyst headlines regarding the Q3 2026 earnings call and mixed numbers\u2014specifically sales of $25.752K versus a $5.084M estimate\u2014introduce fundamental ambiguity and potential headline digestion risks that could cap follow-through over a multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BTU",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Peabody Energy dropped 22.70% on 2026-11-04 following a mixed Q3 earnings report where sales beat estimates at $1.096B despite a wider-than-expected loss. The stock is seeing heavy capitulation volume at 1.67x normal levels, creating an oversold mean-reversion setup with the price sitting 31.33% below its 20-day moving average. Intraday tape shows consecutive scans with a slight rank improvement from 15 to 14 and positive score change, demonstrating that buyers are stepping in to absorb the panic selling. This extreme downside dislocation offers a high-reward bounce opportunity for a short-term swing. BEAR: Buying BTU today presents a severe risk of catching falling knife momentum following the fresh 2026-11-04 earnings report where Peabody Energy posted a wider-than-expected Q3 loss of $(0.27) missing the $(0.07) estimate. The stock is already cratering with a 22.70% day change and a price sitting 31.33% below its 20-day MA, demonstrating massive institutional liquidation rather than an overextended rally. Furthermore, same-session momentum snapshots show persistent deterioration with consecutive scans showing a negative return since first seen of 4.08% and zero positive observed intervals. Attempting to catch this bottom is highly dangerous as the market digests the disappointing bottom-line miss and heavy selling volume.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OPRT",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Oportun Financial Corp (OPRT) is experiencing a powerful momentum surge backed by significant fundamental catalysts, closing up 24.30% today at $12.48 on heavy volume that is 2.12x its 20-day normal. Fresh same-session news from November 4, 2026, highlights that revenue growth has returned and the full-year outlook was raised following Q3 earnings and revenues surpassing estimates. With the stock trading 34.42% above its 20-day moving average and strong fundamental backing from its earnings release, the immediate momentum supports continued upside over the next few sessions. BEAR: OPRT is trading up +24.30% at $12.48, sitting +34.42% above its 20-day moving average on fresh Q3 earnings headlines from November 3 and November 4 like 'Oportun Returns to Revenue Growth and Raises Full-Year Outlook'. Because this positive news is already fully public and driving a massive one-day extension, buying right now at 2.12x relative volume exposes you to immediate fade risk as the post-earnings reaction exhausts its initial momentum. With the stock locked at its initial high without intraday follow-through confirmation in the single snapshot, entering today means paying peak price for news that has already been fully digested.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ALIT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CVI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRCT",
+      "action": "submitted",
+      "order": {
+        "symbol": "CRCT",
+        "qty": 22,
+        "est_cost": 197.34,
+        "entry_ref": 8.97,
+        "take_profit": 9.98,
+        "remaining_take_profit_pct": 11.26,
+        "stop_loss": 8.63,
+        "confidence": 0.675,
+        "client_order_id": "ta-20261104-120008-CRCT",
+        "analysis_price": 8.9961,
+        "live_price_change_pct": -0.29
+      },
+      "broker": {
+        "id": "a3a79f4e-8b4b-4dcf-8417-3831a4908590",
+        "client_order_id": "ta-20261104-120008-CRCT",
+        "symbol": "CRCT",
+        "qty": "22",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 9.98,
+        "stop_loss": 8.63,
+        "legs": [
+          "76c79c29-3d58-41be-a7fc-a274fa80c556",
+          "d3fcdac5-98ce-44be-b777-fb3231b58188"
+        ]
+      }
+    },
+    {
+      "symbol": "ARRY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NRIX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DOX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DUOL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "STVN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MOD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "YOU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FIS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VRDN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BTU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OPRT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
