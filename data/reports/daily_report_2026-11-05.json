@@ -1,0 +1,1400 @@
+{
+  "date": "2026-11-05",
+  "events": [
+    {
+      "at_et": "2026-11-05T07:46:23-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-05T08:57:22-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-11-05T09:31:23-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ASPN",
+            "reason": "bid/ask spread too wide: 19.05% (bid $3.99, ask $4.83); 1% max"
+          },
+          {
+            "symbol": "EPAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SSTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "U",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRBY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T10:28:14-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1016.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OXLC",
+          "OMH",
+          "APP",
+          "DNUT",
+          "JAN",
+          "XERS",
+          "EDHL",
+          "HIMX",
+          "CHSN",
+          "U",
+          "GIL",
+          "SEZL",
+          "PTLO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DNUT",
+            "action": "submitted",
+            "order": {
+              "symbol": "DNUT",
+              "qty": 44,
+              "est_cost": 196.24,
+              "entry_ref": 4.46,
+              "take_profit": 4.81,
+              "remaining_take_profit_pct": 7.85,
+              "stop_loss": 4.3,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261105-102814-DNUT",
+              "analysis_price": 4.4351,
+              "live_price_change_pct": 0.56
+            },
+            "broker": {
+              "id": "b68a42f3-9900-4369-a8e0-ebac17cafab6",
+              "client_order_id": "ta-20261105-102814-DNUT",
+              "symbol": "DNUT",
+              "qty": "44",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.81,
+              "stop_loss": 4.3,
+              "legs": [
+                "d1a7d7ed-dacc-448e-87be-773c9a5e7e70",
+                "2e1881d4-a01e-4b2b-91d7-210ec802bdc2"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "U",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTLO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T10:57:57-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1046.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OXLC",
+          "OMH",
+          "APP",
+          "XERS",
+          "CHSN",
+          "JAN",
+          "HIMX",
+          "EDHL",
+          "PTLO",
+          "U",
+          "GIL",
+          "PGEN",
+          "SEZL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "U",
+            "reason": "bid/ask spread too wide: 4.27% (bid $44.48, ask $46.42); 1% max"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T11:27:19-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1116.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OXLC",
+          "OMH",
+          "APP",
+          "XERS",
+          "HIMX",
+          "CHSN",
+          "JAN",
+          "PTLO",
+          "U",
+          "GIL",
+          "ACDC",
+          "EDHL",
+          "PGEN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PTLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "U",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T11:56:50-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1146.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OMH",
+          "OXLC",
+          "APP",
+          "XERS",
+          "PTLO",
+          "HIMX",
+          "U",
+          "JAN",
+          "GIL",
+          "CHSN",
+          "ACDC",
+          "SEZL",
+          "ADMA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PTLO",
+            "action": "submitted",
+            "order": {
+              "symbol": "PTLO",
+              "qty": 30,
+              "est_cost": 199.5,
+              "entry_ref": 6.65,
+              "take_profit": 7.1,
+              "remaining_take_profit_pct": 6.77,
+              "stop_loss": 6.47,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261105-115648-PTLO",
+              "analysis_price": 6.741,
+              "live_price_change_pct": -1.35
+            },
+            "broker": {
+              "id": "f519219a-fb46-41e2-b655-2b254bf65b1e",
+              "client_order_id": "ta-20261105-115648-PTLO",
+              "symbol": "PTLO",
+              "qty": "30",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 7.1,
+              "stop_loss": 6.47,
+              "legs": [
+                "e45ad843-16c6-4971-b80f-b197f32c0cff",
+                "ca4969de-4053-47b3-902c-4f33e53fcda4"
+              ]
+            }
+          },
+          {
+            "symbol": "U",
+            "action": "submitted",
+            "order": {
+              "symbol": "U",
+              "qty": 4,
+              "est_cost": 193.04,
+              "entry_ref": 48.26,
+              "take_profit": 51.15,
+              "remaining_take_profit_pct": 5.99,
+              "stop_loss": 46.44,
+              "confidence": 0.7,
+              "client_order_id": "ta-20261105-115648-U",
+              "analysis_price": 48.085,
+              "live_price_change_pct": 0.36
+            },
+            "broker": {
+              "id": "e4609db2-e7d7-44eb-a461-e37da7ad2062",
+              "client_order_id": "ta-20261105-115648-U",
+              "symbol": "U",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 51.15,
+              "stop_loss": 46.44,
+              "legs": [
+                "82b8e186-5205-44e3-ab0d-6f587b55988a",
+                "3425bbf2-7b03-4aaf-9e59-f88f22bd55de"
+              ]
+            }
+          },
+          {
+            "symbol": "ADMA",
+            "action": "submitted",
+            "order": {
+              "symbol": "ADMA",
+              "qty": 14,
+              "est_cost": 187.18,
+              "entry_ref": 13.37,
+              "take_profit": 14.14,
+              "remaining_take_profit_pct": 5.76,
+              "stop_loss": 12.91,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261105-115648-ADMA",
+              "analysis_price": 13.295,
+              "live_price_change_pct": 0.56
+            },
+            "broker": {
+              "id": "ffece812-3c38-48b0-82f2-55dfbff24036",
+              "client_order_id": "ta-20261105-115648-ADMA",
+              "symbol": "ADMA",
+              "qty": "14",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 14.14,
+              "stop_loss": 12.91,
+              "legs": [
+                "e49ce97d-c3bb-4192-9a62-876849ccaf79",
+                "cfc3ef98-7428-4b3c-ac6e-ce59e2323f48"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "position size cap exceeded, skipped: 1 share at $352.50 > current cash-based budget ($200.00)"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "bid/ask spread too wide: 14.28% (bid $156.01, ask $180.00); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 3,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T12:26:26-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1216.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OMH",
+          "OXLC",
+          "APP",
+          "XERS",
+          "HIMX",
+          "JAN",
+          "GIL",
+          "ACDC",
+          "TRIP",
+          "SEZL",
+          "CHSN",
+          "EDHL",
+          "MGNI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SEZL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGNI",
+            "reason": "bid/ask spread too wide: 2.74% (bid $27.72, ask $28.49); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T12:55:20-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1246.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "DNUT",
+          "OMH",
+          "OXLC",
+          "APP",
+          "XERS",
+          "CHSN",
+          "JAN",
+          "GIL",
+          "HIMX",
+          "ACDC",
+          "TRIP",
+          "PGEN",
+          "MGNI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DNUT",
+            "action": "submitted",
+            "order": {
+              "symbol": "DNUT",
+              "qty": 40,
+              "est_cost": 197.6,
+              "entry_ref": 4.94,
+              "take_profit": 5.24,
+              "remaining_take_profit_pct": 6.07,
+              "stop_loss": 4.79,
+              "confidence": 0.7,
+              "client_order_id": "ta-20261105-125520-DNUT",
+              "analysis_price": 4.925,
+              "live_price_change_pct": 0.3
+            },
+            "broker": {
+              "id": "ec1f2d33-4efe-4560-bbbd-0e3e22062241",
+              "client_order_id": "ta-20261105-125520-DNUT",
+              "symbol": "DNUT",
+              "qty": "40",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.24,
+              "stop_loss": 4.79,
+              "legs": [
+                "acf09753-d502-43f6-805c-ee1ac196837a",
+                "bd06cb45-92e3-4a2e-84d2-c489285a53d9"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGNI",
+            "reason": "bid/ask spread too wide: 1.01% (bid $27.68, ask $27.96); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T13:23:14-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1316.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OMH",
+          "OXLC",
+          "APP",
+          "XERS",
+          "ACDC",
+          "JAN",
+          "PTLO",
+          "GIL",
+          "HIMX",
+          "CHSN",
+          "TRIP",
+          "PGEN",
+          "WRBY"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PTLO",
+            "action": "submitted",
+            "order": {
+              "symbol": "PTLO",
+              "qty": 30,
+              "est_cost": 195.0,
+              "entry_ref": 6.5,
+              "take_profit": 6.87,
+              "remaining_take_profit_pct": 5.69,
+              "stop_loss": 6.3,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261105-132314-PTLO",
+              "analysis_price": 6.51,
+              "live_price_change_pct": -0.15
+            },
+            "broker": {
+              "id": "d7729042-354c-42e7-ae8a-b1a000c6aba1",
+              "client_order_id": "ta-20261105-132314-PTLO",
+              "symbol": "PTLO",
+              "qty": "30",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 6.87,
+              "stop_loss": 6.3,
+              "legs": [
+                "9e723fd3-7767-45d4-a399-bc1a5d7dbafb",
+                "10b5e7e9-8e63-415b-a182-a0ad88b3b52f"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRBY",
+            "reason": "bid/ask spread too wide: 1.59% (bid $26.81, ask $27.24); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T13:53:19-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1346.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OMH",
+          "OXLC",
+          "APP",
+          "XERS",
+          "ACDC",
+          "JAN",
+          "HIMX",
+          "TRIP",
+          "GIL",
+          "CHSN",
+          "PGEN",
+          "MGNI",
+          "WRBY"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGNI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRBY",
+            "reason": "bid/ask spread too wide: 13.68% (bid $26.77, ask $30.70); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T14:24:26-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1416.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OMH",
+          "OXLC",
+          "APP",
+          "XERS",
+          "ACDC",
+          "JAN",
+          "HIMX",
+          "TRIP",
+          "GIL",
+          "WRBY",
+          "PGEN",
+          "MGNI",
+          "CHSN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "MGNI",
+            "action": "submitted",
+            "order": {
+              "symbol": "MGNI",
+              "qty": 3,
+              "est_cost": 83.7,
+              "entry_ref": 27.9,
+              "take_profit": 29.97,
+              "remaining_take_profit_pct": 7.42,
+              "stop_loss": 26.86,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261105-142425-MGNI",
+              "analysis_price": 27.64,
+              "live_price_change_pct": 0.94
+            },
+            "broker": {
+              "id": "9634ce2f-f038-467e-bc0c-0181f54c5c69",
+              "client_order_id": "ta-20261105-142425-MGNI",
+              "symbol": "MGNI",
+              "qty": "3",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 29.97,
+              "stop_loss": 26.86,
+              "legs": [
+                "e007b03e-43ef-452b-b538-641184e1722f",
+                "43711200-b67e-4045-9020-59ce2211c112"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRBY",
+            "reason": "bid/ask spread too wide: 3.18% (bid $26.30, ask $27.15); 1% max"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHSN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T14:55:58-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1446.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "DNUT",
+          "OMH",
+          "OXLC",
+          "XERS",
+          "APP",
+          "TRIP",
+          "ACDC",
+          "JAN",
+          "HIMX",
+          "GIL",
+          "WRBY",
+          "PGEN",
+          "VCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DNUT",
+            "action": "submitted",
+            "order": {
+              "symbol": "DNUT",
+              "qty": 40,
+              "est_cost": 196.8,
+              "entry_ref": 4.92,
+              "take_profit": 5.24,
+              "remaining_take_profit_pct": 6.5,
+              "stop_loss": 4.71,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261105-145557-DNUT",
+              "analysis_price": 4.865,
+              "live_price_change_pct": 1.13
+            },
+            "broker": {
+              "id": "c52e915f-c500-4c86-8daf-d126a268838e",
+              "client_order_id": "ta-20261105-145557-DNUT",
+              "symbol": "DNUT",
+              "qty": "40",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.24,
+              "stop_loss": 4.71,
+              "legs": [
+                "e0347b7c-7b80-4c42-957c-b9ffed88692f",
+                "288fe69f-1c0a-4c27-b5a7-377726f4c526"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GIL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRBY",
+            "reason": "bid/ask spread too wide: 3.22% (bid $26.30, ask $27.16); 1% max"
+          },
+          {
+            "symbol": "PGEN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCEL",
+            "reason": "position size cap exceeded, skipped: 1 share at $52.45 > current cash-based budget ($1.99)"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T15:22:43-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1516.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "OMH",
+          "OXLC",
+          "XERS",
+          "APP",
+          "ACDC",
+          "TRIP",
+          "JAN",
+          "HIMX",
+          "GIL",
+          "WRBY",
+          "PGEN",
+          "VCEL",
+          "EPAM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MNTN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VCYT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OXLC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XERS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "APP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TRIP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T15:49:18-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-05/shortlist_1546.json",
+        "shortlist": [
+          "MNTN",
+          "VCYT",
+          "DNUT",
+          "OMH",
+          "OXLC",
+          "TRIP",
+          "APP",
+          "XERS",
+          "ACDC",
+          "HIMX",
+          "JAN",
+          "ADMA",
+          "GIL",
+          "WRBY",
+          "VCEL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-05T15:49:18-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

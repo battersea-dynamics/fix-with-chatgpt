@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-11-05T14:24:26-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "MNTN",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.74,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: MNTN is currently trading at a significant discount following a massive 54.29% drop, yet Susquehanna explicitly maintained a positive outlook on the stock today, November 5, 2026, setting a $12 price target. Trading volume is exceptionally high at 12.13x the 20-day average, signaling intense institutional interest and liquidity following the company's Q3 earnings call released today. The stock has shown resilience, maintaining a rank of 1 across 9 consecutive observation intervals despite the initial volatility, and with a drawdown of only 2.16% from its observed high, the tape suggests a technical floor is being established. This extreme oversold condition, combined with fundamental analyst support, creates a prime opportunity for a sharp mean-reversion trade. BEAR: MNTN is currently suffering a catastrophic 54.29% daily decline, trading 51.99% below its 20-day moving average, signaling an intense liquidation event rather than a bottoming opportunity. While the Susquehanna price target cut to $12 suggests a fundamental adjustment following the Q3 earnings call released today, the market is aggressively repricing the equity regardless of that valuation floor. The momentum history confirms this exhaustion, as the stock has exhibited a 2.16% drawdown from its observed session high with negative price acceleration. Buying into this level of volatility and negative sentiment, compounded by the uncertainty of a steep sell-off, provides no technical support to justify entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VCYT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: VCYT is presenting a classic capitulation setup following an aggressive 57% sell-off, likely triggered by the Leerink Partners downgrade issued today. Despite the sharp decline, the stock is demonstrating significant liquidity with 9.39x relative volume, indicating strong institutional interest and potential for a mean-reversion bounce. Recent momentum data supports this recovery thesis, showing 4.758% price acceleration and a positive 1.5097% return since the previous observation. The stock is holding its ground at the current level, suggesting the downside pressure is abating and providing a high-volatility entry point for a short-term rebound play. BEAR: VCYT is experiencing a massive 57.11% price collapse, fundamentally driven by a fresh Leerink Partners downgrade that lowers their price target to $35. Despite the extreme distance from its 20-day MA, the stock has failed to find a floor, with a 7.85% drawdown from its observed high and only 3 positive intervals out of 8, signaling that the sell-off remains in full force. Buying here is a clear attempt to catch a falling knife while the market digests a specific, negative analyst action that confirms institutional reassessment of the company's valuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OMH",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.15 = bull 0.60 - bear 0.75 (buy at >= +0.20). BULL: OMH is exhibiting strong intraday technical resilience despite a sharp daily decline, supported by significant volume participation at 2.24x its 20-day average. The stock has demonstrated persistent momentum with nine consecutive observations and a remarkable 39.96% gain since it was first flagged at 10:20 ET, maintaining an tight drawdown of only -0.56% from its session high. While there is no specific fundamental news explaining this volatility in today's report, the technical tape confirms aggressive buying pressure with a price acceleration of 7.82 percentage points. Given the sustained demand, the stock is primed for a mean reversion or short-term breakout as it holds near its session highs. BEAR: OMH is currently exhibiting severe extension, trading at 298.73% above its 20-day moving average, which creates a massive reversion risk despite the lack of a specific explanatory catalyst in the news report. The internal momentum data shows clear signs of exhaustion, with the rel_volume_rate_change dipping to -0.009 and the stock failing to improve its rank despite the session move. Investors buying at this level are acting as exit liquidity for earlier entrants who have already realized a 39.96% gain since the stock first appeared. With no fundamental news to support this 9.45% intraday decline or the volatility seen today, the risk of a swift gap-fill or further profit-taking is high.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OXLC",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: OXLC is demonstrating a compelling mean-reversion opportunity following an aggressive 23.24% sell-off, supported by 8.51x relative volume indicating exhaustion of selling pressure. The tape shows persistent strength with 9 consecutive observations and a 3.946% return since first seen at 10:20, holding a tight drawdown of only 0.9891% from its intraday high despite the broader decline. While the recent announcement of a full redemption of 5.00% notes due 2027 represents a significant capital structure change, the stock is oversold at 31.20% below its 20-day moving average ahead of today's earnings release and an imminent $0.20 dividend payment. BEAR: OXLC is currently suffering a massive -23.24% price collapse and trading 31.20% below its 20-day moving average, creating a classic value trap rather than a momentum opportunity. While the company is set to report earnings today, the simultaneous negative sentiment and the upcoming ex-dividend date on 2026-11-16 introduce mechanical price pressures that will likely exacerbate selling. Furthermore, the relative volume rate is deteriorating with a -0.1113 change, indicating that despite high daily activity, the conviction behind the price floor is eroding. The stock is essentially catching a falling knife on the day of an earnings release, offering no clear technical support in the current intraday momentum metrics.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "APP",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: AppLovin is exhibiting immense institutional demand today following a 'monster' Q3 beat and an unprecedented Rule of 40 score of 120, which validates the stock's massive 30.94% jump. The buying is backed by 4.14x relative volume, demonstrating that major market participants are aggressively positioning behind the accelerating AI-driven revenue growth reported today. With nine consecutive scanner observations confirming sustained, high-conviction participation and a recent positive return trend since the first observation, the tape shows clear institutional momentum. Even with a minor drawdown from the daily high of 362.75, the stock remains significantly extended above its 20-day moving average, signaling strong trend-following interest that typically leads to further follow-through after such fundamental validation. BEAR: APP is currently exhibiting a clear 'chasing' failure mode, as the stock has already moved 30.94% today and sits 35.43% above its 20-day moving average. The momentum history shows measurable deterioration, with a negative return of -1.90% from the observed intraday high of $362.75 and a price acceleration of -1.0978 percentage points. Furthermore, the market has already fully digested the 'monster quarter' earnings news, leaving no remaining catalyst to fuel further upside at these extended levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XERS",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: XERS is rallying on heavy fundamental validation following a strong Q3 earnings beat, with the company raising FY2026 sales guidance to $395M-$405M and providing an optimistic long-term outlook for $1 billion in revenue by 2030. The market has responded with a massive 3.80x relative volume surge and a 25.81% gain, signaling significant institutional re-rating. Despite a modest drawdown from its high, the stock has maintained 9 consecutive positive scan observations, reflecting persistent momentum. The confluence of concrete earnings growth and major upward guidance revisions provides a compelling backdrop for continued strength. BEAR: XERS is exhibiting classic signs of exhaustion after a parabolic 25.81% move, trading 25.85% above its 20-day MA. The momentum data confirms a significant loss of steam, with the stock currently 2.84% off its observed high and showing a declining relative volume rate of -0.1034. Since the positive earnings news is fully public and already reflected in the session's peak price, the entry now constitutes chasing liquidity at an extended level without further catalyst support to sustain the breakout.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "ACDC",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: ACDC is showing a classic capitulation setup today, trading down 29.35% on high relative volume of 3.25x, which often marks a bottom following a bad earnings report. Despite the disappointing $511.100M revenue print against the $548.385M estimate, the stock has shown notable resilience in the final 180 minutes of the session with a price acceleration of 4.9454 percentage points and consecutive positive price development. With the stock currently 35.56% below its 20-day moving average, the current level offers a significant technical oversold bounce opportunity for a mean reversion trade. The combination of sustained relative volume and recent price acceleration suggests that sellers are exhausted, creating a high-reward setup for those entering into the selling climax. BEAR: ACDC is currently suffering from a severe fundamental repricing following the same-day report that ProFrac Holding missed Q3 revenue estimates by over $37 million, triggering a massive 29.35% sell-off. The stock's momentum history confirms this is an 'exhausted_or_reversing' setup with a 6.34% drawdown from its observed high, indicating that buying into the current session is acting as exit liquidity for those fleeing the earnings disappointment. Despite elevated relative volume of 3.25x, the price is failing to recover and remains pinned at the bottom of its intraday range, confirming that the current selling pressure is overpowering any attempt at a bounce.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 3.7e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "JAN",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: JAN is demonstrating strong momentum following the announcement of an upsized public offering, showing the market's appetite for the company's equity despite the capital raise. The stock's relative volume of 6.83x is exceptionally high, and its sustained performance is confirmed by nine consecutive positive observations spanning 239 minutes. With a return of 5.0% since it was first sighted and the stock holding firm at its observed high of $30.45 without drawdown, the price acceleration of 1.1922 indicates strong buying conviction. This trend is further supported by the current price sitting 6.28% above the 20-day moving average, signaling a clear breakout that is well-backed by trading volume. BEAR: Buying JAN today involves chasing a move that has already been significantly diluted by the company's announcement of an upsized public offering of Class A-1 common stock today. This capital raise effectively caps the upside potential, as the market must now absorb additional share supply while the stock is already trading 6.28% above its 20-day moving average. Furthermore, the relative volume rate has slowed to 0.4148, indicating that the initial momentum is waning as the session progresses. Entering now risks being the exit liquidity for those who bought prior to the pricing news, especially with an ex-dividend date looming just seven days away that could further pressure technical support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HIMX",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.2,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.55 = bull 0.40 - bear 0.95 (buy at >= +0.20). BULL: HIMX is experiencing an extreme oversold condition, trading 35.04% below its 20-day moving average, which historically sets the stage for a mean-reversion bounce. While the stock reacted negatively to guidance today, the heavy capitulation volume at 3.04x normal levels suggests the weak hands have been flushed out. Despite the guidance miss, the company maintains active innovation, recently launching the WiseGuard Smart Sensor Evaluation Kit on November 3rd to drive growth in edge AI security. With nine consecutive observations of trading activity and a recent price acceleration of 0.5259 percentage points, the stock is demonstrating an early attempt to stabilize at these discounted levels. BEAR: HIMX is suffering a massive -26.72% price collapse driven by catastrophic Q4 guidance, with management projecting revenue of $182.596M-$192.467M against a $272.660M estimate, signaling an extreme fundamental disconnect. The stock is currently trading 35.04% below its 20-day moving average, confirming that the current price action is an aggressive institutional repricing rather than a temporary volatility spike. Despite 3.04x relative volume, the tape shows deterioration with a -1.54% drawdown from the observed session high and a declining relative volume rate per interval, suggesting that buying the dip is simply providing exit liquidity to those fleeing the dismal outlook.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TRIP",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: TRIP is showing clear signs of a mean-reversion attempt following an aggressive 22.6% sell-off triggered by today's Q3 earnings miss. Despite the negative headline, the tape indicates strong buying interest, with a relative volume of 3.68x normal and 5 consecutive positive momentum observations. Price has recovered 2.11% from its first-seen level with limited drawdown from the observed high of -0.5041%, demonstrating strong resilience and price acceleration of 1.0117% points. This setup suggests that the market may have overreacted to the earnings miss, creating a tactical entry point for a short-term bounce. BEAR: TRIP is reeling from a disastrous Q3 earnings report released today where both EPS and revenue missed analyst estimates, fueling a 22.6% collapse in price. While the stock has seen a minor recovery from its intraday lows, the 3.68x relative volume spike confirms this is an institutional liquidation event rather than a bottoming process. Any attempt to buy here is effectively catching a falling knife, as the market is aggressively repricing the company following the clear, fundamental failure reported this morning.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GIL",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Gildan Activewear is currently exhibiting a classic exhaustion capitulation, with a massive relative volume of 4.64x driven by an aggressive sell-off on earnings and guidance misses reported on 2026-11-05. Despite the negative headline, the tape shows clear evidence of a bottoming process with nine consecutive positive observations since 10:20 ET, yielding a 6.66% recovery from the initial low. With the price currently sitting at its observed high of $34.73 and no further drawdown, the intense volume suggests that institutional selling has likely reached a saturation point, creating a high-conviction mean reversion setup as the market digests the revised guidance. BEAR: Gildan Activewear's massive -19.74% sell-off is fundamentally driven by a double-whammy of a Q3 earnings miss and significant downward revisions to both EPS and sales guidance for FY2026. While the stock is currently showing a 'sustained_continuation' setup in recent snapshots, the price acceleration has flipped negative (-1.2351%), signaling that the aggressive selling pressure is beginning to overwhelm any recovery attempts. Buying here assumes the market has bottomed on catastrophic guidance cuts, yet with the stock still trading significantly below its 20-day moving average (-15.39%), there is a high probability of institutional follow-through selling as portfolios rebalance away from the lowered guidance outlook.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WRBY",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.25 = bull 0.90 - bear 0.65 (buy at >= +0.20). BULL: Warby Parker is showing powerful momentum following today's earnings call and the positive revision to its FY2026 sales guidance, which serves as a fundamental catalyst for the current 28.56% price jump. The stock is backed by high conviction, evidenced by a relative volume of 2.34x and three consecutive observations showing consistent positive price acceleration of 2.6412 percentage points. With the price holding at its daily high of $27.37 and showing no drawdown, the sustained buyer interest suggests significant room to run as the market reprices the company's improved outlook. The combination of immediate guidance upgrades and robust intraday volume confirms this move is driven by genuine institutional participation. BEAR: The stock has experienced a massive 28.56% single-session spike, leaving it stretched 10.70% above its 20-day moving average and creating significant risk of a mean-reversion pull back. While the guidance raise provided a catalyst, the market reaction appears to have fully front-run the news, with the stock trading at its absolute session high and offering no further upside momentum to justify chasing at this elevated level. Entering here requires buying into peak liquidity after a vertical move, leaving no margin of safety for day traders looking for a multi-day hold.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PGEN",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Precigen presents a contrarian opportunity today following an aggressive sell-off, with Citizens maintaining a 'Market Outperform' rating and significantly raising its price target to $12. While earnings missed estimates yesterday, the stock is currently seeing massive participation with 3.39x relative volume, suggesting that the market is aggressively re-evaluating the stock's long-term valuation in light of the analyst upgrade. Despite the intraday decline, the price has stabilized near its observed high of $4.075 with a drawdown of only 1.7178% over 210 minutes of observation, indicating significant buying interest at these lower levels. This provides a high-reward setup for a mean reversion play as investors digest the recent analyst validation against the initial negative reaction to the earnings report. BEAR: PGEN is currently suffering from a severe -20.77% drawdown, compounded by a -39.06% distance from its 20-day MA, signaling that recent volatility is dominated by selling pressure rather than accumulation. The internal tape shows clear exhaustion, with a slowing relative volume rate of 0.141 and a negative price acceleration of -1.7178, confirming that participants are exiting into the current price level. Despite fresh headlines, the price action remains trapped in a downtrend, and the upcoming earnings catalyst on 2026-11-11 adds significant binary risk that makes any long position untenable in the near term.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MGNI",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 8.44,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: MGNI is experiencing a powerful momentum breakout supported by fundamental tailwinds from its Q3 2026 earnings, which highlighted a successful CTV surge and political ad boom. Market confidence is reinforced by Susquehanna's upgrade today, which explicitly raised the price target to $35. With 3.16x relative volume and price action holding strong at +21.28% on the day, the stock is clearly attracting significant institutional interest. Given the strong technical breakout and the fundamental catalyst confirming business growth, MGNI is positioned for further upside in the near term. BEAR: MGNI is currently experiencing a classic 'chasing' failure mode, as evidenced by the 21.28% day gain and a 18.66% extension from its 20-day MA. Despite fresh positive news and an analyst upgrade to $35 today, the intraday momentum has deteriorated, showing a drawdown of 0.647% from its observed high over the last two hours. With the stock currently failing to improve its rank despite high relative volume of 3.16x, it is clear that the market has already aggressively priced in the Q3 earnings news, leaving no significant catalysts left to support further upside from these levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CHSN",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: CHSN is currently showing extreme bullish deviation, trading 164.62% above its 20-day moving average, which indicates massive relative strength in its long-term technical trend despite the session's minor pullback. While the catalyst report contains no specific news explaining today's price action, the stock's significant distance from its moving average confirms it remains a high-interest target for momentum traders. The current volume and price metrics suggest this is a consolidation phase within a broader, high-momentum move. There is nothing in the provided reports to dampen the bullish outlook, and the technical setup supports a potential reversal to the upside. BEAR: CHSN is currently exhibiting clear signs of chasing and volume-non-confirmation, as it trades 164.62% above its 20-day moving average on a thin relative volume of only 0.34x. The tape confirms a breakdown in momentum with a 8.67% drawdown from its observed high and a consistent rank decline from 12 to 15 over the session. With zero immediate news catalysts and negative price acceleration, the current buying interest is clearly failing to sustain the prior move, leaving investors as exit liquidity for a stock that is rapidly losing its speculative bid.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "MNTN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VCYT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OMH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OXLC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "APP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XERS",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "ACDC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JAN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HIMX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TRIP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GIL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WRBY",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 3.18% (bid $26.30, ask $27.15); 1% max"
+    },
+    {
+      "symbol": "PGEN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MGNI",
+      "action": "submitted",
+      "order": {
+        "symbol": "MGNI",
+        "qty": 3,
+        "est_cost": 83.7,
+        "entry_ref": 27.9,
+        "take_profit": 29.97,
+        "remaining_take_profit_pct": 7.42,
+        "stop_loss": 26.86,
+        "confidence": 0.6,
+        "client_order_id": "ta-20261105-142425-MGNI",
+        "analysis_price": 27.64,
+        "live_price_change_pct": 0.94
+      },
+      "broker": {
+        "id": "9634ce2f-f038-467e-bc0c-0181f54c5c69",
+        "client_order_id": "ta-20261105-142425-MGNI",
+        "symbol": "MGNI",
+        "qty": "3",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 29.97,
+        "stop_loss": 26.86,
+        "legs": [
+          "e007b03e-43ef-452b-b538-641184e1722f",
+          "43711200-b67e-4045-9020-59ce2211c112"
+        ]
+      }
+    },
+    {
+      "symbol": "CHSN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

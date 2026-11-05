@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-05T08:50:52-05:00",
+  "session_date": "2026-11-05",
+  "reads": {
+    "MNTN": {
+      "symbol": "MNTN",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "OMH": {
+      "symbol": "OMH",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "U": {
+      "symbol": "U",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FUN": {
+      "symbol": "FUN",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "TRIP": {
+      "symbol": "TRIP",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "SEZL": {
+      "symbol": "SEZL",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "VCYT": {
+      "symbol": "VCYT",
+      "pattern": "gap down breakdown",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "WRBY": {
+      "symbol": "WRBY",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ASPN": {
+      "symbol": "ASPN",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "SSTK": {
+      "symbol": "SSTK",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "RUN": {
+      "symbol": "RUN",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "EPAM": {
+      "symbol": "EPAM",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.9
+    }
+  }
+}
