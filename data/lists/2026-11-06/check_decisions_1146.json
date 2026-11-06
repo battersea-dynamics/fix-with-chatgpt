@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-11-06T11:56:09-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "STLN",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: Starling Oncology presents a compelling mean-reversion opportunity following an overdone 32.24% sell-off on 5.61x relative volume, bolstered by BTIG maintaining its buy rating and raising its price target to $10 on November 6, 2026. Despite a steep session drawdown, the tape shows early stabilization with 4 consecutive observations, a positive return since the previous scan of 1.34%, and a price acceleration of 8.49% points. With Q3 earnings beating revenue estimates on November 5, 2026, the current extreme oversold level near $4.54 creates a wide margin of safety for a sharp bounce toward the analyst's high target. The combination of heavy volume liquidation and institutional backing provides a powerful catalyst for a multi-day recovery. BEAR: Buying STLN today is a textbook case of chasing a collapsing knife following its Q3 earnings and guidance update released on 2026-11-05. Despite a same-session pre-market headline that BTIG maintained a buy and raised its price target to $10 on 2026-11-06, the stock has cratered with a day change of -32.24% and sits -31.51% away from its 20-day MA at $4.54. Furthermore, same-session momentum observations show measurable deterioration with an 8.84% drawdown from its observed high of $4.98 across 90 minutes. Stepping in here means fighting intense downward momentum where the post-earnings reaction completely overwhelms the analyst price target upgrade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IRTC",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: IRTC offers a classic capitulation-rebound setup after plunging 32.39% on an extraordinary 4.63x relative volume. This massive downside wipeout has occurred alongside multiple same-session analyst updates on 2026-11-06 from major firms including Wells Fargo, Evercore ISI Group, Piper Sandler, Needham, and BTIG, all maintaining positive ratings (Overweight, Outperform, Buy) while lowering price targets to between $135 and $170, suggesting the sell-off is an overreaction relative to their maintained bullish stances. Although the tape shows a drawdown of 5.17% from its observed high of $92.82, the history confirms 4 consecutive scans with 2 positive intervals and an incremental return of 0.1747% since the previous scan, indicating stabilization after the initial flush. Buying into this extreme volume exhaustion offers a high-beta bounce opportunity as the market digests the wave of price target resets. BEAR: Buying IRTC right now is a severe chasing and falling-knife trap given the catastrophic 32.39% single-day collapse and 4.63x relative volume crush. Multiple fresh same-session analyst actions from Wells Fargo, Evercore ISI, and Piper Sandler showing severe price target cuts to $135, $140, and $150 validate the underlying fundamental damage rather than providing a buy-the-dip opportunity. Furthermore, the intraday history shows a persistent 5.17% drawdown from the observed high, a negative price acceleration of -0.1983, and a fading relative volume rate per 30m of 0.436, proving that buying pressure has entirely evaporated.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DKNG",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: DKNG is experiencing a severe -25.85% sell-off on 2026-11-06 following same-session Q3 earnings misses and a full-year guidance cut, yet the tape shows strong institutional participation with a relative volume of 2.60x normal. Despite the heavy fundamental headlines, the momentum history shows 4 consecutive observations over 90 minutes with zero drawdown from its observed high of 17.441 and a positive return of 2.75% since the previous scan. This persistent intraday stabilization right at the session low suggests exhaustion of immediate panic selling and offers a high-beta mean-reversion setup for a short-term bounce. BEAR: DKNG is currently digesting a massive -25.85% sell-off following a fundamental collapse characterized by a double earnings miss and a guidance cut, as confirmed by headlines today. While the price is extended -15.54% from its 20-day MA, the 'sustained_continuation' label mask hides a deteriorating score (-0.5981) and limited momentum; it is attempting a weak bounce off absolute lows, making it prime exit liquidity for sellers. The news is not 'priced in' in the traditional sense, as the market is clearly repricing the stock to a lower floor after the company's full-year guidance cut, leaving any buyer today vulnerable to continued institutional liquidation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AXON",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: AXON is currently undergoing an extreme mean-reversion opportunity following a 17.55% sell-off triggered by transient earnings headlines and a $1.2 billion investment in Skydio. While the market is reacting to near-term margin pressure and federal deployment delays, the stock is currently trading 23.71% below its 20-day moving average, representing a significant technical overshoot. With relative volume at 2.47x normal, the heavy capitulation selling provides a high-liquidity floor for a rebound as contrarian buyers step in to capitalize on the steep discount. The recent price acceleration of 0.2146% suggests that the downward momentum is beginning to stabilize as the market digests the news. BEAR: Buying AXON today means stepping directly in front of a catastrophic fundamental breakdown supported by fresh same-session headlines including 'Axon Sinks 17% on Revenue Miss, Guidance Cut and $1.2 Billion Skydio Bet'. The tape confirms ongoing deterioration with 4 consecutive scans showing further intraday drawdowns and zero positive observed intervals since first seen. Furthermore, the massive 17.55% collapse and 2.47x relative volume reflect severe institutional distribution, while federal delays and narrowing margins highlight fundamental headwinds that cannot be resolved in a multi-day holding window.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.2e+09 - no matching value in source data",
+        "bear: cited 1.2e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FROG",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: FROG is exhibiting exceptional momentum backed by fresh catalyst reports and strong volume metrics on November 6, 2026, including Keybanc maintaining an Overweight rating and raising its price target to $118 alongside reports that the cloud business is surging due to AI and security adoption. The quantitative tape strongly confirms persistence with 4 consecutive scans over 90 minutes, a 35.15% day change, a 1.78x relative volume, and zero drawdown from its observed high of $100.85. With price acceleration of 2.04 percentage points and positive rank improvement to rank 5, the combination of analyst upgrades and locked-in high participation supports a compelling continuation trade. BEAR: Buying FROG today at $100.85 requires chasing a massive 35.15% single-session surge that has already overshot analyst expectations, with Keybanc's raised price target at $118 and Piper Sandler's at $95 signaling that the current price is pressing hard against institutional valuation ceilings right after the 'JFrog Cloud Business Surges as AI and Security Adoption Expand' headline broke today. Furthermore, the volume participation is severely lagging the price action, evidenced by a relative volume rate of only 0.213 per 30 minutes and an overall relative volume of 1.78x that fails to match the extreme 35% magnitude of the move. Entering at this level means absorbing the full impact of a headline-driven gap where the news is already completely public and priced in, leaving late buyers as exit liquidity for institutions reacting to the same November 6 analyst updates.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FIVN",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: FIVN presents a classic oversold bounce setup after an intense 18.37% drop, trading at $27.87 with heavy volume confirmation at 2.24x normal. Despite an Evercore ISI Group downgrade to In-Line with a $24 price target on 2026-11-06, the intraday tape shows strong persistence across 4 consecutive observations and 90 minutes of monitoring, including a positive return of 1.4746% since the previous scan and a zero drawdown from its observed high of $27.87. With price acceleration at 1.1883 percentage points and sustained continuation, buyers are aggressively stepping in to absorb the heavy selling pressure. This provides a compelling short-term window for a mean-reversion trade. BEAR: Five9 is experiencing a severe intraday collapse on 2026-11-06, down 18.37% and sitting 21.69% below its 20-day moving average. The fresh catalyst is an explicit analyst downgrade from Evercore ISI Group lowering Five9 to In-Line with a price target maintained at $24, a level even lower than the current $27.87 price. While the stock has seen a marginal stabilization in its last few 30-minute intervals with a 0.108% return since first seen, attempting to buy this steep downward trend equates to catching a falling knife against active negative institutional analyst action. With relative volume at 2.24x normal but volume rate per 30 minutes slowing to 0.1885, participation is drying up while the stock holds near its worst levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NRDS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Nerdwallet Inc (NRDS) is trading down sharply by -30.88% to $7.90 following its Q3 2026 earnings call covering revenue misses and auto insurance headwinds published on November 6, 2026. Despite the steep sell-off, relative volume remains elevated at 1.54x normal, and the tape shows 4 consecutive observations with a positive price acceleration of 3.52 percentage points and a 1.02% return since the previous scan. The recent session high reached $8.465, leaving room for an oversold bounce as aggressive mean-reversion buyers step in to absorb the post-earnings pessimism. BEAR: NRDS is down 30.88% on the session to $7.90, sitting 25.34% below its 20-day moving average following a fresh Q3 2026 earnings miss featuring severe revenue shortfalls and auto insurance woes explicitly detailed in Yahoo's Nov 6 headlines. The tape shows measurable deterioration with a drawdown of 6.67% from its observed high, a rel_volume_rate_per_30m of just 0.19, and a negative score change of -0.4583 over its last 90 minutes. Buying this falling knife means catching a severely damaged fundamental story where volume participation has already stalled out.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GMED",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.0,
+      "stop_loss_pct": 2.4,
+      "reasoning": "net -0.35 = bull 0.45 - bear 0.80 (buy at >= +0.20). BULL: Globus Medical (GMED) experienced a heavy sell-off of 12.17% down to $71.53 on 2026-11-06 following its Q3 earnings call highlights featuring a guidance cut and 2027 reset. However, institutional conviction remains present as Needham maintained its Buy rating on the stock today, even while lowering its price target to $100, indicating substantial upside potential from current oversold levels. Furthermore, heavy relative volume of 2.56x normal confirms strong institutional participation during this flush, providing a classic capitulation entry point for a mean-reversion bounce. With only two consecutive scan observations showing a modest rank improvement of 2 spots to rank 8, the tape requires cautious sizing, but the fundamental backing of a major Wall Street analyst reaffirming a Buy rating provides a tangible catalyst for recovery. BEAR: Buying GMED today means stepping in front of a severe 12.17% single-session crash driven by fresh, same-session company news confirming a Q3 earnings guidance cut and a 2027 strategic reset. Although analysts like Needham are maintaining buy ratings with a lowered $100 target, the immediate tape shows concrete deterioration with a 0.82% drawdown during the observation window and continued selling pressure. Entering this name exposes capital to falling knife dynamics as the market digests structural downward revisions to future guidance.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FLY",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 9.75,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Firefly Aerospace is surging 27.94% today backed by a massive, fresh catalyst: on 2026-11-06, Benzinga reported a headline that Firefly inked a $1.3 billion agreement with AST SpaceMobile to provide over 36 rocket engines. This fundamental catalyst drives heavy participation, evidenced by a relative volume of 1.81x normal and rank improvement to 9 with zero drawdown from the observed high. With upcoming earnings scheduled for 2026-11-10 keeping institutional attention elevated and B. Riley maintaining its Buy rating, momentum is firmly aligned for further upside over the coming sessions. BEAR: FLY is currently experiencing a massive intraday surge of 27.94% following news of a $1.3B contract, but the stock is already trading at an 8.74% premium to its 20-day moving average, significantly increasing the probability of a sharp mean-reversion move. Furthermore, the company faces an earnings announcement on November 10th, just four days away, which injects extreme event risk into any short-term holding. With the stock already priced for perfection on today's headline news, the risk of a post-hype pullback before the earnings print is substantial, especially given the historical context of persistent cash burn concerns mentioned in recent reports.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.3e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "AEHL",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: AEHL gapped higher as a notable gap mover on November 5, 2026, and despite a sharp 34.00% pullback during the session to $11.51, it remains 27.57% above its 20-day moving average. The catalyst report shows no specific fundamental headline explaining today's exact drop, leaving this as a tape-only momentum play following prior gap interest. However, with negative momentum metrics including four consecutive observations showing a -10.70% drawdown from the observed high and zero positive intervals, the tape does not independently confirm persistence. Therefore, this is a low-confidence speculative bounce attempt following recent gap strength. BEAR: AEHL is exhibiting clear signs of chasing and severe same-session deterioration following its gap higher noted in ChartMill's Nov. 5 headline. The stock has dropped 34.00% on the day to $11.51 while showing negative momentum across all observed intervals, including a 10.71% drawdown from its observed high of $12.89 and a relative volume rate of just 0.03x. Furthermore, relative volume sits at a weak 0.93x normal despite price remaining 27.57% above its 20-day moving average, confirming that participation is fading rapidly as the move unwinds. Buying here means stepping directly in front of an active liquidation phase where prior gap buyers are acting as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ONCO",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: ONCO enters today with strong upside momentum, showing a 26.17% day change and trading 33.53% above its 20-day moving average alongside relative volume of 1.13x. The stock is backed by a fresh same-session headline from November 6, 2026, detailing an amendment to its share exchange agreement regarding the merger with Realbotix. Although subsequent intraday observations show a pullback from its observed high of $7.43 to $6.93 with a 6.77% drawdown, the active catalyst and elevated volume offer a strong trading window ahead of upcoming earnings on November 11, 2026. BEAR: ONCO is presenting a textbook chasing scenario after a 26.17% single-day surge that leaves the stock sitting 33.53% above its 20-day moving average. The same-session momentum history confirms sharp deterioration, showing a 6.77% drawdown from its observed high of $7.43, a negative return of -5.63% since first seen, and a declining rank drop from 8 to 11 alongside negative price acceleration. Compounding this fading tape, the fresh same-session news regarding the Onconetix amendment for its merger with Realbotix reveals severe structural dilution risks\u2014notably that if net cash is less than $12.5M, the seller will own 95% of the buyer's shares. Furthermore, earnings are scheduled for November 11, 2026, putting a binary event squarely inside the 5-calendar-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OMDA",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: Omada Health, Inc. (OMDA) presents a compelling bounce and continuation opportunity following its November 5, 2026 Q3 earnings release, where it beat revenue estimates and raised its FY2026 sales guidance to $344.000M-$346.000M. Despite an overreaction dropping the stock 16.36% on the session to $15.85, the tape shows strong intraday bottom-fishing and resilience with 4 consecutive observations over 90 minutes, a return since first seen of 2.6973%, and 0.0% drawdown from its observed high of $15.85. Furthermore, relative volume is robust at 1.82x normal, supported by price acceleration of 1.0778 percentage points, proving that buyers are actively stepping in to absorb the post-earnings flush. BEAR: OMDA is experiencing a severe daily pullback of -16.36% and sits -16.98% below its 20-day moving average on 2026-11-06 despite strong Q3 earnings and raised guidance headlines released just one day prior on 2026-11-05. Although the intraday snapshots show a modest stabilization attempt over the last 90 minutes with a 2.69% bounce off lows, the relative volume rate per 30 minutes has dwindled to a sluggish 0.369. Buying into this steep downward extension means attempting to catch a falling knife where yesterday's positive beat and raised FY2026 sales guidance are clearly being heavily discounted by the broader market.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OKLO",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 9.38,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.25 = bull 0.75 - bear 0.50 (buy at >= +0.20). BULL: OKLO is experiencing a powerful same-session relief rally up 22.19% on November 6, 2026, driven by a fresh Q3 revenue beat and a strategic production agreement with U.S. Forged Rings for Aurora Powerhouse reactor components. Volume is confirming the breakout at 1.20x normal daily levels, and momentum since first being spotted is showing a positive 2.89% continuation with zero drawdown from the session high. Despite sitting 13.48% below its 20-day moving average, this combination of fundamental catalysts and aggressive same-session demand provides strong upside fuel for a multi-day continuation. BEAR: Buying OKLO at today's price of $23.46 means chasing a massive 22.19% single-session surge that is already reacting to a mixed same-session catalyst: a revenue beat paired with a wider loss described explicitly as a relief rally after a steep selloff. Furthermore, the stock is trading 13.48% below its 20-day moving average while relative volume sits at a modest 1.20x, indicating that the broader trend remains suppressed despite the frantic single-day bounce. With same-session price action showing zero drawdown from its observed high of $23.46 but only 90 minutes of tracked development across sparse intervals, entering here exposes the trader to immediate mean-reversion risk as initial relief buying overreacts to wider losses.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CCOI",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: CCOI has dropped 13.54% on the session to $4.06, sitting 45.11% below its 20-day MA while absorbing a Keybanc downgrade and Q3 earnings highlights released on 2026-11-06. Despite the heavy selling pressure and negative catalyst backdrop, same-session tape momentum shows a sharp 11.56% rebound over its 30-minute observation window with 0.0% drawdown from its observed high of $4.0552. With relative volume elevated at 1.34x normal, this extreme oversold washout creates a classic high-beta bounce setup for a short-term relief rally. However, with only two consecutive observations and conflicting analyst news, this tape-only recovery remains a coin-flip speculation. BEAR: CCOI is exhibiting clear signs of a dead-cat bounce following a 13.54% collapse, with the current setup showing evidence of chasing as the stock is 45.11% below its 20-day moving average. The recent Keybanc downgrade to 'Sector Weight' serves as a fundamental anchor for the sell-side pressure that likely triggered the initial decline. While the stock saw an 11.56% uptick in the last 30 minutes, this move is occurring on relatively low participation momentum with a rank deterioration from 11 to 14, indicating that buying at this level is essentially acting as exit liquidity for institutional sellers. With earnings sentiment already digested, there is no fundamental catalyst to support a sustained reversal, making this rally highly susceptible to further downside.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TMDX",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 9.38,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: TransMedics (TMDX) is surging aggressively by +23.83% to $85.42 on November 6, 2026, backed by a powerful fundamental catalyst as highlighted in the same-session headlines 'TransMedics Group Inc (NASDAQ:TMDX) Q3 Beat and Raised Outlook Spark After-Hours Rally'. Momentum is fully confirmed by the tape, showing 3 total observations, 2 consecutive scans, and a price holding right at the observed high with 0.0% drawdown. Furthermore, relative volume is robust at 1.35x normal, while the stock trades +18.99% above its 20-day moving average with ongoing positive interval returns. BEAR: TransMedics is up 23.83% on the day following fresh same-session catalysts on 2026-11-06 including its Q3 earnings beat, raised outlook, and earnings call transcripts. However, buying at $85.42 means entering 18.99% above its 20-day moving average right after the primary earnings news has been fully released to the market. Furthermore, the relative volume rate has slowed to 0.1497 per 30-minute interval with a modest 1.35x total relative volume, indicating that participation is not aggressively expanding to absorb the massive gap-up extension. With the fundamental beat already public and priced in during the initial after-hours and morning action, new buyers risk becoming exit liquidity for early session participants as the price stalls near its observed high of $85.4151.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "STLN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IRTC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DKNG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AXON",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FROG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FIVN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NRDS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GMED",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FLY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AEHL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ONCO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OMDA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OKLO",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 1.86% (bid $23.44, ask $23.88); 1% max"
+    },
+    {
+      "symbol": "CCOI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TMDX",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 28.81% (bid $72.73, ask $97.21); 1% max"
+    }
+  ]
+}

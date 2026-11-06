@@ -1,0 +1,1287 @@
+{
+  "date": "2026-11-06",
+  "events": [
+    {
+      "at_et": "2026-11-06T07:46:17-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-06T08:55:07-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-06T09:31:33-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABNB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KKR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UAA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WFC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T10:23:35-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1016.json",
+        "shortlist": [
+          "IRTC",
+          "STLN",
+          "DKNG",
+          "FIVN",
+          "AEHL",
+          "FROG",
+          "AXON",
+          "ONCO",
+          "PLAY",
+          "NRDS",
+          "EXTR",
+          "OKLO",
+          "TMDX",
+          "OMDA",
+          "TEAM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EXTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMDX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T10:53:58-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1046.json",
+        "shortlist": [
+          "IRTC",
+          "STLN",
+          "DKNG",
+          "FIVN",
+          "ONCO",
+          "AXON",
+          "FROG",
+          "AEHL",
+          "NRDS",
+          "OMDA",
+          "EXTR",
+          "OKLO",
+          "PLAY",
+          "TEAM",
+          "NTRA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EXTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PLAY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TEAM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTRA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T11:24:01-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1116.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "DKNG",
+          "AXON",
+          "FIVN",
+          "NRDS",
+          "FROG",
+          "ONCO",
+          "AEHL",
+          "GMED",
+          "CCOI",
+          "OMDA",
+          "FLY",
+          "EXTR",
+          "TMDX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCOI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EXTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMDX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T11:56:09-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1146.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "DKNG",
+          "AXON",
+          "FROG",
+          "FIVN",
+          "NRDS",
+          "GMED",
+          "FLY",
+          "AEHL",
+          "ONCO",
+          "OMDA",
+          "OKLO",
+          "CCOI",
+          "TMDX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKLO",
+            "reason": "bid/ask spread too wide: 1.86% (bid $23.44, ask $23.88); 1% max"
+          },
+          {
+            "symbol": "CCOI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TMDX",
+            "reason": "bid/ask spread too wide: 28.81% (bid $72.73, ask $97.21); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T12:23:52-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1216.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "DKNG",
+          "ONCO",
+          "AXON",
+          "GMED",
+          "FROG",
+          "NRDS",
+          "FLY",
+          "FIVN",
+          "AEHL",
+          "OMDA",
+          "ARDT",
+          "OKLO",
+          "AORT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "OKLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T12:54:54-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1246.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "DKNG",
+          "AXON",
+          "GMED",
+          "FLY",
+          "FROG",
+          "NRDS",
+          "FIVN",
+          "ONCO",
+          "AEHL",
+          "ARDT",
+          "OMDA",
+          "BTX",
+          "AORT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "bid/ask spread too wide: 14.95% (bid $86.30, ask $100.24); 1% max"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T13:25:45-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1316.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "DKNG",
+          "AXON",
+          "GMED",
+          "FLY",
+          "NRDS",
+          "FROG",
+          "ONCO",
+          "FIVN",
+          "ARDT",
+          "OMDA",
+          "CCOI",
+          "AORT",
+          "AEHL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCOI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AEHL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T13:53:46-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1346.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "DKNG",
+          "AXON",
+          "ONCO",
+          "GMED",
+          "FLY",
+          "NRDS",
+          "FIVN",
+          "FROG",
+          "ARDT",
+          "OMDA",
+          "AORT",
+          "KRMN",
+          "CCOI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "bid/ask spread too wide: 6.93% (bid $18.39, ask $19.71); 1% max"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KRMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CCOI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T14:23:32-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1416.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "DKNG",
+          "FLY",
+          "AXON",
+          "GMED",
+          "ARDT",
+          "NRDS",
+          "FIVN",
+          "FROG",
+          "ONCO",
+          "AORT",
+          "KRMN",
+          "OMDA",
+          "OKLO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "bid/ask spread too wide: 5.45% (bid $19.80, ask $20.91); 1% max"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "bid/ask spread too wide: 15.92% (bid $86.30, ask $101.23); 1% max"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KRMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OKLO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T14:53:38-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1446.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "AZUL",
+          "FLY",
+          "DKNG",
+          "AXON",
+          "ARDT",
+          "GMED",
+          "NRDS",
+          "AORT",
+          "FIVN",
+          "FROG",
+          "KRMN",
+          "ONCO",
+          "OMDA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AZUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KRMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T15:24:01-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1516.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "AZUL",
+          "FLY",
+          "AXON",
+          "DKNG",
+          "GMED",
+          "ARDT",
+          "NRDS",
+          "AORT",
+          "OMDA",
+          "FIVN",
+          "FROG",
+          "KRMN",
+          "BKD"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AZUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KRMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BKD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T15:53:23-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-06/shortlist_1546.json",
+        "shortlist": [
+          "STLN",
+          "IRTC",
+          "AZUL",
+          "FLY",
+          "DKNG",
+          "AXON",
+          "GMED",
+          "NRDS",
+          "AORT",
+          "ARDT",
+          "OMDA",
+          "FIVN",
+          "KRMN",
+          "FROG",
+          "CGON"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "KRMN",
+            "action": "submitted",
+            "order": {
+              "symbol": "KRMN",
+              "qty": 4,
+              "est_cost": 178.52,
+              "entry_ref": 44.63,
+              "take_profit": 48.01,
+              "remaining_take_profit_pct": 7.57,
+              "stop_loss": 42.94,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261106-155323-KRMN",
+              "analysis_price": 44.05,
+              "live_price_change_pct": 1.32
+            },
+            "broker": {
+              "id": "1d5750bc-3a96-4420-85a3-7d150a11f091",
+              "client_order_id": "ta-20261106-155323-KRMN",
+              "symbol": "KRMN",
+              "qty": "4",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 48.01,
+              "stop_loss": 42.94,
+              "legs": [
+                "b6efc985-2e36-44d6-aff4-31f45bc5ee6a",
+                "1113371d-e561-45ee-9f2c-1726df744502"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IRTC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AZUL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DKNG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AXON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMED",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AORT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARDT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIVN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FROG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 13.03% (bid $75.60, ask $86.14); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-06T15:53:23-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
