@@ -1,0 +1,1426 @@
+{
+  "date": "2026-11-09",
+  "events": [
+    {
+      "at_et": "2026-11-09T07:46:07-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-09T08:52:46-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-11-09T09:31:21-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [
+          {
+            "symbol": "STAK",
+            "action": "submitted",
+            "order": {
+              "symbol": "STAK",
+              "qty": 56,
+              "est_cost": 199.92,
+              "entry_ref": 3.57,
+              "take_profit": 3.85,
+              "remaining_take_profit_pct": 7.84,
+              "stop_loss": 3.46,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261109-093121-STAK",
+              "analysis_price": 3.59,
+              "live_price_change_pct": -0.56
+            },
+            "broker": {
+              "id": "5bf0451e-99e7-4c47-8e17-d03840ecac2c",
+              "client_order_id": "ta-20261109-093121-STAK",
+              "symbol": "STAK",
+              "qty": "56",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 3.85,
+              "stop_loss": 3.46,
+              "legs": [
+                "5b626c54-3b71-438a-9af8-e81177b770df",
+                "4cb68206-e77c-4230-8349-dba28b578edf"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CECO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GFR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNDY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 11
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T10:22:13-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1016.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "GFR",
+          "ABEO",
+          "IONS",
+          "VIR",
+          "IBRX",
+          "JANX",
+          "LFST",
+          "ONCO",
+          "STAK",
+          "ARWR",
+          "TLS",
+          "OFIX",
+          "NVDA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "GFR",
+            "action": "submitted",
+            "order": {
+              "symbol": "GFR",
+              "qty": 25,
+              "est_cost": 193.5,
+              "entry_ref": 7.74,
+              "take_profit": 8.43,
+              "remaining_take_profit_pct": 8.91,
+              "stop_loss": 7.44,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261109-102212-GFR",
+              "analysis_price": 7.735,
+              "live_price_change_pct": 0.06
+            },
+            "broker": {
+              "id": "fa970bac-1397-406c-a542-34323491c171",
+              "client_order_id": "ta-20261109-102212-GFR",
+              "symbol": "GFR",
+              "qty": "25",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 8.43,
+              "stop_loss": 7.44,
+              "legs": [
+                "96be195c-e268-40ae-9752-cf4d0e63bbc1",
+                "4a73a4ef-810c-4b5b-bbc9-89bbe1f30a71"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T10:52:14-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1046.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "IBRX",
+          "VIR",
+          "LFST",
+          "ARWR",
+          "ONCO",
+          "JANX",
+          "TTD",
+          "TLS",
+          "STAK",
+          "OFIX",
+          "NVDA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T11:22:29-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1116.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "LFST",
+          "VIR",
+          "ARWR",
+          "IBRX",
+          "ONCO",
+          "JANX",
+          "TLS",
+          "TTD",
+          "STAK",
+          "NVDA",
+          "GMRS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "VIR",
+            "action": "submitted",
+            "order": {
+              "symbol": "VIR",
+              "qty": 14,
+              "est_cost": 195.02,
+              "entry_ref": 13.93,
+              "take_profit": 15.06,
+              "remaining_take_profit_pct": 8.11,
+              "stop_loss": 13.51,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261109-112228-VIR",
+              "analysis_price": 13.925,
+              "live_price_change_pct": 0.04
+            },
+            "broker": {
+              "id": "cf4927b2-4070-4383-bb96-cde2a36a92c0",
+              "client_order_id": "ta-20261109-112228-VIR",
+              "symbol": "VIR",
+              "qty": "14",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 15.06,
+              "stop_loss": 13.51,
+              "legs": [
+                "33773d22-e984-495c-913b-667e9a218f6d",
+                "b840ff25-6207-4651-b3c3-1652f76bdbd0"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T11:52:12-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1146.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "ARWR",
+          "LFST",
+          "IBRX",
+          "ONCO",
+          "JANX",
+          "TTD",
+          "GMRS",
+          "TLS",
+          "NVDA",
+          "TIC",
+          "STLN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "TIC",
+            "action": "submitted",
+            "order": {
+              "symbol": "TIC",
+              "qty": 17,
+              "est_cost": 189.38,
+              "entry_ref": 11.14,
+              "take_profit": 11.6,
+              "remaining_take_profit_pct": 4.13,
+              "stop_loss": 10.88,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261109-115211-TIC",
+              "analysis_price": 11.17,
+              "live_price_change_pct": -0.27
+            },
+            "broker": {
+              "id": "190d7c20-56e7-4f9d-b15e-09744334270f",
+              "client_order_id": "ta-20261109-115211-TIC",
+              "symbol": "TIC",
+              "qty": "17",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 11.6,
+              "stop_loss": 10.88,
+              "legs": [
+                "ffb46db8-431b-4444-9f1b-65413086825d",
+                "5eee9983-90ea-452f-b507-0be030b1f6f1"
+              ]
+            }
+          },
+          {
+            "symbol": "STLN",
+            "action": "submitted",
+            "order": {
+              "symbol": "STLN",
+              "qty": 45,
+              "est_cost": 197.55,
+              "entry_ref": 4.39,
+              "take_profit": 4.75,
+              "remaining_take_profit_pct": 8.2,
+              "stop_loss": 4.22,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261109-115211-STLN",
+              "analysis_price": 4.34,
+              "live_price_change_pct": 1.15
+            },
+            "broker": {
+              "id": "869735c6-55a3-48bd-8da2-950f004e1fd2",
+              "client_order_id": "ta-20261109-115211-STLN",
+              "symbol": "STLN",
+              "qty": "45",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.75,
+              "stop_loss": 4.22,
+              "legs": [
+                "153509cc-9727-49fe-b362-41958dfc132f",
+                "68f9564f-b60a-495c-83b0-5f6682bf5cc0"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T12:22:20-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1216.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "ARWR",
+          "LFST",
+          "JANX",
+          "IBRX",
+          "ONCO",
+          "TLS",
+          "GMRS",
+          "TTD",
+          "OFIX",
+          "NVDA",
+          "STAK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T12:52:14-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1246.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "LFST",
+          "ARWR",
+          "JANX",
+          "OFIX",
+          "TLS",
+          "TTD",
+          "IBRX",
+          "GMRS",
+          "ONCO",
+          "STAK",
+          "NVDA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T13:22:21-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1316.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "JANX",
+          "ARWR",
+          "LFST",
+          "ONCO",
+          "STAK",
+          "TLS",
+          "OFIX",
+          "TTD",
+          "IBRX",
+          "GMRS",
+          "NVDA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T13:52:30-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1346.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "JANX",
+          "ARWR",
+          "LFST",
+          "ONCO",
+          "TLS",
+          "STAK",
+          "OFIX",
+          "TTD",
+          "GMRS",
+          "IBRX",
+          "HIMS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T14:22:17-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1416.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "JANX",
+          "ARWR",
+          "TLS",
+          "LFST",
+          "STAK",
+          "ONCO",
+          "OFIX",
+          "TTD",
+          "GMRS",
+          "IBRX",
+          "HIMS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T14:52:39-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1446.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "TLS",
+          "JANX",
+          "LFST",
+          "ARWR",
+          "ONCO",
+          "TTD",
+          "GMRS",
+          "STAK",
+          "OFIX",
+          "HIMS",
+          "LIF"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T15:22:22-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1516.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "IONS",
+          "TLS",
+          "LFST",
+          "ARWR",
+          "JANX",
+          "LIF",
+          "OFIX",
+          "TTD",
+          "GMRS",
+          "HIMS",
+          "ONCO",
+          "IBRX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GMRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IBRX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T15:52:28-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-09/shortlist_1546.json",
+        "shortlist": [
+          "OMH",
+          "ZURA",
+          "ABEO",
+          "TLS",
+          "IONS",
+          "JANX",
+          "ARWR",
+          "LFST",
+          "ACAD",
+          "OFIX",
+          "TTD",
+          "ONCO",
+          "HIMS",
+          "LIF",
+          "STAK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "TTD",
+            "action": "submitted",
+            "order": {
+              "symbol": "TTD",
+              "qty": 13,
+              "est_cost": 196.56,
+              "entry_ref": 15.12,
+              "take_profit": 16.08,
+              "remaining_take_profit_pct": 6.35,
+              "stop_loss": 14.72,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261109-155227-TTD",
+              "analysis_price": 15.21,
+              "live_price_change_pct": -0.59
+            },
+            "broker": {
+              "id": "f26de610-71e8-46e4-be63-11ac957e3577",
+              "client_order_id": "ta-20261109-155227-TTD",
+              "symbol": "TTD",
+              "qty": "13",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 16.08,
+              "stop_loss": 14.72,
+              "legs": [
+                "380208ed-ceb4-4ea7-916f-a65074da4e99",
+                "50a535ab-21b8-4e75-b1aa-da3fad98a14e"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABEO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IONS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "JANX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ARWR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACAD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OFIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ONCO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HIMS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LIF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-09T15:52:28-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

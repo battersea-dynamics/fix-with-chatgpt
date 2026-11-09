@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-11-09T15:22:22-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "OMH",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: OMH presents an aggressive momentum play characterized by an extraordinary 4.66x relative volume surge and a massive session gain of +660.87%, trading at $56.00 and pushing +1194.80% above its 20-day MA. The tape displays persistence across 11 consecutive observations and 300 minutes since first seen, backed by a positive return since first seen of +44.2555% and an accelerating price change of 1.2702 percentage points. While the catalyst report contains no specific headline explaining or supporting this move, the tape-only persistence criteria are firmly met with robust volume development and 7 positive observed intervals out of 10. To manage the 18.80% drawdown from the observed high of $68.97, the trade captures continuation momentum with defined risk parameters. BEAR: Buying OMH at $56.00 today requires chasing a massive 660.87% day change that has already pushed the stock 1194.80% above its 20-day moving average. The tape shows severe same-session deterioration, including a drawdown of 18.81% from its observed high of $68.97 and a low relative volume rate of 0.25 per 30 minutes that confirms participation is fading while the price is stretched. Furthermore, the catalyst report contains zero company-specific news explaining the explosive move, with the closest relevant headline being a generalized premarket mover mention on 2026-11-09 that provides no fundamental backing for a sustained multi-day hold.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZURA",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 6.3,
+      "stop_loss_pct": 3.15,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: Zura Bio faces intense downward pressure following its November 9, 2026 headline reporting that the Phase 2 TibuSHIELD study of tibulizumab missed primary and key secondary endpoints, resulting in a severe 70.90% day change to $1.19. However, heavy liquidation has driven relative volume to an extraordinary 11.48x normal levels, indicating immense market attention and liquidity for a potential oversold bounce. Despite the steep drop, the intraday history demonstrates notable stabilization with 11 consecutive observations, 7 positive intervals out of 10, and a modest return of 17.2414% since first seen while maintaining a tight drawdown of only -1.2448% from its observed high of $1.205. This persistent tape behavior combined with elevated participation offers a high-risk mean-reversion setup for a short-term rebound. BEAR: Buying ZURA today is an extreme risk as the stock is reacting to a devastating clinical failure published on November 9, 2026, where the Phase 2 TibuSHIELD study of tibulizumab missed its primary and key secondary endpoints. This catastrophic news drove a -70.90% day change down to $1.19 with a relative volume of 11.48x, and the same-session history shows measurable deterioration including a negative return since the previous scan (-1.24%) and a setup categorized as exhausted or reversing. Attempting to catch this falling knife exposes a trader to severe downward momentum with no fundamental support left for the pipeline asset in question.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ABEO",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Abeona Therapeutics experienced a heavy sell-off down 37.17% to $2.62 amid massive volume reaching 9.96x normal, backed by fresh same-session news on 2026-11-09 regarding its Q3 financial results, ZEVASKYN commercial progress, and the acquisition of Phase 3-ready ABO-801 accompanied by a $30 million private placement. Despite the steep drop and an 8.10% drawdown from its observed high of $2.851, the stock has maintained persistence across 11 consecutive observations over 300 minutes with a positive price acceleration of 4.55 percentage points. This extreme capitulation on heavy volume following significant corporate developments creates a compelling mean-reversion setup for a short-term bounce. BEAR: ABEO is experiencing severe downward momentum on the day, plunging -37.17% to $2.62 with a drawdown of 8.10% from its observed high while sitting 40.64% below its 20-day moving average. Fresh same-session news headlines from today, November 9, 2026, detail third-quarter financial results, ZEVASKYN commercial progress, and the acquisition of ABO-801 accompanied by a $30 million private placement financing, creating heavy selling pressure and dilution concerns that are actively weighing on the stock. Furthermore, the relative volume rate per 30 minutes has dropped to 0.4565 with a rate change of -0.4493, confirming that participation is fading rapidly as the price compresses. Buying into this falling knife means catching a crashing biotechnology equity in the middle of dilution news and severe tape deterioration.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 3e+07 - no matching value in source data",
+        "bear: cited 3e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "IONS",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: Ionis Pharmaceuticals dropped significantly by 21.74% on November 9, 2026, despite a strong Q3 earnings beat where Adj. EPS $(0.40) beat the $(1.21) estimate and sales of $243.00M surpassed the $182.117M estimate. Despite the heavy gap down, the tape shows remarkable intraday recovery with 11 consecutive scans over 300 minutes, delivering an 8.79% return since first seen and zero drawdown from its observed high of $30.85. Heavy volume participation remains active at 5.49x normal relative volume, confirming institutional interest in absorbing the morning overreaction. This sets up a compelling mean-reversion bounce play as buyers step in to reprice the earnings beat. BEAR: Buying IONS today carries heavy structural risk despite the Q3 earnings beat reported on 2026-11-09 where EPS of $(0.40) beat $(1.21) estimates and sales reached $243.000M. The stock is already down -21.74% on the session and sits 28.00% below its 20-day moving average, signaling deep underlying selling pressure that a modest intraday bounce of 8.7992% from first seen cannot erase. Furthermore, volume participation is actively deteriorating as shown by a low rel_volume_rate_per_30m of 0.2411 and a negative relative volume rate change of -0.1629. Entering here means buying into a sharp gap-down continuation setup where the fresh earnings news is already fully digested and current participation is fading.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TLS",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net +0.10 = bull 0.85 - bear 0.75 (buy at >= +0.20). BULL: Telos Corporation is surging on 2026-11-09 with a same-session Q3 earnings call transcript and presentation release providing fresh fundamental catalysts. The stock exhibits overwhelming technical momentum with a +43.67% day change to $6.92, backed by heavy volume at 3.68x normal and 11 consecutive observations over 300 minutes. With an impressive 19.60% return since first seen, 8 positive observed intervals, and exactly 0.0% drawdown from its observed high of $6.925, the persistent tape confirms immense buying pressure. This combination of same-day earnings disclosures and pristine intraday continuation supports a confident short-term long position. BEAR: Buying TLS at $6.92 today exposes a long position to severe exhaustion and chasing risks following a massive 43.67% single-day surge that leaves the stock sitting 43.15% above its 20-day moving average. The primary fundamental catalyst, Telos Corporation's Q3 2026 Earnings Call Transcript and Presentation released on session date 2026-11-09, is fully public and coincident with the session, meaning late buyers risk stepping in as immediate exit liquidity. Furthermore, volume participation is actively cooling off with a relative volume rate of just 0.51 per 30-minute interval alongside negative price acceleration of -1.107 percentage points, proving that the buying momentum is rapidly fading after 300 minutes of observation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LFST",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: LifeStance Health Group shows persistent institutional participation today, backed by headlines on 2026-11-09 regarding its secondary public offering priced at $13.12 and concurrent share repurchase authorization. The tape demonstrates resilience with 11 consecutive observations, a high relative volume of 5.85x normal, and a 6.22% return since first seen despite a minor 1.01% drawdown from the observed high. With previous rank improving to 6 and price remaining 13.97% above its 20-day moving average, buyers continue to absorb secondary offering supply effectively. This combination of heavy volume and active corporate catalysts creates a compelling setup for continuation over the coming sessions. BEAR: LFST is experiencing direct headwinds from fresh same-session news on 2026-11-09 regarding a massive secondary public offering of 45 million common shares priced at $13.12, which heavily dilutes current equity holders despite a concurrent 2 million share repurchase authorization. The momentum is actively deteriorating after 300 minutes of observation, showing a negative return since the previous interval (-1.01%), a drawdown of -1.01% from its observed high of $14.845, and a sharp price acceleration penalty of -2.5842 percentage points. Buying at the current price of $14.70\u2014which sits 13.97% above its 20-day moving average\u2014means chasing an overextended tape while absorbing the immediate, heavy supply overhang of a 45 million share secondary issuance.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 2e+06 - no matching value in source data",
+        "bear: cited 4.5e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "ARWR",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: Arrowhead presents fresh same-session catalyst data on 2026-11-09 from AHA 2026 showing Plozasiran achieved a 78% lower acute pancreatitis event rate versus placebo alongside sustained triglyceride reductions. Despite the -15.84% day change and -16.90% distance from its 20-day MA, ARWR exhibits strong volume confirmation with 3.91x relative volume and positive intraday resilience featuring 11 consecutive scans, a return of +1.7673% since first seen 300 minutes ago, and a minimal drawdown of just -0.6213% from its observed high. Furthermore, upcoming fiscal year-end earnings are scheduled for 2026-11-12, providing an immediate near-term catalyst for a potential mean-reversion bounce. BEAR: Buying ARWR today exposes a trader to severe downward momentum despite fresh positive data from AHA 2026 on November 9 regarding plozasiran. The stock closed down 15.84% on 3.91x relative volume and sits 16.90% below its 20-day MA, demonstrating that the market is heavily selling off the clinical results rather than rewarding them. Furthermore, fiscal year-end earnings are scheduled for November 12, just 3 calendar days after the session, placing a high-stakes binary event directly within the short-term holding window. With price action showing ongoing intraday weakness and a drawdown of 0.62% from its observed high alongside a negative price acceleration of -1.94 percentage points, entering this falling knife ahead of earnings is an exceptionally dangerous trade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JANX",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Janux Therapeutics reported initial Phase 1 JANX011 data on 2026-11-09, providing clinical validation for its ARM platform in autoimmune diseases, which triggered heavy market engagement with 4.46x relative volume despite an intraday pullback to $13.40. Analysts at Truist and Wedbush recently raised their price targets to $27 and $40 respectively, demonstrating significant underlying institutional support well above current levels. With 11 consecutive observations on the session and substantial volume participation, the steep 23.99% sell-off offers an oversold entry point for a relief bounce toward recent analyst targets. BEAR: Buying JANX today exposes a trader to severe downward momentum following the fresh same-session news on 2026-11-09 reporting initial Phase 1 JANX011 data, which has paradoxically coincided with a steep 23.99% day change and a close at $13.40. The session tape demonstrates clear deterioration with 11 consecutive scans showing a negative return since previous of -2.15%, a rank drop from 6 to 8, and a drawdown of 5.87% from its observed high. This combination of heavy selling pressure despite a fresh clinical catalyst indicates the news is being heavily distributed into, making immediate long entry dangerous.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LIF",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: LIF trades at $45.19 with heavy relative volume running at 3.82x normal, accompanied by a notable rank improvement of 6 spots up to 9th place and a positive score change of 2.0054. The momentum history shows 2 consecutive observations with a 0.1885% return since first seen and zero drawdown from its observed high of $45.185. Meanwhile, earnings are scheduled in just 1 calendar day on 2026-11-10 with expected EPS of 0.0714, creating an imminent catalyst window for a continuation move. BEAR: Buying LIF today carries a severe structural failure mode because earnings are scheduled for 2026-11-10, just 1 calendar day after the session, placing a high-stakes binary event directly inside the multi-day holding window. Furthermore, the relative volume rate has dropped to 0.7632 per 30 minutes, indicating that participation is rapidly fading despite the day change of -4.61% and heavy aggregate volume of 3.82x normal. Trading into a binary earnings print with deteriorating volume velocity transforms this entry from a clean technical play into a binary coin-flip.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OFIX",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: OFIX demonstrates strong intraday accumulation on its earnings release day, evidenced by seven consecutive scans, an impressive 17.36% return since first seen at 10:17 ET, and zero drawdown from its observed high of $7.875. Institutional participation is active with relative volume surging to 3.63x normal, backed by positive price acceleration of 0.2691 percentage points and a rank improvement of 3 slots to rank 10. Although headlines on 2026-11-09 highlight mixed events including a revenue miss alongside a Q3 earnings beat and revised guidance, the tape itself shows persistent momentum and resilient buying absorption right at the session highs. This sustained continuation setup offers a compelling multi-hour to multi-day swing window for further upside extension. BEAR: Buying OFIX today carries fundamental danger due to conflicting Q3 earnings headlines released on 2026-11-09, notably a revenue miss paired with a reduced full-year outlook. Although the stock shows an intraday gain of 17.36% from its first seen price, the underlying volume rate per 30 minutes has dropped to 0.65x normal, indicating that participation is fading as the price presses against its observed high. Entering at $7.88 means buying an extended asset trading 16.49% below its 20-day MA while absorbing the fallout of downgraded forward guidance.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TTD",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: The Trade Desk is showing strong momentum during the 2026-11-09 session, jumping 17.22% with an elevated relative volume of 3.27x normal and trading 19.69% above its 20-day moving average. The intraday tape confirms persistent buyer interest across 10 consecutive observations over 270 minutes, achieving a 2.068% return since first seen with a minimal drawdown of just 0.0995% from its observed high. Furthermore, same-session news from Yahoo on 2026-11-09 highlights that the stock is jumping ahead of upcoming earnings despite lower Q3 expectations discussion, signaling aggressive short-term accumulation by market participants. BEAR: Buying TTD at $15.16 today means chasing a +17.22% surge into a stock that Benzinga reported on 2026-11-09 is 'Likely To Report Lower Q3 Earnings,' directly contradicting the enthusiasm of the same-day Yahoo headline 'The Trade Desk Jumps 8% Ahead of Earnings.' Furthermore, the same-session momentum history shows measurable deterioration with a negative return since the previous observation (-0.0995%), a drop in rank from 10th to 11th, and a low relative volume rate of 0.259 per 30 minutes. Entering now exposes the buyer to an overextended price sitting +19.69% above its 20-day MA while facing conflicting earnings forecasts and fading volume participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GMRS",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: GMRS presents a high-volume trading opportunity on 2026-11-09, backed by earnings reporting after market close today which introduces immediate event-driven potential. The tape shows strong persistence with 9 consecutive observations, a positive return since first seen of 1.7125%, and a tightly managed drawdown of only -0.6602% from its observed high of $11.36. While the day change is -9.28%, relative volume remains exceptionally elevated at 3.41x normal with positive price acceleration of 0.0441 percentage points. This tape-only structure demonstrates resilience that can support a short-term bounce into the earnings release. BEAR: Buying GMRS today means stepping directly into an earnings binary, with results dropping AMC on the exact same US trading-session date (days_from_session: 0). The stock is already down -9.28% on the day despite a relative volume of 3.41x, and the intraday development shows clear exhaustion with a rank drop from 11 to 12, a negative score change of -0.034, and a rel_volume_rate_change of -0.0421. Entering a position hours before an earnings report under active intraday deterioration is a pure coin-flip hazard rather than a controlled trade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HIMS",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.15 = bull 0.70 - bear 0.85 (buy at >= +0.20). BULL: HIMS reports earnings after market close today on November 9, 2026, with short interest climbing to 23% ahead of the release as highlighted in recent headlines, creating massive fuel for a short squeeze. Despite a steep day change of -9.31%, the stock is showing intense participation with a relative volume of 3.03x normal. Furthermore, same-session momentum demonstrates true resilience with 4 consecutive scans over 90 minutes, a return since first seen of 0.8123%, and a 0.0% drawdown from its observed high of $23.58. This combination of elevated short interest, heavy volume, and an upcoming earnings catalyst creates a prime asymmetric opportunity for a sharp bounce. BEAR: HIMS is facing an extreme binary hazard today, reporting its Q3 earnings 'amc' on the same US trading-session date (2026-11-09), accompanied by severe competitive pressure headlines including Eli Lilly opening digital access to obesity drugs across the US. Short interest has climbed to 23% ahead of this announcement, creating a high-volatility setup where buying right now is equivalent to a coin flip into an imminent binary event. Furthermore, the stock is already down -9.31% on the session and sitting 15.60% below its 20-day moving average, demonstrating severe downward momentum even as relative volume hits 3.03x normal. Entering a position under these conditions means stepping directly in front of a volatile earnings print and structural competitive headwinds.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ONCO",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: ONCO trades at $3.64 backed by an elevated relative volume of 1.89x normal, demonstrating active market participation during today's severe -47.64% pullback. The catalyst report reveals earnings approaching in 2 calendar days on 2026-11-11, alongside a recent November 6 headline detailing an amendment to its share exchange agreement regarding a merger with Realbotix. Although the same-session history shows a downward continuation with 11 consecutive observations and a 9.71% drawdown from its observed high of $4.03, the extreme volatility offers a sharp oversold bounce opportunity ahead of the imminent earnings event. With relative volume providing liquidity and a major corporate merger background in play, a short-term rebound trade is viable despite the significant downward pressure. BEAR: ONCO is suffering a severe collapse today down 47.64% to $3.64 while sitting 30.36% below its 20-day moving average. The same-session history confirms active deterioration over 300 minutes with 11 consecutive scans, showing a 9.71% drawdown from its observed high of $4.03, a worsening rank drop from 9th to 14th, and a negative return rate. Compounding this severe downward momentum, earnings are scheduled in just 2 calendar days on 2026-11-11, bringing binary event risk directly into the holding window alongside the company's recent dilutive merger amendment terms.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IBRX",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: ImmunityBio experienced an aggressive intraday pullback of -15.40% to $7.30 on 2026-11-09 despite reporting robust same-session catalysts, including Q3 net product revenue growth of 53% year-over-year to $48.7 million, regulatory approvals for ANKTIVA, and positive primary endpoint results in its QUILT-2.005 trial. Heavy selling driven by headline revenue estimate misses has created an oversold bounce opportunity, with relative volume surging to 3.05x normal as buyers step in at the lows. Furthermore, intra-session snapshots show a 7.51% recovery from first-seen levels with zero drawdown from the observed high of $7.305, confirming aggressive accumulation against the morning selloff. BEAR: Buying IBRX today requires stepping in front of a severe 15.40% intraday collapse while the stock trades 16.74% below its 20-day moving average. The fresh same-session news headlines on 2026-11-09 reveal conflicting fundamental drivers, notably that ImmunityBio reported a Q3 loss and missed revenue estimates alongside reporting $48.7 million in product revenue and trial updates. Although relative volume is elevated at 3.05x normal, the heavy selling pressure and the negative earnings surprise create immediate overhead resistance that makes catching this falling knife a high-risk proposition.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.87e+07 - no matching value in source data",
+        "bear: cited 4.87e+07 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "OMH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZURA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ABEO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IONS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TLS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LFST",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARWR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JANX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "LIF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OFIX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TTD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GMRS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HIMS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ONCO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IBRX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
