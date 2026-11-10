@@ -1,0 +1,261 @@
+{
+  "generated_at": "2026-11-10T15:27:38-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "SMX",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: SMX is demonstrating explosive momentum today with a day change of +82.89% and relative volume surging to 36.37x normal. The tape shows strong persistence across 11 consecutive observations and 300 minutes since first seen, backed by positive price acceleration of +21.748 percentage points and a return since first seen of +13.17%. While specific news mentions the company in recent profiling headlines like Media Continues to Profile SMX Technology and Growth on November 9, the absolute force of the volume and continuous rank one status provide an aggressive momentum trading vehicle. BEAR: SMX is suffering from severe chasing risk, trading at $17.10 with an enormous +192.78% distance from its 20-day moving average on an +82.89% day change. The same-session momentum history reveals clear signs of exhaustion and a developing drawdown of -14.71% from its observed high of $20.05. Furthermore, the catalysts cited on November 9 and November 10\u2014such as general media profiles and plastic recycling highlights\u2014offer no fundamental justification for an intraday surge of this magnitude, leaving the price unsupported by concrete news and vulnerable to rapid mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STAK",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.0,
+      "reasoning": "net -0.15 = bull 0.65 - bear 0.80 (buy at >= +0.20). BULL: STAK shows explosive intraday momentum with an absolute day change of +56.23% and trading at 1.43x normal relative volume, building on fundamental backing from Yahoo's November 5, 2026 headline regarding initial progress in its gas-powered generator business. The tape confirms persistent interest through 11 consecutive scan observations across 300 minutes, yielding a strong +40.44% return since first seen despite a modest 5.75% drawdown from its observed high of $6.78. Furthermore, rank improvement to 2nd place and a positive score change of 0.7996 underscore continued institutional or trader engagement despite minor short-term cooling. Buying at the current price of $6.39 targets further upside while respecting the massive volatility inherent in a stock trading +298.81% above its 20-day moving average. BEAR: STAK is trading 298.81% above its 20-day moving average following a massive +56.23% day change, leaving the entry highly vulnerable to chasing. The primary fundamental catalyst, 'STAK Inc. Discloses Initial Progress in Gas-Powered Generator Business', occurred 5 calendar days before the session on 2026-11-05, meaning the news is largely absorbed and the reaction is already behind us. Furthermore, same-session momentum shows concrete deterioration with a return of -3.03% since the previous observation, a drawdown of -5.75% from its observed high of $6.78, and negative price acceleration of -3.578 percentage points. Participation is also stalling, reflected in a low rel_volume_rate_per_30m of 0.0196 and a rate change of -0.023.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OMH",
+      "signal": "hold",
+      "confidence": 0.165,
+      "take_profit_pct": 8.1,
+      "stop_loss_pct": 4.32,
+      "reasoning": "net -0.67 = bull 0.25 - bear 0.92 (buy at >= +0.20). BULL: OMH is experiencing extreme volume expansion with relative volume at 2.98x normal alongside headlines highlighting unusual volume movers and a massive prior day rally of 700%. Although the stock has pulled back 61.69% from its observed high of $69.30 and shows negative recent intervals across its 11 consecutive observations, it maintains strong high-frequency attention, ranking 3rd on the session scanner. This sets up a potential high-beta bounce play for a short-term trade as market participants re-engage with the extreme momentum. BEAR: OMH presents an extreme chasing hazard, sitting 383.68% above its 20-day moving average on fading participation. The Benzinga headline from November 9 (days_from_session: -1) noted the stock exploded 700%, but the same-session momentum history reveals a severe collapse from that high: a drawdown of 61.69% from its observed high of $69.30 down to the current $26.55, alongside an ugly 36.25% return drop since it was first seen. With volume momentum cooling to 0.1258 per 30 minutes and a negative price acceleration of -14.23 percentage points, buyers stepping in here are acting as exit liquidity for a parabolic pump that has already severely turned over.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BMGL",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: BMGL presents a high-volume capitulation bounce opportunity after dropping 55.00% on the session to $2.43 with massive participation at 9.09x normal relative volume. The catalyst report contains no news or events, leaving this move entirely driven by extreme intraday liquidations rather than a fundamental disclosure. Despite an observed high drawdown of 54.06% from its peak of $5.2901, the tape shows early signs of stabilization with 6 consecutive scan observations and a recent 25.2577% return since the previous observation. Given the extreme volatility and lack of news, this is a pure tape-driven oversold bounce candidate. BEAR: BMGL is experiencing a severe structural breakdown with a day change of -55.00% and a current price of $2.43 sitting 47.21% below its 20-day MA. The tape shows severe deterioration with an observed high of $5.2901 resulting in a massive drawdown of -54.06%, while the catalyst report is entirely empty of any news or earnings to justify support. Although a single 25.26% bounce occurred in the most recent interval, the rel volume rate per 30m has slowed to 0.5006, confirming that participation is rapidly fading while the stock remains deeply impaired.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FF",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: FutureFuel Corp. released its third quarter 2026 earnings reporting total revenues of $104.7 million on November 10, 2026, alongside premarket mover coverage. Despite a sharp -38.46% day change, the tape shows remarkable resilience with 11 consecutive observations, a +9.0909% return since first seen, and a tiny -0.3195% drawdown from its observed high of $3.13. Relative volume is exceptionally high at 11.80x normal, confirming massive institutional attention following the Q3 revenue release. BEAR: FutureFuel Corp. is trading down a severe 38.46% on the session to $3.12, sitting 43.96% below its 20-day moving average despite heavy relative volume of 11.80x normal driven by fresh Q3 revenue headlines released on 2026-11-10. Although the stock achieved a 9.09% bounce from its first seen price over 300 minutes, its volume rate has plummeted to 0.3049 per 30m with a negative volume rate change of -0.2645, showing that participation is rapidly fading into its current rank of 5. Buying this steep intraday drop is dangerous as volume fails to confirm any sustained recovery, leaving the massive gap down vulnerable to continued liquidation following the earnings release.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.047e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "ZIP",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 9.38,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: ZIP is staging a powerful momentum breakout on 2026-11-10, surging 49.18% on extraordinary relative volume of 7.03x normal alongside a fresh SeekingAlpha rating upgrade covering its Q3 turnaround progress. The tape confirms persistent buying power with 5 observed snapshots, 2 consecutive scans, a 20.075% gain since being first seen, and a 0.0% drawdown from its observed high of $6.40. With catalyst headlines confirming strong institutional interest and same-session strength, the stock offers compelling continuation potential over the coming sessions. BEAR: ZIP is trading up 49.18% on the day and sits 45.85% above its 20-day moving average alongside heavy news flow including Q3 earnings transcripts and turnaround upgrades published on 2026-11-10. Because these catalysts are entirely public and concurrent with a 7.03x relative volume surge, buying at the current price of $6.40 means absorbing fully recognized information after a massive vertical expansion. With the stock resting directly at its observed high and showing 0.0% drawdown, any cooling in momentum leaves late buyers exposed to immediate mean-reversion risk from extreme technical extension.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "APPS",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Digital Turbine shares crashed 37.57% on heavy volume amid same-session headlines including its Q2 2027 earnings call reporting a 27% revenue jump in AI and data. Despite the steep selloff and a 28.47% distance from its 20-day MA, the intraday tape shows 11 consecutive observations with recent score improvement of 0.914, a rank improvement of 1, and positive price acceleration of 0.5612 percentage points. With relative volume running at 5.61x normal and a shallow drawdown of just 5.41% from the observed high of $7.4587, the extreme capitulation creates a compelling mean-reversion setup. This technical resilience following a major earnings headline offers a high-beta bounce opportunity for a short-term trade. BEAR: Buying APPS today at $7.05 is an extremely dangerous attempt to catch a falling knife amidst a catastrophic 37.57% single-session crash. Fresh headlines on 2026-11-10 such as 'Digital Turbine Shares Crash Tuesday: What's Going On?' confirm that heavy selling pressure and negative market sentiment are actively unfolding in real time rather than sitting as stale news. Furthermore, the intraday snapshot shows a 5.41% drawdown from its observed high of $7.4587 after 300 minutes of tracking, proving that attempts to bounce are repeatedly met with selling. With relative volume running at 5.61x normal but the price deeply detached from its 20-day MA by -28.47%, this ongoing collapse presents a high risk of continued capitulation over a multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SMCIP",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 2.03,
+      "reasoning": "net +0.00 = bull 0.65 - bear 0.65 (buy at >= +0.20). BULL: SMCIP offers a compelling buy opportunity supported by massive relative volume running at 13.41x normal and robust participation across 11 consecutive observations over 300 minutes. The catalyst background is reinforced by fresh November 9, 2026 headlines regarding Super Micro CEO calling the outlook very conservative and an upcoming ex-dividend date of 2026-11-13 providing near-term holding incentive. Despite a -2.75% day change and being -13.86% from its 20-day MA, positive price acceleration of 1.4821 percentage points and a modest drawdown of -2.9029% from its observed high of $49.95 demonstrate solid underlying buying interest. With strong volume participation and bullish executive commentary providing a favorable backdrop, the stock is primed for a sharp mean-reversion bounce. BEAR: SMCIP exhibits clear signs of chasing risk, as evidenced by a 2.90% drawdown from its observed high and a consistent rank decline despite massive 13.41x relative volume. The stock is currently trading 13.86% below its 20-day moving average, suggesting that the aggressive volume is failing to reverse the broader negative momentum. Furthermore, the impending ex-dividend date on November 13th creates a mechanical price adjustment risk that will likely weigh on the stock during the intended holding window. The absence of a direct, specific company catalyst for today's price action leaves the stock vulnerable to profit-taking following the recent surge of bullish headlines.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GRPN",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Despite a sharp sell-off following today's Q3 2026 earnings report and slashed revenue guidance, GRPN is showing clear signs of bottom-fishing and demand absorption. Over the last four hours, the stock has rallied 7.67% from its session lows, demonstrating persistent buying interest with 5 out of 8 intervals showing positive price development. With relative volume currently at 4.46x and a recent 1% rank improvement, the stock is showing technical resilience at these levels as investors digest the negative news. This setup allows for a tactical bounce play from an oversold condition, leveraging the high liquidity currently present in the name. BEAR: GRPN is suffering from an fundamental repricing following the 'Groupon Slashes 2026 Revenue Outlook' headline, which explains the brutal 21.42% daily decline and the stock trading 22.80% below its 20-day moving average. While the stock has seen a minor 7.67% recovery from its first-seen price, this represents exit liquidity for trapped sellers rather than a bullish reversal. The momentum is clearly negative, evidenced by a significant price acceleration of -2.2974, indicating that the selling pressure remains dominant despite the high volume. Entering now is akin to catching a falling knife during an active downdraft caused by confirmed downward earnings revisions.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GILT",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: GILT is showing classic signs of an oversold technical rebound following a sharp 21.37% decline, supported by massive relative volume of 3.28x. Despite the negative guidance headline today, the stock is demonstrating resilient momentum with 7 out of 10 positive intervals observed and a notable price acceleration of 1.5345%. The internal trading data indicates the stock is stabilizing, as evidenced by a 1.62% return since the previous observation, suggesting that the initial selling pressure has been fully absorbed by opportunistic buyers. BEAR: GILT is currently experiencing a sharp valuation adjustment following a major fundamental breakdown, evidenced by the company slashing its FY2026 sales guidance from $500M-$520M down to $455M-$475M. While the stock is down 21.37% today, the tape shows clear signs of 'chasing' failure as it continues to wallow at its worst rank of 10 and has suffered a 3.09% drawdown from its observed session high. With the earnings report and guidance miss occurring today, the market is currently repricing the stock to a lower floor, making any entry a high-risk attempt to catch a falling knife in an environment of confirmed negative fundamental news.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HIMS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: HIMS is currently presenting a classic capitulation setup, evidenced by an extreme 4.02x relative volume spike and a technical deviation of 31.13% from its 20-day moving average. Despite the negative headlines regarding earnings and analyst commentary from 2026-11-10, the stock has demonstrated price resilience with positive price acceleration of 0.103 percentage points and four positive observed intervals over the last 270 minutes. This indicates that despite the 17.28% sell-off, aggressive buyers are actively absorbing the supply, positioning the stock for a violent snap-back trade as the market overreacts to the Q3 report. With the relative volume rate improving at 0.0122, the intensity of the selling is exhausting, providing a high-volatility entry for a short-term mean reversion. BEAR: HIMS is currently experiencing a massive technical breakdown, sitting 31.13% below its 20-day moving average on 4.02x relative volume. The stock is reacting to a trifecta of negative catalysts from today, including disappointing Q3 outlook results, analyst warnings from Jefferies regarding subscriber uncertainty, and a loss of momentum following its recent Eli Lilly deal. With a drawdown of 2.2159% from its observed high today and a 17.28% single-day crash, there is no evidence of a bottom; instead, the stock is currently showing signs of continued institutional liquidation. Buying this name now is catching a falling knife into a sea of fundamental and technical headwinds.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SECZ",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 4.6,
+      "reasoning": "net -0.15 = bull 0.70 - bear 0.85 (buy at >= +0.20). BULL: SECZ is backed by significant institutional support today, with Citigroup and Needham both upgrading the stock and setting price targets of $14 and $13 respectively. This fundamental validation occurs against a backdrop of massive institutional interest, evidenced by a relative volume of 4.42x. While the stock has experienced a mid-session pullback from its highs, the combination of strong analyst sentiment and high trading volume provides a solid foundation for a rebound as the market absorbs the positive news. Trading at $8.33, the stock retains substantial upside potential to reach the stated analyst targets. BEAR: SECZ is currently exhibiting clear chasing risk as the stock has undergone a significant intraday reversal, falling 14.17% from its observed session high of $9.705. The momentum data confirms this deterioration with 9 out of 10 intervals showing negative returns and a sustained ranking decline. While analyst upgrades from Citigroup and Needham were released today, the market reaction appears to have already been fully priced in, as evidenced by the 14.17% drawdown from the initial move. Buying at $8.33 represents entering into the teeth of a sustained selling trend that has persisted over the last 300 minutes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SENS",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 4.06,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: SENS is showing significant institutional interest today, supported by a 6.10x relative volume surge and a recent HC Wainwright & Co. reiteration of their Buy rating with a $14 price target. This fundamental backing aligns with the company reporting record Q3 2026 revenue, providing a strong catalyst for the current momentum. Despite the intraday pullback from a $12.20 high, the stock remains up 5.92% on the session, indicating that the initial breakout remains well-supported as traders digest the positive earnings results. The combination of strong analyst sentiment and record revenue growth makes this a compelling entry point for momentum-focused traders. BEAR: SENS is currently exhibiting a textbook 'chasing' failure mode, as evidenced by a 14.95% drawdown from its observed high of $12.205 since being first spotted. The stock is significantly extended, trading 22.28% above its 20-day moving average, while the price action shows clear deterioration with a -0.1211 price acceleration and a negative return trend over the last 300 minutes. While the HC Wainwright analyst reiterate and Q3 earnings highlights provide a fundamental backdrop, the tape confirms that the initial buying momentum has fully exhausted, leaving current participants as trapped exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MUX",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: MUX is experiencing a significant capitulation event today, with relative volume reaching 3.81x normal as the market reacts to the negative Q3 financial results released on 2026-11-10. Despite the 18.36% decline, the stock is currently trading at its observed session high of $13.25, indicating potential absorption of the initial sell-side pressure. A tactical long entry is supported by the extreme volume spike which often characterizes an exhaustion point for mining equities following earnings misses. With the stock trading 13.42% below its 20-day moving average, there is clear room for a mean reversion as the 'quarter of transition' narrative is priced in. BEAR: McEwen Mining is currently reeling from a severe fundamental failure, having posted an EPS loss of $(0.60) against expectations of $0.09 and a significant revenue miss of $43.64M versus the $56.79M estimate. The stock is down 18.36% on 3.81x relative volume, indicating aggressive institutional liquidation following these negative catalysts delivered today. While the stock has seen a marginal 0.45% bounce since being first seen, this is merely noise against the backdrop of a structural break where the price sits 13.42% below its 20-day MA. Betting on a reversal here ignores the weight of a 'transition' quarter characterized by a massive earnings and revenue disappointment that requires time for the market to re-rate the valuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PDYN",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: PDYN is exhibiting a strong bullish catalyst today with the company reporting a revenue beat and upwardly revising its FY2026 sales guidance, signaling underlying business strength. Trading volume is exceptionally high at 5.39x the normal 20-day average, confirming significant institutional interest following the earnings release. Despite a intraday pullback from the observed high of $4.02, the stock remains well-positioned near its 20-day moving average, providing a technical baseline for a potential resumption of the rally. Investors are reacting positively to the improved guidance and backlog potential, suggesting the current price level offers an attractive entry point to capture further momentum. BEAR: PDYN is a textbook 'chasing' scenario, as the stock has already suffered a 9.52% drawdown from its observed session high of 4.0197 despite high-volume interest. All seven observed intervals show negative returns since the initial spike, and the rank has deteriorated from 14 to 15, confirming that the post-earnings enthusiasm is failing to sustain momentum. The combination of a 5.39x relative volume spike that has resulted in a net decline since the first scan indicates that investors are using this liquidity to exit rather than accumulate. With earnings released today and already fully digested by the market, the catalyst for the morning rally is exhausted, leaving the stock vulnerable to further mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "SMX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "STAK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OMH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BMGL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZIP",
+      "action": "submitted",
+      "order": {
+        "symbol": "ZIP",
+        "qty": 31,
+        "est_cost": 197.47,
+        "entry_ref": 6.37,
+        "take_profit": 6.97,
+        "remaining_take_profit_pct": 9.42,
+        "stop_loss": 6.15,
+        "confidence": 0.675,
+        "client_order_id": "ta-20261110-152737-ZIP",
+        "analysis_price": 6.4,
+        "live_price_change_pct": -0.47
+      },
+      "broker": {
+        "id": "e66b99dc-cf2d-49d5-88e9-3b11bbc07b14",
+        "client_order_id": "ta-20261110-152737-ZIP",
+        "symbol": "ZIP",
+        "qty": "31",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 6.97,
+        "stop_loss": 6.15,
+        "legs": [
+          "223d6314-4b58-4e5f-b8c1-eccb1194dc4b",
+          "a69230f9-c7ea-4567-aa2d-e430f68eadc7"
+        ]
+      }
+    },
+    {
+      "symbol": "APPS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SMCIP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GRPN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GILT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HIMS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SECZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SENS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MUX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PDYN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

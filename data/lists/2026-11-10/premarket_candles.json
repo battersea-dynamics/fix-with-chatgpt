@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-10T08:49:30-05:00",
+  "session_date": "2026-11-10",
+  "reads": {
+    "DBX": {
+      "symbol": "DBX",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "SMX": {
+      "symbol": "SMX",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "GFL": {
+      "symbol": "GFL",
+      "pattern": "gap down continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "FF": {
+      "symbol": "FF",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "PDYN": {
+      "symbol": "PDYN",
+      "pattern": "exhaustion",
+      "bias": "neutral",
+      "conviction": 0.5
+    },
+    "SECZ": {
+      "symbol": "SECZ",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "FA": {
+      "symbol": "FA",
+      "pattern": "breakdown gap continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "APPS": {
+      "symbol": "APPS",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "SENS": {
+      "symbol": "SENS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "HROW": {
+      "symbol": "HROW",
+      "pattern": "gap continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "AAON": {
+      "symbol": "AAON",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "GILT": {
+      "symbol": "GILT",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.9
+    }
+  }
+}

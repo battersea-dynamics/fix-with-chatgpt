@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-11-10T08:53:13-05:00",
+  "decisions": [
+    {
+      "symbol": "AAON",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.15 = bull 0.70 - bear 0.85 (buy at >= +0.20). BULL: AAON is gapping +15.71% to $72.75 on massive pre-market volume of 46,718 shares, representing a staggering 30.92x multiple over its baseline average, fully backed by the 2026-11-10 headline regarding its Q3 earnings beat, record sales, and raised 2026 revenue guidance. Although the candle structure agent flags a bearish exhaustion pattern with 0.7 conviction, the sheer magnitude of the fundamental catalyst and extraordinary volume footprint override short-term hesitation. Buying at the open captures institutional accumulation following a monumental fundamental shift in the company's financial outlook. BEAR: AAON is exhibiting classic exhaustion structure with a bearish bias following its November 10, 2026 Q3 earnings beat and raised 2026 revenue guidance headlines. Despite the +15.71% pre-market gap up to $72.75, the pre-market volume of only 46,718 shares indicates a thin-tape pricing environment where real opening liquidity at 9:30 will routinely overrule the pre-market print. Furthermore, the combination of an exhaustion candle pattern and a gap that has already stalled compared to its earlier pre-market surge suggests the earnings reaction is fully priced in and current buyers risk serving as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "APPS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Digital Turbine Inc (APPS) reported Q2 2027 earnings on November 10, highlighting a 27% revenue jump driven by AI and data, yet the stock is gapping down 22.74% to $8.73. Despite the bearish candle structure and heavy pre-market volume of 412,274 shares representing 39.60x baseline average, this massive volume print alongside a strong revenue growth headline suggests an overdone knee-jerk reaction or potential margin digestion fears that create an exhaustion flush. Buying the open here banks on an intraday mean-reversion bounce as buyers step in to absorb the heavy liquidation at these discounted levels. However, because the candle structure explicitly reads bearish with a 0.9 conviction, this is a contrarian liquidation-reversal play rather than a clean momentum continuation. BEAR: Digital Turbine (APPS) is gapping down 22.74% to $8.73 following its Q2 2027 earnings release on November 10, despite headlines citing a 27% revenue jump. This severe disconnect points directly to an opening-auction reversal and exhaustion structure, where the bearish conviction candle read (0.9) confirms the move is already pricing in severe underlying guidance or margin compression not captured in top-line highlights. With 412,274 shares traded on thin pre-market tape, this heavy liquidation will face real opening liquidity that routinely overrules pre-market positioning, making any dip-buying attempt an exercise in catching a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DBX",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: Dropbox has an extraordinary pre-market volume of 5.5 million shares, representing an astronomical 864.29x multiple over its baseline average, driven directly by the company's announcements on November 10, 2026 regarding the upsized and priced $1.1 Billion Private Convertible Senior Bond Offering. Although the candle structure reads bearish with a -0.86% gap down to $32.30, this massive liquidity infusion and the concurrent Q3 2026 deep dive highlighting AI initiatives and the Tigris acquisition create a powerful dilution-absorption setup. Once the initial convert-related hedging pressure clears at the open, this monumental institutional volume footprint provides the fuel for a sharp mean-reversion bounce. Therefore, buying the open offers an aggressive tactical play on massive liquidity absorption. BEAR: Buying DBX at the open is a classic trap of thin-tape pricing colliding with an already priced-in dilution event, evidenced by the upsized $1.1 billion private convertible senior bond offering announced on November 10, 2026. Despite a massive pre-market volume of over 5.5 million shares\u2014driven by heavy restructuring and AI/Tigris growth narrative shifts from the Q3 deep dive\u2014the price has actually drifted down 0.86% to $32.30. The candle agent highlights a bearish continuation structure with 0.85 conviction, confirming an exhaustion structure where pre-market price action has stopped building. Real opening liquidity will ruthlessly punish longs entering into this overhang as arbitrage and hedging related to the $1.1B notes offering hit the tape.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.1e+09 - no matching value in source data",
+        "bear: cited 1.1e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "FA",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.58,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: The 9.86% gap down is directly driven by the secondary offering of common stock announced on 2026-11-09, creating a classic dilution-fear flush that brings volume to an extraordinary 141.97x baseline average. While the candle structure reads bearish with a breakdown gap continuation pattern, this massive liquidation event offers a potential exhaustion-reversal setup for a bounce. Recent analyst actions, including Barclays and Needham maintaining bullish ratings with price targets of $34 and $30 on 2026-11-06, suggest strong fundamental support below current levels that institutional buyers may defend. Therefore, buying at the open targets an oversold snapback once the secondary offering absorption stabilizes. BEAR: Buying First Advantage at today's open is an aggressive trap because the 9.86% downward gap to $21.20 is being driven by a severe equity dilution event, specifically the November 9, 2026 headline announcing the launch of a secondary offering of common stock. This secondary offering directly overwhelms the positive Q3 earnings presentation and recent analyst price target hikes from Barclays and Needham on November 6, as primary share supply floods the market and destroys the existing valuation floor. With pre-market volume sitting at 167,811 shares (141.97x baseline average), the heavy liquidation is genuine rather than a thin-tape artifact, creating an exhaustion structure and breakdown gap continuation that leaves any dip-buyer acting as immediate exit liquidity for institutional share distribution.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FF",
+      "signal": "hold",
+      "confidence": 0.075,
+      "take_profit_pct": 0.53,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.85 = bull 0.10 - bear 0.95 (buy at >= +0.20). BULL: FutureFuel Corp. dropped 31.26% in pre-market trading to $3.48 following the November 9, 2026 release of its third quarter results and total revenues of $104.7 million. Despite massive volume of 102,909 shares representing roughly 64.90 times the baseline average, the candle structure is explicitly bearish with a high conviction rating of 0.9, indicating continuation pressure rather than an immediate bullish reversal. There is no footprint of a sustained bid holding or building into the open to contradict this heavy selling pressure. Therefore, there is no credible bull case to be made for buying FF at today's open. BEAR: FutureFuel Corp. is experiencing a severe 31.26% pre-market gap down to $3.48 following its November 10, 2026 earnings report showing $104.7 million in third-quarter revenues. The candle agent reads this as a bearish continuation with high conviction (0.9), signaling an exhaustion structure where the downward momentum is already fully established. Buying this gap at the open acts as instant exit liquidity for sellers, as the opening auction reversal will likely absorb any thin-tape pre-market support. With pre-market volume sitting at 102,909 shares, the aggressive sell-off leaves no room for a durable catalyst to reverse the trajectory.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.047e+08 - no matching value in source data",
+        "bear: cited 1.047e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "GFL",
+      "signal": "hold",
+      "confidence": 0.165,
+      "take_profit_pct": 1.89,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net -0.67 = bull 0.25 - bear 0.92 (buy at >= +0.20). BULL: GFL is printing an aggressive gap down of -12.40% to $40.19 accompanied by a massive pre-market volume of 839,607 shares, which represents over 233x its baseline average. None of the recent headlines, including the October M&A recap on November 4 or Truist Securities maintaining a Buy with a lowered target of $55 on November 3, explain this specific magnitude of pre-market selling pressure. While the candle structure reads bearish with a gap down continuation pattern at 0.85 conviction, this extreme exhaustion volume on an unverified drop opens the door for an oversold bounce or capitulation flush right at the open. The risk is high given the clear bearish momentum, but the sheer volume spike suggests institutional repositioning that could quickly find a liquidity floor. BEAR: GFL is suffering a massive 12.40% gap down to $40.19 on heavy volume of 839,607 shares, yet there is a complete absence of fresh breaking news to justify the plunge, with the only recent headlines being an outdated November 3rd Truist price target cut to $55 and a November 4th M&A recap. This lack of a fresh catalytic event points directly to an exhaustion structure and opening-auction reversal where pre-market panic selling on stale sentiment will get over-corrected once real institutional liquidity arrives. Attempting a dip-buy here faces exceptional danger as the gap down continuation pattern has already run its course in thin pre-market conditions.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GILT",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: GILT is experiencing a massive downside gap of -20.84% on pre-market volume of 360,870 shares, which is 25.90x its baseline average, though the candle agent reads this as exhaustion with a bearish bias at 0.9 conviction. Notably, the recent news block contains only an unrelated headline regarding Globalstar (GSAT) from 2026-11-05, meaning there is no company-specific news explaining this move today. Because this is a severe downward gap driven by extreme volume without a specific fundamental catalyst or supporting structure, a bull case must rely solely on the potential for an oversold bounce or exhaustion reversal at the open. Nothing here supports a high-confidence long thesis, resulting in a low confidence score. BEAR: GILT is suffering a severe -20.84% gap down to $6.00 accompanied by an exhaustion candle pattern at 0.9 conviction, proving the downside move is effectively spent right at the open rather than building new momentum. The only available news is a stale November 5 headline regarding Globalstar missing estimates, which fails to justify a fresh, acute liquidation event in this specific name today. With pre-market volume sitting at a modest 360,870 shares, this thin-tape pricing is highly vulnerable to an opening-auction reversal where real liquidity steps in to fade the overextended gap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HROW",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: HROW displays an explosive pre-market gap of +17.73% to $32.34 accompanied by an exceptional volume signature of 74,233 shares, representing 28.50 times its baseline average. This heavy, sustained volume directly follows the November 9, 2026 earnings release titled 'Harrow Announces Third Quarter 2026 Financial Results', providing a concrete fundamental catalyst despite headline mixed messaging about lagging estimates. The candle structure cleanly reads as a gap continuation with a high conviction bias of 0.85, confirming that buyers are aggressively absorbing supply and holding the pre-market highs. BEAR: Buying HROW at a 17.73% pre-market gap to $32.34 directly contradicts the fundamental reality of the Nov. 9 Yahoo headline 'Harrow (HROW) Q3 Earnings Lag Estimates'. Riding a gap continuation based on lagging earnings metrics invites an immediate opening-auction reversal as real institutional liquidity steps in at 9:30 to punish the headline-chasing thin tape of 74,233 shares. This creates a classic gap fade where the pre-market price of $32.34 represents total exhaustion above yesterday's $27.47 close, offering incoming retail longs as nothing more than convenient exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PDYN",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 1.72,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: PDYN opens with an extraordinary volume print of 1,614,000 shares, representing a massive 205x multiple over its baseline average, pushing the price up 7.63% to $3.81. However, reviewing the available news feed, there is no headline in the last 7 days that explains this specific move, as the only provided news concerns an unrelated company, Kodiak AI. Furthermore, the candle structure reads as an exhaustion pattern with neutral bias and low conviction at 0.5. Without a fundamental catalyst or a supportive candle structure, this extreme volume spike carries high risk of fading. Therefore, this is a no-story gap driven solely by raw order flow anomalies rather than a confirmed fundamental event, justifying a low confidence score. BEAR: PDYN is a textbook exhaustion gap dying on a stale and irrelevant headline. The only available news is an unrelated Q3 report from Kodiak AI on November 6th, meaning PDYN's +7.63% gap has zero fundamental catalyst and is a complete vacuum move. Furthermore, the candle agent flags an explicit exhaustion structure at a modest $3.81 last print, while the pre-market volume of 1,614,000 shares fails to build further, signaling that the move is finished before the bell even rings. This creates an opening-auction reversal setup where early buyers are providing immediate exit liquidity to trapped thin-tape participants.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SECZ",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.07 = bull 0.92 - bear 0.85 (buy at >= +0.20). BULL: SECZ is exhibiting an exceptional pre-market footprint backed by heavy, sustained volume of 812,660 shares\u2014representing a massive 17.67x multiple over its baseline average. The catalyst is clearly substantiated by the November 10, 2026 ChartMill headline detailing Securitize's Q3 revenue beat, a River One acquisition expanding into the $6 trillion asset-backed finance market, and a $50M buyback program. Furthermore, the candle structure supports a high-conviction bullish reversal at 0.85, confirming that institutional accumulation is driving this +23.24% gap to $8.59. This combination of fundamental news, massive volume, and strong structural alignment makes it a prime candidate for immediate continuation at the open. BEAR: The +23.24% gap to $8.59 on 812,660 shares is classic exhaustion driven by a dual-edged ChartMill headline on November 10 reporting a Q3 revenue beat alongside a wider loss and a $50M buyback announcement. That complex catalyst is already fully priced in by the pre-market tape, setting up a textbook opening-auction reversal where real institutional liquidity at 9:30 will treat the open as exit liquidity. Furthermore, the simultaneous news regarding the River One acquisition and peer comparisons highlights an overcrowded narrative that leaves no fresh buyers to support the price after the bell rings.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SENS",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.07 = bull 0.92 - bear 0.85 (buy at >= +0.20). BULL: Senseonics Holdings Inc (SENS) is exhibiting an elite pre-market footprint backed by the 2026-11-10 ChartMill headline confirming that Q3 revenue beat estimates and raised guidance tops consensus. Volume has exploded to 72,000 shares, representing an incredible 57.36x multiple over the baseline average of 1,255 shares, driving a 14.80% gap up to $11.25. The candle agent's structure read identifies a high-conviction bullish continuation pattern at 0.9, proving that institutional accumulation is actively supporting this breakout. This heavy, sustained volume signature combined with a major fundamental beat provides a compelling setup for continuation at the open. BEAR: The +14.80% gap to $11.25 on the ChartMill headline 'Senseonics (NASDAQ:SENS) Q3 Revenue Beats Estimates and Raised Guidance Tops Consensus' is completely front-run by morning earnings prints. With only 72,000 shares traded pre-market, this thin-tape pricing has already exhausted its momentum, turning the opening bell into prime exit liquidity for institutions. This sets up a textbook gap-fade and opening-auction reversal as real cash liquidity arrives at 9:30 to absorb the news.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SMX",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 7.88,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.05 = bull 0.90 - bear 0.95 (buy at >= +0.20). BULL: SMX is demonstrating an extraordinary pre-market footprint with a +92.76% gap backed by 10,790,738 shares traded, representing a massive 67.66x multiple over its baseline average volume. This immense and sustained volume signature validates the series of recent profile and technology headlines released on 2026-11-09 regarding its digital platform and verifiable identity layer. Furthermore, the candle structure confirms a high-conviction bullish continuation pattern that supports aggressive upside continuation at the open. BEAR: SMX is printing a massive 92.76% pre-market gap on 10.79 million shares, but the entire news catalyst block consists of vague, promotional Yahoo headlines dated November 9, 2026, such as 'SMX Proves Made in America Is Great Again' and 'Media Continues to Profile SMX Technology'. These fluffy PR pieces lack any concrete commercial contracts or fundamental revenue drivers, making this a classic already-priced-in retail frenzy where the opening bell provides exit liquidity for early promoters. Furthermore, with the pre-market price sitting at $18.02 against a baseline volume of only 159,494 shares, the thin tape has severely distorted the valuation and sets up an immediate opening-auction reversal when real institutional liquidity hits the book at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
