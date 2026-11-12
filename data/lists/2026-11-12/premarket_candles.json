@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-12T08:51:12-05:00",
+  "session_date": "2026-11-12",
+  "reads": {
+    "CTRE": {
+      "symbol": "CTRE",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CDNL": {
+      "symbol": "CDNL",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.95
+    },
+    "LUNR": {
+      "symbol": "LUNR",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "BZ": {
+      "symbol": "BZ",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "YETI": {
+      "symbol": "YETI",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CHA": {
+      "symbol": "CHA",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "AVEX": {
+      "symbol": "AVEX",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "FIGR": {
+      "symbol": "FIGR",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "BRUN": {
+      "symbol": "BRUN",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "NBIS": {
+      "symbol": "NBIS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "CTVA": {
+      "symbol": "CTVA",
+      "pattern": "gap-and-crap breakdown",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "EYE": {
+      "symbol": "EYE",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

@@ -1,0 +1,1222 @@
+{
+  "date": "2026-11-12",
+  "events": [
+    {
+      "at_et": "2026-11-12T07:46:32-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-12T08:59:03-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-12T09:31:26-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AVEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CHA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EYE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FIGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T10:31:32-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1016.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "OMH",
+          "LUNR",
+          "NBIS",
+          "NVDA",
+          "SMX",
+          "BZ",
+          "CTRE",
+          "BRUN",
+          "TWST",
+          "HWC",
+          "PEPG",
+          "CTVA",
+          "AVEX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWST",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVEX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T11:07:44-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1046.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "SMX",
+          "LUNR",
+          "BZ",
+          "NVDA",
+          "NBIS",
+          "CTRE",
+          "BRUN",
+          "HWC",
+          "AVEX",
+          "CTVA",
+          "EDHL",
+          "PEPG",
+          "TWST"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EDHL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TWST",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T11:38:22-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1116.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "OMH",
+          "SMX",
+          "LUNR",
+          "BZ",
+          "SABS",
+          "NVDA",
+          "HWC",
+          "NBIS",
+          "AVEX",
+          "CTRE",
+          "CTVA",
+          "BRUN",
+          "YETI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "LUNR",
+            "action": "submitted",
+            "order": {
+              "symbol": "LUNR",
+              "qty": 13,
+              "est_cost": 187.72,
+              "entry_ref": 14.44,
+              "take_profit": 15.57,
+              "remaining_take_profit_pct": 7.83,
+              "stop_loss": 13.95,
+              "confidence": 0.7,
+              "client_order_id": "ta-20261112-113822-LUNR",
+              "analysis_price": 14.285,
+              "live_price_change_pct": 1.09
+            },
+            "broker": {
+              "id": "7d2c22b1-aa3c-4532-b204-f732a19cde09",
+              "client_order_id": "ta-20261112-113822-LUNR",
+              "symbol": "LUNR",
+              "qty": "13",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 15.57,
+              "stop_loss": 13.95,
+              "legs": [
+                "2b346c33-01e3-40a6-bcd8-670fdac7afb2",
+                "a06591e5-8a09-447d-99cc-8653df8d8680"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SABS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AVEX",
+            "reason": "bid/ask spread too wide: 9.18% (bid $14.13, ask $15.49); 1% max"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T12:17:10-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1146.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "OMH",
+          "SMX",
+          "HWC",
+          "BZ",
+          "NVDA",
+          "NBIS",
+          "SABS",
+          "CTRE",
+          "BRUN",
+          "EPR",
+          "PEPG",
+          "YETI",
+          "TIGO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SABS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRUN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T12:36:12-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1218",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1218.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "SMX",
+          "HWC",
+          "OMH",
+          "BZ",
+          "LUNR",
+          "NVDA",
+          "NBIS",
+          "EPR",
+          "SABS",
+          "CTRE",
+          "YETI",
+          "TIGO",
+          "CTVA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPR",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SABS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T13:02:06-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1246.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "OMH",
+          "HWC",
+          "SMX",
+          "BZ",
+          "LUNR",
+          "NVDA",
+          "NBIS",
+          "EPR",
+          "YETI",
+          "SABS",
+          "CHA",
+          "CTRE",
+          "TIGO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CHA",
+            "action": "submitted",
+            "order": {
+              "symbol": "CHA",
+              "qty": 14,
+              "est_cost": 191.24,
+              "entry_ref": 13.66,
+              "take_profit": 14.34,
+              "remaining_take_profit_pct": 4.98,
+              "stop_loss": 13.19,
+              "confidence": 0.65,
+              "client_order_id": "ta-20261112-130206-CHA",
+              "analysis_price": 13.53,
+              "live_price_change_pct": 0.96
+            },
+            "broker": {
+              "id": "ea32761c-a572-41b3-8f57-62b2ab75c9e5",
+              "client_order_id": "ta-20261112-130206-CHA",
+              "symbol": "CHA",
+              "qty": "14",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 14.34,
+              "stop_loss": 13.19,
+              "legs": [
+                "660d0618-5fef-470c-84a9-76b501bfd647",
+                "22bf2890-5cfa-4501-9a60-29efb7988832"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SABS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T13:26:39-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1316.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "HWC",
+          "OMH",
+          "SMX",
+          "BZ",
+          "LUNR",
+          "NVDA",
+          "NBIS",
+          "EPR",
+          "YETI",
+          "CTRE",
+          "TIGO",
+          "CTVA",
+          "PEPG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T13:53:59-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1346.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "HWC",
+          "OMH",
+          "SMX",
+          "BZ",
+          "LUNR",
+          "NVDA",
+          "NBIS",
+          "EPR",
+          "YETI",
+          "CTRE",
+          "TIGO",
+          "CTVA",
+          "DGII"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DGII",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T14:24:01-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1416.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "SMX",
+          "HWC",
+          "OMH",
+          "BZ",
+          "LUNR",
+          "NVDA",
+          "NBIS",
+          "YETI",
+          "CTRE",
+          "TIGO",
+          "EPR",
+          "CTVA",
+          "DGII"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DGII",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T14:54:59-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1446.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "OMH",
+          "SMX",
+          "HWC",
+          "BZ",
+          "LUNR",
+          "YETI",
+          "NVDA",
+          "NBIS",
+          "CTRE",
+          "TIGO",
+          "EPR",
+          "CTVA",
+          "DGII"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTRE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CTVA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DGII",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T15:25:02-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1516.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "SMX",
+          "BZ",
+          "HWC",
+          "OMH",
+          "LUNR",
+          "YETI",
+          "NVDA",
+          "NBIS",
+          "TIGO",
+          "DGII",
+          "CTRE",
+          "CTVA",
+          "CLBT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HWC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LUNR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YETI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 9
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T15:49:23-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-12/shortlist_1546.json",
+        "shortlist": [
+          "CDNL",
+          "ADIG",
+          "SMX",
+          "BZ",
+          "HWC",
+          "OMH",
+          "YETI",
+          "LUNR",
+          "CLBT",
+          "CTVA",
+          "NVDA",
+          "NBIS",
+          "DGII",
+          "TIGO",
+          "CTRE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-12T15:49:23-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

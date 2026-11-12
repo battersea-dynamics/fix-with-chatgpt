@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-11-11T11:53:13-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "HGTY",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: HGTY is showing robust intraday engagement with a relative volume of 12.76x normal and persistent attention, ranking 1st across 4 consecutive observations over 90 minutes. Despite news on November 11 regarding the pricing of an upsized secondary offering of Class A common stock that pressured shares down 3.39% to $16.36, the stock has held a positive return of 1.646% since first seen with minimal drawdown of just 0.5167% from its observed high of $16.45. This strong volume and top-ranked persistence suggest heavy market digestion of the secondary offering overhead, providing a solid setup for a short-term bounce. BEAR: HGTY is actively facing heavy supply pressure from its fresh 2026-11-11 catalysts detailing the pricing of an upsized secondary offering of Class A common stock, which directly explains the session's -3.39% day change and ongoing dilution concerns. While relative volume remains elevated at 12.76x normal, the same-session momentum shows clear deterioration with price acceleration dropping to -0.8522 percentage points and a rel_volume_rate_change crashing by -0.7107. Buying into this setup means absorbing active institutional share distribution while tape momentum flags, making any short-term long entry vulnerable to further secondary-offering downside.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ENGS",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 5.25,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.75 = bull 0.20 - bear 0.95 (buy at >= +0.20). BULL: ENGS presents a volatile setup trading at $0.53 with a relative volume of 2.13x normal, showing sequential improvement across 4 consecutive observations including a rank progression from 3 to 2 and a positive price acceleration of 67.27 percentage points. Nothing in the catalyst report specifically explains or supports this move, as the recent news from November 7 and November 5 relates broadly to market sectors rather than direct company catalysts. The bullish argument relies purely on tape persistence, evidenced by the rank improvement and score change of 3.0486 despite an extreme 85.71% drawdown from its observed high of $3.71. Due to the absence of supporting catalysts and severe downside momentum, this is a highly speculative mean-reversion trade backed only by short-term scanner persistence. BEAR: ENGS is experiencing catastrophic collapse with a day change of -89.31% and a price sitting at $0.53, down 87.68% from its 20-day moving average. The same-session momentum history confirms severe deterioration, showing an observed high of $3.71 with an 85.71% drawdown from that high and a return since first seen of -85.71%. Furthermore, the relative volume rate per 30-minute interval has fallen to 0.7866 with a declining rate change of -0.0364, showing participation is fading as the stock crashes. Buying this asset presents extreme risk of catching a falling knife with zero positive intervals observed across three tracked intervals.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FOSL",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: Fossil Group is experiencing a powerful momentum surge on 2026-11-11, supported by Q3 2026 earnings reporting and widespread pre-market mover headlines. The stock is trading up 27.00% on the day at $9.99 with massive relative volume of 6.60x normal, backed by 4 consecutive scan observations over 90 minutes. Although it is pulling back slightly from its observed high of $10.15 with a modest 1.53% drawdown, the persistent high volume and ongoing earnings day catalyst provide a concrete foundation for further intraday continuation. BEAR: FOSL is trading up 27.00% to $9.99 on the exact day of its Q3 2026 earnings release and transcript, sitting 42.79% above its 20-day moving average with fading participation as shown by a rel_volume_rate_per_30m of 0.4638 and a rel_volume_rate_change of -0.2253. The momentum has already stalled and turned negative within the session, dropping 1.5261% from its observed high of $10.1499 alongside a rank deterioration from 2 to 3 and negative price acceleration. Buying here means chasing an extended gap into earnings-day volatility while volume pace rapidly contracts.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IMXI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: International Money Express is seeing explosive volume today at 5.41x normal levels amid heavy merger headlines, including a same-session 2026-11-11 announcement that the company rejects Western Union's notice terminating the pending merger agreement and remains committed to the deal. Although the stock is down 4.08% on the session and trading 30.26% below its 20-day moving average, the extreme volume and active corporate battle provide a compelling catalyst for a sharp oversold bounce or continuation of high-beta volatility. The intraday tape shows 4 consecutive observations with heavy participation, offering a high-reward setup for traders playing merger-arbitrage headlines and extreme short-term dislocations. BEAR: Buying IMXI today exposes a long position to severe deal-breakdown risk following the fresh 2026-11-11 headlines that Western Union terminated its agreement to acquire Intermex, despite the company's stated commitment to the merger. The same-session tape confirms active deterioration, with a 5.41x relative volume surge accompanying a -4.08% drop and a current drawdown of -4.3011% from its observed high of $6.51. Furthermore, volume participation is actively drying up as indicated by a rel_volume_rate_per_30m of 0.3728 and a negative rate change of -0.1515, signaling that the initial panic selling has broken support 30.26% below its 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RSKD",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.58,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Riskified is demonstrating exceptional momentum fueled by a major fundamental catalyst: a Q3 earnings beat and a significant upward revision of FY2026 sales guidance to $427M-$433M. This shift in forward outlook has generated massive institutional interest, evidenced by a relative volume of 3.33x and a sharp 22.76% intraday gain. While the price has experienced a minor pullback from its session high of $10.87, the sustained high trading volume confirms strong investor conviction in the new valuation range. The company's ability to exceed expectations and simultaneously increase its top-line forecast provides a robust foundation for continued upward price discovery over the coming days. BEAR: Buying RSKD today means chasing a +22.76% gap-up driven by the fresh ChartMill and Benzinga headlines regarding the Q3 beat and raised FY2026 sales guidance released on 2026-11-11, leaving the immediate post-earnings pop vulnerable to a 'sell the news' fade. The same-session momentum history already shows concrete deterioration with a 4.23% drawdown from the observed high of $10.87, a negative return of -4.23% since first seen, and a declining relative volume rate of 0.2491 per 30m. With participation fading rapidly after the initial morning reaction and the stock sitting 19.95% above its 20-day MA at $10.41, late buyers are acting as exit liquidity for the early morning gap-fill.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SMX",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: SMX is backed by fresh fundamental catalysts, including headlines on 2026-11-11 announcing the expansion of its technology portfolio with an AI-powered scientific intelligence platform and targeting global recycling challenges. Despite a sharp session pullback of -32.16% and trading at $13.06, the stock still maintains a strong position +108.21% above its 20-day moving average, showing it retains a massive structural growth cushion. Furthermore, momentum data demonstrates active persistence across 4 consecutive scans over 90 minutes, featuring a positive return of 1.7134% since the previous observation and an observed high of $13.7599. This combination of groundbreaking AI product rollouts and proven intraday resilience provides an attractive entry point for a high-beta rebound trade. BEAR: Buying SMX today means chasing a massive 108.21% extension from its 20-day moving average despite a severe -32.16% day change and clear same-session deterioration. The supplied history reveals a 5.08% drawdown from its observed high, negative price acceleration of -16.51 percentage points, and a sub-normal relative volume rate of 0.2214 per 30 minutes with an overall relative volume of just 0.97x normal. Furthermore, the fresh same-session catalysts on 2026-11-11 regarding its AI-powered scientific intelligence platform have failed to generate confirmatory volume participation, leaving buyers as exit liquidity into a fading tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PEPG",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: PEPG is backed by prominent fresh catalysts from 1 calendar day before the session, including promising early data for its muscular dystrophy drug and high trading activity as a top US session gainer. The stock shows robust daily momentum with a +15.51% day change, a close at $5.33, and relative volume at 1.59x normal. Although intraday observations show a minor drawdown from the observed high of $5.61 following a proposed common stock offering, the strong headline catalysts and elevated volume provide fundamental backing for a potential continuation bounce. BEAR: Buying PEPG at $5.33 involves chasing an already extended move sitting 103.24% above its 20-day moving average while the tape shows clear same-session deterioration from its $5.61 observed high. The session history displays a negative return since first seen of -5.0802% across four consecutive snapshots with zero positive intervals, confirming that momentum is fading. Furthermore, the enthusiasm over the November 10 headline regarding muscular dystrophy data is severely undercut by a concurrent 125.0 million dollar public offering of common stock announced on the exact same day, which introduces massive structural dilution risk right into the rally.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 1.25e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "REZI",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: REZI is showing aggressive momentum today with a 14.40% gain and heavy participation at 3.28x relative volume, signaling a powerful reversal attempt after the recent post-earnings volatility. While yesterday's headlines reflected a post-earnings sell-off, the significant buying interest today suggests that the market is already rotating to price in a recovery or a reassessment of the Q3 results discussed in today's earnings call. The stock is currently trading 21.75% above its 20-day moving average, confirming that the current move is not just a bounce, but a sustained shift in trend sentiment. BEAR: REZI is currently exhibiting a dangerous 'chasing' profile, sitting 21.75% above its 20-day moving average on 3.28x relative volume, which indicates an extreme extension that likely exhausts buying interest. This price surge contradicts the negative sentiment from yesterday's Q3 2026 earnings, where the company explicitly reported missing estimates and provided weak forward guidance. Buying at this $22.25 level suggests the market is ignoring the fundamental weakness exposed just 24 hours ago, making the current rally highly susceptible to a sharp mean reversion as the reality of the earnings miss sets back in.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "STAK",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: STAK presents a deeply oversold mean-reversion opportunity after falling 59.53% on the day, with headlines noting its appearance among premarket movers following an after-hours drop of 51.5% on November 10, 2026. While the catalyst report shows no fundamental news explaining the severe drop beyond market mover lists, the stock maintains a positive return of 4.15% since the previous observation across 4 consecutive scans. However, with relative volume running at 0.58x normal and a drawdown of 10.60% from its observed high of $2.2251, the tape shows exhaustion rather than confirmed accumulation, resulting in a low confidence score. We enter at $1.99, targeting a quick bounce while strictly managing downside risk against ongoing volatility. BEAR: STAK is experiencing a severe collapse, trading down -59.53% on the day following a headline from ChartMill on 2026-11-10 reporting that STAK fell 51.5% after the US close. The momentum history confirms ongoing deterioration with a 10.60% drawdown from its observed high and relative volume running at just 0.58x normal, indicating that participation is entirely failing to support any bottom-fishing. Buying this falling knife exposes a trader to massive continued downside as the liquidation event persists without volume confirmation for a rebound.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BUUU",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: BUUU presents a tape-only bounce opportunity following an extreme intraday sell-off of -22.80% to $3.25, with nothing in the catalyst report explaining or supporting this specific move beyond a generic pre-market mention 6 calendar days prior on 2026-11-05. The same-session momentum history shows early stabilizing resilience with 4 consecutive scans over 90 minutes, a return since first seen of +5.178%, and a minor drawdown of only -3.27% from its observed high of $3.36. Furthermore, rank has improved to 10 with a positive score change of 0.6027, offering a speculative mean-reversion setup from deeply oversold levels. BEAR: BUUU is experiencing severe downward momentum with a day change of -22.80% and trading 38.47% below its 20-day moving average, accompanied by a low relative volume of 0.51x that signals a lack of supportive participation. Furthermore, the same-session history shows concrete deterioration with a drawdown of -3.27% from its observed high, a negative price acceleration of -6.65 percentage points, and a decelerating relative volume rate change of -0.0114. The catalyst report provides no fresh news for today, leaving the 6-day-old Benzinga pre-market headline as stale context for a stock that is actively breaking down. Buying into this tape means catching a falling knife with fading volume and clear intraday deterioration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FF",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: FutureFuel (FF) presents a compelling tactical bounce opportunity following its Q3 2026 earnings transcripts and related coverage published on 2026-11-10. Despite a steep 8.01% drop to $2.87 on 2026-11-11, the tape shows early signs of stabilization with 3 consecutive scans, a positive return since previous of 0.8787%, and an improving rank from 12 to 11. Relative volume remains elevated at 1.32x normal, supported by price acceleration of 3.4372% points and a modest observed-high drawdown of just 1.7022%. BEAR: Buying FF today means catching a knife following an 8.01% day change and a deep -47.46% distance from its 20-day moving average. The recent catalyst consists of Q3 2026 earnings transcripts and gap-down reports from 1 calendar day before the session (2026-11-10), indicating that the negative post-earnings reaction is already digesting through the tape rather than offering a fresh upside catalyst. Furthermore, the same-session momentum shows measurable deterioration with a -1.7022% drawdown from the observed high and a weak relative volume rate of 0.2925 per 30 minutes, confirming that participation is fading as the stock struggles near a rank of 11.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VELO",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: VELO is currently presenting a classic mean-reversion opportunity following an aggressive 16.72% intraday decline, with trading volume reaching 1.36x its normal level. Despite lowered analyst price targets, the firm reported a 50% revenue surge and improving margins in its Q3 2026 update, suggesting the market has overreacted to near-term forecast adjustments. The stock has shown resilience over the last 90 minutes of trading, recording a 1.6182% return since its first observation and maintaining a 0.0% drawdown from its observed session high of $5.03. With significant analyst backing from firms like Cantor Fitzgerald and Needham, the current discount from its 20-day MA of -21.82% provides a compelling entry for a snap-back trade. BEAR: Buying VELO today means stepping in front of an aggressive -16.72% daily drop and a severe -21.82% gap below its 20-day moving average. The fresh same-session news on 2026-11-11 shows analysts cutting forecasts and lowering price targets to $12 despite revenue surges, meaning institutional sentiment is cooling right as the stock gets hammered. Furthermore, internal session metrics show clear deterioration: the rank has slipped from 10th to 12th, score change is negative at -0.1317, and the relative volume rate has collapsed to just 0.1278 per 30 minutes with negative price acceleration. These metrics confirm that buying into this steep technical and fundamental breakdown makes you immediate exit liquidity for fleeing volume.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RUM",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.10 = bull 0.60 - bear 0.70 (buy at >= +0.20). BULL: Rumble reported a significant revenue beat in its Q3 results today, posting $96.577M against the $89.103M estimate, which validates the market's enthusiasm for the stock's underlying growth. The 15.75% price surge on 1.40x relative volume demonstrates strong buying conviction following the earnings release. Despite a minor intraday pullback from an observed high of $6.065, the stock remains well-positioned, trading 8.10% above its 20-day moving average, signaling solid structural momentum. Investors are clearly focused on the company's long-term AI and data center catalysts, providing a fundamental floor to support this current volatility. BEAR: RUM is exhibiting clear signs of chasing and immediate intraday deterioration following its Q3 earnings release this morning, where it missed EPS estimates at $(0.19) versus $(0.12) expected and offered a soft Q4 sales guidance midpoint. Despite an initial +15.75% day change, the same-session momentum history shows measurable cooling with a -2.47% drawdown from its observed high of $6.065 and a rank drop from 9th to 13th over just a 30-minute span. Buyers stepping in at these extended levels (+8.10% from the 20-day MA) are absorbing exit liquidity on mixed headline results while momentum stalls.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRWV",
+      "signal": "buy",
+      "confidence": 0.7,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.0,
+      "reasoning": "net +0.40 = bull 0.90 - bear 0.50 (buy at >= +0.20). BULL: CoreWeave is trading up 25.10% today at $60.96 with a strong 1.29x relative volume confirmation, backed by fresh same-session news including Morgan Stanley endorsing its Q3 results and financing outlook alongside the CEO canceling a stock-sale plan and confirming data center buildouts are unaffected. Momentum is fully sustained at the session high with 0.0% drawdown and a 4.68% gain since first being observed 90 minutes ago. This fundamental catalyst-driven strength coupled with robust sector-wide AI server momentum provides an exceptional springboard to buy for a multi-hour continuation. BEAR: CRWV is surging 25.10% today to $60.96 on a cluster of same-session headlines including Q3 results and the CEO canceling a stock-sale plan, meaning the primary news catalysts are already fully public and driving an immediate extension to 8.26% above its 20-day moving average. Relative volume is modest at 1.29x normal given a 25% price move, suggesting participation is not aggressively expanding to absorb new supply at these highs. Entering a long position right now means buying directly into the teeth of a headline-driven gap-up where much of the immediate good news regarding financing and earnings surprises is already baked into the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TNXP",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Tonix Pharmaceuticals provides a compelling fundamental catalyst with today's headline on 2026-11-11 reporting that TONMYA sales jumped 37 percent due to expanding insurance coverage, hot on the heels of the Q3 2026 earnings release on 2026-11-09. Even though the stock is currently trading at $4.00 down 2.44 percent on the day and sitting 24.47 percent below its 20-day moving average, relative volume is running at an elevated 1.95x normal. This combination of strong commercial traction with surging sales and heightened market participation creates an attractive entry point for a rebound toward recent averages. BEAR: Buying TNXP today carries significant structural risk because the stock is trading 24.47% below its 20-day moving average while registering a 2.44% loss on the session. Although a fresh same-session headline on 2026-11-11 reports that Tonmya sales jumped 37% due to expanded insurance coverage, the price action is failing to convert this news into positive momentum, sitting at a weak rank of 15 with zero positive intervals recorded in the initial observation. Entering long here means stepping into a downward trend where the market is ignoring positive fundamental news and punishing the stock below its intermediate moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "HGTY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ENGS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FOSL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IMXI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RSKD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SMX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PEPG",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "REZI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "STAK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BUUU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FF",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VELO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RUM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CRWV",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 2.04% (bid $60.26, ask $61.50); 1% max"
+    },
+    {
+      "symbol": "TNXP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

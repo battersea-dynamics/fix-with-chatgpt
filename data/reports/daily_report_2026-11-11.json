@@ -1,0 +1,1264 @@
+{
+  "date": "2026-11-11",
+  "events": [
+    {
+      "at_et": "2026-11-11T07:46:28-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-11T08:54:23-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-11-11T09:31:23-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "bid/ask spread too wide: 20.43% (bid $8.35, ask $10.25); 1% max"
+          },
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LWLG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NRGV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PRME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SATL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T10:23:50-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1016.json",
+        "shortlist": [
+          "HGTY",
+          "FOSL",
+          "RSKD",
+          "IMXI",
+          "SMX",
+          "PEPG",
+          "STAK",
+          "BUUU",
+          "ENGS",
+          "VELO",
+          "LWLG",
+          "CAPR",
+          "CRWV",
+          "FTFT",
+          "AZTA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "RSKD",
+            "action": "submitted",
+            "order": {
+              "symbol": "RSKD",
+              "qty": 18,
+              "est_cost": 197.64,
+              "entry_ref": 10.98,
+              "take_profit": 11.85,
+              "remaining_take_profit_pct": 7.92,
+              "stop_loss": 10.56,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261111-102350-RSKD",
+              "analysis_price": 10.87,
+              "live_price_change_pct": 1.01
+            },
+            "broker": {
+              "id": "95e7519e-2c49-4b5e-8fc2-93789d73be76",
+              "client_order_id": "ta-20261111-102350-RSKD",
+              "symbol": "RSKD",
+              "qty": "18",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 11.85,
+              "stop_loss": 10.56,
+              "legs": [
+                "9b47fd2e-c01b-4c26-b47e-03f77000cc7c",
+                "ccbf025b-e89b-4600-9174-09ee616a10f8"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BUUU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LWLG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "bid/ask spread too wide: 1.29% (bid $58.54, ask $59.30); 1% max"
+          },
+          {
+            "symbol": "FTFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AZTA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T10:55:17-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1046.json",
+        "shortlist": [
+          "HGTY",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "PEPG",
+          "STAK",
+          "BUUU",
+          "VELO",
+          "ENGS",
+          "DCTH",
+          "FF",
+          "CRWV",
+          "LWLG",
+          "CAPR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BUUU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DCTH",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LWLG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T11:25:28-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1116.json",
+        "shortlist": [
+          "HGTY",
+          "FOSL",
+          "ENGS",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "PEPG",
+          "STAK",
+          "RUM",
+          "VELO",
+          "BUUU",
+          "FF",
+          "ERAS",
+          "CAPR",
+          "ANGX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ANGX",
+            "action": "submitted",
+            "order": {
+              "symbol": "ANGX",
+              "qty": 47,
+              "est_cost": 196.46,
+              "entry_ref": 4.18,
+              "take_profit": 4.56,
+              "remaining_take_profit_pct": 9.09,
+              "stop_loss": 4.01,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261111-112527-ANGX",
+              "analysis_price": 4.235,
+              "live_price_change_pct": -1.3
+            },
+            "broker": {
+              "id": "3b700e8a-1c43-48fb-9e9f-0bbcc682477b",
+              "client_order_id": "ta-20261111-112527-ANGX",
+              "symbol": "ANGX",
+              "qty": "47",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.56,
+              "stop_loss": 4.01,
+              "legs": [
+                "f79fe238-702a-4c5a-8806-a37b42c50ab2",
+                "a2ea7bae-5021-4fce-a356-7f46ff88dab3"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BUUU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ERAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T11:53:13-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1146.json",
+        "shortlist": [
+          "HGTY",
+          "ENGS",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "PEPG",
+          "REZI",
+          "STAK",
+          "BUUU",
+          "FF",
+          "VELO",
+          "RUM",
+          "CRWV",
+          "TNXP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BUUU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "bid/ask spread too wide: 2.04% (bid $60.26, ask $61.50); 1% max"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T12:23:38-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1216.json",
+        "shortlist": [
+          "HGTY",
+          "ENGS",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "REZI",
+          "PEPG",
+          "STAK",
+          "CAPR",
+          "VELO",
+          "FF",
+          "RUM",
+          "DJT",
+          "CRWV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RUM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DJT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T12:53:41-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1246.json",
+        "shortlist": [
+          "ENGS",
+          "HGTY",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "PEPG",
+          "REZI",
+          "STAK",
+          "CAPR",
+          "VELO",
+          "TNXP",
+          "FF",
+          "BV",
+          "DJT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "CAPR",
+            "action": "submitted",
+            "order": {
+              "symbol": "CAPR",
+              "qty": 18,
+              "est_cost": 192.42,
+              "entry_ref": 10.69,
+              "take_profit": 11.64,
+              "remaining_take_profit_pct": 8.89,
+              "stop_loss": 10.27,
+              "confidence": 0.65,
+              "client_order_id": "ta-20261111-125340-CAPR",
+              "analysis_price": 10.64,
+              "live_price_change_pct": 0.47
+            },
+            "broker": {
+              "id": "5498584c-df6c-4b6e-bae9-2c4f575d9e14",
+              "client_order_id": "ta-20261111-125340-CAPR",
+              "symbol": "CAPR",
+              "qty": "18",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 11.64,
+              "stop_loss": 10.27,
+              "legs": [
+                "f3ce167d-0196-4c48-bc1d-44fdcc4a78d1",
+                "4d10ec23-cb89-453b-a4f8-8e7aa8bd4b1c"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DJT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T13:23:56-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1316.json",
+        "shortlist": [
+          "ENGS",
+          "HGTY",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "REZI",
+          "PEPG",
+          "STAK",
+          "VELO",
+          "TNXP",
+          "BV",
+          "FF",
+          "DJT",
+          "ERAS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ERAS",
+            "action": "submitted",
+            "order": {
+              "symbol": "ERAS",
+              "qty": 11,
+              "est_cost": 187.22,
+              "entry_ref": 17.02,
+              "take_profit": 18.09,
+              "remaining_take_profit_pct": 6.29,
+              "stop_loss": 16.55,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261111-132356-ERAS",
+              "analysis_price": 17.005,
+              "live_price_change_pct": 0.09
+            },
+            "broker": {
+              "id": "6bce3881-af58-43ed-a3ba-ed00ca393108",
+              "client_order_id": "ta-20261111-132356-ERAS",
+              "symbol": "ERAS",
+              "qty": "11",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 18.09,
+              "stop_loss": 16.55,
+              "legs": [
+                "64a13ada-2fa1-4954-9199-87bc28661bc0",
+                "94d5d22d-ccaa-4682-8b20-cfba90846078"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DJT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T13:53:02-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1346.json",
+        "shortlist": [
+          "ENGS",
+          "HGTY",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "REZI",
+          "PEPG",
+          "STAK",
+          "TNXP",
+          "BV",
+          "VELO",
+          "FF",
+          "CRWV",
+          "DJT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DJT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T14:24:19-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1416.json",
+        "shortlist": [
+          "ENGS",
+          "HGTY",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "REZI",
+          "PEPG",
+          "STAK",
+          "FF",
+          "VELO",
+          "BV",
+          "TNXP",
+          "DJT",
+          "HLP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DJT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HLP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T14:54:20-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1446.json",
+        "shortlist": [
+          "ENGS",
+          "HGTY",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "REZI",
+          "PEPG",
+          "STAK",
+          "FF",
+          "VELO",
+          "BV",
+          "TNXP",
+          "DJT",
+          "LWLG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DJT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LWLG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-11T15:23:26-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-11/shortlist_1516.json",
+        "shortlist": [
+          "ENGS",
+          "HGTY",
+          "FOSL",
+          "IMXI",
+          "RSKD",
+          "SMX",
+          "PEPG",
+          "REZI",
+          "STAK",
+          "VELO",
+          "FF",
+          "TTEK",
+          "LWLG",
+          "TNXP",
+          "OPTX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ENGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HGTY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FOSL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IMXI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSKD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PEPG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "REZI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STAK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VELO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTEK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LWLG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TNXP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPTX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    }
+  ]
+}

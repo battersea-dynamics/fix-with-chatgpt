@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-11-12T08:59:03-05:00",
+  "decisions": [
+    {
+      "symbol": "AVEX",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.25 = bull 0.60 - bear 0.85 (buy at >= +0.20). BULL: AVEX is gapping +9.38% to $13.27 backed by massive pre-market volume of 144,340 shares, representing 15.70x its baseline average. This heavy activity is directly supported by fundamental catalysts from the November 11, 2026 headline 'AEVEX shares soar 10% on raised full-year guidance' and subsequent Q3 2026 earnings transcripts and snapshots released on November 12. Despite a candle structure read pointing to exhaustion with a bearish conviction of 0.7, the sheer magnitude of volume and concrete earnings guidance raise provide a strong underlying bid that justifies holding through initial opening volatility. BEAR: AVEX is setting up a textbook exhaustion trap following its 10 percent surge on raised full-year guidance from the November 11 headline, which is now fully baked into the price by the time of the November 12 Q3 earnings call. The candle agent explicitly identifies this pre-market structure as an exhaustion pattern with a bearish conviction of 0.7, indicating that the gap to $13.27 has already stopped building and serves as exit liquidity. With a modest pre-market volume of only 144,340 shares, the thin-tape pricing will be immediately overwhelmed by real opening liquidity at 9:30, triggering a classic gap fade as the opening auction reverses the move.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BRUN",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 1.15,
+      "stop_loss_pct": 0.86,
+      "reasoning": "net -0.75 = bull 0.10 - bear 0.85 (buy at >= +0.20). BULL: BRUN is experiencing a sharp gap down of -17.75% to $6.07 accompanied by heavy pre-market volume of 132,314 shares, which is 6.66x its baseline average. Reviewing the recent news from the last 7 days reveals no headlines that directly explain or justify this specific downward move today. Furthermore, the candle structure points to a bearish reversal with a high conviction of 0.9, conflicting directly with any immediate long thesis. Given the lack of a specific explanatory catalyst and heavily bearish structural alignment, there is no genuine bull case to be made here today. BEAR: BRUN is suffering a severe -17.75% gap down to $6.07 on 132,314 shares of pre-market volume, yet a scan of the news block reveals zero company-specific headlines explaining this markdown; the only recent articles are a stale November 5th piece on analyst coverage and an unrelated IBM/Arm collaboration. Without an operational catalyst to justify a liquidation from yesterday's $7.38 close, this move exhibits classic thin-tape pricing and an exhaustion structure. The candle agent flags this with high conviction (0.9) as a bearish reversal, warning that today's open will likely serve as exit liquidity as real opening volume overwhelms the fragile pre-market tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BZ",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 1.72,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: There are no recent headlines found for this stock, and the candle structure reads a heavily bearish reversal with 0.9 conviction. BZ is experiencing a massive pre-market gap-down of -17.46% accompanied by extreme volume of 641,430 shares, which is 58.44x its baseline average. While the heavy volume signature indicates intense institutional or retail participation, the lack of any fundamental news catalyst combined with a severe gap-down and bearish structural read leaves no reliable bull case to argue. This is a blind volume flush without a fundamental anchor, making any long thesis purely speculative based on mean reversion rather than footprint strength. BEAR: BZ is down 17.46% to $13.80 on 641,430 shares of pre-market volume, yet there are zero news headlines in the last 7 days to explain this violent repricing. This complete absence of news confirms an exhaustion structure and gap-fade failure mode, where panic selling in a thin tape creates a vacuum rather than a justified trend. The candle agent flags a bearish reversal with 0.9 conviction, but buying this opening drop means stepping in front of an unanchored liquidation that lacks any fundamental catalyst to defend the price. When real opening liquidity arrives at 9:30, this unsupported gap is primed to serve as exit liquidity for the pre-market sellers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CDNL",
+      "signal": "hold",
+      "confidence": 0.15,
+      "take_profit_pct": 3.03,
+      "stop_loss_pct": 2.2,
+      "reasoning": "net -0.70 = bull 0.20 - bear 0.90 (buy at >= +0.20). BULL: The massive pre-market volume of over 278,000 shares, representing 165x the baseline, indicates a definitive clearing event following the Q3 earnings miss reported on 2026-11-12. While the fundamental reaction is bearish, the sheer volume suggests that institutional capitulation is likely occurring in the pre-market, creating a potential exhaustion gap. If the bid holds near the $8.76 level as the open approaches, this footprint mirrors a classic 'washout' reversal where the worst-case scenario is already fully priced in. I am betting that the aggressive selling volume will dry up shortly after the bell, allowing for a technical dead-cat bounce. BEAR: Buying Cardinal Infrastructure (CDNL) at the open is a classic falling knife trap following the 2026-11-12 ChartMill headline detailing a wide Q3 revenue and EPS shortfall that drove a 34.6% tumble and an exacerbated 41.56% pre-market gap down to $8.76. With a high-conviction 0.95 bearish candle structure and a massive 165.13x baseline volume surge (278,368 shares), the liquidation is already mature rather than nascent, meaning the opening print will act as exit liquidity for trapped institutional holders. The exhaustion structure and continuation of fundamental selling pressure mean any attempt to buy the open risks immediate continuation lower as real liquidity hits the tape at 9:30.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CHA",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net +0.07 = bull 0.92 - bear 0.85 (buy at >= +0.20). BULL: CHA prints an exceptionally strong footprint this morning with a +7.54% gap to $13.26 backed by 292,962 shares, representing a massive 41.38x surge over its baseline average volume. This heavy and sustained accumulation directly validates the fundamental catalyst announced on 2026-11-12 regarding Chagee's declaration of a special cash dividend and a three-year annual dividend policy. Furthermore, the candle agent confirms a high-conviction bullish reversal structure rated at 0.85, indicating that buying pressure is robust enough to sustain continuation past the open. BEAR: The 7.54% gap to $13.26 is a classic 'already priced in' trap riding entirely on today's Yahoo headline announcing Chagee's Special Cash Dividend and Three-Year Annual Dividend Policy. Because this headline dropped on the exact morning of the gap, the entire catalyst is front-loaded into a thin pre-market session of 292,962 shares that will instantly serve as exit liquidity when real institutional volume hits at 9:30. Furthermore, the candle agent's bullish reversal conviction of 0.85 indicates that the exhaustion structure is already locked in, leaving no fuel left for the opening auction. Expect the classic gap-fade failure mode to take hold immediately as profit-taking overwhelms the initial dividend enthusiasm.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CTRE",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 1.44,
+      "stop_loss_pct": 0.86,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: CareTrust REIT is experiencing a massive volume surge of 395,612 shares, which is nearly 700 times its baseline average, driven directly by the public offering announcement priced on November 12, 2026. While the candle structure points to a bearish reversal conviction of 0.85 following the 17 million share offering reported on November 11, this heavy institutional liquidity absorption creates an overdone downside gap to $37.69. Buying the open here targets a mean-reversion bounce as weak secondary offering panic fades and long-term value buyers step in around the discounted pricing levels. The extreme volume footprint guarantees liquidity for a swift tactical rebound. BEAR: The 17 million share public offering announced on November 11 and priced on November 12 directly drives today's -2.38% gap down to $37.69. With pre-market volume at nearly 700x baseline average, the massive influx of supply from this primary equity issuance means real opening liquidity will likely treat any dip-buying attempt as exit liquidity. Furthermore, the 0.85 bearish conviction reversal structure confirms that the reaction to the dilution is fully underway and leaves no room for a sustainable morning bounce.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.7e+07 - no matching value in source data",
+        "bear: cited 1.7e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "CTVA",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: Corteva reported its third-quarter 2026 results and updated its FY 2026 outlook on November 11, providing the specific fundamental driver for today's massive downside gap to $10.92. Despite the bearish gap-and-crap structure read and heavy pre-market volume of 244,143 shares (52.81x baseline), a contrarian long case relies on the extreme exhaustion of the initial flush following earnings digestion. If the heavy volume represents capitulation selling rather than continued distribution, an oversold mean-reversion bounce back toward value is possible after the bell. BEAR: CTVA is plunging 10.01% to $10.92 on 244,143 shares of pre-market volume following its November 11, 2026 earnings report and updated FY 2026 outlook. This gap-and-crap breakdown structure exhibits textbook exhaustion with a 0.9 conviction rating, meaning the initial liquidation reaction to the earnings release is already fully priced in by thin early tape. Attempting to buy this gap down as a dip-buy opportunity exposes traders to an opening-auction reversal where real 9:30 liquidity absorbs the thin pre-market selling and traps late shorts or leaves bottom-fishers holding a dead asset.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EYE",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 1.05,
+      "stop_loss_pct": 1.58,
+      "reasoning": "net -0.75 = bull 0.20 - bear 0.95 (buy at >= +0.20). BULL: National Vision Holdings shares are experiencing heavy pre-market volume of 55,718 shares, representing 43.06x the baseline average, alongside a sharp 9.40% gap down to $16.39. While the recent news flow references Q3 earnings insights published on November 9, none of the available headlines directly explain today's specific downside gap. The candle structure explicitly reads as exhaustion with a bearish bias at 0.85 conviction, making this a classic high-volume washout scenario rather than a clean bullish continuation setup. Consequently, there is no reliable fundamental catalyst or supportive footprint here to justify a long position at the open. Nothing here, low confidence. BEAR: EYE is printing an exhaustion structure with a bearish bias at 0.85 conviction, opening down -9.40% at $16.39 following the Q3 earnings metrics preview headline from November 9th. With pre-market volume at just 55,718 shares, thin-tape pricing dominates and is vulnerable to an immediate opening-auction reversal when true institutional liquidity hits the tape. Furthermore, the lack of any post-earnings or fresh catalyst headlines from today confirms that the gap is an extension of post-preview liquidation rather than a new discovery, making any attempt to catch a falling knife at the open an exceptional hazard.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FIGR",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: FIGR shows exceptional pre-market strength, gapping up 8.07% to $26.14 on massive volume of 625,917 shares, which represents 29.13 times its baseline average. This heavy volume footprint is backed by recent analyst coverage, including the November 9 Benzinga report noting Keefe, Bruyette & Woods maintaining an Outperform rating. The candle structure confirms a high-conviction bullish continuation pattern at 0.9, indicating strong institutional sponsorship rather than a retail flash in the pan. Buying at the open captures this momentum continuation supported by clear fundamental interest ahead of earnings. BEAR: The +8.07% gap to $26.14 on 625,917 shares is completely exposed to an opening-auction reversal and already-priced-in failure modes. The primary news driving sentiment is the November 9th KBW note maintaining Outperform but lowering its price target to $37, alongside stale November 10th headlines regarding AtlasClear's LOI and routine earnings season previews. Because the positive catalysts are several days old and the analyst action actually cut the target, the pre-market tape is running on exhausted momentum rather than fresh demand. Consequently, buyers entering at the 9:30 open are serving as exit liquidity for thin-tape participants as the gap inevitably fades back toward yesterday's $24.19 close.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LUNR",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.07 = bull 0.92 - bear 0.85 (buy at >= +0.20). BULL: LUNR is exhibiting an exceptional pre-market footprint backed by a massive fundamental catalyst, specifically the November 11, 2026 headline announcing an Intuitive Machines NASA Lunar Contract with up to a $15 billion scope. Volume is heavily sustained at 1.91 million shares, representing a massive 12.15x multiple over the baseline average of 157,677 shares. The price is holding firm at $13.88 for a +13.96% gap, supported by the candle agent's bullish reversal structure read and high conviction of 0.85. This combination of an astronomical contract win and overwhelming institutional pre-market accumulation provides a rock-solid foundation for immediate continuation at the open. BEAR: LUNR is walking straight into an exhaustion structure and opening-auction reversal trap following the November 11 headline regarding its NASA lunar contract with up to a $15 billion scope. While the contract ceiling sounds massive, the headline is a day old and the pre-market volume of 1.91 million shares\u2014though 12x baseline\u2014has completely stalled below the $13.88 mark. This signals that early-session momentum has peaked on the second day of news digestion, leaving late-arriving buyers at the 9:30 open as direct exit liquidity for institutional profit-taking.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.5e+10 - no matching value in source data",
+        "bear: cited 1.5e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: The 2026-11-12 headlines regarding Nvidia boardroom turmoil and the NVDA/NBIS focus weigh heavily on the stock, driving an aggressive 17.22% pre-market gap down to $128.06. However, this flush is accompanied by massive, highly liquid pre-market volume of over 10.4 million shares, representing 8.81x the baseline average and indicating heavy institutional capitulation or exhaustion. Combined with positive fundamental backing such as the $13 million AI platform win announced in recent news, this extreme volume spike creates a classic washout setup primed for an oversold mean-reversion bounce at the open. Even though the candle structure reads bearish with an exhaustion pattern, the sheer magnitude of liquidity provides an opening for a sharp relief rally as panicked sellers exhaust themselves. BEAR: Buying NBIS on today's massive 17.22% pre-market gap-down to $128.06 is a classic falling knife trap driven by panic over the November 12, 2026 headlines regarding Nvidia boardroom turmoil and tech sector contagion. While volume is extremely heavy at 10.4 million shares (8.81x baseline), the candle agent identifies this exact pattern as an exhaustion structure with a 0.85 conviction bias, meaning the panic selling has likely overshot or is washing out in a climactic flush. Trying to catch a bounce here directly violates the opening-auction reversal risk, as real opening liquidity at 9:30 often exploits thin-tape pre-market panics to sweep stops before reversing violently. Furthermore, news such as the $13 million Gartner AI platform win is entirely overshadowed by the macro Nvidia boardroom panic, making this gap an emotional overreaction rather than a fundamental break in the business.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.3e+07 - no matching value in source data",
+        "bear: cited 1.3e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "YETI",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: YETI is experiencing a heavy pre-market sell-off down 8.80% to $39.02 following its Q3 earnings release on November 12, 2026. While the volume is massive at 154.20x the baseline average and indicates a definitive institutional reaction to the earnings snapshot, the candle structure reads bearish with high conviction, leaving no current footprint of a bottom. The bull case relies entirely on an oversold bounce and potential exhaustion of early morning panic sellers near the $39 level following the Q3 reports. Given the heavy volume and lack of a stabilizing bid, this setup is forced and highly speculative. Confidence is low due to the sharp contradiction between the heavy volume flush and the absence of a supportive bullish footprint. BEAR: YETI is facing a brutal 8.80% gap down to $39.02 following today's Q3 2026 earnings release, dropping hard from a $42.79 close. While the pre-market volume of 133,728 shares is elevated relative to its baseline, the combination of the 'Yeti: Q3 Earnings Snapshot' headline and a high-conviction 0.85 bearish continuation structure signals that the selling pressure is firmly in control. Buying this open acts as immediate exit liquidity for institutional distribution, as the gap-fade and exhaustion structures heavily imply the stock will not recover once real opening auction liquidity hits the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}
