@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-11-13T08:52:02-05:00",
+  "decisions": [
+    {
+      "symbol": "CADL",
+      "signal": "hold",
+      "confidence": 0.15,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.84,
+      "reasoning": "net -0.70 = bull 0.25 - bear 0.95 (buy at >= +0.20). BULL: CADL is experiencing a massive pre-market volume surge of 218,118 shares, representing 115.7x its baseline average, following the Yahoo headline on 2026-11-12 stating the company pushed its prostate cancer FDA application timeline to mid-2027 and tumbled 38% after-hours. While the candle structure reads as a bearish exhaustion gap with 0.85 conviction, this extreme liquidation event introduces severe panic-selling overreaction that heavily discounts the long-term clinical pipeline presented at SITC 2026 on 2026-11-06. An aggressive opening bounce play capitalizes on the washout of weak hands and potential short-term oversold mean reversion. However, the heavy volume skew tied directly to a delayed regulatory timeline dictates extreme caution, keeping confidence low despite the heavy liquidity. BEAR: CADL is a glaring trap for any bottom-fisher trying to buy the dip following the Nov. 12 Yahoo headline detailing a massive 38% after-hours collapse due to the prostate cancer FDA application timeline being pushed all the way out to mid-2027. This structural delay represents an existential pushback for a clinical-stage biotech, meaning the 32.90% pre-market gap down to $5.63 is entirely justified by a hard fundamental de-rating rather than panic noise. The volume signature of 218,118 shares (115.79x baseline) reflects heavy institutional distribution locking in losses rather than a capitulation flush that invites a bounce. With the candle agent identifying an exhaustion structure and bias leaning heavily bearish at 0.85 conviction, any attempt to buy this gap open serves merely as immediate exit liquidity for trapped holders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CBRS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: Cerebras Systems (CBRS) is gapping up +11.41% to $108.90 on massive volume of 1.55 million shares, representing 8.41x its baseline average, driven by the Yahoo headline from 2026-11-12 reporting that its Q4 sales forecast blew past estimates alongside a new Microsoft partnership. Although the candle structure reads as an exhaustion pattern with a bearish conviction of 0.7, the sheer magnitude of volume and concrete fundamental catalysts like the Microsoft partnership and blowout sales guidance provide enough institutional weight to override short-term structural warnings. Buying at the open captures strong momentum following these multi-catalyst announcements, supported by sustained pre-market participation. However, caution is warranted due to potential profit-taking against the exhaustion signal. BEAR: Cerebras Systems opens up 11.41% at $108.90 on an after-hours earnings pop driven by Q4 sales forecasts and a Microsoft partnership from the November 12 headlines, but this setup exhibits a classic exhaustion structure with a 0.7 conviction read. Despite the 8.41x relative volume, the gap has completely stopped building in the pre-market tape, signaling that the post-earnings reaction is already priced in and opening liquidity will use this price to dump shares. Furthermore, the headline noting the stock could be 'above fair value on investor probe' on November 12 sets up an immediate opening-auction reversal where real 9:30 institutional volume overrules the thin pre-market tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HAWK",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.74,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: HawkEye 360, Inc. is displaying a powerful pre-market gap of +12.47% to $16.50 backed by a massive volume signature of 37,159 shares, representing 11.35x its baseline average. This sustained buying activity is directly underpinned by substantive fundamental catalysts released on 2026-11-12, specifically the Q3 financial results and the announcement of approximately $135 million secured in new global contracts. The candle agent's structure read confirms a bullish reversal pattern with a 0.7 conviction, signaling that institutional accumulation is driving the price action. Buying at the open captures this high-momentum continuation as the market absorbs the monumental contract wins and earnings execution. BEAR: HAWK is walking straight into an exhaustion structure and thin-tape pricing trap following yesterday's November 12 earnings dump and $135 million contract announcements. While the headlines generated a 12.47% pre-market gap from $14.67 to $16.50, the volume signature of only 37,159 shares is entirely inadequate to absorb institutional selling once the opening bell rings and real liquidity takes over. Furthermore, with the candle pattern flagged as a reversal carrying a 0.7 conviction, the gap has clearly stopped building pre-market, meaning the reaction to the Q3 financial results is already fully priced in. Buying this open treats the high-water mark of a thin pre-market tape as a continuation signal rather than what it actually is: exit liquidity for yesterday's news.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.35e+08 - no matching value in source data",
+        "bear: cited 1.35e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "LFTO",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: LFTO is demonstrating a powerful, catalyst-driven pre-market move backed by the Q3 earnings release and call highlights published on 2026-11-12 and 2026-11-13. The pre-market volume has exploded to 98,661 shares, representing an extraordinary 24.97x multiple over its baseline average, confirming that institutional participation is driving the gap from $18.71 to $23.00 (+22.93%). Combined with a bullish reversal structure on a conviction rating of 0.7, the footprint clearly signals sustained buying pressure rather than a fleeting retail spike. This combination of fundamental earnings backing and heavy volume persistence supports strong continuation at the open. BEAR: LFTO is setting up for a textbook gap-fade failure mode following its Q3 earnings release and the subsequent 'Liftoff Mobile Q3 Earnings Call Highlights' on November 13, 2026. Despite a 22.93% pre-market gap to $23.00, the pre-market volume of only 98,661 shares represents a thin tape that real opening liquidity at 9:30 will easily overwhelm. Furthermore, the earnings catalyst has already been fully digested since the initial financial results dropped on November 12, making today's open classic exit liquidity rather than a sustainable continuation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MOD",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: MOD is exhibiting a textbook high-conviction gap driven by the Bloomberg report on November 13, 2026, stating that Samsung is in talks to buy the data center cooling firm. The pre-market footprint is exceptionally strong, printing 295,234 shares\u2014representing 8.25x the baseline average volume\u2014and propelling the stock up 38.25% to $146.68. The candle structure confirms a continuation bias with a high conviction rating of 0.9, showing that buying pressure is sustained rather than fading into the open. This heavy institutional accumulation tied to a hard M&A catalyst provides a solid foundation for further upside at the bell. BEAR: MOD is opening up 38.25% following the Bloomberg report on November 13, 2026, stating that Samsung is in talks to buy the data center cooling firm. M&A rumor gaps driven by premature buyout headlines are notoriously dangerous because the pop relies entirely on unverified speculation rather than a definitive, signed transaction. With pre-market volume sitting at a modest 295,234 shares on a massive dollar-value stock, the tape is thin and vulnerable to an opening-auction reversal the moment institutional liquidity arrives at 9:30. Furthermore, just one day prior on November 12, the company reported Q3 struggles marked by supply chain bottlenecks and weak margins, meaning the fundamental core of the business does not justify this sudden valuation leap without the buyout completing. Buying the open here provides immediate exit liquidity to early morning momentum traders before the inevitable gap fade sets in.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NMAX",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: NMAX is gapping +18.38% to $8.63 backed by strong pre-market volume of 31,333 shares, which is 7.64x its baseline average of 4,102 shares. This momentum is directly underpinned by fundamental catalysts reported on November 13, 2026, specifically the Q3 2026 earnings call transcript and highlights detailing record revenue and a second straight positive quarter. The candle agent rates this reversal structure with a high conviction bias of 0.9, confirming that buyers are stepping in aggressively to sustain the morning gap. Entering at the open captures this fundamental momentum as institutional and retail follow-through materializes. BEAR: NMAX is displaying classic thin-tape pricing and gap-fade dynamics following its November 12-13 Q3 2026 earnings release and earnings call highlights. Despite the 18.38% pre-market gap from $7.29 to $8.63, the total pre-market volume of just 31,333 shares is minuscule relative to real opening liquidity, meaning the printed price will likely not survive first contact at 9:30. Furthermore, with the earnings snapshot and call already fully digested overnight, the catalyst is stale and the pre-market gap has stopped building, marking the opening bell as prime exit liquidity for early holders. The reversal pattern conviction is exhaustion in disguise, setting up an immediate gap fade right at the open.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "POAS",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: POAS is seeing massive pre-market attention, trading over 10.18 million shares which translates to 4.31 times its baseline average volume, pushing the stock up 8.97% to $3.28. Regarding the news headlines from the last 7 days, none of them provide a specific fundamental catalyst explaining the move beyond generic mentions such as the Nov. 12, 2026 ChartMill headline noting unusual volume movers where POAS leads the session. Despite the candle agent flagging an exhaustion pattern with a bearish bias, the sheer weight of over 10 million pre-market shares demonstrates heavy institutional or momentum participation that can fuel an opening squeeze. Therefore, buying at the open offers a viable intraday momentum play, though it relies purely on high-volume persistence rather than a dated corporate catalyst. BEAR: POAS is facing a clear exhaustion structure right at the open following an ordinary momentum gap of 8.97% to $3.28. The headline catalyst behind yesterday's volume consists entirely of generic lists like Unusual Volume Movers: LICN, DBGI, POAS Lead the Session on November 12, with zero fundamental news or earnings to justify continuation. With the candle agent signaling exhaustion at 0.5 conviction, this thin-tape pre-market move is completely priced in by retail chasing yesterday's list, making the opening auction prime exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RZLT",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: RZLT prints an extraordinary volume signature with 411,320 shares traded, representing a massive 609x multiple over its baseline average, holding a 6.87% gap at $4.14 off a $3.87 close. The candle agent identifies a bullish reversal pattern with a solid 0.7 conviction score, confirming structural alignment for continuation. However, there are no recent news headlines found for this stock to provide a fundamental narrative context for the move. Therefore, while the extraordinary volume and structural reversal offer a purely technical bull case, the lack of a fundamental catalyst requires tempering confidence. BEAR: RZLT is showing a classic catalyst-free gap fade setup with 411,320 shares trading in pre-market without a single news headline in the last 7 days to justify the +6.87% move from $3.87 to $4.14. This complete absence of fundamental news means the thin-tape pricing at 609x baseline volume is being driven by speculative churn rather than institutional accumulation, leaving early buyers exposed to an opening-auction reversal when real 9:30 liquidity hits the tape. With the candle agent signaling a reversal pattern that has already stopped building before the open, the pre-market price action represents peak exhaustion and exit liquidity rather than a durable trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SLS",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: SLS shows massive pre-market volume of nearly 470,000 shares, representing a 7.28x multiple over its baseline average, driven directly by the November 13, 2026 headline announcing transformative Phase 3 AML results coming this month. This fundamental catalyst is further backed by institutional accumulation disclosed earlier in the week, including State Street revealing a 5% stake. Despite the candle agent reading an exhaustion pattern with a bearish bias, the sheer volume footprint and incoming headline catalyst provide a strong foundation for a momentum-based long entry at the open. We can target a quick run higher as retail and institutional participants position ahead of the imminent trial data. BEAR: The +5.35% gap on 469k shares is entirely built on a pre-market headline from November 13, 2026, where Sellas teased that 'transformative' Phase 3 AML results are coming 'this month', which is a classic buy-the-rumor event that leaves zero substance for the actual open. The candle agent flags an exhaustion pattern with a bearish conviction of 0.85, confirming that the overnight momentum driven by retail bets and institutional stake disclosures from State Street and Barclays has already run out of gas. Buying this open provides immediate exit liquidity for early speculators as the price inevitably fades back toward yesterday's $8.03 close once real opening volume arrives.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VIR",
+      "signal": "hold",
+      "confidence": 0.235,
+      "take_profit_pct": 2.8,
+      "stop_loss_pct": 1.96,
+      "reasoning": "net -0.53 = bull 0.35 - bear 0.88 (buy at >= +0.20). BULL: The public offering announced on 2026-11-13 has created a severe 15.02% gap down on heavy volume of 193,961 shares, which is 4.65x the baseline average. Despite the bearish exhaustion pattern read by the candle structure, this equity recently posted strong Phase III clinical trial results for its Hepatitis Delta Treatment on 2026-11-10 accompanied by a Morgan Stanley Overweight rating and a $28 price target. The equity offering provides required financing following positive clinical data, creating a classic dilution-driven overreaction that leaves the fundamental multi-bagger clinical catalyst intact. Buying the open captures the washout low of an offering-related capitulation while fundamental backing and analyst price targets provide underlying value support. BEAR: Buying VIR at today's open is an aggressive trap given the heavy dilution announced in the November 13 headline 'Vir Biotechnology Announces Pricing of Public Offering of Common Stock' right on the heels of the November 12 proposed offering. This 15.02% gap down to $10.30 from yesterday's $12.12 close\u2014accompanied by 193,961 shares of pre-market volume\u2014reflects severe secondary offering overhang that instantly invalidates the positive Phase III hepatitis delta trial news from November 10. The candle structure is explicitly classified as an exhaustion pattern with a bearish conviction of 0.85, confirming that the overnight plunge is capturing real liquidation pressure rather than a temporary dip. Attempting to catch this falling knife at the open provides immediate exit liquidity to dilution-battered sellers as real opening volume floods the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WGS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.75,
+      "stop_loss_pct": 1.65,
+      "reasoning": "net -0.40 = bull 0.50 - bear 0.90 (buy at >= +0.20). BULL: GeneDx Holdings Corp. is seeing heavy pre-market volume of 82,891 shares, representing over 20 times its baseline average, following its 2026 Q3 earnings release and related commentary on cash burn and sales progress dated November 11-12, 2026. Despite a bearish gap-down of -5.53% to $49.00 following the Q3 results, the immense volume surge indicates significant institutional repositioning and liquidity that often precedes an oversold bounce or exhaustion of early selling pressure. The aggressive volume footprint provides a high-probability mean-reversion setup as value buyers step in to absorb the post-earnings flush at the open. BEAR: WGS is gapping down 5.53% to $49.00 on heavy volume of 82,891 shares following November 12 earnings results and concerns highlighted in Yahoo's 'Who Is Paying For GeneDx's Cash Burn?' article. The candle agent flags a bearish continuation pattern with a 0.9 conviction, confirming an exhaustion structure where real institutional sellers are capitalizing on the post-earnings liquidity. Buying this dip at the open is exceptionally dangerous because the combination of cash burn headlines and heavy volume signals a gap-fade failure mode where the pre-market low will likely give way to sustained selling once the regular session opens.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "YSS",
+      "signal": "hold",
+      "confidence": 0.175,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.65 = bull 0.20 - bear 0.85 (buy at >= +0.20). BULL: York Space Systems is experiencing a heavy pre-market sell-off down 11.82% to $5.82 on 34,700 shares of volume following its Q3 earnings snapshot and acquisition announcement of Outlook Industries on November 12, 2026. While the candle structure reads bearish with a 0.9 conviction for continuation, the elevated volume at nearly 6.9x baseline average signals potential capitulation or digestion of the M&A news. A contrarian long case relies on an oversold bounce as buyers step in to absorb the heavy morning liquidity near these compressed levels. However, with the candle bias firmly pointing lower, confidence in a sustained pre-market reversal is severely constrained. BEAR: YSS is displaying an opening-auction reversal and exhaustion structure as it gaps down 11.82% to $5.82 following yesterday's Q3 earnings snapshot and the announcement to acquire Outlook Industries. The candle agent reads a bearish continuation with a high conviction of 0.9, confirming that the heavy pre-market volume of 34,700 shares is heavily skewed toward liquidation rather than accumulation. With the market fully digesting the earnings and defense buy headlines from November 12, this downside gap represents a continuation of selling pressure where the pre-market low will likely serve as exit liquidity for trapped holders once real opening volume hits.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

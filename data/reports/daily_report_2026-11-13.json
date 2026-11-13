@@ -1,0 +1,1343 @@
+{
+  "date": "2026-11-13",
+  "events": [
+    {
+      "at_et": "2026-11-13T07:46:12-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-13T08:52:02-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-13T09:31:29-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T10:23:06-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1016.json",
+        "shortlist": [
+          "LFTO",
+          "VIR",
+          "POAS",
+          "NMAX",
+          "XGN",
+          "CDNL",
+          "CADL",
+          "MOD",
+          "HAWK",
+          "RZLT",
+          "RMIX",
+          "CBRS",
+          "USDE",
+          "WSE",
+          "NBIS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "WSE",
+            "action": "submitted",
+            "order": {
+              "symbol": "WSE",
+              "qty": 16,
+              "est_cost": 189.28,
+              "entry_ref": 11.83,
+              "take_profit": 12.24,
+              "remaining_take_profit_pct": 3.47,
+              "stop_loss": 11.56,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261113-102306-WSE",
+              "analysis_price": 11.7983,
+              "live_price_change_pct": 0.27
+            },
+            "broker": {
+              "id": "f42c939f-a084-4f31-b1f0-f9266378e050",
+              "client_order_id": "ta-20261113-102306-WSE",
+              "symbol": "WSE",
+              "qty": "16",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 12.24,
+              "stop_loss": 11.56,
+              "legs": [
+                "17dd9b84-be4f-49e5-9b88-9ad930d6af77",
+                "516c9b11-cc4b-489a-b9d2-8abc5b165ae5"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "bid/ask spread too wide: 2.61% (bid $22.73, ask $23.33); 1% max"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "bid/ask spread too wide: 15.75% (bid $8.54, ask $10.00); 1% max"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "bid/ask spread too wide: 5.76% (bid $126.35, ask $133.85); 1% max"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "bid/ask spread too wide: 1.28% (bid $17.04, ask $17.26); 1% max"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T10:51:46-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1046.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "XGN",
+          "CDNL",
+          "CADL",
+          "POAS",
+          "MOD",
+          "HAWK",
+          "STLN",
+          "USDE",
+          "RZLT",
+          "RMIX",
+          "YSS",
+          "ADXN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "bid/ask spread too wide: 18.94% (bid $8.27, ask $10.00); 1% max"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "bid/ask spread too wide: 7.94% (bid $129.12, ask $139.80); 1% max"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "bid/ask spread too wide: 10.35% (bid $16.67, ask $18.49); 1% max"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADXN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T11:21:44-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1116.json",
+        "shortlist": [
+          "LFTO",
+          "VIR",
+          "NMAX",
+          "XGN",
+          "CDNL",
+          "CADL",
+          "POAS",
+          "MOD",
+          "HAWK",
+          "STLN",
+          "USDE",
+          "RMIX",
+          "RZLT",
+          "CBRS",
+          "PSQL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSQL",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T11:51:42-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1146.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "XGN",
+          "CDNL",
+          "CADL",
+          "POAS",
+          "MOD",
+          "STLN",
+          "HAWK",
+          "USDE",
+          "RMIX",
+          "RZLT",
+          "ZVRA",
+          "CBRS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "bid/ask spread too wide: 2.53% (bid $23.06, ask $23.65); 1% max"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T12:21:42-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1216.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "CDNL",
+          "XGN",
+          "CADL",
+          "POAS",
+          "MOD",
+          "HAWK",
+          "STLN",
+          "RMIX",
+          "USDE",
+          "RZLT",
+          "ZVRA",
+          "PAAS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "bid/ask spread too wide: 6.83% (bid $129.12, ask $138.25); 1% max"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAAS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T12:51:58-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1246.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "CDNL",
+          "XGN",
+          "CADL",
+          "MOD",
+          "POAS",
+          "HAWK",
+          "STLN",
+          "RMIX",
+          "SOMN",
+          "USDE",
+          "CBRS",
+          "ZVRA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "bid/ask spread too wide: 10.36% (bid $132.05, ask $146.48); 1% max"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SOMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "bid/ask spread too wide: 7.32% (bid $109.91, ask $118.26); 1% max"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T13:21:39-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1316.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "CDNL",
+          "XGN",
+          "CADL",
+          "MOD",
+          "POAS",
+          "HAWK",
+          "RMIX",
+          "STLN",
+          "SOMN",
+          "USDE",
+          "CBRS",
+          "RZLT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "bid/ask spread too wide: 6.07% (bid $132.05, ask $140.31); 1% max"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SOMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T13:51:53-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1346.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "CDNL",
+          "CADL",
+          "XGN",
+          "MOD",
+          "POAS",
+          "RMIX",
+          "WSE",
+          "HAWK",
+          "STLN",
+          "ZVRA",
+          "SOMN",
+          "CBRS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SOMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T14:21:57-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1416.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "CDNL",
+          "CADL",
+          "XGN",
+          "MOD",
+          "RMIX",
+          "POAS",
+          "HAWK",
+          "WSE",
+          "STLN",
+          "CBRS",
+          "ZVRA",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "WSE",
+            "action": "submitted",
+            "order": {
+              "symbol": "WSE",
+              "qty": 19,
+              "est_cost": 220.21,
+              "entry_ref": 11.59,
+              "take_profit": 12.33,
+              "remaining_take_profit_pct": 6.38,
+              "stop_loss": 11.28,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261113-142157-WSE",
+              "analysis_price": 11.59,
+              "live_price_change_pct": 0.0
+            },
+            "broker": {
+              "id": "db9eae60-8b48-407e-96c1-7b0ac17de3dd",
+              "client_order_id": "ta-20261113-142157-WSE",
+              "symbol": "WSE",
+              "qty": "19",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 12.33,
+              "stop_loss": 11.28,
+              "legs": [
+                "6d422da3-edfe-4898-94b1-3f9519a5aa2c",
+                "c740b7b9-1aba-4cf7-bdac-650846ee6b73"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "bid/ask spread too wide: 2.07% (bid $17.67, ask $18.04); 1% max"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "bid/ask spread too wide: 9.29% (bid $103.88, ask $114.00); 1% max"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T14:51:42-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1446.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "CDNL",
+          "CADL",
+          "XGN",
+          "MOD",
+          "RMIX",
+          "POAS",
+          "STLN",
+          "HAWK",
+          "SOMN",
+          "CBRS",
+          "ZVRA",
+          "RZLT"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "LFTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "bid/ask spread too wide: 6.07% (bid $132.05, ask $140.31); 1% max"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SOMN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "bid/ask spread too wide: 9.29% (bid $103.88, ask $114.00); 1% max"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T15:22:07-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1516.json",
+        "shortlist": [
+          "LFTO",
+          "NMAX",
+          "VIR",
+          "RMIX",
+          "CADL",
+          "CDNL",
+          "XGN",
+          "STLN",
+          "HAWK",
+          "MOD",
+          "POAS",
+          "RZLT",
+          "ZVRA",
+          "CBRS",
+          "SOMN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "LFTO",
+            "action": "submitted",
+            "order": {
+              "symbol": "LFTO",
+              "qty": 8,
+              "est_cost": 196.32,
+              "entry_ref": 24.54,
+              "take_profit": 26.72,
+              "remaining_take_profit_pct": 8.88,
+              "stop_loss": 23.57,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261113-152206-LFTO",
+              "analysis_price": 24.515,
+              "live_price_change_pct": 0.1
+            },
+            "broker": {
+              "id": "8cdcd972-7286-452c-9ba9-188fea738906",
+              "client_order_id": "ta-20261113-152206-LFTO",
+              "symbol": "LFTO",
+              "qty": "8",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 26.72,
+              "stop_loss": 23.57,
+              "legs": [
+                "467521f0-1b11-4365-af97-e7bc803fb7b3",
+                "f2f1a67b-09d8-4ae0-aeae-eaaddcb24a3f"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "bid/ask spread too wide: 5.34% (bid $103.88, ask $109.58); 1% max"
+          },
+          {
+            "symbol": "SOMN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T15:51:38-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-13/shortlist_1546.json",
+        "shortlist": [
+          "NMAX",
+          "RMIX",
+          "VIR",
+          "CADL",
+          "CDNL",
+          "STLN",
+          "HAWK",
+          "XGN",
+          "MOD",
+          "POAS",
+          "OBIO",
+          "RZLT",
+          "ZVRA",
+          "ADIG",
+          "CBRS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "NMAX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VIR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CADL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDNL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HAWK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MOD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OBIO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RZLT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ADIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CBRS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-13T15:51:38-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

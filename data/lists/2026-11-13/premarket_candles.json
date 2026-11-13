@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-13T08:48:50-05:00",
+  "session_date": "2026-11-13",
+  "reads": {
+    "RZLT": {
+      "symbol": "RZLT",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "CADL": {
+      "symbol": "CADL",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "MOD": {
+      "symbol": "MOD",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "LFTO": {
+      "symbol": "LFTO",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "NMAX": {
+      "symbol": "NMAX",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "VIR": {
+      "symbol": "VIR",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "YSS": {
+      "symbol": "YSS",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "HAWK": {
+      "symbol": "HAWK",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "CBRS": {
+      "symbol": "CBRS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "WGS": {
+      "symbol": "WGS",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "SLS": {
+      "symbol": "SLS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "POAS": {
+      "symbol": "POAS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.5
+    }
+  }
+}
