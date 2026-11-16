@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-16T08:48:15-05:00",
+  "session_date": "2026-11-16",
+  "reads": {
+    "HELP": {
+      "symbol": "HELP",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.5
+    },
+    "TU": {
+      "symbol": "TU",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.5
+    },
+    "CLRO": {
+      "symbol": "CLRO",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "CGON": {
+      "symbol": "CGON",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "ACRS": {
+      "symbol": "ACRS",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "BXDC": {
+      "symbol": "BXDC",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "DRTS": {
+      "symbol": "DRTS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "SMMT": {
+      "symbol": "SMMT",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "MSBT": {
+      "symbol": "MSBT",
+      "pattern": "gap down continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "POET": {
+      "symbol": "POET",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "AAPL": {
+      "symbol": "AAPL",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "IEP": {
+      "symbol": "IEP",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    }
+  }
+}

@@ -1,0 +1,1399 @@
+{
+  "date": "2026-11-16",
+  "events": [
+    {
+      "at_et": "2026-11-16T07:46:28-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-16T08:51:28-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-11-16T09:31:35-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AAPL",
+            "reason": "position size cap exceeded, skipped: 1 share at $355.86 > current cash-based budget ($200.00)"
+          },
+          {
+            "symbol": "ACRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IEP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POET",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T10:21:56-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1016.json",
+        "shortlist": [
+          "HELP",
+          "CLRO",
+          "CGON",
+          "TU",
+          "VTSI",
+          "FCUV",
+          "SMMT",
+          "USDE",
+          "ACRS",
+          "POAS",
+          "DRTS",
+          "OPTX",
+          "SHAZ",
+          "SMX",
+          "GDS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPTX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHAZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T10:53:13-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1046.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "VTSI",
+          "CLRO",
+          "TU",
+          "SMMT",
+          "FCUV",
+          "USDE",
+          "ACRS",
+          "POAS",
+          "GDS",
+          "DRTS",
+          "SHAZ",
+          "RMIX",
+          "BXDC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "TU",
+            "action": "submitted",
+            "order": {
+              "symbol": "TU",
+              "qty": 21,
+              "est_cost": 199.71,
+              "entry_ref": 9.51,
+              "take_profit": 10.28,
+              "remaining_take_profit_pct": 8.1,
+              "stop_loss": 9.22,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261116-105312-TU",
+              "analysis_price": 9.5201,
+              "live_price_change_pct": -0.11
+            },
+            "broker": {
+              "id": "13c077d5-9746-4264-8401-19981dc092ae",
+              "client_order_id": "ta-20261116-105312-TU",
+              "symbol": "TU",
+              "qty": "21",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 10.28,
+              "stop_loss": 9.22,
+              "legs": [
+                "c10c293a-3197-4b95-a685-72a4f8866d9e",
+                "cbf3f3c1-4827-41fa-9eb5-2550b2d26f1d"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 4.61% (bid $81.12, ask $84.95); 1% max"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHAZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "bid/ask spread too wide: 12.06% (bid $17.85, ask $20.14); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T11:22:07-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1116.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "VTSI",
+          "CLRO",
+          "SMMT",
+          "SUPX",
+          "FCUV",
+          "USDE",
+          "GDS",
+          "POAS",
+          "ACRS",
+          "RMIX",
+          "BXDC",
+          "DRTS",
+          "IEP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 16.74% (bid $68.91, ask $81.50); 1% max"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "bid/ask spread too wide: 4.45% (bid $17.15, ask $17.93); 1% max"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IEP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T11:54:44-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1146.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "SUPX",
+          "VTSI",
+          "SMMT",
+          "CLRO",
+          "FCUV",
+          "GDS",
+          "SENS",
+          "USDE",
+          "POAS",
+          "RMIX",
+          "BXDC",
+          "ACRS",
+          "DRTS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 2.71% (bid $82.68, ask $84.95); 1% max"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SENS",
+            "reason": "bid/ask spread too wide: 24.02% (bid $10.00, ask $12.73); 1% max"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RMIX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T12:21:58-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1216.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "CLRO",
+          "SMMT",
+          "VTSI",
+          "SUPX",
+          "FCUV",
+          "GDS",
+          "SENS",
+          "POAS",
+          "USDE",
+          "RMIX",
+          "ACRS",
+          "BXDC",
+          "DRTS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "RMIX",
+            "action": "submitted",
+            "order": {
+              "symbol": "RMIX",
+              "qty": 37,
+              "est_cost": 197.58,
+              "entry_ref": 5.34,
+              "take_profit": 5.54,
+              "remaining_take_profit_pct": 3.75,
+              "stop_loss": 5.21,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261116-122158-RMIX",
+              "analysis_price": 5.38,
+              "live_price_change_pct": -0.74
+            },
+            "broker": {
+              "id": "d3aa2512-828d-4d7c-b519-bbbff6184286",
+              "client_order_id": "ta-20261116-122158-RMIX",
+              "symbol": "RMIX",
+              "qty": "37",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.54,
+              "stop_loss": 5.21,
+              "legs": [
+                "b831198a-d4c7-4bd6-9bc9-5621fe732f02",
+                "50821187-efee-48ba-8ead-7715e1d6ca69"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 3.47% (bid $81.00, ask $83.86); 1% max"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SENS",
+            "reason": "bid/ask spread too wide: 14.81% (bid $11.19, ask $12.98); 1% max"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T12:52:32-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1246.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "CLRO",
+          "SMMT",
+          "VTSI",
+          "SUPX",
+          "FCUV",
+          "GDS",
+          "NPCE",
+          "POAS",
+          "USDE",
+          "SENS",
+          "DRTS",
+          "ACRS",
+          "BXDC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 2.82% (bid $84.58, ask $87.00); 1% max"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPCE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SENS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ACRS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T13:21:25-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1316.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "TU",
+          "SMMT",
+          "CLRO",
+          "SUPX",
+          "VTSI",
+          "GDS",
+          "FCUV",
+          "DRTS",
+          "POAS",
+          "NPCE",
+          "SENS",
+          "USDE",
+          "ACRS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ACRS",
+            "action": "submitted",
+            "order": {
+              "symbol": "ACRS",
+              "qty": 57,
+              "est_cost": 199.5,
+              "entry_ref": 3.5,
+              "take_profit": 3.72,
+              "remaining_take_profit_pct": 6.29,
+              "stop_loss": 3.38,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261116-132125-ACRS",
+              "analysis_price": 3.515,
+              "live_price_change_pct": -0.43
+            },
+            "broker": {
+              "id": "f2c8a222-24fb-4e06-a0ef-612dcc7f5d01",
+              "client_order_id": "ta-20261116-132125-ACRS",
+              "symbol": "ACRS",
+              "qty": "57",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 3.72,
+              "stop_loss": 3.38,
+              "legs": [
+                "f471f3f0-b5a1-4a12-8507-8bdfaa7670a5",
+                "842e8e2f-9240-476a-ab3f-177384f2a0ac"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 2.48% (bid $84.58, ask $86.70); 1% max"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPCE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SENS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T13:53:46-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1346.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "TU",
+          "SMMT",
+          "CLRO",
+          "SUPX",
+          "GDS",
+          "VTSI",
+          "FCUV",
+          "DRTS",
+          "POAS",
+          "USDE",
+          "BXDC",
+          "SENS",
+          "NPCE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SENS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NPCE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T14:21:42-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1416.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "TU",
+          "CLRO",
+          "SMMT",
+          "SUPX",
+          "VTSI",
+          "GDS",
+          "FCUV",
+          "DRTS",
+          "POAS",
+          "USDE",
+          "NPCE",
+          "BXDC",
+          "SENS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DRTS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPCE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SENS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T14:53:45-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1446.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "TU",
+          "CLRO",
+          "SMMT",
+          "SUPX",
+          "VTSI",
+          "GDS",
+          "FCUV",
+          "DRTS",
+          "POAS",
+          "USDE",
+          "NPCE",
+          "BXDC",
+          "IEP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "DRTS",
+            "action": "submitted",
+            "order": {
+              "symbol": "DRTS",
+              "qty": 16,
+              "est_cost": 193.44,
+              "entry_ref": 12.09,
+              "take_profit": 13.19,
+              "remaining_take_profit_pct": 9.1,
+              "stop_loss": 11.58,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261116-145344-DRTS",
+              "analysis_price": 12.06,
+              "live_price_change_pct": 0.25
+            },
+            "broker": {
+              "id": "60928b44-e2a5-43d9-8f9a-3aa3c1e20eb0",
+              "client_order_id": "ta-20261116-145344-DRTS",
+              "symbol": "DRTS",
+              "qty": "16",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 13.19,
+              "stop_loss": 11.58,
+              "legs": [
+                "f80c67a3-645a-4422-a917-407f03d5b9e2",
+                "75fac30f-41ba-4557-82c4-b099e848bb22"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "bid/ask spread too wide: 1.38% (bid $85.35, ask $86.54); 1% max"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPCE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BXDC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IEP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T15:22:00-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1516.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "TU",
+          "CLRO",
+          "SMMT",
+          "SUPX",
+          "GDS",
+          "VTSI",
+          "FCUV",
+          "USDE",
+          "NPCE",
+          "POAS",
+          "BMM",
+          "IEP",
+          "PSFE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPCE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BMM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IEP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSFE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T15:52:12-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-16/shortlist_1546.json",
+        "shortlist": [
+          "HELP",
+          "CGON",
+          "TU",
+          "CLRO",
+          "SMMT",
+          "SUPX",
+          "GDS",
+          "NPCE",
+          "USDE",
+          "VTSI",
+          "PSFE",
+          "FCUV",
+          "POAS",
+          "BMM",
+          "BTDR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "TU",
+            "action": "submitted",
+            "order": {
+              "symbol": "TU",
+              "qty": 20,
+              "est_cost": 191.6,
+              "entry_ref": 9.58,
+              "take_profit": 10.41,
+              "remaining_take_profit_pct": 8.66,
+              "stop_loss": 9.25,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261116-155212-TU",
+              "analysis_price": 9.55,
+              "live_price_change_pct": 0.31
+            },
+            "broker": {
+              "id": "eaf25b64-c0db-43c9-8000-5bc36eb0540c",
+              "client_order_id": "ta-20261116-155212-TU",
+              "symbol": "TU",
+              "qty": "20",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 10.41,
+              "stop_loss": 9.25,
+              "legs": [
+                "df80bc36-0bfd-471f-93f3-029f53943875",
+                "ca5a66b0-45ce-44f2-a36b-856550447ca3"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CGON",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMMT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NPCE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSFE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BMM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-16T15:52:12-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

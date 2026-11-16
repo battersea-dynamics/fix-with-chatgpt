@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-11-16T11:54:44-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "HELP",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 3.16,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: HELP presents a compelling buying opportunity following the market's overreaction to the Q2 EPS miss, effectively ignoring the highly positive Phase 3 topline results for HLP003 in MDD released today. With massive relative volume at 7.46x and a price currently trading 19.43% below its 20-day MA, the stock is primed for a mean reversion as investors refocus on the successful clinical trial data. Despite intraday volatility, the high trading participation confirms significant institutional attention, creating a window to capture the upside as the market reconciles the clinical progress with the current discounted valuation. BEAR: Buying HELP today means stepping directly into a severe post-earnings collapse where Helus Pharma reported a disastrous Q2 EPS loss of $(1.41) missing the $(0.64) estimate alongside mixed Phase 3 APPROACH trial data featuring three serious adverse events. The stock is already trading down 11.16% at $7.88 and sits 19.43% below its 20-day MA while suffering from measurable tape deterioration across its 30-minute intervals, including a negative price acceleration of -6.31 percentage points and a meager relative volume rate of 0.1577. This creates an extreme chasing and falling-knife trap where heavy selling pressure on fresh negative catalysts makes any long entry a high-probability loser over a multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CGON",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 4.75,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: CGON is experiencing a powerful breakout driven by a major same-session catalyst: CG Oncology announced topline results from its Phase 3 PIVOT-006 trial on November 16, 2026, achieving its primary endpoint with compelling safety and tolerability. The stock is reacting aggressively with a 12.49% day change, trading at $83.69 on heavy volume reaching 3.63x normal levels. Momentum is fully confirmed by the intraday history, showing four consecutive scans, a 3.321% return since first seen, and a zero drawdown from its observed high of $83.69. With strong fundamental backing and robust tape persistence, the stock shows clear continuation potential toward analyst targets near $89. BEAR: CG Oncology is trading 26.42% above its 20-day moving average following a fresh same-session catalyst headline regarding topline results from its Phase 3 PIVOT-006 trial on 2026-11-16. However, the volume participation shows measurable deterioration beneath the surface, with a relative volume rate per 30 minutes dropping to 0.2707 and a negative rate change of -0.1129. Entering at $83.69 after a 12.49% day change exposes the buyer to immediate exhaustion risk as the initial phase 3 reaction matures and volume velocity cools.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SUPX",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.04,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.30 = bull 0.35 - bear 0.65 (buy at >= +0.20). BULL: SUPX is showing signs of an intraday mean-reversion rebound, trading at $4.80 after being stretched -16.30% below its 20-day moving average on 3.47x relative volume. Intraday tape development reflects positive momentum, gaining 2.452% over 30 minutes across 2 consecutive observations with zero drawdown from its observed high of $4.805 and rank improving from 6 to 3. While the company announced on 2026-11-12 (4 calendar days prior) that it will showcase AI infrastructure at SC26, there is no fresh news directly driving today's action. Because this tape-only setup lacks a same-day catalyst and has only two observed intervals, confidence in persistent continuation remains low despite the encouraging initial rebound. BEAR: SUPX is trading at $4.80, sitting down 16.30% from its 20-day moving average and showing a -4.85% day change, reflecting severe underlying structural weakness despite a modest 2.45% bounce over its brief 30-minute observation window. The relative volume rate per 30 minutes has cooled to 0.6556, signaling that participation is rapidly fading while the price remains heavily depressed far below its moving average. Furthermore, the only available catalyst is a Yahoo headline from 2026-11-12 (4 calendar days before the session) regarding an exhibition debut at SC26, which is already stale and has failed to prevent a deeply negative daily session. Buying into this falling knife setup under meager volume participation presents clear continuation risks without any fresh fundamental tailwinds.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VTSI",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 7.5,
+      "stop_loss_pct": 3.0,
+      "reasoning": "net -0.30 = bull 0.50 - bear 0.80 (buy at >= +0.20). BULL: VirTra benefits from fresh fundamental catalysts following its November 13, 2026 report of 42% third-quarter revenue growth to $7.6 million and bookings reaching $10.3 million, prompting Roth Capital to reiterate its Buy rating with a $7.5 price target. Trading at $4.35 with relative volume at an elevated 2.54x and sitting 59.27% above its 20-day moving average, the stock demonstrates robust institutional participation despite a short-term intraday pullback. Although momentum indicators show a drawdown of 7.24% from its observed high of $4.69 across 4 consecutive observations, the fundamental backing and substantial analyst price target upside provide a compelling thesis for near-term continuation. We establish confidence based on the strong Q3 earnings release and reiterated analyst support. BEAR: VTSI is exhibiting textbook chasing dynamics following its Q3 earnings headlines and Roth Capital reiteration on 2026-11-13 (3 calendar days before the session). With the stock stretched 59.27% above its 20-day moving average at $4.35, the initial upside catalyst is fully priced in and stale. Furthermore, same-session momentum has measurably deteriorated within 90 minutes of first being seen, logging a 7.24% drawdown from its observed high of $4.69, a drop in rank from 3 to 4, and a weak relative volume rate per 30 minutes of just 0.24. Buying here means stepping in as late-stage exit liquidity while participation rapidly fades.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 7.6e+06 - no matching value in source data",
+        "bull: cited 1.03e+07 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SMMT",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Summit Therapeutics trades at $11.99 following heavy selling pressure tied to same-session headlines regarding an FDA hurdle for its lead lung cancer drug, yet Evercore ISI Group maintains an Outperform rating with a $33 price target on 2026-11-16. Despite a steep 15.26% day change and a -23.91% distance from its 20-day MA, relative volume remains elevated at 2.56x normal alongside positive same-session price acceleration of 4.58 percentage points and a modest 3.93% drawdown from its observed high. With 4 consecutive observations and recent stabilization showing a 0.34% return since the previous snapshot, the steep selloff offers a high-beta bounce opportunity for a short-term recovery toward analyst targets. BEAR: SMMT is currently undergoing a sharp repricing due to fundamental uncertainty regarding a negative FDA development for its lead lung cancer drug, as confirmed by headlines today. The technical evidence confirms active deterioration, with the stock currently 23.91% below its 20-day moving average and showing a -3.93% drawdown from its observed high within a short 90-minute window. While relative volume is elevated at 2.56x, the price continues to struggle despite this participation, indicating that the selling pressure is broad and active rather than an exhausted move. Investors attempting to 'buy the dip' are facing a volatile news cycle where the full extent of the FDA hurdle impact remains undefined, creating significant risk of further downward cascades.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CLRO",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: CLRO is showing strong momentum during the November 16, 2026 session, highlighted by a 26.30% day change and relative volume running at 1.63x normal alongside premarket coverage in headlines such as Premarket Movers on Nov. 16, 2026: Gainers and Decliners. Although the tape shows four consecutive scans with a minor pullback from its observed high of $4.475, the stock remains up significantly on the day and well above its 20-day moving average. This continuation potential is supported by fresh trading interest and active participation in Monday's pre-market session. BEAR: Buying CLRO at $4.26 after a +26.30% day change risks buying directly into a fading premarket mover setup where the tape has already begun to turn over. The same-session momentum history shows clear deterioration just 90 minutes after being first seen at 10:17 ET, featuring a negative return of -4.1374% since first seen, a worsening rank drop from 4 to 6, and a drawdown of -4.8872% from its observed high of $4.475. Furthermore, the catalysts driving the action are generic premarket mover roundups from ChartMill and Benzinga on November 16, 2026, alongside an older Q3 earnings snapshot from November 10, meaning early momentum from morning lists is exhausting against fading participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FCUV",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: FCUV presents a deeply oversold mean-reversion opportunity after falling 39.41% on the session to $4.29, maintaining a position +24.67% above its 20-day moving average. Although relative volume is thin at 0.28x and news reports like ChartMill's Premarket Movers on Nov. 16, 2026 show no specific company catalyst explaining the decline, consecutive scans show the score improving by 0.5896 despite negative returns. With an observed high of $4.93 and a drawdown of -12.98% from that peak over 90 minutes across 4 observations, the steep drop offers substantial room for a sharp tactical bounce. The trade relies strictly on extreme volatility exhaustion rather than a fundamental catalyst. BEAR: FCUV is suffering a severe daily collapse of -39.41% down to $4.29 while exhibiting clear tape deterioration across its intraday snapshots, including a 12.98% drawdown from its observed high and four consecutive negative intervals resulting in a -12.98% return since first seen. Relative volume is completely dead at 0.28x normal with a 30-minute volume rate of just 0.0184, proving that buying into this sharp intraday selloff lacks any institutional participation to support a rebound. Furthermore, fresh same-session headlines on Nov. 16, 2026, such as ChartMill's 'Premarket Movers on Nov. 16, 2026: Gainers and Decliners' and Benzinga's pre-market mover reports, place FCUV squarely in a broad de-risking basket rather than any constructive accumulation zone. Entering this name means trying to catch a falling knife with zero volume confirmation and persistent downward momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GDS",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: GDS is trading down 13.73% today to $17.09 amid headline pressure regarding US AI chip export rules published on 2026-11-16, alongside upcoming Q3 earnings scheduled for November 25, 2026. Despite the sharp drop, the stock exhibits elevated relative volume of 1.98x normal and has logged four consecutive observations with a slight rank improvement from 9 to 8 and positive price acceleration of 0.0579 percentage points. Recent media attention on 2026-11-14 questions whether the stock is undervalued given its AI data center scale, presenting a potential mean-reversion opportunity for a quick bounce from deeply oversold levels. However, with negative momentum persisting (-2.1191% return since first seen), this remains a high-risk oversold bounce play. BEAR: GDS is experiencing a brutal session with a -13.73% day change and is sitting 23.33% below its 20-day moving average, a massive downward extension fueled directly by fresh, same-session regulatory shock from the Financial Times headline 'US moves to tighten AI chip export rules'. This macroeconomic and sector-specific headlock compounds existing fundamental vulnerabilities highlighted in the catalyst feed, specifically SeekingAlpha's November 10 warning regarding H2 2027 AI realization and liquidity hurdles ahead of an upcoming November 25 earnings report. Furthermore, the intraday tape shows clear deterioration with a mixed setup, zero positive observed intervals across 3 snapshots, and a continuing drawdown of -2.1191% from its observed high alongside a collapsing relative volume rate per 30 minutes of just 0.2326. Buying this falling knife into an active regulatory crackdown while facing upcoming earnings and negative momentum is an extreme hazard.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SENS",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 4.5,
+      "stop_loss_pct": 2.25,
+      "reasoning": "net +0.20 = bull 0.70 - bear 0.50 (buy at >= +0.20). BULL: SENS is displaying robust momentum on the session, trading up 5.29% to $11.14 with relative volume surging to 2.12x normal levels. This strong price action is supported by fresh fundamental catalysts, notably a fair value boost from an analyst target increase on the same US trading-session date of 2026-11-16, following recent news of a 140% revenue surge and strong 2027 sales projections. With the stock holding right at its observed high of $11.14 with zero drawdown, and trading 25.29% above its 20-day moving average, buying momentum remains firmly confirmed. We target a quick 6.0% upside while maintaining a 3.0% stop loss to manage intraday volatility. BEAR: SENS is trading at $11.14, sitting 25.29% above its 20-day moving average on 2.12x relative volume alongside fresh same-session news titled 'Senseonics Holdings (SENS) Stock Gets Fair Value Boost After Analyst Target Increases' published on 2026-11-16. This creates an immediate risk that buyers entering at today's highs are paying a premium driven entirely by a newly released analyst target update that has already been fully absorbed by the market. Furthermore, prior multi-day headlines like the November 12 revenue surge and November 11 sales projections mean the broader growth narrative is already well-known and priced into the stock. With the price severely extended from its moving average on the very day of the analyst headline, late entrants risk buying the exact peak of the analyst-driven enthusiasm before mean reversion pulls the stock back toward its baseline.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "USDE",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: USDE features same-session earnings reported on 2026-11-16 alongside a Benzinga headline for Q3 Adj. EPS $(0.08) and Sales $477.993K. The tape shows sustained continuation across 4 consecutive scans over 90 minutes, achieving a return since first seen of 4.93% and sitting at its exact observed high of $4.47 with 0.0% drawdown. Despite a significant 15.66% drop on the day and a distance of -46.87% from its 20-day moving average, the positive 30-minute interval development and current high-water mark print offer a tactical bounce window following the morning earnings release. BEAR: USDE is suffering from severe underlying weakness despite a modest intraday bounce, trading down -15.66% on the day and sitting -46.87% away from its 20-day moving average with anemic relative volume of 0.73x. The same-session momentum is already showing measurable deterioration with rank dropping from 8 to 10, a negative score change of -0.4929, and a worsening price acceleration of -0.3696 percentage points. Furthermore, the fresh Q3 earnings report released on 2026-11-16 revealing an adjusted EPS of $(0.08) on a negligible $477.993K in sales severely undermines any fundamental thesis for holding this stock. Buying into this setup means catching a falling knife with fading participation and dismal earnings.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "POAS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: POAS shows persistent interest with four consecutive observations across 90 minutes, a return of 1.7893 percent since the previous snapshot, and zero drawdown from its observed high of $2.8501. The catalyst report contains no breaking news today to explain the move, but prior coverage highlights its unusual volume leadership on November 12, 2026. Despite a 13.37 percent drop on the day and light relative volume of 0.07x, the price remains 81.73 percent above its 20-day moving average, showing sustained continuation characteristics. BEAR: POAS is displaying clear signs of exhaustion despite its aggressive extension of 81.73% above the 20-day moving average. The relative volume is remarkably thin at 0.07x, indicating that the current price level is not supported by meaningful market participation. Furthermore, price acceleration has turned negative at -1.1519%, and the stock has dropped in rank, confirming a lack of institutional momentum to sustain this move. With no fresh catalysts and a failure of volume to confirm the daily movement, this entry represents a classic chasing scenario into illiquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RMIX",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: RMIX is demonstrating robust intraday persistence following its recent Q3 2026 earnings release on November 13, where strong revenue growth helped fuel market momentum despite an EPS miss. On the session of November 16, Baird maintained its Outperform rating on Suncrete, providing institutional backing even as it adjusted its price target to $9. The tape confirms solid buying pressure with 3 consecutive observations over 60 minutes, a 7.7001% return since first seen, and zero drawdown from its observed high of $5.315. Furthermore, relative volume is elevated at 1.74x normal, reinforcing buyer participation as the stock trades up 4.63% on the day. BEAR: Buying RMIX today means chasing a post-earnings rally that is already digesting negative fundamental revisions, specifically Baird maintaining its Outperform rating on 2026-11-16 while simultaneously lowering its price target to $9. Furthermore, internal momentum metrics reveal clear exhaustion and volume fading, shown by a collapsing rel_volume_rate_per_30m of 0.1475 alongside a sharp price acceleration drop of -5.7373 percentage points. With the stock lingering 43.27% below its 20-day MA while showing a deteriorating volume pace despite a 4.63% day gain, late buyers are walking straight into exit liquidity following the Q3 earnings miss on EPS reported on 2026-11-13.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BXDC",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: BXDC benefits from a powerful same-session earnings beat reported on 2026-11-16, where Q3 EPS of $0.15 surpassed the $0.12 estimate. The stock shows robust momentum with a +7.19% daily change, 1.70x relative volume, and three consecutive observation scans confirming active participation. With a shallow drawdown of only -0.859% from its observed high of $18.045, the strong fundamental catalyst and persistent tape provide a solid foundation for continuation over the next few sessions. BEAR: BXDC is vulnerable to an immediate fading of its morning momentum, as evidenced by a 0.859% drawdown from its observed high of $18.045 during the same session it reported earnings. The Benzinga headline Blackstone Digital Infr Q3 EPS $0.15 Beats $0.12 Estimate was released on the same US trading-session date of 2026-11-16, meaning the positive catalyst is fully public and already reflected in the +7.19% day change. Furthermore, price acceleration has turned negative at -1.8383 percentage points alongside a slowing relative volume rate of 0.2598 per 30 minutes, confirming that buying participation is actively fading after the initial earnings reaction. Chasing the stock here at 10.48% above its 20-day moving average risks locking in an entry precisely as the post-earnings news is completely priced in.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ACRS",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: ACRS presents an active dip-buying opportunity on 2026-11-16 backed by multiple fresh clinical catalysts, including the initiation of its Phase 2b trial for modzatinib in lichen planus and top-line Phase 2 results for bosakitug in atopic dermatitis. Despite the broader pre-market pullback noted in Benzinga headlines, the stock maintains solid intraday engagement with 2.33x relative volume and a positive 4.4993% return since first being seen 90 minutes prior. With a minor drawdown of only 0.5525% from its observed high of $3.62, the tape shows resilient participation that provides an attractive entry point for a short-term rebound. BEAR: ACRS is experiencing clear same-session deterioration on 2026-11-16, down 8.16% on the day to $3.60 with a negative price acceleration of -1.81 percentage points and a rank drop from 11 to 14. Fresh headlines regarding top-line Phase 2 results for Bosakitug and a new Phase 2b trial for Modzatinib have failed to hold pre-market gains, landing the stock below its 20-day moving average by 7.12% with a worsening volume rate. Buying into this setup means catching a falling knife where heavy news is already being absorbed and sold into.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DRTS",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.05 = bull 0.70 - bear 0.75 (buy at >= +0.20). BULL: Alpha Tau Medical is experiencing strong accumulation supported by major fundamental catalysts released on the session date of November 16, 2026, including positive interim results showing 100% ORR and complete tumor clearance in glioblastoma patients. Despite an intraday pullback to $12.19, relative volume remains elevated at 2.16x normal with four consecutive observations on the tape showing persistent market interest ahead of upcoming earnings on November 24. Buyers can leverage this heavy news-driven momentum for a mean-reversion rebound toward the session high of $12.42 and beyond. BEAR: DRTS is exhibiting a clear 'sell the news' reaction despite highly positive headlines regarding its Alpha DaRT clinical trial, as the stock is down 8.89% on the day. The momentum history confirms active deterioration, with price acceleration showing a significant decline of -3.1982 percentage points and a worsening rank from 14 to 15. Furthermore, relative volume participation is fading, with the volume rate changing by -0.0303, signaling that institutional conviction is not supporting the current price level. With earnings looming on 2026-11-24, the combination of a failed breakout on high-impact news and deteriorating tape makes this a dangerous entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "HELP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CGON",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 2.71% (bid $82.68, ask $84.95); 1% max"
+    },
+    {
+      "symbol": "SUPX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VTSI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SMMT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CLRO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FCUV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GDS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SENS",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 24.02% (bid $10.00, ask $12.73); 1% max"
+    },
+    {
+      "symbol": "USDE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "POAS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RMIX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BXDC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ACRS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DRTS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
