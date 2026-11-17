@@ -1,0 +1,1093 @@
+{
+  "date": "2026-11-17",
+  "events": [
+    {
+      "at_et": "2026-11-17T07:46:24-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-17T08:55:28-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-17T09:31:33-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ARR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KURA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TME",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UBS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WB",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T10:23:03-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1016.json",
+        "shortlist": [
+          "SLS",
+          "RCAT",
+          "ABX",
+          "SMX",
+          "PICS",
+          "DUOT",
+          "OMER",
+          "USDE",
+          "FUBO",
+          "AS",
+          "OMH",
+          "KLAR",
+          "PONY",
+          "DLO",
+          "TTEC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUBO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PONY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTEC",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T11:54:17-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1146.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "DUOT",
+          "PICS",
+          "OMH",
+          "SMX",
+          "OMER",
+          "BILL",
+          "DLO",
+          "VTSI",
+          "AS",
+          "FUBO",
+          "PSIG",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "bid/ask spread too wide: 5.51% (bid $58.10, ask $61.39); 1% max"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUBO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T12:22:06-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1216.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "DUOT",
+          "PICS",
+          "SMX",
+          "OMH",
+          "BILL",
+          "OMER",
+          "FUBO",
+          "VTSI",
+          "PSIG",
+          "DLO",
+          "AS",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUBO",
+            "reason": "bid/ask spread too wide: 5.50% (bid $7.60, ask $8.03); 1% max"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T12:59:38-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1246.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "DUOT",
+          "PICS",
+          "BILL",
+          "SMX",
+          "OMER",
+          "OMH",
+          "VTSI",
+          "PSIG",
+          "DLO",
+          "FUBO",
+          "AS",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUBO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T13:22:51-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1316.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "DUOT",
+          "BILL",
+          "PICS",
+          "SMX",
+          "OMER",
+          "VTSI",
+          "OMH",
+          "MSBT",
+          "DLO",
+          "FUBO",
+          "AS",
+          "PSIG"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUBO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T13:57:48-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1346.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "BILL",
+          "DUOT",
+          "PICS",
+          "OMER",
+          "SMX",
+          "VTSI",
+          "PSIG",
+          "OMH",
+          "MSBT",
+          "DLO",
+          "DLB",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T14:22:03-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1416.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "BILL",
+          "DUOT",
+          "PICS",
+          "OMER",
+          "PSIG",
+          "SMX",
+          "VTSI",
+          "OMH",
+          "MSBT",
+          "DLO",
+          "DLB",
+          "USDE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T14:52:53-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1446.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "BILL",
+          "DUOT",
+          "PICS",
+          "OMER",
+          "PSIG",
+          "SMX",
+          "OMH",
+          "VTSI",
+          "DLB",
+          "MSBT",
+          "DLO",
+          "ENR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENR",
+            "reason": "bid/ask spread too wide: 1.26% (bid $26.84, ask $27.18); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T15:21:26-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1516.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "DUOT",
+          "BILL",
+          "PICS",
+          "OMER",
+          "PSIG",
+          "DLB",
+          "OMH",
+          "VTSI",
+          "SMX",
+          "ENR",
+          "MSBT",
+          "DLO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ENR",
+            "reason": "bid/ask spread too wide: 3.49% (bid $27.02, ask $27.98); 1% max"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T15:52:11-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-17/shortlist_1546.json",
+        "shortlist": [
+          "SLS",
+          "ABX",
+          "RCAT",
+          "DUOT",
+          "CRTO",
+          "BILL",
+          "PICS",
+          "OMER",
+          "PSIG",
+          "DLB",
+          "ENR",
+          "OMH",
+          "VTSI",
+          "DLO",
+          "SMX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ENR",
+            "action": "submitted",
+            "order": {
+              "symbol": "ENR",
+              "qty": 7,
+              "est_cost": 192.64,
+              "entry_ref": 27.52,
+              "take_profit": 28.55,
+              "remaining_take_profit_pct": 3.74,
+              "stop_loss": 26.87,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261117-155210-ENR",
+              "analysis_price": 27.49,
+              "live_price_change_pct": 0.11
+            },
+            "broker": {
+              "id": "1f1c21d4-2bd1-463e-af5b-4cd0132a7402",
+              "client_order_id": "ta-20261117-155210-ENR",
+              "symbol": "ENR",
+              "qty": "7",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 28.55,
+              "stop_loss": 26.87,
+              "legs": [
+                "5141d403-1d40-49c1-8887-ff8826b99543",
+                "2022035f-e874-4644-8d57-50e2263cb05d"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RCAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DUOT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PICS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMER",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PSIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VTSI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SMX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-17T15:52:11-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 10,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
