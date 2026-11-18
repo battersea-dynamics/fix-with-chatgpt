@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-11-18T11:25:57-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CLRO",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: CLRO is showing strong momentum with a day change of +56.36% and trading at $7.38, supported by a relative volume of 1.71x normal and maintaining the #1 rank across three consecutive observations. The catalyst report contains no specific breaking news explaining today's move, leaving the surge entirely driven by tape action and aggressive buying interest. Although there is a 6.70% drawdown from its observed high of $7.91, the price remains 72.49% above its 20-day moving average, showing powerful continuation potential if it retests session highs. This tape-only setup relies purely on persistent ranking and elevated volume to fuel a short-term continuation trade. BEAR: CLRO is showing clear signs of chasing and momentum deterioration with a price extension sitting 72.49% above its 20-day moving average on a +56.36% day change. The same-session momentum history reveals a notable 6.70% drawdown from its observed high of $7.91 and negative price acceleration of -14.9083 percentage points over the latest intervals. Furthermore, the catalyst report lacks any fresh same-session news, featuring only general market mover headlines from 2 calendar days prior (2026-11-16) that provide no fundamental justification for today's surge.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "JMIA",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: Jumia Technologies is currently experiencing an extreme market overreaction to its Q3 earnings, evidenced by a massive -29.48% single-day drop that has left the stock trading significantly below its 20-day moving average. While the market is punishing the weak Q4 outlook reported on November 18, the stock is showing clear signs of bottoming out with a high relative volume of 3.32x, indicating heavy institutional absorption of the selling pressure. The current price acceleration of 5.1965% points suggests a rapid shift in momentum, providing an opportunistic entry point for a mean-reversion play as investors digest the actual Q3 results. This trade relies on the high probability of a technical rebound after such an intense, liquidity-heavy intraday selloff. BEAR: JMIA is experiencing a severe same-session crash of -29.48% driven by fresh earnings results released on 2026-11-18, where a Q3 beat was completely undermined by a weak Q4 outlook. The momentum history shows active deterioration with a 10.07% drawdown from its observed high, zero positive intervals, and falling relative volume rate per 30 minutes. Buying into this falling knife means catching a plunging asset where the primary catalyst is actively toxic rather than bullish.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ARDT",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Ardent Health is experiencing heavy liquidation today following news on November 18, 2026, regarding the pricing of a secondary offering of common stock and a concurrent share repurchase. Despite the sharp 20.06% drop to $14.19, relative volume has exploded to 4.76x normal levels, indicating massive institutional participation and potential capitulation washing out weak holders. Furthermore, intraday tracking reveals 3 consecutive scans over 60 minutes with positive price acceleration of 1.18 percentage points and a tight drawdown of only 1.05% from its observed high of $14.34. This aggressive volume absorption following a secondary offering creates a classic oversold bounce setup for a multi-day reversion. BEAR: ARDT dropped heavily by -20.06% on 2026-11-18 following fresh catalysts including the 'Ardent Health Announces Pricing of Secondary Offering of Common Stock and Concurrent Share Repurchase' and after-hours tumbles reported on the same date. The volume rate is deteriorating with rel_volume_rate_per_30m at 0.5881 and a rel_volume_rate_change of -0.3426, showing that participation is fading as the session progresses. Buying into this sharp secondary-offering-driven drop risks catching a falling knife where institutional supply from the 7M share secondary offering continues to pressure the stock over the next few days.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BRBR",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 7.81,
+      "stop_loss_pct": 3.12,
+      "reasoning": "net +0.00 = bull 0.75 - bear 0.75 (buy at >= +0.20). BULL: BellRing Brands surged +22.48% on 2026-11-18 backed by a same-session earnings beat and a Fiscal Year 2027 outlook released on the exact same trading date. The stock shows strong institutional participation with a relative volume of 1.71x normal and trades +38.36% above its 20-day moving average. Despite a minor pullback to a 3.06% drawdown from its observed high of $13.91, the tape displays persistent engagement across three consecutive scan observations over 60 minutes. This fundamental beat combined with robust momentum makes BRBR a prime candidate for further continuation over the coming sessions. BEAR: BRBR is up 22.48% and sitting 38.36% above its 20-day MA following same-session Q4 earnings and revenue beat headlines, leaving buyers vulnerable to an immediate post-announcement digestion phase. The momentum metrics show concrete same-session deterioration within 60 minutes of first observation, featuring a 3.06% drawdown from the observed high of $13.91, a negative return of -3.06% since the previous interval, and a fading relative volume rate per 30 minutes down to 0.3015. Furthermore, the simultaneous announcement of a CFO transition alongside the earnings release introduces executive-level uncertainty right as the stock achieves an overextended technical state. Buying at these highs means purchasing front-run news that is now fully public while intraday participation and price acceleration drop sharply.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SLS",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: SLS is commanding major market attention, highlighted by fresh November 18, 2026 headlines such as Yahoo noting retail focus after its recent rally and its position in biotech's top tier alongside MRNA. Trading at $19.29, the stock shows robust trend continuation sitting 93.39% above its 20-day moving average with a relative volume of 1.16x. Furthermore, price acceleration of 5.50% points and a positive score change of 0.1328 across three consecutive scans demonstrate strong underlying momentum capable of driving further upside over the next several sessions. With an observed high of $20.24, the current pullback represents a favorable entry to capture a bounce toward prior highs. BEAR: SLS is exhibiting clear signs of chasing and post-hype distribution as it trades 93.39% above its 20-day moving average at $19.29 on unconvincing relative volume of just 1.16x normal. Same-session snapshot data reveals measurable deterioration, including a -4.69% drawdown from its observed high of $20.24 and a slowing relative volume rate of 0.1107 per 30 minutes with a negative rate change of -0.0778. Furthermore, fresh same-session headlines on 2026-11-18 point to retail attention shifting toward competitors or debating better FDA approval odds elsewhere, suggesting current price levels represent late-stage retail FOMO rather than fresh institutional accumulation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PRMB",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: Primo Brands (PRMB) trades at $22.46 amid high relative volume of 2.27x normal, despite a 7.36% drop on the session and a drawdown of only 0.51% from its observed high of $22.58. The catalyst report contains no news explaining or supporting this move directly, though an upcoming dividend of $0.12 ex-date is scheduled for 2026-11-24 (6 calendar days after the session). Price remains 3.92% above its 20-day moving average with 3 consecutive observations over 60 minutes. The tape-only case reflects high volume interest on a dip, though lack of specific news capping confidence. BEAR: PRMB is experiencing a severe intraday sell-off of -7.36% with measurable tape deterioration during the session, including negative returns since first seen and zero positive intervals across observed snapshots. The volume rate has stalled significantly to 0.13x normal per 30m with a falling rate change of -0.0958, proving that participation is drying up while the stock is down. Furthermore, recent headlines from November 15-16 provide no positive catalyst to reverse this momentum, with the broader sector showing weakness as seen in PepsiCo's 6-month drop headline on November 16. Buying this falling knife creates an immediate chasing hazard into exhausted and deteriorating intraday momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GLBE",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: Global-e reported strong Q3 2026 results on 2026-11-18, confirming solid GMV, revenue, and profit growth alongside an upgraded full-year outlook, which creates a fundamental dislocation despite the day's 7.64% pullback. The tape shows robust institutional participation with a relative volume of 1.79x normal and consecutive observations confirming buyers stepping in at the lows. Specifically, the stock demonstrates solid intraday resilience with 3 consecutive scans, a positive return since first seen of 1.0998%, and zero drawdown from its observed high of $36.77. This combination of an oversold dip on heavy volume following fundamentally upbeat earnings provides an attractive entry for a mean-reversion bounce. BEAR: GLBE is down 7.64% on the session despite reporting Q3 earnings and raising full-year outlook on November 18, 2026, indicating that the positive headlines are already fully digested or viewed as insufficient by the market. The stock sits 12.47% below its 20-day moving average while trading at a relative volume of 1.79x, reflecting heavy liquidation rather than a constructive dip. Furthermore, a relative volume rate per 30m of just 0.184 with a 13.12% drop in volume pace confirms that participation is drying up while the price remains depressed near the day's lows.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RMIX",
+      "signal": "hold",
+      "confidence": 0.485,
+      "take_profit_pct": 7.92,
+      "stop_loss_pct": 3.3,
+      "reasoning": "net -0.03 = bull 0.65 - bear 0.68 (buy at >= +0.20). BULL: RMIX is showing robust intraday momentum, surging +23.80% on the session to reach $7.49 with 3 consecutive observations confirming persistent buying interest and zero drawdown from its observed high. The price action demonstrates strong continuation, supported by a rank improvement of 3 spots to rank 8 and positive interval returns of 7.32% since first seen 60 minutes ago. While recent news includes Baird maintaining an Outperform rating with a $9 price target on November 16, the tape itself provides the primary immediate confirmation through consistent score gains and positive price acceleration. With significant headroom remaining to retest higher analyst targets, the current structural persistence offers a compelling tactical window for a short-term long position. BEAR: RMIX is trading up +23.80% on the session despite light overall volume at just 0.72x normal, demonstrating clear volume non-confirmation. Intra-session metrics show momentum fading as the relative volume rate per 30 minutes dropped by -0.0507 alongside negative price acceleration of -0.7171 percentage points. Furthermore, there is no fresh catalyst today; recent news is stale, including a SeekingAlpha report from 1 day ago questioning profitability ('Pouring On Growth Without Cementing Profitability'). Buying into a decelerating price move on below-average volume exposes short-term holders to high mean-reversion risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MDLN",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 1.56,
+      "stop_loss_pct": 0.94,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: Medline Inc. demonstrates solid intraday persistence, trading up 2.69% at $38.70 with volume at 2.17x normal and sitting 5.38% above its 20-day moving average. The tape shows three consecutive scans over 60 minutes with positive price development, achieving a return since first seen of 0.3761% and 0.0% drawdown from the observed high of $38.695. The catalyst report reflects active secondary offering pricing headlines on 2026-11-18, including a prospectus for 60M shares and a $200M stock repurchase at an assumed price of $39.47 per share, providing an underlying benchmark close to current levels. This combination of robust volume, sustained intraday momentum, and active corporate share transactions supports further near-term upside. BEAR: MDLN is exhibiting clear signs of chasing as the secondary offering news creates a structural ceiling, with the company repurchasing shares at $39.47 and a fresh announcement of secondary pricing today acting as a catalyst for exit liquidity rather than growth. The stock's momentum is showing early signs of deterioration, evidenced by a negative rank improvement and a declining score change over the last 60 minutes of observation. Furthermore, the relative volume rate is dropping (-0.0587), confirming that price gains are increasingly disconnected from fresh participation, and the company is simultaneously grappling with significant negative reputational risk from a hospital bed recall involving 7 deaths. Buying now involves stepping into a secondary offering overhang while the tape signals a loss of steam.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PONY",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.15 = bull 0.70 - bear 0.85 (buy at >= +0.20). BULL: Pony AI reported strong Q3 2026 financial results on 2026-11-18, featuring a revenue beat of $44.574M versus $39.119M estimates and total revenues up 75.2% YoY alongside a 165.4% YoY surge in Robotaxi services revenues. Despite wider-than-expected losses, adjusted EPS beat expectations at $(0.11) versus $(0.18), prompting heavy pre-market interest and relative volume running at 1.56x normal. The current session shows rank improvement from 13 to 10 with a positive score change of 1.191, providing a solid catalyst-backed dip-buying opportunity after an initial pullback. BEAR: PONY is reporting its Q3 earnings on the exact same session date (2026-11-18) alongside headlines about a wider-than-expected loss despite revenue beats, making any entry a direct binary bet on earnings digestion rather than a clean technical trade. The same-session momentum history already exhibits measurable deterioration, with a negative return of -2.17% since first seen 30 minutes ago, a drawdown of -2.1739% from its observed high of $3.91, and a low relative volume rate of 0.18 per 30 minutes confirming that participation is fading rapidly after the pre-market gap. Furthermore, the stock sits 18.89% below its 20-day moving average and is down 4.14% on the day, indicating that the initial pre-market excitement reported by Benzinga and Yahoo is encountering heavy selling pressure as the session progresses. Buying into this intraday weakness with active earnings digestion underway exposes the trader to sudden volatility and a sharp reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZIM",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 3.71,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net +0.20 = bull 0.85 - bear 0.65 (buy at >= +0.20). BULL: ZIM is supported by a powerful same-session earnings catalyst on 2026-11-18, highlighted by headlines confirming that Q3 2026 earnings beat revenue and EPS estimates alongside industry-leading profitability. Market participation is robust with relative volume running at 1.77x normal levels and the price trading 4.46% above its 20-day moving average at $30.22. Furthermore, the momentum history shows 3 consecutive observations over 60 minutes with a tight drawdown of only -0.1652% from the observed high of $30.27, demonstrating sustained buying pressure and immediate confirmation. BEAR: ZIM released its Q3 2026 earnings before the market opened on 2026-11-18, beating revenue and EPS estimates with headlines such as 'ZIM Reports Industry Leading Third Quarter 2026 Profitability'. However, buying immediately after this fresh catalyst carries classic 'news already priced' vulnerability, compounded by early intraday fading where the stock has slipped from its observed high of $30.27 down to $30.22 with a rank worsening from 10 to 11. Furthermore, relative volume participation is cooling down with a rel_volume_rate_change of -0.0827, signaling that the initial earnings-driven enthusiasm is stalling. Entering a long position here risks buying the exact peak of the headline reaction as momentum wanes.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SMX",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: SMX presents a speculative mean-reversion setup following a steep 15.27% daily drop and a deep discount of -49.85% relative to its 20-day moving average. Fresh catalysts from 1 calendar day before the session include multiple major corporate announcements targeting industrial AI breakthroughs, specialized AI for American manufacturing, and the introduction of trueGold for gold authentication and traceability. Although relative volume is currently thin at 0.14x, the short-term session history shows a minor rank improvement from 15 to 12 with a score change of +1.4026 across two observations. Given the heavy oversold conditions and fresh technology headlines, a rebound is possible for a short-term tactical trade. BEAR: Buying SMX today means catching a knife on a -15.27% day session collapse where price is already sitting 49.85% below its 20-day moving average. The tape displays severe volume non-confirmation, with relative volume languishing at an anemic 0.14x normal and a per-30-minute volume rate of just 0.025. Furthermore, the 2026-11-17 headlines regarding AI platforms and trueGold traceability are a day old and completely failed to generate buying interest, leaving the stock in a verified drawdown of 3.91% from its observed high over its last 30 minutes of history.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AAOI",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Applied Optoelectronics is experiencing a sharp sell-off down 12.16% on the session to $39.72 amidst fresh same-session news headlines on 2026-11-18 regarding a $550M ATM offering following a $600M raise, which creates potential exhaustion capitulation. Despite the heavy day change and a price sitting -35.12% from its 20-day moving average, the tape shows early signs of stabilization with 3 consecutive observations, a positive return since the previous scan of 0.761%, and a limited observed high drawdown of 1.9501%. Price acceleration of 3.4517 percentage points indicates that selling pressure is decelerating, offering an oversold bounce opportunity for a short-term trade. Nothing in the fundamental catalyst report directly validates a permanent impairment beyond the dilution overhang already being priced in by the aggressive flush. BEAR: AAOI is experiencing severe fundamental pressure, sliding 12.16% on 2026-11-18 following fresh headlines regarding a massive $550M ATM offering coming just weeks after a $600M raise, heavily diluting shareholders. The technical backdrop confirms aggressive selling with the stock sitting 35.12% below its 20-day moving average and showing measurable same-session deterioration, including a rank drop to 13 and a negative return of -1.95% from its observed high. With relative volume running well below normal at 0.87x and a weak volume rate of 0.103 per 30 minutes, buyers lack the participation needed to absorb the ongoing equity dilution. Buying into this sharp downward momentum creates extreme risk of catching a falling knife.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BLSH",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 6.38,
+      "stop_loss_pct": 3.38,
+      "reasoning": "net +0.20 = bull 0.70 - bear 0.50 (buy at >= +0.20). BULL: BLSH is surging +9.47% today on the back of a strong Q3 2026 earnings beat where adjusted EPS of $0.12 beat the $0.09 estimate and sales of $84.400M topped expectations, sparking a relief rally driven by the announcement of a $300M buyback. Although the stock is currently sitting 13.66% below its 20-day moving average, this fundamental catalyst provides substantial room to run as momentum catches up to the fresh earnings beat released on 2026-11-18. The immediate price action shows zero drawdown from the observed high at $21.095, confirming that buyers are aggressively supporting the breakout session. BEAR: BLSH is attempting to trade a relief rally following its Q3 2026 earnings beat and $300M buyback announced on the same trading-session date of 2026-11-18, leaving the core fundamental catalyst completely public and already fully digested by the tape. Despite the +9.47% day change, the relative volume sits at a meager 1.01x normal, signaling that participation is entirely failing to confirm the upside price expansion. Furthermore, the stock remains 13.66% below its 20-day moving average while single-snapshot momentum indicators show zero interval development and a provisional insufficient_history setup. Buying here means entering an unconfirmed, headline-driven pop right as the primary relief news is already priced in.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TTWO",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Take-Two Interactive is surging on 2026-11-18 with an 8.31% daily gain and 1.43x relative volume as the global rollout of GTA VI kicks off in New Zealand with preorders topping $1.5B. Multiple headlines from 2026-11-18 highlight that GTA 6 has drawn over 2.4 million Twitch viewers and early posts indicate rave reviews, positioning it as potentially the biggest entertainment launch in history. With the stock trading at $220.89 (+6.17% above its 20-day MA) and supported by heavy volume confirmation, momentum is exceptionally strong for continued multi-day continuation. BEAR: Take-Two is surging +8.31% to $220.89 on November 18, 2026, driven by intense same-session headlines regarding the blockbuster launch and rave reviews of GTA 6, including preorders topping $1.5B. However, buying right now means entering at a 6.17% extension above the 20-day moving average on news that is fully public and actively driving the morning tape. With relative volume at 1.43x normal but the session history providing only a single initial snapshot at 11:17 with an insufficient history setup, new buyers risk acting as immediate exit liquidity for pre-market participants. Chasing an 8% gap-up into a major headline event creates an exceptionally poor risk-reward entry for a short-term hold.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 2.4e+06 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CLRO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "JMIA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ARDT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BRBR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SLS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PRMB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GLBE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "RMIX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MDLN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PONY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ZIM",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 1.50% (bid $29.76, ask $30.21); 1% max"
+    },
+    {
+      "symbol": "SMX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AAOI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BLSH",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 4.97% (bid $20.02, ask $21.04); 1% max"
+    },
+    {
+      "symbol": "TTWO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
