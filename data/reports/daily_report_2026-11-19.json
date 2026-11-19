@@ -1,0 +1,1218 @@
+{
+  "date": "2026-11-19",
+  "events": [
+    {
+      "at_et": "2026-11-19T07:46:30-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-19T08:53:17-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-11-19T09:31:35-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BABA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBWI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PANW",
+            "reason": "bid/ask spread too wide: 7.03% (bid $344.87, ask $370.00); 1% max"
+          },
+          {
+            "symbol": "PDD",
+            "reason": "bid/ask spread too wide: 2.02% (bid $82.75, ask $84.44); 1% max"
+          },
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TTWO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UMAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WMT",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T10:37:27-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1016.json",
+        "shortlist": [
+          "SA",
+          "SLS",
+          "PDD",
+          "CUE",
+          "SNEX",
+          "INSM",
+          "PS",
+          "DXYZ",
+          "RERE",
+          "NTES",
+          "NUAI",
+          "FUTU",
+          "TU",
+          "UGI",
+          "BABA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PDD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RERE",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "NTES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FUTU",
+            "reason": "bid/ask spread too wide: 5.95% (bid $83.50, ask $88.62); 1% max"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BABA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T11:20:52-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1046.json",
+        "shortlist": [
+          "SA",
+          "INSM",
+          "SLS",
+          "PDD",
+          "SNEX",
+          "PS",
+          "SVRA",
+          "CUE",
+          "RERE",
+          "TU",
+          "NUAI",
+          "VVV",
+          "NTES",
+          "BRBR",
+          "DXYZ"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PDD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RERE",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTES",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T12:12:40-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1146.json",
+        "shortlist": [
+          "SA",
+          "MFC",
+          "INSM",
+          "SLS",
+          "SNEX",
+          "CUE",
+          "PDD",
+          "PS",
+          "BRBR",
+          "SVRA",
+          "VVV",
+          "NUAI",
+          "WSM",
+          "CLRO",
+          "RERE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PDD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RERE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T12:30:06-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1216.json",
+        "shortlist": [
+          "SA",
+          "MFC",
+          "SNEX",
+          "INSM",
+          "SLS",
+          "PDD",
+          "CUE",
+          "PS",
+          "BRBR",
+          "VVV",
+          "SVRA",
+          "TU",
+          "DXYZ",
+          "BTDR",
+          "CLRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PDD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T12:58:56-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1246.json",
+        "shortlist": [
+          "SA",
+          "MFC",
+          "SNEX",
+          "INSM",
+          "SLS",
+          "PDD",
+          "PS",
+          "CUE",
+          "BRBR",
+          "DXYZ",
+          "WSM",
+          "TU",
+          "BTDR",
+          "SVRA",
+          "VVV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "PDD",
+            "action": "submitted",
+            "order": {
+              "symbol": "PDD",
+              "qty": 2,
+              "est_cost": 173.36,
+              "entry_ref": 86.68,
+              "take_profit": 89.93,
+              "remaining_take_profit_pct": 3.75,
+              "stop_loss": 84.42,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261119-125855-PDD",
+              "analysis_price": 86.775,
+              "live_price_change_pct": -0.11
+            },
+            "broker": {
+              "id": "ef9257d7-b62b-4f24-a5a5-393f9d2cff70",
+              "client_order_id": "ta-20261119-125855-PDD",
+              "symbol": "PDD",
+              "qty": "2",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 89.93,
+              "stop_loss": 84.42,
+              "legs": [
+                "eaeaf54b-12db-4428-922a-2ad95d3ceec3",
+                "67ae80d8-9655-482d-851e-fae7da8f3fdf"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T13:28:28-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1316.json",
+        "shortlist": [
+          "SA",
+          "MFC",
+          "SNEX",
+          "INSM",
+          "SLS",
+          "CUE",
+          "PS",
+          "BRBR",
+          "WSM",
+          "SVRA",
+          "DXYZ",
+          "BTDR",
+          "TU",
+          "VVV",
+          "CLRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T13:51:41-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1346.json",
+        "shortlist": [
+          "SA",
+          "MFC",
+          "SNEX",
+          "INSM",
+          "SLS",
+          "PS",
+          "CUE",
+          "BRBR",
+          "SVRA",
+          "WSM",
+          "DXYZ",
+          "BTDR",
+          "TU",
+          "VVV",
+          "UGI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T14:22:07-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1416.json",
+        "shortlist": [
+          "SA",
+          "SNEX",
+          "MFC",
+          "INSM",
+          "SLS",
+          "SVRA",
+          "PS",
+          "CUE",
+          "BRBR",
+          "WSM",
+          "DXYZ",
+          "TU",
+          "BTDR",
+          "CLRO",
+          "VVV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "SVRA",
+            "action": "submitted",
+            "order": {
+              "symbol": "SVRA",
+              "qty": 37,
+              "est_cost": 196.47,
+              "entry_ref": 5.31,
+              "take_profit": 5.72,
+              "remaining_take_profit_pct": 7.72,
+              "stop_loss": 5.13,
+              "confidence": 0.675,
+              "client_order_id": "ta-20261119-142206-SVRA",
+              "analysis_price": 5.2487,
+              "live_price_change_pct": 1.17
+            },
+            "broker": {
+              "id": "725867af-5727-43cd-92c4-3c718465fe0d",
+              "client_order_id": "ta-20261119-142206-SVRA",
+              "symbol": "SVRA",
+              "qty": "37",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 5.72,
+              "stop_loss": 5.13,
+              "legs": [
+                "f003de0b-7092-4976-b31f-9d6a8a4f6895",
+                "d9da3c16-8be1-468b-a8f8-e7e2bba250cf"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T14:51:29-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1446.json",
+        "shortlist": [
+          "SA",
+          "SNEX",
+          "MFC",
+          "INSM",
+          "SLS",
+          "PS",
+          "WSM",
+          "BRBR",
+          "CUE",
+          "TU",
+          "DXYZ",
+          "UGI",
+          "BTDR",
+          "CLRO",
+          "VVV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CLRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T15:22:16-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1516.json",
+        "shortlist": [
+          "SA",
+          "SNEX",
+          "INSM",
+          "MFC",
+          "SLS",
+          "PS",
+          "WSM",
+          "BRBR",
+          "CUE",
+          "DXYZ",
+          "TU",
+          "UTZ",
+          "VVV",
+          "UGI",
+          "BTDR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T15:51:33-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-19/shortlist_1546.json",
+        "shortlist": [
+          "SA",
+          "SNEX",
+          "INSM",
+          "MFC",
+          "UTZ",
+          "WSM",
+          "SVRA",
+          "SLS",
+          "PS",
+          "TU",
+          "BRBR",
+          "NUAI",
+          "DXYZ",
+          "VVV",
+          "UGI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNEX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MFC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UTZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BRBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DXYZ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VVV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UGI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-19T15:51:33-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 11,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

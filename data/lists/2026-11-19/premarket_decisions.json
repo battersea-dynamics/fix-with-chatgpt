@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-11-19T08:53:17-05:00",
+  "decisions": [
+    {
+      "symbol": "BABA",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: BABA is printing a pre-market volume of over 3.3 million shares, which is 5.78x its baseline average, driven by the mixed earnings reaction and the specific 2026-11-19 headline showing Alibaba AI Cloud revenue surging 53%. Although the candle structure reads bearish with an exhaustion pattern and a -1.43% gap down to $83.17, the heavy institutional volume indicates intense digestion of the earnings miss versus the underlying cloud growth. Buying at the open banks on buyers stepping in to defend the massive 53% AI cloud surge once the initial headline-driven EPS miss panic is absorbed. The heavy transactional footprint provides a foundation for a mean-reversion bounce as the market prices in the structural AI growth over the headline EPS noise. BEAR: Buying BABA at the open means stepping in front of a confirmed exhaustion structure on the daily candle read combined with a mixed November 19 earnings report where an EPS miss outweighed the 53% AI cloud surge. With pre-market volume sitting at over 3.3 million shares driving the price down to $83.17, the gap-down reaction is already well-advertised rather than a hidden surprise. The opening-auction reversal risk is high as real liquidity steps in to punish the bottom-line miss, rendering the pre-market tape exit liquidity for late shorts or a trap for premature dip-buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBWI",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: Bath & Body Works reported Q3 earnings and revenue beats on November 19, 2026, alongside a raised full-year sales outlook, creating a fundamental catalyst that contrasts sharply with the pre-market's negative 2.14% gap and 345,716-share volume (167.14x baseline). Despite the candle agent flagging an exhaustion pattern and bearish bias at a conviction of 0.7, this massive volume surge indicates heavy institutional digestion of the earnings beat. If the opening print can absorb initial selling pressure and hold above the pre-market low of $18.26, the strong underlying fundamental news provides a solid foundation for a mean-reversion bounce. The extreme volume relative to the baseline demonstrates true market participation rather than a dead-tape fakeout, offering a speculative long opportunity for a fade of the morning gap-down. BEAR: Despite reporting Q3 earnings and revenue beats alongside a raised full-year sales outlook in the November 19 headlines, BBWI is trading down 2.14% to $18.26 in the pre-market. This classic 'sell the news' reaction means the positive catalyst is already priced in, leaving the opening bell as exit liquidity. Furthermore, the candle agent classifies the structure as an exhaustion pattern with a bearish bias, signaling that the move is finished. With heavy pre-market volume of 345,716 shares failing to hold the $18.66 close, the gap fade failure mode is fully active.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DXYZ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: The pre-market volume for DXYZ has surged to 221,292 shares, representing a robust 6.09x multiple over its baseline average, indicating genuine participation following the Third Quarter 2026 Results reported on November 16. Although the stock is experiencing a pre-market gap-down of -1.74% and a bearish conviction reading of 0.85 from the candle structure, this heavy liquidity provides an ideal fade-reversal setup for a long position at the open. Buyers stepping in to absorb this morning pressure can capitalize on post-earnings stabilization. Therefore, a tactical long entry is supported by the sheer weight of the volume profile. BEAR: The pre-market move is down 1.74% on 221,292 shares, driven by the hangover from the November 16 third-quarter results and the November 17 Closed-End Fund Roundup. Because the gap has stopped building before the open, the market has already digested these reports, leaving the opening print as pure exit liquidity rather than a fresh directional start. Furthermore, the 0.85 conviction bearish continuation pattern warns that real opening liquidity at 9:30 will likely accelerate the downside momentum rather than reverse it.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NTES",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.5,
+      "reasoning": "net -0.25 = bull 0.25 - bear 0.50 (buy at >= +0.20). BULL: NetEase gapped down 5.40% following the 2026-11-19 headline 'NetEase (NASDAQ:NTES) Q3 Results Miss Revenue and EPS Estimates'. Despite the bearish headline and candle structure pointing to a gap down continuation, the pre-market volume of 91,364 shares represents 7.69x the baseline average, indicating significant liquidity absorption. A long position here relies on an oversold exhaustion bounce as sellers capitulate at the open and value buyers step in following the Q3 earnings release. However, given the strong bearish conviction from the candle structure and clear negative catalyst, the bull case is speculative at best. BEAR: NetEase is gapping down 5.40% to $112.04 following the ChartMill headline on 2026-11-19 reporting that Q3 results missed revenue and EPS estimates. While the fundamental disappointment is real, the pre-market volume of 91,364 shares represents a thin tape relative to the severity of the drop, creating an opening-auction reversal risk when heavier cash liquidity hits at 9:30. Furthermore, the 0.85 conviction gap-down continuation pattern indicates that the downward momentum is already well-extended and close to its exhaustion structure. Buying the open here risks stepping in front of a gap that may see an immediate absorption bounce as the initial miss is fully priced in.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PANW",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.20 = bull 0.90 - bear 0.70 (buy at >= +0.20). BULL: PANW is gapping up +9.21% to $371.22 on heavy, sustained pre-market volume of 316,599 shares, representing 4.56x its baseline average. This massive volume footprint is fully justified by the 2026-11-19 headline Cybersecurity Stocks Rally On Palo Alto Earnings Beat, Raised Guidance. The candle structure agent reads this setup as a bullish continuation with a high conviction rating of 0.9. With institutional buying clearly supporting the earnings beat and raised guidance, the gap is expected to hold and drive further upside at the open. BEAR: PANW is gapping +9.21% to $371.22 on 316,599 shares of pre-market volume driven by the November 19, 2026 Yahoo headline 'Cybersecurity Stocks Rally On Palo Alto Earnings Beat, Raised Guidance'. However, with the stock having shed 10% of its value over the prior 3 months, this earnings beat and raised guidance headline is effectively acting as the final exhaustion release of buying energy, leaving the open vulnerable to a classic gap fade. Pre-market volume of 4.56x baseline is modest for a mega-cap name experiencing a major earnings catalyst, signaling thin-tape pricing where institutional liquidity arriving at 9:30 will likely overwhelm the current bid and use the open as immediate exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PDD",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.20 = bull 0.90 - bear 0.70 (buy at >= +0.20). BULL: PDD is displaying a textbook genuine gap supported by extraordinary volume and concrete fundamental catalysts. Specifically, the headline from 2026-11-19 stating that PDD Holdings shares jump as quarterly earnings top forecasts provides the fundamental fuel, backed by over 1.58 million pre-market shares traded\u2014a massive 20.59x multiple over the baseline average. The candle structure confirms a bullish reversal pattern with a solid 0.7 conviction score, indicating that buyers are aggressively absorbing supply rather than fading. With the price holding firmly at $82.20 against yesterday's $77.45 close, the footprint shows sustained institutional sponsorship that strongly favors continuation past the open. BEAR: PDD is displaying a classic already-priced-in failure mode on its +6.13% pre-market gap to $82.20, driven by today's 'PDD Holdings shares jump as quarterly earnings top forecasts' headline. Despite 1.58M shares trading, the price has stalled right at this level without continuing to build momentum into the bell, signaling that the earnings reaction is fully absorbed. Furthermore, the candle agent's reversal structure read at 0.7 conviction combined with the massive liquidity injection from the opening bell routinely overrules thin pre-market tape, making this gap an ideal exit liquidity trap for late buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SA",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: Seabridge Gold is experiencing a significant downward gap of -9.51% to $23.12 accompanied by heavy pre-market volume of 88,545 shares, which is 20.75 times its baseline average. No recent news headlines from the past 7 days explain this aggressive sell-off, as the latest releases were the Q3 report and EPS beat on November 12-13. Despite the bearish candle structure read and reversal pattern conviction of 0.85, the extreme volume spike suggests potential capitulation or institutional repositioning that could offer a mean-reversion bounce at the open. However, because the move lacks a fresh fundamental catalyst and directly fights the bearish footprint, confidence in a sustained continuation is weak. We are looking strictly for a sharp oversold bounce off the opening print. BEAR: Seabridge Gold is gapping down 9.51% to $23.12 on 88,545 shares of pre-market volume, yet the only available news is an outdated Q3 EPS beat from November 13th that completely fails to explain today's sharp sell-off. Because there is zero fresh fundamental catalyst in the recent headlines, this gap relies entirely on a thin-tape pre-market print that is vulnerable to an opening-auction reversal when true institutional liquidity hits the tape at 9:30. Furthermore, the candle agent flags an exhaustion structure with an 0.85 bearish conviction on a reversal pattern, signaling that the downward move has already spent its momentum and any attempt to chase the open lower risks an immediate snap-back fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SKYA",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: Despite a slight negative gap of 1.94% to $4.05, SKYA is printing massive pre-market volume of 186,574 shares, which is 42.98x its baseline average. This elevated activity is backed by the November 13 headline regarding SkyAI's expected purchase of 47M shares at $3/share totaling $209M. The candle agent identifies a bullish continuation structure with a conviction of 0.7, indicating underlying accumulation despite the minor price dip. Buying at the open captures this heavy residual interest as buyers step in to absorb shares following the recent corporate developments. BEAR: Buying SKYA at today's open invites an immediate gap fade and opening-auction reversal, as the pre-market data reveals a negative 1.94% gap down to $4.05 despite a 42.98x volume surge (186,574 shares). The primary headline from November 13 regarding SkyAI's planned 47M share purchase at $3/share is not only stale by nearly a week, but the $3 pricing sits well below the current $4.05 pre-market print, establishing a heavy gravitational pull toward that offering price as real opening liquidity arrives. Furthermore, despite the candle agent's bullish continuation bias, the negative price action and inability to hold yesterday's $4.13 close mean the reaction to any remaining news is exhausted, turning the open into clear exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SLS",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: SELLAS Life Sciences announced the pricing of a massive $150.0 Million Underwritten Public Offering on 2026-11-19, driving a dramatic overnight gap-down of -19.87% as retail bulls cry foul over the discounted share price. Despite the bearish exhaustion pattern and 0.9 conviction read from the candle structure, the pre-market volume of 5,686,240 shares (nearly 16x baseline) demonstrates massive liquidity and institutional clearing of the offering. This extreme capitulation volume often flushes weak hands completely, creating a classic oversold bounce setup once the dilution is fully absorbed at the open. BEAR: SLS is down -19.87% pre-market to $14.38 on massive volume of 5.68 million shares, driven by the Nov 19 headline 'SELLAS Life Sciences Announces Pricing of $150.0 Million Underwritten Public Offering' and subsequent retail backlash over the 'crazy low price'. This is a textbook dilution event where the massive pre-market volume represents trapped longs and forced liquidations into a heavily discounted offering rather than accumulation. The candle agent flags an exhaustion structure with a 0.9 conviction bias, confirming that buying this gap-down at the open makes you immediate exit liquidity for institutional dilution sellers. The move is already fully priced in by the overnight reset, leaving no durable catalyst for a recovery.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 1.5e+08 - no matching value in source data",
+        "bear: cited 1.5e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "TTWO",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: Take-Two is gapping down 2.59% to $211.00 on massive volume of 422,262 shares, which is 4.75x its baseline average, driven directly by the major catalyst headline from Yahoo on 2026-11-19: Rockstar Games Announces Grand Theft Auto VI Now Available alongside related discourse on its digital-only release model. Despite a bearish candle conviction of 0.85 signaling an initial reversal structure, this exceptional volume signature indicates heavy institutional absorption of the news rather than a dead tape fade. Buying the open here plays a mean-reversion bounce as the market digests the monumental revenue implications of the GTA VI launch over the coming sessions. The risk profile accounts for high opening volatility following a blockbuster product release. BEAR: TTWO is gapping down 2.59% to $211.00 on 422,262 shares of volume, coinciding with the massive 2026-11-19 headlines that 'Grand Theft Auto VI Now Available' and the 13-year wait has concluded. This classic 'sell the news' event matches an exhaustion structure with a 0.85 conviction bearish reversal candle pattern. Despite 4.75x baseline volume, the market is aggressively dumping the primary catalyst event, indicating the monumental launch was entirely priced in during the run-up to yesterday's $216.61 close. Buying the open here provides immediate exit liquidity to institutional holders executing a classic buy-the-rumor, sell-the-news gap fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "UMAC",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: UMAC prints a notable pre-market gap of +9.78% to $10.55 on 121,958 shares, representing 3.41x its baseline average volume, which confirms genuine participation rather than a thin dead-tape print. Reviewing the recent news, no specific company-level catalyst is reported for today; instead, the stock appears to be bouncing off recent sector-wide weakness highlighted in headlines like the November 18 report noting prior slides alongside Red Cat and AeroVironment. The candle agent identifies a bullish reversal structure with a 0.7 conviction score, supporting the thesis that sellers are exhausted and buyers are stepping in to reclaim lost ground. While lacking a unique standalone headline today, the combination of elevated relative volume, a holding gap, and a clear reversal setup provides a viable long entry for a momentum continuation play. BEAR: UMAC enters today's session up 9.78% at $10.55 on a modest 121,958 shares, but this bounce completely contradicts the prevailing news tape where Yahoo headlines on November 18 explicitly reported that Unusual Machines slides alongside sector-wide weakness in drone stocks. The November 18 headline '5 Best Drone Stocks to Buy According to Wall Street Analysts' is generic listicle filler that provides no company-specific operational catalyst to justify a sustainable gap higher following days of consecutive losses. This is a textbook gap fade driven by thin-tape pricing on 3.41x baseline volume where opening-auction liquidity will quickly overwhelm the fragile pre-market markup. Buying the open here offers exit liquidity to sellers trapped by the recent sector drawdown before the stock resumes its downward trajectory.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WMT",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 1.62,
+      "stop_loss_pct": 0.98,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: Walmart printed a massive 20.10x pre-market volume multiple alongside a -1.13% gap down, despite reporting strong Fiscal Q3 earnings with 5.2% revenue growth and raising its annual outlook for the third time on November 19, 2026. While the candle structure reads bearish with an exhaustion bias, this extreme volume signature on the earnings headline indicates heavy institutional absorption of the gap down rather than dead-tape fading. Buying the open attempts to catch the snap-back as the market digests an upwardly revised full-year outlook and realizes the morning dip is an overreaction. Confidence is lower due to the explicit bearish structure and negative gap, making this a mean-reversion tactical play. BEAR: Buying WMT at today's open ignores an exhaustion structure candle read and a classic gap fade failure mode, where despite raising its full-year outlook for the 3rd time in the Fiscal Q3 Earnings Snapshot on November 19, the stock is currently pre-market lower at $125.92 down -1.13%. The heavy pre-market volume of over 2.34 million shares combined with a negative price reaction to an earnings beat indicates that the positive catalyst is already priced in, making the open pure exit liquidity. Since the candle structure confirms exhaustion and the reaction to the earnings headline is down, real opening liquidity at 9:30 is primed to sell further into this weak tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

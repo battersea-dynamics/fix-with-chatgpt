@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-11-19T12:58:56-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "SA",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Seabridge Gold (SA) has experienced an extreme intraday sell-off of -28.73% to $18.21, driven by the fresh November 19, 2026 headline regarding the B.C. Supreme Court confirming Seabridge's KSM Substantial Start Determination quashed and requiring deep consultation. Despite this sharp headline-driven flush, heavy liquidation volume of 5.98x normal participation has created a potential capitulation setup. Furthermore, the stock shows brief stabilization with 5 consecutive scan observations, a return of +0.66% since the previous period, and positive price acceleration of +2.58% points, indicating aggressive short-term dip-buying interest after testing an observed high of $19.24. This oversold condition offers a high-beta bounce opportunity for a multi-hour to multi-day mean reversion. BEAR: Seabridge Gold (SA) is suffering a devastating -28.73% collapse on 5.98x normal volume during the 2026-11-19 session due to a fresh, same-session headline reporting that the B.C. Supreme Court confirmed Seabridge's KSM Substantial Start Determination was quashed and mandates deep consultation with the Tsetsaut Skii km Lax Ha Nation. This fresh legal and regulatory setback strikes directly at the core of the company's flagship asset, proving the massive selloff is fundamentally driven rather than a mere technical dip. Furthermore, same-session momentum shows a 5.35% drawdown from its observed high with a slowing relative volume rate of 0.331 per 30 minutes, confirming aggressive institutional liquidation and a lack of dip-buyer support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MFC",
+      "signal": "buy",
+      "confidence": 0.625,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.12,
+      "reasoning": "net +0.25 = bull 0.75 - bear 0.50 (buy at >= +0.20). BULL: Manulife Financial is showing exceptional relative volume at 6.58x normal alongside an immediate same-session catalyst of launching its new Longevity Learning Program on November 19, 2026. The tape displays persistence with 3 consecutive observations and a bounce showing a return of 0.808 percent since the previous scan while maintaining a tight drawdown of only 0.4225 percent from its observed high of $42.60. Furthermore, an upcoming ex-dividend date on November 20, 2026 for a rate of $0.254325 provides a near-term holding incentive that can attract income-focused buyers into the close. BEAR: Buying MFC today carries distinct mechanical and participation risks that undermine a short-term holding window. With an ex-dividend date on 2026-11-20 (just 1 calendar day after the session), a mechanical price drop is imminent and can easily trigger tight stops. Furthermore, same-session volume momentum is actively deteriorating, evidenced by a relative volume rate per 30m of 0.0446 with a rate change of -0.0243, while the stock sits at a drawdown of -0.4225% from its observed high. Compounding this, fresh same-session headlines regarding a $750 million debt issue provide fundamental headwinds that weigh against any sustained upside breakout.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 7.5e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SNEX",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: StoneX Group Inc. experienced an extreme oversold reaction down 26.22% following its November 18 fourth-quarter earnings report, creating a classic capitulation entry at $39.72. While the news reflects a fourth quarter earnings miss with EPS down slightly year-over-year to $0.66 alongside revenue growing to $1.461B, the magnitude of the sell-off leaves the stock drastically detached from its normal levels at 28.82% below its 20-day moving average. Heavy participation is confirmed by a massive 2.72x relative volume surge, supported by 5 consecutive intraday observations showing aggressive buying attempts with a price acceleration of +7.3151 percentage points. This extreme dislocation offers a high-reward mean-reversion bounce opportunity for nimble traders willing to fade the initial emotional overreaction. BEAR: StoneX Group is experiencing a brutal, confirmed selloff following its fiscal 2026 fourth quarter earnings miss reported on 2026-11-18, where EPS dropped YoY from $0.70 to $0.66. The session tape shows severe deterioration with a 26.22% day change and a 5.89% drawdown from its observed session high, alongside weakening participation as the relative volume rate per 30 minutes dropped to 0.3794. Buying this deep blood on a fresh earnings miss with fading volume pace makes catching a falling knife an extreme hazard.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INSM",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: Insmed is backed by a major fundamental catalyst from just two calendar days before the session on 2026-11-17, reporting that BRINSUPRI is projected to reach $7 billion in peak sales alongside expectations for a cash-flow positive year ahead. On the session tape, INSM exhibits powerful momentum with a +18.74% day change, trading at $142.25 on heavy volume of 2.65x normal and maintaining persistence across 5 consecutive scans over 150 minutes. Although it sits in an exhausted_or_reversing setup label with a minor -3.641% drawdown from its observed high of $147.625, it holds a positive price acceleration of 2.3212 percentage points and positive score change, confirming underlying buyer demand. This combination of blockbuster pipeline projections and aggressive volume expansion provides a strong structural foundation for continued upside. BEAR: INSM is exhibiting clear chasing vulnerabilities following its 2-day-old Yahoo headline from 2026-11-17 about BRINSUPRI reaching $7 billion in peak sales, with the stock now trading +29.03% above its 20-day MA at $142.25 on a 2.65x relative volume surge. The same-session momentum history confirms measurable deterioration, showing a 3.641% drawdown from its observed high of $147.625 and a slowing relative volume rate of 0.1003 per 30 minutes with a negative rate change of -0.0239. Buying at this juncture means entering an overextended tape where the primary fundamental catalyst is already fully absorbed by the market.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 7e+09 - no matching value in source data",
+        "bear: cited 7e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "SLS",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: SLS is capturing active market attention on November 19, 2026, being highlighted in multiple same-session reports including Yahoo and Benzinga alongside major market movements ahead of Anthropic's debut. Despite an 18.38% pullback on the session to $14.65, the stock maintains strong relative volume of 1.77x normal and remains significantly elevated at +42.71% above its 20-day moving average. The tape shows 5 consecutive observations over 150 minutes with positive price acceleration of +0.538 percentage points, indicating underlying momentum attempting to stabilize after morning weakness. With ongoing high-profile media focus and robust relative volume backing the name today, a tactical bounce from current levels offers a compelling near-term trading window. BEAR: SLS is currently exhibiting clear signs of exhaustion with a -18.38% day change and a price that remains significantly overextended at 42.71% above its 20-day MA. The momentum data confirms a worsening trend, characterized by four consecutive intervals without a single positive observation and a -6.5391% drawdown from the observed high. Furthermore, the volume participation is fading with a relative volume rate change of -0.0181, suggesting that the selling pressure is not being met by meaningful support. With the stock being highlighted negatively in today's pre-market mover reports, the current price action reflects active distribution rather than a dip-buying opportunity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PDD",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 3.75,
+      "stop_loss_pct": 2.25,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: PDD is surging by +12.04% today on heavy volume of 2.64x normal, backed by fresh Q3 2026 earnings headlines on 2026-11-19 showing an EPS beat of $3.14 vs $2.69 estimated despite a revenue miss. The intraday tape confirms persistent buying pressure across 5 consecutive observations over 150 minutes, maintaining positive returns since first seen (+0.2542%) and an extremely shallow drawdown of just -0.1324% from its observed high of $86.89. With strong fundamental earnings catalysts aligning with robust tape continuation and elevated relative volume, momentum strongly favors further upside continuation. BEAR: PDD is surging 12.04% on heavy same-session volume following Q3 results where earnings beat estimates but revenue missed ($16.159B actual vs $17.300B estimate), revealing a top-line growth deceleration masked by the EPS beat. Buying at $86.78 places the stock 9.19% above its 20-day moving average right as momentum begins to stall, evidenced by a negative score change of -0.1087 and a relative volume rate cooling to 0.1275 per 30 minutes. Entering here risks fading into the afternoon as the market digests the revenue shortfall after the initial headline excitement wears off.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: PS is presenting a compelling mean-reversion setup after dropping -7.41% on the session to $37.59, sitting 19.32% below its 20-day moving average alongside heavy volume at 3.07x normal. The intraday tape confirms genuine resilience with 5 consecutive observations over 150 minutes, demonstrating a solid price recovery of 3.5537% since the previous scan and a 0.0% drawdown from its observed high of $37.59. Furthermore, rank has improved to 7 with positive price acceleration of 1.8446 percentage points, indicating strong short-term buyer absorption despite the broader session selloff. Please note that the catalyst report contains no news or headlines explaining or supporting this specific move, meaning this is a pure tape-driven bounce rather than a news-backed catalyst play. BEAR: Buying PS today at $37.59 presents severe continuation risk given that the stock is down 7.41% on the session and sitting 19.32% below its 20-day moving average, despite a relative volume of 3.07x normal. The catalyst report contains no direct company-specific earnings or corporate actions for PS, featuring instead only general news from 1 calendar day before the session regarding Bill Ackman's portfolio moves and commentary on Alphabet, Microsoft, and Nvidia. Furthermore, the same-session momentum history shows severe participation fade with a rel_volume_rate_per_30m of just 0.4159 and a negative rate change of -0.0651, confirming that buying interest is drying up rapidly while the stock sits near its session lows.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CUE",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: CUE is exhibiting signs of an exhaustion-based reversal, as evidenced by a 2.61% price increase in the most recent observation interval and a significant 4.98% price acceleration. Despite the day's overall decline, the stock is trading with elevated interest, showing 1.64x relative volume, which suggests that the heavy selling pressure is being met with active absorption. While there is no specific catalyst in the news report to justify the current movement, the extreme deviation from its 20-day moving average (-75.14%) presents a high-probability mean reversion opportunity for short-term traders. This setup relies on the technical exhaustion indicated by the recent positive price development during the latest 150-minute observation window. BEAR: CUE presents a classic chasing and deterioration failure mode, trading down -9.24% on the day at $4.32 while sitting an extreme -75.14% away from its 20-day moving average. The intraday tape confirms heavy distribution, showing a severe drawdown of -13.85% from its observed high of $5.015 and a decaying relative volume rate of 0.0437 per 30 minutes with a negative volume rate change. Furthermore, the 11/18/2026 news headlines regarding small-cap movers and health care stocks offer no fresh, proprietary catalyst to support a recovery within a multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BRBR",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net +0.00 = bull 0.75 - bear 0.75 (buy at >= +0.20). BULL: BellRing Brands is surging today, backed by multiple fresh headlines on 2026-11-19 including 'BellRing Jumps 24% On Uncut Guidance' and Bernstein raising its price target to $15 alongside convenience expansion buzz. The stock is exhibiting powerful momentum with a +11.71% day change, relative volume of 1.16x normal, and holding firm +53.02% above its 20-day MA at a price of $15.26. Although it shows some short-term consolidation with 4 consecutive observations and a modest -2.80% drawdown from its observed high of $15.70, the fundamental catalyst backdrop and robust volume profile provide strong justification for continued upside over the next few sessions. BEAR: Buying BRBR at $15.26 today means chasing a stock that is already stretched 53.02% above its 20-day moving average on fresh headlines like 'BellRing Jumps 24% On Uncut Guidance, But Premier Still Has To Sell'. The same-session momentum history shows clear internal deterioration after 120 minutes: the price has dropped 1.928% since the previous interval, pulled back 2.80% from its observed high of $15.70, and exhibits a weak relative volume rate per 30 minutes of just 0.1284 alongside negative price acceleration. Furthermore, Bernstein has capped upside expectations by maintaining a Market Perform rating with a $15 price target, which is below the current trading price. Entering long here leaves buyers absorbing the tail-end of public news while momentum actively fades.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DXYZ",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.5,
+      "reasoning": "net +0.00 = bull 0.50 - bear 0.50 (buy at >= +0.20). BULL: DXYZ is showing compelling intraday persistence with two consecutive scans, a 2.9805 percent return since first seen at 10:17 ET, and an active price sitting right at the observed high of $25.05 with 0.0 percent drawdown. Relative volume is robust at 3.20x normal, backed by positive development across 3 observed intervals. While the catalyst report containing Destiny Tech100 Inc.'s Q3 results on November 16 and a closed-end fund roundup on November 17 does not directly explain today's specific tick-up, the tape-only confirmation provides strong momentum for a short-term continuation trade. BEAR: DXYZ is trading at $25.05, sitting 4.72% below its 20-day moving average with a -0.99% day change while attempting a falling-knife rebound. The fundamental catalysts\u2014specifically the Q3 2026 results released on November 16 and the CEF Roundup from November 17\u2014are 2 to 3 calendar days old and already fully digested by the market, leaving no fresh news to sustain buying pressure. Furthermore, while the relative volume is elevated at 3.20x normal, the per-30-minute volume rate has slowed to 0.23x, signaling that participation is rapidly fading while the price pushes toward its observed session high. Buying into this bounce exposes the trader to stale-news fade and decelerating volume confirmation within a broader sub-MA trend.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WSM",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Williams-Sonoma delivered a strong Q3 performance today, beating earnings estimates and reporting a 5.1% rise in comparable sales, yet the market has sold off aggressively by 13.66%. This disconnect between positive fundamentals and the steep price decline, occurring on high relative volume of 1.95x, suggests an overreaction providing an attractive entry point. The current price is significantly extended at 12.35% below the 20-day moving average, creating a classic mean-reversion setup for a bounce as investors digest the positive news. Buying at these levels captures the stock at a discount to its recent operational success. BEAR: Buying WSM today is an aggressive gamble against a massive same-session selloff, as evidenced by a severe -13.66% day change and a price resting 12.35% below its 20-day MA despite fresh Q3 earnings reports like 'Williams-Sonoma beats earnings estimates as comparable sales rise 5.1%' on 2026-11-19. This massive divergence implies that the market is violently rejecting the reported results or treating them as a classic 'sell the news' exhaustion event. Furthermore, the limited session history shows immediate downward drift with a 0.74% drawdown from the observed high within just 60 minutes of tracking at 1.95x normal relative volume. Entering this trade means attempting to catch a falling knife on headline-driven volatility where the initial gap down has already established aggressive selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TU",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.05 = bull 0.45 - bear 0.50 (buy at >= +0.20). BULL: TU is exhibiting significant momentum today with an 11.36% gain and relative volume at 1.54x normal, indicating strong institutional interest. The tape confirms persistent strength with the stock maintaining its session highs of $10.59 and positive price development across successive observation intervals. While the provided catalyst report contains no direct explanation for this specific move, the technical breakout confirmed by an 18.65% distance from the 20-day moving average highlights a powerful shift in market sentiment. With the stock holding at its observed high with 0% drawdown, the current price action suggests a clear trend that justifies a bullish short-term entry. BEAR: Buying TU today requires chasing an 11.36% single-session gain that has stretched the price 18.65% above its 20-day moving average. The upside is unsupported by any fresh company-specific catalyst from the November 18 headlines, which instead point to sector-level headwinds like a 'tough regulatory road' for potential telecom takeovers and a noted data centre exit. Furthermore, the relative volume rate per 30-minute interval sits at a sluggish 0.1209, showing that this sharp price extension is happening on fading participation rather than robust institutional accumulation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BTDR",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: Bitdeer Technologies is offering an extreme mean-reversion opportunity after a punishing 12.13% single-day drop that leaves it 45.82% below its 20-day moving average. Despite the heavy selling pressure and headlines like StoneX maintaining its Buy rating while lowering its price target to $15 on November 18, relative volume remains elevated at 1.23x normal. Furthermore, same-session history shows early stabilization with 2 consecutive scans, a positive return of 1.4303% since being first seen 30 minutes prior, and 0.0% drawdown from its observed high of $3.4182. This combination of deep oversold conditions, ongoing institutional support via the StoneX Buy rating, and nascent intraday momentum provides a compelling setup for a sharp relief bounce. BEAR: BTDR is suffering a severe collapse today, down 12.13% to $3.42 and trading 45.82% below its 20-day moving average as investors actively run for the exits per the November 18 Yahoo headline. Adding to the fundamental pressure, StoneX maintained a Buy rating on November 18 but slashed its price target to $15, signaling lowered expectations. While the tape shows a minor 1.43% uptick over a 30-minute window, relative volume is weak at 0.1652 per interval and overall volume of 1.23x normal fails to substantiate any meaningful accumulation against a double-digit rout.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SVRA",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 5.31,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: SVRA is trading with significant relative volume of 2.41x, indicating strong institutional interest ahead of a high-stakes FDA decision for its lung disease drug. The price is currently holding 4.17% above its 20-day moving average, supported by recent analyst optimism including an HC Wainwright & Co. buy rating and $10 price target. Despite minor recent drawdowns from the session high, the stock's active participation in a critical FDA-focused industry watchlist suggests a bullish accumulation phase. This setup leverages a convergence of technical momentum and a major fundamental catalyst, offering a path toward the analyst-projected upside. BEAR: Buying SVRA today exposes the portfolio to clear chasing and tape deterioration after a binary news event. Headlines from 3 days prior note that Savara's lung disease drug is facing a make-or-break FDA decision this week, meaning the primary catalyst is already public and maturing. Furthermore, the same-session momentum history shows measurable exhaustion: after reaching an observed high of $5.06, the stock has drawn down by 2.96% down to $4.91, dropped 3 spots in rank to 14, and seen its relative volume rate slow down to a meager 0.0954 per 30 minutes with a negative rate change of -0.0856. Entering here means buying fading momentum directly into the teeth of an impending FDA decision binary.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VVV",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Valvoline is experiencing strong upside momentum on its earnings release day today, November 19, 2026, trading up 11.79% at $37.30 with an elevated relative volume of 1.12x. Despite mixed headlines including a revenue miss, the tape shows sustained interest across 4 consecutive observations over 120 minutes with a minor drawdown of only 1.35% from its observed high of $37.815. Price acceleration remains positive at 0.2598 percentage points, indicating that buyers continue to absorb shares despite the initial headline friction. This active participation on a major catalyst day provides a viable short-term swing opportunity. BEAR: Valvoline reported same-session Q4 earnings featuring a revenue miss and a muted FY2027 outlook, which triggered immediate headlines like ChartMill's 'Valvoline Slides on Mixed Q4, Revenue Miss, and Muted FY2027 Outlook'. Despite an initial positive day change of +11.79% and being +10.20% above its 20-day MA, the same-session momentum history shows measurable deterioration with rank dropping from 10 to 15, negative returns since first seen, and a drawdown of 1.35% from its observed high. Buying into this extension means chasing a fading same-session move directly into headwinds from an unenthusiastic fundamental report and slowing relative volume rate expansion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "SA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MFC",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "SNEX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "INSM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SLS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "PDD",
+      "action": "submitted",
+      "order": {
+        "symbol": "PDD",
+        "qty": 2,
+        "est_cost": 173.36,
+        "entry_ref": 86.68,
+        "take_profit": 89.93,
+        "remaining_take_profit_pct": 3.75,
+        "stop_loss": 84.42,
+        "confidence": 0.675,
+        "client_order_id": "ta-20261119-125855-PDD",
+        "analysis_price": 86.775,
+        "live_price_change_pct": -0.11
+      },
+      "broker": {
+        "id": "ef9257d7-b62b-4f24-a5a5-393f9d2cff70",
+        "client_order_id": "ta-20261119-125855-PDD",
+        "symbol": "PDD",
+        "qty": "2",
+        "side": "buy",
+        "status": "pending_new",
+        "take_profit": 89.93,
+        "stop_loss": 84.42,
+        "legs": [
+          "eaeaf54b-12db-4428-922a-2ad95d3ceec3",
+          "67ae80d8-9655-482d-851e-fae7da8f3fdf"
+        ]
+      }
+    },
+    {
+      "symbol": "PS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CUE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BRBR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DXYZ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WSM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BTDR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SVRA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VVV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
