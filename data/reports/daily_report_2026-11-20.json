@@ -1,0 +1,1287 @@
+{
+  "date": "2026-11-20",
+  "events": [
+    {
+      "at_et": "2026-11-20T07:46:25-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-20T08:51:49-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-20T09:31:30-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ERAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KHC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KLAC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QXO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T10:23:48-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1016.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "YSWY",
+          "MPU",
+          "SVRA",
+          "NCPL",
+          "NOAH",
+          "GAP",
+          "POAS",
+          "EVH",
+          "NUAI",
+          "WRD",
+          "GRRR",
+          "CUE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T10:54:38-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1046.json",
+        "shortlist": [
+          "AKAN",
+          "ABVX",
+          "BILL",
+          "YSWY",
+          "MPU",
+          "SVRA",
+          "POAS",
+          "NOAH",
+          "GRRR",
+          "NCPL",
+          "GAP",
+          "BTDR",
+          "WRD",
+          "NUAI",
+          "EVH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T11:26:04-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1116.json",
+        "shortlist": [
+          "AKAN",
+          "ABVX",
+          "BILL",
+          "YSWY",
+          "MPU",
+          "SVRA",
+          "POAS",
+          "GAP",
+          "NCPL",
+          "NOAH",
+          "BSP",
+          "GRRR",
+          "BTDR",
+          "WRD",
+          "EVH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GRRR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EVH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T11:58:26-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1146.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "YSWY",
+          "MPU",
+          "SVRA",
+          "POAS",
+          "GAP",
+          "NCPL",
+          "MSBT",
+          "WRD",
+          "NOAH",
+          "TIGR",
+          "BTDR",
+          "BSP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T12:22:50-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1216.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "MPU",
+          "YSWY",
+          "SVRA",
+          "POAS",
+          "NCPL",
+          "GAP",
+          "MSBT",
+          "WRD",
+          "TIGR",
+          "NOAH",
+          "BSP",
+          "BTDR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T12:52:04-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1246.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "YSWY",
+          "MPU",
+          "SVRA",
+          "POAS",
+          "GAP",
+          "NCPL",
+          "BSP",
+          "MSBT",
+          "WRD",
+          "SKYA",
+          "TIGR",
+          "NOAH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T13:21:27-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1316.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "YSWY",
+          "MPU",
+          "SKYA",
+          "SVRA",
+          "POAS",
+          "GAP",
+          "NCPL",
+          "MSBT",
+          "WRD",
+          "TIGR",
+          "BSP",
+          "NOAH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T13:51:25-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1346.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "YSWY",
+          "MPU",
+          "SKYA",
+          "SVRA",
+          "POAS",
+          "GAP",
+          "NCPL",
+          "MSBT",
+          "WRD",
+          "TIGR",
+          "BSP",
+          "BTDR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "TIGR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTDR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T14:21:27-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1416.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "MPU",
+          "YSWY",
+          "SKYA",
+          "SVRA",
+          "CSIQ",
+          "POAS",
+          "GAP",
+          "TIGR",
+          "MSBT",
+          "NCPL",
+          "WRD",
+          "BSP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "TIGR",
+            "action": "submitted",
+            "order": {
+              "symbol": "TIGR",
+              "qty": 54,
+              "est_cost": 199.8,
+              "entry_ref": 3.7,
+              "take_profit": 3.84,
+              "remaining_take_profit_pct": 3.78,
+              "stop_loss": 3.63,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261120-142126-TIGR",
+              "analysis_price": 3.74,
+              "live_price_change_pct": -1.07
+            },
+            "broker": {
+              "id": "a66228a1-119e-43ff-bcc9-23279d58ea22",
+              "client_order_id": "ta-20261120-142126-TIGR",
+              "symbol": "TIGR",
+              "qty": "54",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 3.84,
+              "stop_loss": 3.63,
+              "legs": [
+                "ff2281f3-fbe1-45eb-a1bc-d8e4f57d3075",
+                "efbf6c88-75b6-4223-bc2c-8dbce7b7ee48"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CSIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T14:51:23-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1446.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "MPU",
+          "YSWY",
+          "SKYA",
+          "CSIQ",
+          "SVRA",
+          "POAS",
+          "GAP",
+          "MSBT",
+          "NCPL",
+          "WRD",
+          "BSP",
+          "NOAH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CSIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T15:21:24-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1516.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "SKYA",
+          "MPU",
+          "YSWY",
+          "CSIQ",
+          "SVRA",
+          "MSBT",
+          "POAS",
+          "GAP",
+          "NCPL",
+          "WRD",
+          "BSP",
+          "NOAH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CSIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NOAH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T15:53:34-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-20/shortlist_1546.json",
+        "shortlist": [
+          "ABVX",
+          "AKAN",
+          "BILL",
+          "CSIQ",
+          "MPU",
+          "YSWY",
+          "SKYA",
+          "SVRA",
+          "MSBT",
+          "POAS",
+          "GAP",
+          "NCPL",
+          "WRD",
+          "SA",
+          "BSP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ABVX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BILL",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "CSIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "YSWY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SKYA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SVRA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSBT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "POAS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GAP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NCPL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "WRD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-20T15:53:34-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

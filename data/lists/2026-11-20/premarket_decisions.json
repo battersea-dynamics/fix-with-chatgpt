@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-11-20T08:51:49-05:00",
+  "decisions": [
+    {
+      "symbol": "AKAN",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: AKAN is showing an impressive pre-market volume of 14,704,750 shares, which is nearly three times its baseline average, pushing the stock up +37.32% to $4.71 from a $3.43 close. The candle structure confirms a bullish reversal pattern with a high conviction rating of 0.85, indicating strong buying interest that is holding its elevation rather than fading. However, a review of the news block shows no specific catalyst or fresh fundamental headline for today, with only generic volume and gainer roundups from ChartMill on November 18. Despite the lack of a named company headline, the immense volume signature and sustained gap-up provide enough technical footprint to justify a momentum entry at the open. BEAR: AKAN is flashing an absolute classic gap-fade failure mode driven by completely stale and empty catalyst evidence. A review of the news block shows zero fundamental press releases or hard company-specific catalysts for the current session; the only available headlines are generic ChartMill volume roundups from November 18, which are stale and fail to justify a 37.32% pre-market gap to $4.71. Furthermore, while pre-market volume of 14,704,750 shares looks heavy, it is essentially a repeat of the 'unusual volume leader' churn seen on November 18 without any actual new corporate development behind it. With no fresh fundamental news to sustain buyers, the opening auction will dump this illiquid tape right back toward yesterday's close of $3.43 as early retail chasers become exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BILL",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: BILL is experiencing a massive volume event with 1,653,029 pre-market shares traded, representing 495x its baseline average, driven by the major 2026-11-19 headline that BILL agreed to be acquired by TPG and Corpay in a $6 billion cash deal. Despite a -3.71% gap down to $61.70 and a bearish continuation structure read from the candle agent, this unprecedented volume footprint indicates heavy institutional repositioning following the buyout announcement and a downgrade by Susquehanna. Buying the open offers a classic M&A arbitrage bounce opportunity as the market digests the transaction terms and bids support near the deal footprint. The massive liquidity guarantees clean execution for an intraday recovery toward the prior close. BEAR: BILL is exhibiting a classic gap-fade and already-priced-in failure mode following the 2026-11-19 announcement that it is being taken private by TPG and Corpay in a $6 billion cash deal. With the stock trading down 3.71% to $61.70 against yesterday's close of $64.08, the pre-market volume of 1,653,029 shares\u2014though elevated\u2014fails to reflect any new buying urgency following Susquehanna's downgrade to Neutral on November 20. The combination of an M&A deal anchoring the valuation and a bearish continuation candle structure (conviction 0.85) signals that the post-announcement digestion is complete, making the open prime exit liquidity rather than a sustainable dip.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 6e+09 - no matching value in source data",
+        "bear: cited 6e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "BJ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: BJ is gapping down -5.64% to $104.50 on massive pre-market volume of 115,651 shares, which is nearly 300x its baseline average. The headline from ChartMill on 2026-11-20 explicitly identifies the catalyst: a Q3 beat where margin pressure masked the underlying numbers. Despite the bearish exhaustion candle structure, this extreme volume signature signals capitulation and heavy institutional turnover that often sets up an aggressive oversold bounce. Buying the open captures the washout panic as buyers step in to absorb the heavy supply following the earnings release. BEAR: BJ is suffering from a classic gap-down exhaustion structure following its Q3 earnings release on November 20, 2026. The headline 'BJ's Wholesale Club (NYSE:BJ) Falls Premarket as Q3 Beat Masks Margin Pressure' highlights that the top-line beat is completely overshadowed by deteriorating margins, making this a classic sell-the-news event rather than a durable trend. With a heavy pre-market volume of 115,651 shares forcing the stock down 5.64% to $104.50, any attempt to buy the open risks stepping in front of a continuation move where morning liquidity overwhelms the thin tape. The candle agent confirms an exhaustion pattern with a bearish conviction of 0.85, indicating that the reaction is fully developed and the opening print will act as exit liquidity for trapped longs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CAPR",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: Capricor is exhibiting an extraordinary pre-market volume signature of 971,699 shares, representing a massive 15.14x multiple over its baseline average, validating genuine institutional accumulation ahead of the FDA decision for Deramiocel highlighted in the November 18 Benzinga headline. The candle agent reads a bullish reversal structure with 0.7 conviction, confirming that buyers are aggressively defending higher prices at the $8.10 level following yesterday's $7.53 close. This heavy sustained participation provides the necessary momentum for continuation into the open as the market prices in the upcoming regulatory catalyst. Therefore, buying at the open offers a high-probability setup to capture immediate follow-through as retail and institutional attention converges on the stock. BEAR: Capricor is suffering from a classic pre-market gap-fade and already-priced-in failure mode driven by speculative retail attention ahead of an upcoming FDA decision for Deramiocel. The core catalyst headlines from November 18, such as 'Capricor Stock in Focus Ahead of FDA Decision on Duchenne Therapy Deramiocel' and Yahoo's retail-focused comparisons, are already stale by two days and completely baked into the pre-market print of $8.10. While pre-market volume has spiked to 971,699 shares, the advance lacks fresh fundamental news and relies entirely on social and retail momentum being pumped up by comparisons to other volatile biotech names. Once the opening auction exposes this thin-tape pricing to real institutional liquidity at 9:30, buyers chasing the +7.57% gap will find themselves acting as immediate exit liquidity for early momentum traders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ERAS",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: Erasca is experiencing a sharp pre-market pullback of 5.49% to $13.44 on heavy volume of 374,705 shares, representing 56.27x its baseline average, following a flurry of major catalysts including a clinical collaboration with Bristol Myers Squibb announced on November 18 and an Outperform initiation with a $35 price target from Leerink Partners on November 17. Despite the candle agent reading an exhaustion pattern with a bearish bias at 0.7 conviction, this massive volume spike on fundamental catalyst news suggests institutional accumulation rather than pure distribution. Buying the open here positions for a sharp mean-reversion bounce as the market digests the multi-day string of positive pipeline and partnership headlines for ERAS-0015. BEAR: Despite a flurry of positive headlines earlier in the week\u2014including Leerink Partners' $35 price target initiation on November 17 and the Bristol Myers Squibb partnership announcement on November 18\u2014ERAS is gapping down 5.49% to $13.44 on heavy volume of 374,705 shares. This downward gap following an intense wave of analyst optimism and clinical collaboration news signals an already priced in reaction and complete exhaustion structure, matching the candle agent's bearish conviction of 0.7. Buying at the open exposes the trader to an opening-auction reversal where the recent high-profile catalysts have completely failed to hold the stock above yesterday's $14.22 close. Consequently, this pre-market drop acts as exit liquidity for earlier buyers, making the opening print a dangerous entry as the momentum completely disintegrates.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INTU",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: INTU is experiencing a heavy pre-market volume print of 76,226 shares, representing nearly 14 times its baseline average, driven by specific negative catalysts including a weak outlook and the announcement to sell Mailchimp to Bending Spoons on 2026-11-20. While the candle structure and 9.20 percent gap down read bearishly, extreme exhaustion volume on the open often creates an oversold bounce opportunity as panic sellers exhaust themselves. Buying this capitulation dip relies entirely on an intraday mean-reversion reclaim after initial selling settles. Confidence is kept very low due to the overwhelming fundamental and structural headwinds. BEAR: INTU is suffering from a brutal gap down continuation of -9.20% down to $281.50, driven by heavy pre-market volume of 76,226 shares following the 2026-11-20 headlines regarding the Mailchimp sale to Bending Spoons and a weak forward outlook that overshadowed the earnings beat. Because the bad news and the asset divestiture are already fully captured by this aggressive morning markdown, buying the open risks stepping into an opening-auction reversal where trapped early dip-buyers become exit liquidity for institutional distribution. With a conviction of 0.9 on the bearish structure, the gap is unlikely to bounce sustainably and stands exposed to a complete exhaustion structure once real 9:30 liquidity enters the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KHC",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 0.78,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Kraft Heinz displays an exceptional volume signature this morning, printing 619,315 shares which represents a massive 25.53x multiple over its baseline average, confirming genuine institutional participation rather than thin retail noise. This heavy accumulation directly aligns with the November 19, 2026 ChartMill report highlighting a high-quality technical breakout setup following the recent Investor Day and defensive yield discussions. The candle agent identifies a bullish reversal structure with a strong conviction rating of 0.7, supporting immediate continuation at the open as the gap holds firm. With robust pre-market accumulation backing the technical breakout, buying strength at the open offers a high-probability setup for an intraday to multi-day continuation. BEAR: The +1.17% gap on 619k shares is classic exhaustion and thin-tape pricing masking a fundamentally challenged narrative, making this an immediate gap fade candidate. The November 19 Yahoo headline quoting the CEO labeling shoppers 'fragile' ahead of 2027 price hikes directly undermines the bullish reversal thesis by highlighting persistent margin pressure and consumer pushback. Furthermore, the persistent reminders of Berkshire's stake dropping from $30B to $8B prove long-term institutional exit liquidity is sitting right above the market, ensuring that the opening bell will be met with institutional supply that real opening liquidity will overrule.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KLAC",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: KLAC is experiencing a massive pre-market volume spike of 879,947 shares, representing an extreme 18.55x relative to its baseline average, accompanied by a -3.31% gap down to $136.80. None of the recent Yahoo headlines from November 18 and 19 explicitly explain this sudden downward gap, as articles like the November 19 piece on '3 Reasons Why Growth Investors Shouldn't Overlook KLA' remain fundamentally constructive. While the candle agent reads a bearish continuation structure with 0.85 conviction, the extraordinarily heavy volume footprint signals potential capitulation or a flush that institutional dip-buyers may target at the open. The bull case rests entirely on an oversold bounce and absorption of heavy selling pressure rather than a structural catalyst. BEAR: KLAC is suffering a -3.31% gap down to $136.80 despite a flurry of generic November 19 retail-centric headlines like '3 Reasons Why Growth Investors Shouldn't Overlook KLA'. This contradiction points directly to an opening-auction reversal and exhaustion structure, where the 879,947 share volume spike simply reflects institutional distribution clashing with stale retail hype. Buying this gap assumes pre-market weakness will miraculously reverse at the 9:30 open, ignoring the candle agent's high 0.85 bearish conviction that the move is already finished.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QXO",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: Although QXO displays a pre-market gap-down of -2.36% and a bearish continuation bias from the candle structure, there is significant pre-market volume of 314,239 shares, which is 7.11x its baseline average. The recent news headlines from November 19, 2026 regarding Brad Jacobs' ambitious plan and the $500m buyback plan provide fundamental backing that could spark a mean-reversion buying opportunity at the open. However, because the price action is currently negative and points to a continuation lower, the bull case rests entirely on absorption of selling pressure near the $10.76 level, making this a speculative dip-buy rather than a pristine momentum setup. BEAR: QXO is gapping down 2.36% to $10.76 with elevated pre-market volume of 314,239 shares (7.11x the baseline average). The move is reinforced by an exhaustion structure where the candle agent's structure read signals a bearish continuation bias at 0.7 conviction. Furthermore, recent articles from November 19, including 'QXO: Brad Jacobs Has An Ambitious Plan, But Will Shareholders Benefit?' on SeekingAlpha and Yahoo's coverage of the $500m buyback plan, highlight ongoing strategic debates that leave the stock vulnerable to further downward pressure as the opening auction meets real liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SNDK",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.58,
+      "reasoning": "net -0.75 = bull 0.20 - bear 0.95 (buy at >= +0.20). BULL: The 2026-11-20 Yahoo headline citing TrendForce's bearish NAND price forecast for 2027 explains the massive 88.47% gap down from $755.16 to $87.10 alongside heavy pre-market volume of 4.4 million shares (6.16x baseline). Despite the severe bearish conviction reading and overnight plunge, the immense liquidity injection and retail-driven Wallstreetbets chatter suggest a classic capitulation or oversold washout event. Buying the open here targets an aggressive mean-reversion bounce as tactical traders step into the liquidity vacuum. However, conviction is low given the overwhelming downside momentum structure. BEAR: SNDK is suffering from a catastrophic 88.47% pre-market gap down to $87.10 from yesterday's close of $755.16, driven by the November 20 TrendForce headline citing a bearish NAND price forecast for 2027 and Jensen Huang's sudden resignation. While pre-market volume of 4.4M shares is elevated at 6.16x baseline, the extreme magnitude of the collapse points to an opening-auction reversal and exhaustion structure as the market completely rerates the valuation. Attempting to buy this plunge at the open acts as absolute exit liquidity into a falling knife where real opening volume will likely confirm the structural breakdown rather than stage a relief bounce.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SVRA",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.75,
+      "stop_loss_pct": 1.65,
+      "reasoning": "net -0.60 = bull 0.30 - bear 0.90 (buy at >= +0.20). BULL: Savara is experiencing a severe pre-market gap-down of -26.30% to $3.84 on 7.96x baseline volume driven by immediate uncertainty surrounding upcoming FDA decisions highlighted in recent headlines from November 16 and 20, 2026. While the candle structure reads as an exhaustion pattern with bearish bias, this heavy volume flush often represents a capitulation event ahead of binary biotech catalysts like lung disease drug decisions in the spotlight this week. Buying at the open captures an oversold washout for a mean-reversion bounce if the bid steps in to defend multi-year support following the stretched five-year run. However, the candle structure is explicitly bearish and conviction is low, making this a risky counter-trend setup. BEAR: SVRA is displaying a severe exhaustion structure with a 0.9 conviction bias heading into today's open, following headlines like the November 20 Yahoo report noting the stock looks 'stretched' after a 338% five-year run. The pre-market price has cratered 26.30% down to $3.84 from yesterday's $5.21 close on 245,854 shares of volume. This downward gap represents a classic opening-auction reversal and exhaustion pattern where the pre-market thin tape of 7.96x baseline volume is just panic exit liquidity ahead of the looming FDA decision highlighted on November 16. Buying this gap down at the open risks catching a falling knife as the market aggressively prices in disappointment or profit-taking following its multi-year highs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WRD",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.15 = bull 0.70 - bear 0.85 (buy at >= +0.20). BULL: WRD is exhibiting an extraordinary volume signature today, printing 244,686 shares in the pre-market against a baseline average of just 12,079 shares, representing a massive 20.26x relative volume surge. The price has pushed up to $3.38 from yesterday's close of $3.27, a +3.53% gap that is fully supported by the candle agent's bullish reversal structure read and a 0.7 conviction score. While the single available news headline from November 13 regarding regional economic ties (\"Guangdong and Singapore: 2,700 kilometers apart, yet zero distance\") does not serve as an explicit earnings or partnership catalyst for today, the sheer magnitude of the pre-market volume anomaly indicates aggressive institutional or systematic accumulation. This heavy, sustained participation combined with a clean reversal pattern provides a strong technical foundation for immediate continuation at the open. BEAR: WRD exhibits a classic gap-fade and thin-tape pricing failure mode, as its 3.53% pre-market gap to $3.38 is built on a negligible 244,686 shares that will be instantly overridden by real opening liquidity. Furthermore, the only available news headline from Yahoo on November 13, 2026, regarding Guangdong and Singapore is completely stale by a full week and offers zero fundamental justification for a fresh buying catalyst today. Because this meager volume signature and dated news represent an exhausted move with no driving force, the pre-market high will almost certainly serve as the high of the day and leave opening buyers as exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

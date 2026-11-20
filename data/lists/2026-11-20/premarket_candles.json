@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-20T08:48:24-05:00",
+  "session_date": "2026-11-20",
+  "reads": {
+    "BILL": {
+      "symbol": "BILL",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "SNDK": {
+      "symbol": "SNDK",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "BJ": {
+      "symbol": "BJ",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "AKAN": {
+      "symbol": "AKAN",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "SVRA": {
+      "symbol": "SVRA",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "CAPR": {
+      "symbol": "CAPR",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "WRD": {
+      "symbol": "WRD",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "KHC": {
+      "symbol": "KHC",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "ERAS": {
+      "symbol": "ERAS",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "INTU": {
+      "symbol": "INTU",
+      "pattern": "gap down continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "QXO": {
+      "symbol": "QXO",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "KLAC": {
+      "symbol": "KLAC",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    }
+  }
+}

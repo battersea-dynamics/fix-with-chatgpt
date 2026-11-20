@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-11-20T12:22:50-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ABVX",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 5.74,
+      "stop_loss_pct": 3.04,
+      "reasoning": "net -0.15 = bull 0.50 - bear 0.65 (buy at >= +0.20). BULL: ABVX presents a powerful mean-reversion and intraday continuation opportunity backed by extreme participation, trading at 13.49x normal volume despite a -8.33% daily drop and a -14.84% extension from its 20-day moving average. The tape displays robust internal persistence with 5 consecutive scans over 120 minutes, holding rank #1 with zero drawdown from the observed high of $73.935 and a sharp 6.1522% rebound from the previous interval. The catalyst report contains no news items for the session, meaning this high-volume accumulation is driven purely by aggressive tape dynamics rather than headline exposure. We capitalize on this heavy institutional sponsorship as the price attempts to claw back toward its moving average from an oversold extreme. BEAR: ABVX is experiencing severe downward pressure with a day change of -8.33% and trading 14.84% below its 20-day moving average at $73.94, despite a relative volume surge of 13.49x. The catalyst report is completely empty of news, earnings, or dividends for the session, leaving the sharp drop entirely unexplained by fundamental disclosures and introducing elevated headline uncertainty. Furthermore, the session metrics show a negative score change of -2.0448 alongside a decelerating volume rate (-0.0998 change in rel volume pace), confirming that participation is lagging the magnitude of the session's distress. Buying into this unanchored collapse without a confirming catalyst exposes a trader to unpredictable continuation of the downward momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AKAN",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 5.75,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: AKAN demonstrates powerful intraday momentum with a 29.01% day gain, trading 225.30% above its 20-day moving average on 2.73x normal relative volume. The session history shows 5 consecutive scans over 120 minutes with a positive return since first seen of 6.3702% and a return since previous of 1.0274%. While the catalyst report lacks a specific fundamental news story beyond general premarket mover mentions on 2026-11-20, the tape persistence with 5 consecutive observations confirms strong ongoing speculative participation. BEAR: AKAN is exhibiting a clear chasing and volume-fading failure mode, trading at $4.42 which is an extreme 225.30% above its 20-day moving average on general premarket mover headlines from ChartMill and Benzinga dated 2026-11-20 that lack any fundamental company-specific catalyst. The same-session momentum has already suffered concrete deterioration, showing a 13.235% drawdown from its observed high of $5.10 alongside a worsening relative volume rate of 0.0971 per 30 minutes with a negative rate change of -0.1487. Furthermore, the score change has dropped by -0.3689 while rank remains stagnant at 2, proving that participation is drying up while late buyers are left holding a severely overextended asset.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BILL",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 1.6,
+      "stop_loss_pct": 0.86,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: BILL is trading at $61.54 backed by a major definitive acquisition headline on 2026-11-20 stating it will be acquired by TPG and Corpay for $63.25 per share in a $6.0 billion all-cash deal, creating an immediate merger-arbitrage spread up to the offer price. The stock exhibits immense participation with relative volume surging to 8.27x normal levels alongside 5 consecutive scan observations. Furthermore, the observed high of $61.595 shows minimal drawdown of just -0.0893% from the high, demonstrating exceptional price retention near the session peak as the market absorbs the cash buyout news. BEAR: Buying BILL today at $61.54 carries severe merger-arbitrage structural limits because the stock is trading essentially flat against the announced $63.25 all-cash buyout by TPG and Corpay from the same session on 2026-11-20, leaving a meager upside of just about 2.7%. Furthermore, TD Cowen has already downgraded the stock to Hold with a $63 price target due to analyst concerns over valuation and the buyout terms. With relative volume rate dropping sharply by -0.4739 and volume pace slowing down to 0.7016x per 30 minutes, participation is rapidly fading as the market fully prices in the definitive deal terms.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 6e+09 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "MPU",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 8.12,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: MPU demonstrates strong momentum, trading at $4.97 with a day change of +4.41% and an exceptional distance from its 20-day moving average of +195.41%. The same-session history confirms persistence through 5 consecutive observations over 120 minutes, yielding a return since first seen of +27.76% and zero drawdown from its observed high of $4.97. While the catalyst report contains no specific breaking news explaining the move today aside from normal pre-market and unusual volume mentions on November 19 and November 20, the tape itself provides solid confirmation via positive price development and rank improvement. BEAR: Buying MPU at $4.97 requires chasing a stock sitting 195.41% above its 20-day moving average on a relative volume of just 0.89x, indicating that volume is not confirming the intense price stretch. Furthermore, the momentum metrics reveal that the move is already mature, showing a 27.76% return since first seen and a slow rel_volume_rate_per_30m of 0.1082. The catalyst backdrop offers no fresh fundamental news today; the only same-session headline is a generic Benzinga mention regarding communication services stocks moving in pre-market, while earnings sit ahead on December 3, 2026, creating an unnecessary holding window hazard.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "YSWY",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: YSWY shows strong technical persistence with 5 consecutive scan observations and 120 minutes since first seen, supported by a 4.61x relative volume surge and a positive day change of 5.73% to $20.41. The tape demonstrates zero drawdown from its observed high of $20.405 alongside positive price acceleration of 1.683 percentage points. Furthermore, the catalyst report features a same-session headline from 2026-11-20 regarding the Pricing of a Secondary Public Offering, providing active market engagement. Despite trading 16.55% below its 20-day moving average, the current session momentum and heavy volume offer a viable short-term continuation trade. BEAR: Buying YSWY today means stepping directly in front of the 'Yesway Announces Pricing of Secondary Public Offering' headline released on 2026-11-20, a same-session catalyst that introduces heavy share supply and dilution risk. While the stock shows a +5.73% day change, it remains heavily depressed at -16.55% distance from its 20-day MA and exhibits tape deterioration with a rank drop from 4 to 5 and a negative score change of -0.2501 over recent observations. Furthermore, the relative volume rate per 30 minutes has dwindled to just 0.2462 with a slight negative change, confirming that participation is drying up while absorbing secondary issuance. Entering this trade offers poor risk-reward as primary dilution mechanics weigh down immediate upside over a multi-hour hold.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SVRA",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: Savara Inc. is experiencing heavy downside volatility on 2026-11-20 following a fresh headline stating that the FDA will not meet the PDUFA target action date of November 22 for molgramostim inhalation solution. Despite the -17.47% daily drop to $4.30 and a low confidence setup showing 5 consecutive observations with a -3.37% drawdown from the observed high of $4.45, relative volume remains elevated at 2.81x normal. This sharp knee-jerk reaction creates a potential oversold mean-reversion opportunity for a short-term bounce as the market digests the news of a delayed rather than rejected application. BEAR: Buying SVRA today exposes a trader to severe regulatory fallout following the same-session headline on 2026-11-20 that the FDA will not meet the November 22 PDUFA target action date for molgramostim, with no revised action date communicated. The stock has plummeted 17.47% on 2.81x relative volume, and the same-session momentum history confirms ongoing deterioration with a 3.37% drawdown from its observed high and only 1 positive interval out of 4. Attempting to catch this falling knife into an indefinite FDA delay creates an unacceptable risk of prolonged downside.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "POAS",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: POAS presents a speculative dip-buying opportunity after a sharp intraday drop of -23.66% to $2.42, maintaining a position +51.82% above its 20-day moving average. The momentum history shows 5 consecutive scans over 120 minutes with a recent positive return interval of 2.11% and positive price acceleration of 2.32 percentage points, hinting at a potential short-term exhaustion of sellers. The catalyst report contains no company-specific news explaining the move, as headlines from ChartMill and Benzinga on November 18 and 19 only cover general market movers. Therefore, this is purely a high-beta tape-driven rebound play relying strictly on intraday stabilization following an oversold flush. BEAR: Buying POAS at this juncture exposes capital to severe chasing and volume non-confirmation risks, evidenced by a dramatic -23.66% day change while relative volume languishes at an anemic 0.05x normal. The same-session momentum history confirms measurable deterioration with an 18.38% drawdown from its observed high of $2.965 and an exceptionally thin volume rate of 0.0009 per 30 minutes. Furthermore, the available news lacks any specific company-level fundamental catalyst for today, relying instead on generic mover lists from ChartMill and Benzinga 1 calendar day prior, meaning buyers are stepping into a collapsing tape without fresh support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NCPL",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.75 = bull 0.10 - bear 0.85 (buy at >= +0.20). BULL: Nothing in the catalyst report supports buying NCPL today, as recent news features a severe Fugazi Research report alleging phantom revenue and SEC fraud claims alongside broader market mover mentions. On the tape side, the stock sits at $2.72 following an 18.32% drop on the session, though it retains a +54.72% distance from its 20-day MA and has logged 5 consecutive observations with a 7.51% net return since first seen. However, with relative volume at just 0.21x normal, negative price acceleration (-0.4037), and a drawdown of 4.56% from its observed high of $2.85, the tape fails to confirm persistence. Because the evidence shows weak volume and severe fundamental headwinds without supportive same-session confirmation, this is a forced case. BEAR: Buying NCPL today carries extreme danger due to a severe fraud allegation and heavy ongoing technical exhaustion. Benzinga reported on November 17 (3 days before the session) that Fugazi Research issued a report titled 'NCPL: Phantom Revenue, Sham Transactions & SEC Claim of Fraudulent Scheme', casting dark fundamental clouds over the company. Furthermore, the stock is showing clear same-session deterioration with an 18.32% day drop to $2.72, a relative volume of just 0.21x, a negative return since previous of -2.51%, and a drawdown of 4.56% from its observed high. Entering this position means catching a falling knife against a backdrop of active regulatory/fraud accusations and fading participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GAP",
+      "signal": "hold",
+      "confidence": 0.415,
+      "take_profit_pct": 2.95,
+      "stop_loss_pct": 1.77,
+      "reasoning": "net -0.17 = bull 0.65 - bear 0.82 (buy at >= +0.20). BULL: Gap shares are surging 12.00% today backed by a powerful catalyst report showing a Q3 2026 earnings beat driven by strong cost discipline, which initially pushed shares up as much as 16% despite a weaker full-year sales outlook. Institutional participation is robust with relative volume running at 2.09x normal, providing strong liquidity and validation for the move. Although the intraday momentum shows a minor pullback of 4.88% from the observed high of $22.125 across 5 consecutive scan observations, the combination of a major fresh earnings beat on 2026-11-20 and heavy volume absorption creates a compelling dip-buying opportunity for a multi-day continuation. BEAR: GAP is a clear chasing setup showing measurable same-session deterioration following its Q3 2026 earnings release on 2026-11-20. Although shares initially jumped on an earnings beat driven by cost discipline, the headline that Gap Inc. slashed its full-year sales outlook introduces severe fundamental headwinds. Furthermore, the intraday momentum data confirms exhaustion: after reaching an observed high of $22.125, the stock has drawn down 4.88% to $21.05, losing 4.88% since it was first seen just 120 minutes prior, with worsening rank and negative price acceleration.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MSBT",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.55 = bull 0.20 - bear 0.75 (buy at >= +0.20). BULL: MSBT is displaying significant high-volume activity today with relative volume at 2.60x, indicating strong market interest despite the 4.53% pullback. The stock is currently trading 20.15% below its 20-day moving average, creating a potential mean-reversion setup for traders looking to capitalize on an oversold condition. There are no specific catalysts or news events provided in the report to explain today's price action, meaning this trade relies entirely on tape-based volatility and technical exhaustion. Given the limited number of momentum observations and lack of positive price development, this remains a speculative play on a potential technical bounce. BEAR: MSBT is suffering a severe breakdown session, down -4.53% on the day and trading 20.15% below its 20-day moving average at $16.98 despite elevated relative volume of 2.60x. Same-session momentum data reveals ongoing deterioration, with consecutive negative 30-minute returns, zero positive observed intervals, and a drawdown expanding to -0.26% from the observed high. Furthermore, the catalyst report shows a complete vacuum with zero earnings, dividends, or news events to support or rescue the downward price action. Buying this setup means catching a falling knife with no fundamental catalyst to arrest the momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "WRD",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: WRD presents a compelling fundamental catalyst on 2026-11-20 with earnings released before market open and a headline showing revenue doubling as its robotaxi business grew 204% in Q3. Despite a sharp day change of -7.87% and trading 28.09% below its 20-day MA, the stock has logged 5 consecutive observations with a positive price acceleration of 2.8475 percentage points and a relative volume of 1.58x normal. This strong operational growth combined with heavy volume creates a prime dip-buying opportunity for a mean-reversion bounce over the next few days. BEAR: WRD is a high-risk long entry on 2026-11-20 despite a same-session Benzinga headline reporting that revenue doubled and robotaxi business grew 204% in Q3, because the stock is experiencing severe downward pressure with a 7.87% day change and a -28.09% distance from its 20-day moving average. Furthermore, the company reported negative earnings of -0.9681 EPS on the exact same session date, exposing buyers to immediate fundamental digestion risk. The momentum data confirms deterioration with a current drawdown of 4.3561% from its observed high and a weak relative volume rate of 0.1902 per 30 minutes, indicating that participation is fading rapidly as the price sits 28% below its trend. Buying today means catching a falling knife where the fresh Q3 earnings release has failed to prevent a steep intraday selloff.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "TIGR",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: UP Fintech Holding Limited is approaching its third quarter 2026 financial results announcement scheduled for November 24, 2026, which is just 4 calendar days after the session, providing a clear fundamental catalyst for positioning. Sector momentum is additionally supported by a recent November 19, 2026 SeekingAlpha rating upgrade on peer Futu Holdings following impressive Q3 results. Although intraday price action shows a 4.59% pullback to $3.63 with a mixed tape history across two observations and only 30 minutes since first seen, relative volume is running strong at 2.68x normal. This combination of heightened participation and an imminent earnings catalyst offers a compelling setup for a mean-reversion bounce into the upcoming report. BEAR: TIGR is experiencing a weak session on 2.68x relative volume, currently trading down -4.59% at $3.63 and sitting 7.75% below its 20-day moving average. The supplied same-session momentum history confirms clear deterioration, showing a 0.5472% drawdown from its observed high over its first two 30-minute intervals with zero positive observed intervals and a stagnant volume rate of 0.1908 per 30 minutes. Furthermore, the company's upcoming third-quarter financial results are scheduled to be reported on November 24, 2026, which is only 4 calendar days after this session, placing high-impact binary earnings risk directly inside the short-term holding window. Buying today means stepping into ongoing downward price momentum just ahead of an imminent earnings catalyst.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NOAH",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: NOAH is currently seeing high investor attention as evidenced by today's fresh news regarding its role in high-yield money market and treasury products, setting up a potential play ahead of the upcoming earnings report on November 23rd. While today's price action shows a retracement, the relative volume of 2.21x confirms that institutional interest is elevated, creating a liquidity window for a mean-reversion trade back toward its 20-day moving average. The combination of high volume participation and proximity to a fundamental catalyst makes this a viable tactical buy for traders looking to capture a bounce from current oversold levels. BEAR: Buying NOAH today means walking directly into an unfolding multi-interval drawdown with an imminent earnings catalyst only 3 calendar days away on 2026-11-23. The same-session momentum history confirms clear deterioration: across 5 consecutive scans, price has fallen 3.38% from its observed high of $6.50 to $6.28, featuring zero positive observed intervals and a worsening rank from 12 to 13. Furthermore, the same-day retail headline regarding money market and treasury yields offers no actionable directional cushion against this persistent downward pressure. Entering this position right before the upcoming earnings report while the tape shows negative acceleration and fading relative volume is an unnecessary exposure to binary event risk.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BSP",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: Bending Spoons S.p.A. (BSP) is advancing during its same US trading-session date of earnings release on 2026-11-20, supported by headlines such as the Q3 2026 Earnings Call Transcript and Wall Street forecasters revamping expectations. The tape confirms accumulation with 1.63x relative volume, a solid +5.95% day change, and three consecutive scan observations showing a positive price development of +1.3768% since the previous period alongside a rank improvement to 14. With price acceleration reaching +4.5754 percentage points and limited drawdown from the observed high of $45.02, momentum favors a continuation higher over the coming sessions. BEAR: BSP is currently flashing clear signs of chasing and intraday deterioration following its Q3 2026 earnings release on 2026-11-20. Although the stock shows a +5.95% day change, the session history reveals a drawdown of -1.86% from its observed high of $45.02 down to $44.18, alongside a negative return of -1.87% since it was first seen 60 minutes prior. Furthermore, the relative volume rate per 30 minutes has slumped to 0.1955 with a declining rate of change (-0.0259), confirming that participation is fading rapidly while the price sits elevated. Buying right now means stepping in as immediate post-earnings momentum rolls over and early buyers take profits.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BTDR",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: BTDR presents a deep-value oversold bounce setup despite negative headlines, trading down 14.52% on the session to $2.92 and sitting 52.34% below its 20-day moving average. The catalyst report reflects recent downward pressure and fair value cuts, such as StoneX maintaining a Buy rating while lowering its target to $15 on November 18, 2026, which leaves massive upside room if capitulation is exhausted. Intraday history shows four consecutive observations across 90 minutes with a return since first seen of 1.5679% and a modest observed-high drawdown of only 2.8333% from a $3.00 high. Although relative volume is soft at 0.84x normal, the extreme distance from moving averages creates a compelling rubber-band snapback candidate for a short-term swing trade. BEAR: BTDR is currently experiencing significant downward momentum with a 14.52% day change and a price that is 52.34% below its 20-day MA, signaling a structural breakdown rather than a temporary dip. The tape shows clear deterioration: price acceleration is negative at -0.5197%, and the stock is seeing rank degradation despite low relative volume, suggesting the sell-off is persistent without finding any immediate support. Investors are actively 'running for the exits' per the November 18 news cycle, and the absence of any positive catalyst to counteract this sentiment reinforces the likelihood of further technical capitulation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ABVX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AKAN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BILL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MPU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "YSWY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SVRA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "POAS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NCPL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "GAP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MSBT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "WRD",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "TIGR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NOAH",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BSP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BTDR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
