@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-11-23T13:11:12-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "ZS",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Zscaler is experiencing a major catalyst-driven breakout today following news of a $43.9 billion acquisition by CrowdStrike, which has triggered a massive 5.82x increase in relative volume. Analyst confidence remains high as B. Riley Securities reaffirmed its Buy rating and raised the price target to $260, validating the potential for further upside despite the current session's intraday consolidation. The stock has maintained strong momentum with six consecutive observations, and its current price of $225.13 reflects a robust 15.56% gain that demonstrates significant institutional demand. Investors are positioned to capitalize on this transformative industry consolidation ahead of the upcoming earnings report on December 2nd. BEAR: ZS is currently experiencing 'chasing' risk as the price has failed to hold its intraday highs, showing a drawdown of -0.8988% from the observed high of $227.17 and a negative return of -0.8718% since the morning open. The relative volume rate is deteriorating with a change of -0.0303, signaling that the initial speculative excitement surrounding the CrowdStrike acquisition news is cooling. Furthermore, the stock faces an earnings event on 2026-12-02, which is well within a standard holding window, introducing significant binary risk that could quickly reverse today's 15.56% gain.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.39e+10 - no matching value in source data"
+      ]
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "ZS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

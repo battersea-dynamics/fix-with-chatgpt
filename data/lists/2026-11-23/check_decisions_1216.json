@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-11-23T12:46:04-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CUE",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 5.75,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: CUE is surging +69.40% on massive relative volume of 6.65x normal, holding rank 1 across 5 consecutive observations over 120 minutes with a net gain of 20.79% since first seen. While the catalyst report contains no positive fundamental news\u2014noting instead negative sentiment regarding the CUE 221 debate on November 20\u2014the extraordinary price velocity and persistence demonstrate high speculative participation. Despite a pullback from its observed high of $8.34 down to $7.03, the sheer momentum leaves room for a short-term bounce if buyers step back in to defend the intraday range. BEAR: CUE is exhibiting clear measurable deterioration following its initial surge, down 14.48% since the previous interval and sitting 15.71% below its observed high of $8.34 with a negative price acceleration of -13.04%. Furthermore, relative volume momentum has stalled, evidenced by a relative volume rate change of -2.00, confirming that participation is fading rapidly while the price remains heavily extended despite a fundamental overhang from the November 20 Yahoo headline citing CUE 221 debate clouding the valuation outlook. Buying today means stepping directly in front of active momentum degradation and waning volume confirmation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KYMR",
+      "signal": "buy",
+      "confidence": 0.7,
+      "take_profit_pct": 11.25,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.40 = bull 0.90 - bear 0.50 (buy at >= +0.20). BULL: KYMR is surging on a major catalyst from the same US trading session on 2026-11-23, announcing positive 16-week results from its BROADEN2 Phase 2b trial of KT-621 for atopic dermatitis that met primary and secondary endpoints. This fundamental breakthrough is backed by overwhelming volume confirmation, trading at 4.33x its normal volume with a day change of +37.36% and sitting right at its observed high with 0.0% drawdown. The intraday momentum is exceptionally robust, showing 5 consecutive scans over 120 minutes with a price acceleration of +3.56% points and a total return since first seen of +10.59%. BEAR: Buying KYMR today at $158.38 means entering at an extreme extension, sitting 25.55% above its 20-day moving average following a fresh same-session catalyst reporting 16-week results from the BROADEN2 Phase 2b trial of KT-621. While the news is brand new on 2026-11-23, the 37.36% single-day surge and high relative volume of 4.33x mean that the primary headline value is fully exposed and vulnerable to immediate profit-taking. Furthermore, the relative volume rate per 30 minutes sits at 0.2506 with a rate change of -0.1455, indicating that participation is actively fading even as the price touches the observed high of $158.38. Entering here forces a purchase into the absolute peak of the binary announcement window where initial momentum can easily give way to mean reversion as institutional distribution begins.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZS",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 9.06,
+      "stop_loss_pct": 2.81,
+      "reasoning": "net +0.15 = bull 0.90 - bear 0.75 (buy at >= +0.20). BULL: ZS is surging on an extraordinary same-session catalyst, highlighted by CrowdStrike's announced $43.9 billion acquisition deal on November 23, 2026, alongside B. Riley Securities raising its price target to $260. The stock is backing this up with massive volume participation, trading at 5.52x normal relative volume while delivering a 16.61% day change to $227.17. Furthermore, the momentum history confirms strong persistence with 5 consecutive scans showing a 0.0% drawdown from the observed high of $227.1719 and positive price development since first seen. With strong merger-related tailwinds and solid volume confirmation, the case for continued upside is exceptionally robust. BEAR: Buying ZS today at $227.17 exposes a buyer to severe headline exhaustion following the fresh same-session CrowdStrike acquisition news ($43.9 billion to $44B deal) and B. Riley's price target hike to $260. With relative volume dropping to a rate of 0.3262 per 30 minutes and a declining score change of -0.4091 over its 120-minute history, participation is actively fading while the stock sits up +16.61% on the day. Furthermore, earnings are scheduled for 2026-12-02, which is 9 calendar days after the session and lands squarely within a multi-day holding window, introducing binary event risk right as initial M&A euphoria peaks.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.39e+10 - no matching value in source data",
+        "bear: cited 4.39e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: NVDA is experiencing a massive fundamental re-rating driven by the return of Jensen Huang to leadership and high-level political assurances from the Trump administration, which directly removes significant tail-risk overhang. The stock is demonstrating extreme momentum with a 32.78% gain on the day, supported by overwhelming volume at 1.80x the 20-day average, signaling institutional aggressive accumulation. Although price acceleration has cooled slightly in the latest intervals, the consistent participation over five consecutive observations confirms significant buyer interest is sustaining these elevated levels. Investors are reacting to a clear catalyst path that validates the company's $115B neocloud exposure as a core growth driver. BEAR: NVDA is experiencing a massive single-session surge of +32.78% driven by fresh same-session headlines regarding Jensen Huang's return and White House assurances, but the momentum is already showing clear signs of tactical exhaustion. The intraday record shows a return of -0.036% since first seen with rank deterioration dropping from 8 to 9, while the relative volume rate per 30-minute interval has slowed to just 0.1134 with a negative change of -0.0451. Buying at this extreme extension of $166.68 leaves a buyer chasing the peak of a headline-driven gap up, with the price already drawn down 0.57% from its observed high of $167.64.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CSIQ",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.40 = bull 0.35 - bear 0.75 (buy at >= +0.20). BULL: CSIQ presents a deep-value oversold bounce candidate trading at $5.57, sitting 40.88 percent below its 20-day moving average alongside an elevated relative volume of 1.47x. The momentum history shows four consecutive observations across 90 minutes with score improvement and a relatively tight drawdown of 3.21 percent from its observed high of $5.755 despite a 7.48 percent daily drop. The catalyst report contains no specific company news explaining today's sharp decline, creating a clean technical mean-reversion setup into the upcoming earnings date on 2026-12-03. This is a tape-only and oversold-extension trade backed by high relative volume persistence rather than a fundamental headline catalyst. BEAR: CSIQ is down 7.48% on the session and trading 40.88% below its 20-day moving average, showing extreme structural weakness rather than a buyable dip. The momentum snapshot confirms ongoing distribution with a negative return of -1.76% since the previous interval and a drawdown of 3.21% from the observed high. Furthermore, an upcoming earnings report on 2026-12-03 is only 10 calendar days away, placing it squarely within a multi-day holding window with consensus estimating a net loss of -0.8486 EPS. Buying into this falling knife with deteriorating intraday metrics and an impending earnings drag creates severe downside exposure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DELL",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: DELL is seeing massive institutional buying today, up 22.43% on 1.23x relative volume as the market reprices AI server expectations ahead of tomorrow's earnings. The sector-wide momentum is clearly validated by headlines from 2026-11-23 regarding surging AI server prices and competitor strength, setting a bullish tone for Dell's upcoming report. With five consecutive observations showing high engagement and a significant price acceleration of 2.5353% points, the stock is demonstrating strong leadership within the AI hardware space. Investors are clearly positioning for a potential beat, and the current momentum suggests the stock could test its recent highs as this fundamental narrative matures. BEAR: Buying DELL today represents an extreme 'chasing' scenario, as the stock has already surged 22.43% on a day where the primary catalyst\u2014sector-wide AI server price hikes\u2014is likely already fully reflected in the price. The internal momentum data confirms this deterioration, showing a 0.3863% drawdown from the session high and a weakening relative volume rate (-0.0078 change per 30 minutes). Furthermore, holding through tomorrow morning is essentially gambling on an binary earnings event scheduled for after market close on 2026-11-24, creating an unacceptable risk profile given the current inflated price levels.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NBIS",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: NBIS is surging +23.81% on the session with relative volume at 1.19x normal, fueled by fresh same-session news on November 23, 2026, such as headlines stating 'CoreWeave, Nebius lead neocloud stocks higher as Jensen Huang's Nvidia return lifts AI trade' and 'Nebius Rallies 30% Despite New U.S. Curbs Threatening Neocloud Business in Southeast Asia'. The momentum is backed by 5 consecutive observations over 120 minutes, including a 1.71% return since the previous scan and a limited observed high drawdown of 1.97%. Although it remains 25.14% below its 20-day moving average, this gap highlights substantial room to run if the neocloud rebound persists. BEAR: NBIS is currently exhibiting clear signs of exhaustion, with a 1.97% drawdown from its observed high and a negative price performance since it was first scanned 120 minutes ago. The rally is fundamentally fragile, as evidenced by the decelerating relative volume rate and a score change of -0.0952, suggesting that buyers are losing conviction at these elevated levels despite the headlines surrounding neocloud stocks. Furthermore, the stock remains 25.14% away from its 20-day moving average, and the presence of news regarding 'new U.S. curbs threatening neocloud business' indicates that today's price action is trying to ignore significant long-term regulatory headwinds that will likely reassert pressure on the stock shortly.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MNRO",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.36,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net -0.45 = bull 0.20 - bear 0.65 (buy at >= +0.20). BULL: MNRO is trading at $8.27 following a sharp 12.95% drop and sits 27.64% below its 20-day moving average, creating an extreme oversold condition ripe for a mean-reversion bounce. Relative volume is elevated at 1.15x normal, indicating heavy participation as the selloff unfolds. The catalyst report contains no earnings, dividends, or recent news in the last seven days, meaning the move is purely technical and unsupported by fundamental breaking news. With only one observation recorded and insufficient history to confirm persistence, this is a speculative tape-only setup relying entirely on an oversold snapback. Therefore, confidence remains constrained and low given the lack of confirming multi-period positive development. BEAR: MNRO is suffering a severe -12.95% sell-off, leaving the stock trading 27.64% below its 20-day moving average with no fundamental catalyst or news to explain the breakdown. The lack of any headlines or scheduled events creates significant uncertainty, suggesting that institutional sellers may be dumping shares without a public trigger. With the stock currently showing a drawdown from its observed high and trading on 1.15x relative volume, this is a clear case of a falling knife where there is no visible floor or sentiment catalyst to support a quick bounce. Buying into this momentum vacuum is dangerous because the underlying cause for the massive price depreciation remains opaque and potentially ongoing.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SUPX",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.45,
+      "stop_loss_pct": 1.4,
+      "reasoning": "net -0.40 = bull 0.20 - bear 0.60 (buy at >= +0.20). BULL: SUPX is showing early participation today at $3.65 with a relative volume of 1.56x normal despite a slight intraday dip of -1.35%. The catalyst report shows no upcoming earnings, dividends, or news headlines, meaning this movement is driven entirely by tape action rather than a specific fundamental catalyst. Furthermore, the intraday history consists of only a single observation at 12:17 ET with no consecutive confirmation or positive interval development yet. Because the price is currently sitting 29.82% below its 20-day moving average, any momentum bounce offers a potential mean-reversion scalp opportunity for a multi-hour hold. BEAR: SUPX is trading significantly beneath its 20-day moving average by 29.82%, indicating a stock in a persistent downtrend rather than a breakout. With a complete lack of news catalysts and a 1.56x relative volume increase on a day where the price is down 1.35%, the elevated activity confirms selling pressure rather than buying interest. Buying into this name is essentially catching a falling knife with no fundamental news to support a reversal in the short term.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CUE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KYMR",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 2.89% (bid $153.20, ask $157.69); 1% max"
+    },
+    {
+      "symbol": "ZS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CSIQ",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DELL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NBIS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MNRO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SUPX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

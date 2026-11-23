@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-11-23T13:18:42-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CUE",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 6.9,
+      "stop_loss_pct": 4.02,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: CUE is surging +57.85% today to $6.55 on massive relative volume of 7.31x normal, backed by 7 consecutive positive shortlist observations spanning 180 minutes and consistent rank #1 retention. While the catalyst report shows no direct positive news supporting the move\u2014highlighting instead a November 20 headline regarding CUE 221 debate\u2014the tape exhibits strong momentum persistence with a return since first seen of 12.5567% and a price acceleration of 11.0159 percentage points despite a 21.45% drawdown from its observed high of $8.34. With a tape-only confirmation supporting continuation, this aggressive momentum play targets high-volatility upside. BEAR: CUE is severely overextended despite a massive 57.85% day change, sitting down -58.88% from its 20-day MA while suffering from a brutal 21.45% drawdown from its observed high of $8.34 down to $6.55. Furthermore, participation is rapidly drying up with the relative volume rate per 30-minute interval dropping to 0.281 alongside a negative volume rate change of -0.099, confirming that buying interest has evaporated. This exhaustion is compounded by recent negative fundamental headwinds, specifically the November 20 Yahoo headline reporting that Cue Biopharma's fair value moved lower as the CUE 221 debate clouds the outlook.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CAPR",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 5.25,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: Capricor Therapeutics is experiencing extreme oversold conditions following a 76.00% drop on 2026-11-23 after receiving a second FDA rejection for its Duchenne cell therapy deramiocel, creating a potential violent dead-cat bounce or short-term relief rally. Despite the severe headline news, the tape demonstrates early stabilization with 7 consecutive observations and positive momentum showing a 3.7892% return since the previous scan and a 2.0448% return since first seen. Furthermore, relative volume is elevated at 4.16x normal, and the drawdown from the observed high is contained at just 3.8786% with strong price acceleration of 8.279 percentage points. BEAR: The stock has plummeted 76% following a catastrophic fundamental catalyst: a second FDA rejection for its Duchenne cell therapy. This is not a technical setup, but a repricing event where the core value proposition of the company has been severely impaired, as evidenced by the need to reschedule investor calls. Attempting to trade this is essentially catching a falling knife, as the price is trading 77.6% below its 20-day MA with no clear floor. The setup is labeled 'exhausted or reversing' and current volume participation is waning, making any attempt to buy into this volatility pure speculation rather than a sound technical entry.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CUE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "CAPR",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

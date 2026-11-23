@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-11-23T11:28:52-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "CUE",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: CUE is exhibiting aggressive session momentum with a 100.96% day change to $8.34 and a relative volume of 2.04x normal, supported by 3 consecutive scans over a 60-minute span showing a return of 43.29% since first seen and zero drawdown from its observed high of $8.34. Rank improvement of 4 spots up to 2nd alongside a price acceleration of 55.26 percentage points demonstrates aggressive immediate participation and sustained continuation. Note that the catalyst report contains no news explaining this surge, as headlines from 3 to 5 days prior merely discuss fair value adjustments and analyst caution, meaning this is strictly a tape-driven momentum event without a positive fundamental headline to anchor it. BEAR: CUE is up 100.96% on the day to $8.34, yet it remains heavily discounted at 47.65% below its 20-day moving average, signaling a violent snapback within a broader downtrend rather than a durable structural reversal. This explosive price action directly contradicts the negative fundamental sentiment from just 3 calendar days before the session on November 20, 2026, when Yahoo reported that Cue Biopharma's fair value moved lower as the 'CUE 221 Debate Clouds Outlook'. Furthermore, while the same-session momentum shows a recent rank improvement and a 50.49% return surge since the previous observation, buying into a 2.04x relative volume spike that collides with unresolved pipeline debates and cloudiness around CUE 221 creates high vulnerability to an aggressive fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KYMR",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 9.38,
+      "stop_loss_pct": 3.75,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: Kymera Therapeutics is surging 34.70% today backed by a major positive catalyst on 2026-11-23 announcing that its BROADEN2 Phase 2b trial of KT-621 for atopic dermatitis met primary and secondary endpoints with statistically significant improvements. Volume confirmation is exceptionally strong with relative volume at 3.68x normal alongside sustained momentum showing 3 consecutive scans, a 8.45% return since first seen, and a zero drawdown from the observed high of $155.32. This powerful fundamental catalyst combined with robust institutional participation creates a compelling continuation setup to ride higher over the next few sessions. BEAR: KYMR is trading at $155.32, sitting 23.12% above its 20-day moving average following a fresh same-session catalyst: the announcement of 16-week results from its BROADEN2 Phase 2b trial of KT-621 for Atopic Dermatitis. While the news released today is completely fresh and positive, buying into a stock stretched over 23% from its moving average on a 3.68x relative volume surge exposes the trade to immediate profit-taking and exhaustion risk after the headline reaction. Furthermore, the 30-minute interval data shows the relative volume rate per 30 minutes at a modest 0.6247, indicating that participation intensity is not keeping pace with the aggressive price expansion. Entering long at these heights risks absorbing the immediate pullback once the initial biotech catalyst euphoria fully exhausts its momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZS",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net +0.10 = bull 0.80 - bear 0.70 (buy at >= +0.20). BULL: ZS is experiencing massive momentum today, surging 13.67% on a colossal 4.82x normal relative volume driven by major M&A headlines, including CrowdStrike's $43.9 billion acquisition deal announced on 2026-11-23. Analyst backing remains robust, highlighted by B. Riley Securities maintaining a Buy rating and raising its price target to $260 on the same day. Despite a modest intraday pullback from its observed high of $227.11 to a current close of $221.46 across three consecutive scan observations, the heavy volume and transformational news catalyst provide a strong foundation for further upside heading into the upcoming earnings event on 2026-12-02. BEAR: Buying ZS today at $221.46 exposes an entry right into confirmed intraday exhaustion following the massive headline catalyst of CrowdStrike's $43.9 billion acquisition announcement. The momentum history shows measurable deterioration within 60 minutes of being first seen, featuring a drawdown of 2.49 percent from the observed high of $227.11 and consecutive negative returns across observed intervals. Furthermore, rank has slipped from 2 to 4 while the relative volume rate per 30 minutes sits at a lackluster 0.8817, signaling that participation is fading rapidly after the initial gap-up reaction to the fresh same-session news.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.39e+10 - no matching value in source data",
+        "bear: cited 4.39e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "MPU",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: MPU displays solid tape-only continuation persistence backed by 3 consecutive observations over 60 minutes, delivering a 7.63% return since first seen and hitting an observed high of $4.54 with 0.0% drawdown. The move features robust price acceleration of 6.07 percentage points and a +148.68% extension from its 20-day moving average, demonstrating intense short-term momentum despite low relative volume. Regarding catalysts, the news report contains no headlines explaining today's specific move, though an upcoming earnings report is scheduled 10 calendar days after the session on 2026-12-03. This is purely a tape-driven momentum play sustained by strict consecutive positive intervals and zero current drawdown from its high. BEAR: Buying MPU right now means chasing an extreme extension sitting 148.68% above its 20-day moving average while volume completely fails to confirm the move at 0.11x normal relative volume and a negligible rel_volume_rate_per_30m of 0.0078. Furthermore, the lack of any fresh same-session catalyst leaves the recent price acceleration vulnerable to a sudden reversion, compounded by looming earnings just 10 calendar days away on 2026-12-03 that threaten to disrupt a multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NVDA",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: NVDA is displaying strong explosive momentum today with a massive 33.02% day change to $166.98 and robust relative volume running at 1.52x normal. The same-session momentum history confirms persistence across 3 consecutive scans over 60 minutes, delivering a positive return since first seen of 0.1439% and maintaining a tight drawdown of only -0.3938% from its observed high of $167.6401. Furthermore, high-level catalysts are actively supporting the name, highlighted by a same US trading-session date headline on November 23, 2026, where President Trump urged Nvidia to reinstate Jensen Huang, calling him the best thing for the U.S. This powerful combination of immense volume, persistent intraday tape development, and high-profile same-session catalyst headlines provides a solid foundation for further upside. BEAR: NVDA is experiencing clear same-session momentum exhaustion following a massive +33.02% day change, with consecutive scans showing measurable deterioration including a negative return of -0.39% since the previous interval, a drop in rank from 7 to 8, and slowing relative volume velocity of 0.1526 per 30 minutes. Furthermore, the fresh same-session headline regarding political pressure urging Nvidia to reinstate Jensen Huang introduces headline-driven volatility that fails to provide fundamental support for a chase at $166.98. Buying this extended setup exposes the position to immediate mean-reversion risk as participation fades and profit-taking accelerates from the observed high of $167.64.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "IREN",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: IREN is staging a massive recovery session with a day change of +29.06% to $15.26, supported by three consecutive observations and a slight rank improvement from 11 to 10 despite broader sector concerns over oversold neoclouds mentioned in Benzinga headlines on 2026-11-22. The price has held remarkably stable with a minimal drawdown of just 1.29% from its observed high of $15.455 over 60 minutes since first seen. Although relative volume is currently soft at 0.89x and there is no specific single catalyst headline on 2026-11-23 explaining the move, the strong intraday momentum and resilience provide a compelling base for a short-term continuation play. This tape-driven momentum offers solid room to run as the market re-evaluates beaten-down AI infrastructure names. BEAR: Buying IREN today involves severe chasing and intraday deterioration following the 2026-11-22 Benzinga headline placing it among neoclouds getting oversold as AI bubble fears rise. The session data shows measurable exhaustion with volume not confirming, displaying a sub-par relative volume of 0.89x and a sluggish rel volume rate of 0.0847 per 30 minutes. Furthermore, same-session momentum has already turned negative with a drawdown of 1.29% from its observed high and consistent negative returns across its observed intervals since being first seen. Despite a +29.06% day change, the stock remains deeply depressed at -26.14% from its 20-day MA while losing intra-session momentum, making this an unfavorable entry point.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "NBIS",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.25 = bull 0.50 - bear 0.75 (buy at >= +0.20). BULL: NBIS is surging today with a +24.30% day change to $101.07 backed by fresh sector headlines on 2026-11-23 such as 'Why Is Nebius Stock Surging on Monday?' and neocloud pre-payment analysis. The tape shows 3 consecutive observations and 3 total observations starting at 10:17 ET, demonstrating persistent interest despite a slight pullback to an observed high drawdown of 1.58%. With relative volume at 1.07x normal, the momentum supports an aggressive continuation play. BEAR: Buying NBIS today at $101.07 means chasing a 24.30% single-day surge driven by fresh macroeconomic and sector headlines like Gavin Baker's comments on neocloud consolidation and pre-market chip rallies, leaving buyers as immediate exit liquidity into the gap up. The supplied same-session history already confirms measurable deterioration within 60 minutes of being first seen, showing consecutive rank declines from 10 to 11, a negative return of -1.58% from its observed high of $102.69, and a sluggish relative volume rate per 30 minutes of just 0.0869 with a negative acceleration of -2.03%. Despite the large headline-driven move, volume is failing to confirm continuation as price drifts downward from its intraday peak.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DELL",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 8.62,
+      "stop_loss_pct": 3.45,
+      "reasoning": "net -0.15 = bull 0.70 - bear 0.85 (buy at >= +0.20). BULL: DELL is surging 21.67% on heavy momentum backed by same-session news on 2026-11-23 reporting that Dell soars 30% ahead of earnings amid rising AI server prices across the sector. Earnings are scheduled for 2026-11-24, exactly 1 calendar day after the session, providing an immediate catalyst for continued explosive volatility and upside continuation. Although the intraday momentum shows a minor pullback with a -1.0053% drawdown from its observed high of $341.70 across 3 consecutive scans, the sheer magnitude of the sector-wide AI server pricing strength supports buying the momentum before the imminent earnings report. BEAR: Buying DELL today means stepping directly in front of an explosive binary event, with earnings scheduled just 1 calendar day after the session on November 24, 2026. Same-session momentum shows clear exhaustion and distribution following its +21.67% day change, with consecutive scans revealing a 1.0053% drawdown from its observed high and zero positive intervals over the tracked window. Furthermore, the fresh same-session Yahoo headline 'Dell Faces $49 Billion Earnings Test as AI Server Costs Threaten Margins' highlights that the massive rally is riding coattails on peer Super Micro's pricing reports rather than confirmed execution, leaving the stock violently exposed to margin compression fears.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OPTX",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.2,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Syntec Optics Holdings Inc is showing strong upside momentum with a day change of +23.21% and trading +30.29% above its 20-day moving average at $7.75. This price action is supported by recent fundamental catalysts, including record revenue and defense tech growth highlighted during its Q3 2026 earnings call on 2026-11-19. Although the intraday history currently consists of only a single observation at 11:16 ET, the combination of robust post-earnings momentum and solid trend extension provides a compelling entry point for short-term continuation. The take profit is targeted at an achievable expansion above current levels, while the stop loss provides adequate cushion against volatility. BEAR: Buying OPTX today at +30.29% above its 20-day moving average exposes a classic news-already-priced failure mode following the November 19 Q3 earnings call headlines regarding defense tech growth. Furthermore, participation is clearly not confirming the +23.21% day change, as relative volume sits at a weak 0.73x normal. Entering now means chasing a stale post-earnings move on fading volume with no fresh same-session catalyst to sustain the extension.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "CUE",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KYMR",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 28.17% (bid $133.41, ask $177.15); 1% max"
+    },
+    {
+      "symbol": "ZS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MPU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NVDA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "IREN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "NBIS",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DELL",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OPTX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

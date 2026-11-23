@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-11-23T09:07:24-05:00",
+  "decisions": [
+    {
+      "symbol": "APLD",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.30 = bull 0.55 - bear 0.85 (buy at >= +0.20). BULL: APLD is trading up +12.36% in the pre-market to $12.91 on 1.88 million shares, representing a strong 4.11x multiple against its baseline average volume. Examining the recent news headlines from November 20 to November 22, there is no company-specific headline for APLD explaining this move, as the articles focus broadly on CoreWeave, Nvidia, and AI sell-offs. Despite the lack of an individualized catalyst in the news feed, the candle structure exhibits a bullish reversal pattern with a solid conviction score of 0.75, backed by heavy and sustained pre-market volume holding near the highs. Therefore, the genuine participation footprint supports an opening momentum play for continuation, even though the fundamental driver is absent from our direct news context. BEAR: APLD is marching into a +12.36% gap at $12.91 on 1.88M pre-market shares, but the recent news flow provides zero fundamental justification for this markup, featuring instead a November 22 Yahoo headline quoting Satya Nadella warning that selling to one or two customers is not a business, directly threatening high-concentration infrastructure players like CoreWeave and its partners. Furthermore, headlines from November 21 and 20 highlight that APLD is exposed to an active AI sell-off, congressional scrutiny on GPU-backed debt, and its classification among the most overvalued AI stocks by short sellers. This creates a classic gap-fade and opening-auction reversal trap where the thin 4.11x volume signature will instantly collide with broader sector distribution at 9:30, making the opening print pure exit liquidity for trapped longs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CAPR",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.58,
+      "reasoning": "net -0.60 = bull 0.35 - bear 0.95 (buy at >= +0.20). BULL: Capricor Therapeutics is experiencing an extreme 75.10% pre-market gap down to $1.89 following recent updates regarding the Deramiocel BLA for Duchenne Muscular Dystrophy highlighted in headlines through November 21, 2026. Pre-market volume has exploded to 4,292,093 shares, which is 27.76x the baseline average, indicating massive capitulation and forced liquidation ahead of the open. While the candle agent reads this as an exhaustion gap down with bearish conviction, the sheer magnitude of volume traded before the bell creates a classic washout setup for an oversold bounce. Buying at the open captures the extreme panic pricing, with a short-term trade rebound expected as sellers exhaust themselves. BEAR: Capricor Therapeutics is suffering a catastrophic 75.10% pre-market gap down to $1.89 following the regulatory update on the Deramiocel BLA for Duchenne Muscular Dystrophy from the November 21 headline. This severe exhaustion structure, confirmed by a 0.95 conviction candle read, signals that the fundamental thesis has broken down completely rather than offering a buy-the-dip opportunity. With heavy pre-market volume of over 4.29 million shares reflecting an absolute liquidation event, attempting to catch this falling knife at the open invites an opening-auction reversal and immediate capital destruction as trapped longs exit into any remaining liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CDE",
+      "signal": "hold",
+      "confidence": 0.535,
+      "take_profit_pct": 3.63,
+      "stop_loss_pct": 1.65,
+      "reasoning": "net +0.07 = bull 0.75 - bear 0.68 (buy at >= +0.20). BULL: CDE is displaying a strong pre-market footprint, gapping +5.99% to $11.32 on 667,393 shares, which is 6.08x its baseline average volume, backed by a fresh SeekingAlpha headline dated 2026-11-23 for its presentation at the NBF CEO Mining Conference. The candle structure reads as a bullish reversal with a conviction of 0.7, indicating solid continuation potential at the open. This heavy, sustained volume combined with a specific corporate presentation catalyst supports aggressive buying for an opening range breakout. BEAR: The +5.99% pre-market gap up to $11.32 is built on a routine company event\u2014'Coeur Mining, Inc. (CDE) Presents at NBF CEO Mining Conference - Slideshow' on 2026-11-23\u2014which lacks the material fundamental catalyst required to sustain a real breakout. This setup strongly favors a gap fade and opening-auction reversal as early retail buyers run directly into institutional profit-taking at the open. Additionally, macro headlines from 2026-11-18 highlight ongoing pressure across precious metals from a strong U.S. dollar and tight Fed policy, providing a hostile background environment for gold and silver equities. Purchasing this opening pop risks buying the high of the day as 9:30 AM liquidity overrules thin conference-driven momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRWD",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: CrowdStrike is experiencing massive pre-market volume of 1,382,721 shares, representing 21.14x its baseline average, driven by the major November 23, 2026 headline announcing its $43.9B all-stock acquisition of Zscaler. While the immediate reaction is a 7.93% gap down and a bearish continuation pattern, this heavy liquidity footprint signals immense institutional reassessment rather than a fading dead tape. Buying the open capitalizes on extreme merger-arbitrage dislocation where the initial panic of an all-stock deal often creates an oversold bounce opportunity as the market digests the long-term cybersecurity consolidation monopoly. BEAR: Attempting to catch the fall on CRWD at today's open carries exceptional risk following the 2026-11-23 announcement of its $43.9 billion all-stock acquisition of Zscaler. Acquirers in mega-cap all-stock deals routinely face prolonged downward pressure from equity dilution, which is already driving heavy pre-market volume of 1,382,721 shares (21.14x baseline) down -7.93% to $211.24. The technical structure confirms a strong bearish continuation pattern with 0.9 conviction, indicating that opening liquidity will likely accelerate the decline rather than stage a gap-fade recovery. Buying the open forces traders to absorb severe ongoing institutional distribution with no evidence of seller exhaustion.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bear: cited 4.39e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "EXK",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.38,
+      "stop_loss_pct": 1.69,
+      "reasoning": "net +0.15 = bull 0.80 - bear 0.65 (buy at >= +0.20). BULL: EXK gaps up 6.33% to $6.05 backed by a massive 7.03x volume multiple over baseline, with 554,587 shares traded in pre-market. This heavy accumulation directly reflects strong follow-through from the recent November 21, 2026 news regarding the $585 million Pitarrilla Mine feasibility study and long-term silver production discussions. The candle agent identifies a bullish reversal structure with a solid 0.7 conviction, confirming that buyers are aggressively absorbing supply. This high-volume participation and fundamental catalyst combination justifies buying the opening continuation. BEAR: EXK is gapping up +6.33% to $6.05 on 554,587 shares, but the primary catalyst\u2014the Pitarrilla Feasibility Study headline\u2014is stale news from November 20-21. Promising production by 2030 provides zero near-term earnings catalyst, making this move highly vulnerable to being already priced in. Without fresh morning news on November 23, this pre-market gap fits an opening-auction reversal failure mode where retail buyers chasing stale headlines provide exit liquidity. Real opening liquidity is likely to reject this extended move, resulting in a typical gap fade.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 5.85e+08 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "HPE",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.15 = bull 0.70 - bear 0.85 (buy at >= +0.20). BULL: HPE opens up 7.55% at $44.00 backed by heavy volume of 383,403 shares, representing 4.39x its baseline average, which confirms a true accumulation footprint rather than a thin tape anomaly. The pre-market action aligns directly with the November 23, 2026 Yahoo headline Why Is HPE Stock Up 6% Overnight? and benefits from the broader sector strength noted in Chip Stocks Lead Premarket Bounce as SOXX Soars. With the candle agent reading a reversal pattern with a bullish bias and 0.7 conviction, the structure supports continuation as long as the opening bid holds near the highs. Therefore, buying at the open offers a strong momentum play riding this confirmed catalyst. BEAR: HPE's 7.55% pre-market gap to $44.00 is riding entirely on a macro sympathy wave from the 'Chip Stocks Lead Premarket Bounce as SOXX Soars' and 'US Stock Futures Rebound After AI Sell-Off' headlines from November 23, rather than any company-specific fundamental catalyst. With only 383,403 shares trading on the pre-market tape, this move is vulnerable to thin-tape pricing where the printed price collapses upon hitting real 9:30 institutional liquidity. Furthermore, the 0.7 conviction bullish reversal structure is already fully expressed in the overnight print, making this classic opening-auction exhaustion where the pre-market high becomes the high of the day and morning buyers provide the exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KYMR",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 2.27,
+      "reasoning": "net +0.20 = bull 0.90 - bear 0.70 (buy at >= +0.20). BULL: KYMR is gapping +17.08% to $135.00 on massive, highly sustained pre-market volume of over 550,000 shares, representing an extraordinary 433.28x multiple over its baseline average. This heavy accumulation directly aligns with the scheduled November 23, 2026 catalysts announced on November 20 regarding the KT-621 BROADEN2 Phase 2b Atopic Dermatitis trial results. The candle structure confirms a bullish reversal pattern with a 0.7 conviction score, indicating strong institutional sponsorship rather than a fleeting retail spike. Buying at the open captures this high-conviction momentum backed by concrete clinical trial data release. BEAR: KYMR's +17.08% gap to $135.00 comes directly on the date of its scheduled clinical trial readout, previewed by headlines on November 20 titled 'Kymera Therapeutics to Announce KT-621 BROADEN2 Phase 2b Atopic Dermatitis Trial Results on November 23, 2026'. Because the catalyst date was well-publicized in advance, this gap presents a classic 'already priced in' sell-the-news trap where pre-market buyers risk absorbing exit liquidity. An opening-auction reversal and subsequent gap fade are substantial risks at 9:30 AM as real institutional volume confronts a 17% markup on binary biotech data.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "RIG",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 2.7,
+      "stop_loss_pct": 1.2,
+      "reasoning": "net -0.15 = bull 0.65 - bear 0.80 (buy at >= +0.20). BULL: RIG demonstrates a solid pre-market footprint with 396,129 shares traded, achieving 4.80x its baseline average volume alongside a clean +3.66% gap to $4.81. None of the recent Yahoo or SeekingAlpha headlines from November 18 to 21 provide a direct breaking news catalyst for today's specific move, but the structural action shows a consistent gap-and-drift pattern with a bullish conviction score of 0.7. The sustained heavy volume indicates institutional accumulation following recent high-profile focus on offshore drilling portfolios, supporting continuation into the market open. BEAR: The +3.66% gap in RIG to $4.81 is a classic exhaustion structure lacking any fresh, hard catalyst, resting entirely on stale macro commentary from the November 18-21 Yahoo and Seeking Alpha headlines regarding Mohnish Pabrai's 13F and sector risk. With pre-market volume sitting at a modest 396,129 shares, the thin-tape pricing will be easily dismantled by opening-auction liquidity. The candle pattern's gap-and-drift bias points directly to a gap fade, where the 9:30 open serves as the session high and exit liquidity for early buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SNDK",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.05 = bull 0.80 - bear 0.85 (buy at >= +0.20). BULL: SNDK is showing genuine institutional accumulation this morning, gapping up +5.63% to $83.70 on heavy volume of 5.59 million shares, representing 5.66x its baseline average. The move is directly supported by the 2026-11-23 Yahoo headline regarding its recent 8-for-1 stock split alongside a broader sector recovery in U.S. chip and neocloud stocks after last week's selloff. This fundamental catalyst provides concrete backing to the candle structure, which registers a bullish reversal pattern with a 0.7 conviction score. With the volume signature remaining sustained and bids holding firmly into the open, the footprint confirms aggressive buying rather than a fleeting retail blip. BEAR: SNDK is suffering from a classic sector-wide sympathy bounce and a structural head fake, fueled by the 2026-11-23 Yahoo headline 'U.S. chip and neocloud stocks rally premarket after last week\u2019s selloff' rather than any company-specific fundamental turnaround. This +5.63% gap straight into an 8-for-1 stock split headline creates immediate exit liquidity for retail buyers, directly contradicting Morningstar's same-day warning that a NAND memory bust is looming following the stock's worst week since July. With volume sitting at a modest 5.59M shares, the pre-market tape is thin enough that real institutional liquidity arriving at 9:30 will likely trigger an opening-auction reversal and subsequent gap fade right back toward yesterday's $79.24 close.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "UMC",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.05 = bull 0.80 - bear 0.85 (buy at >= +0.20). BULL: UMC is showing a powerful upside reversal gap of 11.77% to $13.46, supported by a heavy pre-market volume of 618,254 shares which is 4.31x its baseline average. The candle structure yields a strong bullish reversal bias with a 0.85 conviction, confirming that buyers are stepping in aggressively after recent sector pressures. While broader news headlines from November 20 outline tech contractions and regional headwinds, the specific fundamental catalyst for UMC is anchored by its recent November 17 announcement of a major NT$7,515,463,105 machinery and equipment acquisition. This heavy volume signature combined with the structural reversal points to solid continuation as the open approaches. BEAR: UMC is attempting to gap up +11.77% to $13.46 on thin pre-market volume of 618,254 shares, completely disconnected from the macro reality reported in the November 20 Benzinga headline about Taiwan stocks suffering their worst week since 1990 and the ongoing AI trade unwinding. The only specific company news is an equipment acquisition filing from November 17, which is stale and certainly does not justify a sudden double-digit valuation surge in a collapsing regional tech tape. With no fresh catalyst explaining the price action, this setup relies entirely on thin-tape pricing that will face immediate selling pressure as real opening liquidity arrives at 9:30 to punish the exhaustion structure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "UNH",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: UnitedHealth is gapping down 6.50% to $317.76 on massive pre-market volume of 311,044 shares, representing 8.39x its baseline average. This heavy institutional accumulation follows recent mixed developments, including the November 21 headline regarding the lawsuit over Medicare Advantage Star Ratings countered by a TD Cowen upgrade. Although the candle structure reads a bearish gap-down breakdown with 0.95 conviction, the immense volume footprint signals high-conviction institutional clearing that frequently precedes an aggressive morning mean-reversion bounce. Buying the open captures the capitulation washout following headline uncertainty, positioning for a relief recovery as the market digests the legal battle against the government. BEAR: Buying UNH at the open into a 6.50% gap-down to $317.76 is a textbook opening-auction reversal trap. While retail tries to front-run the Nov 21 headline regarding UnitedHealth suing the government over Medicare Advantage Star Ratings, that legal friction is already well-understood and digested by institutional reallocations seen in the Nov 23 State Street Health Care SPDR report. Furthermore, with pre-market volume sitting at just 311,044 shares\u2014despite being 8.39x the baseline\u2014the thin-tape pricing will be instantly overruled by real opening liquidity. With the candle agent flagging a high-conviction 0.95 gap-down breakdown structure, the lack of fresh intraday continuation means the pre-market low will likely serve as exit liquidity for trapped longs.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZS",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: ZS is displaying an extraordinary volume signature, printing 899,292 shares in the pre-market against a baseline average of just 9,181, which represents a massive 97.95x relative volume expansion. This heavy and sustained participation is anchored by the Jefferies headline from November 22, 2026, discussing a potential CrowdStrike-Zscaler merger that could make the cybersecurity rival more formidable. The candle structure confirms a bullish gap and go reversal with a 0.85 conviction, showing clear institutional accumulation holding the 19.08% gap up to $232.00. This combination of structural momentum, exceptional relative volume, and structural consolidation makes ZS a prime candidate for immediate continuation at the open. BEAR: The +19.08% gap to $232.00 is being driven entirely by speculative froth reacting to Jefferies' November 22nd headline regarding a potential CrowdStrike-Zscaler merger, creating a classic exhaustion structure before the opening bell. Despite the high pre-market volume of nearly 900,000 shares, this M&A speculation has already been fully digested by retail traders tracking the stock last week, turning today's open into prime exit liquidity. With the candle agent signaling a gap and go reversal at an unsustainable valuation leap, real opening liquidity will inevitably overrule this thin-tape pricing and trigger a sharp gap fade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

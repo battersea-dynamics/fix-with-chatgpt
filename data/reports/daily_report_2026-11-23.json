@@ -1,0 +1,710 @@
+{
+  "date": "2026-11-23",
+  "events": [
+    {
+      "at_et": "2026-11-23T07:46:23-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-23T09:07:24-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 1
+      }
+    },
+    {
+      "at_et": "2026-11-23T09:31:35-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "APLD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CDE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EXK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HPE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KYMR",
+            "reason": "bid/ask spread too wide: 28.71% (bid $118.68, ask $158.46); 1% max"
+          },
+          {
+            "symbol": "RIG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNDK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UMC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "UNH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T10:29:30-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1016.json",
+        "shortlist": [
+          "CAPR",
+          "ZS",
+          "KYMR",
+          "AKAN",
+          "MPU",
+          "CUE",
+          "NVDA",
+          "CRWD",
+          "NUAI",
+          "IREN",
+          "NBIS",
+          "FWDI",
+          "DELL",
+          "SYM",
+          "BSP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IREN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FWDI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SYM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T11:06:59-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1046.json",
+        "shortlist": [
+          "CAPR",
+          "ZS",
+          "KYMR",
+          "AKAN",
+          "MPU",
+          "CUE",
+          "NVDA",
+          "CRWD",
+          "NUAI",
+          "NBIS",
+          "IREN",
+          "DELL",
+          "FWDI",
+          "CSIQ",
+          "MNRO"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZS",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "KYMR",
+            "reason": "bid/ask spread too wide: 28.90% (bid $130.09, ask $174.03); 1% max"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 8
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T11:28:52-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1116.json",
+        "shortlist": [
+          "CAPR",
+          "CUE",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "NUAI",
+          "IREN",
+          "NBIS",
+          "DELL",
+          "OPTX",
+          "CSIQ",
+          "FWDI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KYMR",
+            "reason": "bid/ask spread too wide: 28.17% (bid $133.41, ask $177.15); 1% max"
+          },
+          {
+            "symbol": "ZS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "IREN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OPTX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 9
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T12:03:43-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1146.json",
+        "shortlist": [
+          "CUE",
+          "CAPR",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "NUAI",
+          "CSIQ",
+          "IREN",
+          "DELL",
+          "NBIS",
+          "USDE",
+          "FWDI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "KYMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRWD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "USDE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 5
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T12:46:04-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1216.json",
+        "shortlist": [
+          "CUE",
+          "CAPR",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NUAI",
+          "NVDA",
+          "CSIQ",
+          "IREN",
+          "DELL",
+          "NBIS",
+          "MNRO",
+          "SUPX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KYMR",
+            "reason": "bid/ask spread too wide: 2.89% (bid $153.20, ask $157.69); 1% max"
+          },
+          {
+            "symbol": "ZS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NVDA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CSIQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NBIS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MNRO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 9
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T13:11:12-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1247",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1247.json",
+        "shortlist": [
+          "CUE",
+          "CAPR",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "NUAI",
+          "CSIQ",
+          "SUPX",
+          "MNRO",
+          "DELL",
+          "IREN",
+          "NBIS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ZS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 1
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T13:18:42-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1316.json",
+        "shortlist": [
+          "CUE",
+          "CAPR",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "SUPX",
+          "CSIQ",
+          "NUAI",
+          "MNRO",
+          "DELL",
+          "HY",
+          "IREN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CAPR",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 2
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T13:47:35-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1346.json",
+        "shortlist": [
+          "CUE",
+          "CAPR",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "MNRO",
+          "SUPX",
+          "NUAI",
+          "CSIQ",
+          "DELL",
+          "HY",
+          "IREN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T14:17:16-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1416.json",
+        "shortlist": [
+          "CUE",
+          "CAPR",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "MNRO",
+          "SUPX",
+          "CSIQ",
+          "NUAI",
+          "DELL",
+          "HY",
+          "IREN"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T14:47:16-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1446.json",
+        "shortlist": [
+          "CUE",
+          "CAPR",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "MNRO",
+          "SUPX",
+          "CSIQ",
+          "NUAI",
+          "HY",
+          "DELL",
+          "BURL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T15:17:29-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1516.json",
+        "shortlist": [
+          "CAPR",
+          "CUE",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "NVDA",
+          "SUPX",
+          "MNRO",
+          "CSIQ",
+          "NUAI",
+          "HY",
+          "DELL",
+          "BURL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T15:47:32-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-23/shortlist_1546.json",
+        "shortlist": [
+          "CAPR",
+          "CUE",
+          "KYMR",
+          "ZS",
+          "AKAN",
+          "MPU",
+          "CRWD",
+          "SUPX",
+          "NVDA",
+          "MNRO",
+          "CSIQ",
+          "NUAI",
+          "BSP",
+          "GRRR",
+          "BURL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-23T15:47:32-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 12,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
