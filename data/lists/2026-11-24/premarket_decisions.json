@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-11-24T08:55:37-05:00",
+  "decisions": [
+    {
+      "symbol": "ANF",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net +0.05 = bull 0.90 - bear 0.85 (buy at >= +0.20). BULL: Abercrombie & Fitch displays an extraordinary pre-market volume of 170,001 shares, representing a massive 118.77x surge over its baseline average, driving a 10.18% gap up to $154.75. This immense institutional footprint directly follows the November 20 earnings preview and Hollister UK expansion coverage, confirming that heavy accumulation is responding to imminent financial reporting catalysts. The candle agent highlights a high-conviction bullish reversal structure (0.9 conviction), demonstrating that buyers are firmly in control of the tape without fading. This sustained volume signature combined with the earnings anticipation provides a clear runway for intraday continuation. BEAR: ANF is gapping up +10.18% to $154.75 ahead of its Q3 earnings, heavily relying on speculation driven by pre-event previews such as the November 23 Yahoo article '5 Retail and Tech Earnings Charts to Watch This Week.' However, with only 170,001 shares traded in the pre-market, this thin-tape pricing is vulnerable to an opening-auction reversal the moment institutional liquidity hits the tape at 9:30. Furthermore, because the actual numbers have not been released and the pre-market volume signature shows the move stalling out against baseline averages, this gap is entirely built on anticipation rather than a realized catalyst. Buying at the open means acting as exit liquidity before the inevitable gap fade back toward yesterday's $140.45 close once reality meets expectations.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BBY",
+      "signal": "buy",
+      "confidence": 0.6,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net +0.20 = bull 0.90 - bear 0.70 (buy at >= +0.20). BULL: Best Buy gaps up 4.12% to $101.00 on massive volume of 169,041 shares, representing an extraordinary 220.03x baseline average. This heavy, sustained buying is fully backed by the November 24, 2026 headline 'Best Buy Co Inc (NYSE:BBY) Posts Q3 Beat and Raises Full-Year Outlook'. The candle structure confirms a bullish reversal pattern with a 0.7 conviction, signaling that institutional buying should drive continuation past the open. BEAR: Despite the ChartMill headline from November 24, 2026 reporting that Best Buy Co Inc (NYSE:BBY) posted a Q3 beat and raised its full-year outlook, the +4.12% gap to $101.00 on 169,041 shares represents an exhausted move that is already priced in. The pre-market volume, while high relative to baseline, has completely stalled out, meaning institutional liquidity at 9:30 will likely use this headline-driven markup as exit liquidity rather than accumulation. This sets up a textbook gap-fade and opening-auction reversal where the pre-market high is immediately sold into once real opening volume hits the tape.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BNAI",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net -0.30 = bull 0.45 - bear 0.75 (buy at >= +0.20). BULL: BNAI is experiencing a significant downward gap of 12.57% following its Q3 earnings release on November 23, 2026, where the company posted an EPS beat of $(0.17) against a $(0.66) estimate alongside in-line revenues of $1.96M. Despite the bearish exhaustion candle structure and the negative gap, volume has surged to 794,218 shares, representing an impressive 10.14x multiple over the baseline average. This heavy volume combined with an earnings beat creates a classic overreaction scenario where panic selling on headline numbers offers a compelling mean-reversion opportunity at the open. A long position here banks on buyers stepping in to absorb the distressed supply as the market digests the narrower loss. BEAR: Buying BNAI at today's open carries high risk as the stock gaps down -12.57% to $6.40 despite yesterday's headlines highlighting 'Brand Engagement Network Q3 EPS $(0.17) Beats $(0.66) Estimate'. This sharp downside move on good news confirms a classic sell-the-news event where the results were already priced in or considered insufficient, leaving dip-buyers exposed to a continued gap fade. Pre-market volume of 794,218 shares (10.14x baseline avg) confirms strong institution-level distribution rather than thin-tape noise. Furthermore, the candle structure exhibits a clear bearish 'exhaustion' pattern with 0.7 conviction, signaling that opening liquidity is far more likely to fuel further selling than trigger a reversal.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BURL",
+      "signal": "buy",
+      "confidence": 0.65,
+      "take_profit_pct": 4.55,
+      "stop_loss_pct": 1.75,
+      "reasoning": "net +0.30 = bull 0.90 - bear 0.60 (buy at >= +0.20). BULL: Burlington Stores released its headline 'BURLINGTON STORES REPORTS THIRD QUARTER 2026 EARNINGS' on 2026-11-24, providing a definitive fundamental catalyst for today's price action. The volume signature is exceptionally powerful, printing 207,642 shares in the pre-market\u2014an immense 180.16x relative to its baseline average\u2014confirming institutional re-pricing rather than thin retail noise. Price is holding a strong +6.74% gap up to $251.00, perfectly aligned with the candle agent's bullish reversal pattern (conviction 0.7). This combination of a fresh Q3 earnings catalyst, massive sustained volume, and supportive candle structure points to strong follow-through into the open. BEAR: Burlington Stores' Q3 2026 earnings release ('BURLINGTON STORES REPORTS THIRD QUARTER 2026 EARNINGS' on 2026-11-24) follows a multi-day run-up driven by off-price retail rally headlines from Nov 20-22, raising the distinct risk that the good news is already priced in. The +6.74% gap to $251.00 invites an opening-auction reversal as institutional holders use the heavy pre-market volume of 207,642 shares as exit liquidity to lock in gains. While the elevated volume confirms immediate interest, gapping into existing multi-day sector momentum frequently triggers a gap fade once regular session liquidity takes control. Entering at today's open forces buyers to pay peak premium on an earnings reaction that may have already exhausted its momentum pre-market.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DKS",
+      "signal": "hold",
+      "confidence": 0.515,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net +0.03 = bull 0.88 - bear 0.85 (buy at >= +0.20). BULL: DKS is exhibiting an exceptional pre-market footprint with a massive 13.34% gap to $151.50 backed by 280,515 shares, representing an extraordinary 219.30x relative volume surge against its baseline. None of the provided news headlines explain this specific move, as the recent coverage only mentions generic comparisons like the 2026-11-22 article pitting Coupang vs. DICK'S Sporting Goods, meaning this aggressive accumulation is purely footprint-driven institutional sponsorship. The candle agent confirms a high-conviction 0.85 reversal and bullish bias that strongly favors immediate continuation at the open. Given the immense volume durability, buyers should aggressively target a 5.0% profit extension while managing risk with a 2.5% stop loss to absorb opening volatility. BEAR: DKS is opening up +13.34% to $151.50 from yesterday's close of $133.67 on 280,515 pre-market shares, yet a review of the news block reveals a complete absence of any company-specific earnings or catalyst headlines from the last 7 days; the only retail mentions are generic comparison articles like Coupang vs. DICK'S Sporting Goods on November 22 and broader sector noise regarding Nike. This total lack of a hard fundamental catalyst makes this an ordinary gap that is highly vulnerable to a gap fade, where the thin tape at 280k shares creates a false pre-market price that real opening liquidity at 9:30 will routinely overrule. Furthermore, buying into this unbacked pre-market surge treats the opening auction as an entry instead of recognizing that without a fresh headline, today's open will likely serve as exit liquidity for early momentum chasers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DLTR",
+      "signal": "hold",
+      "confidence": 0.585,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net +0.17 = bull 0.92 - bear 0.75 (buy at >= +0.20). BULL: DLTR is showing a powerful genuine gap backed by an exceptional 121.67x volume multiple over its baseline, trading at 130,305 shares in the pre-market. This heavy accumulation is directly fueled by the November 24 headline 'Dollar Tree (NASDAQ:DLTR) Shares Jump on Q3 EPS Beat and Traffic Acceleration'. The candle structure confirms a high-conviction bullish reversal pattern with a score of 0.85, indicating that institutional buying is stepping in to support the higher prints. With the price holding strong at $148.00 (+6.40%), the footprint reveals sustained buying pressure that sets up well for continuation into the regular session. BEAR: The +6.40% gap driven by the November 24 headline 'Dollar Tree (NASDAQ:DLTR) Shares Jump on Q3 EPS Beat and Traffic Acceleration' is setting up a classic opening-auction reversal and gap fade. Despite a high pre-market volume of 130,305 shares, the price has stalled at $148.00 right at the open, indicating that institutional participants are treating the Q3 beat as exit liquidity rather than a durable catalyst. When real opening liquidity arrives at 9:30, the thin-tape pricing that pushed the stock up from yesterday's $139.10 close will get overwhelmed by profit-taking. Buying this gap at the open leaves you vulnerable to an immediate fade as the morning momentum completely dries up.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FLNC",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.01,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: Despite mixed earnings and margin headlines reported on November 23, 2026, FLNC is exhibiting massive pre-market strength with a 22.67% gap to $4.66 and extreme volume of over 2.67 million shares, representing 19.14x its baseline average. The candle structure confirms a bullish reversal pattern with high conviction at 0.85, showing aggressive buying absorption rather than a fade. This heavy footprint signals that institutional participants are actively defending the tape and positioning for continuation past the open. We can leverage this high-volume momentum for a solid upside continuation play while respecting opening volatility. BEAR: Buying FLNC at today's open is an aggressive mistake given that the 22.67% pre-market gap directly contradicts the fundamental reality published in the Yahoo earnings report on November 23, 2026, which revealed a Q4 loss and missed revenue estimates alongside a margin collapse highlighted by ChartMill. This dynamic displays an exhaustion structure where momentum traders are ignoring severe deterioration in underlying profitability for a fleeting headline reaction. The gap is already priced in as retail liquidity chases a thin tape that completely disregards concrete margin contraction, making the open a prime candidate for a opening-auction reversal and ultimate gap fade once institutional sellers arrive.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HPE",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: Despite the steep -12.37% gap down, HPE's pre-market footprint features massive institutional volume of 1,031,400 shares (8.97x baseline), indicating significant liquidity absorbing the selling pressure. Crucially, news headlines on 2026-11-24 point to positive underlying catalysts, including 'HPE Stock What Changed After Earnings Beat' and 'Hewlett Packard Enterprise (HPE) Lands A Major Private AI Infrastructure Deployment'. While the pre-market candle structure carries a strong bearish conviction, the extreme drawdown into an earnings beat creates a potential mean-reversion dip-buy opportunity as opening liquidity steps in. BEAR: Buying HPE at today's open is an aggressive trap given the severe 12.37% pre-market markdown to $42.08 against yesterday's $48.02 close. The Yahoo headline 'Why Is Hewlett Packard Enterprise Stock Falling 9.6% Today?' confirms the market is heavily digesting negative post-earnings sentiment despite simultaneous announcements of private AI infrastructure wins. With a candle continuation bias at 0.85 conviction and pre-market volume sitting at 1.03M shares, the move exhibits clear exhaustion structure and gap fade dynamics where opening liquidity will likely treat this markdown as exit liquidity rather than a buyable dip.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "INSM",
+      "signal": "hold",
+      "confidence": 0.55,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net +0.10 = bull 0.95 - bear 0.85 (buy at >= +0.20). BULL: Insmed is displaying an exceptional, high-conviction gap footprint backed by the definitive 2026-11-24 headline announcing that Sanofi is to acquire Insmed. Pre-market volume has exploded to 13,721,643 shares, representing an astronomical 3110x multiple over the baseline average, confirming genuine institutional accumulation and massive liquidity. With the gap holding firm at +14.53% ($170.75) and the candle structure reading a strong bullish continuation at 0.85 conviction, the tape clearly reflects an active M&A arbitrage floor. Buying at the open captures the immediate institutional momentum as the market prices in the definitive buyout terms. BEAR: Buying INSM at today's open is an aggressive trap given the M&A headline 'Sanofi to acquire Insmed in strategic step that strengthens long-term future' dated 2026-11-24, which means the buyout valuation is essentially capped. With 13.7 million pre-market shares traded already exhausting the immediate catalyst, the 14.53% gap to $170.75 leaves almost no room for further upside beyond the deal terms. This triggers the already-priced-in failure mode where retail liquidity arrives at 9:30 only to serve as exit liquidity for institutions wrapping up the trade.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KSS",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.58,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: Kohl's is printing an exceptional volume signature with 191,499 pre-market shares traded, representing a massive 30.50x relative to its baseline average. This heavy accumulation is backed by the November 21 headline regarding holiday shopping strategy shifts and anticipation surrounding the November 20 Q3 earnings insights. The candle agent reads a bullish reversal pattern with a high conviction of 0.7, confirming that buyers are heavily defending the 7.92% gap up to $22.88. This footprint demonstrates genuine institutional backing rather than a transient retail spike, setting up strong continuation into the open. BEAR: Kohl's is gapping up +7.92% to $22.88 on 191,499 shares, but there is a complete absence of a fresh catalyst in today's news block to justify the surge. The available headlines are stale, including a pre-earnings preview from 2026-11-20 ('Kohl's Q3 Earnings on the Horizon') and generic holiday commentary from 2026-11-21 ('Best Buy, Target, and Kohl's try to change holiday shopping'). Without a durable real-time news driver, this move triggers a classic gap fade failure mode, where speculative pre-market buying gets dumped into institutional sell orders at 9:30 AM. Opening liquidity routinely overrules unbacked pre-market runs, making buying KSS at the open a high-risk trap.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SHOE",
+      "signal": "hold",
+      "confidence": 0.2,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.15,
+      "reasoning": "net -0.60 = bull 0.25 - bear 0.85 (buy at >= +0.20). BULL: SHOE is experiencing an extreme downside gap of 22.48% to $11.00 following the November 24, 2026 ChartMill headline regarding a Q3 miss and weakened guidance. However, the pre-market volume of 289,000 shares represents a massive 2513.04x surge over its baseline average, indicating an immense capitulation event and high liquidity for an intraday exhaustion bounce. While the candle structure explicitly reads bearish with a 0.95 conviction reversal pattern, the sheer magnitude of the volume footprint creates a classic oversold mean-reversion setup at the open. We are buying purely for a short-term relief bounce off panicked liquidation. BEAR: Shoe Station Group (SHOE) is gapping down 22.48% to $11.00 following today's 2026-11-24 headline regarding its Q3 miss and weakened guidance. With pre-market volume sitting at 289,000 shares against a baseline of just 115, the massive liquidation creates a classic opening-auction reversal risk where the pre-market direction is heavily overextended. Furthermore, the candle agent assigns a bearish conviction of 0.95 to a reversal pattern, signaling an exhaustion structure where any attempt to bottom-fish at the open serves merely as exit liquidity for trapped holders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SNY",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net +0.15 = bull 0.90 - bear 0.75 (buy at >= +0.20). BULL: Sanofi's pre-market volume of 2,004,398 shares represents an extraordinary 80.10x surge over its baseline average, driven by the major announcement on 2026-11-24 that Sanofi agreed to acquire drugmaker Insmed in a $41 billion cash deal. This massive fundamental catalyst supports a strong +6.74% gap to $49.92, backed by a candle structure read showing a high-conviction bullish reversal pattern at 0.9. The heavy, sustained pre-market volume footprint confirms institutional accumulation rather than a fading spike, making a continuation play highly viable at the open. BEAR: The headlines confirm that 'Sanofi agrees to acquire drugmaker Insmed in $41 billion cash deal,' putting Sanofi squarely in the position of an acquirer committing a massive $41 billion cash outlay. Buying an acquirer gapping up on a mega-buyout is a classic opening-auction reversal and gap-fade setup, as real institutional liquidity at 9:30 AM routinely punishes the acquirer's balance sheet strain, deal premium, and integration risks. While pre-market volume reached 2,004,398 shares (+6.74% gap), this initial move is highly vulnerable to becoming exit liquidity the moment broad market order flow challenges the valuation impact of this acquisition.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.1e+10 - no matching value in source data",
+        "bear: cited 4.1e+10 - no matching value in source data"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-11-24T12:27:56-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "INSM",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 3.75,
+      "stop_loss_pct": 2.25,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: INSM is surging today by +14.20% on massive relative volume of 13.20x normal, driven by the breaking news on 2026-11-24 that Sanofi is acquiring Insmed for a massive $41 billion. The momentum is backed by 4 consecutive snapshot observations holding rank #1 and showing a very minor drawdown of only 0.0851% from the observed high of $170.40. With explosive fundamental M&A validation and sustained institutional participation keeping the price near session highs (+44.41% above its 20-day MA), the stock presents a compelling short-term continuation opportunity. BEAR: Insmed is trading up 14.20% and 44.41% above its 20-day moving average on 2026-11-24 following massive headlines that Sanofi is acquiring the company for $41 billion. However, the same-session momentum history reveals clear signs of exhaustion and chasing after the opening surge, with 4 consecutive scans showing a negative return since first seen (-0.0851%) and a price acceleration of -0.0059% points alongside a declining volume rate change of -0.1592%. Buying into an M&A announcement already fully priced in while intraday intervals exhibit minor drift and deterioration creates a poor risk-reward entry for a short-term hold.",
+      "numbers_verified": false,
+      "unverified_numbers": [
+        "bull: cited 4.1e+10 - no matching value in source data",
+        "bear: cited 4.1e+10 - no matching value in source data"
+      ]
+    },
+    {
+      "symbol": "ANF",
+      "signal": "buy",
+      "confidence": 0.675,
+      "take_profit_pct": 6.38,
+      "stop_loss_pct": 2.62,
+      "reasoning": "net +0.35 = bull 0.85 - bear 0.50 (buy at >= +0.20). BULL: Abercrombie & Fitch is surging on 2026-11-24 following powerful same-session news headlines including 'Abercrombie & Fitch shares jump as earnings beat estimates and outlook rises' and 'Abercrombie & Fitch Powers Through Another Strong Quarter, Raises Outlook'. The technical momentum powerfully confirms this fundamental catalyst, featuring a massive +25.15% day change, 2.74x relative volume, and a sustained continuation setup across 4 consecutive scans over 120 minutes with zero drawdown from its observed high of $175.77. With prices sitting at a strong +14.64% above the 20-day MA and pushing toward its highest closing price in two years, the stellar alignment of fundamental beats and heavy volume persistence provides a compelling multi-day buy case. BEAR: ANF is currently trading up 25.15% on the session at $175.77, sitting 14.64% above its 20-day moving average on multiple fresh same-session headlines regarding its Q3 earnings beat and raised outlook. However, the same-session momentum history reveals clear signs of deceleration: price acceleration has turned negative at -0.4553 percentage points, the relative volume rate per 30 minutes has dropped to 0.1412 with a rate change of -0.0859, and out of four observed intervals only two showed positive returns. Buying at these extremes means entering right as the initial earnings reaction matures and volume participation fades from its 2.74x daily average pace.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ZTO",
+      "signal": "hold",
+      "confidence": 0.475,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.05 = bull 0.65 - bear 0.70 (buy at >= +0.20). BULL: ZTO shows persistent tape action with 4 consecutive scans and 120 minutes since first seen, backed by strong volume confirmation at 4.41x normal. Recent fundamental support stems from robust Q3 2026 earnings reports and positive coverage on November 18-19 highlighting affordable growth and solid operating profit. Although the day is down 5.82%, the intraday development shows positive momentum with a return of 0.445% since the previous scan, positive price acceleration of 0.4712 percentage points, and a minimal drawdown of just 0.0261% from the observed high of $19.19. This combination of fundamental tailwinds from Q3 results and resilient intraday persistence creates an attractive buying opportunity for a short-term bounce. BEAR: Buying ZTO today exposes the position to downside continuation as the stock is down 5.82% and trading -5.75% below its 20-day moving average with high relative volume of 4.41x. The available catalysts are stale, consisting of Q3 earnings reports and commentary from 5 to 6 days prior (such as the Nov 18 Fintel filing and Nov 19 Yahoo/Seeking Alpha articles), meaning the fundamental news is already priced in and failing to support the current session. Furthermore, the intraday momentum shows clear deterioration with a mixed setup, a meager 1 out of 3 observed positive intervals, and a relative volume rate per 30m slowing down to 0.5263, indicating that buyers are exhausted and participation is fading.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MPU",
+      "signal": "hold",
+      "confidence": 0.125,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.75 = bull 0.10 - bear 0.85 (buy at >= +0.20). BULL: Nothing in the catalyst report explains or supports this move today, as recent news is limited to an unusual volume mention on November 19, 2026, and upcoming earnings sit on December 3, 2026. The tape history shows 4 consecutive observations over 120 minutes with a falling price, a drawdown of 8.81% from the observed high, and an extremely low relative volume rate of 0.0019 per 30 minutes. Because the price is dropping, volume participation is minimal, and positive intervals are limited to just 1 out of 3, the tape-only case completely fails to confirm persistence. Therefore, confidence is forced and low. BEAR: Buying MPU today exposes a trader to severe chasing and volume non-confirmation risks, with price sitting 127.79% above its 20-day MA while relative volume languishes at just 0.13x normal. The same-session momentum history confirms sharp deterioration, showing a drawdown of 8.81% from the observed high and negative returns across consecutive observations. Furthermore, upcoming earnings arrive in 9 calendar days on 2026-12-03, placing a binary risk event squarely inside any multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AMTM",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 5.4,
+      "stop_loss_pct": 2.7,
+      "reasoning": "net +0.15 = bull 0.80 - bear 0.65 (buy at >= +0.20). BULL: Amentum Holdings (AMTM) surged 20.00% to $24.78 on session date 2026-11-24, catalysed by strong Q4 earnings results featuring an EPS beat, revenue figures, and a major $500M buyback announced one calendar day prior on 2026-11-23. The tape confirms persistent buying pressure through 4 consecutive scan observations spanning 120 minutes, yielding a positive return of 3.25% since first seen and 0.0% drawdown from its observed high of $24.78. Supported by robust heavy volume at 2.73x normal and a price acceleration of 2.52% points, the momentum demonstrates solid continuation backed by fresh fundamental catalysts. BEAR: The stock is currently trading at a 13.93% extension from its 20-day moving average on the heels of yesterday's Q4 earnings release, which contained 'below-consensus FY2027 guidance' that may be currently overlooked in the post-earnings euphoria. Evidence of exhaustion is appearing in the session data, as the relative volume rate per 30 minutes has declined by 11.25%, indicating that buying participation is fading even as the price touches its session high. Chasing this move at a 2.73x relative volume level creates significant exit liquidity risk for late entrants, particularly as the market begins to digest the implications of the weak forward-looking guidance relative to the current headline-driven excitement.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SUPX",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.3,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: SUPX demonstrates active intraday persistence, showing 3 consecutive scans and a 5.4237% return since first seen at 11:17 ET. Relative volume is elevated at 3.11x normal, confirming participation despite trading 38.28% below its 20-day moving average. The catalyst report contains no earnings, dividends, or news headlines to explain the move, meaning this is a pure tape-driven action supported by a modest drawdown of only -0.639% from its observed high of $3.13. With 60 minutes since first seen and stable consecutive appearances, the immediate momentum offers a short-term trading window. BEAR: SUPX is suffering from clear same-session tape deterioration after an initial pop, dropping to rank 10 with a rank improvement of -1 and a price acceleration of -6.7407 percentage points. The relative volume rate per 30m has collapsed to 0.092 with a rate change of -41.9%, proving that participation is rapidly fading while the price sits 38.28% below its 20-day moving average. Furthermore, the catalyst report is entirely devoid of earnings, dividends, or news, leaving this 3.11x relative volume move completely unexplained by fresh fundamentals. Buying today means stepping into a stalling bounce with zero catalyst support and measurable momentum loss over its 60-minute observation window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "SLN",
+      "signal": "hold",
+      "confidence": 0.425,
+      "take_profit_pct": 2.62,
+      "stop_loss_pct": 1.12,
+      "reasoning": "net -0.15 = bull 0.35 - bear 0.50 (buy at >= +0.20). BULL: SLN shows compelling early tape action today with relative volume surging to 3.71x its normal 20-day level while trading slightly above its 20-day moving average at $20.02. The catalyst report contains no news or pending earnings, meaning this move is driven purely by order flow and accumulation rather than a headline event. Because this represents our first observation at 12:17 ET with insufficient history for multi-point confirmation, the case rests entirely on the heavy relative volume and immediate price stability at the observed high. This tape-only setup warrants a cautious posture pending further consecutive observations. BEAR: SLN presents a classic no-catalyst risk profile, featuring absolute zero headlines in the catalyst report for the session of 2026-11-24 to justify its 3.71x relative volume spike. With only a single observation recorded at 12:17 ET showing stagnant price action and insufficient history, entering blindly into this vacuum means buying purely on raw volume without any fundamental confirmation. While the modest +1.03% day change and +1.18% distance from the 20-day MA do not display active tape deterioration or drawdown yet, the complete absence of a news catalyst leaves the position vulnerable to an immediate fade once the speculative liquidity dries up.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FLNC",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.62,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: Fluence Energy is surging with a fresh same-session pre-market headline on 2026-11-24 noting the stock jumped over 17% after hours, supported by massive relative volume of 3.08x normal and a +6.71% day change at $4.05. The tape shows strong persistence across 4 consecutive scans over 120 minutes with positive price acceleration of +1.91% points and a negligible drawdown of just -0.85% from its observed high of $4.09. With significant momentum and active market participation driving the electrical equipment name, the stock has clear room to run toward upper targets. BEAR: FLNC presents a classic chasing hazard following a headline-driven gap, where the day's +6.71% move and heavy 3.08x relative volume follow a fresh November 24 headline about an after-hours jump over 17%, yet the same-session momentum has already begun to stall with a negative return of -0.8557% since first seen and a rank drop to 12. Compounding this exhaustion, a November 23 ChartMill report explicitly warns of a margin collapse despite a record backlog, signaling underlying fundamental vulnerability beneath the short-term spike. Buying here means chasing an extended gap 18.44% below its 20-day MA while volume rate per 30m dwindles to a meager 0.2654, acting as exit liquidity for early after-hours buyers.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VREX",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.75,
+      "stop_loss_pct": 1.65,
+      "reasoning": "net -0.55 = bull 0.35 - bear 0.90 (buy at >= +0.20). BULL: VREX is experiencing heavy volume at 2.91x normal following its fourth quarter and fiscal year 2026 financial results announced on November 23, 2026. Despite an earnings and sales miss reported by Benzinga, the high relative volume indicates intense market participation and potential capitulation or exhaustion of sellers near $17.45. With only 2 consecutive observations and a minor drawdown of 0.0573% from the observed high of $17.455, the tape shows stabilization following the initial reaction. This sets up a mean-reversion opportunity as the market absorbs the recent earnings news. BEAR: VREX is an exceptionally dangerous long entry today due to a severe earnings miss reported on 2026-11-23 where Q4 adjusted EPS of $0.06 missed the $0.30 estimate and sales of $220.000M missed the $230.080M estimate. Furthermore, the company has official earnings scheduled for today, 2026-11-24 (amc), right inside the immediate holding window, making any multi-day position a pure coin-flip binary event. The stock is already trading down -3.88% at $17.45 with negative same-session momentum, showing a drawdown from its observed high while relative volume rate has dropped to 0.30x. Buying today means stepping directly in front of active fundamental damage and unresolved same-session liquidation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BNAI",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.89,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: Despite a sharp -19.40% drop on the day, BNAI trades at $5.90 with a relative volume of 1.29x normal and sits +38.66% above its 20-day moving average. The tape shows 4 consecutive observations over 120 minutes with a strong return of +7.078% since the previous scan, zero drawdown from the observed high of $5.90, and price acceleration of +9.7282 percentage points. On the catalyst front, the company announced on the session date of 2026-11-24 that it is issuing Cohen & Co. a two-year warrant for 63,334 shares at an exercise price of $12.00/share as part of a settlement, signalling an implied higher valuation target by sophisticated parties. This combination of persistent intraday momentum, zero pullback from highs, and a fresh warrant pricing headline creates a compelling tactical window for a bounce. BEAR: BNAI is down 19.40% on the session despite trading 38.66% above its 20-day moving average, creating a severe knife-catching scenario. The fresh catalyst from Benzinga on 2026-11-24 detailing a warrant issuance for 63,334 shares at an exercise price of $12.00/share as part of a settlement highlights potential equity dilution overhead well above the current $5.90 price. Furthermore, internal session metrics show clear tape deterioration with rank slipping from 10 to 15, negative score changes, and a relative volume rate of just 0.0307 per 30 minutes with a negative volume rate change of -0.1114. Buying today means stepping in front of a cascading loss accompanied by dilutive settlement terms and fading participation.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "INSM",
+      "action": "skipped",
+      "reason": "numeric evidence verification failed; refusing to trade"
+    },
+    {
+      "symbol": "ANF",
+      "action": "skipped",
+      "reason": "bid/ask spread too wide: 17.22% (bid $150.37, ask $178.71); 1% max"
+    },
+    {
+      "symbol": "ZTO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "MPU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AMTM",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SUPX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "SLN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FLNC",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VREX",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BNAI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}

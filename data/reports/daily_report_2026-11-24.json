@@ -1,0 +1,906 @@
+{
+  "date": "2026-11-24",
+  "events": [
+    {
+      "at_et": "2026-11-24T07:46:25-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-24T08:55:37-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 2
+      }
+    },
+    {
+      "at_et": "2026-11-24T09:31:42-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ANF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BBY",
+            "reason": "bid/ask spread too wide: 9.88% (bid $93.10, ask $102.78); 1% max"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BURL",
+            "reason": "bid/ask spread too wide: 2.43% (bid $242.50, ask $248.47); 1% max"
+          },
+          {
+            "symbol": "DKS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DLTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HPE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T10:52:55-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1016.json",
+        "shortlist": [
+          "INSM",
+          "EMBC",
+          "SHOE",
+          "MPU",
+          "ANF",
+          "ZTO",
+          "FLNC",
+          "CUE",
+          "BNAI",
+          "AMTM",
+          "OTLY",
+          "KYMR",
+          "COGT",
+          "SNY",
+          "DLTR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 7
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T11:27:22-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1116.json",
+        "shortlist": [
+          "INSM",
+          "SLF",
+          "EMBC",
+          "SHOE",
+          "ANF",
+          "MPU",
+          "ZTO",
+          "AMTM",
+          "SUPX",
+          "BNAI",
+          "KYMR",
+          "FLNC",
+          "SNY",
+          "OTLY",
+          "BTDR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KYMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SNY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 9
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T12:13:47-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1146.json",
+        "shortlist": [
+          "INSM",
+          "SLF",
+          "EMBC",
+          "SHOE",
+          "ANF",
+          "MPU",
+          "ZTO",
+          "AMTM",
+          "SUPX",
+          "BNAI",
+          "FLNC",
+          "KYMR",
+          "VREX",
+          "CUE",
+          "OTLY"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INSM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANF",
+            "reason": "bid/ask spread too wide: 29.03% (bid $150.37, ask $201.44); 1% max"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KYMR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VREX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T12:27:56-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1216.json",
+        "shortlist": [
+          "INSM",
+          "EMBC",
+          "SLF",
+          "SHOE",
+          "ANF",
+          "ZTO",
+          "MPU",
+          "AMTM",
+          "MGN",
+          "SUPX",
+          "SLN",
+          "FLNC",
+          "VREX",
+          "BSP",
+          "BNAI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INSM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "ANF",
+            "reason": "bid/ask spread too wide: 17.22% (bid $150.37, ask $178.71); 1% max"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VREX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T12:55:45-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1246.json",
+        "shortlist": [
+          "INSM",
+          "EMBC",
+          "SLF",
+          "SHOE",
+          "ZTO",
+          "ANF",
+          "MGN",
+          "MPU",
+          "AMTM",
+          "FLNC",
+          "SLN",
+          "SUPX",
+          "VREX",
+          "BNAI",
+          "KYMR"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "INSM",
+            "reason": "numeric evidence verification failed; refusing to trade"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FLNC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VREX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T13:50:19-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": false,
+        "error": "RemoteProtocolError: Server disconnected without sending a response."
+      }
+    },
+    {
+      "at_et": "2026-11-24T14:22:24-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1416.json",
+        "shortlist": [
+          "INSM",
+          "EMBC",
+          "SLF",
+          "SHOE",
+          "MGN",
+          "ZTO",
+          "AMTM",
+          "ANF",
+          "MPU",
+          "FLNC",
+          "SLN",
+          "VREX",
+          "KYMR",
+          "SUPX",
+          "CUE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "FLNC",
+            "action": "submitted",
+            "order": {
+              "symbol": "FLNC",
+              "qty": 49,
+              "est_cost": 205.8,
+              "entry_ref": 4.2,
+              "take_profit": 4.44,
+              "remaining_take_profit_pct": 5.71,
+              "stop_loss": 4.08,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261124-142223-FLNC",
+              "analysis_price": 4.2698,
+              "live_price_change_pct": -1.63
+            },
+            "broker": {
+              "id": "709b19fd-019f-4342-80d3-43ab0c8a7698",
+              "client_order_id": "ta-20261124-142223-FLNC",
+              "symbol": "FLNC",
+              "qty": "49",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.44,
+              "stop_loss": 4.08,
+              "legs": [
+                "61ca7fd9-db2e-4e40-b906-7b61f42aa8fb",
+                "4d2b0b8e-83d4-43cd-ae8d-b4b6198c7177"
+              ]
+            }
+          },
+          {
+            "symbol": "KYMR",
+            "action": "submitted",
+            "order": {
+              "symbol": "KYMR",
+              "qty": 1,
+              "est_cost": 172.55,
+              "entry_ref": 172.55,
+              "take_profit": 185.55,
+              "remaining_take_profit_pct": 7.53,
+              "stop_loss": 165.83,
+              "confidence": 0.625,
+              "client_order_id": "ta-20261124-142223-KYMR",
+              "analysis_price": 171.105,
+              "live_price_change_pct": 0.84
+            },
+            "broker": {
+              "id": "4d7713b9-1bd1-4dcd-927e-4720e799cd22",
+              "client_order_id": "ta-20261124-142223-KYMR",
+              "symbol": "KYMR",
+              "qty": "1",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 185.55,
+              "stop_loss": 165.83,
+              "legs": [
+                "d74e9828-dfb2-4969-9b56-e58897671335",
+                "1e1c6064-268d-49ce-b774-dcc20f7257e3"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMTM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VREX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 2,
+          "skipped": 13
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T14:52:18-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1446.json",
+        "shortlist": [
+          "INSM",
+          "EMBC",
+          "SLF",
+          "SHOE",
+          "MGN",
+          "ZTO",
+          "AMTM",
+          "MPU",
+          "ANF",
+          "SLN",
+          "VREX",
+          "SUPX",
+          "BSP",
+          "BNAI",
+          "CUE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "AMTM",
+            "action": "submitted",
+            "order": {
+              "symbol": "AMTM",
+              "qty": 8,
+              "est_cost": 198.48,
+              "entry_ref": 24.81,
+              "take_profit": 26.23,
+              "remaining_take_profit_pct": 5.72,
+              "stop_loss": 24.11,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261124-145217-AMTM",
+              "analysis_price": 24.835,
+              "live_price_change_pct": -0.1
+            },
+            "broker": {
+              "id": "d602459b-bc1a-4019-817e-3d9bf2c7de72",
+              "client_order_id": "ta-20261124-145217-AMTM",
+              "symbol": "AMTM",
+              "qty": "8",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 26.23,
+              "stop_loss": 24.11,
+              "legs": [
+                "448c61c2-7bdc-4106-872c-cd715cf92237",
+                "4c07ccbf-a2e6-4b03-b8c7-778195d969ef"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ANF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VREX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BSP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CUE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T15:20:04-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1516.json",
+        "shortlist": [
+          "INSM",
+          "EMBC",
+          "SLF",
+          "SHOE",
+          "MGN",
+          "ZTO",
+          "ANF",
+          "MPU",
+          "SLN",
+          "VREX",
+          "FLNC",
+          "SUPX",
+          "EROK",
+          "BSP",
+          "DC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "ANF",
+            "action": "submitted",
+            "order": {
+              "symbol": "ANF",
+              "qty": 1,
+              "est_cost": 170.69,
+              "entry_ref": 170.69,
+              "take_profit": 180.49,
+              "remaining_take_profit_pct": 5.74,
+              "stop_loss": 165.21,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261124-152003-ANF",
+              "analysis_price": 171.29,
+              "live_price_change_pct": -0.35
+            },
+            "broker": {
+              "id": "4c0a23e5-0a58-4375-8294-be69e686e40c",
+              "client_order_id": "ta-20261124-152003-ANF",
+              "symbol": "ANF",
+              "qty": "1",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 180.49,
+              "stop_loss": 165.21,
+              "legs": [
+                "c8f074cc-21d5-4c4d-a1a0-5d444c7d33a5",
+                "a158f0bc-bca1-47d5-896d-e77fc046d9c3"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBC",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SLF",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SHOE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ZTO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 7
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T15:47:33-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-24/shortlist_1546.json",
+        "shortlist": [
+          "INSM",
+          "EMBC",
+          "SLF",
+          "SHOE",
+          "ZTO",
+          "MGN",
+          "MPU",
+          "SLN",
+          "VREX",
+          "SUPX",
+          "FLNC",
+          "AMBA",
+          "BSP",
+          "DY",
+          "DC"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-24T15:47:33-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 10,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}
