@@ -1,0 +1,807 @@
+{
+  "date": "2026-11-25",
+  "events": [
+    {
+      "at_et": "2026-11-25T07:46:45-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "16:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-25T09:03:05-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-25T09:31:33-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "CRM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DELL",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EMBJ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HPQ",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "LI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MSFT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "URBN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T10:31:01-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1016.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "AKAN",
+          "PYPD",
+          "RSSS",
+          "GDRX",
+          "NTNX",
+          "SUPX",
+          "OMH",
+          "URBN",
+          "MPU",
+          "INSM",
+          "RBNE",
+          "QFIN",
+          "DELL"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "URBN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QFIN",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T11:28:25-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1116.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "AKAN",
+          "GDRX",
+          "RSSS",
+          "PYPD",
+          "NTNX",
+          "URBN",
+          "INSM",
+          "QFIN",
+          "SUPX",
+          "MPU",
+          "MGN",
+          "RBNE",
+          "OTLY"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "URBN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QFIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T11:58:53-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1146.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "GDRX",
+          "AKAN",
+          "URBN",
+          "NTNX",
+          "PYPD",
+          "INSM",
+          "RSSS",
+          "MGN",
+          "QFIN",
+          "MPU",
+          "SUPX",
+          "RBNE",
+          "PARA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "URBN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PARA",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 8
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T12:27:37-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1216.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "GDRX",
+          "PYPD",
+          "AKAN",
+          "URBN",
+          "NTNX",
+          "MGN",
+          "MPU",
+          "INSM",
+          "RSSS",
+          "QFIN",
+          "SUPX",
+          "FCUV",
+          "RBNE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RBNE",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T12:55:53-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1246.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "FCUV",
+          "GDRX",
+          "PYPD",
+          "AKAN",
+          "URBN",
+          "NTNX",
+          "MGN",
+          "MPU",
+          "INSM",
+          "EROK",
+          "RSSS",
+          "QFIN",
+          "SUPX"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "EROK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSSS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QFIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SUPX",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T13:38:12-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1316",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1316.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "FCUV",
+          "GDRX",
+          "PYPD",
+          "NTNX",
+          "AKAN",
+          "URBN",
+          "MGN",
+          "EROK",
+          "INSM",
+          "VAL",
+          "MPU",
+          "SUPX",
+          "RSSS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "URBN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INSM",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "RSSS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 10
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T14:10:58-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1346",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1346.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "GDRX",
+          "NTNX",
+          "AKAN",
+          "PYPD",
+          "MGN",
+          "URBN",
+          "FCUV",
+          "EROK",
+          "VAL",
+          "SUPX",
+          "INSM",
+          "MPU",
+          "PARA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "MGN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "URBN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 7
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T14:36:50-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1416",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1416.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "GDRX",
+          "NTNX",
+          "FCUV",
+          "PYPD",
+          "AKAN",
+          "MGN",
+          "URBN",
+          "EROK",
+          "SUPX",
+          "MPU",
+          "VAL",
+          "INSM",
+          "RBNE"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AMBA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDRX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NTNX",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 6
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T14:47:19-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1446",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1446.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "GDRX",
+          "FCUV",
+          "NTNX",
+          "PYPD",
+          "AKAN",
+          "MGN",
+          "URBN",
+          "EROK",
+          "MPU",
+          "SUPX",
+          "VAL",
+          "INSM",
+          "PARA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T15:17:30-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1516",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1516.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "GDRX",
+          "NTNX",
+          "FCUV",
+          "AKAN",
+          "PYPD",
+          "URBN",
+          "MGN",
+          "MPU",
+          "EROK",
+          "SUPX",
+          "VAL",
+          "INSM",
+          "PARA"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T15:47:35-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1546",
+        "shortlist_file": "data/lists/2026-11-25/shortlist_1546.json",
+        "shortlist": [
+          "BNAI",
+          "AMBA",
+          "GDRX",
+          "FCUV",
+          "NTNX",
+          "PYPD",
+          "MGN",
+          "AKAN",
+          "URBN",
+          "MPU",
+          "EROK",
+          "OTLY",
+          "SUPX",
+          "VAL",
+          "INSM"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [],
+        "counts": {
+          "orders": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-25T15:47:35-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 11,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

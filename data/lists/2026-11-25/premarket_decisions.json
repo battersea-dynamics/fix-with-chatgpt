@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-11-25T09:03:05-05:00",
+  "decisions": [
+    {
+      "symbol": "AMBA",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 4.6,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: AMBA is experiencing an extreme 34.43% pre-market gap down driven by a memory shortage warning reported in Q3 earnings and highlighted in headlines such as Ambarella Shares Collapse, The Sell-Off Seems Overdone from SeekingAlpha on 2026-11-25. Despite the bearish exhaustion gap structure read and massive panic selling, pre-market volume has surged to 677,682 shares\u2014over 56 times the baseline average\u2014indicating capitulation. This heavy liquidation sets up a classic oversold mean-reversion bounce as buyers step in to absorb the distressed supply following the overdone sell-off. BEAR: AMBA is suffering a massive 34.43% pre-market gap down to $29.16 following Q3 earnings and a severe memory shortage warning highlighted across headlines on November 24 and 25, 2026. The candle agent identifies this exact setup as an exhaustion gap with a high conviction of 0.85, confirming that the aggressive overnight selling driven by the memory crisis is fully realized. Attempting to catch a falling knife at the open based on Seeking Alpha's claim that the 'sell-off seems overdone' ignores the brutal fundamental reality of supply constraints that were flagged months in advance. With 677,682 shares traded in the pre-market, opening liquidity at 9:30 will likely overwhelm the thin tape and turn this exhausted flush into immediate exit liquidity for trapped institutional holders.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BNAI",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.59,
+      "reasoning": "net +0.00 = bull 0.85 - bear 0.85 (buy at >= +0.20). BULL: The 23x relative volume surge accompanying this 17% gap indicates high-conviction institutional accumulation rather than a retail anomaly. While the November 24th headline regarding a warrant issuance at $12.00 is a technical financial event, the market is aggressively front-running this higher strike price, evidenced by the sustained pre-market volume and a strong consolidation above the previous close. This continuation pattern suggests the gap is not just a volatility spike but a structural break-out move that has the liquidity to absorb intraday selling pressure. BEAR: BNAI is setting up a textbook exhaustion structure built entirely on stale momentum and dilution overhang rather than fundamental news. The only substantive headline from November 24 reveals a settlement warrant issuance to Cohen & Co. for 63,334 shares at an exercise price of $12.00, which fundamentally adds structural selling pressure and dilution concerns rather than warranting a gap to $7.79. With the pre-market volume sitting at 3.58 million shares on an ordinary list-mover headline, the gap is already priced in and running out of fresh buyers before the opening bell. Expect this thin-tape pricing to completely fail at 9:30 AM as real opening liquidity overrules the pre-market tape, turning today's open straight into exit liquidity.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "CRM",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.27,
+      "stop_loss_pct": 1.43,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: Despite the negative gap, the massive 17.24x volume surge suggests significant institutional participation rather than retail panic. While the Guggenheim research note from 2026-11-25 highlights a strong 55% upside potential, the current price action is absorbing selling pressure from broader software sector fears. The high volume indicates that buyers are stepping in to accumulate shares at these levels, positioning the stock for a swift mean reversion once the market digests the sector-wide overhang. I am betting that the aggressive volume signature signals a capitulation floor rather than a sustained breakdown. BEAR: CRM opens down 1.74% at $189.89 on 460,139 shares, with the candle agent confirming an exhaustion structure and bearish conviction of 0.7. The Yahoo headline from November 25, 'AI is crushing software stocks \u2014 and a debt wall looms,' validates macro sector pressure, making this a gap fade where the pre-market low risks becoming an invitation for opening-auction mean reversion. With volume already dwarfed by baseline averages and the move failing to generate continuation below yesterday's $193.26 close, buying the open provides immediate exit liquidity to fading sellers before real institutional flow arrives.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DELL",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 2.59,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.35 = bull 0.50 - bear 0.85 (buy at >= +0.20). BULL: DELL is experiencing a significant downside gap of 5.97% to $277.66 with massive pre-market volume of nearly 1.94 million shares, representing a 9.87x surge over its baseline average. The headline from 2026-11-25 explicitly notes that Dell Delivered Strong Earnings but at the Wrong Time for the Stock alongside broader tech tumbling. Despite the bearish structure and continuation pattern flagged by the candle agent, this extreme volume spike paired with strong underlying quarterly results and a higher annual revenue forecast creates a classic washout buying opportunity at the open. Exhaustion selling into a macro tech pullback offers a compelling mean-reversion setup for a multi-day bounce as value buyers step in to absorb the overreaction. BEAR: DELL is experiencing a classic exhaustion structure and gap-fade failure mode following the 2026-11-25 headline 'Dell Delivered Strong Earnings but at the Wrong Time for the Stock'. Despite a pre-market drop to $277.66 on heavy volume of 1.94 million shares, the underlying catalyst is an already priced-in reaction to strong quarterly results that the broader macro market\u2014specifically plunging tech futures and Nvidia headlines on the same date\u2014has turned toxic. With a bearish conviction of 0.85 confirming a continuation pattern, buying this gap risks stepping in front of institutional distribution where opening-auction liquidity will treat the pre-market low as exit inventory rather than a dip worth buying.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "EMBJ",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.55 = bull 0.30 - bear 0.85 (buy at >= +0.20). BULL: The significant 5.25% pre-market gap on 29x baseline volume is explicitly driven by the market overreacting to the Fintel price target adjustment headline from 2026-11-24. While the price target decrease is a negative headline, the extreme volume indicates institutional absorption of the shares dumped by algorithmic reactions, often creating a deep-value exhaustion point at the open. The bull case relies entirely on this being a capitulation event where the selling pressure is front-loaded, allowing for a technical snap-back toward the $18.08 level. There is no fundamental evidence to support a continued breakdown beyond the initial reaction to the price target news, making this a play on market volatility exhaustion. BEAR: The 5.25% gap lower is driven by the November 24th Fintel headline reporting a 75.95% price target cut, which acts as a lagging anchor rather than a fresh fundamental catalyst. While the 29.17x volume spike suggests institutional participation, the exhaustion structure confirmed by the candle agent indicates this move is likely a reaction to the headline's release rather than a start of a new trend. Buying here is a classic trap as the market is clearly repricing the stock to the lower target; with the gap failing to expand further pre-market, the opening-auction will likely serve as exit liquidity for those reacting to yesterday's news.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "GDRX",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 3.16,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: Despite beating Q3 estimates as noted in the Yahoo headlines from 2026-11-24, GDRX is facing a sharp negative reaction that is likely an institutional overreaction to specific guidance metrics. The volume is massive at 141x the baseline, indicating that significant hands are clearing positions, which often provides the liquidity necessary for a sharp intraday mean reversion. Buying here bets on a capitulation-style wash-out where the market realizes the fundamental earnings beat outweighs the negative price action. With the stock down nearly 10% despite positive earnings news, the risk-to-reward ratio favors a bounce as the selling pressure exhausts itself shortly after the open. BEAR: Despite headlines on November 24 and 25 such as 'GoodRx Holdings, Inc. (GDRX) Surpasses Q3 Earnings and Revenue Estimates', the stock is gapping down 9.67% to $2.71 from a $3.00 close on 465,257 shares of pre-market volume. This creates a classic gap-fade and opening-auction reversal trap where the positive earnings report is already fully priced in or aggressively rejected by institutional sellers. The candle agent flags a bearish reversal structure with 0.85 conviction, meaning the thin-tape pre-market price action is simply exit liquidity before the opening bell invites real institutional selling pressure.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HPQ",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.26,
+      "reasoning": "net -0.10 = bull 0.75 - bear 0.85 (buy at >= +0.20). BULL: HPQ's 33.71x volume surge relative to baseline confirms institutional absorption of the Q4 earnings report, specifically the dividend increase announced on 2026-11-25. The price action successfully decoupled from earlier bearish headlines regarding PC margin pressures, signaling that the market is prioritizing the firm's solid top-line performance and capital return commitment over secondary analyst concerns. With the candle structure showing a definitive reversal bias, the sustained pre-market volume supports an accumulation phase that is likely to drive continuation through the open. BEAR: Buying HPQ at today's open is an aggressive trap because the +3.40% gap directly contradicts the company's own cautious earnings outlook and the severe warning highlighted in the November 25 headline Is Micron's Record Margin Squeezing Apple And HP?. The news shows that PC margin pressure and component costs are actively squeezing profitability, meaning today's opening price of $28.89 represents exit liquidity for trapped bulls chasing a headline-heavy quarterly beat that was already tempered by management. With pre-market volume at a modest 165,002 shares and a mixed news tape highlighting margin erosion alongside fiscal 2026 results, this setup faces a textbook opening-auction reversal where real institutional liquidity at 9:30 AM will reject the thin-tape markup and fade the gap back toward yesterday's $27.94 close.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "LI",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 3.44,
+      "stop_loss_pct": 1.56,
+      "reasoning": "net +0.15 = bull 0.90 - bear 0.75 (buy at >= +0.20). BULL: Li Auto Inc. released its Unaudited Third Quarter 2026 Financial Results on November 25, 2026, driving a genuine pre-market gap of 6.92% to $11.44 off a prior close of $10.70. The catalyst is backed by an exceptional volume signature of 533,914 shares traded, representing 16.75x the baseline average of 31,876 shares, proving heavy institutional participation. Furthermore, the candle agent confirms a bullish continuation pattern with a high conviction score of 0.85, indicating strong buying pressure that is sustaining the pre-market highs into the open. BEAR: Li Auto is printing a classic already-priced-in exhaustion gap following its November 25 headline barrage detailing the Unaudited Third Quarter 2026 Financial Results and 10,000 Li i9 deliveries. Despite a pre-market volume of 533,914 shares running at 16.75x baseline, the gap has stalled out at a modest +6.92% ($11.44 from a $10.70 close), indicating that the earnings beat and fair-value chatter are fully digested before the opening bell rings. With the tape failing to build further momentum off these same-day headlines, real opening liquidity at 9:30 is primed to treat this level as peak exit liquidity rather than a continuation setup.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "MSFT",
+      "signal": "hold",
+      "confidence": 0.25,
+      "take_profit_pct": 1.03,
+      "stop_loss_pct": 0.86,
+      "reasoning": "net -0.50 = bull 0.35 - bear 0.85 (buy at >= +0.20). BULL: MSFT is experiencing a massive liquidity event with 5x average pre-market volume, suggesting institutional absorption rather than simple retail panic selling. While the bearish conviction is high, the depth of this gap-down into significant volume often triggers an immediate mean reversion as market makers balance large orders. There is no specific company-level headline today explaining this move, meaning the price action is likely driven by macro-rotation or sector-wide rebalancing linked to broader software sentiment. I am betting that the excessive volume signature will act as a floor at the open, allowing for a technical snap-back toward the $485 level as the initial selling pressure exhausts itself. BEAR: MSFT is dropping 3.34% to $479.55 on 1.65 million pre-market shares, but the news block contains zero company-specific headlines explaining the plunge, with the closest macro items being generic Yahoo pieces from November 25 like the CrowdStrike CEO noting Fortune 50 clients pausing AI rollouts. This absence of a direct, durable catalyst means the gap is driven by thin-tape pricing and sector contagion rather than fundamental news, leaving it highly vulnerable to a gap fade as soon as real morning liquidity arrives. Furthermore, the candle agent flags a bearish reversal structure with a high conviction of 0.9, confirming an exhaustion setup where the pre-market selloff is already mature and prone to getting aggressively bought up at the opening auction.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OMH",
+      "signal": "hold",
+      "confidence": 0.225,
+      "take_profit_pct": 2.75,
+      "stop_loss_pct": 1.65,
+      "reasoning": "net -0.55 = bull 0.35 - bear 0.90 (buy at >= +0.20). BULL: OMH is gapping 22.25% to $4.56 on heavy pre-market volume of 8.55 million shares, which is nearly 5 times its baseline average of 1.72 million shares. The candle agent identifies a bullish reversal structure with a conviction of 0.7, supporting a continuation bias at the open. However, there are no recent news headlines found in the last 7 days to explain the catalyst behind this move. Because this is a no-story stock relying solely on gap-and-volume mechanics without a fundamental headline, the confidence must be capped at a lower level. BEAR: OMH is gapping 22.25% to $4.56 on zero news, with no headlines whatsoever in the past week to justify the move. This complete absence of a fundamental catalyst points straight to a classic gap fade where the open marks the high of the day as thin-tape pricing collapses under real 9:30 liquidity. Even with 8.55 million shares trading pre-market, the lack of news means this is purely speculative momentum that has already stopped building before the bell. Buying this open provides immediate exit liquidity for overnight participants before the inevitable opening-auction reversal takes hold.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "PYPD",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 7.19,
+      "stop_loss_pct": 2.88,
+      "reasoning": "net -0.20 = bull 0.65 - bear 0.85 (buy at >= +0.20). BULL: PolyPid announced FDA Approval of BACFENSSI on November 24, 2026, which represents a massive fundamental milestone for the company. Despite this major catalyst, the pre-market session shows an anomalous gap down of 7.65% to $5.12 on heavy volume of 117,877 shares, representing 24.75x the baseline average. This heavy volume signature combined with the severe negative reaction to a major positive regulatory approval creates a classic overreaction wash-out setup. Buyers stepping in at the open can capitalize on the disconnect between the fundamental FDA approval headline and the illogical pre-market flush as weak hands exit. BEAR: Despite PolyPid announcing major FDA approval of BACFENSSI on November 24, the stock is currently trading down 7.65% pre-market at $5.12, displaying a classic 'already priced in' and 'exhaustion structure' failure mode where the market sells the news. The candle agent flags a bearish reversal with a high conviction of 0.85, confirming that the pre-market drop from yesterday's $5.54 close is a severe rejection of the FDA catalyst. With pre-market volume sitting at a modest 117,877 shares, buying this gap-down at the open invites an opening-auction reversal trap as institutional size steps in to liquidate post-approval holdings.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "URBN",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.01,
+      "stop_loss_pct": 1.44,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: URBN is gapping down 10.90% to $76.25 on heavy pre-market volume of 53,674 shares, representing 43.34x its baseline average, driven by the Q3 2027 earnings release reported on November 25, 2026, where comparable sales fell short despite a record. Although the candle structure reads a bearish reversal with 0.9 conviction, the massive volume surge indicates an exhaustion flush following the earnings report that could spark an oversold relief bounce near the open. Buying into this capitulation allows for a tactical intraday recovery play as sellers potentially exhaust themselves. BEAR: Buying URBN at today's open after a -10.90% gap down to $76.25 is highly dangerous because the underlying catalyst\u2014highlighted by today's headline 'Urban Outfitters Notches a Record, But Comparable Sales Fall Short'\u2014exposes core top-line weakness in key retail metrics. Massive pre-market volume of 53,674 shares (43.34x baseline) proves this sell-off is backed by institutional repositioning rather than a thin-tape distortion. The candle agent confirms a bearish reversal structure with 0.9 conviction, indicating that opening liquidity at 9:30 AM is far more likely to unleash secondary liquidation than a gap-fade bounce.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-25T08:48:44-05:00",
+  "session_date": "2026-11-25",
+  "reads": {
+    "GDRX": {
+      "symbol": "GDRX",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "AMBA": {
+      "symbol": "AMBA",
+      "pattern": "exhaustion gap",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "BNAI": {
+      "symbol": "BNAI",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "OMH": {
+      "symbol": "OMH",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "URBN": {
+      "symbol": "URBN",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "HPQ": {
+      "symbol": "HPQ",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.7
+    },
+    "LI": {
+      "symbol": "LI",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "PYPD": {
+      "symbol": "PYPD",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "EMBJ": {
+      "symbol": "EMBJ",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.9
+    },
+    "CRM": {
+      "symbol": "CRM",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "DELL": {
+      "symbol": "DELL",
+      "pattern": "continuation",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.9
+    }
+  }
+}
