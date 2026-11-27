@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-11-27T08:48:15-05:00",
+  "session_date": "2026-11-27",
+  "reads": {
+    "ALVO": {
+      "symbol": "ALVO",
+      "pattern": "reversal",
+      "bias": "bearish",
+      "conviction": 0.85
+    },
+    "XP": {
+      "symbol": "XP",
+      "pattern": "exhaustion",
+      "bias": "bearish",
+      "conviction": 0.7
+    },
+    "INTR": {
+      "symbol": "INTR",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "PAGS": {
+      "symbol": "PAGS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "STNE": {
+      "symbol": "STNE",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "ITUB": {
+      "symbol": "ITUB",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "NU": {
+      "symbol": "NU",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "PBR": {
+      "symbol": "PBR",
+      "pattern": "reversal",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "SBS": {
+      "symbol": "SBS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    },
+    "BTG": {
+      "symbol": "BTG",
+      "pattern": "exhaustion",
+      "bias": "neutral",
+      "conviction": 0.5
+    },
+    "GDS": {
+      "symbol": "GDS",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.85
+    },
+    "VALE": {
+      "symbol": "VALE",
+      "pattern": "continuation",
+      "bias": "bullish",
+      "conviction": 0.9
+    }
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "date": "2026-11-27",
+  "events": [
+    {
+      "at_et": "2026-11-27T07:46:24-05:00",
+      "type": "session",
+      "detail": {
+        "open_et": "09:30",
+        "close_et": "13:00",
+        "submit_mode": true
+      }
+    },
+    {
+      "at_et": "2026-11-27T08:51:28-05:00",
+      "type": "premarket_chain",
+      "detail": {
+        "ok": true,
+        "decisions": 12,
+        "buys": 0
+      }
+    },
+    {
+      "at_et": "2026-11-27T09:31:18-05:00",
+      "type": "premarket_execution",
+      "detail": {
+        "ok": true,
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BTG",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PAGS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PBR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SBS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "STNE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VALE",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 12
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-27T10:21:20-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1016",
+        "shortlist_file": "data/lists/2026-11-27/shortlist_1016.json",
+        "shortlist": [
+          "MPU",
+          "XP",
+          "INTR",
+          "ALVO",
+          "OTLY",
+          "AKAN",
+          "VERA",
+          "BYND",
+          "ITUB",
+          "SBS",
+          "ATAT",
+          "VRSN",
+          "BNAI",
+          "PYPD",
+          "FCUV"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "INTR",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VERA",
+            "reason": "bid/ask spread too wide: 15.21% (bid $32.14, ask $37.43); 1% max"
+          },
+          {
+            "symbol": "BYND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SBS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VRSN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-27T10:51:09-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1046",
+        "shortlist_file": "data/lists/2026-11-27/shortlist_1046.json",
+        "shortlist": [
+          "MPU",
+          "INTR",
+          "ALVO",
+          "XP",
+          "AKAN",
+          "VERA",
+          "OTLY",
+          "BNAI",
+          "BYND",
+          "SBS",
+          "ATAT",
+          "ITUB",
+          "PYPD",
+          "NUAI",
+          "KNTK"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [
+          {
+            "symbol": "INTR",
+            "action": "submitted",
+            "order": {
+              "symbol": "INTR",
+              "qty": 43,
+              "est_cost": 202.96,
+              "entry_ref": 4.72,
+              "take_profit": 4.91,
+              "remaining_take_profit_pct": 4.03,
+              "stop_loss": 4.61,
+              "confidence": 0.6,
+              "client_order_id": "ta-20261127-105109-INTR",
+              "analysis_price": 4.735,
+              "live_price_change_pct": -0.32
+            },
+            "broker": {
+              "id": "1ce005a1-39b6-4f6e-8029-d31fb03561cf",
+              "client_order_id": "ta-20261127-105109-INTR",
+              "symbol": "INTR",
+              "qty": "43",
+              "side": "buy",
+              "status": "pending_new",
+              "take_profit": 4.91,
+              "stop_loss": 4.61,
+              "legs": [
+                "1b243787-d672-4bb1-b4b5-07566e7244f2",
+                "9b571dbb-5f2d-4854-ac4a-2cc5385f1b5b"
+              ]
+            }
+          }
+        ],
+        "guard_skips": [
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VERA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BYND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SBS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KNTK",
+            "reason": "bid/ask spread too wide: 15.55% (bid $51.20, ask $59.83); 1% max"
+          }
+        ],
+        "counts": {
+          "orders": 1,
+          "skipped": 14
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-27T11:21:28-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1116",
+        "shortlist_file": "data/lists/2026-11-27/shortlist_1116.json",
+        "shortlist": [
+          "MPU",
+          "AKAN",
+          "ALVO",
+          "XP",
+          "VERA",
+          "OTLY",
+          "BNAI",
+          "FCUV",
+          "ATAT",
+          "BYND",
+          "ITUB",
+          "SBS",
+          "PYPD",
+          "GDS",
+          "OMH"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VERA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BYND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SBS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OMH",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-27T11:51:07-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1146",
+        "shortlist_file": "data/lists/2026-11-27/shortlist_1146.json",
+        "shortlist": [
+          "MPU",
+          "AKAN",
+          "BNAI",
+          "ALVO",
+          "XP",
+          "VERA",
+          "OTLY",
+          "FCUV",
+          "ATAT",
+          "PYPD",
+          "BYND",
+          "ITUB",
+          "SBS",
+          "KNTK",
+          "NUAI"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VERA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "PYPD",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BYND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "SBS",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KNTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-27T12:21:16-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1216",
+        "shortlist_file": "data/lists/2026-11-27/shortlist_1216.json",
+        "shortlist": [
+          "MPU",
+          "BNAI",
+          "AKAN",
+          "ALVO",
+          "DV",
+          "XP",
+          "QFIN",
+          "VERA",
+          "OTLY",
+          "FCUV",
+          "ATAT",
+          "BYND",
+          "KNTK",
+          "ITUB",
+          "HELP"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QFIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VERA",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BYND",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KNTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "HELP",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-27T12:51:25-05:00",
+      "type": "daytime_cycle",
+      "detail": {
+        "ok": true,
+        "cycle_id": "1246",
+        "shortlist_file": "data/lists/2026-11-27/shortlist_1246.json",
+        "shortlist": [
+          "MPU",
+          "DV",
+          "BNAI",
+          "AKAN",
+          "ALVO",
+          "XP",
+          "QFIN",
+          "VERA",
+          "OTLY",
+          "KNTK",
+          "FCUV",
+          "NUAI",
+          "ATAT",
+          "ITUB",
+          "GDS"
+        ],
+        "catalyst_prescan": {
+          "ok": true,
+          "warnings": []
+        },
+        "orders": [],
+        "guard_skips": [
+          {
+            "symbol": "MPU",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "DV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "BNAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "AKAN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ALVO",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "XP",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "QFIN",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "VERA",
+            "reason": "bid/ask spread too wide: 4.17% (bid $32.65, ask $34.04); 1% max"
+          },
+          {
+            "symbol": "OTLY",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "KNTK",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "FCUV",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "NUAI",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ATAT",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "ITUB",
+            "reason": "signal is 'hold'"
+          },
+          {
+            "symbol": "GDS",
+            "reason": "signal is 'hold'"
+          }
+        ],
+        "counts": {
+          "orders": 0,
+          "skipped": 15
+        }
+      }
+    },
+    {
+      "at_et": "2026-11-27T12:51:25-05:00",
+      "type": "day_complete",
+      "detail": {
+        "premarket_done": true,
+        "exec_done": true,
+        "daytime_cycles_attempted": 6,
+        "final_daytime_slot_attempted": true
+      }
+    }
+  ]
+}

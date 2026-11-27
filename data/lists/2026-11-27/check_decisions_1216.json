@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-11-27T12:21:16-05:00",
+  "submit": true,
+  "decisions": [
+    {
+      "symbol": "MPU",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.0,
+      "stop_loss_pct": 2.5,
+      "reasoning": "net -0.20 = bull 0.55 - bear 0.75 (buy at >= +0.20). BULL: MPU shows exceptional intraday strength on 2026-11-27 with a day change of +35.19% and a price sitting at $6.80, which is +194.05% above its 20-day moving average. The tape confirms persistent momentum across 5 consecutive scans spanning 120 minutes, including a 15.45% return since first seen, 4 positive observed intervals, zero drawdown from its observed high of $6.80, and accelerating price momentum with a price acceleration of +3.05 percentage points. While the catalyst report contains no specific positive headline explaining the move aside from general pre-market mentions on the same US trading-session date and an upcoming earnings date on 2026-12-03, the pure tape metrics independently confirm sustained buying pressure and persistence. With strong multi-observation continuity and zero drawdown, the momentum justifies a tactical continuation play. BEAR: Buying MPU at $6.80 today exposes an entry to extreme exhaustion and volume non-confirmation, with price sitting 194.05% above its 20-day moving average while relative volume prints a weak 0.37x normal. The move lacks broad participation as relative volume rate per 30m crawls at 0.1311, and the absence of any company-specific news on this session date leaves the +35.19% surge unsupported by fresh catalysts. Furthermore, earnings are scheduled for 2026-12-03, just 6 calendar days away, planting a major binary event directly inside the multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BNAI",
+      "signal": "hold",
+      "confidence": 0.515,
+      "take_profit_pct": 7.08,
+      "stop_loss_pct": 2.95,
+      "reasoning": "net +0.03 = bull 0.85 - bear 0.82 (buy at >= +0.20). BULL: Brand Engagement Network shares are showing exceptional momentum, highlighted by a strong fundamental catalyst on November 25, 2026, where Yahoo reported a 23.3% surge following strong revenue growth and a narrower quarterly loss. Technically, the stock is displaying robust intraday persistence during today's session on November 27, 2026, with 5 consecutive observations spanning 120 minutes, a 15.35% return since first seen, and zero drawdown from its observed high of $9.5856. Furthermore, rank improvement to rank 2 and a score increase of 0.5016 provide strong tape confirmation to buy into this continuation. BEAR: BNAI presents a classic chasing and fading-volume failure mode, trading at $9.59 which is an extreme +111.91% away from its 20-day moving average while relative volume sits at a sub-par 0.79x normal. The primary catalyst\u2014the Yahoo headline from 2026-11-25 (-2 calendar days) regarding revenue growth and a narrower quarterly loss\u2014is already two days old and fully digested by the market. Furthermore, the intraday momentum metrics display clear internal deterioration: price acceleration has plummeted by -7.6861 percentage points, the rel-volume rate change has dropped to -0.0894 with a meager 0.103 rate per 30m, and the move is sustaining itself on a meager 5 observations without broad participation. Buying here means acting as exit liquidity for an overextended, low-volume continuation pattern whose news cycle has expired.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "AKAN",
+      "signal": "hold",
+      "confidence": 0.275,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.45 = bull 0.40 - bear 0.85 (buy at >= +0.20). BULL: AKAN trades at $5.18, showing robust momentum with a day change of +7.47% and sitting +160.20% above its 20-day moving average. The catalyst report contains no specific upcoming earnings or unique fundamental headlines, as the news items merely note general healthcare and top-mover activity from November 24 to November 25, meaning this move is primarily supported by tape action. The same-session momentum history demonstrates persistence with 5 consecutive scans over 120 minutes, a 5.499% return since first seen, and a modest drawdown of only -2.63% from its observed high of $5.32. However, with relative volume at 0.10x normal and a low rel-volume rate per 30 minutes, volume confirmation is missing, capping the strength of the case. BEAR: AKAN presents a severe chasing and low-volume exhaustion risk, sitting 160.20% above its 20-day moving average while trading on a negligible 0.10x relative volume. The same-session momentum history shows measurable deterioration with a negative price return since previous scans (-1.3333%), a worsening rank dropping from 2 to 3, and a negative price acceleration of -0.0175% points as it sits down 2.63% from its observed high of $5.32. Furthermore, there is a total lack of fresh fundamental catalysts, with the only available news being lagging aggregate mover lists from November 24 and November 25 that are entirely stale by the November 27 session. Buying here means stepping in front of a low-volume, over-extended fade with zero fresh news support.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ALVO",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 1.72,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: ALVO is presenting a sharp oversold dip opportunity following a -12.23% drop driven by the headline 'Janssen Injunction Delays Alvotech\u2019s US Biosimilar Rollout' on 2026-11-27, with management already moving to appeal the decision as noted on 2026-11-26. Despite the negative catalyst driving an 18.22% extension below its 20-day MA, the intraday tape shows resilience with 5 consecutive scans, a return since first seen of 1.6506%, and a 0.0% drawdown from its observed high of $3.695. Elevated volume is confirming the activity at 2.06x normal, offering an aggressive mean-reversion setup for a short-term bounce. Confidence is constrained due to the active legal headwind, but the immediate tape shows steady accumulation at current depressed levels. BEAR: ALVO is down -12.23% on the session and trading 18.22% below its 20-day moving average, burdened by a fresh, same-session headline on 2026-11-27 reporting that a Janssen injunction delays Alvotech's US biosimilar rollout. While the stock has seen a minor bounce from its lows with a 0.82% return since the previous scan, its relative volume rate has decelerated to 0.1781 per 30 minutes with a negative volume rate change of -0.0815. Buying into this name means attempting to catch a falling knife against an active legal and commercial setback that directly threatens product rollout timelines.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "DV",
+      "signal": "hold",
+      "confidence": 0.35,
+      "take_profit_pct": 1.62,
+      "stop_loss_pct": 0.98,
+      "reasoning": "net -0.30 = bull 0.40 - bear 0.70 (buy at >= +0.20). BULL: DoubleVerify Holdings (DV) displays a strong relative volume of 2.81x its 20-day normal volume while trading at $13.61, sitting right at its observed high with 0.0% drawdown. The catalyst report reveals a significant upcoming index change on Tuesday, December 1, where Centuri Holdings will replace DoubleVerify in the S&P SmallCap 600, which has driven news attention including a recent partnership announcement with LG Ad Solutions on November 24. While momentum history only features a single observation at rank 5, the combination of surging volume and active partnership news provides a speculative foundation for a short-term bounce. We target a modest take profit given the index-removal headwind and tight stop loss to manage risk. BEAR: The core catalyst weighing on DoubleVerify is the Benzinga headline from November 24, 2026, stating that Centuri Holdings is replacing DoubleVerify Holdings in the S&P SmallCap 600 effective prior to the open on Tuesday, December 1. This index removal is a structural forced-selling event that creates significant institutional supply overhead right as the stock trades at 2.81x normal relative volume. Buying into this session means absorbing shares being dumped by index-tracking funds ahead of the December 1 deletion date, leaving little room for upside over a multi-day holding window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "XP",
+      "signal": "hold",
+      "confidence": 0.45,
+      "take_profit_pct": 3.12,
+      "stop_loss_pct": 2.19,
+      "reasoning": "net -0.10 = bull 0.65 - bear 0.75 (buy at >= +0.20). BULL: XP is trading with immense momentum today, surging +18.90% to $17.11 on heavy volume reaching 1.63x normal levels. The tape shows sustained interest with 5 consecutive observations over 120 minutes and a minimal drawdown of only -1.01% from its observed high of $17.285. While the news report lacks a specific same-session headline explaining the direct catalyst, the stock's inclusion in SeekingAlpha's November 24 Russell 3000 dividend buys list and an upcoming dividend ex-date on December 9 underpin longer-term income appeal. With price sitting +17.54% above its 20-day moving average and holding its high-water mark resiliently, the strong participation offers a compelling setup for continuation. BEAR: XP is currently up 18.90% on the session and trades 17.54% above its 20-day moving average, creating extreme price extension. The same-session momentum history shows clear signs of fading participation and chasing, with a negative return since first seen (-0.3785%), a rank drop from 5 to 6, a score change of -0.6028, and a relative volume rate dropping to 0.1165 alongside a deceleration of -0.8505 percentage points. Furthermore, the news catalyst report lacks any direct company-specific developments for XP on the session date, leaving the massive rally unsupported by fresh fundamental drivers while drawing attention from generic retail brokerage platform discussions. Entering at this juncture means buying into a stretched, decelerating move that is already rolling over from its observed high of $17.285.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "QFIN",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.75,
+      "stop_loss_pct": 2.25,
+      "reasoning": "net +0.00 = bull 0.50 - bear 0.50 (buy at >= +0.20). BULL: QFIN is demonstrating robust intraday strength on November 27, 2026, surging +16.31% to $4.96 backed by heavy volume at 1.88x normal levels. Fresh fundamental catalysts from November 26 include the Q3 2026 earnings call presentation and commentary highlighting Qfin Holdings as an asset play despite macro headwinds. Although session history is currently limited to a single observation at 12:17 ET, the strong relative volume and recent earnings developments provide immediate momentum. Traders can leverage this strong catalyst-backed thrust for a short-term continuation play. BEAR: QFIN has surged 16.31% on the session despite trading slightly below its 20-day moving average (-2.54%), indicating this is a sharp rebound attempt rather than a structural breakout. The catalyst driving the move consists of Q3 2026 earnings releases, conference call transcripts, and related commentary from SeekingAlpha and Yahoo on November 25 and November 26, meaning the core fundamental news is 1 to 2 days old and already fully digested by the market. Buying today exposes the trader to chasing a headline-driven reaction that is aging rapidly, especially as Asian ADRs were noted tumbling broadly just two days ago. With relative volume at 1.88x normal and insufficient intraday confirmation to prove sustained momentum, entering at these highs risks leaving the buyer holding an exhausted one-day bounce.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "VERA",
+      "signal": "hold",
+      "confidence": 0.575,
+      "take_profit_pct": 7.8,
+      "stop_loss_pct": 2.93,
+      "reasoning": "net +0.15 = bull 0.85 - bear 0.70 (buy at >= +0.20). BULL: VERA is surging 16.08% to $34.24 today, driven by major fundamental catalysts from November 25 and 26, 2026, where headlines report that the FDA delayed rival Vertex's rival kidney drug review timeline, causing Vertex to tumble while Vera surged. The tape confirms strong institutional participation with 1.48x normal relative volume and 5 consecutive observations showing persistent upward momentum, including a 3.55% return since first seen and zero drawdown from the observed high of $34.24. With price acceleration at 1.05 percentage points and strong competitive positioning following the competitor's delay, the momentum is fully backed by both news catalysts and volume confirmation. BEAR: VERA is trading 18.26% above its 20-day MA following headlines from 1 to 2 days prior (such as the Nov 25 and Nov 26 Yahoo reports on the FDA extending Vertex's rival drug review) that have already driven a massive +16.08% single-day surge. Buying here means chasing a headline-driven gap reaction that is already fully public and priced in, leaving new longs acting as exit liquidity. Furthermore, same-session momentum shows measurable internal deterioration with the stock's rank dropping from 6 to 8 and a relative volume rate slowing down to just 0.1502 per 30 minutes. This combination of a news-mature catalyst, heavy extension from the moving average, and fading participation makes entering at $34.24 highly vulnerable to a sharp mean-reversion pullback over a short hold window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "OTLY",
+      "signal": "hold",
+      "confidence": 0.3,
+      "take_profit_pct": 2.88,
+      "stop_loss_pct": 2.3,
+      "reasoning": "net -0.40 = bull 0.45 - bear 0.85 (buy at >= +0.20). BULL: OTLY is exhibiting persistent intraday strength on 2026-11-27, supported by 5 consecutive observations over 120 minutes with a return since first seen of 6.46% and zero drawdown from its observed high of $13.84. While nothing in the catalyst report specifically explains today's move aside from general premarket mover mentions on 2026-11-27, the tape displays 3 positive observed intervals out of 4 and a price acceleration of 0.39 percentage points. Despite a day change of -13.93% and sub-normal relative volume of 0.40x, the stock remains 59.32% above its 20-day moving average and continues to push session highs. BEAR: Buying OTLY today at $13.84 exposes the trader to severe volume non-confirmation and fading internal momentum despite an extreme extension of +59.32% above its 20-day moving average. The relative volume is running at a negligible 0.40x normal with a 30-minute rate of just 0.0267, indicating that the -13.93% day change and recent uptick are occurring on hollow participation rather than institutional accumulation. Furthermore, the session history reveals visible deterioration with rank dropping from 7 to 9 and score change worsening by -0.6245 over the last 120 minutes. Compounding this, the catalyst report shows no company-specific earnings or fundamental driver for today, leaving the price action unsupported by fresh news and vulnerable to sharp mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "FCUV",
+      "signal": "hold",
+      "confidence": 0.375,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net -0.25 = bull 0.45 - bear 0.70 (buy at >= +0.20). BULL: FCUV is showing strong intraday momentum with a day change of +11.50% and trading 65.66% above its 20-day moving average at $6.30. The session history records three consecutive scans with a positive return since first seen of 1.7771% and a shallow drawdown of just -1.8692% from its observed high of $6.42. The catalyst report contains no specific breaking news for today's move aside from a ChartMill top movers mention two calendar days ago on November 25, 2026, meaning this is primarily a tape-driven persistence play. Despite thin relative volume metrics of 0.05x normal, the active price holding near highs supports further short-term upside continuation. BEAR: FCUV trades at an extreme 65.66% above its 20-day moving average while displaying a critically low relative volume of 0.05x normal, indicating that the +11.50% day gain lacks broad market participation and is extremely stretched. The tape confirms measurable deterioration across the session: after hitting an observed high of $6.42, the stock has slipped to $6.30, suffered a negative return since the previous scan (-0.3953%), dropped in rank from 8th to 10th, and seen its score drop by 0.2305 with relative volume rates collapsing to 0.0021. Furthermore, the only available news headline from ChartMill is dated November 25, 2026 (2 calendar days before the session), meaning the mover attention is already dated and leaving the current price vulnerable to sharp mean reversion.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ATAT",
+      "signal": "hold",
+      "confidence": 0.525,
+      "take_profit_pct": 3.75,
+      "stop_loss_pct": 1.88,
+      "reasoning": "net +0.05 = bull 0.55 - bear 0.50 (buy at >= +0.20). BULL: Atour Lifestyle (ATAT) shows solid participation today with a relative volume of 1.80x normal, trading up 2.38% to $40.80 and maintaining a strong position 12.54% above its 20-day moving average. The tape displays persistence with 5 consecutive scan observations over 120 minutes, featuring a positive recent return of 0.3443% since the previous observation and a price acceleration of 0.8338 percentage points despite a mild drawdown from its observed high of $41.35. Catalyst backing includes recent positive coverage highlighting founder-led earnings growth up to 36% in a Yahoo article from November 24, 2026, reinforcing the underlying fundamental strength of the momentum move. BEAR: Buying ATAT today at $40.80 means chasing an asset sitting 12.54% above its 20-day moving average on fading participation, indicated by a relative volume rate slowing down by -0.1306 alongside a negative rank improvement of -2 and a score drop of -0.6214. The recent Yahoo and ChartMill headlines from November 21 and 24 are stale and already digested by the market, leaving the current +2.38% day change vulnerable to a pullback. Furthermore, the stock has shown concrete same-session deterioration with a 1.33% drawdown from its observed high of $41.35 over its 120-minute observation window.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "BYND",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 5.53,
+      "stop_loss_pct": 3.25,
+      "reasoning": "net -0.20 = bull 0.50 - bear 0.70 (buy at >= +0.20). BULL: Beyond Meat is riding fresh momentum following Yahoo and Benzinga headlines on 2026-11-26 noting that the stock rocketed 20 percent as a big event looms and traded actively in after-hours. During today's session, the stock has posted 5 consecutive scan observations with 1.58x relative volume and a +5.62 percent day change, showing solid buying participation despite trading -15.17 percent from its 20-day moving average. Furthermore, price acceleration showed a positive 1.036 percent points change with a 1.0557 percent return since the previous observation, indicating persistent interest despite a drawdown from its observed high of $5.02. BEAR: BYND exhibits clear signs of chasing and fading momentum following yesterday's 20% surge driven by the Yahoo headline 'Beyond Meat Stock Rockets 20% as Big Event Looms' from 2026-11-26. Despite a +5.62% session gain to $4.70, the intraday history reveals a -6.37% drawdown from its observed high of $5.02 across 120 minutes, alongside a worsening rank of 12 and declining score change of -0.2248. Furthermore, the relative volume rate per 30 minutes has dwindled to 0.1089 with a negative rate change of -0.0174, indicating that participation is fading rapidly while the stock remains deeply suppressed at -15.17% relative to its 20-day moving average.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "KNTK",
+      "signal": "hold",
+      "confidence": 0.5,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 1.95,
+      "reasoning": "net +0.00 = bull 0.70 - bear 0.70 (buy at >= +0.20). BULL: KNTK is surging on major M&A speculation, supported by headlines from Bloomberg and Benzinga on November 25 and 26, 2026, stating that Targa Resources is eyeing Kinetik in a pipeline tie-up driven by data center gas demand. This fundamental catalyst propelled the stock up 9.10% on the session to $59.68, backed by elevated relative volume of 1.32x normal and a strong position 11.90% above its 20-day moving average. Although intraday observations show a slight pullback of 0.41% from the observed high of $59.925 over 90 minutes, the multi-day fundamental narrative and continuing high volume provide solid momentum for a continuation trade. The active acquisition interest creates a strong floor and significant upside potential over the next few days. BEAR: KNTK is trading up +9.10% on the day to $59.68, driven heavily by fresh same-session and prior-day headlines regarding Targa Resources eyeing the company in a major pipeline tie-up. However, the same-session momentum history reveals immediate deterioration after first being seen: the stock has recorded a drawdown of -0.4088% from its observed high of $59.925 across consecutive scans with zero positive observed intervals and negative returns since previous. Buying here means chasing an M&A rumor-driven spike that is already +11.90% above its 20-day moving average while the intraday tape shows fading momentum.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "ITUB",
+      "signal": "hold",
+      "confidence": 0.325,
+      "take_profit_pct": 3.25,
+      "stop_loss_pct": 2.6,
+      "reasoning": "net -0.35 = bull 0.35 - bear 0.70 (buy at >= +0.20). BULL: ITUB is exhibiting strong intraday momentum with an 11.99% gain to $7.71, backed by 1.20x normal relative volume and five consecutive scan observations over 120 minutes. Nothing in the catalyst report explains or supports this move, as the available news regarding oil prices and a lowered price target do not account for the surge. However, the tape shows resilience with a shallow 1.09% drawdown from its observed high of $7.79 and continued presence on the volume scanners. An upcoming dividend ex-date on 2026-12-02 adds a minor near-term supportive element for income-focused holding. BEAR: ITUB exhibits clear signs of a chasing trap following an unsustainable +11.99% single-session surge that leaves the stock stretched +8.10% above its 20-day moving average. The same-session momentum history demonstrates measurable intraday deterioration across 120 minutes, including a 1.09% drawdown from the observed high of $7.79, consecutive negative interval returns, and worsening rank development dropping from 12 to 14. Furthermore, recent fundamental headwinds directly challenge this valuation spike, including Fintel's 2026-11-24 report highlighting a 12.94% downward revision to the price target to $8.10, bringing it uncomfortably close to the current $7.71 close.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    },
+    {
+      "symbol": "HELP",
+      "signal": "hold",
+      "confidence": 0.4,
+      "take_profit_pct": 3.5,
+      "stop_loss_pct": 2.1,
+      "reasoning": "net -0.20 = bull 0.40 - bear 0.60 (buy at >= +0.20). BULL: Helus Pharma Inc. (HELP) is exhibiting strong positive momentum today, surging +13.53% to $9.23 with a 10.23% distance from its 20-day moving average. This price action is backed by recent fundamental catalysts, including Phase 3 APPROACH topline results for HLP003 in Major Depressive Disorder released on November 25, 2026, and an ongoing analyst endorsement with HC Wainwright & Co. reiterating its Buy rating and maintaining a $70 price target on November 23, 2026. While intraday history is limited to a single observation with 0.0% drawdown from its observed high of $9.23, the combination of major clinical data news and strong upward momentum creates a compelling speculative window for continued near-term gains. BEAR: Entering HELP today at $9.23 requires buying into a +13.53% daily jump that is already extended 10.23% above its 20-day moving average on a relative volume of just 0.99x, showing participation is not confirming the move. Furthermore, the key catalysts\u2014the Phase 3 APPROACH topline results for HLP003 and the related analyst reiterations\u2014occurred 2 to 4 days prior (between 2026-11-23 and 2026-11-25), making the core news stale and already priced in. With the single-observation momentum history showing insufficient ongoing interval development and a rank of 15, chasing this late-stage reaction without fresh volume support introduces clear risk of a pullback.",
+      "numbers_verified": true,
+      "unverified_numbers": []
+    }
+  ],
+  "execution_report": [
+    {
+      "symbol": "MPU",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BNAI",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "AKAN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ALVO",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "DV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "XP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "QFIN",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "VERA",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "OTLY",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "FCUV",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ATAT",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "BYND",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "KNTK",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "ITUB",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    },
+    {
+      "symbol": "HELP",
+      "action": "skipped",
+      "reason": "signal is 'hold'"
+    }
+  ]
+}
